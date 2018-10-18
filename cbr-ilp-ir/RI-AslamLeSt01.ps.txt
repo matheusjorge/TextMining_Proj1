@@ -1,0 +1,41 @@
+A new approach to clustering
+
+Javed Aslam ? , Alain Leblanc ?? , Cli
+ord Stein ? ? ?
+Department of Computer Science
+Dartmouth College
+Hanover, NH 03755
+
+Abstract. In this paper we present a new approach for clustering data.
+We concentrate on the case where the only available information about
+the data is a similarity measure between every pair of elements, and
+where the algorithm is expected to handle very noisy data. We make
+no assumptions about the size and number of clusters, and the only assumption 
+we make about the data itself is that the similarity measure is
+on average higher between elements belonging to the same cluster than
+between elements belonging to different clusters. The algorithm relies on
+very simple operations. The running time is dominated by matrix multi-aplication, 
+and in some cases curvetting. We will present experimental
+results from various implementations of this method.
+
+References
+1. R. Baeza-Yates and B. Ribeiro-Neto. Modern Information Retrieval. Addison
+Wesley, 1999.
+2. A. Ben-Dor, R. Shamir, and Z. Yakhini. Clustering gene expression patterns.
+Journal of Computational Biology, 6(3/4), 1999.
+3. T. H. Cormen, C. E. Leiserson, and R. L. Rivest. Introduction to Algorithms. MIT
+Press/McGraw-Hill, 1990.
+4. B. S. Everitt. Cluster Analysis. Oxford University Press, 1993.
+5. P. G. Hoel, S. C. Port, and C. J. Stone. Introduction to Probability Theory.
+Houghton Miin, 1971.
+6. L. Kaufman and P. J. Rousseeuw. Finding groups in data. John Wiley & Sons,
+Inc, 1990.
+7. T. Kohonen. The self-organizing map. Proceedings of the IEEE, 78(9), September
+1990.
+8. B. G. Mirkin. Mathematical classcation and clustering. Kluwer Academic Pub-
+lishers, 1996.
+9. W. H. Press, B. P. Flannery, S. A. Teukolsky, and W. T. Vetterling. Numerical
+Recipes. Cambridge University Press, 1986.
+10. G. Salton, A. Wong, and C. S. Yang. A vector space model for information retrieval.
+Communications of the ACM, 18(11):613{620, 1975.
+

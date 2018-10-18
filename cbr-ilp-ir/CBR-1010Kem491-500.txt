@@ -1,0 +1,74 @@
+Learning Strategies for Explanation Patterns:
+Basic Game Patterns with Application to Chess
+
+Yaakov Kemer
+
+Department of Mathematics and Computer Science
+Bar-Ilan University
+52900 Ramat-Gan Israel
+kerner@bimacs.cs.biu.ac.il
+
+
+
+Abstract. In this paper we describe game-independent strategies, capable of
+learning explanation patterns (XPs) for evaluation of any basic game pattern. A
+basic game pattern is defined as a minimal configuration of a small number of
+pieces and squares which describes only one salient game feature. Each basic
+pattern can be evaluated by a suitable XP. We have developed five game-independent 
+strategies (replacement, specialization, generalization, deletion,
+and insertion) capable of learning XPs or parts of them. Learned XPs can direct
+players’ attention to important analysis that might have been overlooked
+otherwise. These XPs can improve their understanding, evaluating and
+planning abilities. At present, the application is only in the domain of chess.
+The proposed strategies have been further developed into 21 specific chess
+strategies, which are incorporated in an intelligent educational chess system
+that is under development.
+References
+
+Berliner, H. J. & Ackley, D. H. (1982). The QBKG System: Generating Explanations from a
+Non-Discrete Knowledge Representation. In Proceedings of the National Conference on
+Artificial Intelligence (pp. 213-2 16). AAAI Press.
+Bradtke, S. & Lehnert, W. G. (1988). Some Experiments With Case-Based Search. In
+Proceedings of the Seventh National Conference on Artificial Intelligence (pp. 133-138).
+San Mateo: Morgan Kaufmann.
+Callan, J. P., Fawcett, T. B. & Rissland, E. L. (1991). Adaptive Case-Based Reasoning. In
+Proceedings of a Workshop on CBR (pp. 179-190). San Mateo: Morgan Kaufman.
+Cox, M. T. & Ram, A. (1994). Interacting Learning-Goals: Treating Learning as a Planning
+Task. To appear in Keane, M.; Haton J. P.; and Manago M. (Eds.), Topics in Case-Based
+Reasoning - EWCBR’94, Lecture Notes in Artificial Intelligence. Berlin: Springer-Verlag.
+de Groot, A. D. (1965). Thought and Choice. Mouton, The Hague.
+Epstein, S. (1989). The Intelligent Novice - Learning to Play Better. In D. N. L. Levy & D. F.
+Beal (Eds.), Heuristic Programming in Artificial Intelligence - The First Computer
+Olympiad. Ellis Horwood.
+Kass, A. M., Leake, D. & Owens, C. (1986). SWALE: A Program that Explains. In Schank,
+R.C. (Ed.) (1986). Explanation Patterns: Understanding Mechanically and Creatively.
+Hillsdale, NJ: Lawrence Erlbaum Associates, pp. 232-254.
+Kass, A. M. (1990). Developing Creative Hypotheses by Adapting Explanations. Technical
+Report #6, p. 9. Institute for the Learning Sciences, Northwestern University, U.S.A.
+Kemer, Y. (1994). Case-Based Evaluation in Computer Chess. In Proceedings of the Second
+European Workshop on Case-Based Reasoning (pp. 95-103). Paris: AcknoSoft Press.
+Extended paper to appear in Keane, M.; Haton J. P.; and Manago M. (Eds.), Topics in
+Case-Based Reasoning - EWCBR’94, Lecture Notes in Artificial Intelligence. Berlin:
+Springer-Verlag, 1995.
+Kolodner, J. L. (1981). Organization and Retrieval in a Conceptual Memory for Events or
+Con54, Where are You? In Proceedings of the Seventh International Joint Conference on
+Artificial Intelligence (pp. 227-233). Los Altos: William Kaufmann.
+Michie, D. (1981). A Theory of Evaluative Comments in Chess with a Note on Minimaxing.
+The Computer Journal, Vol. 24, No. 3, 27 8-286.
+Pell, B. (1994). A Strategic Metagame Player for General Chess-Like Game. In Proceedings of
+the Twelfth National Conference on Artificial Intelligence (pp. 1378-1385). Seattle: AAAI
+Press/The MIT Press.
+Ram, A. (1993). Indexing, Elaboration and Refinement: Incremental of Explanatory Cases.
+Machine Learning 10(3), 201-248.
+Schank, R.C. (Ed.) (1986). Explanation Patterns: Understanding Mechanically and
+Creatively. Hillsdale, NJ: Lawrence Erlbaum Associates.
+Schank, R.C., Kass A. & Riesbeck C. K. (Eds.) (1994). Inside Case-Based Explanation.
+Hillsdale, NJ: Lawrence Erlbaum Associates.
+Schild, U. J. & Kerner, Y. (1993). Multiple Explanation Patterns. In Proceedings of the First
+European Workshop on Case-Based Reasoning, Vol. II (pp. 379-384). Kaiserslautern:
+Germany. Extended paper in Wess, S.; Althoff, K-D.; and Richter, M. M. (Eds.), Topics in
+Case-Based Reasoning - EWCBR’93, Lecture Notes in Artificial Intelligence 837 (pp. 353-
+364). Berlin: Springer-Verlag, 1994.
+Shannon, C. E. (1950). Programming a Computer for Playing Chess. Philosophical Magazine,
+Vol. 41(7), 256-277.
+Simon, H. A. (1974). How Big is a Chunk? Science No. 183, 482-488.

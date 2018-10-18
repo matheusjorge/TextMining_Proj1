@@ -1,0 +1,103 @@
+A Case Study of Case-Based CBR*
+
+David B. Leake, Andrew Kinley, and David Wilson
+
+Computer Science Department
+Lindley Hall 215, Indiana University
+Bloomington, IN 47405, U.S.A.
+{leake ,akinley,davwils}@cs.indiana.edu
+
+
+
+Abstract. Case-based reasoning depends on multiple knowledge sources
+beyond the case library, including knowledge about case adaptation and
+criteria for similarity assessment. Because hand coding this knowledge
+accounts for a large part of the knowledge acquisition burden for developing 
+CBR systems, it is appealing to acquire it by learning, and CBR is
+a promising learning method to apply. This observation suggests developing 
+case-based CBR systems, CBR systems whose components themselves use CBR. 
+However, despite early interest in case-based approaches
+to CBR, this method has received comparatively little attention. Open
+questions include how case-based components of a CBR system should
+be designed, the amount of knowledge acquisition effort they require,
+and their effectiveness. This paper investigates these questions through
+a case study of issues addressed, methods used, and results achieved by
+a case-based planning system that uses CBR to guide its case adaptation 
+and similarity assessment. The paper discusses design considerations
+and presents empirical results that support the usefulness of case-based
+CBR, that point to potential problems and tradeoffs, and that directly
+demonstrate the overlapping roles of different CBR knowledge sources.
+The paper closes with general lessons about case-based CBR and areas
+for future research.
+References
+
+[Aha and Wettschereck, 1997] D. Aha and D. Wettschereck. Case-based learning: Beyond 
+classification of feature vectors. Call for papers of ECML-97 workshop, 1997.
+[Birnbaum et al., 1991] L. Birnbaum, G. Collins, M. Brand, M. Freed, B. Krulwich,
+and L. Pryor. A model-based approach to the construction of adaptive case-based
+planning systems. In R. Bareiss, editor, Proceedings of the DARPA Case-Based Reasoning 
+Workshop, pages 215—224, San Mateo, 1991. Morgan Kaufmann.
+[Carbonell, 1983] J. Carbonell. Learning by analogy: Formulating and generalizing
+plans from past experience. In R. Michalski, J. Carbonell, and T. Mitchell, editors, 
+Machine Learning: An Artificial Intelligence Approach, pages 137—162. Tioga,
+Cambridge, MA, 1983.
+[Hammond, 1989] K. Hammond. Case-Based Planning: Viewing Planning as a Memory 
+Task. Academic Press, San Diego, 1989.
+[Hanney and Keane, 1997] K. Hanney and M. Keane. The adaptation knowledge bottleneck: 
+How to ease it by learning from cases. In Proceedings of the Second International 
+Conference on Case-Based Reasoning, Berlin, 1997. Springer Verlag.
+[Hinrichs, 1992] T. Hinrichs. Problem Solving in Open Worlds: A Case Study in Design. 
+Lawrence Erlbaum, Hillsdale, NJ, 1992.
+[Hunter, 1990] L. Hunter. Planning to learn. In Proceedings of the Twelfth Annual
+Conference of the Cognitive Science Society, pages 261—268, Cambridge, MA, July
+1990. Cognitive Science Society.
+[Kass, 1990] A. Kass. Developing Creative Hypotheses by Adapting Explanations. PhD
+thesis, Yale University, 1990. Northwestern University Institute for the Learning
+Sciences, Technical Report 6.
+[Kennedy, 1995] A. Kennedy. Using a domain-independent introspection mechanism
+to improve memory search. In Proceedings of the 1995 AAAI Spring Symposium
+on Representing Mental States and Mechanisms, pages 72—78, Stanford, CA, March
+1995. AAAI Press. Technical Report WS-95-05.
+[Kolodner, 1984] J. Kolodner. Retrieval and Organizational Strategies in Conceptual
+Memory. Lawrence Eribaum, Hillsdale, NJ, 1984.
+[Kolodner, 1993] J. Kolodner. Case-Based Reasoning. Morgan Kaufmann, San Mateo,
+CA, 1993.
+[Leake et al., 1996] D. Leake, A. Kinley, and D. Wilson. Acquiring case adaptation
+knowledge: A hybrid approach. In Proceedings of the Thirteenth National Conference
+on Artificial Intelligence, pages 684—689, Menlo Park, CA, 1996. AAAI Press.
+[Leake et al., 1997a] D. Leake, A. Kinley, and D. Wilson. Case-based similarity assessment: 
+Estimating adaptability from experience. In Proceedings of the Fourteenth
+National Conference on Artificial Intelligence. AAAI Press, 1997.
+[Leake et al., 1997b] D. Leake, A. Kinley, and D. Wilson. Learning to integrate multiple 
+knowledge sources for case-based reasoning. In Proceedings of the Fourteenth
+International Joint Conference on Artificial Intelligence. Morgan Kaufmann, 1997.
+In press.
+[Leake, 1992] D. Leake. Evaluating Explanations: A Content Theory. Lawrence Erlbaum, 
+Hillsdale, NJ, 1992.
+[Ram, 1987] Ashwin Ram. AQUA: Asking questions and understanding answers. In
+Proceedings of the Sixth Annual National Conference on Artificial Intelligence, pages
+312—316, Seattle, WA, July 1987. Morgan Kaufmann.
+[Ricci and Avesani, 1995] F. Ricci and P. Avesani. Learning a local similarity metric
+for case-based reasoning. In Proceedings of the First International Conference on
+Case-Based Reasoning, pages 301—312, Berlin, October 1995. Springer Verlag.
+[Richter, 1995] Michael Richter. The knowledge contained in similarity measures. Invited 
+talk, the First International Conference on Case-Based Reasoning, Sesimbra,
+Portugal., October 1995.
+[Smyth and Keane, 1995] B. Smyth and M. Keane. Remembering to forget: A
+competence-preserving case deletion policy for case-based reasoning systems. In Proceedings 
+of the Thirteenth International Joint Conference on Artificial Intelligence,
+pages 377—382, Montreal, August 1995. IJCAI.
+[Smyth and Keane, 1996] B. Smyth and M. Keane. Design à la Déjà Vu: Reducing
+the adaptation overhead. In D. Leake, editor, Case-Based Reasoning: Experiences,
+Lessons, and Future Directions. AAAI Press, Menlo Park, CA, 1996.
+[Sycara, 1988] K. Sycara. Using case-based reasoning for plan adaptation and repair.
+In J. Kolodner, editor, Proceedings of the DARPA Case-Based Reasoning Workshop,
+pages 425—434, San Mateo, CA, 1988. Morgan Kaufmann.
+[Veloso and Carbonell, 1991] M. Veloso and J. Carbonell. Variable-precision case retrieval 
+in analogical problem solving. In R. Bareiss, editor, Proceedings of the DARPA
+Case-Based Reasoning Workshop, pages 93—106, San Mateo, 1991. Morgan Kaufmann.
+[Veloso, 1994] M. Veloso. Planning and Learning by Analogical Reasoning. Springer
+Verlag, Berlin, 1994.
+[Wilke et al., 1997] W. Wilke, I. Vollrath, K.-D. Althoff, and R. Bergmann. A framework 
+for learning adaptation knowedge based on knowledge light approaches. In
+Proceedings of the Fifth Cerman Workshop on Case-Based Reasoning, 1997.

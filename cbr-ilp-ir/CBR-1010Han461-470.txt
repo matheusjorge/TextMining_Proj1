@@ -1,0 +1,153 @@
+Systems, Tasks and Adaptation Knowledge:
+Revealing Some Revealing Dependencies
+
+Kathleen Hanney, Mark Keane1, Barry Smyth2 and Padraig Cunningham1
+
+1 Department of Computer Science, University of Dublin, Trinity College, Dublin 2,
+Ireland
+2 Hitachi Dublin Laboratory, University of Dublin, Trinity College, Dublin 2, Ireland
+
+
+Abstract. This paper shows that the use of adaptation knowledge in
+CBR systems is heavily dependent on certain task and system constraints. 
+Furthermore, the type of adaptation knowledge used in systems
+performing specific tasks is quite regular and predictable. These conclusions 
+are reached by reviewing forty-two CBR systems and classifying
+them according to three taxonomies: an adaptation-relevant taxonomy
+of CBR systems, a taxonomy of tasks and a taxonomy of adaptation
+knowledge. We then show how different systems cluster with respect to
+interactions between these three taxonomies. The CBR system designer
+may find the partition of CBR systems and the division of adaptation
+knowledge suggested by this paper useful. Moreover, this paper may
+help focus the initial stages of systems development by suggesting (on
+the basis of existing work) what types of adaptation knowledge should be
+supported by a new system. In addition, the paper provides a framework
+for the preliminary evaluation and comparision of systems.
+References
+
+1.	Aamodt A., Plaza E.: Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and Systems Approaches. AI Communications. 7(1) (1994) 39—59
+2.	Alterman R.: Adaptive Planning. Cognitive Science 12 (1988) 393—422
+3.	Ashley K.: Reasoning with Cases and Hypotheticals in HYPO. International Journal 
+Man-Machine Studies 34 (1991) 753—796
+4.	Bain W.: JUDGE.: In Riesbeck C., Schank R. (Ed.) Inside Case-Based Reasoning.
+Northvale, NJ : Erlbaurn (1989)
+5.	Bareiss E.: Exemplar-Based Knowledge Acquisition: A Unified Approach to Concept 
+Representation, Classification, and Learning. Boston: Academic Press (1989)
+6.	Bareiss E., Slator B.: The Evolution of a Case-based Computational Approach to
+Knowledge Representation, Classification, and Learning. In Nakumura G., Medin
+D., Taraban R. (Ed.) Categorisation by Humans and Machines. New York: Aca-
+dernic Press (1993)
+7.	Berger J. : Roentgen: Radiation Theraphy and Case-Based Reasoning. In Proceedings 
+of the 10th Conference on Artificial Intelligence for Applications. IEEE Computer 
+Society Press (1994)
+8.	Bhansali S., Harandi M.: Syntesis of UNIX Programs Using Derivational Analogy,
+Machine Learning 10 (1993) 7—55.
+9.	Branting L. : Exploiting the Complementarity of Rules and Precedents with Reciprocity 
+and Fairness. In Bareiss E. (Ed.) Proceedings: Case-Based Reasoning Workshop (1991) 39—50.
+10.	Carbonell J.: Learning by Analogy: Formulating and Generalizing Plans from Past
+Experience. In Michalski R., Carbonell J., Mitchell T. (Ed.) Machine Learning: An
+Artificial Intelligence Approach Vol. 1. Morgan Kaufmann (1983)
+11.	Carbonell J.: Derivational Analogy: A Theory of Reconstructive Problem Solving
+and Expertise Acquisition. In Michalski R., Carbonell J. Mitchell T. (Ed.) Machine
+Learning: An Artificial Intelligence Approach Vol. 2. Morgan Kaufmann (1986)
+12.	Clancey W.: Heuristic Classification., Artificial Intelligence 27(3) (1985) 289—350.
+13.	Collins G.: Plan Creation. In Riesbeck C., Schank R. (Ed.) Inside Case-based
+Reasoning. Northvale, NJ: Erlbaurn (1989)
+14.	Cunningham P., Smyth B., Veale T.: On the Limitations of Memory Based Reasoning 
+In Keane M.T., Haton J-P., Manago M. (Ed.) Proceedings Second European
+Workshop on Case-Based Reasoning. (1994) 59—65
+15.	Cunningham P., Smyth B., Bonzano A. : An Incremental Case Retrieval Mechanism 
+for Diagnosis. Technical Report TCD-CS-95-01. Department of Computer,
+Science Trinity College Dublin (1995)
+16.	Dave B., Schmitt G., Shen-Guan S., Bendel L., Faltings B., Smith I., Hua K., Bailey
+S., Ducret J-M, Jent K.: Case-Based Spatial Design Reasoning. In Keane M.T.,
+Haton J- P., Manago M. (Ed.) Proceedings of the Second European Workshop on
+Case-Based Reasoning (1994) 115—123
+17.	Domeshek E., Kolodner 3.: Using the Points of Large Cases AI EDAM 7(2) (1993)
+87—96
+18.	Ferguson W., Bareiss R., Birbaum L., Osgood R.: ASK Systems: An Approach
+to the Realization of Story-Based Teachers. The Journal of the Learning Sciences
+2(1) (1992) 95—134
+19.	Goel A. Integration of Case-Based Reasoning and Model-Based Reasoning for
+Adaptive Design Problem Solving. PhD Dissertation, Department of Computer
+and Information Science, The Ohio State University (1989)
+20.	Goel A., Callantine T.:An Experience-Based Approach to Navigational Route
+Planning. In Proceedings of the 1992 IEEE/RSJ International Conference on Intelligent 
+Robots and Systems (1992) 705—710.
+21.	Hammond K.:Case-Based Planning: Viewing Planning as a Memory Task. Boston:
+Academic Press (1989)
+22.	Hinkle D., Toomey C.: Clavier: Applying Case-Based Reasoning to Composite
+Part Fabrication. In Proceedings of the Sixth Innovative Applications of Artificial
+Intelligence Conference (1994) 55—61
+23.	Hinrichs T. : Problem Solving in Open Worlds: A case study in design. Northvale,
+NJ: Erlbaum (1992)
+24.	Kambhampati S. Hendler J.: Validation-structure-based Theory of Plan Modification 
+and Reuse. Artificial Intelligence 55 (1992) 193—258
+25.	Kolodner J. : Case-based Reasoning Morgan Kaufmann (1993)
+26.	Koton P.: Using Experience in Learning and Problem Solving. PhD Dissertation
+Department of Computer Science, MIT. (1989)
+27.	Lekkas G., Avouris N.: Case-Based Reasoning in Environmental Monitoring. Applied 
+Artificial intelligence 8 (1994) 359—376.
+28.	Lopez B., Plaza E.: Case-based Planning for Medical Diagnosis. In Komorowski J.,
+Ras Z.W. (Ed.) Methodologies for Intelligent Systems. Lecture notes in artificial
+intelligence 689 (1993)
+29.	Maher M., Zhang D.: CADSYN: A Case-Based Design Process Model. AI-EDAM
+7 (2) (1993) 97—110
+30.	Mostow J.: Design by Derivational Analogy. Artificial Intelligence 40 (1989) 119—
+184
+31.	Navinchandra D. : Exploration and Innovation in Design, Towards a Computational
+Model New York Springer- Verlag (1991)
+32.	Price C., Pegler I.S., Bell F.: Case- Based Reasoning in the Melting Pot. International 
+Journal of Applied Expert Systems 1(2) (1993) 120—133.
+33.	Pu P., Reschberger M. Assembly Sequence Planning using Case-Based Reasoning 
+Techniques. In Gero J. (Ed.) Artificial Intelligence in Design Boston: Kluwer
+Academic Publishers (1991)
+34.	Ram A., Arkin R., Moorman K., Clark R.: Case-based Reactive Navigation: A case-based 
+Method for On-line Selection and Adaptation of Reactive Control Parameters 
+in Autonomous Robotic Systems, Technical Report GIT-CC-92/57, School of
+Information and Computer Science, Georgia Institute of Technology (1992)
+35.	Redmond M.: Learning by Observing and Understanding Expert Problem Solving.
+PhD Dissertation, School of Information and Computer Science, Georgia Institute
+of Technology (1992)
+36.	Riesbeck C., Schank R.: Inside Case-based Reasoning Lawrence Erlbaum Associates
+(1992)
+37.	Roderman S., Tsatsoulis C.: PANDA: A Case-Based System to Aid Novice Designers. 
+Al EDAM 7(2) (1993) 125—133.
+38.	Rougegrez-Loriette S.: Prédiction de Processus à partir de Comportements observés: 
+Le système REBECAS. Thèse du Doctorat de l’Université Paris 6 (1994)
+39.	Schank R., Kass A., Riesbeck C.: Inside Case-based Explanation. Lawrence Erlbaum 
+Associates, Hillsdale, New Jersey (1994)
+40.	Schaal S., Atkeson C.: Robot Juggling: Implementation of Memory-Based Learning. 
+IEEE Control Systems 14(1) 57—71
+41.	Simoudis E.: Using Case-Based Reasoning for Customer Technical Support. IEEE
+Expert 7(5) (1992) 7—13
+42.	Simpson R.: A Computer Model of Case-Based Reasoning in Problem Solving:
+An Investigation in the Domain of Dispute Mediation, Technical Report GIT-ICS-85/18, 
+School of Information and Computer Science, Georgia Institute of Technology (1985)
+43.	Skalak D., Rissland E.: Arguments and Cases: An Inevitable Intertwining. Artificial
+Intelligence and Law 1 (1992) 3-44
+44.	Slattery S.: Case-based Reasoning. The derivational analogy approach. B.A.
+Project, Computer Science Department. Trinity College Dublin (1993)
+45.	Smyth B., Cunningham P.: Deja Vu: A Hierarchical Case-Based Reasoning System
+for Software Design. In Proceedings of the 10th European Conference on Artificial
+Intelligence. Vienna, Austria (1992)
+46.	Stanfill C., Waltz D.: Toward Memory-Based Reasoning. Communications of the
+ACM 29(2) (1986) 1213—1228
+47.	Sycara E. P.: Resolving Adversarial Conflicts: An Approach to Integrating Case-Based 
+and Analytic Methods. PhD Dissertation,.School of Information and Computer Science, 
+Georgia Institute of Technology (1987)
+48.	Sycara E. P., Navinchandra D.: Influences: A Thematic Abstraction for Creative
+Use of Multiple Cases. In Bareiss E.R. (Ed.) Proceedings: Case-Based Reasoning
+Workshop (1991)
+49.	Tsatsoulis C., Kashyap R.: Case- Based Reasoning and Learning in Manufacturing
+with the TOLTEC Planner. IEEE Transactions on Systems, Man and Cybernetics
+23(4) (1993) 1010—1022
+50.	Veloso M.: Learning by Analogical Reasoning in General Problem Solving, PhD
+Thesis. School of Computer Science. Carnegie Mellon University, Pittsburgh, PA.
+(1992)
+51.	Wang J., Howard H.: A design-dependent approach to Integrated Structural Design. 
+In Gero J. (Ed) Artificial Intelligence in Design. Boston: Kluwer Academic
+Publishers (1991)
+52.	Watson I., Marir F.: Case-based Reasoning: A Review. The Knowledge Engineering
+Review 9(4) (1994): 1—39

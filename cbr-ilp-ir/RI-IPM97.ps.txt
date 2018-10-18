@@ -1,0 +1,71 @@
+APPLYING HYPERTEXT STRUCTURES
+TO SOFTWARE DOCUMENTATION
+
+James C. French 1 , John C. Knight, Allison L. Powell
+{french | jck | alp4g}@cs.virginia.edu
+Department of Computer Science 2 , University of Virginia, Charlottesville, VA 22903
+
+Abstract. Software documentation represents a critical resource to the successful functioning of
+many enterprises. However, because it is static, documentation often fails to meet the needs of the
+many diverse users who are required to consult it on a regular basis in the course of their daily
+work. Software documentation is a rich resource that has not been fully exploited.
+Treatment of software documentation presents a number of interesting problems that require
+a blend of information retrieval and hypertext techniques for their successful solution. The evolv­ing 
+nature of a software project and the diverse demands on its documentation present an espe­cially 
+challenging environment. This is made even more challenging by the variety of information
+resources, ranging from formal specification languages to source code, that must be integrated
+into a coherent whole for the purpose of querying.
+In this paper we discuss work in progress at the University of Virginia. We discuss the issues
+involved with automating the management of software documentation to better increase its utility.
+We describe a prototype system, SLEUTH, currently under investigation as a vehicle for software
+documentation management. The prototype maintains software documentation as a hypertext
+with typed links for the purpose of browsing by users with varying needs. These links are gener­ated 
+mechanically by the system and kept accurate under update. Appropriate authoring tools pro­vide 
+the system with the information it needs for this maintenance function. Ad hoc querying is
+provided over the documentation and hypertext documents are synthesized in response to these
+queries.
+
+REFERENCES
+1. Allan, J. (1995). Automatic Hypertext Construction. Ph. D. dissertation, Cornell University.
+Also technical report TR95­1484.
+2. Cybulski, J. L.,& Reed, K. (1992) A Hypertext Based Software Engineering Environment.
+IEEE Software, 9(2), 62­68.
+3. Devanbu, P., Selfridge, P. G., Branchman, R. J. & Ballard, B. W. (1990). LaSSIE: a Knowl­edge-­based 
+Software Information System. IEEE Proceedings of the 12th International Con­ference on Software Engineering, 249­261.
+4. DOD­STD­2167A Military Standard: Defense System Software Development (1988), U.S.
+Department of Defense, Washington, D. C.
+5. Edguer, A. (1995). Frequently Asked Questions (FAQ) for FreeWAIS 0.5. Clearinghouse for
+Networked Information Discovery and Retrieval (CNIDR). http://www.cnidr.org/Software/
+freewais.html.
+6. Edmundson, H. P. & Wyllys, R. E. (1961). Automatic Abstracting and Indexing---Survey and
+Recommendations. Communications of the ACM, 4(5), 226­234.
+7. Frakes, W. B. & Pole, T. B. (1994). An Empirical Study of Representation Methods for Reus­able 
+Software Components. IEEE Transactions on Software Engineering, 20(8), 617­630.
+8. Frame Technology Corporation (1993). Frame Developer's Kit for Specific Platforms ­ UNIX.
+9. Frame Technology Corporation (1993). Frame Developer's Kit Programmer's Guide.
+10. Garg, P. K. & Scacchi, W. (1990). A Hypertext System to Manage Software Life­Cycle Docu­ments. 
+IEEE Software, 7(3), 90­98.
+11. Horowitz, E. & Williamson, R. C. (1986). SODOS: A Software Document Support Environ­ment---Its 
+Definition. IEEE Transactions on Software Engineering, SE­12(8), 849­859.
+12. Horowitz, E. & Williamson, R. C. (1986). SODOS: A Software Document Support Environ­ment---Its 
+Use. IEEE Transactions on Software Engineering, SE­12(11), 1076­1087.
+13. Kahle, B. & Medlar, A. (1991). An Information System for Corporate Users: Wide Area
+Information Servers. Online Magazine, 15(5), 56­60.
+14. Lesk, M. E., & Schmidt, E. (1975). Lex ­ A Lexical Analyzer Generator. Computing Science
+Technical Report 39, AT&T Bell Laboratories, Murray Hill, N. J.
+15. Marchionini, G. & Shneiderman, B. (1988). Finding Facts vs. Browsing Knowledge in Hyper­text 
+Systems. IEEE Computer, 21(1), 70­80.
+16. Parnas, D. L., van Schouwen, A. J. & Kwan, S. P. (1990). Evaluation of Safety­Critical Soft­ware. 
+Communications of the ACM, 33(6), 636­648.
+17. RTCA/DO­178A (1985) Software Considerations in Airborne Systems and Equipment Certi­fication, 
+Radio Technical Commission for Aeronautics, Washington, D. C.
+18. Salton, G., Allan, J., and Buckley, C. (1993). Approaches to Passage Retrieval in Full Text
+Information Systems. Proceedings of the 16th Annual International ACM SIGIR Conference
+Applying Hypertext Structures to Software Documentation
+­on Research and Development in Information Retrieval, 49­58.
+19. Salton, G., Allan, J., Buckley, C. and Singhal, A. (1994). Automatic Analysis, Theme Genera­tion, 
+and Summarization of Machine­Readable Texts. Science, 264(5164), 1421­1426.
+20. Soloway, E., Pinto, J., Letovsky, S., Littman, D., Lampert, R. (1988) Designing Documenta­tion 
+to Compensate for Delocalized Plans. Communications of the ACM, 31(11), 1259­1267.
+21. Wood, M. and Somerville, I. (1988). An Information Retrieval System for Software Compo­nents. 
+SIGIR Forum, Spring/Summer, 11­25.

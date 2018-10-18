@@ -1,0 +1,81 @@
+New Conditions for the Existence of Least
+Generalizations under Relative Subsumption
+
+Akihiro Yamamoto
+
+Faculty of Technology and MemeMedia Laboratory, Hokkaido University
+and
+“Information and Human Activity”, PRESTO, JST
+MemeMedia Laboratory, N 13 W 8, Sapporo 060-8628 JAPAN
+yamamoto@meme.hokudai.ac.jp
+
+
+
+Abstract. Least common generalization under relative subsumption
+(LGRS) is a fundamental concept in Inductive Logic Programming. In
+this paper we give several new conditions for the existence of LGRSs.
+In previous researches the existence of LGRSs was guaranteed when a
+background theory is logically equivalent to conjunction of finitely many
+ground literals. Each of our conditions allows a background theory to
+have clauses with variables in it. The conditions are obtained using the
+bottom method (or the bottom generalization method), with which any
+clause subsuming a positive example relative to a background theory can
+be derived. We also compare the conditions with those for the existence
+of relative least generalizations under generalized subsumption (LGGSs) .
+References
+
+[1]	Arikawa, S., Shinohara, T., and Yamamoto, A.: Learning Elementary Formal Systems, 
+Theoretical Computer Science, Vol. 95, No. 1, pp. 97—113 (1992).
+[2]	Arimura, H.: Completeness of Depth-Bounded Resolution for Weakly Reducing
+Programs, in Nakata, I. and Hagiya, M. eds., Software Science and Engineering
+(World Scientific Series in Computer Science Vol.31), pp. 227—245 (1991).
+[3]	Buntine, W.: Generalized Subsumption and its Applications to Induction and
+Redundancy, Artificial Intelligence, Vol. 36, pp. 149—176 (1988).
+[4]	Ito, K. and Yamamoto, A.: Finding Hypotheses from Examples by Computing the
+Least Generalization of Bottom Clauses, in Proceedings of the First International
+Conference on Discovery Science (LNAI 1532), pp. 303—314, Springer (1998).
+[5]	Lassez, J.-L., Maher, M. J., and Marriott, K.: Unification Revisited, in (Minker, J.
+ed.)Foundations of Deductive Databases and Logic Programming, pp. 587—626,
+Morgan-Kaufman (1988).
+[6]	Lee, R. C. T.: A completeness theorem and a computer program for finding theorems 
+derivable from given axioms, PhD Thesis, University of California, Berkeley,
+1967.
+[7]	Muggleton, S.: Inverse Entailment and Progol, New Generation Computing,
+Vol. 13, pp. 245—286 (1995).
+[8]	Muggleton, S. and Feng, C.: Efficient Induction of Logic Programs, in S. Arikawa
+and S. Goto and S. Ohsuga and T. Yokomori, ed., Proceedings of the First International 
+Workshop on Algorithmic Learning Theory, pp. 368—381, JSAI (1990).
+[9]	Niblett, T.: A Study of Generalization in Logic Programming, in D. Sleeman, ed.,
+Proceedings of the 3rd European Workingsessions on Learning (EWSL-88), pp.
+131—138 (1988).
+[10]	Nienhuys-Cheng, S.-H. and de Wolf, R: Foundations of Inductive Logic Programming 
+(LNAI 1228), Springer (1997).
+[11]	Plotkin, G. D.: A Note on Inductive Generalization, in Machine Intelligence 5,
+pp. 153—163, Edinburgh University Press (1970).
+[12]	Plotkin, G. D.: A Further Note on Inductive Generalization, in Machine Intelligence 
+6, pp. 101—124, Edinburgh University Press (1971).
+[13]	Plotkin, G. D.: Automatic Methods of Inductive Inference, PhD thesis, Edinburgh
+University (1971).
+[14]	Reynolds, J. C.: Transformational Systems and the Algebraic Structure of Atomic
+Formulas, in Machine Intelligence 5, pp. 135—151, Edinburgh University Press
+(1970).
+[15]	Shapiro, E.: Alternation and the Computational Complexity of Logic Programs,
+J. Logic Programming, Vol. 1, No. 1 (1984).
+[16]	Shinohara, T.: Inductive Inference of Monotonic Formal Systems from Positive
+Data, New Generation Computing, Vol. 8, pp. 371—384 (1991).
+[17]	Yamamoto, A.: Representing Inductive Inference with SOLD-Resolution, in Proceedings 
+of the IJCAI’97 Workshop on Abduction and Induction in Al, pp. 59 —
+63 (1997).
+[18]	Yamamoto, A.: Which Hypotheses Can Be Found with Inverse Entailment?, in
+Proceedings of the Seventh International Workshop on Inductive Logic Programming 
+(LNAI 1297), pp. 296 — 308 (1997). The extended abstract is in Proceedings
+of the IJCAI’97 Workshop on Frontiers of Inductive Logic Programming, pp.19—23
+(1997).
+[19]	Yamamoto, A.: An Inference Method for the Complete Inverse of Relative Subsumption, 
+New Generation Computing, Vol. 17, No. 1, pp. 99—117 (1999).
+[20]	Yamamoto, A.: Revising the Logical Foundations of Inductive Logic Programming
+Systems with Ground Reduced Programs, New Generation Computing, Vol. 17,
+No. 1, pp. 119—127 (1999).
+[21]	Yamamoto, A.: Using Abduction for Induction based on Bottom Generalization,
+in A. Kakas and P. Flach (eds.) Abductive and Inductive Reasoning : Essays on
+their Relation and Integration, pp. 99—117 (2000).

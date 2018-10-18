@@ -1,0 +1,69 @@
+An Application of Case-Based Reasoning
+to the Adaptive Management of Wireless Networks
+
+Massimo Barbera1, Cristina Barbero1, Paola Dal Zovo1, Fernanda Fannaccio1,
+Evangelos Gkroustiotis2, Sofoklis Kyriazakos2, Ivan Mura1, and Gianluca Previti1
+
+1Motorola Electronics, Global Software Group,
+Via C. Massaia 83, 10147 Torino, Italy
+{Massimo.Barbera, Cristina.Barbero, Paola.DalZovo}@motorola.com
+{Fernanda.Farinaccio, Ivan.Mura, Gianluca.Previti}@motorola.com
+2Institute of Communications and Computer Systems,
+National Technical University of Athens, Heroon Polytechniou 9, 15773 Athens, Greece
+{Evang, Skyriazakos}@telecom.ntua.gr
+
+
+
+Abstract. This paper describes an innovative application of Case-Based
+Reasoning methodologies for the dynamic management of wireless
+telecommunications systems. In spite of the very dynamic nature of mobile
+communications, wireless networks only possess limited adaptive management
+capabilities, which are unable to adequately follow traffic fluctuations through
+flexible and real-time resource assignment reconfigurations. The study
+described in this paper is an attempt to improve over these limitations, by
+allowing wireless networks to alleviate the effects of traffic overloads through
+an automated reasoning about its performance levels and an on-the-fly
+reconfiguration of resources assignment. The proposed Case-Based Reasoning
+approach provides a suitable framework to define a simple and scalable solution
+that easily incorporates the preferences of the network operators.
+References
+
+1.	A. Aamodt and E. Plaza, “Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches”, AT Communications, vol. 7, pp. 39-59, 1994.
+2.	M. Ajmone Marsan, G. Conte, and G. Balbo, “A Class of Generalized Stochastic Petri Nets
+for the Performance Evaluation of Multiprocessor Systems”, ACM Transactions on
+Computer Systems, vol. 2, pp. 93-122, 1984.
+3	P. Ala-Siuru and M. Kurki, “Case-based reasoning applied to fault diagnostics in GSM
+telecommunication networks”, STeP ‘96 - Genes, Nets and Symbols, 7th FAIS Conference,
+1996.
+4.	J.R. Anderson, “The architecture of cognition”, Harvard University Press, Cambridge,
+1983.
+5.	M.S. Bazaraa, J.J. Jarvis. and H. D. Sherali, “Linear Programming and Network Rows” 2nd
+ed., Wiley, 1990.
+6.	R. Bergmann, “Highlights of the European INRECA Projects”, Case-Based Reasoning
+Research and Development, LNAT 2080, Springer, 2001.
+7.	IST-25352 CAUTION, Deliverable D2.1 “Requirement Analysis and Functional
+Specifications”, July 2001.
+8.	IST-25352 CAUTION Project Home page, http://www.telecom.ntua.gr/caution.
+9.	S. Craw, J. Jarmulak and R. Rowe, “Learning and Applying Case-Based Adaptation
+Knowledge”, Case-Based Reasoning Research and Development, LNAI 2080, Springer,
+2001.
+10.	B. Diaz-Agudo and P.A. Gonzales-Calero, “An Architecture for Knowledge Intensive CBR
+Systems”, Advances in Case-Based Reasoning, LNAI 1898, Springer, 2000.
+11.	L. Lewis, “Managing Computer Networks: A Case-Based Reasoning Approach”, Artech
+House, 1995.
+12.	L. Portinale and P. Torasso, “Automatic Case base Management in a Multi-modal
+Reasoning System”, Case-Based Reasoning Research and Development, LNAI 2080,
+Springer, 2001.
+13.	T. Reinartz, I. Iglezakis and T. Roth-Berghofer, “On Quality Measures for Case base
+Maintenance”, Case-Based Reasoning Research and Development, LNAI 2080, Springer,
+2001.
+14.	B.H. Ross, “Some Psychological Results on Case-Based Reasoning”, Case-Based
+Reasoning Workshop, DARPA 1989, Morgan Kaufmann.
+15.	B. Smyth and M.T. Keane, “Remembering to Forget: A Competence Preserving Case
+Deletion Policy for CBR Systems”, Proc. of the 14th International Joint Conference on
+Artificial Intelligence, Morgan Kaufmann, 1995.
+16.	H. Tim, P. Kontkanen and P. Myllymaki, “A Bayesian Framework for Case-Based
+Reasoning”, Advances in Case-Based Reasoning, LNAI 1168, Springer, 1996.
+17.	3rd Generation Partnership Project. “Radio Resource Management Strategies”, 3G TR
+25.922 V4.0.0, 2001.

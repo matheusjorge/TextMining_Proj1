@@ -1,0 +1,94 @@
+Analogical Asides on Case-Based Reasoning
+
+Mark T. Keane
+
+Department of Computer Science, Trinity College Dublin, Dublin 2, IRELAND
+
+
+
+Abstract. This paper explores some of the similarities and differences
+between cognitive models of analogy and case-based reasoning systems.
+I first point out a paradox in the treatment of adaptation in analogy
+and in case-based reasoning; a paradox which can be only resolved by
+expanding the role of adaptation in cognitive models of analogy. Some
+psychological research on the process of adaptation in human subjects
+is reported and then the implications of this research are propagated
+into analogy and then on into CBR. The argument is that some of the
+existing stages in CBR should be integrated into a more stream-lined
+architecture that would be more efficient than current schemes.
+References
+
+1.	Duncker, K. (1945). On problem solving. Psychological Monographs, 58 (Whole
+No. 270).
+2.	Falkenhainer, B. (1987). An examination of the third stage in the analogy process:
+Verification-based analogical learning. In Proceedings of the Tenth International
+Joint Conference on Artificial Intelligence. Los Altos: Morgan Kaufmann.
+3.	Falkenhainer, B. (1990). A unified approach to explanation and theory formation.
+In Shrager, J. & Langley, P. (Eds.), Computational Models of Scientific Discovery
+and Theory Formation. San Mateo, CA: Morgan Kaufmann.
+4.	Falkenhainer, B., Forbus, K.D., & Gentner, D. (1986). Structure-mapping engine.
+Proceedings of the Annual Conference of the American Association for Artificial
+Intelligence.
+5.	Falkenhainer, B., Forbus, K.D., & Gentner, D. (1989). Structure-mapping engine.
+Artificial Intelligence, 41, 1-63.
+6.	Forbus, K.D., Ferguson, R.W., & Gentner, D. (1994). Incremental structure mapping. 
+In A. Ram & K. Eiselt (Eds.), Sixteenth Annual Conference of the Cognitive
+Science Society. Hillsdale, NJ: Eribaum.
+7.	Forbus, K.D. & Oblinger, D. (1990). Making SME greedy and pragmatic. Twelfth
+Annual Conference of the Cognitive Science Society. Hillsdale: Erlhaum.
+8.	Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. Cognitive 
+Science, 7,155-170.
+9.	Gentner, D. (1989). Mechanisms of analogical learning. In S. Vosniadou & A.
+Ortony (Eds.), Similarity and Analogical Reasoning. (pp. 267-297). Cambridge:
+Cambridge University Press.
+10.	Gentner, D., Rattermann, M.J., & Forbus, K.D. (1992). The roles of similarity in
+transfer. Cognitive Psychology, 25, 431-467.
+11.	Gick, ML., & Holyoak, K.J. (1980). Analogical problem solving. Cognitive Psychology, 12, 306-355.
+12.	Gick, M.L., & Holyoak, K.J. (1983). Schema induction in analogical transfer.
+Cognitive Psychology, 15, 1-38.
+13.	Holyoak, K.J. (1985). The pragmatics of analogical transfer. The Psychology of
+Learning and Motivation, 19, 59-87.
+14.	Holyoak, K.J., & Thagard, P.R. (1989). Analogical mapping by constraint satisfaction. 
+Cognitive Science, 13, 295-355.
+15.	Keane, M. (1985). On drawing analogies when solving problems: A theory and
+test of solution generation in an analogical problem solving task. British Journal
+of Psychology, 76, 449-458.
+16.	Keane, M.T. (1987). On retrieving analogues when solving problems. Quarterly
+Journal of Experimental Psychology, 39A, 29-41.
+17.	Keane, M.T. (1988). Analogical Problem Solving. Chichester: Ellis Horwood (Simon & 
+Schuster in N.America).
+18.	Keane, M.T. (1990). Incremental analogising: Theory and model. In K.J. Gilhooly,
+M.T. Keane, R. Logie & G. Erdos (Eds.), Lines of Thinking: Reflections on the
+Psychology of Thought. Vol. 1. Chichester: John Wiley.
+19.	Keane, M.T. (1994). Adaptation as a selection constraint on analogical mapping.
+In A. Ram & K. Biselt (Eds.), Sixteenth Annual Conference of the Cognitive
+Science Society. Hillsdale, NJ: Erlbaum.
+20.	Keane, M.T., & Brayshaw, M. (1988). The Incremental Analogy Machine: A
+computational model of analogy. In D. Sleeman (Ed.), Third European Working
+Session on Learning. London: Pitman/San Mateo, Calif.: Morgan Kaufmann.
+21.	Keane, MT., Ledgeway, T. & Duff, 5. (1991). Constraints on analogical mapping.
+In K.J. Hammond & D. Gentner (Eds.), Thirteenth Annual Conference of the
+Cognitive Science Society. Hillsdale, NJ: Erlbaum.
+22.	Keane, M.T, Ledgeway, T. & Duff, S. (in press). Constraints on analogical mapping: 
+A comparison of three models. Cognitive Science.
+23.	Maier, N.R.F. (1931). Reasoning in humans II: The solution of a problem and its
+appearance in consciousness. Journal of Comparative Psychology, 12, 181-194.
+24.	Marr, D. (1982). Vision. San Francisco: Freeman.
+25.	Newell, A. (1990). Unified Theories of Cognition. Harvard: Harvard University
+Press.
+26.	Novick, L.R. (1988). Analogical transfer, problem similarity, and expertise. Journal 
+of Experimental Psychology: Learning, Memory & Cognition, 14, 510-520.
+27.	Novick, L.R. & Holyoak, K.J. (1991). Mathematical problem solving by analogy.
+Journal of Experimental Psychology: Learning, Memory and Cognition, 17, 398-
+415.
+28.	O’Hara, S., & Indurkhya, B. (this volume). Incorporating (re)-interpretation into
+Case-Based Reasoning. Proceedings of the First European Workshop on Case-Based Reasoning. 
+Amsterdam: Springer-Verlag.
+29.	Palmer, SE. (1989). Levels of description in information processing theories of
+analogy. In S. Vosniadou & A. Ortony (Eds.), Similarity and Analogical Reasoning. 
+(pp. 267-297). Cambridge: Cambridge University Press.
+30.	Smyth, B., Cunningham, P. (1992). Déjà Vu: A Hierarchical Case-Based Reasoning 
+System for Software Design. Proceedings of the 10th European Conference on
+Artificial Intelligence. (pp. 587 - 589). Vienna, Austria
+31.	Smyth, B., & Keane, M.T. (this volume). Retrieving adaptable cases. Proceedings
+of the First European Workshop on Case-Based Reasoning. Amsterdam: Springer-Verlag.

@@ -1,0 +1,81 @@
+Extending Synsets with Medical Terms
+
+Paul Buitelaar, Bogdan Sacaleanu
+DFKI GmbH
+Stuhlsatzenhausweg 3
+D­66123 Saarbruecken, Germany
+{paulb,bogdan}@dfki.de
+
+Abstract
+An important problematic issue with general
+semantic lexicons like WordNet or GermaNet
+is that they do not cover many terms and
+concepts specific to certain domains.
+Therefore, these resources need to be tuned to
+a specific domain at hand. This involves
+selecting those senses that are most
+appropriate for the domain, as well as
+extending the sense inventory with novel
+terms and novel senses that are specific to the
+domain. In this paper we focus on extending
+GermaNet synsets with domain specific terms,
+taking into account the domain relevance of
+senses (i.e. synsets).
+
+
+References
+Basili R., Della Rocca M. and Pazienza M.­
+T. Contextual Word Sense Tuning and
+Disambiguation. Applied Artificial Intelligence,
+vol. 11, 1997.
+Brown P., Pietra, V., deSouza P. V., Lai J.,
+and Mercer R. L. Class­based n­gram models of
+natural language. Computational Linguistic,
+18:467­­479, 1992.
+Buitelaar, P. MUCHMORE: Multilingual
+Concept Hierarchies for Medical Information
+Organization and Retrieval. In: Proceedings of
+ASIS, Chicago, 2000.
+Buitelaar P. and Sacaleanu B. Ranking and
+Selecting Synsets by Domain Relevance. In:
+Proceedings NAACL WordNet Workshop,
+2001.
+Church, K. and Hanks, P. Word Association
+Norms, Mutual Information, and Lexicography.
+Computational Linguistics, vol. 16:1, 22­29,
+1990.
+Cucchiarelli A. and Velardi P. Finding a
+Domain­Appropriate Sense Inventory for
+Semantically Tagging a Corpus. In: Journal of
+Natural Language Engineering, 1998.
+Brants, T. TnT ­ A Statistical Part­of­Speech
+Tagger. In: Proceedings of 6 th ANLP
+Conference, Seattle, WA, 2000.
+Hamp, B. and Feldweg, H. GermaNet: a
+Lexical­Semantic Net for German. In:
+Proceedings of the ACL/EACL97 workshop on
+Automatic Information Extraction and Building
+of Lexical Semantic Resources for NLP
+Applications, Madrid, 1997.
+Miller, G.A. WordNet: A Lexical Database
+for English. Communications of the ACM 11,
+1995.
+Petitpierre, D. and Russell, G. MMORPH ­
+The Multext Morphology Program. Multext
+deliverable report for the task 2.3.1, ISSCO,
+University of Geneva, 1995.
+Salton, G. and Buckley, C. Term­Weighting
+Approaches In Automatic Text Retrieval. In:
+Information Processing & Management. 24, 5,
+pp.515­523, 1988.
+Turcato D., Popowich F., Toole J., Fass D.,
+Nicholson D. and Tisher G. Adapting a synonym
+database to specific domains. In: Proceedings of
+the ACL workshop on recent advances in NLP
+and IR. Hong Kong, 2000.
+Witten, Ian H., Eibe Frank. Data Mining:
+Practical Machine Learning Tools and
+Techniques with Java Implementations. The
+Morgan Kaufmann Series in Data Management
+Systems, Jim Gray, 2000.
+

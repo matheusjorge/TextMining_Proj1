@@ -1,0 +1,88 @@
+Applications of Approximate Word Matching in Information Retrieval
+James C. French Allison L. Powell
+
+Department of Computer Science 
+University of Virginia
+Charlottesville, Virginia 22903
+ffrench---alp4gg@cs.virginia.edu
+Eric Schulman
+National Radio Astronomy Observatory y
+520 Edgemont Road
+Charlottesville, VA 22903­2475
+eschulma@nrao.edu
+
+Abstract
+As more online databases are integrated into digital li­braries, 
+the issue of quality control of the data becomes in­
+creasingly important, especially as it relates to the effective
+retrieval of information. The need to discover and reconcile
+variant forms of strings in bibliographic entries, i.e., author­
+ity work, will become more critical in the future. Spelling
+variants, misspellings, and transliteration differences will all
+increase the difficulty of retrieving information. Approxi­mate 
+string matching has traditionally been used to help
+with this problem. In this paper we introduce the notion of
+approximate word matching and show how it can be used
+to improve detection and categorization of variant forms.
+
+
+References
+[1] A. Accomazzi, G. Eichhorn, M. J. Kurtz, C. S. Grant,
+and S. S. Murray. The ADS Article Service Data Hold­
+ings and Access Method. In G. Hunt and H. Payne,
+editors, Astronomical Data Analysis Software and Sys­tems 
+VI, volume 125 of A.S.P. Conference Series, pages
+357--360, 1997.
+[2] L. Auld. Authority Control: An Eighty­Year Review.
+Library Resources & Technical Services, 26:319--330,
+1982.
+[3] F. J. Damerau. A Technique for Computer Detection
+and Correction of Spelling Errors. Communications of
+the ACM, 7(3):171--176, Mar. 1964.
+[4] J. R. Davis. Creating a Networked Computer Science
+Technical Report Library. D­Lib Magazine, Sept. 1995.
+[5] J. C. French, A. L. Powell, E. Schulman, and J. L.
+Pfaltz. Automating the Construction of Authority Files
+in Digital Libraries: A Case Study. In First European
+Conference on Research and Advanced Technology for
+Digital Libraries, Pisa, 1­3 September 1997. (to ap­pear).
+[6] P. A. V. Hall and G. R. Dowling. Approximate String
+Matching. Computing Surveys, 12(4):381--402, Dec.
+1980.
+[7] K. Kukich. Techniques for Automatically Correcting
+Words in Text. Computing Surveys, 24(4):377--440,
+Dec. 1992.
+[8] R. Lowrance and R. A. Wagner. An Extension of the
+String­to­String Correction Problem. Journal of the
+ACM, 22(2):177--183, Apr. 1975.
+[9] H. L. Morgan. Spelling Correction in Systems Pro­grams. 
+Communications of the ACM, 13(2):90--94, Feb.
+1970.
+[10] E. T. O'Neill and D. Vizine­Goetz. Quality Control
+in Online Databases. Annual Review of Information
+Science and Technology, 23:125--156, 1988.
+[11] E. Schulman, J. C. French, A. L. Powell, S. S. Mur­ray, 
+G. Eichhorn, and M. J. Kurtz. The Sociology
+of Astronomical Publication Using ADS and ADAMS.
+In G. Hunt and H. Payne, editors, Astronomical Data
+Analysis Software and Systems VI, volume 125 of
+A.S.P. Conference Series, pages 361--364, 1997.
+[12] E. Schulman, A. L. Powell, J. C. French, G. Eichhorn,
+M. J. Kurtz, and S. S. Murray. Using the ADS Database
+to Study Trends in Astronomical Publication. Bul­letin 
+of the American Astronomical Society, 28(4):1281,
+1996.
+[13] S. L. Siegfried and J. Bernstein. Synoname: The
+Getty's New Approach to Pattern Matching for
+Personal Names. Computers and the Humanities,
+25(4):211--226, 1991.
+[14] R. A. Wagner and M. J. Fischer. The String­to­String
+Correction Problem. Journal of the ACM, 21(1):168--
+173, Jan. 1974.
+[15] M. E. Williams and L. Lannom. Lack of Standardiza­tion 
+of the Journal Title Data Element in Databases.
+Journal of the American Society for Information Sci­ence, 32(3):229--233, May 1981.
+[16] J. Zobel and P. Dart. Phonetic String Matching:
+Lessons from Information Retrieval. In Proc. 19th In­
+ter. Conf. on Research and Development in Information
+Retrieval (SIGIR'96), pages 166--172, Aug. 1996.

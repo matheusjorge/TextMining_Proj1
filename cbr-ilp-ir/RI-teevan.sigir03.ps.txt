@@ -1,0 +1,95 @@
+ Empirical Development of
+an Exponential Probabilistic Model for Text Retrieval
+Using Textual Analysis to Build a Better Model
+
+Jaime Teevan
+MIT AI Lab
+Cambridge, MA 02139
+teevan@ai.mit.edu
+David R. Karger
+MIT LCS
+Cambridge, MA 02139
+karger@theory.lcs.mit.edu
+
+ABSTRACT
+Much work in information retrieval focuses on using a model
+of documents and queries to derive retrieval algorithms. Model
+based development is a useful alternative to heuristic devel≠opment 
+because in a model the assumptions are explicit and
+can be examined and refined independent of the particular
+retrieval algorithm. We explore the explicit assumptions un≠derlying 
+the naòêve Bayesian framework by performing com≠putational 
+analysis of actual corpora and queries to devise a
+generative document model that closely matches text. Our
+thesis is that a model so developed will be more accurate
+than existing models, and thus more useful in retrieval, as
+well as other applications. We test this by learning from a
+corpus the best document model. We find the learned model
+better predicts the existence of text data and has improved
+performance on certain IR tasks.
+
+
+REFERENCES
+[1] J. M. Bernardo and A. F. M. Smith. Bayesian Theory.
+John Wiley & Sons, 1994.
+[2] K. Church and W. Gale. Poisson mixtures. Natural
+Language Engineering, 1(2):163--190, 1995.
+[3] S. Eyheramendy, D. D. Lewis, and D. Madigan. On the
+naive Bayes model for text classification. In Artificial
+Intelligence & Statistics, 2003.
+[4] L. Fitzpatrick and M. Dent. Automatic feedback using past
+queries: Social searching? In SIGIR, 1997.
+[5] N. Fuhr. Probabilistic models in information retrieval. The
+Computer Journal, 35(3):243--255, 1992.
+[6] A. T. Gous. Adaptive estimation of distributions using
+exponential sub≠families. Journal of Computational and
+Graphical Statistics, 7(3):388--396, 1998.
+[7] W. R. Grei#. A theory of term weighting based on
+exploratory data analysis. In SIGIR, 1998.
+[8] A. Gri#th, H. C. Luckhurst, and P. Willett. Using
+interdocument similarity information in document retrieval
+systems. JASIS, 37:3--11, 1986.
+[9] D. Heckerman. A tutorial on learning with Bayesian
+networks. Technical Report MSR TR≠95≠06, Microsoft
+Research, 1995. Revised 1996.
+[10] R. Jin, A. G. Hauptmann, and C. Zhai. Title language
+model for information retrieval. In SIGIR, 2002.
+[11] K. S. Jones. A statistical interpretation of term specificity
+and its application in retrieval. Journal of Documentation,
+28:11--21, 1972.
+[12] K. S. Jones, S. Walker, and S. Robertson. A probabilistic
+model of information retrieval: development and status.
+Technical Report TR≠446, Cambridge University Computer
+Laboratory, 1998.
+[13] T. Kalt. A new probabilistic model of text classification
+and retrieval. Technical Report IR≠78, University of
+Massachusetts Center for Intelligent Information Retrieval,
+1996.
+[14] S. Katz. Distribution of content words and phrases in text
+and language modelling. Natural Language Engineering,
+2(1):15--60, 1996.
+[15] K. L. Kwok and M. Chan. Improving two≠stage ad≠hoc
+retrieval for short queries. In SIGIR, 1998.
+[16] D. D. Lewis. Naive (Bayes) at forty: The independence
+assumption in information retrieval. In EMCL, 1998.
+[17] H. P. Luhn. A statistical approach to mechanized encoding
+and searching of literary information. IBM Journal of
+Research and Developement, 1(4):309--317, 1957.
+[18] K. McKeown, J. Klavans, V. Hatzivassiloglou, R. Barzilay,
+and E. Eskin. Towards multidocument summarization by
+reformulation: Progress and prospects. In AAAI, 1999.
+[19] K. Ng. A maximum likelihood ratio information retrieval
+model. In TREC≠8, 1999.
+[20] K. Nigam, A. K. McCallum, S. Thrun, and T. M. Mitchell.
+Learning to classify text from labeled and unlabeled
+documents. In AAAI, 1998.
+[21] J. M. Ponte and W. B. Croft. A language modeling
+approach to information retrieval. In SIGIR, 1998.
+[22] S. Robertson and S. Walker. Some simple e#ective
+approximations to the 2≠Poisson model for probabilistic
+weighted retrieval. In SIGIR, 1994.
+[23] C. J. vanRijsbergen. Information Retrieval. Butterworths,
+1979.
+[24] C. Zhai and J. La#erty. Two≠stage language models for
+information retrieval. In SIGIR, 2002.
+

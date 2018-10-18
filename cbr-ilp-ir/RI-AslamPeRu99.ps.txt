@@ -1,0 +1,88 @@
+A Practical Clustering Algorithm
+for Static and Dynamic Information Organization \Lambda
+
+Javed Aslam Katya Pelekhov Daniela Rus
+Dartmouth College y
+
+Abstract
+We present and analyze the off­line star algorithm for clus­tering 
+static information systems and the on­line star algo­rithm 
+for clustering dynamic information systems. These
+algorithms organize a document collection into a number of
+clusters that is naturally induced by the collection via a com­putationally 
+efficient cover by dense subgraphs. We further
+show a lower bound on the accuracy of the clusters produced
+by these algorithms as well as demonstrate that these algo­rithms 
+are efficient (running times roughly linear in the size
+of the problem). Finally, we provide data from a number of
+experiments.
+
+
+References
+[AB84] M. Aldenderfer and R. Blashfield, Cluster Analysis,
+Sage, Beverly Hills, 1984.
+[APR97] J. Aslam, K. Pelekhov, and D. Rus, Generating,
+visualizing, and evaluating high­accuracy clusters for
+information organization, in Principles of Digital Doc­ument 
+Processing, eds. C. Nicholas, LNCS Springer
+Verlag 1998.
+[Bol95] B. Bollob'as, Random Graphs, Academic Press, Lon­don, 1995.
+[Can93] F. Can, Incremental clustering for dynamic information 
+processing, in ACM Transactions on Informa­tion Systems, no. 11, pp143­164, 1993.
+[CCFM97] M. Charikar, C. Chekuri, T. Feder, and R. Mot­wani, 
+Incremental clustering and dynamic information
+retrieval, in Proceedings of the 29 th Symposium on The­ory of Computing, 1997.
+[Cro80] W. B. Croft. A model of cluster searching based on
+classification. Information Systems, 5:189­195, 1980.
+[Cro77] W. B. Croft. Clustering large files of documents
+using the single­link method. Journal of the American
+Society for Information Science, pp189­195, November
+1977.
+[CKP93] D. Cutting, D. Karger, and J. Pedersen. Constant
+interaction­time scatter/gather browsing of very large
+document collections. In Proceedings of the 16 th SIGIR,
+1993.
+[FG88] T. Feder and D. Greene, Optimal algorithms for
+approximate clustering, in Proceedings of the 20 th
+Symposium on Theory of Computing, pp 434­444, 1988.
+[HP96] M. Hearst and J. Pedersen. Reexamining the cluster
+hypothesis: Scatter/Gather on Retrieval Results. In
+Proceedings of the 19 th SIGIR, 1996.
+[HS86] D. Hochbaum and D. Shmoys, A unified approach
+to approximation algorithms for bottleneck problems,
+Journal of the ACM, no. 33, pp533­550, 1986.
+[JD88] A. Jain and R. Dubes. Algorithms for Clustering
+Data, Prentice Hall 1988.
+[JR71] N. Jardine and C.J. van Rijsbergen. The use of
+hierarchical clustering in information retrieval, 7:217­
+240, 1971.
+[KP93] G. Kortsarz and D. Peleg. On choosing a dense sub­
+graph. In Proceedings of the 34th Annual Symposium
+on Foundations of Computer Science (FOCS), 1993.
+[LY94] C. Lund and M. Yannakakis. On the hardness of
+approximating minimization problems. Journal of the
+ACM 41, 960--981, 1994.
+[Rij79] C.J. van Rijsbergen. Information Retrieval. Butter­
+worths, London, 1979.
+[Sal89] G. Salton. Automatic Text Processing: the transfor­mation, 
+analysis, and retrieval of information by com­puter, Addison­Wesley, 1989.
+[Sal91] G. Salton. The Smart document retrieval project.
+In Proceedings of the Fourteenth Annual International
+ACM/SIGIR Conference on Research and Develop­ment 
+in Information Retrieval, pages 356­358.
+[Tur90] H. Turtle. Inference networks for document re­trieval. 
+PhD thesis. University of Massachusetts,
+Amherst, 1990.
+[Voo85] E. Voorhees. The cluster hypothesis revisited. In
+Proceedings of the 8 th SIGIR, pp 95­104, 1985.
+[Wil88] P. Willett. Recent trends in hierarchical document
+clustering: A critical review. Information Processing
+and Management, 24:(5):577­597, 1988.
+[Wor71] S. Worona. Query clustering in a large document
+space. In Ed. G. Salton, The SMART Retrieval System,
+pp 298­310. Prentice­Hall, 1971.
+[Zuc93] D. Zuckerman. NP­complete problems have a ver­sion 
+that's hard to approximate. In Proceedings of the
+Eight Annual Structure in Complexity Theory Confer­ence, 
+IEEE Computer Society, 305--312, 1993.
+

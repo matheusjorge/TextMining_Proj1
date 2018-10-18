@@ -1,0 +1,86 @@
+Utilizing the World Wide Web as an Encyclopedia:
+Extracting Term Descriptions from Semi­Structured Texts
+
+Atsushi Fujii and Tetsuya Ishikawa
+University of Library and Information Science
+1­2 Kasuga, Tsukuba, 305­8550, JAPAN
+fujii@ulis.ac.jp
+
+Abstract
+In this paper, we propose a methodto extract descriptions of techni­cal 
+terms from Web pages in order to utilize the World Wide Web as
+an encyclopedia. We use linguistic patterns and HTML text structures
+to extract text fragments contain­ing term descriptions. We also use
+a language model to discard extra­neous descriptions, and a clustering
+method to summarize resultant de­scriptions. We show the effective­ness 
+of our method by way of exper­iments.
+
+
+References
+Philip Clarkson and Ronald Rosenfeld. 1997.
+Statistical language modeling using the
+CMU­Cambridge toolkit. In Proceedings of
+EuroSpeech'97, pages 2707--2710.
+Oren Etzioni. 1997. Moving up the informa­tion 
+food chain. AI Magazine, 18(2):11--18.
+Vasileios Hatzivassiloglou and Kathleen R.
+McKeown. 1993. Towards the automatic
+identification of adjectival scales: Cluster­
+ing adjectives according to meaning. In
+Proceedings of the 31st Annual Meeting of
+the Association for Computational Linguis­tics, 
+pages 172--182.
+Hitachi Digital Heibonsha. 1998. CD­ROM
+World Encyclopedia. (In Japanese).
+Makoto Iwayama and Takenobu Tokunaga.
+1995. Hierarchical Bayesian clustering for
+automatic text classification. In Proceed­ings 
+of the 14th International Joint Confer­ence 
+on Artificial Intelligence, pages 1322--
+1327.
+Japan Electronic Dictionary Research Insti­tute. 
+1995. EDR electronic dictionary
+technical guide.
+Noriko Kando, Kazuko Kuriyama, and Toshi­hiko 
+Nozue. 1999. NACSIS test collection
+workshop (NTCIR­1). In Proceedings of
+the 22nd Annual International ACM SIGIR
+Conference on Research and Development 
+in Information Retrieval, pages 299--300.
+Julian Kupiec and John Maxwell. 1992.
+Training stochastic grammars from un­labelled 
+text corpora. In Workshop on
+Statistically­Based Natural Language Pro­gramming 
+Techniques. AAAI Technical Re­ports WS­92­01.
+Mainichi Shimbun. 1994­1995. Mainichishimbun 
+CD­ROM '94­'95. (In Japanese).
+Yuji Matsumoto, Akira Kitauchi, Tatsuo Ya­
+mashita, Osamu Imaichi, and Tomoaki
+Imamura. 1997. Japanese morphological
+analysis system ChaSen manual. Technical
+Report NAIST­IS­TR97007, NAIST. (In
+Japanese).
+Andrew McCallum, Kamal Nigam, Jason
+Rennie, and Kristie Seymore. 1999. A
+machine learning approach to building
+domain­ specific search engines. In Proceed­
+ings of the 16th International Joint Confer­ence 
+on Artificial Intelligence, pages 662--
+667.
+Jian­Yun Nie, Michel Simard, Pierre Is­
+abelle, and Richard Durand. 1999. Cross­
+language information retrieval based on parallel 
+texts and automatic mining of par­allel 
+texts from the Web. In Proceedings of
+the 22nd Annual International ACM SIGIR
+Conference on Research and Development
+in Information Retrieval, pages 74--81.
+Philip Resnik. 1999. Mining the Web for
+bilingual texts. In Proceedings of the 37th
+Annual Meeting of the Association for
+Computational Linguistics, pages 527--534.
+Frank Smadja, Kathleen R. McKeown, and
+Vasileios Hatzivassiloglou. 1996. Translating 
+collocations for bilingual lexicons: A
+statistical approach. Computational Lin­guistics, 22(1):1--38.
+

@@ -1,0 +1,51 @@
+On the use of CBR in optimisation problems such
+as the TSP
+
+Pádraig Cunningham *, Barry Smyth **, Neil Hurley **
+
+**Department of Computer Science, Trinity College Dublin, Ireland
+**Hitachi Dublin Laboratory, Trinity College Dublin, Ireland
+
+Abstract. The particular strength of CBR is normally considered to be its use in
+weak theory domains where solution quality is compiled into cases and is
+reusable. In this paper we explore an alternative use of CBR in optimisation
+problems where cases represent highly optimised structures in a huge highly
+constrained solution space. Our analysis focuses on the Travelling Salesman
+Problem where difficulty arises from the computational complexity of the
+problem rather than any difficulty associated with the domain theory. We find
+that CBR is good for producing medium quality solutions in very quick time. We
+have difficulty getting CBR to produce high quality solutions because solution
+quality seems to be lost in the adaptation process. We also argue that experiments
+with CBR on transparent problems such as the TSP tell us a lot about aspects of
+CBR such as; the quality of CBR solutions, the coverage that cases in the case-base 
+offer and the utility of extending a case-base.
+
+
+References
+Cunningham P., Browne J., (1986) A LISP-based heuristic scheduler for automatic
+insertion in electronics assembly, International Journal of Production Research,
+Vol.24, No.6, pp1395-1408.
+
+Goldberg D.E., (1989) Genetic Algorithms in Search Optimization & Machine
+Learning, Addison Wesley, Reading Massachusetts.
+
+Kirkpatrick S., Gelatt C.D., Vecchi M.P., (1983) Optimization by Simulated
+Annealing, Science, Vol. 220, No. 4597, pp671-680.
+Koton, P. (1989) SMARTplan: A Case-Based Resource Allocation and Scheduling
+System. Proceedings of the Case-Based Reasoning Workshop, pp 285-289, Florida,
+USA.
+
+Muñoz H., Paulokat J., Wess S., (1994) Controlling Nonlinear Hierarchical
+Planning by Case Replay, in working papers of the Second European Workshop on
+Case-based Reasoning, ppl95-203, Chantilly, France.
+
+Norback J., Love R., (1977) Geometric Approaches to Solving the Travelling
+Salesman Problem, Management Science, July 1977, pp1208-1223.
+
+Smyth B., Cunningham P., (1992) Déjà Vu: A Hierarchical Case-Based Reasoning
+System for Software Design, in Proceedings of European Conference on Artificial
+Intelligence, ed. Bemd Neumann, John Wiley, pp587-589.
+
+Sycara, K. & Miyashita, K. (1994) Case-Based Acquisition of User Preferences for
+Solution Improvement in Ill-Structured Domains. Proceedings of the 12th National
+Conference on Artificial Intelligence, pp. 44-49. Seattle, USA.

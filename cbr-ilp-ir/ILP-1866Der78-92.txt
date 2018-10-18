@@ -1,0 +1,80 @@
+A Logical Database Mining Query Language
+
+Luc De Raedt
+
+Institut für Informatik, Albert-Ludwig-University
+Universitätsgelände Flugplatz
+D-79085 Freiburg, Germany
+deraedt@informatik.uni-freiburg.de
+
+
+
+Abstract. A novel query language for database mining, called RDM,
+is presented. RDM provides primitives for discovering frequent patterns
+and association rules, for manipulating example sets, for performing 
+predictive and descriptive induction and for reasoning about the generality
+of hypotheses. RDM is designed for querying deductive databases and
+employs principles from inductive logic programming. Therefore RDM
+allows to query patterns that involve multiple relations as well as 
+background knowledge. The embedding of RDM within a programming 
+language such as PROLOG puts database mining on similar grounds as
+constraint programming. An operational semantics for RDM is outlined
+and an efficient algorithm for solving RDM queries is presented. This
+solver integrates Mitchell’s versionspace approach with the well-known
+APRIORI algorithm by Agrawal et al.
+References
+
+1.	R. Agrawal, T. Imielinski, A. Swami. Mining association rules between sets of items
+in large databases. In Proceedings of ACM SIGMOD Conference on Management
+of Data, 1993.
+2.	J-F. Boulicaut, M. Kiemettinen, H. Mannila. Querying inductive databases: a case
+study on the MINE RULE operator. in: Proceedings of the Second European 
+Symposium on Principles of Data Mining and Knowledge Discovery, Lecture Notes in
+Artificial Intelligence, Vol. 1510, , Springer-Verlag, 1998.
+in Proceedings of PKDD 98, Lecture Notes in Al, 1998.
+3.	I. Bratko. Prolog Programming for Artificial Intelligence. Addison-Wesley, 1990.
+2nd Edition.
+4.	L. Dehaspe and L. De Raedt, WARMR : Wanted Association Rules over 
+Multiple Relations, In Proceedings of the International Workshop on Inductive Logic
+Programming, Lecture Notes in Artificial Intelligence, Vol. 1297, Springer Verlag,
+1997.
+5.	L. Dehaspe, FL. Toivonen and R.D. King. Finding frequent substructures in 
+chemical compounds, in Proceedings of KDD-98, 1998.
+6.	L. Dehaspe, H. Toivonen. Discovery of Frequent Datalog Patterns, in Data Mining
+and Knowledge Discovery , Vol. 3, 1999.
+7.	L. De Raedt, An inductive logic programming query language for database mining
+(Extended Abstract), in Calmet, J. and Plaza, J. (Eds.) Proceedings of Artificial
+Intelligence and Symbolic Computation, Lecture Notes in Artificial Intelligence,
+Vol. 1476, Springer Verlag, 1998.
+8.	L. De Raedt and L. Dehaspe. Clausal discovery. Machine Learning, 26:99—146,
+1997.
+9.	Elmasri, R. and Navathe, S. Fundamentals of database systems. Benjamin 
+Cummings, 2nd Edition, 1994.
+10.	Fayyad, U., Piatetsky-Shapiro, G. and Smyth, P. Advances in Knowledge 
+Discovery, The MIT Press, 1996.
+11.	T. Imielinski and H. Mannila. A database perspectivce on knowledge discovery.
+Communications of the ACM, 39(11):58—64, 1996.
+12.	T. Imielinski, A. Virmani, and A. Abduighani. A discovery board application
+programming interface and query language for database mining. In Proceedings of
+KDD 96. AAAI Press, 1996.
+13.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and 
+Applications. Ellis Horwood, 1994.
+14.	H. Mannila and H. Toivonen, Levelwise search and borders of theories in knowledge
+discovery, Data Mining and Knowledge Discovery, Vol. 1, 1997.
+15.	H. Mannila. Inductive databases. in Proceedings of the International Logic 
+Progmmming Symposium, MIT Press, 1997.
+16.	Marriott, K. and Stuckey, P. J. Programming with constraints : an introduction.
+The MIT Press. 1998.
+17.	R. Meo, C. Psaila and S. Ceri, An extension to SQL for mining association rules.
+Data Mining and Knowledge Discovery, Vol. 2, 1998.
+18.	C. Mellish. The description identification algorithm. Artificial Intelligence, Vol. 52,
+1990.
+19.	T. Mitchell. Generalization as Search, Artificial Intelligence, Vol. 18, 1980.
+20.	S. Muggleton and L. De Raedt. Inductive logic programming : Theory and 
+methods. Journal of Logic Programming, 19,20:629—679, 1994.
+21.	C. Plotkin, A note on inductive generalization, Machine Intelligence, Vol. 3, 1970.
+22.	J.R. Quinlan. Learning logical definitions from relations. Machine Learning, 5:239—
+266, 1990.
+23.	W. Shen, K. Ong, B. Mitbander, and C. Zaniolo. Metaqueries for data mining. In
+U. Fayyad, C. Piatetsky-Shapiro, P. Smyth, and R. Uthurusamy, editors, Advances
+in Knowledge Discovery and Data Mining, pages 375—398. The MIT Press, 1996.

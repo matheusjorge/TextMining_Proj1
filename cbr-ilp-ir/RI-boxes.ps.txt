@@ -1,0 +1,86 @@
+Learning Boxes in High Dimension 
+Amos Beimel y Eyal Kushilevitz z
+April 21, 1998
+
+Abstract
+We present exact learning algorithms that learn several classes of (discrete)
+boxes in f0; : : : ; ` \Gamma 1g n . In particular we learn: (1) The class of unions of
+O(log n) boxes in time poly(n; log `) (solving an open problem of [16, 12]; in [3]
+this class is shown to be learnable in time poly(n; `)). (2) The class of unions of
+disjoint boxes in time poly(n; t; log `), where t is the number of boxes. (Previ­ously 
+this was known only in the case where all boxes are disjoint in one of the
+dimensions; in [3] this class is shown to be learnable in time poly(n; t; `)). In
+particular our algorithm learns the class of decision trees over n variables, that
+take values in f0; : : : ; ` \Gamma 1g, with comparison nodes in time poly(n; t; log `),
+where t is the number of leaves (this was an open problem in [9] which was
+shown in [4] to be learnable in time poly(n; t; `)). (3) The class of unions of
+O(1)­degenerate boxes (that is, boxes that depend only on O(1) variables) in
+time poly(n; t; log `) (generalizing the learnability of O(1)­DNF and of boxes in
+O(1) dimensions). The algorithm for this class uses only equivalence queries
+and it can also be used to learn the class of unions of O(1) boxes (from equiv­alence 
+queries only).
+
+References
+[1] D. Angluin. Queries and concept learning. Machine Learning, 2(4):319--342,
+1988.
+[2] P. Auer. On­line learning of rectangles in noisy environments. In Proc. of 6th
+Annu. ACM Conf. on Comput. Learning Theory, pages 253--261, 1993.
+[3] A. Beimel, F. Bergadano, N. H. Bshouty, E. Kushilevitz, and S. Varricchio.
+Learning functions represented as multiplicity automata. Submitted for publi­cation, 
+1997. Preliminary version: On the applications of multiplicity automata
+in learning. In Proc. of 37th Annu. IEEE Symp. on Foundations of Computer
+Science, pages 349--358, 1996.
+[4] A. Beimel, F. Bergadano, N. H. Bshouty, E. Kushilevitz, and S. Varricchio. On
+the applications of multiplicity automata in learning. In Proc. of the 37th Annu.
+IEEE Symp. on Foundations of Computer Science, pages 349--358, 1996.
+[5] S. Ben­David, N. H. Bshouty, and E. Kushilevitz. A composition theorem for
+learning algorithms with applications to geometric concept classes. In Proc. of
+the 29th Annu. ACM Symp. on the Theory of Computing, pages 324--333, 1997.
+[6] F. Bergadano, D. Catalano, and S. Varricchio. Learning sat­k­DNF formulas from
+membership queries. In Proc. of the 28th Annu. ACM Symp. on the Theory of
+Computing, pages 126--130, 1996.
+[7] A. Blum and S. Rudich. Fast learning of k­term DNF formulas with queries. J.
+of Computer and System Sciences, 51(3):367--373, 1995.
+[8] A. Blumer, A. Ehrenfeucht, D. Haussler, and M. K. Warmuth. Learnability and
+the Vapnik­Chervonenkis dimension. J. of the ACM, 36:929--965, 1989.
+[9] N. H. Bshouty. Exact learning via the monotone theory. In Proc. of the 34th
+Annu. IEEE Symp. on Foundations of Computer Science, pages 302--311, 1993.
+Journal version: Information and Computation, 123(1):146--153, 1995.
+[10] N. H. Bshouty. Simple learning algorithms using divide and conquer. In Proc.
+of 8th Annu. ACM Conf. on Comput. Learning Theory, pages 447--453, 1995.
+[11] N. H. Bshouty, Z. Chen, and S. Homer. On learning discretized geometric con­cepts. 
+In Proc. of the 35th Annu. IEEE Symp. on Foundations of Computer
+Science, pages 54--63, 1994.
+[12] N. H. Bshouty, P. W. Goldberg, S. A. Goldman, and H. D. Mathias. Exact learn­ing 
+of discretized geometric concepts. Technical Report WUCS­94­19, Washing­ton University, 1994.
+[13] N. H. Bshouty, S. A. Goldman, H. D. Mathias, S. Suri, and H. Tamaki. Noise­
+tolerant distribution­free learning of general geometric concepts. In Proc. of the
+28th Annu. ACM Symp. on the Theory of Computing, pages 151--160, 1996.
+[14] Z. Chen and S. Homer. The bounded injury priority method and the learnability
+of unions of rectangles. Annals of Pure and Applied Logic, 77(2):143--168, 1996.
+[15] Z. Chen and W. Maass. On­line learning of rectangles and unions of rectangles.
+Machine Learning, 17(2/3):23--50, 1994.
+[16] P. W. Goldberg, S. A. Goldman, and H. D. Mathias. Learning unions of boxes
+with membership and equivalence queries. In Proc. of 7th Annu. ACM Conf. on
+Comput. Learning Theory, 1994.
+[17] J. C. Jackson. An efficient membership­query algorithm for learning DNF with
+respect to the uniform distribution. In Proc. of the 35th Annu. IEEE Symp. on
+Foundations of Computer Science, pages 42--53, 1994.
+[18] J. C. Jackson. The Harmonic Sieve: A Novel Application of Fourier Analysis
+to Machine Learning Theory and Practice. PhD thesis, Technical Report CMU­
+CS­95­184, School of Computer Science, Carnegie Mellon University, 1995.
+[19] E. Kushilevitz. A simple algorithm for learning O(log n)­term DNF. Information
+Processing Letters, 61(6):289--292, 1997.
+[20] N. Littlestone. Learning when irrelevant attributes abound: A new linear­
+threshold algorithm. Machine Learning, 2:285--318, 1988.
+[21] P. M. Long and M. K. Warmuth. Composite geometric concepts and polynomial
+predictability. Information and Computation, 113(2):230--252, 1994.
+[22] W. Maass and G. Tur'an. On the complexity of learning from counter-examples.
+In Proc. of the 30th Annu. IEEE Symp. on Foundations of Computer Science,
+pages 262--273, 1989.
+[23] W. Maass and G. Tur'an. Algorithms and lower bounds for on­line learning of
+geometrical concepts. Machine Learning, 14:251 -- 269, 1994.
+[24] W. Maass and M. K. Warmuth. Efficient learning with virtual threshold gates.
+Information and Computation, 141(1):66--83, 1998.
+[25] L. G. Valiant. A theory of the learnable. Communications of the ACM,
+27(11):1134--1142, 1984.

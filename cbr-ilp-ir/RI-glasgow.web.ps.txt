@@ -1,0 +1,37 @@
+University of Glasgow at the Web track of TREC 2002
+Vassilis Plachouras, Iadh Ounis, Gianni Amati  , and C.J. Van Rijsbergen
+
+Department of Computing Science
+University of Glasgow
+Glasgow G12 8QQ
+fvassilis, ounis, gianni, keithg@dcs.gla.ac.uk
+
+Abstract
+The aim of our participation in the topic distillation and the named page finding tasks of the
+Web track is the evaluation of a well­founded modular probabilistic framework for Web Information
+Retrieval, which integrates content and link analyses. The link analysis component of the framework
+employs a new probabilistic approach, called the Absorbing Model, for calculating a measure of
+popularity for documents induced from the Web graph.
+
+
+References
+[1] G. Amati, C. Carpineto, and G. Romano. FUB at TREC 10 web track: a probabilistic framework
+for topic relevance term weighting. In E.M. Voorhees and D.K. Harman, editors, Proceedings of
+the 10th Text Retrieval Conference TREC 2001, pages 182--191, Gaithersburg, MD, 2002. NIST
+Special Pubblication 500­250.
+[2] G. Amati and I. Ounis. The absorbing link model for the web. Manuscript, 2002.
+[3] G. Amati and C. J. Van Rijsbergen. Probabilistic models of information retrieval based on mea­suring 
+divergence from randomness. ACM Transactions on Information Systems, 40(4):1--33,
+2002.
+[4] S. Brin and L. Page. The anatomy of a large­scale hypertextual Web search engine. Computer
+Networks and ISDN Systems, 30(1--7):107--117, 1998.
+[5] D. Hawking and N. Craswell. Overview of the TREC­2001 Web Track, NIST Special Publication
+500­250: The Tenth Text REtrieval Conference (TREC 2001), 2001.
+[6] R. Jin and S. Dumais. Probabilistic combination of content and links. In Proceedings of the
+24th annual international ACM SIGIR conference on Research and development in information
+retrieval, pages 402--403. ACM Press, 2001.
+[7] V. Plachouras and I. Ounis. Query­Biased Combination of Evidence on the Web. Workshop on
+Mathematical/Formal Methods in Information Retrieval, ACM SIGIR Conference, 2002.
+[8] J. Savoy and J. Picard. Retrieval effectiveness on the web. Information Processing & Manage­ment, 
+37(4):543--569, 2001.
+

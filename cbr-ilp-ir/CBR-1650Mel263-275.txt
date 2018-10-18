@@ -1,0 +1,77 @@
+Flexibly Interleaving Processes
+
+Erica Melis*	Carsten Ulirich
+
+Universität des Saarlandes, FB Informatik
+D-66041 Saarbrücken, Germany
+melis@cs.uni-sb.de
+
+
+
+Abstract. We discuss several problems of analogy-driven proof plan
+construction which prevent a solution for more difficult target problems
+or make a solution very expensive. Some of these problems are due to the
+previously assumed fixed order of matching, reformulation, and replay in
+case-based reasoning and from a too restricted combination of planning
+from first principles with the analogy process. In order to overcome these
+problems we suggest to interleave matching and replay as well as case-based 
+planning with planning from first principles.
+Secondly, the restricted mixture of case-based planning and planning
+from first principles in previous systems is generalised to intelligently
+employing different planning strategies with the objective to solve more
+problems at all and to solve problems more efficiently.
+References
+
+1.	A. Aamodt and E. Plaza. Case-based reasoning: Foundational issues, methodological 
+variations, and system approaches. AI Communications, 7:39—59, 1994.
+2.	C. Benzmueller, L. Cheikhrouhou, D. Fehrer, A. Fiedler, X. Huang, M. Kerber,
+M. Kohihase, K. Konrad, A. Meier, B. Melis, W. Schaarschmidt, J. Siekmann, and
+V. Sorge. OMEGA: Towards a mathematical assistant. In W. McCune, editor,
+Proceedings 14th International Conference on Automated Deduction (CADE-14),
+pages 252—255, Townsville, 1997. Springer.
+3.	R. Bergmann, H. Munoz-Avila, M.M. Veloso, and E. Melis. Case-based reasoning 
+applied to planning. In M. Lenz, B. Bartsch-Spörl, H.-D. Burkhard, and
+S. Wess, editors, Case-Based Reasoning Technology from Foundations to Applications, 
+volume 1400 of Lecture Notes on Artificial Intelligence (LNAI), pages
+169—200. Springer, 1998.
+4.	A. Bundy, Stevens A, F. Van Harmelen, A. Ireland, and A. Smaill. A heuristic for
+guiding inductive proofs. Artificial Intelligence, 63:185—253, 1993.
+5.	J.G. Carbonell. Learning by analogy: Formulating and generalizing plans from
+past experience. In R.S. Michaisky, J.G. Carbonell, and T.M. Mitchell, editors,
+Machine Learning: An Artificial Intelligence Approach, pages 137—162. Tioga, Palo
+Alto, 1983.
+6.	K.J. Holyoak, L.R. Novick, and E.R. Melz. Component processes in analogical
+transfer: Mapping, pattern completion, and adaptation. In K.J. Holyoak and J.A.
+Barnden, editors, Advances in Connectionist and Neural Computation Theory, volume 
+2, pages 113—180. Ablex Publishing, 1994.
+7.	S. Kambhampati and B. Srivastava. Universal classical planner: An algorithm for
+unifying state-space and plan-space planning. In M. Ghallab and A. Milani, editors,
+New Directions in AI Planning, pages 61—78. los Press, Amsterdam, Oxford, 1996.
+8.	J. Koehler. Planning from second principles. Artificial Intelligence, 87, 1996.
+9.	Th. Kolbe and Ch. Walther. Reusing proofs. In Proceedings of 11th European
+Conference on Artificial Intelligence (ECAI-94), Amsterdam, 1994.
+10.	Th. Kolbe and Ch. Walther. Second-order matching modulo evaluation — a technique 
+for reusing proofs. In Proceedings of the 14th International Joint Conference
+on Artificial Intelligence, Montreal, 1995. Morgan Kaufmann.
+11.	E. Melis. A model of analogy-driven proof-plan construction. In Proceedings of
+the 14th International Joint Conference on Artificial Intelligence, pages 182—189,
+Montreal, 1995.
+12.	E. Melis. The Heine-Borel challenge problem: In honor of Woody Bledsoe. Journal
+of Automated Reasoning, 20(3):255—282, 1998.
+13.	E. Melis. Proof planning with multiple strategies. In CADE-15 workshop: Strategies
+in Automated Deduction, 1998.
+14.	E. Melis and J. Whittle. Analogy in inductive theorem proving. Journal of Automated 
+Reasoning, 22:2 117—147, 1999.
+15.	S. Minton. Quantitative results concerning the utility of explanation-based learning. 
+Artificial Intelligence, 42:363—391, 1990.
+16.	G. Nelson, P. Thagard, and S. Hardy. Integrating analogy with rules and explanations. 
+In Advances in Connectionist and Neural Computation, Analogical
+Connections, volume 2, pages 181—206. Ablex, 1994.
+17.	A. Tate. Generating project networks. In Proceedings of the Fifth International
+Joint Conference on Artificial Intelligence, pages 888—893. Morgan Kaufmann,
+1977.
+18.	K. VanLehn and R.M. Jones. Better learners use analogical problem solving sparingly. 
+In Proceedings of the Tenth International Conference on Machine Learning,
+pages 338—345, Amherst, MA, 1993. Morgan Kaufmann.
+19.	M.M. Veloso. Planning and Learning by Analogical Reasoning. Springer Verlag,
+Berlin, New York,x 1994.

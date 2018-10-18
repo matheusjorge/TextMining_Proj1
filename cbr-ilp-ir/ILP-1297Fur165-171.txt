@@ -1,0 +1,40 @@
+Induction of Logic Programs with More Than One
+Recursive Clause by Analyzing Saturations
+
+Mitsue Furusawa1, Nobuhiro Inuzuka2, Hirohisa Seki2 and Hidenori Itoh2
+
+1 Mitsubishi Electric Engineering, Higashi-ozone, Kita-ku, Nagoya 462, Japan
+2 Nagoya Institute of Technology, Gokiso-cho, Showa-ku, Nagoya 466, Japan
+E-mail: {inuzuka,seki,itoh}@ics.nitech.ac.jp
+
+
+Abstract. This paper describes a bottom-up ILP algorithm called MRI,
+which induces recursive programs with one or more recursive clauses from
+a few of examples. It analyzes saturations using path structures, which
+express streams of terms processed by predicates and was originally introduced 
+by Identam-Almquist. We introduce extension and difference
+of path structures. Recursive clauses can be expressed as a difference
+among path structures. The paper also shows experimental results.
+References
+
+1.	Quinlan, J. R.: “Learning logical definitions from relations”, Machine Learning, 5,
+pp.239—266 (1990).
+2.	Quinlan, J. R., Cameron-Jones, R. M.: “FOIL: A midterm report”, In P. Brazdil,
+editor, Proc. 6th European Conf. on Machine Learning, LNAI 667, Springer-
+Verlag, pp.3—20 (1993).
+3.	Muggleton, S.: “Inverse entailment and progol”, New Generation Computing, 3+4,
+pp.245—286 (1995).
+4.	Muggleton, S., Feng, C.: “Efficient induction of logic programs”, Proc. Workshop
+on Algorithmic Learning Theory, Ohmsma, Tokyo, pp.368—381 (1990).
+5.	Lapointe, S., Matwin, S.: “A tool for efficient induction of recursive programs”,
+Proc. 11th Int’l Conf. on Machine Learning, Morgan Kaufmann, pp.273—281
+(1992).
+6.	Aha, D. W., Lapointe, S., Ling, C. X., Matwin, S.: “Inverting Implication with
+Small Training Sets”, Proc. 7th European Conf. on Machine Learning, LNAI 784,
+Springer-Verlag, pp.31—48 (1994)
+7.	Aha, D. W., Lapointe, S., Ling, C. X., Matwin, S.: “Learning Recursive Relations
+with Randomly Selected Small Training Sets”, Proc. 11th Int’l Conf. on Machine
+Learning, Morgan Kaufmann, pp.12—18 (1994).
+8.	Idestam-Almquist, P.: “Efficient Induction of Recursive Definitions by Structural
+Analysis of Saturations”, in Advances in Inductive Logic Programming, L.De Raedt
+(ed.), IOS Press Ohmsha, pp.192—205 (1996).

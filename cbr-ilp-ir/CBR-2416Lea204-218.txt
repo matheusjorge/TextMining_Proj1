@@ -1,0 +1,63 @@
+Automatically Selecting Strategies
+for Multi-Case-Base Reasoning*
+
+David B. Leake1 and Raja Sooriamurthi2
+
+1 Computer Science Department, Indiana University, Lindley Hall 215
+150 S. Woodlawn Avenue, Bloomington, IN 47405, U.S.A.
+leake@cs.indiana.edu
+2 Kelley School of Business, Indiana University, BU540,
+1309 East 10th Street, Bloomington, IN 47405, U.S.A.
+raja@indiana.edu
+
+
+
+Abstract. Case-based reasoning (CBR) systems solve new problems by retrieving 
+stored prior cases, and adapting their solutions to fit new circumstances. Traditionally, 
+CBR systems draw their cases from a single local case-base tailored
+to their task. However, when a system’s own set of cases is limited, it may be
+beneficial to supplement the local case-base with cases drawn from external case-bases 
+for related tasks. Effective use of external case-bases requires strategies for
+multi-case-base reasoning (MCBR): (1) for deciding when to dispatch problems
+to an external case-base, and (2) for performing cross-case-base adaptation to
+compensate for differences in the tasks and environments that each case-base reflects. 
+This paper presents methods for automatically tuning MCBR systems by
+selecting effective dispatching criteria and cross-case-base adaptation strategies.
+The methods require no advance knowledge of the task and domain: they perform
+tests on an initial set of problems and use the results to select strategies reflecting
+the characteristics of the local and external case-bases. We present experimental
+illustrations of the performance of the tuning methods for a numerical prediction
+task, and demonstrate that a small sample set can be sufficient to make high-quality
+choices of dispatching and cross-case-base adaptation strategies.
+References
+
+1.	J. Callan. Query-based sampling of text databases. ACM Transactions on Information Systems,
+19(2):97—1 30, 2001.
+2.	A. Doan, P. Domingos, and A. Halevy. Reconciling schemas of disparate data sources: A
+machine learning approach. In Pmceedings of the ACM SIGMOD Conf. on Management of
+Data (SIGMOD -2001), Menlo Park, 2001. ACM Press.
+3.	P. Domingos and G. Hulten. Mining high-speed data streams. In Knowledge Discovery and
+Data Mining, pages 71—80, 2000.
+4.	Conor Hayes, Pádraig Cunningham, and Michelle Doyle. Distributed CBR using XML. In
+Pmceedings of the KI-98 Workshop on Intelligent Systems and Electronic Commerce, 1998.
+5.	D. Leake and R. Sooriamurthi. When two case bases are better than one: Exploiting multiple
+case bases. In Proceedings of the Fourth International Conference on Case-Based Reasoning,
+ICCBR-01, Berlin, 2001. Springer-Verlag.
+6.	D. Leake and R. Sooriamurthi. Managing multiple case-bases: Dimensions and issues. In
+Proceedings of the Fifteenth FLAIRS Conference, pages 106—110, Menlo Park, 2002. AAAI
+Press.
+7.	F. Martin, E. Plaza, and J.-L. Arcos. Knowledge and experience reuse through communications 
+among competent (peer) agents. International Journal of Software Engineering and
+Knowledge Engineering, 9(3):3 19—341, 1999.
+8.	L. McGinty and B. Smyth. Collaborative case-based reasoning: Applications in personalised
+route planning. In Proceedings of the Fourth International Conference on Case-Based Reasoning, 
+Berlin, 2001. Springer Verlag.
+9.	S. Ontañón and E. Plaza. Learning when to collaborate among learning agents. In Machine
+Learning: ECML 2001, pages 395—405, Berlin, 2001. Springer-Verlag.
+10.	E. Plaza and S. Ontañón. Ensemble case-based reasoning: Collaboration policies for multiagent 
+cooperative CBR. In Proceedings of the Fourth International Conference on Case-Based
+Reasoning, ICCBR-01, Berlin, 2001. Springer-Verlag.
+11.	M. V. Nagendra Prasad, V. Lesser, and S. Lander. Reasoning and retrieval in distributed case
+bases. Journal of Visual Communication and Image Representation, 7(1):74—87, 1996.
+12.	D. Wilson and D. Leake. Maintaining case-based reasoners: Dimensions and directions.
+Computational Intelligence, 17(2): 196-213, 2001.

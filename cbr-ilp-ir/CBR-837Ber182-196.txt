@@ -1,0 +1,108 @@
+Explanation-based Similarity:
+A Unifying Approach for Integrating Domain
+Knowledge into Case-based Reasoning for
+Diagnosis and Planning Tasks
+
+Ralph Bergmann, Gerd Pews, Wolfgang Wilke
+
+University of Kaiserslautern
+Dept. of Computer Science
+P.O. Box 3049
+67653 Kaiserslautern, Germany
+E-Mail: {bergmann,pews,wilke}@informatik.uni-kl.de
+
+
+Abstract. Case-based problem solving can be significantly improved
+by applying domain knowledge (in opposition to problem solving knowledge), 
+which can be acquired with reasonable effort, to derive explanations 
+of the correctness of a case. Such explanations, constructed on
+several levels of abstraction, can be employed as the basis for similarity
+assessment as well as for adaptation by solution refinement. The general
+approach for explanation-based similarity can be applied to different real
+world problem solving tasks such as diagnosis and planning in technical
+areas. This paper presents the general idea as well as the two specific,
+completely implemented realizations for a diagnosis and a planning task.
+References
+
+[Aamodt, 1991] Agnar Aamodt. A Knowledge-Intensive, Integrated Approach to Problem 
+Solving and Sustained Learning. PhD thesis, University of Trondheim, 1991.
+[Aamodt, 1993] A. Aamodt. Explanation-driven retrieval, reuse and learning from
+cases. In M. M. Richter, S. Wess, K.D. Althoff, and F. Maurer, editors, Preprints
+of the First European Workshop on Case-Based Reasoning (EWCBR-93), volume II,
+pages 279—284. University of Kaiserslautern (Germany), 1993.
+[Althoff et al., 1992] K.-D. Althoff, Stefan Wess, B. Bartsch-Spörl, D. Janetzko,
+F. Maurer, and A. Voss. Failbasiertes Schliessen in Expertensystemen: Welche Rolle
+spielen Fälle für wissensbasierte Systeme? KI — Künstliche Intelligenz, 92(4), December 
+1992.
+[Bareiss, 1989] Ray Bareiss. Exemplar-Based Knowledge Acquisition: A unified Approach 
+to Concept Representation, Classification and Learning. Academic Press,
+1989.
+[Barletta and Mark, 1988] R. Barletta and W. Mark. Explanation-based indexing of
+cases. In J. Kolodner, editor, Proceedings of the DARPA Workshop on Case-Based
+Reasoning, pages 50—60, San Mateo, California, 1988. Morgan Kaufmann Publishers,
+Inc.
+[Bergmann, 1992] R. Bergmann. Knowledge acquisition by generating skeletal plans.
+In F. Schmalhofer, G. Strube, and Th. Wetter, editors, Contemporary Knowledge
+Engineering and Cognition, pages 125—133, Heidelberg, 1992. Springer.
+[Bergmann, 1993] R. Bergmann. Integrating abstraction, explanation-based learning
+from multiple examples and hierarchical clustering with a performance component
+for planning. In Enric Plaza, editor, Proceedings of the ECML-93 Workshop on
+Integrated Learning Architectures (ILA-93), Vienna, Austria, 1993.
+[Boblin and Kashyap, 1992] 5. Boblin and R. L. Kashyap. Generating fault hypotheses 
+with a functional model in machine-fault diagnosis. Applied Artificial Intelligence,
+6:353—382, 1992.
+[Carbonell, 1986] J. G. Carbonell. Derivational analogy: A theory of reconstructive
+problem solving and expertise aquisition. In R. S. Michalski, J. G. Carbonell, and
+T. M. Mitchell, editors, Machine learning: An artificial intelligence approach, volume 
+2, chapter 14, pages 371—392. Morgan Kaufmann, Los Altos, CA, 1986.
+[Feigenbaum and McCorduck, 1983] E. Feigenbaum and P. McCorduck. The fifth generation. 
+Addison Wesley, Reading MA, 1983.
+[Fikes and Nilsson, 1971] R. E. Fikes and N. J. Nilsson. Strips: A new approach to the
+application of theorem proving to problem solving. Artificial Intelligence, 2:189—208,
+1971.
+[Holte, 1990] R.C. Holte. Commentary to: Protos an exemplar-based learning appren-
+tice. In Y. Kodratoff and R.S. Michalski, editors, Machine Learning: An Artificial
+Intelligence Approach, volume 3, chapter 4, pages 128—139. Morgan Kaufmann Pub-
+lishers, 1990.
+[Janetzko et al., 1992] D. Janetzko, S. Wess, and E. Melis. Goal-driven similarity assessment. 
+In H.J. Ohlbach, editor, GWAI-92 16th German Workshop on Artificial
+Intelligence, volume 671 of Springer Lecture Notes on Al, 1992.
+[Kass and Leake, 1988] Alex M. Kass and David B. Leake. Case-Based Reasoning Applied 
+to Constructing Explanations. In Janet L. Kolodner, editor, Proceedings Case-Based 
+Reasoning Workshop, pages 190—208, San Mateo, California, 1988. Morgan
+Kaufmann Publishers.
+[Knoblock, 1990] C. A. Knoblock. Learning abstraction hierarchies for problem solving. 
+In MIT Press, editor, Proceedings Eighth National Conference on Artificial Intelligence, 
+volume 2, pages 923—928, London, 1990. MIT Press.
+[Kolodner, 1993] Janet L. Kolodner. Case-based reasoning. Morgan Kaufmann, 1993.
+[Koton, 1988] P. Koton. Reasoning about evidence in causal explanations. In
+J.	Kolodner, editor, Proceedings of the DARPA Workshop on Case-Based Reasoning, 
+pages 260—270, San Mateo, California, 1988. Morgan Kaufmann Publishers, Inc.
+[Minton, 1990] 5. Minton. Quantitativ results concerning the utility of explanation-based 
+learning. Artifical Intelligence, 42:363—391, 1990.
+[Mitchell et at., 1986] T. M. Mitchell, R. M. Keller, and S. T. Kedar-Cabelli.
+Explanation-based generalization: A unifying view. Machine Learning, l(1):47—80,
+1986.
+[Newell, 1982] Allen Newell. The knowledge level. Artificial Intelligence, 18:87—127,
+1982.
+[Paulokat and Wess, 1993] Jürgen Paulokat and Stefan Wess. Fallauswahl und fall-
+basierte Steuerung bei der nichtlinearen hierarchischen Planung. In A. Horz, editor,
+Beitr”age zum 7. Workshop Planen und Konfigurieren, number 723 in Arbeitspapiere
+der CMD, pages 109—120, 1993.
+[Pews and Wess, 1993] C. Pews and S. Wess. Combining model-based approaches and
+case-based reasoning for similarity assessment and case adaptation in diagnositc applications. 
+In M. M. Richter, S. Wess, K.D. Althoff, and F. Maurer, editors, Preprints
+of the First European Workshop on Case-Based Reasoning (EWCBR-93,), volume II,
+pages 325—328. University of Kaiserslautern, 1993.
+[Sacerdoti, 1974] E.D. Sacerdoti. Planning in a hierarchy of abstraction spaces. Artificial 
+Intelligence, 5:115—135, 1974.
+[Veloso and Carbonell, 1993] M. M. Veloso and J. G. Carbonell. Towards scaling up
+machine learning: A case study with derivational analogy in PRODIGY. In Steven
+Minton, editor, Machine Learning Methods for Planning, chapter 8, pages 233—272.
+Morgan Kaufmann, 1993.
+[Wielinga et at., 1992] B. Wielinga, W. VandeVelde, G. Schreiber, and H. Akkermans.
+Towards a unification of knowledge modelling approaches. In Proceedings of the 7th
+Banif Knowledge Acquisition for Knowledge-based Systems Workshop, 1992.
+[Wilke, 1993] W. Wilke. Entwurf und Implementierung eines Algorithmus zum wis
+sensintensiven Lernen von Planabstraktionen nach der PABS-Methode. Projektar-beit, 
+Universität Kaiserslautern, 1993.

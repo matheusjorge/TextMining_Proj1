@@ -1,0 +1,42 @@
+A Similarity Metric for Retrieval of Cases
+Imperfectly Explained *
+
+Carlos Bento and Ernesto Costa
+
+Laboratório de Informática e Sistemas - Univ. de Coimbra
+Quinta da Boavista, lote 1, 1º
+3000 Coimbra - PORTUGAL
+E-mail: bento@alma.uc.pt ernesto@moebius.uc.pt
+
+
+
+Abstract. This paper describes a new quantitative similarity metric for
+cases comprising an episode represented by a problem/solution pair and
+an interpretation in the form of a set of imperfect explanations.
+Our explanation-based metric is an alternative to other approaches that
+use case’s explanations for selection and retrieval. We analyse this metric
+and present some examples.
+We describe CLASH, a Case-Based Reasoning Expert System imple-
+mented in PROLOG, which applies this metric. The results provided by
+CLASH are compared with another system based on a different explanation-based 
+metric for case retrieval.
+References
+
+1.	Cain, Timothy, Pazzani, M. 3. and Silverstein, Glenn, Using Domain Knowledge to
+Influence Similarity Judgments, in Proceedings of a Case-Based Reasoning Work-
+shop, Morgan-Kaufmann, 1991.
+2.	Duda, R., Hart, P., Pattern Classification and Scene Analysis, New York: Wiley,
+1973.
+3.	Kolodner, J., Retrieval and Organizational Strategies in Conceptual Memory: A
+Computer Model, Hillsdale, NJ.: Lawrence Eribaum Associates, 1984.
+4.	Koton, Phyllis, Using Experience in Learning and Problem Solving, Massachusets
+Institute of Technology, Laboratory of Computer Science (PhD diss., October 1988),
+MIT/LCS/TR-441, 1989.
+5.	Lebowitz, M., Concept Learning in an Rich Input Domain: Generalization-Based
+Memory, in Michalski, R., Carbonell, 3., and Mitchell T. (Ed.), Machine Learning,
+Vol. 2, Los Altos, Ca.: Morgan Kaufmann Publishers, 1986.
+6.	Riesbeck, C., and R. Schank, Inside Case-Based Reasoning, Lawrence Erlbaum Associates, 
+Hillsdale, NJ, 1989.
+7.	Veloso, M., Learning by Analogical Reasoning in General Problem Solving, Ph D
+thesis, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA,
+August 1992.

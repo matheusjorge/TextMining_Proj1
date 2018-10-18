@@ -1,0 +1,139 @@
+Empirically Validated Web Page Design Metrics
+
+Melody Y. Ivory
+EECS Department
+UC Berkeley
+Berkeley, CA 94720­1776
+ivory@cs.berkeley.edu
+Rashmi R. Sinha
+SIMS/Psychology Department
+UC Berkeley
+Berkeley, CA 94720­5050
+sinha@sims.berkeley.edu
+Marti A. Hearst
+SIMS
+UC Berkeley
+Berkeley, CA 94720­4600
+hearst@sims.berkeley.edu
+
+ABSTRACT
+A quantitative analysis of a large collection of expert­rated
+web sites reveals that page­level metrics can accurately pre­dict 
+if a site will be highly rated. The analysis also pro­vides 
+empirical evidence that important metrics, including
+page composition, page formatting, and overall page char­acteristics, 
+differ among web site categories such as educa­tion, 
+community, living, and finance. These results provide
+an empirical foundation for web site design guidelines and
+also suggest which metrics can be most important for evaluation 
+via user studies.
+
+
+
+
+REFERENCES
+1. Daniel Berleant. Does typography affect proposal as­sessment? 
+Communications of the ACM, 43(8):24--25,
+2000.
+2. Jose A. Borges, Israel Morales, and Nestor J. Ro­driguez. 
+Guidelines for designing usable world wide
+web pages. In Proceedings of ACM CHI 96 Conference
+on Human Factors in Computing Systems, volume 2,
+pages 277--278, 1996.
+3. Giorgio Brajnik. Automatic web usability evaluation:
+Where is the limit? In Proceedings of the 6th Confer­ence on 
+Human Factors and the Web, 2000.
+4. CAST. Bobby. http://www.cast.org/bobby/, 2000.
+5. Ed H. Chi, Peter Pirolli, and James Pitkow. The scent
+of a site: A system for analyzing and predicting infor­mation 
+scent, usage, and usability of a web site. In Pro­ceedings 
+of ACM CHI 00 Conference on Conference on
+Human Factors in Computing Systems, 2000.
+6. Tim Comber. Building usable web pages: An HCI per­spective. 
+In Roger Debreceny and Allan Ellis, editors,
+Proceedings of the First Australian World Wide Web
+Conference AusWeb'95, pages 119--124. Norsearch,
+Ballina, 1995.
+7. Flavio de Souza and Nigel Bevan. The use of guidelines
+in menu interface design: Evaluation of a draft stan­dard. 
+In Proceedings of IFIP INTERACT'90: Human­
+Computer Interaction, Detailed Design: Menus, pages
+435--440, 1990.
+8. M. Carl Drott. Using web server logs to improve site
+design. In ACM 16th International Conference on Sys­tems 
+Documentation, Getting Feedback on your Web
+Site, pages 43--50, 1998.
+9. Peter Faraday. Visually critiquing web pages. In Pro­ceedings 
+of the 6th Conference on Human Factors and
+the Web, 2000.
+10. Jennifer Fleming. Web Navigation: Designing the User
+Experience. O'Reilly & Associates, Sebastopol, CA,
+1998.
+11. Rodney Fuller and Johannes J. de Graaff. Measuring
+user motivation from server log files. In Proceedings of
+the Human Factors and the Web 2 Conference, October
+1996.
+12. Harry Hochheiser and Ben Shneiderman. Understanding 
+patterns of user visits to web sites: Interactive
+starfield visualizations of WWW log data. In Proceed­ings of ASIS '99, 1999.
+13. Melody Y. Ivory, Rashmi Sinha, and Marti A. Hearst.
+Preliminary findings on quantitative measures for dis­tinguishing 
+highly rated information­centric web pages.
+In Proceedings of the 6th Conference on Human Fac­tors and the Web, 2000.
+14. Karen Kukich. Beyond automated essay scoring. IEEE
+Intelligent Systems, 15(5):22--27, September/October
+2000.
+15. Jonas Lowgren and Tommy Nordqvist. Knowledge­
+based evaluation as design support for graphical user
+interfaces. In Proceedings of ACM CHI'92 Conference
+on Human Factors in Computing Systems, pages 181--
+188, 1992.
+16. Patrick J. Lynch and Sarah Horton. Web Style Guide:
+Basic Design Principles for Creating Web Sites. Yale
+University Press, 1999.
+17. Nomos Management. WAMMI web usability qusetion­
+naire. http://www.nomos.se/wammi, 1999.
+18. Jakob Nielsen. The alertbox: Current issues in web
+usability. http://www.useit.com/alertbox.
+19. Jakob Nielsen. Designing Web Usability: The Practice
+of Simplicity. New Riders Publishing, Indianapolis, IN,
+2000.
+20. The International Academy of Arts and Sciences. The
+webby awards 2000 judging criteria.
+http://www.webbyawards.com/judging/criteria.html,
+2000.
+21. Julie Ratner, Eric M. Grose, and Chris Forsythe. Char­acterization 
+and assessment of HTML style guides. In
+Proceedings of ACM CHI 96 Conference on Human
+Factors in Computing Systems, volume 2, pages 115--
+116, 1996.
+22. Jean Scholtz and Sharon Laskowski. Developing us­
+ability tools and techniques for designing and testing
+web sites. In Proceedings of the 4th Conference on Hu­man 
+Factors & the Web, 1998.
+23. Rashmi Sinha, Melody Y. Ivory, and Marti A. Hearst.
+Content or graphics? an empirical analysis of criteria
+for award­winning websites. Submitted for publication,
+2001.
+24. Sidney L. Smith. Standards versus guidelines for de­signing 
+user interface software. Behaviour and Infor­mation Technology, 5(1):47--61, 1986.
+25. Lincoln D. Stein. The rating game. http://stein.cshl.org/
+lstein/ rater/, 1997.
+26. Terry Sullivan. Reading reader reaction: A proposal for
+inferential analysis of web server log files. In Proceedings 
+of the Human Factors and the Web 3 Conference,
+Practices & Reflections, June 1997.
+27. Yin Leng Theng and Gil Marsden. Authoring tools: To­wards 
+continuous usability testing of web documents.
+In Proceedings of the 1st International Workshop on
+Hypermedia Development, 1998.
+28. Harold Thimbleby. Gentler: A tool for systematic web
+authoring. International Journal of Human­-Computer
+Studies, 47(1):139--168, 1997.
+29. Web Criteria. Max, and the objective measurement of
+web sites. http://www.webcriteria.com, 1999.
+30. Xiaolan Zhu and Susan Gauch. Incorporating quality
+metrics in centralized/distributed information retrieval
+on the world wide web. In Proceedings of the 23rd An­nual 
+International ACM/SIGIR Conference, pages 288--
+295, Athens, Greece, 2000.

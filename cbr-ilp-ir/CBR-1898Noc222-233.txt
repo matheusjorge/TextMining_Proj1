@@ -1,0 +1,75 @@
+A Symmetric Nearest Neighbor Learning Rule
+
+Richard Nock1, Marc Sebban1, arid Pascal Jappy2
+
+1 Université des Antilles-Guyane, TRIVIA-Dept of Maths and CS
+
+97159 Pointe-A-Pitre, France
+{rnock,msebban}@univ-ag.fr
+2 Université des Antilles-Guyane, Lab. of Tropical Atlimosphere Physics
+97159 Pointe-A-Pitre, France
+dbernardl@univ-ag.fr
+
+
+
+Abstract. In this paper, we propose a thorough investigation of a nearest 
+neighbor rule wbich we call the “Symmetric Nearest Neighbor (sNN)
+rule”. Basically, it symmetrises the classical nearest neighbor relationship
+from which are computed the points voting for some instance. Experiments 
+on 29 datasets, most of which are readily available, show that
+thc method significantly outperforms the traditional Nearest Neighbors
+methods. Experiments on a domain of interest related to tropical pollution 
+normalization also show the greater potential of this method. We
+finally discuss the reasons for the mule’s efficiency, provide methods for
+speeding-up the classification time, and derive from the sNN rule a reliable 
+and fast algorithm to fix the parameter k in the k-NN rule, a
+longstanding problem in this field.
+References
+
+1.	D. Bernard. Metals in sediments from two lagoons off guadeloupe, west indies.
+Marine Pollution Bulletin, 30:619—621, 1995.
+2.	C. Blake, B. Keogh, and C.J. Merz. UCI repository of machine learning databases.
+1998. http://www.ics.uci. edu/~mlearn/MLRepository.html.
+
+3.	W. Buntine and T. Niblett. A further comparison of splitting rules for Decision-Tree 
+ind uction. Machine Learning, pages 75—85, 1992.
+4.	T. Cover and P. E. Hart. Nearest Neighbor pattern classification. IEEE Transactions 
+on Information Theory, pages 21—27, 1967.
+5.	J. A. Drakopoulos. Bounds on the classification Error of the Nearest Neighbor
+Rule. In Proc. of the 12 th International Conference on Machine Learning, pages
+203—208, 1995.
+6.	E. Fix and J. L. Hodges. Discrimatory analysis, nonparametric discrimination.
+Technical Report TR-21-49-004, Rept 4, USAF School of Aviation Medicine, Randolph Field, TX, 1951.
+7.	J. 11. Freidman, J. L. Baskett, and L. J. Shustek. An algorithm for finding nearest
+neighbors. IEEE trans. on Computers, 1975.
+8.	J. II. Freidman, J. L. Bentley, and R. A. Finkel. An algorithm for finding best
+matches in logarithmic expected time. ACM Trans, on Math. Software, 1977.
+9.	J. H. Friedman. Flexible metric nearest neighbor classification. Technical report,
+Stanford University Dept of Statistics, 1994.
+10.	G. W. Gates. The Reduced Nearest Neighbor rule. IEEE Trans. on Inf. Theory,
+pages 431—433, 1972.
+11.	P. F. Hart. The Condensed Nearest Neighbor rule. IEEE Trans. on Inf. Theory,
+pages 515--516, 1968.
+12.	D. Harwood, S. Subbarao, H. Hakalahti, and L. S. Davis. A new class of edge-preserving 
+smoothing filters. Pattern Recognition Letters, pages 155--162, 1987.
+13.	T. Hastie and R. Tibshirani. Discriminant adaptive nearest neighbor classification.
+IEEE PA MI, pages 607—615, 1996.
+14.	R. Meir and R. R. Snapp. Local polynomial models for classification. Draft, 1998.
+15.	S. Okanioto and N. Yugami. Theoretical analysis of the nearest neighbor classifier
+in noisy domains. In Proc. of the 13 th International Conference on Machine
+Learning, pages 355—363, 1996.
+16.	A. M. Palau and R. Snapp. The labeled cell classifier: a fast approximation to
+k nearest neighbors. In Proc. of the 14 th International Conference on Pattern
+Recognition, volume 1,1998.
+17.	R. R. Snapp and S. S. Venkatesh. Asymptotic derivation of the finite-sample risk of
+the k nearest neighbor classifier. Technical Report UVM-CS-1998-0101, University
+of Vermont, Burlington, 1998.
+18.	S. S. Venkatesh, R. R. Snapp, and D. Psaltis. BELLMAN STRIKES AGAIN! the
+growth rate of sample complexity with dimension for the nearest neighbor classifier,
+In Proc. of the 5th International Conference on Computational Learning Theory,
+pages 93—102, 1992.
+19.	R. D. Wilson and T. R. Martinez, Instance Pruning Techniques. In Proc. of the
+14 th International Conference on Machine Learning, pages 404—411, 1997.
+20.	P. N. Yanilos. Data structures and algorithms for nearest neighbor search in general
+metric spaces. In Proc. of the 5th ACM-SIAM Symposium on Discrete Algorithms,
+1993.

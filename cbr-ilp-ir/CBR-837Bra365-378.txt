@@ -1,0 +1,53 @@
+The Application of Case-Based Reasoning to the Tasks of Health Care
+Planning
+
+
+Carol Bradburn
+Department of Computer Science
+Royal Melbourne Institute of Technology
+Australia.
+
+and
+
+John Zeleznikow
+Department of Computer Science and Computer Engineering
+La Trobe University
+Bundoora, Victoria. Australia
+and
+Katholike Universitest Brabant
+Tilburg, Netherlands.
+
+
+Abstract. This paper describes an application of case-based reasoning in the field of health care
+planning. The process is modelled in the FLORENCE expert system, an experimental prototype
+which models the reasoning of an expert clinician in advising on the three basic planning tasks of
+diagnosis, prognosis and prescription within a nursing domain. We have developed an empirical
+approach. Both role-based and caae-based reasoning are used where appropriate. It has been found
+that caae-based reasoning is especially appropriate to Situations where decisions must be made about
+the progress of cases over time.
+References
+
+[1] Hirsch,M., Chang,B. and Gilbert,S. (1989) A computer program to support patient assessment and
+clinical decision making in nursing education. Computers in Nursing Vol.7, No.4. 157-160.
+
+[2] Roth,K., DiStefano,J. and Chang,B. (1989) CANDI: development of the automated nursing
+assessment tooL Computers in Nursing Vol.7, No.5. 222-227.
+
+[3] Chang,B., Roth,K., Gonzales,E., Caswell,D. and DiStefano,J. (1988) CANDI: a knowledge based
+system for nursing diagnosis. Computers in Nursing Vol.6, No.1. 13-21.
+
+[4] Nightingale,F. (1957) Notes on nursing. Philadelphia: Lipincott Publishing Company. (originally
+published, 1859)
+[5] Fagan,L., Kunz,C., Feienbaum,E. and Osborn.J. (1984) Extensions to the rule-based formalism for a
+monitoring task in Buchanan, B and Shortliffe,E. (lids) Rule based expert systems. Reading,
+Massachusetts:	Addison-Wesley Pub.Co. (pp397-423)
+
+[6] Kahn,M., Ferguson,J., Shortliffe,E. and Fagan,L. (1985) Representation and use of temporal
+informatlon in ONCOCIN. in Proceedings of the Ninth Annual Symposium on Computer Appications in
+Medical Care (Baltimore) Nov 10-13), p.172-176.
+
+[7] Koton,P (1988) Using experience in earning and problem solving (PhD thesis) Massachusetts Institute
+of Technology.
+
+[8] Gordon.M. (1987) Nursing diagnosis: process and application (2nd edn.) New York: McGraw-Hill
+Book Company.

@@ -1,0 +1,88 @@
+Learning Horn Definitions with Equivalence and
+Membership Queries
+
+Chandra Reddy & Prasad Tadepalli
+
+Dearborn 303, Department of Computer Science
+Oregon State University, Corvallis, OR-97331. USA
+Phone: +1 541 753 2770; Fax: +1 541 737 3014
+{reddyc, tadepalli}@cs.orst.edu
+
+
+Abstract. A Horn definition is a set of Horn clauses with the same head
+literal. In this paper, we consider learning non-recursive, function-free
+first-order Horn definitions. We show that this class is exactly learnable
+from equivalence and membership queries. It follows then that this class
+is PAC learnable using examples and membership queries. Our results
+have been shown to be applicable to learning efficient goal-decomposition
+rules in planning domains.
+References
+
+[Ackerman & Kanfer, 1993] Ackerman, P., and Kanfer, R. 1993. Kanfer-Ackerman
+Air Traffic Control Task® CD-ROM Database, Data-CoLlection Program, and Playback 
+Program. Dept. of Psychology, Univ. of Minn., Minneapolis, MN.
+[Angluin, Frazier, & Pitt, 19921 Angluin, D.; Frazier, M.; and Pitt, L. 1992. Learning
+conjunctions of horn clauses. Machine Learning 9:147—164.
+[Angluin, 1988] Angluin, D. 1988. Queries and concept learning. Machine Learning
+2:319—342.
+[Cohen, 1995a] Cohen, W. 1995a. Pac-learning non-recursive prolog clauses. Artificial
+Intelligence 79(1):1—38.
+[Cohen, 1995b] Cohen, W. 1995b. Pac-learning recursive logic programs: efficient
+algorithms. Jl. of AI Research 2:500—539.
+[Cohen, 1995c] Cohen, W. 1995c. Pac-learning recursive logic programs: negative
+results. Jl. of AI Research 2:541—573.
+[De Raedt & Bruynooghe, 1992] De Raedt, L., and Bruynooghe, M. 1992. Interactive
+concept learning and constructive induction by analogy. Machine Learning 8(2):107—
+150.
+[Dzeroski, Muggleton, & Russell, 1992] Dzeroski, S.; Muggleton, S.; and Russell, S.
+1992. Pac-learnability of determinate logic programs. In Proceedings of the Fifth
+Annual ACM Workshop on Computational Learning Theory, 128—135.
+[Erol, Hendler, & Nau, 1994] Erol, K.; Hendler, J.; and Nau, D. 1994. HTN planning:
+complexity and expressivity. In Proceedings of the Twelfth National Conference on
+Artificial Intelligence (AAAI-94). AAAI Press.
+[Fikes, Hart, & Nilsson, 1972] Fikes, R.; Hart, P.; and Nilsson, N. 1972. Learning and
+executing generalized robot plans. Artificial Intelligence 3:251—288.
+[Frazier & Pitt, 1993] Frazier, M., and Pitt, L. 1993. Learning from entailment: An
+application to propositional Horn sentences. In Proceedings of the Tenth International
+Conference on Machine Learning, 120—127.
+[Frazier & Pitt, 1996] Frazier, M., and Pitt, L. 1996. CLASSIC learning. Machine
+Learning 26:151—194.
+[Haussler, 1989] Haussler, D. 1989. Learning conjunctive concepts in structural domains. 
+Machine Learning 4:7—40.
+[Kietz & Lübbe, 1994] Kietz, J.-U., and Lübbe, M. 1994. An efficient subsumption
+algorithm for inductive logic programming. In Proceedings of the Eleventh International
+ Conference on Machine Learning, 130-138.
+[Kowalski, 1970] Kowalski, R. 1970. The case for using equality axioms in automatic
+demonstration. In Lecture Notes in Mathematics, volume 125. Springer-Verlag.
+[Lassez, Maher, & Marriott, 1988] Lassez, J.-L.; Maher, M.; and Marriott, K. 1988.
+Unification revisited. In Minker, J., ed., Foundations of Deductive Databases and
+Logic Programming. Morgan Kaufmann.
+[Lloyd, 1987] Lloyd, J. 1987. Foundations of Logic Programming (2nd ed.). Berlin:
+Springer-Verlag.
+[Mitchell, Utgoff, & Banerji, 1983] Mitchell, T.; Utgoff, P.; and Banerji, R. 1983.
+Learning by experimentation: Acquiring and refining problem-solving heuristics. In
+Michalski, R., and et al., eds., Machine learning: An artificial intelligence approach,
+volume 1. Morgan Kaufmann.
+[Muggleton & Feng, 1990] Muggleton, S., and Feng, C. 1990. Efficient induction of
+logic programs. In Proceedings of the First Conference on Algorithmic Learning
+Theory, 368—381. Ohmsha/Springer-Verlag.
+[Nienhuys-Cheng & de Wolf, 1996] Nienhuys-Cheng, S.-H., and de Wolf, R. 1996.
+Least generalizations and greatest specializations of sets of clauses. Jl. of AI Research 
+4:341—363.
+[Page, 1993] Page, C. 1993. Anti- Unification in Constraint Logics: Foundations and
+Applications to Learnability in First-Order Logic, to Speed-up Learning, and to Deduction. 
+Ph.D. Dissertation, University of Illinois, Urbana, IL.
+[Plotkin, 1970] Plotkin, G. 1970. A note on inductive generalization. In Meltzer,
+B., and Michie, D., eds., Machine Intelligence, volume 5. New York: Elsevier North-Holland. 
+153—163.
+[Reddy & Tadepalli, 1997a] Reddy, C., and Tadepalli, P. 1997a. Inductive logic programming 
+for speedup learning. To appear in IJCAI-97 workshop on Frontiers of
+ILP.
+[Reddy & Tadepalli, 1997b] Reddy, C., and Tadepalli, P. 1997b. Learning goal-decomposition 
+rules using exercises. In Proceedings of the 14th International Conference 
+on Machine Learning. Morgan Kaufmann.
+[Reddy, Tadepalli, & Roncagliolo, 1996] Reddy, C.; Tadepalli, P.; and Roncagliolo, S.
+1996. Theory-guided empirical speedup learning of goal-decomposition rules. In Proceedings 
+of the 13th International Conference on Machine Learning, 409—417. Morgan
+Kaufmann.
+[Schapire, 1990] Schapire, R. 1990. The strength of weak learnability. Machine Learning 5:197—227.

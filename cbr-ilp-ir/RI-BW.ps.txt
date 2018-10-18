@@ -1,0 +1,127 @@
+Separating the Power of Monotone Span Programs
+over Different Fields
+
+Amos Beimel  Enav Weinreb y
+
+Abstract
+Monotone span programs are a linear­algebraic model
+of computation. They are equivalent to linear secret shar­ing 
+schemes and have various applications in cryptogra­phy 
+and complexity. A fundamental question is how the
+choice of the field in which the algebraic operations are
+performed effects the power of the span program. In this
+paper we prove that the power of monotone span programs
+over finite fields of different characteristics is incompara­ble; 
+we show a super­polynomial separation between any
+two fields with different characteristics, answering an open
+problem of Pudl’ ak and Sgall 1998. Using this result we
+prove a super­polynomial lower bound for monotone span
+programs for a function in uniform NC 2 (and therefore
+in P), answering an open problem of Babai, Wigderson,
+and G’ al 1999. (All previous lower bounds for monotone
+span programs were for functions not known to be in P.) Fi­nally, 
+we show that quasi­linear schemes, a generalization
+of linear secret sharing schemes introduced in Beimel and
+Ishai 2001, are stronger than linear secret sharing schemes.
+In particular, this proves, without any assumptions, that
+non­linear secret sharing schemes are more efficient than
+linear secret sharing schemes.
+
+
+References
+[BDHM92] G. Buntrock, C. Damm, U. Hertrampf, and
+C. Meinel. Structure and importance of the
+logspace­mod class. Math. Systems Theory,
+25:223--237, 1992.
+[Ber84] S. J. Berkowitz. On computing the deter­minant 
+in small parallel time using a small
+number of processors. Inform. Process. Lett.,
+18:147--150, 1984.
+[BF92] L. Babai and P. Frankl. Linear Algebra Meth­ods 
+in Combinatorics. University of Chicago,
+1992. Preliminary Version 2.
+[BGP97] A. Beimel, A. G’al, and M. Paterson. Lower
+bounds for monotone span programs. Com­putational Complexity, 6(1):29--45, 1997.
+[BGW99] L. Babai, A. G’al, and A. Wigderson. Super­
+polynomial lower bounds for monotone span
+programs. Combinatorica, 19(3):301--319,
+1999.
+[BI99] E. Ben­Sasson and R. Impagliazzo. Random
+CNF's are Hard for the Polynomial Calculus.
+In 40th FOCS, pages 415--421, 1999.
+[BI01] A. Beimel and Y. Ishai. On the power of non­
+linear secret­sharing. In Conf. on Computa­tional Complexity, pages 188 -- 202, 2001.
+[Bla79] G. R. Blakley. Safeguarding cryptographic
+keys. In Proc. of the 1979 AFIPS Na­tional Computer Conference, volume 48 of
+AFIPS Conference proceedings, pages 313--
+317. AFIPS Press, 1979.
+[BSS89] L. Blum, M. Shub, and S. Smale. On a theory
+of computation and complexity over the real
+numbers; NP completeness, recursive func­tions and 
+universal machines. Bulletin of the
+AMS (new series), 21(1):1--46, 1989.
+[CDM00] R. Cramer, I. Damgšard, and U. Maurer. Gen­eral 
+secure multi­party computation from any
+linear secret­sharing scheme. In B. Preneel, 
+editor, Advances in Cryptology -- EURO­
+CRYPT 2000, volume 1807 of LNCS, pages
+316--334. Springer, 2000.
+[DKMW03] C. Damm, M. Krause, C. Meinel, and
+S. Waack. On relations between counting
+communication complexity classes. J. of Computer 
+and System Sciences, 2003. To ap­
+pear. Prelimenary version: STACS '92.
+[G’al98] A. G’al. A characterization of span program
+size and improved lower bounds for monotone
+span programs. In 30th STOC, pages 429--
+437, 1998.
+[GR01] C. Godsil and G. Royle. Algebraic Graph
+Theory, volume 207 of Graduate Texts in
+Mathematcs. Springer, 2001.
+[ISN87] M. Ito, A. Saito, and T. Nishizeki. Secret shar­ing 
+schemes realizing general access struc­ture. 
+In Proc. of the IEEE Global Telecommu­nication Conf., Globecom 87, pages 99--102,
+1987. Journal version: Multiple Assignment
+Scheme for Sharing Secret. J. of Cryptology,
+6(1):15­20, 1993.
+[Juk01] S. Jukna. Extremal Combinatorics with Ap­plications 
+in Computer Science. Texts in The­oretical 
+Comp. Sci. Springer­Verlag, 2001.
+[KN97] E. Kushilevitz and N. Nisan. Communication
+Complexity. Cambridge Univ. Press, 1997.
+[KW93] M. Karchmer and A. Wigderson. On span pro­grams. 
+In Proc. of the 8th Structure in Com­
+plexity Theory, pages 102--111, 1993.
+[MS82] K. Mehlhorn and E. M. Schmidt. Las vegas is
+better than determinism in vlsi and distributed
+computing. In Proc. of the 14th STOC, pages
+330--337, 1982.
+[Mul87] K. Mulmuley. A fast parallel algorithm to
+compute the rank of a matrix over an arbitrary
+field. Combinatorica, 7:101--104, 1987.
+[NPR99] M. Naor, B. Pinkas, and O. Reingold. Dis­tributed 
+pseudo­random functions and KDCs.
+LNCS, 1592:327--337, 1999.
+[PS98] P. Pudl’ak and J. Sgall. Algebraic models
+of computation and interpolation for alge­braic 
+proof systems. In Proof Complexity and
+Feasible Arithmetic, volume 39 of DIMACS
+Series in Discrete Mathematics and Theor.
+Comp. Sci., pages 279--296. AMS, 1998.
+[Raz90] A. A. Razborov. Applications of matrix meth­ods 
+to the theory of lower bounds in computa­tional complexity. Combinatorica, 10(1):81--
+93, 1990.
+[Sha79] A. Shamir. How to share a secret. Communi­cations 
+of the ACM, 22(11):612--613, 1979.
+[Sim92] G. J. Simmons. An introduction to shared se­cret 
+and/or shared control and their applica­tion. 
+In G. J. Simmons, editor, Contempo­rary 
+Cryptology, The Science of Information
+Integrity, pages 441--497. IEEE Press, 1992.
+[Smo87] R. Smolensky. Algebraic methods in the the­ory 
+of lower bounds for boolean circuit com­plexity. 
+In Proceedings of the 19th STOC, pages 77--82, 1987.
+[Sti92] D. R. Stinson. An explication of secret sharing
+schemes. Designs, Codes and Cryptography,
+2:357--390, 1992.
+

@@ -1,0 +1,105 @@
+An Automated Hybrid CBR System
+for Forecasting *
+
+Florentino Fdez-Riverola1, Juan M. Corchado2, and Jesús M. Torres3
+
+1 Dpto. de Informática, E.S.E.I., University of Vigo,
+Campus Universitario As Lagoas s/n., 32004, Ourense, Spain
+riverola@uvigo.es
+2 Dpto. de Informática y Automática, University of Salamanca,
+Facultad de Ciencias, Plaza de la Merced, s/n., 37008, Salamanca, Spain
+corchado@usal.es
+3 Dpto. de Física Aplicada, University of Vigo,
+Facultad de Ciencias, Lagoas Marcosende, 36200, Vigo, Spain
+jesu@uvigo.es
+
+
+
+Abstract. A hybrid neuro-symbolic problem solving model is presented
+in which the aim is to forecast parameters of a complex and dynamic
+environment in an unsupervised way. In situations in which the rules
+that determine a system are unknown, the prediction of the parameter
+values that determine the characteristic behaviour of the system can be a
+problematic task. The proposed system employs a case-based reasoning
+model that incorporates a growing cell structures network, a radial basis
+function network and a set of Sugeno fuzzy models to provide an accurate
+prediction. Each of these techniques is used in a different stage of the
+reasoning cycle of the case-based reasoning system to retrieve, to adapt
+and to review the proposed solution to the problem. This system has
+been used to predict the red tides that appear in the coastal waters of
+the north west of the Iberian Peninsula. The results obtained from those
+experiments are presented.
+References
+
+1.	Nakhaeizadeh, G.: Learning prediction of time series. A theoretical and empirical
+comparison of CBR with some other approaches. In Proceedings of First European
+Workshop on Case-Based Reasoning, EWCBR-93. Kaiserslautern, Germany.(1993)
+65—76
+2.	Lendaris, G. G., and Fraser, A. M.: Visual Fitting and Extrapolation. In Weigend,
+A. S., and Fershenfield, N. A. (Eds.). Time Series Prediction, Forecasting the Future 
+and Understanding the Past. Addison Wesley. (1994) 35-46
+3.	Faltings, B.: Probabilistic Indexing for Case-Based Prediction. In Proceedings of
+Case-Based Reasoning Research and Development, Second International Conference, 
+ICCBR-97. Provindence, Rhode Island, USA. (1997) 611—622
+4.	Lekkas, G. P., Arouris, N. M., Viras, L. L.: Case-Based Reasoning in Environmental
+Monitoring Applications. Artificial Intelligence, 8, (1994) 349—376
+5.	Mcintyre, H. S., Achabal, D. D., Miller, C. M.: Applying Case-Based Reasoning to
+Forecasting Retail Sales. Journal of Retailing, 69, num. 4, (1993) 372—398
+6.	Stottler, R. H.: Case-Based Reasoning for Cost and Sales Prediction. Al Expert,
+(1994) 25—33
+7.	Weber-Lee, R., Barcia, R. M., and Khator, S. K.: Case-based reasoning for cash
+flow forecasting using fuzzy retrieval. In Proceedings of the First International
+Conference, ICCBR-95. Sesimbra, Portugal, (1995) 510—519
+8.	Fyfe C., and Corchado J. M.: Automating the construction of CBR Systems using
+Kernel Methods. International Journal of Intelligent Systems, 16, num. 4, (2001)
+571—586
+9.	Corchado, J. M., and Lees, B.: Adaptation of Cases for Case-based Forecasting with
+Neural Network Support. In Pal, S. K., Dilon, T. S., and Yeung, D. S. (Eds.). Soft
+Computing in Case Based Reasoning. London: Springer Verlag, (2000) 293—319
+10.	Pal, S. K., Dilon, T. S., and Yeung, D. S.: Soft Computing in Case Based Reasoning.
+Springer Verlag: London, (2001)
+11.	Corchado, J. M., Lees, B.: A Hybrid Case-based Model for Forecasting. Applied
+Artificial Intelligence, 15, num. 2, (2001) 105—127
+12.	Corchado, J. M., Lees, B., Aiken, J.: Hybrid Instance-based System for Predicting 
+Ocean Temperatures. International Journal of Computational Intelligence and
+Applications, 1, num. 1, (2001) 35—52
+13.	Corchado, J. M., Aiken, J., Rees, N.: Artificial Intelligence Models for Oceanographic 
+Forecasting. Plymouth Marine Laboratory, U.K., (2001)
+14.	Fritzke, B.: Growing Self-Organizing Networks-Why?. In Verleysen, M. (Ed.). European 
+Symposium on Artificial Neural Networks, ESANN-96. Brussels, (1996)
+61—72
+15.	Fritzke, B.: Fast learning with incremental RBF Networks. Neural Processing Letters, 
+1, num. 1, (1994) 2—5
+16.	Jin, Y., Seelen, W. von., and Sendhoff, B.: Extracting Interpretable Fuzzy Rules
+from RBF Neural Networks. Internal Report IRINI 00-02, Institut für Neuroinformatik, 
+Ruhr-Universität Bochum, Germany, (2000)
+17.	Fritzke, B.: Growing Cell Structures - A Self-organizing Network for Unsupervised
+and Supervised Learning. Technical Report, International Computer Science Institute. Berkeley, (1993)
+18.	Azuaje, F., Dubitzky, W., Black, N., and Adamson, K.: Discovering Relevance
+Knowledge in Data: A Growing Cell Structures Approach. IEEE Transactions on
+Systems, Man and Cybernetics, 30, (2000) 448—460
+19.	Takagi, T., Sugeno, M.: Fuzzy identification of systems and its applications to
+modeling and control. IEEE Transactions on Systems, Man, and Cybernetics, 15,
+(1985) 116—132
+20.	Setnes, M., Babuska, R., Kaymak, U., and van Nauta, H. R.: Similarity measures
+in Fuzzy Rule Base Simplification. IEEE Transactions on systems, Man, and Cybernetics, 
+28, num. 3, (1998) 376—386
+21.	Tomczak, M., Godfrey, J. S.: Regional Oceanographic: An Introduction. Pergamon,
+New York, (1994)
+22.	Fernández, E.: Las Mareas Rojas en las Rías Gallegas. Technical Report, Department 
+of Ecology and Animal Biology. University of Vigo, (1998)
+23.	Hallegraeff, G. M.: A review of harmful algal blooms and their apparent global
+increase. Phycologia, 32, (1993) 79—99
+24.	Kamykowski, D.: The simulation of a southern California red tide using characteristics 
+of a simultaneously-measured internal wave field. Ecol. Model., 12, (1981)
+253—265
+25.	Watanabe, M., Harashima, A.: Interaction between motile phytoplankton and
+Langmuir circulation. Ecol. Model., 31, (1986) 175-183
+26.	Franks, P. J. S., Anderson, D. M.: Toxic phytoplankton blooms in the southwestern
+Gulf of Maine: testing hypotheses of physical control using historical data. Marine
+Biology, 112, (1992) 165—174
+27.	Anderson, D. M.: Toxic algal blooms and red tides: a global perspective. In Okaichi,
+T., Anderson, D. M., and Nemoto, T. (Eds.). RedTides: Biology, Enviromnental
+Science and Toxicology. New York: Elsevier, (1989) 11—16
+28.	Corchado, J. M., Fyfe, C.: Unsupervised Neural Network for Temperature Forecasting. 
+Artificial Intelligence in Engineering, 13, num. 4, (1999) 351—357

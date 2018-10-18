@@ -1,0 +1,99 @@
+Maintenance of a Case-Base for the Retrieval of
+Rotationally Symmetric Shapes for the Design of
+Metal Castings
+
+Tony Mileman, Brian Knight, Miltos Petridis, Keith Preddy, and Patrick Mejasson
+
+University of Greenwich, School of Computing and Mathematics,
+Park Row, Greenwich, London SE10 9LS UK
+{b.knight,m.petridis}@greenwich.ac.uk
+
+
+
+Abstract: In this paper, we discuss the problem of maintenance of a
+CBR system for retrieval of rotationally symmetric shapes. The special
+feature of this system is that similarity is derived primarily from graph
+matching algorithms. The special problem of such a system is that it
+does not operate on search indices that may be derived from single
+cases and then used for visualisation and principle component analyses.
+Rather, the system is built on a similarity metric defined directly over
+pairs of cases. The problems of efficiency, consistency, redundancy,
+completeness and correctness are discussed for such a system.
+Performance measures for the CBR system are given, and the results for
+trials of the system are presented. The competence of the current case-
+base is discussed, with reference to a representation of cases as points in
+an n-dimensional feature space, and a Gramian visualisation. A
+refinement of the case base is performed as a result of the competence
+analysis and the performance of the case-base before and after
+refinement is compared.
+References
+
+1.	Campbell, J. “Castings”, Buttterworth-Heinemann, 1991
+2.	Jolly, M. “Overview and appraisal of numerical analysis software for the
+simulation of casting processes”, BICTA bulletin 3, 1996
+3.	Mavis, Diana. Aiphacast software Ltd, England
+4.	Simular. Aluminium Pechiney, Aluval, BP27 38340 Voreppe, France
+5.	SOLSTAR. Corbett, C. F. “Right first time.. .with Solstar”, Foundry Practice,
+Number 218, December, 1989
+6.	AutoCAD. Autodesk Inc. USA.
+7.	Knight, B; Cowell, D.; Preddy, K. “An object-oriented support tool for the
+design of casting procedures”, In Engineering Applications of Artificial
+Intelligence, Volume.8, Number 5, pp: 56 1-567, 1995
+8.	NovaCast: Sillen, R. “Using artificial intelligence in the foundry”, Modem
+Casting, December, 1991
+9.	Ravi, B. “Computer-Aided Casting Design - Past, Present and Future”, Special
+Issue of Indian Foundry Journal, January, 1999
+10.	See p. 374, Marir, F; Watson, I. “Case-based reasoning: a categorized
+bibliography”, The Knowledge Engineering Review, Vol.9: 4, pp: 355-381,
+1994
+11.	Raphael, B; Kumar, B. “Indexing and retrieval of cases in a case-based design
+system”, Artificial Intelligence for Engineering Design. Analysis and
+Manufacturing, 10, pp: 47-63, 1996
+12.	Hennessy, D; Hinkle, D. “Applying case-based reasoning to autoclave loading”,
+IEEE Expert, pp: 2 1-26, October 1992
+13.	Kumar H. S.; Krishnamoorthy, C. S. “Case-based reasoning in bridge design”,
+pp: 197-205, Advances in Computational Structures Technology, Civil-Comp
+Press, Edinburgh, 1996
+14.	Yeh, I. “Case-Based approaches for preliminary design of steel building
+frames”, Microcomputers in Civil Engineering, 12, pp: 327-337, 1997
+15.	Gebhardt, F. “Survey on structure-based case retrieval”, The Knowledge
+Engineering Review, Vol.12: 1, pp: 41-58, 1997
+16.	Price, C. I.; Peglar, I. S.; Ratcliffe, M. B.; McManus, A. “From troubleshooting
+to process design: closing the manufacturing ioop”, Lecture Notes in Artificial
+Intelligence. 1266, Case-based reasoning research and development. Springer-
+Verlag, 1997
+17.	Biederman, I.; Hummel, J. E.; Cooper, B. B.; Gerhardstein, P. C. “From image
+edges to geons to viewpoint invariant object models: A neural net
+implementation”, Applications of Artificial Intelligence X: Machine vision and
+robotics, 1992
+18.	Wlodawer, R “Directional solidification of steel castings”, Pergamon, Oxford,
+1967
+19.	Coulon, C. H. “General geometric and topological retrieval and adaptation
+(Topo)”. In Bomo, K, editor, Modulus for design support, Vol. 35 of Fabel
+report, pp: 3 3-445, GMD, Sankt Augustin, 1995
+20.	Tammer, B. C; Steinhofel, K; Schoner, 5; Matuschek, D. “Anwendung des
+Konzepts der strutrellen Almlichkeit zum Fallvergleich mitterls Term- und
+Graph-representationen”, Fabel report, 38, GMD, Sankt Augustin, 1995
+21.	Bunke, H; Messmer, B. T. “Similarity measures for structured representations”.
+In Burkhard, H. D. and Lenz, M, editors, Topics in Case-Based reasoning: First
+European workshop, EWCBR-93, selected papers; Lecture notes in Artificial
+intelligence, 837, pp: 106-118, Springer-Verlag. 1994
+22.	Guida, G; Maui, 6. “Evaluating performance and quality of knowledge-based
+systems: foundation and methodology”, IEEE Transactions on Knowledge and
+Data Engineering, 5, 2, pp: 204-224, April 1993
+23.	Preece, A. D. “Towards a methodology for evaluating expert system”, Expert
+Systems, 7(5), pp: 14-20, 1992
+24.	Racine, K; Yang, Q. “Maintaining unstructured case.” Proceedings of the 2nd
+International Conference of Case-Based Reasoning, pp: 553-564, RI, USA,
+1997
+25.	Smyth, B. “Case-Based Maintenance”, Proceedings of the 11 th International
+Conference on Industrial & Engineering Applications of At & Expert Systems.
+Springer-Verlag, 1998
+26.	Price, C. J.; Peglar, I. S. “Deciding parameter values with case-based
+reasoning”, Progress in case-based reasoning (ed. Ian D. Watson), Springer-
+Verlag, pp: 121-133, 1995
+27.	See page 123. Price, C. J.; Peglar, I. S.; Bell, F. Case based reasoning in the
+melting pot, Int. Journal of Applied Expert Systems, vol.1, no.2, pp: 120-133,
+1993
+28.	Hennessy, D; Hinkle, D. “Applying case-based reasoning to autoclave loading”,
+IEEE Expert. pp: 21- 26, October 1992

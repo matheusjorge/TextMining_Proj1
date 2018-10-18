@@ -1,0 +1,87 @@
+Learning Structurally Indeterminate Clauses
+
+Jean-Daniel Zucker, Jean-Gabriel Ganascia
+
+LIP6-CNRS, Université Paris VI, 4, Place Jussieu
+F-75252, Paris Cedex 05, FRANCE
+{Jean-Daniel.Zucker,Jean-Gabriel.Ganascia}@lip6.fr
+
+
+
+Abstract. This paper describes a new kind of language bias, S-structural
+indeterminate clauses, which takes into account the meaning of predicates that
+play a key role in the complexity of learning in structural domains. Structurally
+indeterminate clauses capture an important background knowledge in structural
+domains such as medicine, chemistry or computational linguistics: the
+specificity of the component/object relation. The REPART algorithm has been
+specifically developed to learn such clauses. Its efficiency lies in a particular
+change of representation so as to be able to use propositional learners. Because
+of the indeterminacy of the searched clauses the propositional learning problem
+to be solved is a kind of Multiple-Instance problem. Such reformulations may
+be a general approach for learning non determinate clauses in ILP. This paper
+presents original results discovered by REPART that exemplify how ILP
+algorithms may not only scale up efficiently to large relational databases but
+also discover useful and computationally hard-to-learn patterns.
+References
+
+1.	Suen, C., Computational Analysis of Mandarin. Interdisciplinary System
+Research. 1972: Birkhäuser.
+2.	De Raedt, L. and L. Dehaspe, Clausal discovery. Machine Learning Journal, 1996.
+26(3): p. 99-145.
+3.	Zucker, J.-D., J.-G. Ganascia, and I. Bournaud, Relational Knowledge Discovery
+in a Chinese Characters Database. Applied Artificial Intelligence, 1998. 12(5) to
+appear.
+4.	Kietz, J.-U. and S. Wrobel, Controlling the Complexity of Learning in Logic
+through Syntactic and Task-Oriented Models, in Inductive Logic Programming, S.
+Muggleton, Editor. 1992, Harcourt Brace Jovanovich: London. p. 335-359.
+5.	Muggleton, S. and L. De Raedt, hductive Logic Programming: Theory and
+Methods. Journal of Logic Programming, 1994. 19(20): p. 629-679.
+6.	Nédellec, C., C. Rouveirol, H. Adé, F. Bergadano, and B. Tausend, Declarative
+Bias in ILP, in Advances in Inductive Logic Programming, L. De Raedt, Editor.
+1996, IOS Press. p. 82-103.
+7.	Srinivasan, A., S. Muggieton, M.E. Sternberg, and R.D. King. Mutagenesis: ILP
+experiments in a non-determinate biological domain, in Fourth International
+Workshop on Inductive Logic Programming (ILP-94). 1994. Bonn, Germany.
+8.	Muggleton, S. and C. Feng, Efficient Induction of logic program, in Inductive
+Logic Programming, S. Muggleton, Editor. 1992, Harcourt Brace Jovanovich:
+London. p. 28 1-298.
+9.	Cohen, W. Pac-learning Nondeterminate Clauses, in Twelth National Conference
+on Artificial Intelligence. 1994.
+10.	Dzeroski, S., S. Muggleton, and S. Russell. Pac-learning of determinate logic
+programs. in of the Workshop on Computational Learning Theory. 1992.
+Pittsburgh, Pennsylvania.
+11.	Lavrac, N. and S. Dzeroski, Inductive Logic Programming: Techniques and
+Ap p lications. Artificial intelligence. 1994: Ellis Horwood.
+12.	Cohen, W. Rapid Prototyping of ILP Systems Using Explicit Bias. in IJCAI
+Workshop on inductive logic programming. 1993.
+13.	Quinlan, J.-R., Learning Logical Definitions from Relations. Machine Learning,
+1990(5): p. 239-266.
+14.	Silverstein, G. and M.J. Pazzani. Relational clichés: Constraining constructive
+induction during relational learning. in 8th IWML. 1991: Morgan Kaufmann.
+15.	Pompe, U., I. Kokonenko, and T. Makse. An application of ILP in a musical
+database: Learning to compose the two-voice contrepoint. in Data Mining with
+Inductive Logic Programming. 1996. Barn, Italy.
+16.	Pazzani, M.J., C.A. Brunk, and G. Silverstein. A knowledge intensive approach to
+relational concept learning, in 8th IWML. 1991: Morgan Kaufmann.
+17.	Sebag, M. and C. Rouveirol, Tractable Induction and Classification in First Order
+Logic. in Fifteenth International Joint Conference on Artificial Intelligence,
+IJCAI’97. 1997. Nagoya, Japan: Morgan Kaufmann.
+18.	Giordana, A., F. Neri, L. Saitta, and M. Botta, Integrating multiple learning
+strategies in first order logics. Machine Learning, 1997. 27: p. 209-240.
+19.	Muggleton, S. and A. Srinivasan, Mode-directed inverse resolution, in Machine
+Intelligence, Michie et al. Editors. 1994, Oxford University Press.
+20.	Cohen, W. Learnability of Restricted Logic Programs. in IJCAI, Workshop on
+ILP, 1993. Chambery, France.
+21.	Chaffin, R. and D. Herrmann, The nature of semantic relations, in Relational
+Models of the Lexicon, M. evens, Editor. 1988, Cambridge University Press:
+Cambridge. p. 289-334.
+22.	Zucker, J.-D. and J.-G. Ganascia. Changes of Representation for Efficient
+Learning in Structural Domains. in International Conference in Machine Learning.
+1996. Bari, Italy: Morgan Kaufmann.
+23.	Kramer, S. Stochastic propositionalization of non-determinate background
+knowledge. in IJCAI-97 Workshop on Frontiers of Inductive Logic
+Programming, 1997. 1997. Nagoya, Japan.
+24.	Dietterich, T., R. Lathinop, and T. Lozano-Perez, Solving the Multiple-Instance
+Problem with Axis-Parallel Rectangles. Artificial Intelligence, 1996. 89(1-2).
+25.	Ganascia, J.-G. CHARADE: A rule System Learning System. in the tenth
+International Jointed Conference in Artificial Intelligence. 1987. Milan, Italy.

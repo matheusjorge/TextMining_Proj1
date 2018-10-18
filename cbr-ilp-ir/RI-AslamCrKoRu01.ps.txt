@@ -1,0 +1,66 @@
+Using Mobile Agents for Analyzing Intrusion in Computer Networks #
+
+Jay Aslam Marco Cremonini David Kotz Daniela Rus +
+Department of Computer Science, Institute for Security Technology Studies
+Dartmouth College
+Hanover, NH 03755
+
+Today hackers disguise their attacks by launching
+them form a set of compromised hosts distributed
+across the Internet. It is very dificult to defend
+against these attacks or to track down their origin.
+Commercially available intrusion detection systems
+can signal the occurrence of limited known types of at­
+tacks. New types of attacks are launched regularly but
+these tools are not effective in detecting them. Human
+experts are still the key tool for identifying, tracking,
+and disabling new attacks. Often this involves experts
+from many organizations working together to share
+their observations, hypothesis, and attack signatures.
+Unfortunately, today these experts have few tools that
+help them to automate this process.
+In this project we recognize that human experts
+will remain a critical part in the process of identi­fying, 
+tracking and disabling computer attacks. We
+also recognize that an important part of the discov­ery, 
+analysis, and defense against new distributed at­
+tacks is the cooperation that occurs between experts
+across different organizations. Many installations do
+not have the expertise necessary to develop full attack
+analyses. Our goal is to build automated tools for
+computer experts and system administrators to:
+. identify the characteristics of an attack given data
+from network sensors
+. develop a hypothesis about the nature and origin
+of the attack
+. share that hypothesis with security managers
+from other sites
+. test that hypothesis at those other sites and co­
+ordinate the results of testing
+. archive the data necessary for use as evidence in
+later law­enforcement actions
+
+References
+[APR99] J. Aslam, K. Pelekhov, and D. Rus, ``A
+practical clustering algorithm for static and dy­namic 
+information organization'', Proc. of the
+1999 Symposium on Discrete Algorithms.
+[KGNRCC] R. Gray, D. Kotz, S. Nog, D. Rus, S.
+Chawla, and G. Cybenko, ``Agent Tcl: Targeting
+the needs of mobile computers'' IEEE Internet
+Computing, 4(1) 58­68, July­August 1997.
+[RGK97c] D. Rus, R. Gray, and D. Kotz, ``Trans­portable 
+Information Agents'', Intelligent Infor­mation 
+Systems, vol 9. pp 215­238, 1997.
+[NN00] S. Northcutt, and J. Novak, Network Intru­sion 
+Detection: An Analyst's Handbook, 2nd Edi­tion, 
+New Riders Publishing. 2000.
+[NCFF01] S. Northcutt, M. Cooper, M. Fearnow, and
+K. Frederick, Intrusion Signatures and Analysis,
+New Riders Publishing, February 2001.
+[SMK00] J. Scambray, S. McClure, and G. Kurtz ,
+Hacking Exposed, 2nd Edition, McGraw Hill, Oc­tober 2000.
+[VK99] G. Vigna, and R. A. Kemmerer, ``NetSTAT:
+A Network­based Intrusion Detection System'', J.
+of Computer Security, 7(1), pp 37­71, 1999.
+

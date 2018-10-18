@@ -1,0 +1,91 @@
+Perspectives: A Declarative Bias Mechanism
+for Case Retrieval *
+
+Josep Lluís Arcos and Ramon López de Mántaras
+
+
+IIIA, Artificial Intelligence Research Institute
+CSIC, Spanish Council for Scientific Research
+Campus UAB, 08193 Bellaterra, Catalonia, Spain.
+{arcos ,mantaras}@iiia.csic.es
+
+
+
+Abstract. The aim of this paper is to present a mechanism, called perspectives, 
+to describe declarative biases for case retrieval in structured
+representations of cases. Our approach is based on the observation that,
+in complex tasks, the identification of the relevant aspects for retrieval
+in a given situation may involve the use of knowledge intensive methods.
+This identification process requires dynamical decisions about the relevant 
+aspects of a problem and usually forces to consider non predefined
+retrieval indexes in the memory of cases. Declarative biases provide a
+flexible way of constructing dynamical perspectives for retrieval in the
+memory of cases. We have implemented the notion of perspectives in a
+reflective object-centered representation language, called Noos, based on
+feature terms. Finally, we have used perspectives as declarative biases for
+retrieval in the Saxex application, a complex real-world case-based reasoning 
+system for generating expressive performances of melodies based
+on examples of human performances that are represented as structured
+cases.
+References
+
+1.	Agnar Aamodt and Enric Plaza. Case-based reasoning: Foundational issues,
+methodological variations, and system approaches. Artificial Intelligence Communications, 
+7(1):39—59, 1994.
+2.	Hassan Aït-Kaci and Andreas Podeiski. Towards a meaning of LIFE. J. Logic
+Programming, 16:195—234, 1993.
+3.	Josep Lluís Arcos. Saxex: un sistema de raonament basat en casos per a
+l’expressivitat musical. Master’s thesis, Institut Universitari de l’Audiovisual. Universitat 
+Pompen Fabra, 1996.
+4.	Josep Lluís Arcos, Ramon López de Mántaras, and Xavier Serra. Saxex : a case-based 
+reasoning system for generating expressive performances. In International
+Computer Music Conference (ICMC’97), 1997.
+5.	Josep Lluís Arcos and Enric Plaza. Integration of learning into a knowledge modelling 
+framework. In Luc Steels, Guss Schreiber, and Walter Van de Velde, editors,
+A Future for Knowledge Acquisition, number 867 in Lecture Notes in Artificial
+Intelligence, pages 355—373. Springer-Verlag, 1994.
+6.	Josep Lluís Arcos and Enric Plaza. Inference and reflection in the object-centered
+representation language Noos. Journal of Future Generation Computer Systems,
+12:173—188, 1996.
+7.	Josep Lluís Arcos and Enric Plaza. Noos: an integrated framework for problem
+solving and learning. In Knowledge Engineering: Methods and Languages, 1997.
+8.	Eva Armengol and Enric Plaza. Induction of feature terms with INDIE. In M. van
+Someren and G. Widmer, editors, Machine Learning: ECML-97, Lecture Notes in
+Artificial Intelligence. Springer-Verlag, 1997.
+9.	L. Karl Branting and David W. Aha. Stratified case-based reasoning: Reusing
+hierarchical problem solving episodes. In IJ CA 1-95, pages 384—390, 1995.
+10.	B. Carpenter. The Logic of typed Feature Structures. Tracts in theoretical Computer 
+Science. Cambridge University Press, Cambridge, UK, 1992.
+11.	Friedrich Gebhardt. Methods and systems for case retrieval exploiting the case
+structure. Tecbnical report, GMD, 1995. FABEL-Report N.39.
+12.	B.P. Kettler, J.A. Hendler, W.A. Andersen, and M.P. Evett. Massively parallel
+support for case-based planning. IEEE Expert, 9:8—14, 1994.
+13.	Fred Lerdahl and Ray Jackendoff. An overview of hierarchical structure in music.
+In Stephan M. Schwanaver and David A. Levitt, editors, Machine Models of Music.
+1993. Reproduced from Music Perception.
+14.	Luís Macedo, Francisco C. Pereira, Garlos Grilo, and Amficar Cardoso. Plans
+as structured networks of hierarchically and temporally related case pieces. In
+Third European Workshop on Case-Based Reasoning EWCBR-96, Lecture Notes
+in Artificial Intelligence, pages 234—248. Springer Verlag, 1996.
+15.	Héctor Muñoz-Avila and Jochem Huellen. Retrieving cases in structured domains
+by using goal dependences. In Manuela Veloso and Agnar Aamodt, editors, Case-Based 
+Reasoning, ICCBR-95, number 1010 in Lecture Notes in Artificial Intelligence, 
+pages 241—252. Springer-Verlag, 1995.
+16.	Eugene Narmour. The Analysis and cognition of basic melodic structures : the
+implication-realization model. University of Chicago Press, 1990.
+17.	Enric Plaza. Gases as terms: A feature term approach to the structured representation 
+of cases. In Manuela Veloso and Agnar Aamodt, editors, Case-Based
+Reasoning, ICCBR-95, number 1010 in Lecture Notes in Artificial Intelligence,
+pages 265—276. Springer-Verlag, 1995.
+18.	K.E. Sanders, B.P. Kettler, and J.A. Hendler. The case for structured-based representations. 
+Technical report, University of Maryland, 1995.
+19.	Xavier Serra. Musical sound modelling with sinusoids plus noise. In G. De Poll,
+A. Picialli, S. T. Pope, and C. Roads, editors, Musical Signal Processing. Swets
+and Zeitlinger Publishers, 1996. (in Press).
+20.	Luc Steels. Components of expertise. AI Magazine, 11(2):28—49, 1990.
+21.	Gerhard Widmer. Learning expressive performance: The structure-level approach.
+Journal of New Music Research, 25 (2):179—205, 1996.
+22.	Bob Wielinga, Walter van de Velde, Guss Schreiber, and H. Akkermans. Towards a
+unification of knowledge modelling approaches. In J. M. David, J. P. Krivine,
+R. Simmons, editors, Second generation Expert Systems, pages 299—335. Springer
+Verlag, 1993.

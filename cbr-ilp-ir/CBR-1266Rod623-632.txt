@@ -1,0 +1,71 @@
+A Probabilistic Model for Case-Based Reasoning
+
+
+Andrés F. Rodríguez1, Sunil Vadera1 and L. Enrique Sucar2
+
+1 University of Salford
+Department of Mathematics and Computer Science
+Salford, M5 4WT,
+{A.Rodriguez / S.Vadera}@cms.salford.ac.uk
+2 ITESM - Campus Morelos
+AP C-99, Cuernavaca, Mor., 62020, Mexico
+esucar@campus.mor.itesm.mx
+
+
+Abstract. An exemplar-based model with foundations in Bayesian networks 
+is described. The proposed model utilises two Bayesian networks:
+one for indexing of categories, and another for identifying exemplars
+within categories. Learning is incrementally conducted each time a new
+case is classified. The representation structure dynamically changes each
+time a new case is classified and a coverage function is used as a basis
+for selecting suitable exemplars. Finally, a simple example is given to
+illustrate the concepts in the model.
+References
+
+1.	D.W. Aha. Case-based learning algorithms. In Proc. of the DARPA Case-Based
+Reasoning Workshop, pages 147—158, Washington, D.C.: Morgan Kaufmann, 1991.
+2.	D.W. Aha and L.W. Chang. Cooperative bayesian and case-based reasoning for
+solving multiagent planning tasks. Technical Report AIC-96-005, Navy Center
+for Applied Research in Al Naval Research Laboratory, Washington, DC, U.S.A.,
+1996.
+3.	R. Bareiss. Exemplar-based knowledge acquisition. A unified approach to concept
+representation, classification, and learning. Academic Press Inc., Harcourt Brace
+Jovanovich Publishers, San Diego, Calif., U.S.A., 1989.
+4.	H.W. Beck, T. Anwar, and S.B. Navathe. A conceptual clustering algorithm for
+database schema design. IEEE Transaction on Knowledge and Data Engineering,
+6(3):396—411, 1994.
+5.	Y. Biberman. The role of prototypicality in exemplar-based learning. In Nada
+Lavrac and Stefan Wrobel, editors, Proc. Machine Learning: ECML-95, 8th Eu-
+ropean Conference on Machine Learning, pages 77—91, Heraclion, Crete, Greece,
+1995.
+6.	J.S. Breese and D. Heckerman. Decision-theoretic case-based reasoning. In Proc.
+of the Fifth International Workshop on Artificial Intelligence and Statistics, pages
+56—63, Ft. Lauderdale, U.S.A., 1995.
+7.	L. Chang and P. Harrison. A case-based reasoning testbed for experiments in
+adaptive memory retrieval and indexing. In D.H. Aha and A. Ram, editors, Proc.
+of the AAAI fall Symposium on Adaptation of Knowledge for Reuse, Menlo Park:
+AAAI Press., 1995.
+8.	T. Dean, J. Allen, and Y. Aloimonos. Artificial Intelligence theory and practice.
+The Benjamin/Cummings Publishing Company, Inc., Redwood City, Calif., U.S.A.,
+1995.
+9.	D.L. Medin and M.M. Schaffer. Contex theory of clasification learning. Psychological 
+Review, 85:207—238, 1978.
+10.	S. Minton, J.G. Carbonell, C.A. Knoblock, D.R. Kuokka, 0. Etzioni, and Y. Gil.
+Explanation-based learning: a problem solving perspective. In Jaime Carbonell,
+editor, Machine Learning: Paradigms and Methods, pages 63—118. MIT/Elsevier
+Science, Cambridge, Massachusetts, U.S.A., 1990.
+11.	P. Myllymäki and H. Tirri. Massively parallel case-based reasoning with probabilistic 
+similarity metrics. In Klauss-Dieter Althoff Stefan Wess and Michael M.
+Ritcher, editors, Topics in Case-Based Reasoning, pages 144—154. Volume 837,
+Lecture Notes in Artificial Intelligence. Springer Verlag, 1994.
+12.	J. Pearl. Probabilistic reasoning in intelligent systems. Morgan Kaufmann, Palo
+Alto, Calif., U.S.A., 1988.
+13.	B.W. Porter, R. Bareiss, and R.C. Holte. Concept learning and heuristic classification 
+in weak-theory domains. Artificial Intelligence, University of Texas, Austin
+Texas, U.S.A., (45):229—263, 1990.
+14.	E. Rosch and C.B. Mervis. Family resemblance studies in the internal structure of
+categories. Cognitive Psychology, (7):573—605, 1975.
+15.	E. Smith and D. Medin. Categories and concepts. Cambride: Harvard University
+Press, U.S.A., 1981.
+16.	H. Tirri, P. Kontkanen, and P. Myllymäki. A bayesian framework for case-based
+reasoning. In Proc. of the 3rd European Workshop on Case-based Reasoning, Lansanne, Switzerland, 1996.

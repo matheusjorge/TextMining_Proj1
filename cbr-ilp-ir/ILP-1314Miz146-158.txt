@@ -1,0 +1,58 @@
+Learning Rules That Classify Ocular Fundus
+Images for Glaucoma Diagnosis
+
+Fumio Mizoguchi1, Hayato Ohwada1, Makiko Daidoji1 and Shiroteru Shirato2
+
+1 Science University of Tokyo
+Noda, Chiba 278, Japan
+2 Department of Ophthalmology,
+University of Tokyo, Japan
+
+
+Abstract. This paper provides an empirical study of an Inductive Logic
+Programming (ILP) method through the application to classifying ocular
+fundus images for glaucoma diagnosis. Key issues in this study are not
+only dealing with low-level measurement data such as image, but also
+producing diagnostic rules that are readable and comprehensive for 
+interactions to medical experts. For this purpose, we develop a 
+constraint-directed ILP system, GKS, that handles both symbolic and numerical
+data, and produce Horn clauses with numerical constraints. Furthermore,
+we provide GKS with a “sequential” learning facility where GKS 
+repeatedly generates a single best rule which becomes background knowledge
+for the next learning phase. Since the learning target for this application
+is the abnormality of each segment in image, generated rules represent
+the relationships between abnormal segments. Since such relationships
+can be interpreted as qualitative rules and be used as diagnostic rules 
+directly, the present method provides automatic construction of knowledge
+base from expert’s accumulated diagnostic experience. Furthermore, the
+experimental result shows that induced rules have high statistical 
+performance. The present study indicates the advantage and possibility of
+the ILP approach to medical diagnosis from measurement data.
+References
+
+[Quinlan, 1992] Quinlan.J.R., 04.5: Programs for Machine Learning, Morgan 
+Kaufmann, San Mateo,California, 1992.
+[Quinlan, 1993] Quinlan.J.R.,Cameron-Jones.R.M, FOIL: A midterm report, Proc. of
+European Conference on Machine Learning, Springer Verlag, pp.3-20, 1993.
+[Kitazawa, 1981] Kitazawa Y., Sbirato S., Mizoguchi F., A new Computer-Aided 
+Glaucoma Consultation System (G4-Expert), Royal Society of Medicine International
+Congress and Symposium Series, No.44, pp.161-168, 1981.
+[Lloyd, 1984] Foundations of Logic Programming, Springer-Verlag, 1984.
+[Mizoguchi, 1994] Mizoguchi F., Ohwada H., Constrained Relative Least General 
+Generalization for Inducing Constraint Logic Programs, New Generation Computing,
+Vol.13, No.3,4, pp. 335-368, 1995.
+[Mizoguchi, 1995] Mizoguchi F., Ohwada H., Using Inductive Logic Programming for
+Constraint Acquisition in Constraint-based Problem Solving, Proc. of the 5th 
+International Workshop on Inductive Logic Programming, Vol.13, 1995.
+[Muggleton, 1991] Muggleton, S., Inductive Logic Programming, New Generation
+Computing, Vol. 8, No. 4, pp.295-318, 1991.
+[Muggleton, 1992] Muggleton, S., King, R. and Sternberg, M., Protein secondary 
+structure prediction using logic-based machine learning, Protein Engineering, Vol. 5, No.
+7, pp. 647-657, 1992.
+[Muggleton, 1995] Muggleton, S., Inverse Entailment and Progol, New Generation
+Computing, Vol. 13, No.3,4, pp.245-286, 1995.
+[Hiraki, 1991] Hiraki K., J. Genneri, Yamamoto Y., Anzai Y., Learning Spatial 
+Relations from Images, Proc. of 8th International Workshop on Machine Learning,
+pp.407-411, 1991.
+[Weiss, 1990] Weiss, S. M., Galen, R. S. and Tadepalli, P., Maximizing the Predictive
+Value of Production Rules, Artificial Intelligence, Vol. 45, pp. 47-71, 1990.

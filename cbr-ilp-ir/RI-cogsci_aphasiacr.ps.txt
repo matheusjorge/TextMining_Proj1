@@ -1,0 +1,144 @@
+Self­Organising Networks for Classification Learning from Normal and
+Aphasic Speech
+
+Sheila Garfield, Mark Elshaw and Stefan Wermter
+University of Sunderland
+Informatics Centre, SCET
+St. Peter's Way
+Sunderland SR6 0DD, United Kingdom
+Email: Stefan.Wermter@sunderland.ac.uk
+Phone: +44 191 515 3279
+Fax: +44 191 515 3553
+
+Abstract
+An understanding of language processing in humans is
+critical if realistic computerised systems are to be pro­duced 
+to perform various language operations. The ex­amination 
+of aphasia in individuals has provided a large
+amount of information on the organisation of language
+processing, with particular reference to the regions in the
+brain where processing occurs and the ability to regain
+language functionality despite damage to the brain. Given
+the importance played by aphasic studies an approach that
+can distinguish between aphasic forms was devised by
+using a Kohonen self­organising network to classify sen­tences 
+from the CAP (Comparative Aphasia Project) Cor­pus. 
+We demonstrate that the different distributions of
+words in aphasics types may lead to grammatical systems
+which inhabit different areas in self­organising maps.
+
+
+References
+Anderson, B. Kohonen neural networks and language.
+Brain and Language, 70:86--94, 1999.
+Basso, A., Gardelli, M., Grassi, M. & Mariotti, M. The
+role of the right hemisphere in recovery from aphasia:
+Two case studies. Cortex, 25:555--566, 1989.
+Bates, E., Friederici, A. & Wulfeck, B. Grammatical
+morphology in aphasia: Evidence from three lan­guages. 
+Cortex 23:545--574, 1987a.
+Bates, E., Friederici, A. & Wulfeck, B. Sentence com­prehension 
+in aphasia: A cross­linguistic study. Brain
+and Language, 32:19--67, 1987b.
+Binder, J., & Frost, J., Hammeke, T., Cox, R., Rao, S.
+& Prieto, T. Human brain language areas identified by
+functional magnetic resonance images. The Journal of
+Neuroscience, 17(1):280--288, 1997.
+Brendt, R. & Caramazza, A. How regular is sentence
+comprehension in broca's aphasia? it depends on
+how you select the patients. Brain and Language,
+64(2):231--256, 1999.
+Capp, S., Perani, D., Grassi, F., Bressi, S., Alberoni, M.,
+Franceschi, M., Bettinardi, V., Todde, S. & Frazio,
+F. A PET Follow­up Study of Recovery after Stroke
+in Acute Aphasics. Brain and Language, 56:55--67,
+1997.
+Chen, S. & Bates, E. The dissociation between nouns
+and verbs in Broca's and Wernicke's aphasia: Findings
+from Chinese. Aphasiology, 12(1):5--36, 1998.
+Dodel, S., Hermann, J. & Geisel, T. Stimulus­
+independent data analysis of fMRI data. In Wermter,
+S., Austin, J. & Willshaw, D., editors, EmerNet: In­ternational 
+Workshop on Emergent Neural Computa­
+tional Architectures Based on Neuroscience, pages 7--
+10. EmerNet, 1999.
+Elman J. Finding structures in time. Cognitive Science,
+14:179--211, 1990.
+Grodzinsky, Y., Pi˜nango, M., Zurif, E. and Drai, D.
+The Critical Role of Group Studies in Neuropsychol­
+ogy: Comprehension Regularities in Broca's Aphasia,
+Brain and Language, 67:134--147, 1999.
+Hartsuiker, R. & Kolk, H. Syntactic Facilitation in
+agrammatic sentences production. Brain and Lan­guage, 62:221--254, 1998.
+Hecht­Nielsen, R. Neurocomputing. Addison ­Wesley,
+Reading MA, 1990.
+Karbe, H., Thiel, A., Weber­Luxenburger, G., Herholz,
+K. & Heiss, W. Brain plasticity in poststroke apha­sia: 
+What is the contribution of the right hemisphere?
+Brain and Language, 64:215--230, 1998.
+Kohonen, T. Self­Organizing Maps. Springer Verlag,
+Heidelberg, 1997.
+Marshall, J., Pring, T. & Chait, S. Verb Retrieval and
+Sentence Production in Aphasia. Brain and Language,
+63(2):159--183, 1998.
+Mimura, M., Kato, M., Kato, M., Santo, Y., Kojima, T.
+and Naeser, M. and Kashima, T. Prospective and Ret­rospective 
+Studies of Recovery in Aphasia: Changes
+in Cerebral Blood Flow and Language Functions.
+Brain, 121: 2083--2094, 1998.
+Papke, K., Hellmann, T., Renger, B., Morgenroth, C.,
+Knecht, S., Schuierer, G. & Reimer, P. Clinical appli­cations 
+of functional MRI at 1.0 t: motor and language
+studies in healthy subjects and patients. European Ra­diology, 9(2):211--220, 1999.
+Raichle, M., Fiez, J., Videen, T., MacLeod, A., Pardo, J.,
+Fox, P. & Petersen, S. Practice­related changes in hu­man 
+brain functional­anatomy during nonmotor learn­ing. Cerebral Cortex, 4(1):34--54, 1994.
+Reggia, J., Shkuro, Y. & Shevtsova, N. Emergent 
+Spe­cialization in Cerebral Regional Modules. In Wermter,
+S., Austin, J. & Willshaw, D., editors, Proceedings of
+the Third International Workshop on Computational
+Architectures Intergrating Neural Networks and Neu­roscience, 
+pages 11--14. EmerNet, 2000.
+Reilly, R. Collaborative cell assemblies: Building blocks
+of cortical computation. In Wermter, S., Austin, J. &
+Willshaw, D., editors, In Emergent Neural Computa­tional 
+Architectures based on Neuroscience, Springer­
+Verlag, Heidelberg, Germany, 2001.
+Shaywitz, B., Shaywitz, S., Pugh, K., Constable, R.,
+Skudlarski, P., Fulbright, R., Bronen, R., Fletcher, J.,
+Shankweiler, D., Katz, L. & Gore, J. Sex differences in
+the functional organisation of the brain for language.
+Nature, 373(6515):607--609, 1995.
+Spitzer, M. The Mind Within the Net: Models of Learn­ing, 
+Thinking and Acting. MIT Press, Cambridge,
+MA, 1999.
+Taylor, J. Images of the mind: brain images and neural
+networks. In Wermter, S., Austin, J. & Willshaw, D.,
+editors, Proceedings of the International Workshop on
+Emergent Neural Computational Architectures based
+Neuroscience, pages 1--6. EmerNet, 1999.
+Weiller, C., Isensee, C., Rijnties, M., Huber, W., M˜uller
+S., Bier, D., Dutschka, K., Woods, P., Noth, J. &
+Diener, C. Recovery from Wernicke's aphasia: A
+positron emissions tomographic study. American Neu­rological 
+Association, 37(6):723--732, 1995.
+Wermter, S., Panchev, C. & Houlsby, J. Language disor­ders 
+in the brain: Distinguishing aphasia forms with
+recurrent networks. In AAAI99 Conference Workshop
+on Neuroscience and Neural Computation, pages 93--
+98, 1999.
+Wermter S. & Meurer M. Building Lexical Representa­tions 
+Dynamically Using Artificial Neural Networks.
+Proceedings of the International Conference of the
+Cognitive Science Society, pages 802--807, Stanford,
+1997.
+Wermter, S. and Sun, R. Hybrid Neural Systems
+Springer­Verlag, Heidelberg, 2000.
+Xiong, J., Rao, S., Gao, J., Woldorff, M. & Fox, P. Eval­uation 
+of hemispheric dominance for language using
+functional MRI: A comparison with positron emis­sion 
+tomography. Human Brain Mapping, 6:367--389,
+1998.
+Zurif, E., Swinney, D., Prather, P., Solomon, J. &
+Bushell, C. An on­line analysis of syntatic processing
+in Broca's and Wernicke's aphasia. Brain and Lan­guage, 45:448­464, 1993.

@@ -1,0 +1,69 @@
+Parallel Web Text Mining for Cross-Language IR
+
+Jiang Chen and Jian-Yun Nie
+Departement d'Informatique et Recherche Operationnelle
+Universite de Montreal
+C.P. 6128, succursale CENTRE-VILLE
+Montreal (Quebec), Canada H3C 3J7
+fchen, nieg@iro.umontreal.ca
+February 24, 2000
+
+Abstract
+One of the approaches to cross-language information retrieval (CLIR) is based on the use of parallel 
+texts. In this paper, we will describe a parallel text mining system called PTMiner (Parallel
+Text Miner) for the Web environment. We will explain the underlying mining algorithm of this
+system as well as its implementation using a distributed model and database technology. The
+resulted corpora are used as the training material for statistical translation models. Preliminary
+experimental results using the models for CLIR are reported.
+
+References
+Anonymous. 1999a. New search engine to snare all the Web. http://techweb.com
+/wire/story/TWB19990809S0002, August.
+Anonymous. 1999b. Sunrain.net - English-Chinese dictionary.
+http://sunrain.net/r ecdict e.htm.
+Balabanovic, M., Yoav Shoham, and Y. Yun. 1995. An adaptive agent for automated web
+browsing. Journal of Visual Communication and Image Representation, 6(4).
+Brown, C. M., B. B. Danzig, D. Hardy, U. Manber, and M. F. Schwartz. 1994. The harvest 
+information discovery and access system. In Proc. 2nd International World Wide Web
+Conference.
+Brown, P. F., J. C. Lai, and R. L. Mercer. 1991. Aligning sentences in parallel corpora. In 29th
+Annual Meeting of the Association for Computational Linguistics, pages 89{94, Berkeley,
+Calif.
+Brown, P. F., S. A. Della Pietra, V. J. Della Pietra, and R. L. Mercer. 1993. The mathematics
+of machine translation: Parameter estimation. Computational Linguistics, 19:263{311.
+Chen, S. F. 1993. Aligning sentences in bilingual corpora using lexical information. In Proceedings 
+of the 31th Annual Meeting of the Association for Computational Linguistics, pages
+9{16, Columbus, Ohio.
+Denisowski, Paul. 1999. Cedict (chinese-english dictionary) project.
+http://www.mindspring.com/ paul denisowski/cedict.html.
+Doorenbos, R. B., O. Etzioni, and D. S. Weld. 1996. A scalable comparison shopping agent
+for the World Wide Web. Technical Report Technical Report 96-01-03, Dept. of Computer
+Science and Engineering, University of Washington.
+Gale, William A. and Kenneth W. Church. 1991. A program for aligning sentences in bilingual
+corpora. In Proceedings of the 29th Annual Meeting of the Association for Computational
+Linguistics, pages 177{184, Berkeley, Calif.
+Isabelle, P., G. Foster, and P. Plamondon. 1997. SILC: un systeme d'identication de la langue
+et du codage. http://www-rali.iro.umontreal.ca/ProjetSILC.en.html.
+Kay, M. and M. Roscheisen. 1993. Text-translation alignment. Computational Linguistics,
+19:121{142.
+Konopnicki, D. and O. Shmueli. 1995. W3QS: A query system for the World Wide Web. In
+Proc. of the 21th VLDB Conference, pages 54{65, Zurich.
+Kwok, K. L. 1999. English-chinese cross-language retrieval based on a translation package.
+In Workshop of Machine Translation for Cross Language Information Retrieval, Machine
+Translation Summit VII, Singapore.
+Nie, Jianyun, Michel Simard, Pierre Isabelle, and Richard Durand. 1999. Cross-language information 
+retrieval based on parallel texts and automatic mining parallel texts from the Web.
+In ACM SIGIR'99, pages 74{81, August.
+Perkowitz, M. and O. Etzioni. 1995. Category translation: learning to understand information 
+on the internet. In Proc. 15th International Joint Conference on AI, pages 930{936,
+Montreal, Canada.
+Resnik, Philip. 1998. Parallel stands: A preliminary investigation into mining the Web for
+bilingual text. In AMTA'98, October.
+Simard, Michel, George F. Foster, and Pierre Isabelle. 1992. Using cognates to align sentences
+in bilingual corpora. In Proceedings of TMI-92, Montreal, Quebec.
+Wu, Dekai. 1995. Large-scale automatic extraction of an English-Chinese lexicon. Machine
+Translation, 9(3-4):285{313.
+Zaiane, O. and J. Han. 1998. WebML: Querying the World-Wide Web for resources and
+knowledge. In Proc. (CIKM'98) Int'l Workshop on Web Information and Data Management
+(WIDM'98), pages 9{12, Bethesda, Maryland, November.
+

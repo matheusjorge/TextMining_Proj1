@@ -1,0 +1,64 @@
+Inductive Learning for Case-Based Diagnosis
+with Multiple Faults
+
+Joachim Baumeister, Martin Atzmüller, and Frank Puppe
+
+University of Würzburg, 97074 Würzburg, Germany
+Department of Computer Science
+Phone:	+49 931 888-6740, Fax: +49 931 888-6732
+{baumeister,atzmueller,puppe}@informatik.uni-wuerzburg.de
+
+
+
+Abstract. We present adapted inductive methods for learning similarities, parameter 
+weights and diagnostic profiles for case-based reasoning. All of these methods
+can be refined incrementally by applying different types of background knowledge. 
+Diagnostic profiles are used for extending the conventional CBR to solve
+cases with multiple faults. The context of our work is to supplement a medical
+documentation and consultation system by CBR techniques, and we present an
+evaluation with a real-world case base.
+References
+
+1.	Michael Richter. The Knowledge contained in Similarity Measures. Invited talk at ICCBR-95,
+http://www.cbr-web.org/documents/Richtericcbr95remarks.html, 1995.
+2.	Hans-Peter Buscher, Ch. Engler, A. Führer, S. Kirschke, and F. Puppe. HepatoConsult: A
+Knowledge-Based Second Opinion and Documentation System. Artificial Intelligence in
+Medicine, 24(3):205—216, 2002.
+3.	Frank Puppe. Knowledge Reuse among Diagnostic Problem-Solving Methods in the Shell-Kit
+D3. Int. J. Human-Computer Studies, 49:627—649, 1998.
+4.	Christoph Beierle and Gabriele Kern-Isberner. Methoden wissensbasierter Systeme. Grundlage, 
+Algorithmen, Anwendungen. Vieweg, 2000.
+5.	Joachim Baumeister, Dietmar Seipel, and Frank Puppe. Incremental Development of Diagnostic 
+Set—Covering Models with Therapy Effects. In Pmc. of the KI-2001 Workshop on
+Uncertainty in Artificial Intelligence, Vienna, Austria, 2001.
+6.	Joachim Baumeister and Dietmar Seipel. Diagnostic Reasoning with Multilevel Set—Covering
+Models. In Pmc. of the 13th International Workshop on Principles of Diagnosis (DX-02),
+Semmering, Austria, 2002.
+7.	Phyllis Koton. Reasoning about Evidence in Causal Explanations. In Proc. of the Seventh
+National Conference on Artificial Intelligence, pages 256—261, 1988.
+8.	Luigi Portinale and Pietro Torasso. ADAPtER: An Integrated Diagnostic System Combining
+Case-Based and Abductive Reasoning. In Proc. of the ICCBR 1995, pages 277—288, 1995.
+9.	Cynthia A. Thompson and Raymond J. Mooney. Inductive Learning for Abductive Diagnosis.
+In Proc. of the AAAI-94, Vol. 1, pages 664—669, 1994.
+10.	Xue Z. Wang, M.L. Lu, and C. McGreavy. Learning Dynamic Fault Models based on a Fuzzy
+Set Covering Method. Computers in Chemical Engineering, 21:621—630, 1997.
+11.	Rainer Schmidt and Bernhard Pollwein and Lothar Gierl. Case-Based Reasoning for Antibiotics 
+Therapy Advice. In Proc. of the ICCBR 1999, pages 550—559, 1999.
+12.	James Dougherty, Ron Kohavi, and Mehran Sahami. Supervised and Unsupervised Discretization 
+of Continuous Features. In Proc. of the International Conference on Machine
+Learning, pages 194-202, 1995.
+13.	Dan Ventura and Tony R. Martinez. An Empirical Comparison of Discretization Methods. In
+Proc. of the 10th Int. Symp. on Computer and Information Sciences, pages 443—450, 1995.
+14.	Jiawei Han and Micheline Kamber. Data Mining: Concepts and Techniques. Morgan Kaufmann 
+Publishers, San Mateo, California, 2000.
+15.	Craig Stanfill and David Waltz. Toward Memory-Based Reasoning. Communications of the
+ACM, 29(12):1213—1228, 1986.
+16.	D. Randall Wilson and Tony R. Martinez. Improved Heterogeneous Distance Functions.
+Journal of Artificial Intelligence Research, 6:1—34, 1997.
+17.	Judea Pearl. Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.
+Morgan Kaufmann Publishers, San Mateo, California, 1988.
+18.	Dietrich Wettschereck and David W. Aha. Weighting Features. In Manuela Veloso and Agnar
+Aamodt, editors, Case-Based Reasoning, Research and Development, First International
+Conference, pages 347—358, Berlin, 1995. Springer Verlag.
+19.	Agnar Aamodt and Enric Plaza. Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches. AI Communications, 7(1), 1994.

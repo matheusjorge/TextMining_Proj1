@@ -1,0 +1,66 @@
+Learning First-Order Acyclic Horn Programs
+from Entailment
+
+Chandra Reddy 	Prasad Tadepalli
+
+Dearborn 303
+Department of Computer Science
+Oregon State University,
+Corvallis, OR 97331-3202.
+{reddyc,tadepalli}@cs.orst.edu
+
+
+
+Abstract. In this paper, we consider learning first-order Horn programs
+from entailment. In particular, we show that any subclass of first-order
+acyclic Horn programs with constant arity is exactly learnable from
+equivalence and entailment membership queries provided it allows a
+polynomial-time subsumption procedure and satisfies some closure conditions. 
+One consequence of this is that first-order acyclic determinate
+Horn programs with constant arity are exactly learnable from equivalence 
+and entailment membership queries.
+References
+
+Angluin, D. (1988). Queries and concept learning. Machine Learning, 2, 319—342.
+Arimura, H. (1997). Learning acyclic first-order horn sentences from entailment. In
+Proceedings of the Eigth International Workshop on Algorithmic Learning Theory. 
+Ohmsha/Springer-Verlag.
+Cohen, W. (1995a). Pac-learning non-recursive prolog clauses. Artificial Intelligence,
+79(1), 1—38.
+Cohen, W. (1995b). Pac-learning recursive logic programs: efficient algorithms. JI. of
+AI Research, 2, 500—539.
+De Raedt, L. (1997). Logical settings for concept learning. Artificial Intelligence, 95(1),
+187—201.
+Dzeroski, S., Muggleton, S., & Russell, S. (1992). Pac-learnability of determinate logic
+programs. In Proceedings of the Fifth Annual ACM Workshop on Computational
+Learning Theory, pp. 128—135.
+Erol, K., Hendler, J., & Nau, D. (1994). HTN planning: complexity and expressivity. In
+Proceedings of the Twelfth National Conference on Artificial Intelligence (AAAI-
+94). AAAI Press.
+Frazier, M., & Pitt, L. (1993). Learning from entailment: An application to propositional 
+Horn sentences. In Proceedings of the Tenth International Conference on
+Machine Learning, pp. 120-127.
+Khardon, R. (1996). Learning to take actions. In Proceedings of the Thirteenth National
+Conference on Artificial Intelligence (AAAI-96), pp. 787—792.
+Khardon, R. (1998). Learning first order universal horn expressions. In Proceedings of
+the Eleventh Annual Conference on Computational Learning Theory (COLT-98).
+Lloyd, J. (1987). Foundations of Logic Programming (2nd ed.). Springer-Verlag, Berlin.
+Muggleton, S., & Feng, C. (1990). Efficient induction of logic programs. In Proceedings 
+of the First Conference on Algorithmic Learning Theory, pp. 368—381.
+Ohmsha/Springer-Verlag.
+Natarajan, B. (1989). On learning from exercises. In Proceedings of the Second Workshop 
+on Computational Learning Theory, pp. 72—87. Morgan Kaufmann.
+Page,	C. D. (1993). Anti- Unification in Constraint Logics: Foundations and Applications 
+to Learnability in First-Order Logic, to Speed-up Learning, and to Deduction. 
+Ph.D. thesis, University of Illinois, Urbana, IL.
+Plotkin, G. (1970). A note on inductive generalization. In Meltzer, B., & Michie, D.
+(Eds.), Machine Intelligence, Vol. 5, pp. 153—163. Elsevier North-Holland, New
+York.
+Reddy, C., & Tadepalli, P. (1997a). Learning goal-decomposition rules using exercises. 
+In Proceedings of the 14th International Conference on Machine Learning.
+Morgan Kaufmann .
+Reddy, C., & Tadepalli, P. (199Th). Learning Horn definitions using equivalence and
+membership queries. In Proceedings of the 7th International Workshop on Inductive 
+Logic Programming. Springer Verlag.
+Sammut, C. A., & Banerji, R. (1986). Learning concepts by asking questions. In
+Machine learning: An artificial intelligence approach, Vol. 2. Morgan Kaufmann.

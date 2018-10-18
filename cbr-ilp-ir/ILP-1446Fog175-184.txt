@@ -1,0 +1,54 @@
+Normal Programs and
+Multiple Predicate
+
+Leonardo Fogel	Gerson Zaverucha
+
+Coordenação dos Programas de Pós-Graduação em Engenharia
+Universidade Federal do Rio de Janeiro - COPPE/UFRJ
+Caixa Postal 68511, CEP 21945-970
+Rio de Janeiro - RJ - Brasil
+Phone: +55-21-590-2552
+FAX: +55-21-290-6626
+e-mail:{lfogel, gerson}@cos.ufrj.br
+
+
+Abstract. We study the problem of inducing normal programs of multiple 
+predicates in the empirical ILP setting. We identify a class of normal
+logic programs that can be handled and induced in a top-down manner
+by an intensional system. We propose an algorithm called NMPL that
+improves the multiple predicate learning system MPL and extends its
+language from definite to this class of normal programs. Finally, we discuss 
+the cost of the MPL’s refinement algorithm and present theoretical
+and experimental results showing that NMPL can be as effective as MPL
+and is computationaily cheaper than it.
+References
+
+1.	Apt, K. R. and Bol, R. N., Logic Programming and Negation: A Survey, J. Logic
+Programming 19, 20: 9-71 (1994).
+2.	Bergadano, F., Gunetti, D., Nicosia, M. and Ruffo, G., Learning Logic Programs
+with Negation as Failure, in: S. Muggleton (ed.), Proceedings of the 5th International 
+Workshop on Inductive Logic Programming, 1995.
+3.	Dzeroski, S. and Bratko, I., Handling Noise in Inductive Logic Programming, in:
+S.	Muggleton (ed.), Proceedings of the 2nd International Workshop on Inductive
+Logic Programming, 1992.
+4.	Flach, P. A., A Framework for Inductive Logic Programming, in: S. Muggleton
+(ed.), Inductive Logic Programming, Academic Press, 1992, pp. 193-212.
+5.	Kunen, K., Signed Data Dependencies in Logic Programs, J. Logic Programming
+7: 231-246 (1989).
+6.	Lavrac, N. and Dzeroski, S., Inductive Logic Programming: Techniques and Applications, 
+Ellis Horwood, 1994.
+7.	Lloyd, J. W., Foundations of Logic Programming, 2nd edition, Springer, Berlin,
+1987.
+8.	Martin, L. and Vrain, C., MULT_ICN: an Empirical Multiple Predicate Learner,
+in: S. Muggleton (ed.), Proceedings of the 5th International Workshop on Inductive
+Logic Programming, 1995.
+9.	Muggleton, S. and De Raedt, L., Inductive Logic Programming: Theory and Methods, 
+J. Logic Programming 19, 20: 629-679 (1994).
+10.	Plotkin, G. D., A Note on Inductive Generalization, in: B. Meltzer and D. Michie
+(eds.), Machine Intelligence 5, Elsevier North Holland, NY, 1970, pp. 153-163.
+11.	De Raedt, L., Lavrac, N. and Dzeroski, S., Multiple Predicate Learning, in: Proceedings 
+of the 13th International Joint Conference on Artificial Intelligence, Morgan
+Kaufman, 1993, pp. 1037-1042.
+12.	Sato, T., Completed Logic Programs and their Consistency, J. Logic Programming
+9: 33-44 (1990).
+13.	Shapiro, E. Y., Algorithmic Program Debugging, MIT Press, 1983.

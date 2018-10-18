@@ -1,0 +1,69 @@
+Evaluation of Strategies for Generalised Cases within a
+Case-Based Reasoning Antibiotics Therapy
+Advice System
+
+Rainer Schmidt and Lothar Gieri
+
+Institut für Medizinische Informatik und Biometrie, Universität Rostock
+Rembrandtstr. 16 /17, D-18055 Rostock, Germany
+{rainer.schmidt, lothar.gieri}@medizin.uni-rostock.de
+
+
+Abstract. For an intensive care unit, we have developed an antibiotics
+therapy advice system, called ICONS. To speed-up the process of
+finding suitable therapy recommendations we have applied Case-based
+Reasoning techniques. As in a medical expert system all required
+information should always be up-to-date, a static case base is
+inappropriate. New cases should be incrementally incorporated into the
+case base and outdated ones should be updated or erased. For reasons of
+space limitations and of retrieval time an indefinite growth of the case
+base should be avoided. To fulfil these requirements we propose to
+generalise from single cases to prototypical cases and to erase redundant
+cases. In this paper, we mainly focus on results of extended experiments
+with generation strategies of generalised cases (prototypes).
+Additionally, we compare measured retrieval times for two indexing
+retrieval algorithms: For simple indexing and Tree-Hash retrieval.
+References
+
+1.	Smyth, B., McKenna, B.: Modelling the competence of cases-bases. In: Smyth, B.,
+Cunningham, P. (eds.): Advances in Case-Based Reasoning, 4th European Workshop,
+EWCBR-98, Lecture Notes in Artificial Intelligence, Vol. 1488. Springer-Verlag, Berlin
+Heidelberg New York (1998) 208-220
+2.	Macura, R., Macura, K.: MacRad: Radiology image resources with a case-based retrieval
+system. In: Aamodt, A., Veloso, M. (eds.): Case-Based Reasoning Research and
+Development, First International Conference, ICCBR-95, Lecture Notes in Artificial
+Intelligence, Vol. 1010. Springer-Verlag, Berlin Heidelberg New York (1995) 43-54
+3.	Schmidt, R., Pollwein, B., Gierl, L.: Experiences with Case-Based Reasoning Methods
+and Prototypes for Medical Knowledge-Based Systems. In: Horn, W., Shahar, Y.,
+Lindberg, G., Andreassen, S., Wyatt, J. (eds.): Artificial Intelligence in Medicine,
+AIMDM’99, Lecture Notes in Artificial Intelligence, Vol. 1620. Springer-Verlag, Berlin
+Heidelberg New York Springer Berlin (1999) 124-132
+4.	Bellazzi, R., Montani, S., Portinale, L.: Retrieval in a Prototype-Based Case Library: A
+Case Study in Diabetes Therapy Revision. In: Smyth, B., Cunningham, P. (eds.): 4th
+European Workshop on Case-Based Reasoning, Lecture Notes in Artificial Intelligence,
+Vol. 1488. Springer-Verlag, Berlin Heidelberg New York (1998) 64-75
+5.	Bichindaritz, I.: From Cases to Classes: Focusing on Abstraction in Case-Based
+Reasoning. In: Burkhard, H. -D., Lenz, M. (eds.): 4th German Workshop on Case-Based
+Reasoning, Humboldt University Berlin (1996) 62-69
+6.	Stottler, R. H., Henke, A. L., King, J. A.: Rapid Retrieval Algorithms for Case-Based
+Reasoning. International Joint Conference on Artificial Intelligence 11(1989)233-237
+7.	Bueno-Cavanillas, A., Delgado-Rodriguez, M., Lopez-Luque, A., Schaffino-Cano, S.,
+Galvez-Vargas, R.: Influence of nosocomial infection on mortality rate in an intensive
+care unit. Crit Care Med 22 (1994) 55-60
+8.	Smyth, B., Keane, M. T.: Retrieving Adaptable Cases: The Role of Adaptation
+Knowledge in Case Retrieval. In: Richter, M. M., Wess, S., Althoff, K.-D., Maurer, F.
+(eds.): First European Workshop on Case-Based Reasoning, University of Kaiserslautern
+(1993) 76-8 1
+9.	Lenz, M., Auriol, E., Manago M.: Diagnosis and decision support. In: Lenz, M., Bartsch-
+Spörl, B., Burkhard, H.-D., Wess, S.: Case-Based Reasoning technology, from
+foundations to applications. Lecture Notes in Artificial Intelligence, Vol. 1400. Springer-
+Verlag, Berlin Heidelberg New York (1998) 5 1-90
+10.	Wess, S., Althoff, K.-D., Derwald, G.: Improving the retrieval step in Case-Based
+Reasoning. In: In: Richter, M.M., Wess, S., Althoff, K.-D., Maurer, F. (eds.): First
+European Workshop on Case-Based Reasoning, University of Kaiserslautern (1993)
+83-88
+11.	Schank, R. C.: Dynamic Memory: A Theory of Learning in Computer and People.
+Cambridge University Press, New York (1982)
+12.	Bareiss, R.: Exemplar-based Knowledge Acquisition. Academic Press, San Diego (1989)
+13.	Rosch, E., Mervis, C. B.: Family resemblances: studies in the structure of categories.
+Cognitive Psychologie 7 (1975) 573-605

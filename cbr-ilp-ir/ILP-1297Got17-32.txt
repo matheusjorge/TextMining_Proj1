@@ -1,0 +1,93 @@
+On the Complexity of Some Inductive
+Logic Programming Problems *
+
+Georg Gottlob, Nicola Leone, Francesco Scarcello
+
+Institut für Informationssysteme
+Technische Universität Wien
+Paniglgasse 16, A-1040 Wien, Austria;
+Internet: gottlob@dbai.tuvien.ac.at
+
+
+
+Abstract. The bounded ILP-consistency problem for function-free Horn
+clauses is described as follows. Given a set E+ and E- of function-free
+ground Horn clauses and an integer k polynomial in E+ U E-, does there
+exist a function-free Horn clause C with no more than k literals such that
+C subsumes each element in E+ and C does not subsume any element
+in E— . It is shown that this problem is E3 complete. We derive some
+related results on the complexity of ILP and discuss the usefulness of
+such complexity results.
+References
+
+1.	L.M. Adleman. Molecular Computation of Solutions to Combinatorial Problems.
+Science 266, pp. 1021—1024, 1994.
+2.	L. D. Baxter. The NP-completeness of Subsumption. Unpublished manuscript,
+1977.
+3.	P. Cholewinski, V.W. Marek, and M. Thuszczynski Default Reasoning System
+DeReS Proc. Fifth Intl. Conference on Principles of Knowledge Representation
+and Reasoning (KR ‘96), Cambridge, MA, Nov.5-8, 1996.
+4.	W. Cohen. PAC-Learning Recursive Logic Programs: Efficient Algorithms. Journal
+of Artificial Intelligence Research, 2: 501—539, 1995.
+5.	W. Cohen. PAC-Learning Recursive Logic Programs: Negative Results. Journal of
+Artificial Intelligence Research, 2: 541—573, 1995.
+6.	W. Cohen and C. D. Page. Polynomial Learnabiity and Inductive Logic Programming - 
+Methods and Results. New Generation Computing, 13(3-4): 369—409, 1995.
+7.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70: 375—392, 1994.
+8.	J. Dix and M. Müller. Implementing Semantics of Disjunctive Logic programs
+Using Fringes and Abstract properties. Proc. Second Intl. workshop on Logic
+Programming and Nonmonotonic reasoning (LPNMR-93), Lisbon, Portugal, July
+1993, pp. 43—59, MIT Press.
+9.	T. Eiter and G. Gottlob. On the Computational Cost of Disjunctive Logic Programming: 
+Propositional Case. Annals of Mathematics and Artificial Intelligence,
+15(3/4):289—323, 1995.
+10.	T. Eiter, N. Leone, C. Mateis, G. Pfeifer, and F. Scarcello. A Deductive System 
+for Nonmonotonic Reasoning. In Proc. 4th International Conference on Logic
+Programming and Nonmonotonic Reasoning (LPNMR ‘97), Lecture Notes in AI
+(LNAI), J. Dix, U. Furbach, and A. Nerode Eds., Springer, Berlin, 1997 (to appear).
+11.	T. Eiter, G. Gottlob, and H. Mannila. Disjunctive Datalog. ACM Trans. on
+Database Syst., September 1997. To appear.
+12.	M. R. Garey and D. S. Johnson. Computers and Intractability — A guide to the
+Theory of NP-completeness. Freman, San Francisco, CA, 1979.
+13.	M. Gelfond and V. Lifschitz. The Stable Model Semantics for Logic Programming.
+In Logic Programming: Proc. Fifth Intl Conference and Symposium, pp. 1070—1080,
+Cambridge, Mass., 1988. MIT Press.
+14.	E. M. Gold. Language Identification in the Limit. Information and Control, 10:447—
+474, 1967.
+15.	G. Gottlob. Subsumption and Implication. Information Processing Letters, 24:109—
+111, 1987.
+16.	G. Gottlob. Complexity Results for Nonmonotonic Logics. J. Logic and Computation, 
+2(3):397—425, June 1992.
+17.	D. S. Johnson. A Catalog of Complexity Classes. In J. van Leeuwen, editor,
+Handbook of Theoretical Computer Science, volume A, chapter 2. Elsevier Science
+Publishers B.V. (North-Holland), 1990.
+18.	J.U. Kietz and S. Dzeroski. Inductive logic programming and learnability. SIGART
+Bulletin 5(1): 22—32 (Special issue on Inductive Logic Programming), 1994.
+19.	D. Haussler. Quantifying inductive bias: AI learning algorithms and Valiant’s
+model. Artificial Intelligence, 36(2):177—221, 1988.
+20.	R.J. Lipton. Using DNA to solve NP-complete Problems. Priceton University.
+21.	W. Marek and M. Truszczynski. Autoepistemic Logic. JACM, 38(3):588—619,
+1991.
+22.	S. H. Muggleton. Inductive Logic Programming. New Generation Computing,
+8(4):295—318, 1991.
+23.	Inductive Logic Programming, S. H. Muggleton ed., Academic Press, London, 1992.
+24.	S. H. Muggleton and L. De Raedt. Inductive Logic Programming: Theory and
+Methods. Journal of Logic Programming, 19,20:629—679, 1994.
+25.	Muggleton, S., and Page, D., A learnability model for universal representations.
+In Proc. Fourth International Workshop on Inductive Logic Programming, pages
+139-160. GMD, Bonn, 1994.
+26.	C. D. Page and A. M. Fish. Generalization and Learnabiity: a study of constrained
+atoms. In Inductive Logic Programming, pp.29—61, 5. H. Muggleton ed., Academic
+Press, London, 1992.
+27.	G. D. Plotkin. A note on Inductive Generalization. In Machine Intelligence, pp.
+153—163,	B. Meltzer and D. Michie eds., American Elsevier, 1970.
+28.	R. Reiter. A Logic for Default Reasoning. Artificial Intelligence, 13:81—132, 1980.
+29.	J. Robinson. A machine-oriented logic based on the resolution principle. Journal
+of the ACM, 12(1):23—41, 1965.
+30.	R. E. Schapire. The Strength of Weak Learnability. Machine Learning, 5:197—227,
+1990.
+31.	Diana Rooß and Klaus Wagner. On the Power of DNA Computation. Information
+and Computation, 131(2):95—109, 1996.
+32.	L. G. Valiant. A Theory of the Learnable. Communications of the ACM, 27:1134—
+1142.

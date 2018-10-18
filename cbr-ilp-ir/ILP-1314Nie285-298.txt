@@ -1,0 +1,68 @@
+Least Generalizations under Implication
+
+Shan-Hwei Nienhuys-Cheng and Ronald de Wolf
+
+Erasmus University of Rotterdam, Department of Computer Science, H4-19,
+P.O. Box 1738, 3000 DR Rotterdam, the Netherlands,
+{cheng,bidewolf}@cs.few.eur.nl
+
+
+Abstract. One of the most prominent approaches in Inductive Logic
+Programming is the use of least generalizations under subsumption of
+given clauses. However, subsumption is weaker than logical implication,
+and not very well suited for handling recursive clauses. Therefore an
+important open question in this area concerns the existence of least generalizations
+ under implication (LGIs). Our main new result in this paper
+is the existence and computability of such an LGI for any finite set of
+clauses which contains at least one non-tautologous function-free clause.
+We can also define implication relative to background knowledge. In this
+case, least generalizations only exist in a very limited case.
+References
+
+1.	W. Buntine. Generalized subsumption and its applications to induction and redundancy. 
+Artificial Intelligence, 36:149—176, 1988.
+2.	C.-L. Chang and R. C.-T. Lee. Symbolic Logic and Mechanical Theorem Proving.
+Academic Press, San Diego, 1973.
+3.	G. Gottlob. Subsumption and implication. Inf. Process. Lett., 24(2):109—111,
+1987.
+4.	P. Idestam-Almquist. Generalization of clauses under implication. Journal of Artificial 
+Intelligence Research, 3:467—489, 1995.
+5.	R. A. Kowalski. The case for using equality axioms in automatic demonstration. In
+Proceedings of the Symposium on Automatic Demonstration, volume 125 of Lecture
+Notes in Mathematics, pages 112—127. Springer-Verlag, 1970.
+6.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, 1994.
+7.	R. C.-T. Lee. A Completeness Theorem and a Computer Program for Finding
+Theorems Derivable from Given Axioms. PhD thesis, University of California,
+Berkeley, 1967.
+8.	J. Marcinkowski and L. Pacholski. Undecidability of the horn-clause implication
+problem. In Proceedings of the 33rd Annual IEEE Symposium on Foundations of
+Computer Science, pages 354—362, Pittsburg, 1992.
+9.	K. Morik, S. Wrobel, J.-U. Kietz, and W. Emde. Knowledge Acquisition and Machine 
+Learning: Theory, Methods and Applications. Academic Press, London, 1993.
+10.	S. Muggleton and L. De Raedt. Inductive Logic Programming: Theory and methods. 
+Journal of Logic Programming, 19—20:629—679, 1994.
+11.	S. Muggleton and C. Feng. Efficient induction of logic programs. In S. Muggleton,
+editor, Inductive Logic Programming, volume 38 of APIC Series, pages 281—298.
+Academic Press, 1992.
+12.	S. Muggleton and C. D. Page. Self-saturation of definite clauses. In S. Wrobel,
+editor, Proceedings of the 4th International Workshop on Inductive Logic Program-
+ming (ILP-94), volume 237 of GMD-Studien, pages 161—174, Bad Honnef/Bonn,
+1994. Gesellschaft für Mathematik und Datenverarbeitung.
+13.	T. Niblett. A study of generalisation in logic programs. In D. Sleeman, editor,
+Proceedings of the 3rd European Working Sessions on Learning (EWSL-88), pages
+131—138, 1988.
+14.	S.-H. Nienhuys-Cheng and R. de Wolf. Least generalizations and greatest specializations 
+of sets of clauses. Journal of Artificial Intelligence Research, 4:341—363,
+1996.
+15.	S.-H. Nienhuys-Cheng and R. de Wolf. The subsumption theorem in Inductive
+Logic Programming: Facts and fallacies. In L. De Raedt, editor, Advances in In-
+ductive Logic Programming, pages 265—276. los Press, Amsterdam, 1996.
+16.	G. D. Plotkin. A note on inductive generalization. Machine Intelligence, 5:153—
+163, 1970.
+17.	G. D. Plotkin. A further note on inductive generalization. Machine Intelligence,
+6:101—124, 1971.
+18.	J. R. Quinlan and R. M. Cameron-Jones. Foil: A midterm report. In P. B. Brazdil,
+editor, Proceedings of the 6th European Conference on Machine Learning (ECML-
+93), volume 667 of Lecture Notes in Artificial Intelligence, pages 3—20. Springer-
+Verlag, 1993.

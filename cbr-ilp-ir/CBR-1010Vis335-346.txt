@@ -1,0 +1,119 @@
+Reuse of Knowledge: Empirical Studies
+
+Willemien VISSER
+
+Ergonomic Psychology Project - INRIA
+Domaine de Voluceau - Rocquencourt - B.P. 105 - 78153 LE CHESNAY Cedex - France
+email: Willemien.Visser@inria.fr
+
+
+Abstract. This paper presents empirical studies, mainly from psychology, on reuse of
+knowledge, especially in design. The results are considered relevant to research and development 
+in the domain of CBR because of the support function generally attributed to CBR
+systems. The data exposed concern both representational and processing aspects of reuse.
+The topics discussed are: reuse vs. design "from scratch"; different stages in reuse, especially 
+retrieval; types of entity reused (with respect to their abstraction level, origin, and
+“product”-solution vs. “procedure”-solution character) and types of their exploitation;
+strategies of reuse; frequency of effective reuse; effects of reuse on designers’ productivity;
+difficulties and risks of reuse. The paper closes with possible repercussions for CBR systems 
+based on the results presented, and research topics in the domain of reuse of knowledge 
+(conditions of reuse, retrieval from memory, and reuse and analogical reasoning).
+
+
+References
+
+Baerentsen, K. B. (1991). Knowledge and shared experience. Proc. of the Third European
+Conference of Cognitive Science Approaches to Process Control, Cardiff, Univ. of Wales,
+217-232.
+Biggerstaff, T. J., & Perlis, A. J. (1989). Introduction. In T. J. Biggerstaff & A. J. Perlis
+(Eds.), Software reusability, Vol. I, Concepts and models. Reading, MA: Addison-Wesley.
+Burkhardt, J.-M., & Détienne, F. (1995). An empirical study of software reuse by experts
+in object-oriented design. Proc. of Interact’95, Lillehammer (Norway), 27 - 29 June.
+Carbonell, J. G. (1986). Derivational analogy: a theory of reconstructive problem solving
+and expertise acquisition. In R. S. Michalski, J. G. Carbonell & T. M. Mitchell (Eds.),
+Machine learning. An artificial intelligence approach (Vol. II). Los Altos, CA: Morgan.
+Détienne, F. (1991). Reasoning from a schema and from an analog in software code reuse.
+Fourth Workshop on Empirical studies of programmers, New Brunswick, N.J., Dec. 6-8.
+Falzon, P., & Visser, W. (1989). Variations in expertise: implications for the design of
+assistance systems. In U. Salvendy & M. Smith (Eds.), Designing and using human-computer 
+interfaces and knowledge based systems. Amsterdam: Elsevier.
+Green, T. R. G., Gilmore, D. J., Blumenthal, B. B., Davies, S., & Winder, R. (1992).
+Towards a cognitive browser for OOPS. International Journal of Human-Computer Interac
+tion,4, 1-34.
+Hunt, E. (1991). Some comments on the study of complexity. In R. J. Steinberg & P. A.
+Frensch (Eds.) Complex problem solving: principles and mechanisms. Hillsdale, N.J.:
+Erlbaum.
+Jones, T. C. (1984). Reusability in programming: a survey of the state of the art. IEEE
+Transactions on Software Engineering, Special issue on Software reusability, SE-10 (5),
+488-493.
+Keane, M. (1988). Analogical problem solving. Chichester: Horwood.
+Klein, G. A., & Calderwood, R. (1988). How do people use analogues to make decisions?
+In J. Kolodner (Ed.), Case-based reasoning. Proc. DARPA Workshop. San Mateo, CA:
+Morgan.
+Kolodner, J. L. (1993). Case-based reasoning. San Mateo, CA: Morgan.
+Lange, B. M., & Moher, T. G. (1989). Some strategies of reuse in an object-oriented programming 
+environment. In K. Rice & C. Lewis (Eds.), CHI’89 ‘Wings for the mind’ Conference Proc.. Reading, MA: Addison Wesley.
+Lewis, J. A., Henry, S. M., Kafura, D. G., & Schulman, R. (1991). An empirical study of
+the object-oriented paradigm and software reuse. In Proc. of OPSLA’91 Object-Oriented
+Programming. Systems and Applications’91. New York, NY: ACM Press, 184-196.
+Medin, D. L., & Ross, B. H. (1989). The specific character of abstract thought: categorization, 
+problem solving, and induction. In R. J. Steinberg (Ed.), Advances in the psychology 
+of human intelligence, Vol. 5. Hillsdale, N.J.: Erlbaum.
+Neal, L. R. (1989). A system for example-based programming. In K. Bice & C. Lewis
+(Eds.), CHI’89 ‘Wings for the mind’ Conference Proc.. Reading, MA: Addison Wesley.
+Norman, D., & Bobrow, D. (1979). Descriptions: An intermediate stage in memory retrieval. 
+Cognitive Psychology, 11, 107-123.
+Perron, L. (1995). La réutilisation de cas ‘une problématique commune entre I.A. et ergonomie 
+cognitive ... des points de vue différents’. Actes de JAVA-JAC’95, Grenoble 5 - 7 avril.
+Pu, P. (1993). Introduction: Issues in case-based design systems. AI EDAM, 2 (2), 79-85,
+and the other papers in this special Al EDAM issue.
+Reiser, B. J. (1986). Knowledge-directed retrieval of autobiographical memories. In J. L.
+Kolodner & C. K. Riesbeck (Eds.), Experience, memory. and reasoning. Hillsdale, N.J.:
+Erlbaum.
+Ross, B. H. (1990). The access and use of relevant information: a specific case and general
+issues. In R. Freedle (Ed.), Artificial Intelligence and the future of testing. Hillsdale, N.J.:
+Erlbaum.
+Sutcliffe, A., & Maiden, N. (1990a). Cognitive studies in software engineering. Proc. of
+ECCE-5. Fifth European Conference on Cognitive Ergonomics, Urbino, Italy, Sept. 3-6.
+Sutcliffe, A., & Maiden, N. (1990b). Software reusability: delivering productivity gains or
+short cuts. In D. Diaper, G. Cockton, D. Gilmore & B. Shackel (Eds.), Human-computer interaction - 
+INTERACT ‘90. Amsterdam: North-Holland.
+Thunem, S., & Sindre, G. (1992). Development with and for reuse. Guidelines from the
+REBOOT-project. Proc. of the ERCIM Workshop “Methods and Tools for Software Reuse”,
+Heraklion, Oct. 29-30 (pp. 2- 16).
+Trousse, B., & Visser, W. (1993). Use of case-based reasoning techniques for intelligent
+computer-aided-design systems. Proc. of the IEEE/SME’93 International Conference on
+Systems. Man and Cybernetics-Systems Engineering in the Service of Humans, Le Touquet,
+France, Oct. 17-20.
+Tulving, E. (1983). Elements of episodic memory. Oxford: Oxford University.
+Visser, W. (1987). Strategies in programming programmable controllers: a field study on
+a professional programmer. In G. Olson, S. Sheppard & 13. Soloway (Eds.), Empirical Studies 
+of Programmers: Second Workshop. Norwood, N.J.: Ablex.
+Visser, W. (1990). More or less following a plan during design: opportunistic deviations
+in specification. International Journal of Man-Machine Studies. Special issue: What programmers 
+know, 33, 247-278.
+Visser, W. (1991). Evocation and elaboration of solutions: Different types of problem-solving 
+actions. An empirical study on the design of an aerospace artifact. In T. Kohonen
+& F. Fogelman-Soulié (Eds.), COGNITIVA 90. At the crossroads of Artificial Intelligence.
+Cognitive science. and Neuroscience. Proc. of the third COGNITIVA symposium. Amsterdam: Elsevier.
+Visser, W. (1992a). Designers’ activities examined at three levels: organization, strategies 
+& problem-solving. Knowledge-Based Systems, 5 (1), 92-104.
+Visser, W. (1992b). Use of analogical relationships between design problem-solution representations: 
+Exploitation at the action-execution and action-management levels of the activity. 
+Studia Psychologica, 3.4 (4-5), 35 1-357.
+Visser , W. (Ed.). (1993). Proc. of the Workshop of the Thirteenth International Joint
+Conference on Artificial Intelligence “Reuse of designs: an interdisciplinary cognitive
+approach”, Chambéry (France), August 29, 1993. Rocquencourt: INRIA.
+Visser, W. (1995). Use of episodic knowledge and information in design problem solving.
+Design Studies, 16 (2), 171-187.
+Visser, W., & Trousse, B. (1993). Reuse of designs: desperately seeking an interdisciplinary 
+approach. In Visser (1993).
+De Vries, 13. (1993). The role of case-based reasoning in architectural design: stretching
+the design problem space. In Visser (1993).
+Weber, G. (1991). Explanation-based retrieval in a case-based learning model. Proc. of
+the Thirteenth Annual Meeting of the Cognitive Science Society, Chicago, IL. Hillsdale,
+N.J.: Cognitive Science Society, 522-527.
+Williams, M. D., & Hollan, J. D. (1981). The process of retrieval from very long-term
+memory. Cognitive Science, 5, 87-119.
+Woodfield, S. N., Embley, D. W., & Scott, D. T. (1987). Can programmers reuse software?
+IEEE Software, Special Issue on Reusability, 4, 52-59.

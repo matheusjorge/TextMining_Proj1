@@ -1,0 +1,57 @@
+Diverse Product Recommendations
+Using an Expressive Language for Case Retrieval
+
+Derek Bridge and Alex Ferguson
+
+Department of Computer Science,
+University College, Cork
+d.bridge/a.ferguson@cs.ucc.ie
+
+
+
+Abstract. We describe Order-Based Retrieval, which is an approach to
+case retrieval based on the application of partial orders to the case base.
+We argue that it is well-suited to product recommender applications because, 
+as well as retrieving products that best match customer-specified
+‘ideal’ attribute-values, it also: allows the customer to specify soft constraints; 
+gives a natural semantics and implementation to tweaks; and
+delivers an inherently diverse result set.
+References
+
+1.	Bradley, K. & B. Smyth: Improving Recommendation Diversity, In D. O’Donoghue
+(ed.), Procs. of the Twelfth Irish Conference on Artificial Intelligence and Cognitive
+Science, pp.85—94, 2001.
+2.	Bridge, D.: Product Recommendation Systems: A New Direction, In R. Weber &
+C.G. von Wangenheim (eds.), Procs. of the Workshop Programme at the Fourth
+International Conference on Case-Based Reasoning, pp.79—86, 2001.
+3.	Bridge, D. & A. Ferguson: An Expressive Query Language for Product Recommender 
+Systems, Artificial Intelligence Review, to appear, 2002.
+4.	Ferguson,A. & Bridge,D.G.: Partial Orders and Indifference Relations: Being Purposefully 
+Vague in Case-Based Retrieval, in Blanzieri,E. & Portinale,L. (eds.), Advances 
+in Case-Based Reasoning (Procs. of the 5th European Workshop on Case-Based 
+Reasoning), LNAI 1898, pp.74—85, Springer, 2000
+5.	Ferguson, A. & D. Bridge: Weight Intervals: Conservatively adding quantified uncertainty 
+to similarity, In D. O’Donoghue (ed.), Procs. of the Twelfth Irish Conference 
+on Artificial Intelligence & Cognitive Science, pp.75—84, 2001.
+6.	Hammond, K.J., R. Burke & K. Schmitt: Case Based Approach to Knowledge
+Navigation, In D.B. Leake (ed.), Case-Based Reasoning — Experiences, Lessons
+and Future Directions, pp.125—136, MIT Press, 1996.
+7.	Osborne, H.R. & D.G. Bridge: A Case Base Similarity Framework, In I. Smith & B.
+Faltings (eds.), Advances in Case-Based Reasoning (Procs. of the Third European
+Workshop on Case-Based Reasoning), Lecture Notes in Artificial Intelligence 1168,
+pp.309—323, Springer, 1996.
+8.	Smyth, B. & P. Cotter: Surfing the Digital Wave: Generating Personalised TV
+Listings Using Collaborative, Case-Based Recommendation, In K.D. Althoff, R.
+Bergmann & L.K. Branting (eds.), Case-Based Reasoning Research and Development 
+(Procs. of the Third International Conference on Case-Based Reasoning),
+Lecture Notes in Artificial Intelligence 1650, pp.5612—571, Springer, 1999.
+9.	Smyth, B. & P. McClave: Similarity vs. Diversity, In D.W. Aha & I. Watson (eds.),
+Case-Based Reasoning Research and Development (Procs. of the Fourth International 
+Conference on Case-Based Reasoning), Lecture Notes in Artificial Intelligence 
+2080, pp.347—361, Springer, 2001.
+10.	Vollrath, I., W. Wilke & R. Bergmann: Case-Based Reasoning Support for Online
+Catalog Sales, IEEE Internet Computing, vol.2(4), pp.45—54, 1998.
+11.	Wilke, W., M. Lenz & S. Wess: Intelligent Sales Support with CBR, In Lenz, M., B.
+Bartsch-Spörl, H.-D. Burkhard & S. Wess (eds), Case-Based Reasoning Technology:
+Prom Foundations to Applications, Lecture Notes in Artificial Intelligence 1400,
+pp.91—113 Springer, 1998.

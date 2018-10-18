@@ -1,0 +1,91 @@
+Representing Knowledge for Case-Based
+Reasoning: The ROCADE System
+
+Béatrice Fuchs1 and Alain Mi1le2
+
+1 Université Lyon III, IAE-Modeme
+15 quai Claude Bernard, 69 007 Lyon,France
+2 Université Lyon I, LISI
+
+Bât. 710, 43 bd du 11 novembre 1918, 69 100 Villeurbanne
+fuchs@univ-lyon3.fr amille@bat7lO.univ-lyonl.fr
+
+
+
+Abstract. This paper presents the object-based knowledge representation 
+system ROCADE, that is aimed at the development of case-based
+reasoning (CBR) systems. cBR is studied by reference to the two levels
+defined by Newell: at the knowledge level, a general detailed model of
+tbe CBR process has been proposed. This model is intended to be implemented 
+at the symbol level materialized by the ROCADE system. This
+paper presents these two complementary levels and focuses on ROCADE.
+The concepts and reasoning mechanisms of ROCADE are described, as
+well as its architecture. Then, its architecture allowing different ways to
+use it is presented. ROCADE is illustrated with examples of two CBR systems. 
+The implementation of 2 CBR systems are used to illustrate the
+rocade system the functionalities of the rocade system
+References
+
+Aamodt, 1991. Aamodt, A. (1991). A Knowledge-Intensive, Integrated Approach to
+Problem Solving and Sustained Learning. Doctoral dissertation, Trondheim University, 
+TrondHeim, Norway.
+Aamodt and Plaza, 1994. Aamodt, A. and Plaza, E. (1994). Case-Based Reasoning:
+Foundational Issues, Methodological Variations, and System Approaches. AI Communications, 
+7(1):39—58.
+Althoff et al., 1995a. Althoff, K.-D., Auriol, E., Barletta, R., and Manago, M. (1995a).
+A Review of Industrial Case-Based Reasoning Tools. AI Intelligence.
+Althoff et al., 1995b. Althoff K.-D., Auriol, E., Bergmann, R., Breen, S., Dittrich, S.,
+Johnston, R., Manago, M., Traphoner, R., and Wess, S. (1995b). Case-Based Reasoning 
+for Decision Support and Diagnostic Problem Solving: The INRECA Approach.
+In Proc. of the 3rd Workshop of the German special Interest Group on CBR at the
+3rd German Expert System Conference.
+Armengol and Plaza, 1994. Armengol, E. and Plaza, E. (1994). A Knowledge Level
+Model of Case-Based Reasoning. In Richter, M. M., Wess, S., Althoff K.-D., and
+Maurer, F., editors, First European Workshop on Case-Based Reasoning - EWGBR-
+93, pages 53—64, Kaiserslautern, Germany. LNAI, vol. 837, Springer, Berlin.
+Bergmann and Althoff, 1998. Bergmann, R. and Althoff, K.-D. (1998). Methodology
+for Building GBR Applications, chapter 12, pages 299—326. In [Lenz et al., 1998],
+LNAI 1400. Springer.
+Fikes and Kehler, 1985. Pikes, R. and Kehler, T. (1985). The Role of Frame-Based
+Representation in Reasoning. Communications of ACM, 28(9):904—920.
+Fuchs, 1997. Fuchs, B. (1997). Représentation des connaissances pour le raisonnement
+à partir de cas : le systéme ROCADE. Thése d’université, Université Jean Monnet,
+Saint-Etierme, France.
+Fuchs and Mille, 1999. Fuchs, B. and Mille, A. (1999). A Knowledge-Level Task
+Model of Adaptation in Case-Based Reasoning. In Branting, K., Althoff, K.-D., and
+Bergmann, R., editors, Third International Conference on Case-Based Reasoning -
+ICCBR-99, pages 118—131, Seeon, Germany. LNAI, Springer, Berlin.
+Fuchs et al., 1995. Fuchs, B., Mille, A., and Chiron, B. (1995). Operator Decision
+aiding by Adaptation of Supervision Strategies. In Veloso, M. and Aamodt, A.,
+editors, First International Conference on Case-Based Reasoning - ICCBR-95, pages
+23—32, Sesimbra, Portugal. LNAI, vol. 1010, Springer, Berlin.
+Goel, 1996. Goel, A. (1996). Meta cases: Explaining case-based reasoning. In Smith,
+I. and Faltings, B., editors, Third European Workshop on Case-Based Reasoning -
+EWCBR-96, pages 150—163, Lausanne, Suisse. LNAI, vol. 1168, Springer, Berlin.
+Jaczinski and Trousse, 1998. Jaczinski, M. and Trousse, B. (1998). An object-oriented
+framework for the design and implementation of case-based reasoners. In Proceedings
+of the 6th German Workshop on CBR (GWCBR-98).
+Kamp et al., 1998. Kamp, G., Lange, S., and Globig, C. (1998). Related areas, chapter 
+13, pages 327-351. In In [Lenz et al., 1998] LNAI 1400. Springer.
+Lenz et al., 1998. Lenz, M., Bartsch-Spörl, B., Burkhard, H.-D., and Wess, S. (1998).
+Case-Based Reasoning Technology, from foundations to applications. LNAI 1400.
+Springer, Berlin.
+Mariño et al., 1990. Mariño, O., Rechenmann, F., and Uvietta, P. (1990). Multiple
+perspectives and classification mechanism in object-oriented representation. In Proceedings 
+of the 9th European Conference on Artificial Intelligence - ECAI’90, pages
+425-430, Stockholm (SE). Pitman Publishing, London (GB).
+Napoli et al., 1996. Napoli, A., Lieber, J., and Curien, R. (1996). Classification-Based
+Problem-solving in Case-Based Reasoning. In Smith, I. and Faltings, B., editors,
+Third European Workshop on Case-Based Reasoning - EWCBR-96, pages 295—308,
+Lausanne, Suisse. LNAI, vol. 1168, Springer, Berlin.
+Newell, 1982. Newell, A. (1982). The Knowledge Level. Artificial Intelligence,
+19(2) :87—127.
+Plaza and Arcos, 1993. Plaza, E. and Arcos, J.-L. (1993). Noos: an integrated framework 
+for problem solving and learning. Technical report, Institut d’investigació en
+Intelligéncia Artificial, Barcelona, Spain, Report IIIA-RR-97-02.
+Slade, 1991. Slade, 5. (1991). Case-Based Reasoning: A Research Paradigm. AI Magazine, 
+12(1):42—55.
+Steels, 1990. Steels, L. (Summer 1990). Components of Expertise. AI Magazine, pages
+28—49.
+Wielinga et al., 1992. Wielinga, B. J., Schreiber, T., and Breuker, J. A. (1992). KADS:
+A Modelling Approach to Knowledge Engineering. Knowledge Acquisition, 4(1):136-145.

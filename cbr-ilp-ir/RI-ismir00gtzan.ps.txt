@@ -1,0 +1,64 @@
+Audio Information Retrieval (AIR) Tools
+
+George Tzanetakis 1
+Department of Computer Science 2
+Princeton University
+Perry Cook 3
+Department of Computer Science and Department of Music
+Princeton University
+1 gtzan@cs.princeton.edu
+2 Address: 35 Olden Street Princeton NJ 08544
+3 prc@cs.princeton.edu
+
+Abstract
+The majority of work in music information retrieval (IR) has been focused on
+symbolic representations of music. However, most of the digitally available
+music is in the form of raw audio signals. Although various attempts at
+monophonic and polyphonic transcription have been made, none has been
+successful and general enough to work with real world signals.
+In this paper we describe some initial e#orts at building IR tools for
+real world audio signals. Our approach is based on signal processing, sta­tistical 
+pattern recognition and visualization techniques. We try to gather
+as much information as possible without attempting to perform polyphonic
+transcription.
+A frequently ignored aspect in emerging fields like music IR is the im­portance 
+of the user in building a successful system. We describe some new
+graphical user interfaces that accommodate di#erent modes of interaction
+with the user. More specifically we describe an augmented sound editor for
+annotating, classifying and segmenting music and we define TimbreGrams
+a new visual representation for audio files.
+
+References
+[1] R. Duda and P. Hart. Pattern Classification and Scene Analysis. John
+Wiley & Sons, 1973.
+[2] J. Foote. An overview of audio information retrieval. ACM Multimedia
+Systems, 7:2--10, 1999.
+[3] M. Hunt, M. Lennig, and P. Mermelstein. Experiments in syllable­based
+recognition of continuous speech. In Proc.ICASSP, 1980.
+[4] B. Logan. Music summarization using key phrases. In Proc.Int.Conf
+on Audio, Speech and Signal Processing, ICASSP, 2000.
+[5] L.T.Jolliffe. Principal Component Analysis. Springer­Verlag, 1986.
+[6] J. Makhoul. Linear prediction: A tutorial overview. Proc.IEEE, 63:561--
+580, April 1975.
+[7] K. Martin, E. Scheirer, and B. Vercoe. Musical content analysis through
+models of audition. In Proc.ACM Multimedia Workshop on Content­
+Based Processing of Music, Bristol, UK, 1998.
+[8] D. Pye. Content­based methods for the management of digital music. In
+Proc.Int.Conf on Audio, Speech and Signal Processing, ICASSP, 2000.
+[9] E. Scheirer. The mpeg­4 structured audio standard. In Proc.Int.Conf
+on Audio, Speech and Signal Processing, ICASSP, 1998.
+[10] E. Scheirer. Tempo and beat analysis of acoustic musical signals.
+J.Acoust.Soc.Am, 103(1):588,601, Jan 1998.
+[11] E. Scheirer and M. Slaney. Construction and evaluation of a robust mul­tifeature 
+speech/music discriminator. IEEE Transactions on Acoustics,
+Speech and Signal Processing (ICASSP'97), pages 1331--1334, 1997.
+[12] G. Tzanetakis and P. Cook. Multifeature audio segmentation for brows­
+ing and annotation. In Proc.IEEE Workshop on Applications of Signal
+Processing to Audio and Acoustics, WASPAA99, New Paltz, NY, 1999.
+[13] G. Tzanetakis and P. Cook. Experiments in computer­assisted annota­tion 
+of audio. In Proc. Int. Conf on Auditory Display, ICAD, 2000.
+[14] G. Tzanetakis and P. Cook. MARSY AS: A framework for audio anal­ysis. 
+Organised Sound, 2000. (to appear).
+[15] G. Tzanetakis and P. Cook. Sound analysis using MPEG­compressed
+audio. In Proc.Int.Conf on Audio, Speech and Signal Processing,
+ICASSP, 2000.

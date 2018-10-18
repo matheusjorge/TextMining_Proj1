@@ -1,0 +1,80 @@
+Integrating Hybrid Rule-Based
+with Case-Based Reasoning
+
+Jim Prentzas and Ioannis Hatzilygeroudis
+
+University of Patras, School of Engineering
+Dept of Computer Engin. & Informatics, 26500 Patras, Hellas (Greece)
+and
+Computer Technology Institute, P.O. Box 1122, 26110 Patras, Hellas (Greece)
+{prentzas, ihatz}@ceid.upatras.gr, ihatz@cti.gr
+
+
+
+Abstract. In this paper, we present an approach integrating neurule-based and
+case-based reasoning. Neurules are a kind of hybrid rules that combine a
+symbolic (production rules) and a connectionist representation (adaline unit).
+Each neurule is represented as an adaline unit. One way that the neurules can be
+produced is from symbolic rules by merging the symbolic rules having the
+same conclusion. In this way, the number of rules in the rule base is decreased.
+If the symbolic rules, acting as source knowledge of the neurules, do not cover
+the full complexities of the domain, accuracy of the produced neurules is
+affected as well. To improve accuracy, neurules can be integrated with cases
+representing their exceptions. The integration approach enhances a previous
+method integrating symbolic rules with cases. The use of neurules instead of
+symbolic rules improves the efficiency of the inference mechanism and allows
+for drawing conclusions even if some of the inputs are unknown.
+References
+
+1.	Aamodt, A., Plaza, E.: Case-Based Reasoning: Foundational Issues, Methodological
+Variations and System Approaches. Artificial Intelligence Communications 7 (1994) 39-
+59.
+2.	Aha, D., Daniels, J.J. (eds.): Case-Based Reasoning Integrations: Papers from the 1998
+AAAI Workshop. Technical Report WS-98-15. AAAI Press (1998).
+3.	Althoff, K., Wess, S., Traphoner, R.: INRECA-A Seamless Integration of Induction and
+Case-Based Reasoning for Decision Support Tasks. Proceedings of the Eighth Workshop
+German SIG on Machine Learning (1995).
+4.	Boutsinas, B., Vrahatis, M., N.: Artificial nonmonotonic neural networks. Al 132 (2001)
+1-38.
+5.	Branting, L.K.: Building Explanations from Rules and Structured Cases. International
+Joumal of Man-Machine Studies 34 (1991) 797-837.
+6.	Branting, L.K.: Reasoning with Rules and Precedents. Kluwer Academic Publishers.
+Dordrecht (1999).
+7.	Cercone, N., An, A., Chan, C.: Rule-Induction and Case-Based Reasoning: Hybrid
+Architectures Appear Advantageous. IEEE Transactions on Knowledge and Data
+Engineering 11(1999) 164-174.
+8.	Domingos, P.: Unifying Instance-Based and Rule-Based Induction. Machine Learning 24
+(1996) 144-168.
+9.	Gallant, S. I.: Neural Network Learning and Expert Systems. MIT Press (1993).
+10.	Ghalwash, A. Z.: A Recency Inference Engine for Connectionist Knowledge Bases:
+Applied Intelligence 9 (1998) 201-215.
+11.	Golding, A.R., Rosenbloom, P.S.: Improving accuracy by combining rule-based and case-based 
+reasoning. Artificial Intelligence 87 (1996) 2 15-254.
+12.	Hatzilygeroudis, I., Prentzas, J.: Neurules: Improving the Performance of Symbolic Rules.
+International Journal on Al Tools 9 (2000)113-130.
+13.	Hatzilygeroudis, I., Prentzas, J.: An Efficient Hybrid Rule-Based Inference Engine with
+Explanation Capability. Proceedings of the 14th International FLAIRS Conference. AAAI
+Press (2001) 227-23 1.
+14.	Kolodner, J.: Case-Based Reasoning. Morgan Kaufmann Publishers, San Mateo, CA
+(1993).
+15.	Koton, P.: Reasoning about Evidence in Causal Explanations. Proceedings of the AAAI
+88. AAAI Press (1988).
+16.	Leake, D.B.: Combining Rules and Cases to Learn Case Adaptation. Proceedings of the
+l7th Annual Conference of the Cognitive Science Society (1995).
+17.	Leake, D.B. (ed.): Case-Based Reasoning: Experiences, Lessons & Future Directions.
+AAAI Press/MIT Press (1996).
+18.	Marling, C.R., Petot, G.J., Sterling, L.S.: Integrating Case-Based and Rule-Based
+Reasoning to Meet Multiple Design Constraints. Computational Intelligence 15 (1999)
+308-332.
+19.	Neagu, C.-D., Palade, V.: Modular Neuro-Fuzzy Networks Used in Explicit and Implicit
+Knowledge Integration, Proceedings of the 15th International FLAIRS Conference
+(FLAIRS-02). AAAI Press (2002) 277-281.
+20.	Rissland, E.L., Skalak, D.B.: CABARET: Rule Interpretation in a Hybrid Architecture.
+International Journal of Man-Machine Studies 34 (1991) 839-887.
+21.	Surma, J., Vanhoof, K.: An Empirical Study on Combining Instance-Based and Rule-Based 
+Classifiers. Case-Based Reasoning Research and Development, First International
+Conference, ICCBR-95, Proceedings. Lecture Notes in Computer Science, Vol. 1010.
+Springer-Verlag, Berlin Heidelberg New York (1995).
+22.	Veloso, M.M.: Learning by Analogical Reasoning in General Problem Solving. PhD
+Thesis, Technical Report CMU-CS-92-174, Carnegie Mellon University, Pittsburg, PA
+(1992).

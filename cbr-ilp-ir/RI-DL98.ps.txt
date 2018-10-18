@@ -1,0 +1,34 @@
+Efficient Searching in Distributed Digital Libraries
+
+James C. French Allison L. Powell Walter R. Creighton, III 
+Department of Computer Science
+University of Virginia
+Charlottesville, VA 22903­2442
+Tel: 1­804­982­2213
+E­mail: ffrenchjalp4gjwrc7mg@cs.virginia.edu
+
+ABSTRACT
+When a digital library is decomposed into many geographi­cally 
+distributed repositories, search efficiency becomes an is­sue. 
+Increasing network congestion makes this a compelling
+issue. We discuss an effective method for reducing the num­ber 
+of servers needed to respond to a query and give examples
+of search space reduction in the NCSTRL distributed digital
+library.
+
+REFERENCES
+1. J. P. Callan, Z. Lu, and W. B. Croft. Searching Distributed
+Collections with Inference Networks. In Proc. of SIGIR'95,
+pages 21--29, Seattle, WA, 1995.
+2. J. C. French, A. L. Powell, C. L. Viles, T. Emmitt, and K. J.
+Prey. Evaluating Database Selection Techniques: A Testbed
+and Experiment. In Proc. of SIGIR'98, Melbourne, Australia,
+August 1998. (To appear).
+3. L. Gravano, H. Garcia­Molina, and A. Tomasic. The Effective­
+ness of GlOSS for the Text Database Discovery Problem. In
+SIGMOD'94, pages 126--137, Minneapolis, MN, May 1994.
+4. C. Lagoze and J. R. Davis. Dienst: An Architecture for Dis­tributed 
+Document Libraries. CACM, 38(4):47, 1995.
+5. C. D. Paice. Another Stemmer. SIGIR Forum, 24(3):56--61,
+1990.
+

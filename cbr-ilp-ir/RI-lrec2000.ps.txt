@@ -1,0 +1,49 @@
+A Novelty­based Evaluation Method for Information Retrieval
+
+Atsushi Fujii, Tetsuya Ishikawa
+University of Library and Information Science
+1­2 Kasuga Tsukuba 305­8550, JAPAN
+ffujii, ishikawag@ulis.ac.jp
+
+Abstract
+In information retrieval research, precision and recall have long been used to evaluate IR systems. However, given that
+a number of retrieval systems resembling one another are already available to the public, it is valuable to retrieve novel
+relevant documents, i.e., documents that cannot be retrieved by those existing systems. In view of this problem, we
+propose an evaluation method that favors systems retrieving as many novel documents as possible. We also used our
+method to evaluate systems that participated in the IREX workshop.
+
+
+References
+Keen, E. Michael, 1992. Presenting results of experi­mental retrieval comparisons. Information Process­
+ing & Management, 28(4):491--502.
+Mainichi Shimbun, 1994­1995. Mainichi shimbun CD­
+ROM '94­'95. (In Japanese).
+Qiu, Y. and H. Frei, 1993. Concept based query ex­pansion. 
+In Proceedings of the 16th Annual Inter­ national ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 160--
+169.
+Robertson, S. E. and S. Walker, 1994. Some simple
+effective approximations to the 2­poisson model for
+probabilistic weighted retrieval. In Proceedings of
+the 17th Annual International ACM SIGIR Confer­ence on Research and Development in Information
+Retrieval, pages 232--241.
+Salton, Gerard, 1992. The state of retrieval system
+evaluation. Information Processing & Management,
+28(4):441--449.
+Salton, Gerard and Christopher Buckley, 1988. Term­
+weighting approaches in automatic text retrieval.
+Information Processing & Management, 24(5):513--
+523.
+Sekine, Satoshi and Hitoshi Isahara, 1999. IREX
+project overview. In Proceedings of the IREX Work­
+shop, pages 7--12.
+Voorhees, Ellen M., 1998. Variations in relevance
+judgments and the measurement of retrieval effec­tiveness. 
+In Proceedings of the 21sh Annual Inter­
+national ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 315--
+323.
+Zobel, Justin and Alistair Moffat, 1998. Exploring the
+similarity space. ACM SIGIR FORUM, 32(1):18--
+34.
+

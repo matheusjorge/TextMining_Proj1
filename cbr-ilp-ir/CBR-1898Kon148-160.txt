@@ -1,0 +1,90 @@
+An Unsupervised Bayesian Distance Measure
+
+Petri Kontkanen, Jussi Lahtinen, Petri Myllymäki, and Henry Tirri
+
+Complex Systems Computation Group (CoSCo)
+P.O.Box 26, Department of Computer Science
+FIN-00014 University of Helsinki, Finland
+http://www.cs.Helsinki.FI/research/cosco/
+
+
+
+
+Abstract. We introduce a distance measure based on the idea that two
+vectors are considered similar if they lead to similar predictive probability 
+distributions. The suggested approach avoids the scaling problem
+inherent to many alternative techniques as the method automatically
+transforms the original attribute space to a probability space where all
+the numbers lie between 0 and 1. The method is also flexible in the sense
+that it allows different attribute types (discrete or continuous) in the
+same consistent framework. To study the validity of the suggested measure, 
+we ran a series of experiments with publicly available data sets.
+The empirical results demonstrate that the unsupervised distance measure 
+is sensible in the sense that it can be used for discovering the hidden
+clustering structure of the data.
+References
+
+1.	D. Aha. A Study of Instance-Based Algorithms for Supervised Learning Tasks:
+Mathematical, Empirical, an Psychological Observations. PhD thesis, University
+of California, Irvine, 1990.
+2.	D. Aha, editor. Lazy Learning. Kiuwer Academic Publishers, Dordrecht, 1997.
+Reprinted from Artificial Intelligence Review, 11:1—5.
+3.	C. Atkeson, A. Moore, and S. Schaal. Locally weighted learning. In Aha [2], pages
+iI 73.
+4.	J. 0. Berger. Statistical Decision Theory and Bayesian Analysis. Springer-Verlag,
+New York, 1985.
+5.	C. Blake, E. Keogh, and C. Merz. UCI repository of machine learning databases,
+1998. URL: http://www.ics.uci.edu/~mlearn/MLRepository.html.
+6.	E. Castillo, J. Gutiérrez, and A. Hadi. Expert Systems and Probabilistic Network
+Models. Monographs in Computer Science. Springer-Verlag, New York, NY, 1997.
+7.	C. Chatfield and A. Collins. Introduction to Multivariate Analysis. Chapman and
+Hall, New York, 1980.
+8.	G. Cooper and E. Herskovits. A Bayesian method for the induction of probabilistic
+networks from data. Machine Learning, 9:309—347, 1992.
+9.	N. Friedman, D. Geiger, and M. Goldszmidt. Bayesian network classifiers. Machine
+Learning, 29:131—163, 1997.
+10.	A. Gelmari, J. Carlin, H. Stern, and D. Rubin. Bayesian Data Analysis. Chapman
+& Hall, 1995.
+11.	D. Ileckerman, D. Geiger, and D. M. Chickering. Learning Bayesian networks: The
+combination of knowledge and statistical data. Machine Learning, 20(3):197—243,
+September 1995.
+12.	D. Heckerman and C. Meek. Models and selection criteria for regression and classification. 
+In D. Geiger and P. Shenoy, editors, Uncertainty in Arificial Intelligence
+13, pages 223—228. Morgan Kaufmann Publishers, San Mateo, CA, 1997.
+13.	F. Jensen. An Introdaction to Bayesian Networks. UCL Press, London, 1996.
+14.	T. Kohonen. Self-Organizing Maps. Springer-Verlag, Berlin, 1995.
+15.	J. Kolodner. Case-Based Reasoning. Morgan Kaufmann Publishers, San Mateo,
+1993.
+16.	P. Kontkanen, J. Lahtinen, P. Myllymäki, T. Silander, and H. Tirri. Using Bayesian
+networks for visualizing high-dimensional data. Intelligent Data Analysis, 2000. To
+appear.
+17.	P. Kontkanen, P. Myllymäki, T. Silander, and 11. Tirri. BAYDA: Software for
+Bayesian classification and feature selection, In R. Agrawal, P. Stolorz, and
+G.	Piatetsky-Shapiro, editors, Proceedings of the Fourth Intenational Conference
+on Knowledge Discovery and Data Mining (KDD-98), pages 254-258. AAAI Press,
+Menlo Park, 1998.
+18.	P. Kontkanen, P. Myllymäki, T. Silander, and H. Tirri. Bayes optimal instance-based 
+learning. In C. Nédellec and C. Rouveirol, editors, Machine Learning:
+ECML-98, Proceedings of the 10th European Conference, volume 1398 of Lecture
+Notes m Artificial Intelligence, pages 77—88. Springer-Verlag, 1998.
+19.	P. Kontkanen, P. Myllymäki, T. Silander, and H. Tirri. On Bayesian case matching.
+In H. Smyth and P. Cunningham, editors, Advances in Case-Based Reasoning,
+Proceedings of the 4th European Workshop (EWCBR-98), volume 1488 of Lecture
+Notes in Artificial Intelligence, pages 13—24. Springer-Verlag, 1998.
+20.	P. Kontkanen, P. Myllymäki, T. Silander, and 11. Tirri. On supervised selection
+of Bayesian networks. In K. Laskey and H. Prade, editors, Proceedings of the 15th
+International Conference on Uncertainty in Artificial Intelligence (UAI’99), pages
+334—342. Morgan Kaufmann Publishers, 1999.
+21.	P. Kontkanen, P. Myllymäki, T. Silander, H. Tirri, and P. Grünwald. On predictive
+distributions and Bayesian networks. Statistics and Computing, 10:39—54, 2000.
+22.	A. Moore. Acquisition of dynamic control knowledge for a robotic manipulator.
+In Seventh Intenational Machine Leaning Workshop. Morgan Kaufmann, 1990.
+23.	R. F. Neapolitan. Probabilistic Reasoning in Expert Systems. John Wiley & Sons,
+New York, NY, 1990.
+24.	J. Pearl. Probabilistic Reasoning in Intelligent Systems: Networks of Plausible
+inference. Morgan Kaufmann Publishers, San Mateo, CA, 1988.
+25.	C. Stanfill and D. Waltz. Toward memory-based reasoning. Communications of
+the ACM, 29(12):1213—1228, 1986.
+26.	H. Tirri, P. Kontkanen, and P. Myllymäki. Probabilistic instance-based learning.
+In L. Saitta, editor, Machine Learning: Proceedings of the Thirteenth International
+Conference (ICML ‘96), pages 507—515. Morgan Kaufmann Publishers, 1996.

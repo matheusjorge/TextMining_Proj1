@@ -1,0 +1,42 @@
+Generalizing Refinement Operators
+to Learn Prenex Conjunctive Normal Forms
+
+Shan-Hwei Nienhuys-Cheng, Wim Van Laer
+Jan Ramon, Luc De Raedt
+cheng@few.eur.nl, {wimv,lucdr}@cs.kuleuven.ac.be
+
+Department of Computer Science, Katholieke Universiteit Leuven
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+
+
+
+Abstract. Inductive Logic Programming considers almost exclusively
+universally quantified theories. To add expressiveness we should consider 
+general prenex conjunctive normal forms (PCNF) with existential
+variables. ILP mostly uses learning with refinement operators. To extend
+refinement operators to PCNF, we should first extend substitutions to
+PCNF. If one substitutes an existential variable in a formula, one often 
+obtains a specializtion rather than a generalization. In this article
+we define substitutions to specialize a given PCNF and a weakly complete 
+downward refinement operator. Based on this operator, we have
+implemented a simple learning system PCL on some type of PCNF.
+References
+
+[R97]	L. De Raedt, Logical settings for concept learning, AI Journal, 95:187-201,
+1997.
+[RD97]	L. De Raedt and L. Dehaspe, Clausal discovery, Machine Learning, 26:99-
+146, 1997.
+[GF96]	M. Goncalves and C. Froidevaux, A new formalism to integrate quantification
+in inductive processes, Proceedings of ILP96, S. Muggleton (ed.) Vol. 1314
+of LNAI series, 1997, Springer, Berlin.
+[LN94]	P. van der Laag and S. H. Nienhuys-Cheng, Existence and nonexistence of
+complete refinement operators, Proceedings of ECML94, Vol. 784 of LNAI
+series, F. Bergadano and L. De Raedt (eds.). Springer-Verlag, Berlin, 1994.
+[N82]	J.-M. Nicolas, Logic for Improving Integrity Checking in Relational Data
+Bases, Informatica, 1982, Springer-Verlag.
+[NLR99]	S. H. Nienhuys-Cheng, W. Van Laer, L. De Raedt, Substitutions and Refinement 
+operator for PCNF, Work Report, EUR-FEW-CS-99-03.
+[NW97]	S. H. Nienhuys-Cheng and R. de Wolf, Foundations of Inductive Logic Programming, 
+LNAI Tutorial 1228, Springer-Verlag, 1997.
+[S81]	E. Y. Shapiro, Inductive inference of theories from facts. Research Report
+192, Yale University, 1981.

@@ -1,0 +1,81 @@
+Metrics for Evaluating Database Selection Techniques
+
+James C. French Allison L. Powell
+Department of Computer Science
+University of Virginia
+Charlottesville, VA
+french@cs.virginia.edu
+alp4g@cs.virginia.edu
+April 10, 2000
+
+Abstract
+The increasing availability of online databases and other information resources in digital libraries and
+on the World­Wide Web has created the need for efficient and effective algorithms for selecting databases
+to search. A number of techniques have been proposed for query routing or database selection. We
+have developed a methodology and metrics that can be used to directly compare competing techniques.
+They can also be used to isolate factors that influence the performance of these techniques so that we
+can better understand performance issues. In this paper we describe the methodology we have used to
+examine the performance of database selection algorithms such as gGlOSS and CORI. In addition we
+develop the theory behind a ``random'' database selection algorithm and show how it can be used to help
+analyze the behavior of realistic database selection algorithms.
+
+
+REFERENCES
+Callan, J., A. L. Powell, J. C. French, and M. Connell (2000), ``The Effects of Query­Based Sampling on
+Automatic Database Selection Algorithms,'' Technical Report CMU­LTI­00­162, Language Technologies
+Institute, School of Computer Science, Carnegie Mellon University.
+Callan, J. P., Z. Lu, and W. B. Croft (1995), ``Searching Distributed Collections with Inference Networks,'' In
+Proceedings of the 18th International Conference on Research and Development in Information Retrieval ,
+pp. 21--29.
+French, J. C., A. L. Powell, and J. Callan (1999a), ``Effective and Efficient Automatic Database Selection,''
+Technical Report CS­99­08, Department of Computer Science, University of Virginia.
+French, J. C., A. L. Powell, J. Callan, C. L. Viles, T. Emmitt, K. J. Prey, and Y. Mou (1999b), ``Comparing
+the Performance of Database Selection Algorithms,'' In Proceedings of the 22nd International ACM SIGIR
+Conference on Research and Development in Information Retrieval , pp. 238--245.
+French, J. C., A. L. Powell, C. L. Viles, T. Emmitt, and K. J. Prey (1998), ``Evaluating Database Selection
+Techniques: A Testbed and Experiment,'' In Proceedings of the 21st Annual International ACM SIGIR
+Conference on Research and Development in Information Retrieval , W. B. Croft, A. Moffat, and C. J.
+van Rijsbergen, Eds., Melbourne, Australia, pp. 121--129.
+Fuhr, N. (1999), ``A Decision­Theoretic Approach to Database Selection in Networked IR,'' ACM Transac­tions 
+on Information Systems 17 , 3, 229--249.
+Gibbons, J. D. (1976), Nonparametric Methods for Quantitative Analysis , Holt, Rinehart and Winston.
+Gravano, L. and H. Garc'ia­Molina (1995), ``Generalizing GlOSS to Vector­Space Databases and Broker
+Hierarchies,'' In Proceedings of the 21st International Conference on Very Large Databases (VLDB),
+Zurich, Switzerland, pp. 78--89.
+Gravano, L., H. Garc'ia­Molina, and A. Tomasic (1994), ``Precision and Recall of GlOSS Estimators for
+Database Discovery,'' In Proceedings of the 3rd International Conference on Parallel and Distributed
+Information Systems , Austin, TX, pp. 103--106.
+Gravano, L., H. Garc'ia­Molina, and A. Tomasic (1999), ``GlOSS: Text­Source Discovery over the Internet,''
+ACM Transactions on Database Systems to appear.
+Gravano, L., H. Garc'ia­Molina, and A. Tomasic (May 1994), ``The Effectiveness of GlOSS for the Text
+Database Discovery Problem,'' In SIGMOD94 , Minneapolis, MN, pp. 126--137.
+Harman, D. (1996), ``Overview of the Fourth Text Retrieval Conference (TREC­4),'' In Proceedings of the
+Fourth Text Retrieval Conference (TREC­4), Gaithersburg, MD.
+Hawking, D. and P. Thistlewaite (1999), ``Methods for Information Server Selection,'' ACM Transactions on
+Information Systems 17 , 1, 40--76.
+Larson, H. J. (1974), Introduction to Probability Theory and Statistical Inference, (2nd. edition), John Wileyi
+& Sons, Inc.
+Losee, R. M. (1995), ``Determining Information Retrieval and Filtering Performance without Experimenta­tion,
+'' Information Processing & Management 31 , 4, 555--572.
+Lu, Z., J. P. Callan, and W. B. Croft (1996), ``Measures in Collection Ranking Evaluation,'' Technical Report
+TR­96­39, Computer Science Department, University of Massachusetts.
+Meng, W., K.­L. Liu, C. Yu, X. Wang, Y. Chang, and N. Rishe (1998), ``Determining Text Databases to
+Search in the Internet,'' In Proceedings of the 24th VLDB Conference, New York, pp. 14--25.
+Moffat, A. and J. Zobel (1995), ``Information Retrieval Systems for Large Document Collections,'' In 
+Pro­ceedings of the Third Text Retrieval Conference (TREC­3), Gaithersburg, MD, pp. 85--94.
+Powell, A. L., J. C. French, J. Callan, M. Connell, and C. L. Viles (2000), ``Measuring the Impact of
+Database Selection on Distributed Searching,'' In Proceedings of the 23rd Annual International ACM
+SIGIR Conference on Research and Development in Information Retrieval , To appear.
+Tomasic, A., L. Gravano, C. Lue, P. Schwarz, and L. Haas (1997), ``Data Structures for Efficient Broker
+Implementation,'' ACM Transactions on Information Systems 15 , 3, 223--253.
+Xu, J. and J. Callan (1998), ``Effective Retrieval with Distributed Collections,'' In Proceedings of the 21st
+Annual International ACM SIGIR Conference on Research and Development in Information Retrieval ,
+pp. 112--120.
+Xu, J. and W. B. Croft (1999), ``Cluster­based Language Models for Distributed Retrieval,'' In Proceedings
+of the 22nd Annual International ACM SIGIR Conference on Research and Development in Information
+Retrieval , pp. 254--261.
+Yuwono, B. and D. L. Lee (1997), ``Server Ranking for Distributed Text Retrieval Systems on Internet,''
+In Proceedings of the Fifth International Conference on Database Systems for Advanced Applications ,
+Melbourne, Australia, pp. 41--49.
+Zobel, J. (1997), ``Collection Selection via Lexicon Inspection,'' In Proceedings of the 1997 Australian Docu­ment 
+Computing Symposium, Melbourne, Australia, pp. 74--80.

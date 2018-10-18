@@ -1,0 +1,60 @@
+Using Prior Probabilities and Density
+Estimation for Relational Classification
+
+James Cussens
+
+Department of Computer Science
+University of York
+Heslington, York Y010 5DD, UK
+Tel: +44 1904 434732
+Fax: +44 1904 432767
+jc@cs.york.ac.uk
+
+
+
+
+Abstract. A Bayesian method for incorporating probabilistic background
+knowledge into ILP is presented. Positive only learning is extended to
+allow density estimation. Estimated densities and defined prior are combined 
+in Bayes theorem to perform relational classification. An initial
+application of the technique is made to part-of-speech (POS) tagging. A
+novel use of Gibbs sampling for POS tagging is given.
+References
+
+1.	Henrik Boström. Predicate invention and learning from positive examples only. In
+Proceedings of the 10th European Conference on Machine Learning (ECML-98).
+Springer, 1998.
+2.	Wray Buntine. Learning classification trees. In D.J. Hand, editor, Artificial Intelligence 
+Frontiers in Statistics: AI and Statistics III, chapter 15, pages 182—201.
+Chapman & Hall, London, 1993.
+3.	J. Cussens. Bayesian Inductive Logic Programming with explicit probabilistic bias.
+Technical Report PRG-TR-24-96, Oxford University Computing Laboratory, 1996.
+4.	James Cussens. Part-of-speech tagging using Progol. In Inductive Logic Programming: 
+Proceedings of the 7th International Workshop (ILP-97). LNAI 1297, pages
+93—108. Springer, 1997.
+5.	Luc Dehaspe. Maximum entropy modeling with clausal constraints, In Inductive 
+Logic Programming: Proceedings of the 7th International Workshop (ILP-97).
+LNAI 1207, pages 109—124. Springer, 1997.
+6.	Joseph Y. Halpern. An analysis of first-order logics of probability. Artificial Intelligence, 
+46:311—350, 1990.
+7.	D. Michie, D.J. Spiegeihalter, and C.G. Taylor. Machine Learning, Neural and
+Statistical Classification. Ellis Horwood, Hemel Hempstead, 1994.
+8.	S. Muggleton. Learning from positive data. In S. Muggleton, editor, Inductive 
+Logic Programming: Proceedings of the 6th International Workshop (ILP-96).
+LNAI 1314, pages 358—376. Springer, 1996.
+9.	Raymond Ng and V.S. Subrahmanian. Probabilistic logic programming. Information 
+and Computation, 101(2):150—201, 1992.
+10.	Uros Pompe and Igor Kononenko. Probabilistic first-order classification. In Inductive 
+Logic Programming: Proceedings of the 7th International Workshop (ILP-97),
+pages 235—243, 1997.
+11.	A.F.M. Smith and G.O. Roberts. Bayesian computation via the Gibbs sampler
+and related Markov chain Monte Carlo methods. Journal of the Royal Statistical
+Society B, 55(1):3—23, 1993.
+12.	A. Srinivasan. Sampling methods for the analysis of large datasets with ILP. Technical 
+Report PRG-TR-27-97, Oxford University Computing Laboratory, Oxford,
+1997.
+13.	A. Srinivasan and R.D. King. Feature construction with inductive logic programming: 
+A study of quantitative predictions of biological activity aided by structural
+attributes. In S. Muggleton, editor, Inductive Logic Programming: Proceedings of
+the 6th International Workshop (ILP-96). LNAI 1314, pages 89—104. Springer,
+1996.

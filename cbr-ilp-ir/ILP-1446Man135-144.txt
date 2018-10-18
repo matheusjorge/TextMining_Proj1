@@ -1,0 +1,47 @@
+Learning Multilingual Morphology with CLOG
+
+Suresh Manandhar,* Saso Dzeroski#, Tomaz Erjavec#
+
+* Intelligent Systems Group, Department of Computer Science, University of York
+YO10 5DD, York, U.K.
+Suresh@cs.york.ac.uk
+
+# Department for Intelligent Systems, Jozef Stefan Institute
+Jamova 39, SI-1000 LiubUana, Slovenia
+
+Saso.Dzeroski@ijs.si, Tomaz.Erjavec@ijs.si
+
+Abstract. The paper presents the decision list learning system CLOG
+and the results of using it to learn nominal inflections of English, Romanian, 
+Czech, Slovene, and Estonian. The dataset used to induce rules
+for the synthesis and analysis of the inflectional paradigms of nouns and
+adjectives of these languages is the MULTEXT-East multilingual tagged
+corpus. The ILP system FOIDL is also applied to the same dataset, and
+this paper compares the induction methodology and results of the two
+systems. The experiment shows that the accuracy of the two systems
+is comparable when using the same training set. However, while FoIDL
+is, due to efficiency reasons, severely limited in the size of the training
+set, CLOG does not suffer from such limitations. With the increase of the
+training set size possible with CLOG, it significantly outperforms FoIDL
+and learns highly accurate morphological rules.
+
+References
+1.	J. Cussens. Part-of-speech tagging using Progol. In Proc. 7th Intl. Wshp. on Inductive 
+Logic Programming, pages 93—108. Springer, Berlin, 1997.
+2.	W. Daelemans, T. Weijters, and A. van der Vosch, editors. Proc. ECML-97 Workshop 
+on Empirical Learning of Natural Language Processing Tasks. Prague, Czech
+Republic, 1997.
+3.	S. Dzeroski and T. Erjavec. Induction of Slovene nominal paradigms. In Proc. 7th
+Intl. Wshp. on Inductive Logic Programming, pages 141—148. Springer, Berlin, 1997.
+4.	T. Erjavec, N. Ide, V. Petkevic, and J. Véronis. MULTEXT-East: Multilingual text
+tools and corpora for Central and Eastern European languages. In Proc. 1st TELRI
+European Seminar, pages 87—98. Tihany, Hungary, 1995.
+5.	T. Erjavec, M. Monachini (eds.). Specifications and Notation for Lexicon Encoding.
+MULTEXT-East Final Report D1.1F, Ljubljana, IJS, 1997.
+6.	R. J. Mooney. Inductive logic programming for natural language processing. In Proc.
+6th Intl. Wshp. on Inductive Logic Programming, pages 3—22. Springer, Berlin, 1997.
+7.	R. J. Mooney and M.-E. Califf. Induction of first-order decision lists: Results on
+learning the past tense of English verbs. Journal of Artificial Intelligence Research,
+(3):1—24, 1995.
+8.	S. Muggleton. Inverse entailment and Progol, New Generation Computing,(13):245—
+286, 1995.

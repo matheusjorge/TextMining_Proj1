@@ -1,0 +1,68 @@
+Instance Based Function Learning
+
+Jan Ramon and Luc De Raedt
+
+Katholieke Universiteit Leuven, Department of Computer Science
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+{janr,lucdr}@cs.kuleuven.ac.be
+
+
+
+Abstract. The principles of instance based function learning are presented. 
+In IBFL one is given a set of positive examples of a functional
+predicate. These examples are true ground facts that illustrate the input 
+output behaviour of the predicate. The purpose is then to predict
+the output of the predicate given a new input. Further assumptions are
+that there is no background theory and that the inputs and outputs
+of the predicate consist of structured terms. IBFL is a novel technique
+that addresses this problem and that combines ideas from instance based
+learning, first order distances and analogical or case based reasoning. We
+also argue that IBFL is especially useful when there is a need for handling
+complex and deeply nested terms. Though we present the technique in
+isolation, it might be more useful as a component of a larger system to
+deal e.g. with the logic, language and learning challenge.
+References
+
+1.	D. W. Aha, D. Kibler, and M. K. Albert. Instance-based learning algorithms.
+Machine Learning, 6(1):37—66, January 1991.
+2.	W. Emde and D. Wettschereck. Relational instance-based learning. In L. Saitta,
+editor, Proceedings of the 13th International Conference on Machine Learning,
+pages 122—130. Morgan Kaufmann, 1996.
+3.	Thomas G. Evans. A program for the solution of a class of geometric-analogy
+intelligence-test questions. In Marvin L. Minsky, editor, Semantic Information
+Processing, pages 271—353. MIT Press, Cambridge, Massachusetts, 1968.
+4.	P.A. Flach. Strongly typed inductive concept learning. In D. Page, editor, Proceedings 
+of the 8th International Conference on Inductive Logic Programming, volume
+1446, pages 185—194. Springer-Verlag, 1998.
+5.	B. Hirowatari and S. Arikawa. Explanation based generalisation by analogical
+reasoning. In Proceedings of the 2nd International Workshop on Inductive Logic
+Programming. Institute for New Generation Computer Technology, 1992.
+6.	G. Huet. Confluent reductions: Abstract properties and applications to term rewriting 
+systems. Journal of the Association for Computing Machinery, 27(4):797—821,
+1980.
+7.	A. Hutchinson. Metrics on terms and clauses. In Proceedings of the 9th European
+Conference on Machine Learning, Lecture Notes in Artificial Intelligence, pages
+138—145. Springer-Verlag, 1997.
+8.	D. Kazakov, S. Pulman, and S. Muggleton. The fracas dataset and the Ill challenge.
+Technical report, 1998.
+9.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, 1994.
+10.	S. Muggleton and L. De Raedt. Inductive logic programming : Theory and methods. 
+Journal of Logic Programming, 19,20:629—679, 1994.
+11.	Shan-Hwei Nienhuys-Cheng. Distance between herbrand interpretations: A measure 
+for approximations to a target concept. In Proceedings of the 7th International
+Workshop on Inductive Logic Programming, Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1997.
+12.	G. Plotkin. A note on inductive generalization. In Machine Intelligence, volume 5,
+pages 153—163. Edinburgh University Press, 1970.
+13.	J. Ramon and M. Bruynooghe. A framework for defining distances between firstorder 
+logic objects. In Proceedings of the 8th International Conference on Inductive 
+Logic Programming, Lecture Notes in Artificial Intelligence, pages 271—280.
+Springer-Verlag, 1998.
+14.	J. Ramon, M. Bruynooghe, and W. Van Laer. Distance measures between atoms.
+In Proceedings of the CompulogNet Area Meeting on ‘Computational Logic and
+Machine Learning’, pages 35—41, 1998.
+15.	K. Sadohara and M. Haraguchi. Analogical logic program synthesis from examples.
+In N. Lavrac and S. Wrobel, editors, Proceedings of the 8th European Conference
+on Machine Learning, volume 912 of Lecture Notes in Artificial Intelligence, pages
+232—244, Berlin, Heidelberg, New York, 1995. Springer-Verlag.

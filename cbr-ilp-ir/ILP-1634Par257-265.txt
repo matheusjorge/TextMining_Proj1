@@ -1,0 +1,43 @@
+Theory Recovery
+
+Rupert Parson1, Khalid Khan1, and Stephen Muggleton2
+
+1 Oxford University Computing Laboratory, UK
+[rupert.parson,khalid.khan]@comlab.ox.ac.uk
+2 Department of Computer Science, University of York, UK
+stephen@cs.york.ac.uk
+
+
+
+Abstract. In this paper we examine the problem of repairing incomplete
+background knowledge using Theory Recovery. Repeat Learning under
+ILP considers the problem of updating background knowledge in order to
+progressively increase the performance of an ILP algorithm as it tackles
+a sequence of related learning problems. Theory recovery is suggested as
+a suitable mechanism. A bound is derived for the performance of theory
+recovery in terms of the information content of the missing predicate definitions. 
+Experiments are described that use the logical back-propagation
+ability of Progol 5.0 to perform theory recovery. The experimental results
+are consistent with the derived bound.
+References
+
+1.	K. M. Khan, S. H. Muggleton, and R. D. G. Parson. Repeat learning using predicate
+invention. In David Page, editor, Proceedings of the Eighth International Conference
+on Inductive Logic Programming, volume 1446 of LNAI, pages 165—174, Madison,
+Wisconsin, USA, 1998. Springer.
+2.	S. Moyle and S. H. Muggleton. Learning programs in the event calculus. In Nada
+Lavrac and Saso Dzeroski, editors, Proceedings of the Seventh International Conference 
+on Inductive Logic Programming, volume 1297 of LNAI, pages 205—212,
+Prague, Czech Republic, September 1997. Springer.
+3.	S. H. Muggleton. Inverse entailment and progol. New Generation Computing,
+13:245—286, 1995.
+4.	S. H. Muggleton. Learning from positive data. In Proceedings of the Sixth Workshop
+on Inductive Logic Programming, Stockholm, 1996.
+5.	S. H. Muggleton and C. D. Page. A learnability model for universal representations.
+Technical report, Oxford University Computing Laboratory, Oxford, UK, 1997.
+6.	S. H. Muggleton and L. De Raedt. Inductive logic programming: theory and methods. 
+Journal of Logic Programming, 19,20:629—679, 1994.
+7.	M. E. Stickel. A prolog technology theorem prover: a new exposition and implementation 
+in prolo. Theoretical Computer Science, 104(1):109—128, 1992.
+8.	D. Welsh. Codes and Cryptography. Oxford Science Publications. Oxford University
+Press, 1989.

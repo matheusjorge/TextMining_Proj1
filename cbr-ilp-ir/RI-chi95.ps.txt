@@ -1,0 +1,136 @@
+TileBars: Visualization of Term Distribution Information in
+Full Text Information Access
+
+Marti A. Hearst
+Xerox Palo Alto Research Center
+3333 Coyote Hill Rd, Palo Alto, CA 94304
+(415) 812­4742; hearst@parc.xerox.com
+
+ABSTRACT
+The field of information retrieval has traditionally focused on
+textbases consisting of titles and abstracts. As a consequence,
+many underlying assumptions must be altered for retrieval
+from full­length text collections. This paper argues for mak­ing 
+use of text structure when retrieving from full text doc­uments, 
+and presents a visualization paradigm, called Tile­
+Bars, that demonstrates the usefulness of explicit term distri­bution 
+information in Boolean­type queries. TileBars simul­
+taneously and compactly indicate relative document length,
+query term frequency, and query term distribution. The pat­terns 
+in a column of TileBars can be quickly scanned and de­
+ciphered, aiding users in making judgments about the poten­tial 
+relevance of the retrieved documents.
+
+REFERENCES
+1. M. Aboud, C. Chrisment, R. Razouk, and F. Sedes. Querying
+a hypertext information retrieval system by the use of classifi­cation. 
+Information Processing and Management, 29(3):387--
+396, 1993.
+2. H. C. Arents and W. F. L. Bogaerts. Concept­based retrieval
+of hypermedia information -- from term indexing to seman­tic 
+hyperindexing. Information Processing and Management,
+29(3):373--386, 1993.
+3. Jacques Bertin. Semiology of Graphics. The University of
+Wisconsin Press, Madison, WI, 1983. Translated by William
+J. Berg.
+4. Richard Chimera. Value bars: An information visualization
+and navigation tool for multi­attribute listings. In Proceedings
+of the ACM SIGCHI Conference on Human Factors in Com­
+puting Systems, pages 293--294, May 1992.
+5. William S. Cooper, Fredric C. Gey, and Aitoa Chen. Proba­bilistic 
+retrieval in the TIPSTER collections: An application of
+staged logistic regression. In Donna Harman, editor, Proceed­ings 
+of the Second Text Retrieval Conference TREC­2, pages
+57--66. National Institute of standard and Technology Special
+Publication 500­215, 1994.
+6. W. Bruce Croft and Howard R. Turtle. Text retrieval and in­ference. 
+In Paul S. Jacobs, editor, Text­Based Intelligent Sys­tems: 
+Current Research and Practice in Information Extrac­tion 
+and Retrieval, pages 127--156. Lawrence Erlbaum Asso­ciates, 1992.
+7. Douglass R. Cutting, David Karger, and Jan Pedersen. Con­stant 
+interaction­time Scatter/Gather browsing of very large
+document collections. In Proceedingsof the 16thAnnual Inter­national 
+ACM/SIGIR Conference, pages 126--135, Pittsburgh,
+PA, 1993.
+8. Douglass R. Cutting, Jan O. Pedersen, and Per­Kristian
+Halvorsen. An object­oriented architecture for text retrieval.
+In Conference Proceedings of RIAO'91, Intelligent Text and
+Image Handling, Barcelona, Spain, pages 285--298, April
+1991. Also available as Xerox PARC technical report SSL­
+90­83.
+9. DouglassR. Cutting, Jan O. Pedersen, Per­Kristian Halvorsen,
+and Meg Withgott. Information theater versus information re­finery. 
+In Paul S. Jacobs, editor, AAAI Spring Symposium on
+Text­based Intelligent Systems, 1990.
+10. Dennis E. Egan, Joel R. Remde, Louis M. Gomez, Thomas K.
+Landauer, Jennifer Eberhardt, and Carol C. Lochbaum. For­
+mative design evaluation of superbook. Transaction on Infor­mation 
+Systems, 7(1), 1989.
+11. Edward A. Fox and Matthew B. Koll. Practical enhanced
+Boolean retrieval: Experiences with the SMART and SIRE
+systems. Information Processing and Management, 24(3),
+1988.
+12. Norbert Fuhr and Chris Buckley. Optimizing document index­
+ing and search term weighting based on probabilistic models.
+In Donna Harman, editor, The First Text Retrieval Conference
+(TREC­1), pages 89--100. NIST Special Publication 500­207,
+1993.
+13. Donna Harman. Overview of the first Text REtrieval Con­ference. 
+In Proceedings of the 16th Annual International
+ACM/SIGIR Conference, pages 36--48, Pittsburgh, PA, 1993.
+14. Marti A. Hearst. Context and Structure in Automated Full­Text
+Information Access. PhD thesis, University of California at
+Berkeley, 1994. (Computer Science Division Technical Report
+UCB/CSD­94/836).
+15. Marti A. Hearst. Multi­paragraph segmentation of expository
+text. In Proceedingsof the 32nd Meeting of the Association for
+Computational Linguistics, June 1994.
+16. Marti A. Hearst. An investigation of term distribution effects
+on individual queries. Technical Report Report Number ISTL­
+QCA­1994­12­06, Xerox PARC, 1995. Submitted for publica­tion.
+17. William C. Hill, James D. Hollan, Dave Wroblewski, and Tim
+McCandless. Edit wear and read wear. In Proceedings of the
+ACM SIGCHI Conference on Human Factors in Computing
+Systems, pages 3--9, May 1992.
+18. Brewster Kahle and Art Medlar. An information system for
+corporate users: Wide area information servers. Technical Re­port 
+TMC199, Thinking Machines Corporation, April 1991.
+19. Robert R. Korfhage. To see or not to see -- is that the query?
+In Proceedings of the 14th Annual International ACM/SIGIR
+Conference, pages 134--141, Chicago, 1991.
+20. S. Kosslyn, S. Pinker, W. Simcox, and L. Parkin. Under­standing 
+Charts and Graphs: A Project in Applied Cogni­tive Science. 
+National Institute of Education, 1983. ED
+1.310/2:238687.
+21. Jock Mackinlay. Automatic Design of Graphical Presenta­
+tions. PhD thesis, Stanford University, 1986. Technical Report
+Stan­CS­86­1038.
+22. Alistair Moffat, Ron Sacks­Davis, Ross Wilkinson, and Justin
+Zobel. Retrieval of partial documents. In Donna Harman,
+editor, Proceedings of the Second Text Retrieval Conference
+TREC­2, pages 181--190. National Institute of standard and
+Technology Special Publication 500­215, 1994.
+23. Terry Noreault, Michael McGill, and Matthew B. Koll. A per­formance 
+evaluation of similarity measures, document term
+weighting schemes and representations in a Boolean environ­ment. 
+In R. N. Oddy, S. E. Robertson, C. J. van Rijsbergen,
+and P. W. Williams, editors, Information Retrieval Research,
+pages 57--76. Butterworths, London, 1981.
+24. John Ousterhout. An X11 toolkit based on the Tcl language.
+In Proceedingsof the Winter 1991 USENIX Conference, pages
+105--115, Dallas, TX, 1991.
+25. George C. Robertson, Stuart K. Card, and Jock D. MacKin­
+lay. Information visualization using 3D interactive animation.
+Communications of the ACM, 36(4):56--71, 1993.
+26. Gerard Salton. Automatic text processing: the transformation,
+analysis, and retrieval of information by computer. Addison­
+Wesley, Reading, MA, 1988.
+27. Hikmet Senay and Eve Ignatius. Rules and principles of sci­entific 
+data visualization. Technical Report GWU­IIST­90­13,
+Institute for Information Science and Technology, The George
+Washington University, 1990.
+28. Anselm Spoerri. InfoCrystal: A visual tool for information re­trieval 
+& management. In Proceedings of Information Knowl­
+edge and Management '93, Washington, D.C., Nov 1993.
+29. Edward Tufte. The Visual Display of Quantitative Information.
+Graphics Press, Chelshire, CT, 1983.

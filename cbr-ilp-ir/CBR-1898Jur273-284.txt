@@ -1,0 +1,54 @@
+An Efficient Approach to
+Similarity-Based Retrieval
+on Top of Relational Databases
+
+Jürgen Schumacher1 and Ralph Bergmann2
+
+1 tec:inno GmbH
+
+Sauerwiesen 2, D—67661 Kaiserslautern, Germany
+schurmacher@tecinno.com
+2 Center for Learning Systems and Applications (LSA), University of Kaiserslautern
+
+Postfach 3049, D-67653 Kaiserslautern, Germany
+bergmann@informatik.uni-kl.de
+
+
+
+Abstract. This paper presents an approach to realize a case retrieval
+engine on top of a relational database. In a nutsheli the core idea is to
+approximate a similarity-based retrieval with SQL-queries. The approach
+avoids duplicating the case data or compiling index structures and is
+therefore ideal for huge case bases which are often subject to changes. The
+presented approach is fully implemented as part of the commercial CBR
+toolbox orenge and the experimental evaluation demonstrates impressive
+retrieval behaviour.
+References
+
+1.	S. Berchtold, B. Erti, D. A. Keim, H.-P. Kriegel, and T. Seidi. Fast nearest neighbor
+search in high-dimensional space. In Proc. 14th Int. Conf. on Data Engineering
+(ICDE’98), pages 209—218, 1998.
+2.	S. Berchtold, D. A. Keim, and H.-P. Kriegel. The x-tree: An index structure for
+high-dimensional data. In Proc. 22nd Int. Conf on Very Large Data Bases, pages
+28—39, 1996.
+3.	R. Bergmann, S. Breen, M. Göker, M. Manago, and S. Wess. Developing Industrial
+Case-Based Reasoning Applications: The INRECA Methodology. Lecture Notes in
+Artificial Intelligence, State-of-the-Art-Survey, LNAI 1612. Springer Verlag, 1999.
+4.	M. Donner and T. Roth-Berghofer. Architectures for integration CBR-systems with
+databases for e-commerce. In 7th German Workshop on Case Based Reasoning
+(GWCBR’99), 1999.
+5.	H. Schimazu, H. Kitano, and A. Shibata. Retrieving cases from relational
+databases: Another strike toward coporate-wide case-based systems. In Proceedings
+of the 13th International Joint Conference in Artificial Intelligence (IJCAI’93),
+1993.
+6.	S. Schmitt and R. Bergmann. Applying case-based reasoning technology for product 
+selection and customization in electronic commerce environments. In 12th Bled
+Electronic Commerce Conference., 1999.
+7.	T. Seidl and H.-P. Kriegel. Optimal multi-step k-nearest neighbor search. In Proc.
+ACM SIGMOD Int. Conf. on Management of Data, pages 154—165, 1998.
+8.	W. Wilke. Knowledge Management for Intelligent Sales Support in Electronic
+Commerce. DISKI 213. Infix Verlag, 1999.
+9.	W. Wilke, M. Lenz, and S. Wess. Intelligent sales support with CBR. In M. Lenz,
+B. Bartsch-Spörl, H.-D. Burkhard, and S. Wess, editors, Case-Based Reasoning
+Technology: From Foundations to Applications, pages 91—113. Springer Verlag,
+1998.

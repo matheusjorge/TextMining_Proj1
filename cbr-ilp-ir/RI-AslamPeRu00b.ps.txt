@@ -1,0 +1,135 @@
+Using Star Clusters for Filtering
+
+Javed Aslam Katya Pelekhov Daniela Rus
+Department of Computer Science
+Dartmouth College
+Hanover, NH 03755
+
+Abstract
+We examine applications of clustering to the filtering
+task. We use the on­line version of the star algorithm
+[JPR98, JPR99] as the clustering tool because this algo­rithm 
+computes, with high precision, naturally occuring
+topics in a collection and it admits an eficient on­line so­lution 
+for dynamic corpora. We describe several filtering
+algorithms and show extensive experimental results using
+the TREC collection.
+
+
+References
+[AB84] M. Aldenderfer and R. Blashfield, Cluster Analysis,
+Sage, Beverly Hills, 1984.
+[APL98] J. Allan, R. Papka, and V. Lavrenko. On­line New
+Event Detection and Tracking. In Proceedings of SIGIR,
+1998.
+[JPR98] J. Aslam, K. Pelekhov, and D. Rus, Static and dy­namic 
+information organization using star clusters, in
+Proceedings of the 1998 Conference on Information
+Knowledge Management, Baltimore, MD 1998.
+[JPR99] J. Aslam, K. Pelekhov, and D. Rus, A practical clus­tering 
+algorithm for information organization, In Pro­ceedings 
+of the 1999 Symposium on Discrete Algorithms,
+Baltimore, MD 1999.
+[JRR00] J. Aslam, F. Reiss, and D. Rus, Scalability studies in
+information organization In Proceedings of RIAO 2000,
+Paris, France, 2000.
+[Bur95] R. Burgin, The retrieval e#ectiveness of five cluster­ing 
+algorithms as a function of indexing exhaustively,
+Journal of American Society for Information Science
+46(8):562­572, 1995.
+[Cal96] J. Callan. Document Filtering With Inference Net­works. 
+In Proceedings of the 19th International Con­ference
+on Research and Development in Information
+Retrieval (SIGIR 96), Zurich, Switzerland, pp. 262­269,
+1996.
+[Cal98] J. Callan. Learning While Filtering Documents. In Pro­ceedings 
+of SIGIR 98, Melbourne, Australia, 1998.
+[Can93] F. Can, Incremental clustering for dynamic informa­tion 
+processing, in ACM Transactions on Information
+Systems, no. 11, pp143­164, 1993.
+[CFG99] U. Cetintemel, M. Franklin, and L. Giles. Flexible user
+profiles for large scale data delivery. Technical report CS­
+TR­4005, Computer Science Department, University of
+Maryland, 1999.
+[CCFM97] M. Charikar, C. Chekuri, T. Feder, and R. Mot­wani, 
+Incremental clustering and dynamic information
+retrieval, in Proceedings of the 29 th Symposium on The­ory of Computing, 1997.
+[Cro77] W. B. Croft. Clustering large files of documents using
+the single­link method. Journal of the American Society
+for Information Science, pp189­195, November 1977.
+[CKP93] D. Cutting, D. Karger, and J. Pedersen. Constant
+interaction­time scatter/gather browsing of very large
+document collections. In Proceedings of the 16 th SIGIR,
+1993.
+[ERS98] D. Eichmann, M. Ruiz, and P. Srinivasan. Cluster­
+Based Adaptive and Batch Filtering. In Proceedings of
+the Seventh Text REtrieval Conference (TREC­7), 1998.
+[FO95] C. Faloutsos and D. Oard. A Survey of Information Re­trieval 
+and Filtering Methods. Technical Report CS­TR­
+3514, Department of Computer Science, University of
+Maryland, 1995.
+[Hul97] D. A. Hull, The TREC­6 Filtering Track: Description
+and Analysis, The Seventh Text REtrieval Conference
+(TREC­6), 1997.
+[Hul98] D. A. Hull, The TREC­7 Filtering Track: Description
+and Analysis, The Seventh Text REtrieval Conference
+(TREC­7), 1998.
+[HPS96] D. A. Hull, J. O. Pedersen, and H. Sch˜utze. Method
+Combination for Document Filtering. In Proceedings of
+the 1996 International ACM/SIGIR Conference on Re­search 
+and Development in Information Retrieval, pages
+279--287, 1996.
+[JR71] N. Jardine and C.J. van Rijsbergen. The use of hier­
+archical clustering in information retrieval, 7:217­240,
+1971.
+[Lew95] D. Lewis. The TREC­5 filtering track. In eds. E.
+Voorhees and D. Harman. The Fifth Text REtrieval Con­ference, 
+pp75--96. NIST Special Publication 500­238.
+[LY94] C. Lund and M. Yannakakis.On the hardness of approx­imating 
+minimization problems. Journal of the ACM 41,
+960--981, 1994.
+[MMLP97] J. Mostafa, S. Mukhopadhyay, W. Lam, and M.
+Palakal. A multilevel approach to intelligent information
+filtering: model, system and evaluation. ACM Transac­tions 
+on Information Systems, vol. 15, no. 4, pp 368--399,
+1997.
+[PA98] R. Papka and J. Allan. On­Line New Event Detection
+using Single Pass Clustering. UMass Computer Science
+Technical Report TR98­21, 1998.
+[Rij79] C.J. van Rijsbergen. Information Retrieval. Butter­
+worths, London, 1979.
+[Sal91] G. Salton. The Smart document retrieval project.
+In Proceedings of the Fourteenth Annual International
+ACM/SIGIR Conference on Research and Development
+in Information Retrieval, pages 356­358.
+[SHP95] H. Sch˜utze, D. Hull, and J. Pedersen. A comparison of
+classifiers and document representations for the routing
+problem. In Proceedings of SIGIR, 1995.
+[Sha86] W. Shaw, On the foundation of evaluation, Journal of
+the American Society for Information Science, 37, 346­
+348, 1986.
+[SBH97] W. Shaw Jr., R. Burgin and P. Howell. Perfor­mance 
+Standardsand Evaluations in IR Test Collections:
+Cluster­Based Retrieval Models. Information Processing
+& Management 33(1) 1--14, 1997.
+[Sib73] R. Sibson. SLINK: an optimally e#cient algorithm for
+the single link cluster method. Computer Journal 16,
+pp30--34, 1973.
+[Voo85] E. Voorhees. The cluster hypothesis revisited. In Pro­ceedings 
+of the 8 th SIGIR, pp 95­104, 1985.
+[Wil88] P. Willett. Recent trends in hierarchical document clus­tering: 
+A critical review. Information Processing and
+Management, 24:(5):577­597, 1988.
+@InProceedingsyan:sift, author = Tak W. Yan and Hec­tor 
+Garcia­Molina, title = ''SIFT ­ a tool for wide­area
+information dissemination'', booktitle = ''Proceedings of
+the 1995 Usenix Technical Conference'', year = 1995,
+pages = 177­186,
+[YG95] T. W. Yan and H. Garcia­Molina. SIFT ­ a tool for
+wide­area information dissemination''. In Proceedings
+of the 1995 Usenix Technical Conference, pp 177--186,
+1995.
+[Zuc93] D. Zuckerman. NP­complete problems have a version
+that's hard to approximate. In Proceedings of the Eight
+Annual Structure in Complexity Theory Conference,
+IEEE Computer Society, 305--312, 1993.

@@ -1,0 +1,72 @@
+Audio Analysis using the Discrete Wavelet Transform
+George Tzanetakis, Georg Essl, Perry Cook*
+
+Computer Science Department *also Music Department
+Princeton
+35 Olden Street, Princeton NJ 08544
+USA
+gtzan@cs.princeton.edu http://www.cs.princeton.edu/~gtzan
+
+Abstract: ­ The Discrete Wavelet Transform (DWT) is a transformation that can be used to analyze the
+temporal and spectral properties of non­stationary signals like audio. In this paper we describe some
+applications of the DWT to the problem of extracting information from non­speech audio. More specifically
+automatic classification of various types of audio using the DWT is described and compared with other
+traditional feature extractors proposed in the literature. In addition, a technique for detecting the beat attributes
+of music is presented. Both synthetic and real world stimuli were used to evaluate the performance of the beat
+detection algorithm.
+
+
+References:
+[1] Jonathan Foote, An Overview of Audio
+Information Retrieval, ACM Multimedia
+Systems, Vol.7, 1999, pp. 2­10.
+[2] Eric D. Scheirer, Malcolm Slaney,
+``Construction and evaluation of a robust
+multifeature speech/music discriminator,'' IEEE
+Transactions on Acoustics, Speech and Signal
+Processing, 1997, 1331­1334.
+[3] E. Wold et al., ``Content­based classification,
+search and retrieval of audio data.'' IEEE
+Multimedia Magazine, Vol. 3, No. 2, 1996.
+[4] Eric D. Scheirer, ``Tempo and beat analysis of
+acoustic musical signals,'' J. Acoust. Soc. Am.
+Vol. 103, No. 1, 1998, 558­601.
+[5] Special issue on Wavelets and Signal
+Processing, IEEE Trans. Signal Processing, Vol.
+41, Dec. 1993.
+[6] R. Polikar, The Wavelet Tutorial,
+http://www.public.iastate.edu/rpolikar/wavelets/
+Wttutorial.html.
+[7] R.Kronland­Martinet, J.Morlet and A.Grossman
+Analysis of sound patterns through wavelet
+transform'', International Journal of Pattern
+Recognition and Artificial Intelligence,Vol. 1(2),
+1987, 237­301.
+[8] S. R. Subramanya, ``Experiments in Indexing
+Audio Data,'' Tech. Report, GWU­IIST, January
+1998.
+[9] S. R. Subramanya et al., ``Transform­Based
+Indexing of Audio Data for Multimedia
+Databases,'' IEEE Int'l Conference on
+Multimedia Systems, Ottawa, June 1997.
+[10] S.G Mallat ``A Theory for Multiresolution
+Signal Decomposition: The Wavelet
+Representation'' IEEE.Transactions on Pattern
+Analysis and Machine Intelligence,
+Vol.11,1989,674­693
+[11] I.Daubechies ``Orthonormal Bases of
+Compactly Supported Wavelets''
+Communications on Pure and Applied Math.
+Vol.41 1988, 909­996
+[12] M.Hunt, M.Lenning and P.Mermelstein.
+Experiments in syllable­based recognition of
+continuous speech'', Proc. Inter.Conference on
+Acoustics, Speech and Signal Processing
+(ICASS), 1980
+[13] G. Tzanetakis, P.Cook ``MARSYAS: A
+framework for audio analysis'', Organised
+sound,Vol.4(3), 2000
+[14] G. Tzanetakis, P.Cook ``Multi­feature Audio
+Segmentation for Browsing and Annotation'',
+Proc.IEEE Workshop on Appl. Signal Proc.. to
+Audio and Acoustics (WASPAA),1999

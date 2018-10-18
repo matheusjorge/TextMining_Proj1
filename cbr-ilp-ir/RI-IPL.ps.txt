@@ -1,0 +1,47 @@
+Learning Unions of High Dimensional Boxes over the Reals
+
+Amos Beimel  Eyal Kushilevitz y
+Abstract
+
+In [4] an algorithm is presented that exactly learns (using membership queries and equivalence
+queries) several classes of unions of boxes in high dimension over finite discrete domains. The running
+time of the algorithm is polynomial in the logarithm of the size of the domain and other parameters
+of the target function (in particular, the dimension). We go one step further and present a PAC+MQ
+algorithm whose running time is independent of the size of the domain. Thus, we can learn such classes
+of boxes over infinite domains. Specifically, we learn unions of t disjoint n-dimensional boxes over the
+reals in time polynomial in n and t, and unions of O(log n) (possibly intersecting) n-dimensional boxes
+over the reals in time polynomial in n.
+
+
+References
+[1] D. Angluin. Queries and concept learning. Machine Learning, 2(4):319{342, 1988.
+[2] P. Auer, P. M. Long, and A. Srinivasan. Approximating hyper-rectangles: learning and pseudorandom sets. In
+Proc. of 29th Symp. on the Theory of Computing, pages 314{323, 1997. Journal version: J. of Computer and
+System Sciences, 57(3):376{388, 1998.
+[3] A. Beimel, F. Bergadano, N. H. Bshouty, E. Kushilevitz, and S. Varricchio. On the applications of multiplicity
+automata in learning. In Proc. of 37th Symp. on Foundations of Computer Science, pages 349{358, 1996.
+[4] A. Beimel and E. Kushilevitz. Learning boxes in high dimension. In S. Ben-David, editor, 3rd European Conf.
+on Computational Learning Theory (EuroCOLT '97), volume 1208 of Lecture Notes in Articial Intelligence,
+pages 3{15. Springer, 1997. Journal version: Algorithmica, 22(1/2):76{90, 1998.
+[5] S. Ben-David, N. H. Bshouty, and E. Kushilevitz. A composition theorem for learning algorithms with 
+applications to geometric concept classes. In Proc. of 29th Symp. on the Theory of Comp., pages 324{333, 1997.
+[6] L. Blum, F. Cucker, M. Shub, and S. Smale. Complexity and Real Computation. Springer, 1998.
+[7] A. Blumer, A. Ehrenfeucht, D. Haussler, and M. K. Warmuth. Learnability and the Vapnik-Chervonenkis
+dimension. J. of the ACM, 36:929{965, 1989.
+[8] N. H. Bshouty, Z. Chen, and S. Homer. On learning discretized geometric concepts. In Proc. of 35th Symp. on
+Foundations of Computer Science, pages 54{63, 1994.
+[9] N. H. Bshouty, S. A. Goldman, H. D. Mathias, S. Suri, and H. Tamaki. Noise-tolerant distribution-free learning
+of general geometric concepts. In Proc. of 28th Symp. on the Theory of Computing, pages 151{160, 1996.
+[10] P. Burgisser, M. Clausen, and M. A. Shokrollahi. Algebraic Complexity Theory. Springer, 1997.
+[11] M. Frazier, S. Goldman, N. Mishra, and L. Pitt. Learning from a consistently ignorant teacher. J. of Computer
+and System Sciences, 52(3):471{492, 1996.
+[12] M. Kearns. EÆcient noise-tolerant learning from statistical queries. In Proc. of 25th Symp. on the Theory of
+Computing, pages 392{401, 1993. Journal version: J. of the ACM, 45(6):983{1006, 1998.
+[13] M. J. Kearns and U. V. Vazirani. An Introduction to Computational Learning Theory. MIT press, 1994.
+[14] S. Kwek and L. Pitt. PAC learning intersections of halfspaces with membership queries. In Proc. of 9th Conf.
+on Comput. Learning Theory, pages 244{254, 1996. Journal version: Algorithmica, 22(1/2):53-75, 1998.
+[15] P. M. Long and M. K. Warmuth. Composite geometric concepts and polynomial predictability. Information
+and Computation, 113(2):230{252, 1994.
+[16] W. Maass and M. K. Warmuth. EÆcient learning with virtual threshold gates. Information and Computation,
+141(1):66{83, 1998.
+[17] L. G. Valiant. A theory of the learnable. Communications of the ACM, 27(11):1134{1142, 1984.

@@ -1,0 +1,52 @@
+Repeat Learning Using Predicate Invention
+
+Khalid Khan1,2, Stephen Muggleton1, and Rupert Parson2
+
+1 Department of Computer Science, University of York
+{kmk, stephen}@cs.york.ac.uk
+2 Oxford University Computing Laboratory
+rupert.parson@comlab.ox.ac.uk
+
+
+
+Abstract. Most of machine learning is concerned with learning a single 
+concept from a sequence of examples. In repeat learning the teacher
+chooses a series of related concepts randomly and independently from a
+distribution D A finite sequence of examples is provided for each concept 
+in the series. The learner does not initially know V, but progressively
+updates a posterior estimation of V as the series progresses. This paper
+considers predicate invention within Inductive Logic Programming as a
+mechanism for updating the learner’s estimation of V. A new predicate
+invention mechanism implemented in Progol4.4 is used in repeat learning
+experiments within a chess domain. The results indicate that significant
+performance increases can be achieved. The paper develops a Bayesian
+framework and demonstrates initial theoretical results for repeat learning.
+References
+
+[1]	J. Baxter. Theoretical models of learning to learn. In T. Mitchell and S. Thrun,
+editors, Learning to Learn. Kiuwer, Boston, 1997.
+[2]	J. Goodacre. Inductive learning of chess rules using progol. Master’s thesis,
+Oxford University, Oxford University Computing Laboratory, 1996.
+[3]	C. Ling. Inventing necessary theoretical terms in scientific discovery and inductive
+logic programming. Technical Report 302, Dept. of Comp. Sci., Univ. of Western
+Ontario, 1991.
+[4]	S. Muggleton. Predicate invention and utilisation. Journal of Experimental and
+Theoretical Artificial Intelligence, 6(1):127—130, 1994.
+[5]	S. Muggleton. Inverse entailment and Progol. New Generation Computing,
+13:245—286, 1995.
+[6]	S. Muggleton. Learning from positive data. In Proceedings of the Sixth Workshop
+on Inductive Logic Programming, Stockholm, 1996.
+[7]	S. Muggleton and W. Buntine. Machine invention of first-order predicates by inverting 
+resolution. In Proceedings of the 5th International Conference on Machine
+Learning, pages 339—352. Kaufmann, 1988.
+[8]	S. Muggleton and C. D. Page. A learnability model for Universal representations.
+In S. Wrobel, editor, Proceedings of the 4th International Workshop on Inductive
+Logic Programming, 1994.
+[9]	I. Stahl. Constructive induction in inductive logic programming: an overview.
+Technical report, Fakultat Informatik, Universitat Stuttgart, 1992.
+[10]	I. Stahl. Predicate invention in inductive logic programming. In L. De Raedt, editor, 
+Advances in Inductive Logic Programming, pages 34—47. lOS Press, Ohmsha,
+Amsterdam, 1996.
+[11]	R. Wirth and P. O’Rorke. Constraints on predicate invention. In Proceedings of
+the 8th International Workshop on Machine Learning, pages 457—461. Kaufmann,
+1991.

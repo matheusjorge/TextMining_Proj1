@@ -1,0 +1,32 @@
+Displaying Dynamic Information
+
+Jaime Teevan
+Massachusetts Institute of Technology
+200 Technology Sq. NE43­823
+Cambridge, MA 02116 USA
++1 617 452 2839
+teevan@mit.edu
+
+ABSTRACT
+In this paper I introduce the problem of displaying dynamic
+information. I give several examples where an individual
+must interact with information that is changing beyond her
+control. The challenge in displaying this information is to
+discover how the user's context can be maintained while
+giving her access to the new information that becomes
+available. The user should feel in control of the information
+despite the fact that it is changing. This can be done
+effectively by understanding what conceptual anchors the
+user creates into the data, and keeping them constant while
+changing the other information as needed.
+
+REFERENCES
+1. Ahlberg, C. and Shneiderman, B. Visual Information
+Seeking: Tight Coupling of Dynamic Query Filters with
+Starfield Displays. In Human Factors in Computing
+Systems: Proceedings of the CHI '94 Conference, 1994.
+2. Adar, E., Karger, D.R., and Stein, L. Haystack: Per­
+User Information Environments. In Proceedings of the
+eighth international conference on Information
+knowledge management, 1999.
+

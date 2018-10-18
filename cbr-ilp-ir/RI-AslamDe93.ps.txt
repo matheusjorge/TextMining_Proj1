@@ -1,0 +1,147 @@
+General Bounds on Statistical Query Learning
+and PAC Learning with Noise via Hypothesis Boosting
+
+Javed A. Aslam
+Laboratory for Computer Science
+Massachusetts Institute of Technology
+Cambridge, MA 02139
+Scott E. Decatur +
+Aiken Computation Laboratory
+Harvard University
+Cambridge, MA 02138
+
+Abstract
+We derive general bounds on the complexity of
+learning in the Statistical Query model and in the
+PAC model with classification noise. We do so by
+considering the problem of boosting the accuracy of
+weak learning algorithms which fall within the Statis­tical 
+Query model. This new model was introduced
+by Kearns [12] to provide a general framework for ef­ficient 
+PAC learning in the presence of classification
+noise.
+We first show a general scheme for boosting the ac­curacy 
+of weak SQ learning algorithms, proving that
+weak SQ learning is equivalent to strong SQ learn­
+ing. The boosting is eficient and is used to show
+our main result of the first general upper bounds
+on the complexity of strong SQ learning. Specifi­cally, 
+we derive simultaneous upper bounds with re­
+spect to # on the number of queries, O(log 2 1
+#
+), the
+Vapnik­Chervonenkis dimension of the query space,
+O(log 1
+#
+log log 1
+#
+), and the inverse of the minimum tol­
+erance, O( 1
+#
+log 1
+#
+). In addition, we show that these
+general upper bounds are nearly optimal by describing
+a class of learning problems for which we simultane­ously 
+lower bound the number of queries
+by#251 1
+#
+)
+and the inverse of the minimum tolerance by # 1
+#
+).
+We further apply our boosting results in the SQ
+model to learning in the PAC model with classification
+noise. Since nearly all PAC learning algorithms can be
+cast in the SQ model, we can apply our boosting tech­niques 
+to convert these PAC algorithms into highly
+eficient SQ algorithms. By simulating these eficient
+SQ algorithms in the PAC model with classification
+noise, we show that nearly all PAC algorithms can be
+converted into highly eficient PAC algorithms which
+tolerate classification noise. We give an upper bound
+on the sample complexity of these noise­tolerant PAC
+algorithms which is nearly optimal with respect to the
+noise rate. We also give upper bounds on space com­plexity 
+and hypothesis size and show that these two
+measures are in fact independent of the noise rate.
+We note that the running times of these noise­tolerant
+PAC algorithms are eficient.
+This sequence of simulations also demonstrates that
+it is possible to boost the accuracy of nearly all PAC
+algorithms even in the presence of noise. This provides
+a partial answer to an open problem of Schapire [15]
+and the first theoretical evidence for an empirical re­sult 
+of Drucker, Schapire and Simard [4].
+
+
+
+
+
+References
+[1] Dana Angluin. Computational learning theory: Sur­vey 
+and selected bibliography. In Proceedings of the
+Twenty­Fourth Annual ACM Symposium on Theory
+of Computing, pages 351--369, May 1992.
+[2] Dana Angluin and Philip Laird. Learning from noisy
+examples. Machine Learning, 2(4):343--370, 1988.
+[3] Scott E. Decatur. Statistical queries and faulty PAC
+oracles. In Proceedings of the Sixth Annual ACM
+Workshop on Computational Learning Theory. ACM
+Press, 1993.
+[4] Harris Drucker, Robert Schapire, and Patrice Simard.
+Improving performance in neural networks using a
+boosting algorithm. In Advances in Neural Informa­tion 
+Processing Systems. Morgan Kaufmann, 1992.
+[5] Andrzej Ehrenfeucht, David Haussler, Michael
+Kearns, and Leslie Valiant. A general lower bound on
+the number of examples needed for learning. Infor­mation
+ and Computation, 82(3):247--251, September
+1989.
+[6] Yoav Freund. Boosting a weak learning algorithm by
+majority. In Proceedings of the Third Annual Work­shop 
+on Computational Learning Theory, pages 202--
+216. Morgan Kaufmann, 1990.
+[7] Yoav Freund. An improved boosting algorithm and its
+implications on learning complexity. In Proceedings of
+the Fifth Annual ACM Workshop on Computational
+Learning Theory, pages 391--398. ACM Press, 1992.
+[8] Yoav Freund. Personal communication, 1993.
+[9] Sally A. Goldman, Michael J. Kearns, and Robert E.
+Schapire. Exact identification of circuits using fixed
+points of amplification functions. In Proceedings of
+the 31st Symposium on Foundations of Computer Sci­ence, 
+pages 193--202. IEEE, October 1990.
+[10] Sally A. Goldman, Michael J. Kearns, and Robert E.
+Schapire. On the sample complexity of weak learning.
+In Proceedings of COLT '90, pages 217--231. Morgan
+Kaufmann, 1990.
+[11] David Helmbold, Robert Sloan, and Manfred K. War­muth. 
+Learning integer lattices. SIAM Journal on
+Computing, 21(2):240--266, 1992.
+[12] Michael Kearns. E#cient noise­tolerant learning from
+statistical queries. In Proceedings of the Twenty­Fifth
+Annual ACM Symposium on Theory of Computing,
+1993.
+[13] Philip D. Laird. Learning from Good and Bad Data.
+Kluwer international series in engineering and com­
+puter science. Kluwer Academic Publishers, Boston,
+1988.
+[14] Yasubumi Sakakibara. Algorithmic Learning of For­
+mal Languages and Decision Trees. PhD thesis, Tokyo
+Institute of Technology, October 1991. (International
+Institute for Advanced Study of Social Information
+Science, Fujitsu Laboratories Ltd, Research Report
+IIAS­RR­91­22E).
+[15] Robert E. Schapire. The strength of weak learnability.
+Machine Learning, 5(2):197--227, 1990.
+[16] Robert E. Schapire. The Design and Analysis of Ef­ficient 
+Learning Algorithms. MIT Press, Cambridge,
+MA, 1992.
+[17] Hans Ulrich Simon. General bounds on the number of
+examples needed for learning probabilistic concepts.
+In Proceedings of the Sixth Annual ACM Workshop on
+Computational Learning Theory. ACM Press, 1993.
+[18] Leslie G. Valiant. A theory of the learnable. Commu­nications 
+of the ACM, 27(11):1134--1142, November
+1984.

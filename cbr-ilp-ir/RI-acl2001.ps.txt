@@ -1,0 +1,147 @@
+Organizing Encyclopedic Knowledge based on the Web and its
+Application to Question Answering
+
+Atsushi Fujii
+University of Library and
+Information Science
+1­2 Kasuga, Tsukuba
+305­8550, Japan
+CREST, Japan Science and
+Technology Corporation
+fujii@ulis.ac.jp
+Tetsuya Ishikawa
+University of Library and
+Information Science
+1­2 Kasuga, Tsukuba
+305­8550, Japan
+ishikawa@ulis.ac.jp
+
+Abstract
+We propose a method to generate large­scale
+encyclopedic knowledge, which is valuable
+for much NLP research, based on the Web.
+We first search the Web for pages contain­ing 
+a term in question. Then we use lin­guistic 
+patterns and HTML structures to ex­tract 
+text fragments describing the term. Fi­nally, 
+we organize extracted term descrip­tions 
+based on word senses and domains. In
+addition, we apply an automatically gener­ated 
+encyclopedia to a question answering
+system targeting the Japanese Information­
+Technology Engineers Examination.
+
+
+References
+Brian Amento, Loren Terveen, and Will Hill. 2000.
+Does ``authority'' mean quality? predicting expert
+quality ratings of Web documents. In Proceedings
+of the 23rd Annual International ACM SIGIR Con­ference 
+on Research and Development in Informa­tion 
+Retrieval, pages 296--303.
+Lalit. R. Bahl, Frederick Jelinek, and Robert L. Mer­cer. 
+1983. A maximum linklihood approach to
+continuous speech recognition. IEEE Transac­tions 
+on Pattern Analysis and Machine Intelligence,
+5(2):179--190.
+Sergey Brin and Lawrence Page. 1998. The anatomy
+of a large­scale hypertextual Web search engine.
+Computer Networks, 30(1--7):107--117.
+Peter F. Brown, Stephen A. Della Pietra, Vincent
+J. Della Pietra, and Robert L. Mercer. 1993. The
+mathematics of statistical machine translation: Pa­rameter 
+estimation. Computational Linguistics,
+19(2):263--311.
+Philip Clarkson and Ronald Rosenfeld. 1997. Statisti­cal l
+anguage modeling using the CMU­Cambridge
+toolkit. In Proceedings of EuroSpeech'97, pages
+2707--2710.
+Oren Etzioni. 1997. Moving up the information food
+chain. AI Magazine, 18(2):11--18.
+Atsushi Fujii and Tetsuya Ishikawa. 2000. Utilizing
+the World Wide Web as an encyclopedia: Extract­
+ing term descriptions from semi­structured texts.
+In Proceedings of the 38th Annual Meeting of the
+Association for Computational Linguistics, pages
+488--495.
+Sanda M. Harabagiu, Marius A. Pas›ca, and Steven J.
+Maiorano. 2000. Experiments with open­domain
+textual question answering. In Proceedings of the
+18th International Conference on Computational
+Linguistics, pages 292--298.
+Marti A. Hearst. 1992. Automatic acquisition of hy­ponyms 
+from large text corpora. In Proceedings
+of the 14th International Conference on Computa­tional 
+Linguistics, pages 539--545.
+Hitachi Digital Heibonsha. 1998. CD­ROM World
+Encyclopedia. (In Japanese).
+Akihiro Inokuchi, Takashi Washio, Hiroshi Motoda,
+Kouhei Kumasawa, and Naohide Arai. 1999. Bas­ket 
+analysis for graph structured data. In Proceed­ings 
+of the 3rd Pacific­Asia Conference on Knowl­edge 
+Discovery and Data Mining, pages 420--431.
+Makoto Iwayama and Takenobu Tokunaga. 1994. A
+probabilistic model for text categorization: Based
+on a single random variable with multiple values. In
+Proceedings of the 4th Conference on Applied Nat­ural 
+Language Processing, pages 162--167.
+Yuji Matsumoto, Akira Kitauchi, Tatsuo Yamashita,
+Yoshitaka Hirano, Osamu Imaichi, and Tomoaki
+Imamura. 1997. Japanese morphological analysis
+system ChaSen manual. Technical Report NAIST­
+IS­TR97007, NAIST. (In Japanese).
+Andrew McCallum, Kamal Nigam, Jason Rennie, and
+Kristie Seymore. 1999. A machine learning ap­proach 
+to building domain­specific search engines.
+In Proceedings of the 16th International Joint Con­ference 
+on Artificial Intelligence, pages 662--667.
+Dan Moldovan and Sanda Harabagiu. 2000. The
+structure and performance of an open­domain ques­tion 
+answering system. In Proceedings of the 38th
+Annual Meeting of the Association for Computa­tional 
+Linguistics, pages 563--570.
+Jun'ichi Nakamura and Makoto Nagao. 1988. Extrac­tion 
+of semantic information from an ordinary En­glish 
+dictionary and its evaluation. In Proceedings
+of the 10th International Conference on Computa­tional 
+Linguistics, pages 459--464.
+Nichigai Associates. 1996. English­Japanese com­puter 
+terminology dictionary. (In Japanese).
+John Prager, Eric Brown, and Anni Coden. 2000.
+Question­answering by predictive annotation. In
+Proceedings of the 23rd Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval, pages 184--191.
+Philip Resnik. 1999. Mining the Web for bilingual
+texts. In Proceedings of the 37th Annual Meeting
+of the Association for Computational Linguistics,
+pages 527--534.
+S. E. Robertson and S. Walker. 1994. Some simple
+effective approximations to the 2­poisson model for
+probabilistic weighted retrieval. In Proceedings of
+the 17th Annual International ACM SIGIR Confer­ence 
+on Research and Development in Information
+Retrieval, pages 232--241.
+Hinrich Sch˜utze. 1998. Automatic word sense dis­crimination. 
+Computational Linguistics, 24(1):97--
+123.
+Stephen Soderland. 1997. Learning to extract text­
+based information from the World Wide Web. In
+Proceedings of 3rd International Conference on
+Knowledge Discovery and Data Mining.
+Ellen M. Voorhees and Dawn M. Tice. 2000. Building
+a question answering test collection. In Proceed­ings 
+of the 23rd Annual International ACM SIGIR
+Conference on Research and Development in Infor­mation 
+Retrieval, pages 200--207.
+David Yarowsky. 1995. Unsupervised word sense dis­-ambiguation 
+rivaling supervised methods. In Pro­
+ceedings of the 33rd Annual Meeting of the Associa­
+tion for Computational Linguistics, pages 189--196.
+Xiaolan Zhu and Susan Gauch. 2000. Incorporating
+quality metrics in centralized/distributed informa­tion 
+retrieval on the World Wide Web. In Proceed­ings 
+of the 23rd Annual International ACM SIGIR
+Conference on Research and Development in Infor­mation 
+Retrieval, pages 288--295.
+

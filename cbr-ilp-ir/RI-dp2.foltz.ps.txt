@@ -1,0 +1,98 @@
+Running head: TEXTUAL COHERENCE USING LATENT SEMANTIC ANALYSIS
+The Measurement of Textual Coherence with Latent Semantic Analysis
+
+Peter W. Foltz
+New Mexico State University
+Walter Kintsch and Thomas K. Landauer
+University of Colorado
+Foltz, P. W., Kintsch, W. & Landauer, T. K. (1998). The measurement of textual
+coherence with Latent Semantic Analysis. Discourse Processes, , 25, 2&3, 285­307.
+
+Abstract
+Latent Semantic Analysis is used as a technique for measuring the coherence of
+texts. By comparing the vectors for two adjoining segments of text in a high­
+dimensional semantic space, the method provides a characterization of the degree of
+semantic relatedness between the segments. We illustrate the approach for
+predicting coherence through re­analyzing sets of texts from two studies that
+manipulated the coherence of texts and assessed readers' comprehension. The
+results indicate that the method is able to predict the effect of text coherence on
+comprehension and is more effective than simple term­term overlap measures. In
+this manner, LSA can be applied as an automated method that produces coherence
+predictions similar to propositional modeling. We describe additional studies
+investigating the application of LSA to analyzing discourse structure and examine
+the potential of LSA as a psychological model of coherence effects in text
+comprehension.
+
+
+References
+Britton, B. K., & Gulgoz, S. (1991). Using Kintsch#s computational model to
+improve instructional text: Effects of repairing inference calls on recall and
+cognitive structures. Journal of Educational Psychology, 83, 329­345.
+Deerwester, S., Dumais, S. T., Furnas, G. W., Landauer, T. K., & Harshman, R.
+(1990). Indexing by latent semantic analysis. Journal of the American Society for
+Information Science, 41(6), 391­407.
+Flesch, R. (1948). A new readability yardstick. Journal of Applied Psychology,
+32, 221­233.
+Fletcher, C. R., Chrysler, S. T., van den Broek, P., Deaton, J. A., & Bloom, C. P.
+(1995). The role of co­occurrence, coreference, and causality in coherence of
+conjoined sentences. In R. F. Lorch & E. J. O'Brien (Eds.), Sources of coherence in
+reading. Hillsdale, NJ: Erlbaum.
+Foltz, P. W. (1996). Latent Semantic Analysis for text­based research.
+Behavior Research Methods, Instruments and Computers, 28(2), 197­202.
+Foltz, P. W., Britt, M. A., & Perfetti, C. A. (1996). Reasoning from multiple
+texts: An automatic analysis of readers' situation models. In G. W. Cottrell (Ed.)
+Proceedings of the 18th Annual Cognitive Science Conference (pp. 110­115).
+Hillsdale, NJ: Erlbaum.
+Grosz, B., & Sidner, C. (1986). Attention, intentions and the structure of
+discourse. Computational Linguistics, 12,3, 175­204.
+Klare, G. R. (1963). The measurement of readability, Ames: Iowa State
+University Press.
+Halliday, M. A. K., & Hasan, R. (1976). Cohesion in English. London:
+Longman.
+Hearst, M. A., & Plaut, C. (1993). Subtopic Structuring for Full­Length
+Document Access. In Proceedings of the Sixteenth Annual International ACM
+SIGIR Conference on Research and Development in Information Retrieval,
+Pittsburgh, 59­68.
+Kintsch, W. (1988). The role of knowledge in discourse comprehension: A
+construction­integration model. Psychological Review, 2, 95, 163­182.
+Kintsch, W. (1992). A cognitive architecture for comprehension. In H. L Pick,
+Jr., P. van den Broek, & D. C. Knoll (Eds.) Cognition: Conceptual and methodological
+issues (pp. 143­164). Washington, DC: American Psychological Association.
+Kintsch, W. (in press). Comprehension: A paradigm for cognition. New York:
+Cambridge University Press.
+Measuring Coherence 29
+Kintsch, W. & van Dijk, T. (1978). Toward a model of text comprehension
+and production. Psychological Review, 85, 363­394.
+Kintsch, W. & Keenan, J. M. (1973). Reading rate and retention as a function
+of the number of the propositions in the base structure of sentences. Cognitive
+Psychology, 5, 257­274.
+Kintsch, W., & Vipond, D. (1979). Reading comprehension and readability in
+educational practice and psychological theory. In L. G. Nilsson (Eds.), Perspectives on
+Memory Research. Hillsdale, NJ: Erlbaum.
+Landauer, T. K., & Dumais, S. T. (1997) A solution to Plato's problem: The
+Latent Semantic Analysis theory of the acquisition, induction, and representation of
+knowledge. Psychological Review, 104, 211­240.
+Landauer, T. K., Foltz, P. W., & Laham, D. (this issue). An introduction to
+Latent Semantic Analysis. Discourse Processes.
+Lorch, R. F. & O'Brien, E. J. (Eds.). (1995). Sources of coherence in reading.
+Hillsdale, NJ: Erlbaum.
+McNamara, D. Kintsch, E., Butler Songer, N., & Kintsch, W. (1996). Are good
+texts always better? Interactions of text coherence, background knowledge, and levels
+of understanding in learning from text. Cognition and Instruction, 14(1), 1­43.
+Miller, J. R., & Kintsch, W. (1980). Readability and recall of short prose
+passages: A theoretical analysis. Journal of Experimental Psychology: Human
+Learning and Memory, 6, 335­454.
+Morris, J., & Hirst, G. (1991). Lexical cohesion computed by thesaural relations
+as an indicator of the structure of text. Computational Linguistics, 17(1), 21­48.
+Salton, G., & McGill, M. J. (1983). Introduction to modern information
+retrieval. NY: McGraw­Hill.
+Trabasso, T., Secco, T., & van den Broek, P. (1984). Causal cohesion and story
+coherence. In H. Mandl, N. Stein, & T. Trabasso (Eds.). Learning and
+comprehension of text. Hillsdale, NJ: Erlbaum.
+Turner, A. A. (1987). The propositional analysis system (Tech. Rep. No. 87­2).
+Boulder: University of Colorado, Institute of Cognitive Science.
+van Dijk, T. A., & Kintsch, W. (1983). Strategies of discourse comprehension.
+New York: Academic Press.
+Wolfe, M. B., Schreiner, M. E., Rehder, R., Laham, D., Foltz, P. W., Kintsch,
+W., & Landauer, T. K. (this issue). Learning from text: Matching readers and text by
+Latent Semantic Analysis. Discourse Processes.

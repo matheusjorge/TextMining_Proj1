@@ -1,0 +1,92 @@
+Analyzing and Learning ECG Waveforms
+
+Gabriella Kókai1, Zoltán Alexin2, and Tibor Gyimóthy3
+
+1 Institute of Informatics, József Attila University
+
+Árpád tér 2, H-6720 Szeged, Hungary
+Phone: (36) +(62) 311184, Fax: (36) +(62) 312292
+e-mail: kokai@inf.u-szeged.hu
+
+now visiting the Chair of Programming Languages,
+Department of Computer Science,
+Friedrich-Alexander University of Erlangen-Nürnberg
+Martenstr. 3. D-91058 Erlangen, Germany
+e-mail: kokai@informatik.uni-erlangen.de
+
+2 Department of Applied Informatics, József Attila University
+Árpád tér 2, H-6720 Szeged, Hungary
+Phone: (36) +(62) 311184, Fax: (36) +(62) 312292
+e-mail: alexin@inf.u-szeged.hu
+
+3 Research Group on Artificial Intelligence
+Hungarian Academy ‘of Sciences,
+Aradi vértanuk tere 1, H-6720 Szeged, Hungary
+Phone: (36) +(62) 464139, Fax: (36) +(62) 312508
+e-mail: gyimi@inf.u-szeged.hu.
+
+
+Abstract. In this paper we present a system which integrates an ECG
+waveform classifier (called PECG) with an interactive learner (called
+IMPUT). The PECG system is based on an attribute grammar specification 
+of ECGs that has been transformed to Prolog. The IMPUT
+system combines the interactive debugging technique IDT with the unfolding 
+algorithm introduced in SPECTRE. The main result achieved in
+the new version of the PECG system is that an ILP method can be used
+to improve the effectiveness of a real size Prolog application. Applying
+the IMPUT method, the extended PECG system is able to suggest a correct 
+solution to the user to replace the buggy clause recognized during
+the debugging process. 
+References
+
+1.	Alexin, Z., Gyimóthy, T., Bostrom, H.: Integrating Algorithmic Debugging and
+Unfolding Transformation in an Interactive Learner in Proceedings of the 12th
+European Conference on Artificial Intelligence ECAI-96 ed. Wolfgang Wahlster,
+Budapest, Hungary (1996) 403—407 John Wiley & Son’s Ltd. 1996.
+2.	Boström, H., Idestam-Almquist, P.: Specialization of Logic Programs by Pruning
+SLD-trees., Proc. of the Fourth International Workshop on Inductive Logic Programming 
+(ILP-94) Bad Honnef/Bonn Germany September 12-14. (1994) 31—47
+3.	De Raedt, L., Bruynooghe, M.: A theory of clausal discovery Proc. of the 13th
+International Joint Conference on Artificial Intelligence Morgan Kaufmann (1993)
+4.	Deransart, P., Maluszynski, J.: Relating Logic Programs and Attribute Grammars
+Journal of Logic Programming 2, (1985) 119—156
+5.	Dzeroski, S., Lavrac, N.: Inductive Learning in Deductive Databases, IEEE 
+Transactions on Knowledge and Data Engineering 5 (6): (1994) 939-949
+6.	Fritzson, P., Gyimóthy, T., Kamkar, M., Shahmeri, N.: Generalized Algorithmic
+Debugging and Testing in Proceedings of ACM SIGPLAN ‘91 Conference on Programming 
+Language Design and Implementation, Toronto, Ontario 1991. ACM
+SIGPLAN Notices 26, 6, (1991) 317—326
+7.	Kókai, G., Alexin, Z., Kocsis, F.: The IDT System and its Application for Learning
+Prolog Programs. Proc. of the Sixth International Conference on Artificial Intelligence 
+and Information Control Systems of Robots (AIICSR-94) Smolenice Castle
+Slovakia September 12-16. (1994) 315—320
+8.	Kókai, G., Alexin, Z., Gyimóthy, T.: Classifying ECG Waveforms in Prolog Proc.
+of the Fourth International Conference on The Practical Application of PROLOG
+(PAP96) London, United Kingdom April 23-25, (1996) 193—221
+9.	Lavrac, N., Dzeroski, S.: Inductive Logic Programming: Techniques and 
+Applications Ellis Horwood, (1994)
+10.	Muggleton, S.: Inverse entailment and Progol, New Generation Computing Vol 13.
+(special issue on Inductive Logic Programming) Ohmsha, (1995) 245—286
+11.	Muggleton, S., De Raedt, L.: Inductive Logic Programming: Theory and methods,
+Journal of Logic Programming 19 (20) (1994) 629—679
+12.	Ostrand, T. J., Balker, M. J.: The Category-Partition Method for Specifying and
+Generating Functional Tests CACM 31:6 June (1988) 676—686
+13.	Paakki, J., Gyimóthy, T., Horváth T.,: Effective Algorithmic Debugging for 
+Inductive Logic Programming. Proc. of the Fourth International Workshop on Inductive
+Logic Programming (ILP-94) Bad Honnef/Bonn Germany September 12-14. (1994)
+175—194
+14.	Pereira, F. C. N., Warren, D. H. D.: Definite clause grammars for language analysis
+- a survey of the formalism and a comparison with augmented transition networks
+Artificial Intelligence 13: 231-278, (1980)
+15.	Shapiro, E. Y.: Algorithmic Program Debugging MIT Press (1983)
+16.	Skordalakis, E.: ECG Analysis in Syntactic and Structural Pattern Recognition
+Theory and Applications ed. Bunke, H. and Sanfeliu, A. World Scientific (1990)
+499-533
+17.	Skordalakis, E., Papakonstantinou G.: Towards an Attribute Grammar for the 
+Description of ECG Waveforms 7th International Conference on Pattern Recognition
+(1984).
+18.	Tamaki, H., Sato, T.: Unfold/Fold Transformations of Logic Programs, Proceedings
+of the Second International Logic Programming Conference, Uppsala University,
+Uppsala, Sweden (1984) 127—138
+19.	Udupa J.K., Murthy I.S.N.: Syntactic Approach to ECG Rhythm analysis IEEE
+Transactions on Biomedical Engineering, vol. BME-27, No.7 pp 370-375, July 1980

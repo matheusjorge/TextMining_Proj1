@@ -1,0 +1,72 @@
+Analogical Prediction
+
+Stephen Muggleton,
+Michael Bain*
+
+Department of Computer Science,
+University of York,
+YO10 5DD,
+United Kingdom.
+
+
+
+
+Abstract. Inductive Logic Programming (ILP) involves constructing an
+hypothesis H on the basis of background knowledge B and training examples 
+E. An independent test set is used to evaluate the accuracy of H.
+This paper concerns an alternative approach called Analogical Prediction 
+(AP). AP takes B, E and then for each test example (x, y) forms an
+hypothesis Hx from B, E, x. Evaluation of AP is based on estimating the
+probability that Hx(x) = y for a randomly chosen (x, y). AP has been
+implemented within CProgol4.4. Experiments in the paper show that on
+English past tense data AP has significantly higher predictive accuracy
+on this data than both previously reported results and CProgol in inductive 
+mode. However, on KRK illegal AP does not outperform CProgol
+in inductive mode. We conjecture that AP has advantages for domains
+in which a large proportion of the examples must be treated as exceptions 
+with respect to the hypothesis vocabulary. The relationship of AP
+to analogy and instance-based learning is discussed. Limitations of the
+given implementation of AP are discussed and improvements suggested.
+References
+
+1.	J. Arima. Logical Foundations of Induction and Analogy. PhD thesis, Kyoto
+University, 1998.
+T.	Davies and S.J. Russell. A logical approach to reasoning by analogy. In IJ CA I-
+87, pages 264—270. Morgan Kaufmann, 1987.
+3.	W. Emde and D. Wettschereck. Relational Instance-Based Learning. In L. Saitta,
+editor, Proceedings of the 18th International Machine Learning Conference, pages
+122—130, Los Altos, 1996. Morgan Kaufmann.
+4.	T.G. Evans. A program for the solution of a class of geoemtric analogy intellgence
+test questions. In M. Minsky, editor, Semantic Information Processing. MIT Press,
+Cambridge, MA, 1968.
+5.	A. Hutchinson. Metrics on terms and clauses. In M. Someren and G. Widmer,
+editors, Proceedings of the Ninth European Conference on Machine Learning, pages
+138—145, Berlin, 1997. Springer.
+6.	C.X. Ling. Learning the past tense of english verbs: the symbolic pattern associators 
+vs. connectionist models. Journal of Artificial Intelligence Research, 1:209—229,
+1994.
+7.	R.J. Mooney and M.E. Califf. Induction of first-order decision lists: Results on
+learning the past tense of english verbs. Journal of Artificial Intelligence Research,
+3:1—24, 1995.
+8.	S. Muggleton. Inverse entailment and Progol. New Generation Computing, 13:245—
+286, 1995.
+9.	S. Muggleton, M.E. Bain, J. Hayes-Michie, and D. Michie. An experimental comparison 
+of human and machine learning formalisms. In Proceedings of the Sixth
+International Workshop on Machine Learning, Los Altos, CA, 1989. Kaufmann.
+10.	S. Muggleton and L. De Raedt. Inductive logic programming: Theory and methods.
+Journal of Logic Programming, 19,20:629—679, 1994.
+11.	S.H. Nienhuys-Cheng. Distance between Herbrand interpretations: a measure for
+approximations to a target concept. In N. Lavrac and S. Dzeroski, editors, Proceedings 
+of the Seventh International Workshop on Inductive Logic Programming
+(ILP97), pages 321—226, Berlin, 1997. Springer-Verlag. LNAI 1297.
+12.	S.H. Nienhuys-Cheng. Distances and limits on Herbrand interpretations. In C.D.
+Page, editor, Proceedings of the Eighth International Conference on Inductive Logic
+Programming (ILP98), pages 250—260, Berlin, 1998. Springer. LNAI 1446.
+13.	C.S. Peirce. Elements of logic. In C. Hartshorne and P. Weiss, editors, Collected
+Papers of Charles Sanders Peirce, volume 2. Harvard University Press, Cambridge,
+MA, 1932.
+14.	G. Polya. Induction and analogy in mathematics. In Mathematics and Plausible
+Reasoning, volume 1. Princeton University Press, Princeton, 1954.
+15.	D.E. Rumelhart and J.L. McClelland. On learning the past tense of english verbs.
+In Explorations in the Micro-Structure of Cognition Vol. II, pages 216—271. MIT
+Press, Cambridge, MA, 1986.

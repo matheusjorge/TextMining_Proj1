@@ -1,0 +1,66 @@
+A Unified Long-Term Memory System*
+
+James H. Lawton	Roy M. Turner & Elise H. Turner
+
+Air Force Research Laboratory	     Department of Computer Science
+Rome Research Site	             University of Maine
+Rome, NY 13441	                     Orono, ME 04469
+lawton@ai.rl.af.mil	             {rmt,eht}@umcs.maine.edu
+
+
+
+Abstract. Memory-based reasoning systems are a class of reasoners that derive
+solutions to new problems based on past experiences. Such reasoners use a
+long-term memory (LTM) to act as a knowledge base of these past experiences,
+which may be represented by such things as specific events (i.e. cases), plans,
+scripts, etc. This paper describes a Unified Long-Term Memory (ULTM)
+system, which is a dynamic, conceptual memory that was designed to be a
+general LTM capable of simultaneously supporting multiple intentional
+reasoning systems. Through a unique mixture of content-independent and
+domain-specific mechanisms, the ULTM is able to flexibly provide reasoners
+accurate and timely storage and recall of episodic memory structures. In
+addition, the ULTM provides support for recognizing opportunities to satisfy
+suspended goals, allowing reasoning systems to better cope with the
+unpredictability of dynamic real-world domains by helping them take advantage
+of unexpected events.
+References
+
+1.	Francis, A.G. Jr. (1997). “Memory-Based Opportunistic Reasoning”, Ph.D. Thesis
+proposal, Georgia Institute of Technology.
+2.	Hammond, K. (1990). “Case-Based Planning: A Framework for Planning from
+Experience”, The Journal of Cognitive Science, 14(3).
+3.	Hammond, K. (1993). “Opportunistic Memory”, The Journal of Machine Learning,
+10(3).
+4.	Kellermann, K., Broetzmann, S., Lim, T.-S., and Kitao, K. (1989). “The conversation
+mop: Scenes in the steam of discourse”, Discourse Processes, 12(1):27-61.
+5.	Kolodner, J. (1981). “Organization and Retrieval in a Conceptual Memory for Events”,
+Proceedings of the Seventh International Joint Conference on Artificial Intelligence.
+6.	Kolodner, J. (1989). “SeLecting the Best Case for a Case-Based Reasoner”, Proceedings of
+the Eleventh Conference of the Cognitive Science Society.
+7.	Kolodner, J. (1993). Case-Based Reasoning, Morgan Kaufman, San Mateo.
+8.	Patalano, A., Seifert, C., and Hammond, K. (1991). “Predictive Encodings: Planning for
+Opportunities”, Proceedings of the Fifteenth Conference of the Cognitive Science Society.
+9.	Schank, R. (1982). Dynamic Memory, Cambridge University Press, New York.
+10.	Schank, R. and Osgood, R. (1990). “A content theory of memory indexing”,
+Northwestern University, Institute for Learning Sciences Technical Report no. 2.
+11.	Steele, G. (1990). Common Lisp: The Language (Second Edition), Digital Press, Bedford,
+MA.
+12.	Sycara, K. and Navinchandra, D. (1991). “Index Transformation and Generation for Case
+Retrieval”, In Proceedings of the 1991 Case-Based Reasoning Workshop (DARPA),
+Bareiss, E. (ed.), Morgan Kaufman, San Mateo, CA.
+13.	Turner, E. (1990). “Integrating Intention and Convention To Organize Problem Solving
+Dialogues”, Ph.D. Dissertation, Georgia Institute of Technology technical report GIT-ICS-
+90/02.
+14.	Turner, R. (1987). “Issues in the design of advisory systems: The consumer-advisor
+system”, in Proceedings of the Eleventh Annual Conference of the Cognitive Science
+Society, Detroit, MI.
+15.	Turner, R. (1994). Adaptive Reasoning for Real-World Problems: A Schema-Based
+Approach, Lawrence Erlbaum Associates, Hillsdale, NJ.
+16.	Turner, R. (1995a). “Context-Sensitive, Adaptive Reasoning for Intelligent AUV Control:
+Orca Project Update”, In Proceedings of the 9th International Symposium on Unmanned
+Untethered Submersible Technology (AUV’95), Durham, New Hampshire.
+17.	Turner, R. (1995b). “Intelligent Control of Autonomous Underwater Vehicles: The Orca
+Project”, Roy M. Turner. In Proceedings of the 1995 IEEE Conference on Systems, Man,
+and Cybernetics, Vancouver, BC, Canada.
+18.	Turner, R. (1997). “Orca Documentation (for Version 2.1)”, CDPS Research Group in-
+house report, University of Maine. http://cdps.umcs.maine.edu/Docs/orca-2.0/

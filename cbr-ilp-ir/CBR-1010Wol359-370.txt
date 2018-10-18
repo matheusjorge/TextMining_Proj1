@@ -1,0 +1,54 @@
+An Investigation of Marker-Passing Algorithms
+for Analogue Retrieval
+
+Michael Wolverton
+
+Knowledge Engineering and Image Processing Group, SINTEP DELAB,
+N-7034 Troadheim, Norway,
+e-mail: Michael.Wolverton@delab.sintef.no
+
+
+Abstract. If analogy and case-based reasoning systems are to scale up
+to very large case bases, it is important to analyze the various methods 
+used for retrieving analogues to identify the features of the problem
+for which they are appropriate. This paper reports on one such analysis, 
+a comparison of retrieval by marker passing or spreading activation
+in a semantic network with Knowledge-Directed Spreading Activation, a
+method developed to be well-suited for retrieving semantically distant
+analogues from a large knowledge base. The analysis has two complementary 
+components: (1) a theoretical model of the retrieval time based
+on a number of problem characteristics, and (2) experiments showing
+how the retrieval time of the approaches varies with the knowledge base
+size. These two components, taken together, suggest that KDSA is more
+likely than SA to be able to scale up to retrieval in large knowledge bases.
+References
+
+1.	A. Aamodt. Explanation-driven case-based reasoning. In S. Wess, K. Althoff, and
+M. Richter, editors, Topics in Case-Based Reasoning. Springer-Verlag, 1994.
+2.	J. Anderson. The Architecture of Cognition. Harvard University Press, 1983.
+3.	J. Anderson and R. Thompson. Use of analogy in a production system architecture. 
+In S. Vosniadou and A. Ortony, editors, Similarity and Analogical Reasoning,
+pages 267—297. Cambridge University Press, 1989.
+4.	H. Bunke and B. Messmer. Similarity measures for structured representations.
+In S. Wess, K. Althoff, and M. Richter, editors, Topics in Case-Based Reasoning.
+Springer-Verlag, 1994.
+5.	P. Cunningham, B. Smyth, D. Finn, and E. Cahill. Retrieval issues in real-world
+CBR applications: How far can we go with discrimination-nets? In IJCAI Workshop on Re-Use of Designs, 1993.
+6.	C. Knoblock. Automatically Generating Abstractions for Problem Solving. PhD
+thesis, Carnegie Mellon University, 1991.
+7.	J. Kolodner. Case-Based Reasoning. Morgan-Kaufmann, 1993.
+8.	L. Rau. Knowledge organization and access in a conceptual information system.
+Information Processing and Management, 23:269—283, 1987.
+9.	P. Thagard, K. Holyoak, C. Nelson, and D. Gochfeld. Analog retrieval by constraint 
+satisfaction. Artificial Intelligence, 46:259—310, 1990.
+10.	P. Winston. Learning and reasoning by analogy. Communications of the ACM,
+23:689—703, 1980.
+11.	M. Wolverton. Retrieving Semantically Distant Analogies. PhD thesis, Stanford
+University, 1994.
+12.	M. Wolverton and B. Hayes-Roth. Retrieving semantically distant analogies with
+knowledge-directed spreading activation. In AAAI-94, 1994.
+13.	M. Wolverton and B. Hayes-Roth. Finding analogues for innovative design. In
+Third Int’l Conference on Computational Models of Creative Design, 1995.
+14.	R. Zito-Wolf and R. Alterman. A framework and an analysis of current proposals
+for the case-based organization and representation of procedural knowledge. In
+AAAI-93, 1993.

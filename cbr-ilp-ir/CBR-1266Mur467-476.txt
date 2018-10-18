@@ -1,0 +1,53 @@
+Case-Based Planning to Learn
+
+J. William Murdock, Gordon Shippey, and Ashwin Ram
+
+College of Computing
+Georgia Institute of Technology
+Atlanta, CA 30332-0280
+
+
+
+Abstract. Learning can be viewed as a problem of planning a series of
+modifications to memory. We adopt this view of learning and propose
+the applicability of the case-based planning methodology to the task of
+planning to learn. We argue that relatively simple, fine-grained primitive
+inferential operators are needed to support flexible planning. We show
+that it is possible to obtain the benefits of case-based reasoning within
+a planning to learn framework.
+References
+
+1.	M. Cox, Introspective Multistrategy Learning: Constructing a Learning Strategy
+Under Reasoning Failure, Ph.D. Thesis, Technical Report GIT-CC-96/06, College of
+Computing, Georgia Institute of Technology, 1996.
+2.	K. Hammond, Case-Based Planning: Viewing Planning as a Memory Task. Aca-
+demic Press, 1989.
+3.	L. Hunter, Planning to learn. Proc. Twelfth Annual Conference of the Cognitive
+Science Society, Hillsdale, NJ: Lawrence Erlbaum Associates, 1990.
+4.	D. Leake, Combining Rules and Cases to Learn Case Adaptation. Proc. of the Seventeenth 
+Annual Conference of the Cognitive Science Society, 1995.
+5.	R. Michalski, Inferential Theory of Learning as a Conceptual Basis for Multistrategy
+Learning. Machine Learning, 11, 1993.
+6.	R. Michalski and A. Ram, Learning as goal-driven inference. In Goal-Driven Learning, 
+A. Ram and D. Leake (eds.), MIT Press / Bradford Books, 1995.
+7.	T. Mitchell, R. Keller, S. Kedar-Cabelli, Explanation-Based Generalization: A Unifying 
+View. Machine Learning, 1, 1986.
+8.	R. Oehlmann, Metacognitive adaptation: Regulating the plan transformation process. 
+In Proceedings of the AAAI-95 Fall Symposium on Adapation of Knowledge for
+Reuse, D. Aha and A. Ram (eds.), pp. 73 - 79, San Mateo, CA: AAAI-Press.
+9.	R. Oehlmann, D. Sleeman, and P. Edwards, Learning plan transformations from self-questions: 
+A memory-based approach. In Proceedings of the 11th National Conference
+on Artificial Intelligence, pp. 520-525, Cambridge, MA: AAAI-Press, 1993.
+10.	A. Quilici, Toward automatic acquisition of an advisory system’s knowledge base.
+Applied Intelligence, In Press.
+11.	J. Quinlan, Induction of Decision Trees. Machine Learning, 1, 1986.
+12.	A. Ram and L. Hunter, The Use of Explicit Goals for Knowledge to Guide Inference
+and Learning. Applied Intelligence, 2(1), 1992.
+13.	A. Ram and D. Leake, Learning, Goals, and Learning Goals. In Goal-Driven Learning, 
+A. Ram and D. Leake (eds.), MIT Press / Bradford Books, 1995.
+14.	Learning by Observing and Understanding Expert Problem Solving, Ph.D. Thesis,
+Technical Report GIT-CC-92/43, College of Computing, Georgia Institute of Technology, 1992.
+15.	J. Scarne, Scarne’s Guide to Modern Poker, Simon & Schuster, 1984.
+16.	Case-Based Reasoning in PRODIGY. In Machine Learning: A Multistrategy Approach 
+Volume IV, R. Michalski and C. Tecuci (eds.), Morgan Kaufmann Publishers,
+Inc., 1994.

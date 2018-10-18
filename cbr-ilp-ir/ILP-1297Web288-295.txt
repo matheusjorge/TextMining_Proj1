@@ -1,0 +1,33 @@
+Discovery of First-Order Regularities in a Relational
+Database Using Offline Candidate Determination
+
+Irene Weber
+
+Institut für Informatik, Universität Stuttgart,
+Breitwiesenstr. 20—22, 70565 Stuttgart, Germany
+email: Irene.Weber@informatik.uni-stuttgart.de
+
+
+
+Abstract. In this paper, we present an algorithm for the discovery of first order 
+clauses holding in an relational database in the framework of the nonmonotonic 
+ILP setting [1]. The algorithm adopts the principle of offline candidate
+determination algorithm used for mining association rules in large transaction
+databases [4]. Analoguous to the measures used in mining association rules, we
+define a support and a confidence measure as acceptance criteria for discovered
+hypothesis clauses.
+The algorithm has been implemented in C with an interface to the relational
+database management system INGRES. We present and discuss the results of
+an experiment in the KRK domain and conclude.
+References
+
+1.	L. De Raedt and M. Bruynooghe. A theory of clausal discovery. In Proc. of IJCAI-9S,
+Chambéry, 1993.
+2.	U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and R. Uthurusamy. Advances in Knowledge
+Discovery and Data Mining. MIT Press, Cambridge, MA, 1995.
+3.	G. Lindner and K. Morik. Coupling a relational learning algorithm with a database
+system. In Y. Kodratoff, G. Nakhaeizadeh, and C. Taylor, editors, Workshop Notes
+of the ECML-95 Workshop Statistics, Machine Learning and Knowledge Discovery in
+Databases, 1995.
+4.	H. Mannila, H. Toivonen, and I. Verkamo. Efficient algorithms for discovering association
+rules. In AAAI-94 Workshop on Knowledge Discovery in Databases, 1994.

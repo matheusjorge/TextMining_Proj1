@@ -1,0 +1,58 @@
+Combining Medical Records with Case-Based
+Reasoning in a Mixed Paradigm Design -- TROPIX
+Architecture & Implementation
+
+A. Sunny Ochi-Okorie, C.Eng., MNSE, MIEE
+Visiting Scholar (Senior Lecturer- 1FUTO),
+Center for Advanced Computer Studies (CACS),
+The University of Southwestern Louisiana,
+2 Rex Street, P0 Box 44330, Lafayette, LA 70504-4330; Email: aso@cacs.usl.edu
+
+
+Abstract
+
+The design architecture, case representation of actual medical cases, and the implementation of
+TROPIX, a tropical disease diagnosis and therapy tool are presented. TROPIX is intended to be
+bundled with laptop computers for rural health centers and semi-urban hospitals in developing
+countries. Our model uses the ideal domain knowledge to build a decision matrix, DM from
+disease features against which new cases are measured using the MVF (Matched Vector
+Functions) algorithms. The result of the diagnosis stage provided by the MVF procedure and
+other parameters of the features are then used for CBR case retrievals, verification, and case
+validation. The final stage in the design yields the selection of 1 or 2 competing cases presented
+for reuse and perhaps for subsequent repair and adaptation.
+The solution for the new case solved is either one or more actions, a therapy plan or
+recommendations. The design demonstrates how we can integrate domain knowledge and
+(medical) records with CBR, statistical pattern recognition, and abductive reasoning to build a
+knowledge based system.
+7.	References
+
+1.	Allen, J., Patterson, D., et al, Integration of Case Based Retrieval with a Relational
+Database System in Aircraft Technical Support, in LNAI 1010 -Veloso M. & Aamodt A.,
+(Eds.) CBR R & D, First Int’l Conf., ICCBR-95, Portugal, Proceedings, pp. 1-10, 1995.
+2.	Berger, J. “ROENTGEN: Radiation Therapy and Case-Based Reasoning “, pp. 171-177,
+Proc. of the Tenth Conf. on AI for Applications, IEEE Computer Society Press, 1994
+3.	Flaubert, B.S. and Esae, T.D., Expert Systems as a useful tool for tropical diseases
+diagnosis: the case of malaria, Health Informatics in Africa (HELINA-L) “93, Ile-Ife,
+Nigeria; Conf. Proceedings, Elsevier Science Publishers, Amsterdam, The Netherlands.
+4.	Joly, S. and Le Calve’, G., ““Similarity Functions” in Van Cutsem, B. (Ed.), Classification
+and Dissimilarity Analysis, LN in Statistics, Springer-Verlag, New York, 1994.
+5.	Mishkoff, H.C., Understanding Artificial Intelligence, Texas Instrument Inc., Dallas, TX,
+p3:17-25; 1986.
+6.	Myllymäki, Petri and Tirri, Henry, ““Massively Parallel Case-Based Reasoning with
+Probabilistic Similarity Metrics”, pp. 144-154 in Topics in Case-Based Reasoning, Ed.
+Stetan Wess, et al, Vol. 837, LNAI, Springer Verlag, 1994.
+7.	Ochi-Okorie, A.S. Disease Diagnosis Validation in TROPIX Using CBR, Accepted to
+appear in The Journal of Artificial Intelligence in Medicine, Elsevier, January, 1998.
+8.	Ochi-Okorie, A.S., and Dr. J. Osondu, Musing With Case Pre-Classifiers As Diagnosis
+Predictors in a CBR System, Jan. 1997, Technical Report, TR-97-2-00l, The Center for
+Adv. Computer Studies, The Univ. Of Southwestern Louisiana, Lafayette, LA., USA.
+9.	Opiyo, E.T.O., Case-Based Reasoning for Expertise Relocation in Support of Rural
+Health Workers in Developing Countries, in LNAI 1010 -Veloso M. & Aamodt A., (Eds.)
+CBR R & D, First Int’l Conf., ICCBR-95, Portugal, Proceedings, pp. 77-86, 1995.
+10.	Ostroff, J.H., Dawson, C.R., et 4 An Expert Advisory System for Primary Eye Care in
+Developing Countries, in Expert Systems in Government Symposium, ed. K. N. Karma,
+IEEE Computer Society, pp. 490- 495, 1985.
+11.	Reggia, J. A., Abductive Inference, in Expert Systems in Government Symposium, ed. K.
+N. Karna, IEEE Computer Society, pp. 484-489, 1985.
+12.	World Bank, World Development Report 1993: Investing in Health, Oxford University
+Press,1993.

@@ -1,0 +1,53 @@
+Case-Based Reasoning
+in a Simulation Environment for
+Biological Neural Networks *
+
+Oliver Wendel
+University of Kaiserslautern
+Dept. of Computer Science
+P.O. Box 3049
+D-67653 Kaiserslautern
+wendel@informatik.uni-kl.de
+
+Abstract. This paper presents a case-based simulation environment devised
+to assist neurophysiologists in the design and analysis of simulation experiments 
+with biologically realistic neural networks. We describe the problem
+domain and our specific notion of a case, discuss the complex structure of
+such cases and present a method to automatically transform the numerical
+raw data derived from simulations into a symbolic behavioral description that
+can be used for further inferences by the system.
+References
+
+[1] 	Barletta R.: An introduction to case-based reasoning. In: AI Expert, August, 43-49, 1991.
+[2] 	Bassler U., Koch U. T.: Modelling of the active reaction of stick insects by a network of
+neuromimes. In: Biol. Cybem. 62, 141-150, Springer Verlag. 1989.
+[3]	Bhargava B.K., Fu K.S.: Transformations and inference of tree grammars for syntactic
+pattern recognition. In: Proc. Int. Conf. Sys., Man, and Cyb., October 2-4, Dallas, 1974.
+[4]	Brandau R., Lemmon A., Lafond C.: Experience with extended episodes: cases with cornplex 
+temporal structure. In: Procs. Case-Based Reasoning Workshop, 1-12, May 1991,
+Washington D.C., 1991.
+[5]	Eisenberg M.: Descriptive simulation: combining symbolic and numerical methods in the
+analysis of chemical reaction mechani sms. In: Artificial Intelligence in Engineering, Vol.
+5, No. 3, 161-171, 1990.
+[6]	Fu K.S.: Sequential Methods in Pattern Recognition and Machine Learning. Vol.52 in
+Mathematics in Science and Engineering, Academic Press, 1968.
+[7]	Fu K.S.: Syntactic (linguistic)pattern recognition. In: K.S. Fu (Ed.): Communication and
+Cybernetics Vol. 10: Digital Pattern Recognition. 95-134, Springer Verlag, Berlin, Heidelberg, New York, 1980.
+[8]	Hodgkin A.L., Huxley A.F.: A quantitative description of membrane current and its application 
+to conduction and excitation in nerve. In: J. Physiol. (London), 108: 37-77, 1952.
+[9]	Koch C., Segev I. (Eds.): Methods in Neuronal Modeling: From Synapses to Networks. A
+Bradford Book, The MIT Press, Cambridge, Massachusetts, 1989.
+[10]	Kolodner J.L.: An introduction to case-based reasoning. In: Artificial Intelligence Review
+6, 3-34, 1992.
+[11]	Messmer B.T., Bunke H.: A network based approach to exact and inexact graph matching.
+Technical Report IAM-93-021, Universität Bern, Institut für Informatik und Angewandte
+Mathematik, 1993.
+[12]	Schrödl S., Wendel 0.: Automated data analysis and discovery inneurophysiologicalsimulation 
+experiments using a combination of numerical and symbolic methods. In: Procs.
+Machine Learning ML92 Workshop on Machine Discovery, Aberdeen, Scotland, 1992.
+[13]	Slade S.: Case-Based Reasoning: A Research Paradigm. In: AI Magazine, Spring 1991,
+42-55, 1991.
+[14]	Widman L.E., Loparo K.A., Nielsen N.R.: Artificial Intelligence, Simulation, and Modeling. 
+Wiley, New York, 1989.
+[15]	Wilson M.A., Bhalla U.S., Uhley J.D., Bower J.M.: GENESIS: A system for simulating
+neural networks. Technical report, California Institute of Technology, 1990.

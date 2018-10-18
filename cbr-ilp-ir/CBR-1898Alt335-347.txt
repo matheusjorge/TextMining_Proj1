@@ -1,0 +1,88 @@
+KM-PEB: An Online Experience Base on
+Knowledge Management Technology
+
+Klaus-Dieter Aithoff1, Wolfgang Müller1, Markus Nick1, and Björn Snoek2
+
+1Fraunhofer Institute for Experimental Software Engineering
+Sauerwiesen 6, D-67661 Kaiserslautern, Germany
+{althoff,mueller,nick}@iese.fhg.de
+2tec:inno GmbH
+Sauerwiesen 2, D-67661 Kaiserslautern, Germany
+snoek@tecinno.com
+
+
+
+Abstract:	We present a framework for assessing knowledge management 
+(KM) technology that has been validated by using more than
+twenty well-known tools. Based on a commercial case-based reasoning
+(CBR) tool, the technology descriptions have been made available in
+the KM-PEB experience base over the World Wide Web. KM researchers 
+as well as KM tool developers and/or users can search for similar
+descriptions and/or contribute their own ones. We think that the KM
+and CBR communities can benefit very much from each other, and we
+hope that this paper - and its underlying application KM-PEB - supports
+the (already started) collaboration of these communities in a constructive way.
+References
+
+1.	Aha, D. W., Becerra-Fernandez, I., Maurer, F., and Muñoz-Avila, H. (Eds.)
+(1999). Exploring Synergies of Knowledge Management and Case-Based Rea-
+soning: Papers from the AAAI 1999 Workshop (Technical Report WS-99-1O).
+Menlo Park, CA: AAAI Press.
+2.	Aithoff, K.-D. (1998). Case-Based Reasoning and Experimental Software Engineering. 
+Invited Talk at the 4th European Workshop on Case-Based Reasoning
+(EWCBR98), Dublin, September 23-25. Available at
+http://demolab.iese.fhg.de: 8080/Publications/ewcbr98/
+3.	Althoff, K.-D., Birk, A., Gresse von Wangenheim, C. & Tautz, C. (1998). Case-based 
+reasoning for experimental software engineering. In M. Lenz, B. Bartsch-
+Spörl, H.-D. Burkhard, S. Wess. (eds.), Case-Based Reasoning Technology.
+Springer Verlag, 23 5-254.
+4.	Althoff, K.-D., Bomarius, F. & Tautz, C. (2000a). Using a Case-Based Reasoning
+Strategy to Build Learning Software Organizations. Accepted for the IEEE Journal 
+on Intelligent Systems, special issue on KM and Knowledge Distribution over
+the Internet.
+5.	Althoff, K.-D. & Müller, W. (2000). Proc. of the Second International Workshop
+on Learning Software Organizations. Fraunhofer IBSE, Kaiserslautern, Germany.
+6.	Althoff, K.-D., Nick, M. & Tautz, C. (1999). CBR-PEB: A Tool for Implementing 
+Reuse Concepts of the Experience Factory for CBR-System Development. In
+Proc. 7th German Conference on Knowledge-Based Systems (XPS’99) Workshop
+on Case-Based Reasoning (GWCBR’99); CBR-PEB is publicly accessible via
+http://demolab.iese.fhg.de:8080/.
+7.	Althoff, K.-D. & Wilke, W. (1997). Potential uses of case-based reasoning in
+experienced based construction of software systems and business process support. 
+In R. Bergmann & W. Wilke (eds.), Proc. 5th German Workshop on Case-Based 
+Reasoning, LSA-97-O1E, 3 1—38. Centre for Learning Systems and Applications, 
+University of Kaiserslautern, March 1997.
+8.	Bartsch-Spörl, B., Althoff, K.-D. & Meissonnier, A. (1997). Learning From and
+Reasoning About Case-Based Reasoning Systems. In: P. Mertens & H. Voss
+(eds.), Proc. of the 4th German Conference on Knowledge-Based Systems, infix
+Verlag, Germany.
+9.	Basili, V. R., Caldiera, G. & Rombach, H. D. (1994). Experience Factory. In
+J. I. Marciniak, editor, Encyclopedia of Software Engineering, vol. 1, 469—476.
+John Wiley & Sons, 1994.
+10.	Bomarius, F. (1999). Proc. of the First International Workshop on Learning
+Software Organizations. Fraunhofer IESE, Kaiserslautern, Germany.
+11.	Bomarius, F., Althoff, K.-D. & Müller, W. (1998). Knowledge Management for
+Learning Software Organizations. Software Process - Improvement & Practice 4,
+89-93, printed 1999.
+12.	Goodall, A. (ed.) (1999). Survey of Knowledge Management Tools - Part I & II,
+volume 8. Intelligence in Industry, January & February 1999
+13.	Nick, M., Aithoff, K.-D. & Tautz, C. (1999). Facilitating the Practical Evaluation
+of Organizational Memories Using the Goal-Question-Metric Technique. Proc.
+Twelfth Workshop on Knowledge Acquisition, Modeling and Management
+(KAW’99), Banff, Oct. 16-21.
+14.	Probst, G. & Romhardt (1998). The components of knowledge management - a
+practical approach (in German). URL: www.cck.uni-kl.de/wmk/
+papers/public/Bausteine/.
+15.	Schmidt, S. & Volirath, I. (eds.) (1999). Challenges for Case-Based Reasoning -
+Proc. of the ICCBR’99 Workshops. LSA-Report LSA-99-03E, University of
+Kaiserslautern, Germany.
+16.	Snoek, B. (1999). Knowledge Management and Organizational Learning. Diploma 
+Thesis, University of Kaiserslautern, Germany.
+http://demolab.iese.fhg.de: 8080/KM-PEB/km-ol.pdf
+17.	Tautz, C. (2000). Customizing Software Engineering Experience Management
+Systems to Organizational Needs. PhD thesis, University of Kaiserslautern, Germany. to appear.
+18.	Tautz, C. & Althoff, K.-D. (1997). Using case-based reasoning for reusing software 
+knowledge. Proc. 2nd International Conference on Case-Based Reasoning,
+Providence, RI, July 1997. Springer Verlag.
+19.	Weber, R. (2000). Call for Papers for AAAI-00 Workshop on Intelligent Lessons
+Learned Systems. http://www.aic.nrl.navy.mil/AAAI00-ILLS-Workshop.

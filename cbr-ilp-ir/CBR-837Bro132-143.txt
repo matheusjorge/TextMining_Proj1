@@ -1,0 +1,64 @@
+An Underlying Memory Model to Support Case
+Retrieval
+
+Mike G. Brown*
+
+Dept. of Computer Science, The University of Manchester, UN.
+email: michaelb@cs.man.ac.uk
+
+
+Abstract. The goal of the work described in this paper is to provide
+a general and underlying model of memory to support the process of
+Case-Based Reasoning (CBR). The approach taken is to build a range
+of biasing constraint into the structure of memory itself and to use a
+suitably designed activation passing process to exploit this information
+as a guide for the retrieval of appropriate source cases. This provides the
+potential for highly flexible case retrieval without the need for exhaustive
+search of memory. This claim is supported by initial experimentation
+using a prototype implementation of the memory model.
+References
+
+1.	Lee Becker and Kamaran Jazayeri. A Connectionist Approach To Case-Based
+Reasoning. In Proceedings of the Case-Based Reasoning Workshop, pages 213—
+217, Pensacola Beach, Florida, 1989. Morgan Kaufmann Publishers.
+2.	Mike G Brown. Case-Based Reasoning: Principles and Potential. Commercial
+Report, AI Intelligence, P0 Box 95, Oxford, 0X2 7XL, January 1992.
+3.	Mike G Brown. Incorporating Similarity Measures Into Case Retrieval Using Analogue 
+Marker Passing. In Proc. of ECAI-92, pages 590-592, Vienna, August 1992.
+John Wiley and Sons.
+4.	Mike C Brown. A Memory Model for Case Retrieval by Activation Passing. PhD
+thesis, University of Manchester, 1993.
+5.	D J Cook. The Base Selection Task In Analogical Planning. In Proc of the 12th
+IJCAI, pages 790-795, Sydney, Australia, 1991.
+6.	Scott E Fahlman. NETL, A System For Representing And Using Real- World
+Knowledge. The MIT Press, 1979.
+7. B Falkenhainer, K D Forbus, and D Gentner. The Structure Mapping Engine:
+Algorithm and Examples. Artificial Intelligence, 41(l):pp1-63. November 1989.
+8.	Kenneth D Forbus, Dedre Gentner, and Mary .Jo Rattermann. The Roles of Similarity 
+in Transfer: Separating Retrievability from Inferential Soundness. Cognitive
+Science, 1993. Personal Communications, In Press.
+9.	Barbara J. Grosz. The Repesentation and Use of Focus in a System for Understanding 
+Dialogue. In Readings in Natural Language Processing, pages 353-362.
+Morgan Kaufmann Publishers, Inc, 1986.
+10.	Keith J Holyoak and Kyunghee Kob. Surface and Structural Similarity in Analogical 
+Transfer. Memory and Cognition, l5(4):pp332-34O, 1987.
+11.	Janet L Kohodner. Selecting the Best Case for a Case Based Reasoner. In Proceedings 
+of the Eleventh Annual Conference of the Cognitive Science Society., pages
+155-162, Ann Arbor, Michigan, August 1989. Lawrence Erlbaum Associates.
+12.	Trent E Lange and Charles M Wharton. Analysis of an Integrated Comprehension
+and Episodic Memory Retrieval Model. In Proc. of the 13th IJCAI, pages 208-213,
+Chambéry, August 1993.
+13.	P Langley and J A Allen. Learning, Memory and Search Planning. In Proc. of the
+13th Annual Conference of the Cog. Sci. Soc., Chicargo, 1991. Lawrence Erlbaum.
+14.	C E Martin. Direct Memory Access Parsing. PhD thesis, Yale University, 1991.
+15.	S Nara and P Davis. Chaotic Wandering and Search in a Cycle-Memory Neural
+Network. Progress of Theoretical Physics, 88(5):pp 845-855, November 1992.
+16.	James A Reggia. Virtual Lateral Inhibition in Parallel Activation Models of Associative 
+Memory. In Proc. of the 9th IJCAI, volume 1, pages 244-248, Los Angeles,
+August 1985.
+17.	E Rosch, editor. Principles of Categorization, chapter 2. Lawrence Erlbaum Associates, 
+1978.
+18.	J F Sowa. Conceptual Structures, Information Processing in Mind and Machine.
+Addison-Wesley Publishing Company, 1984.
+19.	Paul Thagard, Keith J Holynak, Greg Nelson, and Gochfeld. Analog Retrieval by
+Constraint Satisfaction . Artificial Intelligence, 46: pp259.-3 10. 1990.

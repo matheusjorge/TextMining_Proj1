@@ -1,0 +1,66 @@
+Learning with Abduction
+
+A.C. Kakas1, F. Riguzzi2
+
+1 Department of Computer Sdence, University of Cyprus
+75 Kallipoleos str., CY-1678 Nicosia, Cyprus
+antonis@turing.cs.ucy.ac.cy
+2 DEIS, Università di Bologna
+Viale Risorgimento 2, 40136 Bologna, Italy
+friguzzi@deis.unibo.it
+
+
+Abstract. We investigate how abduction and induction can be integrated 
+into a common learning framework through the notion of Abductive 
+Concept Learning (ACL). ACL is an extension of Inductive Logic
+Programming (ILP) to the case in which both the background and the
+target theory are abductive logic programs and where an abductive notion 
+of entailment is used as the coverage relation. In this framework, it
+is then possible to learn with incomplete information about the examples
+by exploiting the hypothetical reasoning of abduction.
+The paper presents the basic framework of ACL with its main characteristics. 
+An algorithm for an intermediate version of AOL is developed by
+suitably extending the top-down ILP method and integrating this with
+an abductive proof procedure for Abductive Logic Programming (ALP).
+A prototype system has been developed and applied to learning problems
+with incomplete information.
+References
+
+1.	H. Adé and M. Denecker. RUTH: An ILP theory revision system. In Proceedings
+of the 8th International Symposium on Methodologies for Intelligent Systems, 1994.
+2.	H. Adé and M. Denecker. AILP: Abductive inductive logic programming. In Proceedings 
+of the 14th International Joint Conference on Artificial Intelligence, 1995.
+3.	M. Denecker, L. De Raedt, P. Flach, and A. Kakas, editors. Proceedings of ECA 196
+Workshop on Abductive and Inductive Reasoning. Catholic University of Leuven,
+1996.
+4.	Y. Dimopoulos, S. Dzeroski, and A.C. Kakas. Integrating explanatory and descriptive 
+learning in ILP. In Proceedings of the 15th International Joint Conference on
+Artificial Intelligence, 1997.
+5.	Y. Dimopoulos and A. Kakas. Abduction and inductive learning. In L. De Raedt,
+editor, Advances in Inductive Logic Programming, pages 144—171. IOS Press, 1996.
+6.	F. Esposito, E. Lamma, D. Malerba, P. Mello, M. Milano, F. Riguzzi, and
+G. Semeraro. Learning abductive logic programs. In Denecker et al. [3].
+7.	N. Inuzuka, M. Kamo, N. Ishii, H. Seki, and H. Itoh. Top-down induction of logic
+programs from incomplete samples. In S. Muggleton, editor, Proceedings of the 6th
+International Workshop on Inductive Logic Programming, pages 119—136. Stock-
+holm University, Royal Institute of Technology, 1996.
+8.	A.C. Kakas, R.A. Kowalski, and F. Toni. Abductive logic programming. Journal
+of Logic and Computation, 2:719—770, 1993.
+9.	A.C. Kakas and P. Mancarella. On the relation between truth maintenance and
+abduction. In Proceedings of the 2nd Pacific Rim International Conference on
+Artificial Intelligence, 1990.
+10.	A.C. Kakas and F. Riguzzi. Learning with abduction. Technical Report TR-96-15,
+University of Cyprus, Computer Science Department, 1996.
+11.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, 1994.
+12.	L. De Raedt and M. Bruynooghe. A theory of clausal discovery. In Proceedings of
+the 13th International Joint Conference on Artificial Intelligence, 1993.
+13.	L. De Raedt and L. Dehaspe. Learning from satisfiability. Technical report,
+Katholieke Universiteit Leuven, 1996.
+14.	L. De Raedt and W. Van Lear. Inductive constraint logic. In Proceedings of the
+5th International Workshop on Algorithmic Learning Theory, 1995.
+15.	C. Thompson and R. Mooney. Inductive learning for abductive diagnosis. In Proceedings 
+of the 12th National Conference on Artificial Intelligence, 1994.
+16.	S. Wroble and S. Dzeroski. The ILP description learning problem: Towards a genearl 
+model-leve definition of data mining in ILP. In Proceedings of the Fachgruppentreffen 
+Maschinelles Lernen, 1995.

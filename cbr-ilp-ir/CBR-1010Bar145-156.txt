@@ -1,0 +1,79 @@
+Towards the Integration of Case-Based,
+Schema-Based and Model-Based Reasoning for
+Supporting Complex Design Tasks*
+
+Brigitte Bartsch-Spörl
+
+BSR Consulting GmbH, Wirtstrasse 38, D-81539 München, Germany
+
+
+
+Abstract. This paper presents an approach of how to build bridges between 
+case-based and model-based reasoning. Unlike other approaches,
+these bridges do not intend to surmount the whole “abstraction distance” 
+between concrete cases and generic models in one step. Instead
+they introduce and use a web of supporting columns which consist of useful 
+intermediate representations called schemata, prototypes, patterns,
+templates or whatever is a suitable characterisation for their functional
+role in the design process.
+The paper begins with a short summary of our knowledge acquisition
+experiences in a building design domain which led to the introduction of
+topological schemata. It continues with some concrete examples for the
+representation and integrated use of these different kinds of knowledge
+chunks introduced and gives a short overview of the state of our current
+implementation. In the end the paper summarises the main benefits of
+integrated case-/schema-/model-based approaches.
+References
+
+1.	Akin, Ö.: Expertise of the Architect. In: Rychener, M. (ed.): Expert Systems for
+Engineering Design. Academic Press, London (1988) 173—196.
+2.	Alexander, C., Ishikawa, S., Silverstein, M., Jacobson, M., Fiksdahl-King, I., Angel,
+S.: A Pattern Language. Oxford University Press, New York (1977).
+3.	Althoff, K.-D., Barletta, R., Manago, M., Auriol, E.: A Review of Industrial Case-Based 
+Reasoning Tools. AI Intelligence, Oxford (1995).
+4.	Bakhtari, S., Bartsch-Spörl, B.: Bridging the Gap between AI Technology and
+Design Requirements. In: Gero, 3. 5., Sudweeks, F. (eds): Artificial Intelligence in
+Design 94. Kluwer, Dordrecht (1994) 753—768.
+5.	Bakhtari, S., Oertel, W.: DOM-ArC: An Active Decision Support System for Quality 
+Assessment of Cases. In: Aamodt, A., Veloso, M. (eds): Proceedings ICCBR-95.
+Springer, Heidelberg (1995), to appear.
+6.	Bakhtari, S., Bartsch-Spörl, B., Oertel, W., Eltz, U.: DOM: Domain Ontology
+Modelling for Architectural and Engineering Design. Fabel-Report Nr. 33, GMD,
+Sankt Augustin (1995).
+7.	Bartsch-Spörl, B.: KI-Methoden für innovative Design-Domänen. In: Richter, M.,
+Maurer, F. (eds.): Expertensysteme 95. Infix, Sankt Augustin (1995) 137—151.
+8.	Bartsch-Spörl, B., Bakhtari, S.: A Support System for Building Design — Experiences 
+and Convictions from the FABEL Project. In: Proceedings of the Lancaster
+International Workshop on Engineering Design. Springer, London (1995), to appear.
+9.	Börner, K. (ed.): Modules for Design Support. FABEL-Report No. 35, GMD, Sankt
+Augustin (1995).
+10.	Fabel-Consortium: A Survey of FABEL. Fabel-Report Nr. 2, GMD, Sankt Augustin
+(1993).
+11.	Gamma, E., Helm, R., Johnson, R., Vlissides, J.: Design Patterns — Elements of
+Reusable Object-Oriented Software. Addison-Wesley, Reading (1995).
+12.	Goel, A.K.: Integration of Case-Based Reasoning and Model-Based Reasoning for
+Adaptive Design Problem Solving. Ph. D. Dissertation, Ohio State University,
+Columbus (1989).
+13.	Gräther, W.: Computing Distances between Attribute-value Representations in an
+Associative Memory. In: Voss, A. (ed.): Similarity Concepts and Retrieval Methods.
+FABEL-Report No. 13, GMD, Sankt Augustin (1994) 12—25.
+14.	HaIler, F.: ARMILLA - ein Installationsmodell. Institut für Baugestaltung,
+Baukonstruktion und Entwerfen, Universität Karlsruhe (1985).
+15.	Hedberg, S.R.: Design of a Lifetime, BYTE 10 (1994) 103—106.
+16.	Kolodner, J.: Case-Based Reasoning. Morgan Kaufmann, San Mateo (1993).
+17.	Pree, W.: Design Patterns for Object-Oriented Software Development. ACM Press,
+New York (1994).
+18.	Schaaf, J.W.: Gestalts in CAD-plans: Analysis of a Similarity Concept. In: Gero,
+J.S., Sudweeks, F. (eds.): Artificial Intelligence in Design’94. Kluwer, Dordrecht
+(1994) 437—446.
+19.	Schaaf, J.W.: “Fish and sink”: An anytime-algorithm to retrieve adequate cases.
+In: Aamodt, A., Veloso, M. (eds): Proceedings ICCBR-95. Springer, Heidelberg
+(1995), to appear.
+20.	Turner, R.M.: Adaptive Reasoning for Real-World Problems: A Schema-Based Approach. 
+Lawrence Erlbaum, Hillsdale (1994).
+21.	Voss, A.: The need for knowledge acquisition in case-based reasoning - some experiences 
+from an architectural domain. In: Cohn, A. (ed.): Proceedings ECAI’94.
+Wiley & Sons, Chichester (1994) 463—467.
+22.	Voss, A. et al.: Retrieval of similar layouts - about a very hybrid approach in
+FABEL. In: Gero, J.S., Sudweeks, F. (eds.): Artificial Intelligence in Design’94.
+Kluwer, Dordrecht (1994) 625—640.

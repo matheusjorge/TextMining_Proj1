@@ -1,0 +1,73 @@
+Lookahead and Discretization in ILP
+
+Hendrik Blockeel and Luc De Raedt
+
+Katholieke Universiteit Leuven
+Department of Computer Science
+Celestijnenlaan 200A
+3001 Heverlee
+e-mail: {Hendrik.Blockeel, Luc.DeRaedt}@cs.kuleuven.ac.be
+
+
+Abstract. We present and evaluate two methods for improving the performance 
+of ILP systems. One of them is discretization of numerical attributes, 
+based on Fayyad and Irani’s text [9], but adapted and extended
+in such a way that it can cope with some aspects of discretization that
+only occur in relational learning problems (when indeterminate literals
+occur). The second technique is lookahead. It is a well-known problem in
+ILP that a learner cannot always assess the quality of a refinement without 
+knowing which refinements will be enabled afterwards, i.e. without
+looking ahead in the refinement lattice. We present a simple method for
+specifying when lookahead is to be used, and what kind of lookahead is
+interesting. Both the discretization and lookahead techniques are evaluated 
+experimentally. The results show that both techniques improve the
+quality of the induced theory, while computational costs are acceptable.
+References
+
+1.	H. Blockeel and L. De Raedt. Experiments with top-down induction of logical
+decision trees. Technical Report CW 247, Dept. of Computer Science, K.U.Leuven,
+January 1997. Also in Periodic Progress Report ESPRIT Project ILP2, January
+1997. http://www.cs.kuleuven.ac.be/publicaties/rapporten/CW1997 .html.
+2.	J. Catlett. On changing continuous attributes into ordered discrete attributes.
+In Yves Kodratoff, editor, Proceedings of the 5th European Working Session on
+Learning, volume 482 of Lecture Note. in Artificial Intelligence, pages 164—178.
+Springer-Verlag, 1991.
+3.	L. De Raedt. Induction in logic. In R.S. Michalski and Wnek J., editors, Proceedings 
+of the 3rd International Workshop on Multistrategy Learning, pages 29—38,
+1996.
+4.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70:375—392, 1994.
+5.	T. G. Dietterich, R. H. Lathrop, and T. Losano-Pérez. Solving the multiple-instance 
+problem with axis-parallel rectangles. Artificial Intelligence, 89(1-2):31—
+71, 1997.
+6.	B. Dolsak and S. Muggleton. The application of Inductive Logic Programming to
+finite element mesh design. In S. Muggleton, editor, Inductive logic programming,
+pages 453—472. Academic Press, 1992.
+7.	J. Dougherty, R. Kohavi, and M. Sahami. Supervised and unsupervised discretization 
+of continuous features. In A. Prieditis and S. Russell, editors, Proc. Twelfth
+International Conference on Machine Learning. Morgan Kaufmann, 1995.
+8.	S. Dzeroski, S. Schulze-Kremer, K. R. Heidtke, K. Siems, and D. Wettschereck.
+Applying ILP to diterpene structure elucidation from 130 NMR spectra. In Proceedings 
+of the 6th International Workshop on Inductive Logic Programming, pages
+14—27, August 1996.
+9.	U.M. Fayyad and K.B. Irani. Multi-interval discretization of continuous-valued
+attributes for classification learning. In Proceedings of the 13th International Joint
+Conference on Artificial Intelligence, pages 1022—1027, San Mateo, CA, 1993. Morgan 
+Kaufmann.
+10.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, 1994.
+11.	C.J. Merz and P.M. Murphy. UCI repository of machine learning databases
+[http://www.ics.uci.edu/~mlearn/mlrepository.html], 1996. Irvine, CA: University 
+of California, Department of Information and Computer Science.
+12.	S. Muggleton. Inverse entailment and progol. New Generation Computing, 13,
+1995.
+13.	J.R. Quinlan. FOIL: A midterm report. In P. Brazdil, editor, Proceedings of the 6th
+European Conference on Machine Learning, Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1993.
+14.	A. Srinivasan, S.H. Muggleton, and R.D. King. Comparing the use of background
+knowledge by inductive logic programming systems. In L. De Raedt, editor, Proceedings 
+of the 5th International Workshop on Inductive Logic Programming, 1995.
+15.	W. Van Laer, S. Dzeroski, and L. De Raedt. Multi-class problems and discretization 
+in ICL (extended abstract). In Proceedings of the MLnet Familiarization
+Workshop on Data Mining with Inductive Logic Programming (ILP for KDD),
+1996.

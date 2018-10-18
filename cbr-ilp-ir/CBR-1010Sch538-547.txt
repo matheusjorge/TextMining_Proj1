@@ -1,0 +1,59 @@
+“Fish and Sink”
+An Anytime-Algorithm to Retrieve
+Adequate Cases
+
+Jörg Walter Schaaf
+
+GMD - Artificial Intelligence Research Division
+e-mail:Joerg.Schaaf@gmd.de
+Sankt Augustin, Germany
+
+
+Abstract. The main idea of the presented approach is based on the
+observation that identical data can be interpreted and used differently
+in different situations and by different persons. Data is considered individually 
+and according to the actual situation. This phenomena can
+be interpreted as regarding different aspects. Here, the notion of aspects
+is applied to cases in the area of Cased Based Reasoning. This requires
+special representation of cases, special structure of case bases and a new
+algorithm to work on the defined structure. In this paper we will focus
+on description and discussion of an anytime algorithm that searches for
+cases regarding the relevant aspects.
+References
+
+1.	Carl-Helmut Coulon and Ralf Steffens. Comparing fragments by their images. In
+Angi Voß, editor, Similarity concepts and retrieval methods, pages 36—44. GMD,
+Sankt Augustin, 1994.
+2.	Carl-Helmut Coulon. Automatic Indexing, Retrieval and Reuse of Topologies in
+Complex Designs. In accepted at the ISCCSE-95, 1995.
+3.	R. Deters. Multidimensional structuring of a case-memory. In Stefan Wess Brigitte
+Bartsch-Spörl, Dietmar Janetzko, editor, Fallbasiertes Schließen - Grundlagen und
+Anwendungen, pages 21—29, Universität Kaiserslautern, Germany, 1995. Zentrum für
+Lernende Systeme und Anwendungen, Fachbereich Informatik.
+4.	Klaus Goos. Preselection strategies for case based classification. In B. Nebel
+and L. Dreschler-Fischer, editors, KI-94: Advances in Artificial Intelligence, Lecture
+Notes in Artificial Intelligence 861, pages 28—38, Berlin, 1994. Springer-Verlag.
+5.	Klaus Goos. Fallbasiertes Klassifizieren. Methoden, Integration und Evaluation.
+PhD thesis, Bayerische Julius-Maximilians-Universität, Würzburg, 1995.
+6.	Wolfgang Gräther. Computing distances between attribute-value representations
+in an associative memory. In Angi Voß, editor, Similarity concepts and retrieval
+methods, pages 12—25. GMD, Sankt Augustin, 1994.
+7.	Janet L. Kolodner. Case-Based Reasoning. Morgan Kaufmann, San Mateo, 1993.
+8.	M. Lenz and H.D. Burkhard. Retrieval ohne suche. In Stefan Wess Brigitte Bartsch-Spörl, 
+Dietmar Janetzko, editor, Fallbasiertes Schließen - Grundlagen und Anwen-
+dun gen, pages 1—10, Universität Kaiserslautern, Germany, 1995. Zentrum für Lernende 
+Systeme und Anwendungen, Fachbereich Informatik.
+9.	Jörg W. Schaaf. Gestalts in CAD-plans, Analysis of a Similarity Concept. In
+J. Gero and F. Sudweeks, editors, AI in Design’94, Kiuwer Academic Publishers,
+pages 437—446, Dordrecht, 1994.
+10.	Jörg W. Schaaf. ASPECT: Uber die Suche nach situationsgerechten Fällen im
+Case Based Reasoning. Fabel-Report 30, GMD, Sankt Augustin, December 1995.
+11.	Ralf Steffens. Kantenreduktion in aspect-fallbasen. Master’s thesis, Universität
+Bonn, 1995. Diplomarbeit in der Entstehung.
+12.	Angi Voß. Similarity concepts and retrieval methods. FABEL-Report 13, GMD,
+Sankt Augustin, 1994.
+13.	Stefan Weß, Jürgen Paulokat, and Klaus-Dieter Althoff, editors. Fallbasiertes
+Schließen — Ein Uberblick —, Band I: Grundlagen. Universität Kaiserslautern, 1992.
+14.	S. Wess, K.D. Althoff, and G.Derwand. Improving the retrieval step in case-based
+reasoning. In Pre-Prints First European Workshop on Case-Based reasoning, Universität 
+Kaiserslautern, Germany, 1993. Zentrum für Lernende Systeme und Anwendungen, Fachbereich Informatik.

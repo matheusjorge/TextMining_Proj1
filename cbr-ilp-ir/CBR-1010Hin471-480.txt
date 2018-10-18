@@ -1,0 +1,50 @@
+Some Limitations of Feature-Based Recognition
+in Case-Based Design
+
+Thomas R. Hinriche
+
+The Institute for the Learning Sciences
+Northwestern University
+Evanston, IL 60201
+
+
+Abstract. A crucial part of Case-Based Reasoning is retrieving cases
+that are similar or otherwise relevant to the problem at hand. Traditionally, 
+this has been formulated as a problem of indexing and accessing
+cases based on sets of predictive features. More generally, however, we
+can think of retrieval as a problem of recognition. In this light, several
+limitations of the feature-based approach become apparent. What constitutes 
+a feature? What makes a feature predictive? And how is retrieval
+possible when the structure of an input is predictive, but its components
+are not?
+	This paper presents an analysis of some of the limitations of feature-based 
+recognition and describes a process that integrates structural recognition 
+with retrieval. This structural recognition algorithm is designed
+to augment the retrieval capabilities of case-based reasoners by facilitating 
+the recognition of functional design clichés, natural laws, and sub
+problems for which individual features may not be predictive.
+References
+
+Bareiss, R.: Exemplar-based Knowledge Acquisition: A Unified Approach to Concept
+Representation, Classification, and Learning. San Diego: Academic Press (1989)
+Berger, J.: Knowledge Acquisition and Design Support in a Medical Domain. In Case-Based 
+Reasoning: Papers from the 1993 Workshop. Technical Report WS-93-O1.
+Menlo Park, CA: AAAI Press (1993) 141—146
+Biederman, I.: Recognition-by-Components: A Theory of Human Image Understanding. 
+Psychological Review 94 (1987) 115—147
+Borning, A.: The Programming Language Aspects of ThingLab, A Constraint-Oriented
+Simulation Laboratory. ACM Transactions on Programming Languages and Systems 3 (1981) 353—387
+N, K.S.: Syntactic (Linguistic) Pattern Recognition. In K.S. Fu (Ed.), Digital Pattern
+Recognition, New York: Springer-Verlag (1980) 95—134
+Hinrichs, T.R.: Problem Solving in Open Worlds: A case study in design. Hillsdale, NJ:
+Lawrence Erlbaum Associates (1992)
+Kolodner, J.L.: Case-Based Reasoning. San Mateo, CA: Morgan Kaufman (1993)
+Minsky, M., Papert. S.: Perceptrons. Cambridge, MA: MIT Press (1969)
+Paynter, H.M.: Analysis and Design of Engineering Systems. Cambridge, MA: MIT
+Press (1961)
+Ram, A. And Santamaria, J.M.: Continuous Case-Based Reasoning. In Case-Based
+Reasoning: Papers from the 1993 Workshop. Technical Report WS-93-01. Menlo
+Park, CA: AAAI Press (1993) 141—146
+Rock, I. and Palmer, S.: The Legacy of Gestalt Psychology. Scientific American, December (1990) 84—90
+Simon, H.A. and Gilmartin, K.: A simulation of memory for chess positions. Cognitive
+Psychology 5 (1973) 29—46

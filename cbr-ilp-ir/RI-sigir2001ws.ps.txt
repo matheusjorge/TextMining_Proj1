@@ -1,0 +1,91 @@
+Speech­Driven Text Retrieval: Using Target IR
+Collections for Statistical Language Model
+Adaptation in Speech Recognition
+
+Atsushi Fujii 1 , Katunobu Itou 2 , and Tetsuya Ishikawa 1
+1 University of Library and Information Science
+1­2 Kasuga, Tsukuba, 305­8550, Japan
+{fujii,ishikawa}@ulis.ac.jp
+2 National Institute of Advanced Industrial Science and Technology
+1­1­1 Chuuou Daini Umezono, Tsukuba, 305­8568, Japan
+itou@ni.aist.go.jp
+
+Abstract. Speech recognition has of late become a practical technol­ogy 
+for real world applications. Aiming at speech­driven text retrieval,
+which facilitates retrieving information with spoken queries, we propose
+a method to integrate speech recognition and retrieval methods. Since
+users speak contents related to a target collection, we adapt statistical
+language models used for speech recognition based on the target collec­tion, 
+so as to improve both the recognition and retrieval accuracy. Ex­periments 
+using existing test collections combined with dictated queries
+showed the effectiveness of our method.
+
+References
+1. L. R. Bahl, F. Jelinek, and R. L. Mercer. A maximum likelihood approach to con­tinuous 
+speech recognition. IEEE Transactions on Pattern Analysis and Machine
+Intelligence, 5(2):179--190, 1983.
+2. J. Barnett, S. Anderson, J. Broglio, M. Singh, R. Hudson, and S. W. Kuo. Exper­iments 
+in spoken queries for document retrieval. In Proceedings of Eurospeech97,
+pages 1323--1326, 1997.
+3. F. Crestani. Word recognition errors and relevance feedback in spoken query pro­cessing. 
+In Proceedings of the Fourth International Conference on Flexible Query
+Answering Systems, pages 267--281, 2000.
+4. J. S. Garofolo, E. M. Voorhees, V. M. Stanford, and K. S. Jones. TREC­6 1997
+spoken document retrieval track overview and results. In Proceedings of the 6th
+Text REtrieval Conference, pages 83--91, 1997.
+5. S. Johnson, P. Jourlin, G. Moore, K. S. Jones, and P. Woodland. The Cambridge
+University spoken document retrieval system. In Proceedings of ICASSP'99, pages
+49--52, 1999.
+6. G. Jones, J. Foote, K. S. Jones, and S. Young. Retrieving spoken documents by
+combining multiple index sources. In Proceedings of the 19th Annual International
+ACM SIGIR Conference on Research and Development in Information Retrieval,
+pages 30--38, 1996.
+7. T. Kawahara, A. Lee, T. Kobayashi, K. Takeda, N. Minematsu, S. Sagayama,
+K. Itou, A. Ito, M. Yamamoto, A. Yamada, T. Utsuro, and K. Shikano. Free
+software toolkit for Japanese large vocabulary continuous speech recognition. In
+Proceedings of the 6th International Conference on Spoken Language Processing,
+pages 476--479, 2000.
+8. K. Kwok and M. Chan. Improving two­stage ad­hoc retrieval for short queries. In
+Proceedings of the 21st Annual International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages 250--256, 1998.
+9. H. Masataki, Y. Sagisaka, K. Hisaki, and T. Kawahara. Task adaptation using
+MAP estimation in n­gram language modeling. In Proceedings of ICASSP'97,
+pages 783--786, 1997.
+10. Y. Matsumoto, A. Kitauchi, T. Yamashita, Y. Hirano, H. Matsuda, and M. Asa­hara. 
+Japanese morphological analysis system ChaSen version 2.0 manual 2nd
+edition. Technical Report NAIST­IS­TR99009, NAIST, 1999.
+11. National Center for Science Information Systems. Proceedings of the 1st NTCIR
+Workshop on Research in Japanese Text Retrieval and Term Recognition, 1999.
+Speech­Driven Text Retrieval 11
+12. National Institute of Informatics. Proceedings of the 2nd NTCIR Workshop Meet­
+ing on Evaluation of Chinese & Japanese Text Retrieval and Text Summarization,
+2001.
+13. S. Robertson and S. Walker. Some simple e#ective approximations to the 2­poisson
+model for probabilistic weighted retrieval. In Proceedings of the 17th Annual In­ternational 
+ACM SIGIR Conference on Research and Development in Information
+Retrieval, pages 232--241, 1994.
+14. K. Seymore and R. Rosenfeld. Using story topics for language model adaptation.
+In Proceedings of Eurospeech97, 1997.
+15. P. Sheridan, M. Wechsler, and P. Sch˜auble. Cross­language speech retrieval: Es­tablishing 
+a baseline performance. In Proceedings of the 20th Annual International
+ACM SIGIR Conference on Research and Development in Information Retrieval,
+pages 99--108, 1997.
+16. A. Singhal and F. Pereira. Document expansion for speech retrieval. In Proceed­ings 
+of the 22nd Annual International ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 34--41, 1999.
+17. S. Srinivasan and D. Petkovic. Phonetic confusion matrix based spoken document
+retrieval. In Proceedings of the 23rd Annual International ACM SIGIR Conference
+on Research and Development in Information Retrieval, pages 81--87, 2000.
+18. E. M. Voorhees. Variations in relevance judgments and the measurement of re­trieval
+effectiveness. In Proceedings of the 21st Annual International ACM SIGIR
+Conference on Research and Development in Information Retrieval, pages 315--323,
+1998.
+19. M. Wechsler, E. Munteanu, and P. Sch˜auble. New techniques for open­vocabulary
+spoken document retrieval. In Proceedings of the 21st Annual International ACM
+SIGIR Conference on Research and Development in Information Retrieval, pages
+20--27, 1998.
+20. S. Whittaker, J. Hirschberg, J. Choi, D. Hindle, F. Pereira, and A. Singhal. SCAN:
+Designing and evaluating user interfaces to support retrieval from speech archives.
+In Proceedings of the 22nd Annual International ACM SIGIR Conference on Re­search 
+and Development in Information Retrieval, pages 26--33, 1999.
+

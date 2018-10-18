@@ -1,0 +1,100 @@
+Personalized Conversational Case-Based
+Recommendation
+
+Mehmet H. Goker1 and Cynthia A. Thompson2
+
+1DaimlerChrysler Research & Technology
+1510 Page Mill Road, Palo Alto, CA 94304
+mehmet.goeker@daimlerchrysler.com
+2Center for the Study of Language and Information
+Stanford University, Stanford, CA 94305-4115
+cthomp@csli.stanford.edu
+
+
+
+Abstract: In this paper, we describe the Adaptive Place Advisor, a user
+adaptive, conversational recommendation system designed to help users
+decide on a destination, specifically a restaurant. We view the selection
+of destinations as an interactive, conversational process, with the
+advisory system inquiring about desired item characteristics and the
+human responding. The user model, which contains preferences
+regarding items, attributes, values, value combinations, and
+diversification, is also acquired during the conversation. The system
+enhances the user’s requirements with the user model and retrieves
+suitable items from a case-base. If the number of items found by the
+system is unsuitable (too high, too low) the next attribute to be
+constrained or relaxed is selected based on the information gain
+associated with the attributes. We also describe the current status of the
+system and future work.
+References
+
+1.	Aha D., Breslow L., ‘Refining Conversational Case Libraries’, in Leake D., Plaza
+B. (eds.) ‘Case-Based Reasoning Research and Development, Second
+International Conference on Case-Based Reasoning ICCBR 1997’, pp. 267-278,
+Springer Verlag, Berlin 1997.
+2.	Billsus, D., Pazzani, M. (1998). ‘Learning collaborative information filters’,
+Proceedings of the Fifteenth International Conference on Machine Learning
+(pp. 46-54). Madison, WI: Morgan Kaufmann.
+3.	Bonzano A., Cunningham P., Smyth B., ‘Using Introspective Learning to
+Improve Retrieval in CBR: A Case Study in Air Traffic Contol’, in Leake D.,
+Plaza B. (eds.) ‘Case-Based Reasoning Research and Development, Second
+International Conference on Case-Based Reasoning ICCBR 1997’, Springer
+Verlag, Berlin 1997.
+4.	Burke, R., Hammond, K., and Young, B. ‘Knowledge-based navigation of
+complex information spaces’, In Proceedings of the 13th National Conference on
+Artificial Intelligence AAAI96, pp. 462-468. American Association for Artificial
+Intelligence, 1996.
+5.	Burke R., ‘The Wasabi Personal Shopper: A Case-Based Recommender System’,
+in: Proceedings of the 16th National Conference on Artificial Intelligence
+AAAI99, American Association for Artificial Intelligence, 1999.
+6.	Elio R., Haddadi A., ‘Dialog management for an adaptive database assistant’,
+Technical Report 98-3, Daimler-Benz research and Technology Center, Palo
+Alto, CA, 1998.
+7.	Elio R., Haddadi A., ‘On abstract task models and conversation policies’, in
+Proceedings of the Agents’99 Workshop on Specifying and Implementing
+Conversation Policies, Seattle, WA, 1999.
+8.	Fiechter C. N., Rogers S., ‘Learning Subjective Functions with Large Margins’,
+Proceedings of the Seventeenth International Conference on Machine Learning,
+June 29-July 2, 2000, Stanford University, pp. 287-294, Morgan Kaufmann
+Publishers, 2000
+9.	Göker M. H., Roth-Berghofer T., ‘The development and utilization of the case-based 
+help-desk support system HOMER’, Engineering Applications of Artificial
+Intelligence 12 (1999), pp. 665-680, Pergamon — Elsevier Science Ltd. 1999.
+10.	Konstan, J., Miller, B., Maltz, D., Herlocker, J., Gordon, L., and Riedl,
+J.. ‘GroupLens: Applying Collaborative Filtering to Usenet News’,
+Communications of the ACM 40,3 (1997), 77-87.
+11.	Lang K, ‘NewsWeeder: Learning to filter news’, in ‘Proceedings of the Twelfth
+Conference on Machne Learning’, pp.331-339, Lake Tahoe, CA, Morgan
+Kaufmann, 1995.
+12.	Langley, P. ‘Machine learning for adaptive user interfaces’, in: ‘K197:
+Proceedings of the 21st German Annual Conference on Artificial Intelligence’,
+pp. 53-62. Freiburg, Germany: Springer, 1997.
+13.	Langley, P., Thompson, C., Elio, R. , Haddadi, A., ‘An adaptive conversational
+interface for destination advice’ in: ‘Proceedings of the Third International
+Workshop on Cooperative Information Agents’, pp. 347-364, Uppsala, Sweden,
+1999.
+14.	Linden G., Hanks S., Lesh N, ‘Interactive Assesment of User Preference Models:
+The Automated Travel Assistant’, in Jameson A., Paris C., Tasso C. (eds.), ‘User
+Modelling:	Proceedings of the Sixth International Conference, UM97’, Springer
+Verlag, Vienna, 1997.
+15.	Pazzani M., Muramatsu J., Bilisus D., ‘Syskill and Webert: Identifying
+interesting web sites’, in ‘Proceedings of the 13th National Conference on
+Artificial Intelligence’, pp. 54-6 1, American Association for Artificial
+Intelligence, 1996.
+16.	Resnick P., Varian H. (eds), ‘Recommender Systems’, Communications of the
+ACM, Vol. 40, No. 3, March 1997.
+17.	Rich, E., ‘User modeling via stereotypes’, Cognitive Science, 3, 329-354, 1979.
+18.	Searle J., ‘Speech Acts’, New York, Cambridge University Press, 1969.
+19.	Smyth B., Cotter P., ‘Surfing the Digital Wave, Generating Personalised TV
+Listings using Collaborative, Case-Based Recommendation’, in: Althoff K. D.,
+Bergmann R., Branting K. (eds), ‘Case-Based Reasoning Research and
+Development, Proceedings of the Third International Conference on Case-Based
+Reasoning ICCBR99’, pp. 56 1-571, Springer Verlag, Berlin 1999.
+20.	Wettschereck D., Aha D., ‘Weighting Features’, in M. Veloso & A. Aamodt eds.,
+“Advances in Case-Based Reasoning, Proceedings of the First International
+Conference on Case-Based Reasoning ICCBR95”, pp347-358, Springer Verlag,
+Berlin, 1995
+21.	Zhang Z., Yang Q., ‘Towards Lifetime Maintenance of Case Base Indexes for
+Continual Case Based Reasoning’, in ‘Proceedings of the 1998 International
+Conference on Al Methodologies, Systems and Applications (AIMSA98)’,
+Bulgaria, October 1998.

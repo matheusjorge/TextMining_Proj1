@@ -1,0 +1,28 @@
+Image Background Search: Combining Object
+Detection Techniques into Content­Based
+Similarity Image Retrieval(CBSIR) Systems
+
+Rohini Srihari, Zhongfei Zhang, Aibing Rao
+CEDAR, SUNY At Buffalo
+rohini, zhongfei, arao@cedar.buffalo.edu
+April 15, 1999
+
+Abstract A framework of combining object detection techniques with a CBSIR
+system is discussed. As an example of the framework, a special CBSIR system which
+decides the similarity of images based on background features is presented and back­
+ground subimages can be extracted by using a face detector. This background search
+can be used as a classification tool for pictures of home albums.
+
+References
+[1] http://quark.ifp.uiuc.edu:8080/index.html.
+[2] http://www.ctr.columbia.edu/ jrsmith.
+[3] http://www.excalib.com/demos.html.
+[4] http://wwwqbic.almaden.ibm.com.
+[5] http://www.virage.com.
+[6] J. Hafner W. Niblack R. Barber, M. Flickner and D. Petkovic. Efficient and effective
+querying by image content. Journal of Intelligent Information Systems, 3:231--262, 1994.
+[7] J. R. Smith. Integrated Spatial and Feature Image Systems: Retrieval, Analysis a nd
+Compression. PhD thesis, Columbia Univ., 1997.
+[8] Rohini K. Srihari and Zhongfei Zhang. Finding pictures in context. Proc. of IAPR In­
+ternational Workshop on Multimedia Information Analysis & Retrieval, Springer­Verlag
+Press, pages 109 -- 123, 1998.

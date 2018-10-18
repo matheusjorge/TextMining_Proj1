@@ -1,0 +1,77 @@
+Integrity Constraints in ILP Using a Monte Carlo
+Approach
+
+Alípio Jorge, Pavel B. Brazdil
+
+LIACC-University of Porto, Rua do Campo Alegre, 823, 4150 PORTO, PORTUGAL.
+email: amjorge, pbrazdil@ncc.up.pt http://www.up.pt/liacc/ML
+
+
+Abstract. Many state-of-the-art ILP systems require large numbers of
+negative examples to avoid overgeneralization. This is a considerable
+disadvantage for many ILP applications, namely inductive program synthesis 
+where relativelly small and sparse example sets are a more realistic
+scenario. Integrity constraints are first order clauses that can play the role
+of negative examples in an inductive process. One integrity constraint
+can replace a long list of ground negative examples. However, checking
+the consistency of a program with a set of integrity constraints usually 
+involves heavy theorem-proving. We propose an efficient constraint
+satisfaction algorithm that applies to a wide variety of useful integrity
+constraints and uses a Monte Carlo strategy. It looks for inconsistencies
+by random generation of queries to the program. This method allows
+the use of integrity constraints instead of (or together with) negative
+examples. As a consequence programs to induce can be specified more
+rapidly by the user and the ILP system tends to obtain more accurate
+definitions. Average running times are not greatly affected by the use of
+integrity constraints compared to ground negative examples.
+References
+
+1.	Aha, D. W., Lapointe, S., Ling, C. X., Matwin S (1994): Inverting Implication
+with Small Training Sets. Proceedings of the European Conference on Machine
+Learning, ECML- 94, ed. F. Bergadano and L. De Raedt, Springer Verlag.
+2.	Bergadano, F., Gunneti, D. and Trinchero, U. (1993): The Difficulties of Learning
+Logic Programs with Cut. Journal of Artificial Intelligence Research 1, 91-107, AI
+Access Foundation and Morgan Kaufmann Publishers.
+3.	Brazdil, P., Jorge, A. (1994): Learning by Refining Algorithm Sketches. Proceedings 
+of ECAI-94, T. Cohn (ed.). Wiley.
+4.	De Raedt, L., Lavrac, N., Dzeroski, S. (1993): Multiple Predicate Learning. Proceedings 
+of IJCAI-93. Morgan-Kaufmann.
+5.	De Raedt, L. (1992): Interactive Theory Revision:An Inductive Logic Programming
+Approach. Academic Press.
+6.	Deville, Y., Lau, K.,(1994): Logic Program Synthesis. The Journal of Logic 
+Programming, special issue Ten Years of Logic Programming, volumes 19,20, May/July
+1994.
+7.	Hogger, C. J. (1990): Essentials of Logic Programming. Graduate texts in computer
+science series, Oxford University Press.
+8.	Idestam-Almquist P (1996) Efficient Induction of Recursive Definitions by Efficient
+Analysis of Saturations. Advances in Inductive Logic Programming, Ed. by Luc
+De Raedt, 105 Press/Ohmsha.
+9.	Jorge, A. and Brazdil, P. (1996): Architecture for Iterative Learning of Recursive
+Definitions. Advances in Inductive Logic Programming, Ed. by Luc De Raedt, 105
+Press/Ohmsha.
+10.	Lavrac, N. and Dzeroski, S. (1994): Inductive Logic Programming, Techniques and
+Applications. Ellis Horwood.
+11.	Manthey, R. and Bry, F. (1988): SATCHMO: a theorem prover implemented in 
+Prolog. Proceedings of CADE 88 (9th Conference on Automated Deduction),Springer-
+Verlag.
+12.	Muggleton, S., De Raedt, L., (1994): Inductive Logic Programming. The Journal
+of Logic Programming. Special issue Ten Years of Logic Programming, volumes
+19,20, May/July 1994.
+13.	Muggleton, S. (1995): Stochastic Logic Programs. Advances in Inductive Logic
+Programming, Ed. by Luc De Raedt, IOS Press/Ohmsha.
+14.	Muggleton, S. (1993): Inductive Logic Programming: derivations, successes and
+shortcomings. Proceedings of ECML- 93, Springer-Verlag.
+15.	Quinlan, J.R. (1990): Learning logical definitions from relations. Machine Learning
+5, 239-266.
+16.	Quinlan, J.R. (1993): FOIL: A Midterm Report. Proceedings of ECML-93,
+Springer-Verlag.
+17.	Quinlan, J.R. (1996): Learning First-Order Definitions of Functions. Journal of
+Artificial Intelligence Research, to appear.
+18.	Sadri, F., Kowaiski, R. (1988): A Theorem Proving Approach to Database Integrity
+in Deductive Databases and Logic Programming, ed. by Jack Minker, Morgan
+Kaufmann Publishers.
+19.	Shapiro, E. Y., (1982) Algorithmic Program Debugging, MIT Press, Cambridge
+MA.
+20.	Zelle J M, Mooney R J, Konvisser J B, (1994): Combining Top-down and Bottom-up 
+Techniques in Inductive Logic Programming. Proceedings of the Eleventh International 
+Conference on Machine Learning ML-94, Morgan-Kaufmann.

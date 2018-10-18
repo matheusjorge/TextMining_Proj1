@@ -1,0 +1,70 @@
+Distance Induction in First Order Logic
+
+Michèle Sebag
+LMS - CNRS ura 317	                LRI - CNRS ura 410
+Ecole Polytechnique, 91128 Palaiseau    Université Paris-Sud, 91405 Orsay
+Michele.Sebag@polytechnique.fr
+
+
+Abstract. A distance on the problem domain allows one to tackle some
+typical goals of machine learning, e.g. classification or conceptual clustering, 
+via robust data analysis algorithms (e.g. k-nearest neighbors or
+k-means) .
+A method for building a distance on first-order logic domains is presented
+in this paper. The distance is constructed from examples expressed as
+definite or constrained clauses, via a two-step process: a set of d hypotheses 
+is first learnt from the training examples. These hypotheses serve as
+new descriptors of the problem domain 4: they induce a mapping pi from
+4 onto the space of integers Nd The distance between any two examples 
+E and F is finally defined as the Euclidean distance between pi(E)
+and pi(F). The granularity of this hypothesis-driven distance (HDD) is
+controlled via the user-supplied parameter d.
+The relevance of a HDD is evaluated from the predictive accuracy of the
+k-NN classifier based on this distance. Preliminary experiments demonstrate 
+the potentialities of distance induction, in terms of predictive accuracy, 
+computational cost, and tolerance to noise.
+References
+
+1.	A. Aamodt and E.Plaza. Case-based reasoning: Foundational issues, methodological 
+variations, and system approaches. AICOM, 7(1), 1994.
+2.	G. Bisson. Learning in FOL with a similarity measure. In Proceedings of 10th
+AAAI, 1992.
+3.	A. Cornuejols. Analogy as minimization of description length. In G. Nakhaeizadeh
+and C. Taylor, eds, Machine Learning and Statistics : The interface. Wiley, 1996.
+4.	C. DeCaestecker. Incremental concept formation with attribute selection. In
+K. Morik, editor, Proc. of EWSL 1989, pages 49—58. Pitman, London, 1989.
+5.	P. Domingos. Rule induction and instance-based learning: A unified approach. In
+Proceedings of IJCAI-95, pages 1226—1232. 1995.
+6.	R.O. Duda and P.E. Hart. Pattern Classification and scene analysis. John Wiley
+and sons, Menlo Park, CA, 1973.
+7.	W. Emde and D. Wettscherek. Relational instance based learning. In L. Saitta,
+editor, Proceedings of ICML-96, pages 122—130, 1996.
+8.	U.M. Fayyad, G. Piatetsky-Shapiro, and P. Smyth. From data mining to knowledge 
+discovery: An overview. In Advances in Knowledge Discovery and Data Mining, pages 1—34. MIT Press, 1996.
+9.	D. Fisher. Iterative optimization and simplification of hierarchical clusterings.
+Technical report, Vanderbilt University, TR CS-95-01, 1995.
+10.	D. Gentner. Structure mapping : A theoretical framework for analogy. Cognitive
+Science, 7:155—170, 1983.
+11.	D. Heath, S. Kasif, and S. Salzberg. Induction of oblique decision trees. In Proceedings
+ of IJCAI-93, pages 1002—1007. Morgan Kaufmann, 1993.
+12.	J. D. Kelly and L. Davis. A hybrid genetic algorithm for classification. In Proceedings 
+of IJCAI-91, pages 645—650. Morgan Kaufmann, 1991.
+13.	R.D. King, A. Srinivasan, and M.J.E. Sternberg. Relating chemical activity to
+structure: an examination of ILP successes. New Gen. Comput., 13, 1995.
+14.	S. Muggleton. Inverse entailment and PROGOL. New Gen. Comput., 13:245—286,
+1995.
+15.	S. Muggleton and L. De Raedt. Inductive logic programming: Theory and methods. 
+Journal of Logic Programming, 19:629—679, 1994.
+16.	J.R. Quinlan. Learning logical definition from relations. Machine Learning, 5:239-
+266, 1990.
+17.	M. Sebag. Delaying the choice of bias: A disjunctive version space approach. In
+L. Saitta, editor, Proceedings of ICML-96, pages 444—452. 1996.
+18.	M. Sebag and C. Rouveirol. Tractable induction and classification in FOL. In
+Proceedings of IJCAI-97, to appear.
+19.	M. Sebag and M. Schoenauer. A rule-based similarity measure. In S. Wess, K.-D.
+Althoff, and M. M. Richter, eds, Topics in Case-Based Reasonning, volume 837 of
+LNCS, pages 119-130. Springer Verlag, 1994.
+20.	A. Srinivasan and S. Muggleton. Comparing the use of background knowledge
+by two ILP systems. In L. de Raedt, editor, Proceedings of ILP-95. Katholieke
+Universiteit Leuven, 1995.
+21.	ESPRIT Project LTR 20237 ILP2. PPR-1, 1997.

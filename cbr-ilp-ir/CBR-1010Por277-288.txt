@@ -1,0 +1,52 @@
+ADAPtER: An Integrated Diagnostic
+System Combining Case-Based and
+Abductive Reasoning
+
+Luigi Portinale, Pietro Torasso
+
+Dipartimento di Informatica - Universita’ di Torino (Italy)
+
+
+Abstract. The aim of this paper is to describe the ADAPtER system, a
+diagnostic architecture combining case-based reasoning with abductive reasoning 
+and exploiting the adaptation of the solution of old episodes, in order
+to focus the reasoning process. Domain knowledge is represented via a logical
+model and basic mechanisms, based on abductive reasoning with consistency
+constraints, have been defined for solving complex diagnostic problems involving 
+multiple faults. The model-based component has been supplemented
+with a case memory and adaptation mechanisms have been developed, in
+order to make the diagnostic system able to exploit past experience in solving 
+new cases. A heuristic function is proposed, able to rank the solutions
+associated to retrieved cases with respect to the adaptation effort needed
+to transform such solutions into possible solutions for the current case. We
+will discuss some preliminary experiments showing the validity of the above
+heuristic and the convenience of solving a new case by adapting a retrieved
+solution rather than solving the new problem from scratch.
+References
+
+1.	L. Console, L. Portinale, D. Theseider Dupré, and P. Torasso. Combining heuristic
+and causal reasoning in diagnostic problem solving. In [3], pages 46,68. 1993.
+2.	L. Console and P. Torasso. A spectrum of logical definitions of model-based diagnosis.
+Computational Intelligence, 7(3):133—141, 1991.
+3.	J.M. David, J.P. Krivine, and R. Simmons (eds.). Second Generation Expert Systems.
+Springer Verlag, 1993.
+4.	M.P. Feret and J.I. Glasgow. Experience-aided diagnosis for complex devices. In Proc.
+AAAI 94, pages 29—35, Seattle, 1994.
+5.	J. Kolodner and R. Kolodner. Using experience in clinical problem solving: Introduction 
+and framework. IEEE Trans. on Systems, Man and Cybernetics, 17(3):420—431,
+1987.
+6.	J.L. Kolodner. Retrieval and Organization Strategies in Conceptual Memory: a Computer 
+ModeL Lawrence Erlbaum, 1984.
+7.	P. Koton. Using experience in learning and problem solving. Technical report,
+MIT/LCS/TR-441, 1989.
+8.	D.B. Leake. Focusing construction and selection of abductive hypotheses. In Proc.
+13th IJCAI 93, pages 24—29, Chambery, 1993.
+9.	D. Macchion and D.P. Vo. A hybrid KBS for technical diagnosis learning and assistance. 
+In Lecture Notes in Artificial Intelligence 837, pages 301—312. Springer Verlag,
+1993.
+10.	L. Portinale. Generalization handling in a dynamic case memory. In Methodologies for
+Intelligent Systems, pages 72—81. Lecture Notes in Artificial Intelligence 542, Springer
+Verlag, 1991.
+11.	L. Portinale, P. Torasso, C. Ortalda, and A. Giardino. Using case-based reasoning to
+focus model-based diagnostic problem solving. In Lecture Notes in Artificial Intelligence 
+837, pages 325—337. Springer Verlag, 1994.

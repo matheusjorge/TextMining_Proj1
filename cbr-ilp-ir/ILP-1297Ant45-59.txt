@@ -1,0 +1,34 @@
+Cautious Induction in Inductive Logic
+Programming
+
+Simon Anthony and Alan M. Frisch
+
+Department of Computer Science, University of York, York. YO1 5DD. UK.
+Email: {simona, frisch}@cs.york.ac.uk
+
+
+Abstract. Many top-down Inductive Logic Programming systems use a
+greedy, covering approach to construct hypotheses. This paper presents
+an alternative, cautious approach, known as cautious induction. We conjecture 
+that cautious induction can allow better hypotheses to be found,
+with respect to some hypothesis quality criteria. This conjecture is supported 
+by the presentation of an algorithm called CILS, and with a complexity 
+analysis and empirical comparison of CILS with the Progol system. 
+The results are encouraging and demonstrate the applicability of
+cautious induction to problems with noisy datasets, and to problems
+which require large, complex hypotheses to be learnt.
+References
+
+1.	S. Muggleton. Progol 4.1 distribution, release notes and example sets.
+2.	S. Muggleton. Inductive logic programming. New Generation Computing, 8:295—
+318, 1991.
+3.	S. Muggleton. Inverse entailment and Progol. New Generation Computing, 13:245—
+286, 1995.
+4.	S. Muggleton and L. De Raedt. Inductive logic programming — theory and methods.
+Journal of Logic Programming, 19-20:629—679, 1994.
+5.	J. R. Quinlan. Learning logical definitions from relations. Machine Learning, 5:239—
+266, 1990.
+6.	A. Srinivasan. P-Progol 2.1 distribution, release notes and example sets.
+7.	A. Srinivasan, S. Muggleton, M. J. E. Sternberg, and R. D. King. Theories for
+mutagenicity: A study in first-order and feature-based induction. Technical Report
+PRG-TR-8-95, Oxford University Computing Laboratory, 1995.

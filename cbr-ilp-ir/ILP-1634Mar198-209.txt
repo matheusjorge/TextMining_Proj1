@@ -1,0 +1,80 @@
+On Sufficient Conditions for Learnability of
+Logic Programs from Positive Data
+
+Eric Martin and Arun Sharma
+
+School of Computer Science and Engineering, The University of New South Wales,
+Sydney, NSW 2052, Australia
+E-mail: emartin@cse.unsw.edu.au, arun@cse.unsw.edu.au
+
+
+
+Abstract. Shinohara, Arimura, and Krishna Rao have shown learnability 
+in the limit of minimal models of classes of logic programs from positive 
+only data. In most cases, these results involve logic programs in
+which the “size” of the head yields a bound on the size of the body literals. 
+However, when local variables are present, such a bound on body
+literal size cannot directly be ensured. The above authors achieve such
+a restriction using technical notions like mode and linear inequalities.
+The present paper develops a conceptually clean framework where the
+behavior of local variables is controlled by nonlocal ones. It is shown that
+for certain classes of logic programs, learnablity from positive data is
+equivalent to limiting identification of bounds for the number of clauses
+and the number of local variables. This reduces the learning problem
+finding two integers. This cleaner framework generalizes all the known
+results and establishes learnability of new classes.
+References
+
+1. Arimura, H.: Completeness of depth-bounded resolution in logic programming. In:
+Proceedings of the 6th Conference, Japan Soc. Software Sci. Tech. (1989) 61—64
+2.	Arimura, H.: Learning Acyclic First-Order Horn Sentences from Entailment In:
+Li, M., Maruoka, A. (eds.): Algorithmic Learning Theory: Eighth International
+Workshop (ALT ‘97). LNAI, Vol. 1316. Springer-Verlag (1997) 432—445
+3.	Arimura, H., Shinohara, T.: Inductive inference of Prolog programs with linear
+data dependency from positive data. In: Jaakkola, H., Kangassalo, H., Kitahashi,
+T., Markus, A. (eds.): Proc. Information Modelling and Knowledge Bases V. IOS
+Press (1994) 365—375
+4.	Cohen, W.W.: PAC-Learning non-recursive Prolog clauses. Artificial Intelligence
+79 (1995) 1—38
+5.	Cohen, W.W.: PAC-Learning Recursive Logic Programs: Efficient Algorithms.
+Journal of Artificial Intelligence Research 2 (1995) 501—539
+6.	De Raedt, L., Dzeroski, S.: First-order jk-clausal theories are PAC-learnable. 
+Artificial Intelligence 70 (1994) 375-392
+7.	Dzeroski, S., Muggleton, S., Russell, S.: PAC-Learnability of constrained 
+nonrecursive logic programs. In: Proc. of the 3rd International Workshop on Computational
+Learning Theory and Natural Learning Systems. Wisconsin, Madison (1992)
+8.	Dzeroski, S., Muggleton, S., Russell, S.: PAC-Learnability of determinate logic 
+programs. In: Proceedings of the Fifth Annual Workshop on Computational Learning
+Theory. ACM Press (1992) 128—135
+9.	Prisch, A., Page, C.D.: Learning constrained atoms. In: Proceedings of the Eighth
+International Workshop on Machine Learning. Morgan Kaufmann (1991)
+10.	Jain, S., Sharma, A.: Mind Change Complexity of Learning Logic Programs. In:
+Proceedings of the 1999 European Conference on Computational Learning Theory.
+Lecture Notes in Artificial Intelligence. Springer-Verlag (1999) (to appear)
+11.	Khardon, R.: Learning first-order universal Horn expressions. In: Proceedings of
+the Eleventh Annual Conference on Computational Learning Theory. ACM Press
+(1998) 154—165
+12.	Kietz, J.-U.: Some computational lower bounds for the computational complexity
+of inductive logic programming. In: Proceedings of the 1993 European Conference
+on Machine Learning. Vienna (1993)
+13.	Krishna Rao, M.: A class of Prolog programs inferable from positive data. In:
+Arikawa, A., Sharma, A. (eds.): Algorithmic Learning Theory: Seventh Interna-
+tional Workshop (ALT ‘96). Lecture Notes in Artificial Intelligence, Vol. 1160.
+Springer-Verlag (1996) 272—284
+14.	Krishna Rao, M., Sattar, A.: Learning from entailment of logic programs with
+local variables. In: Richter, M., Smith, C., Wiehagen, R., Zeugmann, T. (eds.):
+Algorithmic Learning Theory: Ninth International Workshop (ALT ‘97). Lecture
+Notes in Artificial Intelligence. Springer-Verlag (1998) (to appear)
+15.	Maass, W., Turán, Gy.: On learnability and predicate logic. NeuroCOLT Technical
+Report NC-TR-96-023 (1996)
+16.	Muggleton, S., Page, C.D.: A Learnability Model for Universal Representations.
+Technical Report PRG-TR-3-94. Oxford University Computing Laboratory, Oxford
+(1994)
+17.	Shapiro, E.: Inductive Inference of Theories from Facts. Technical Report 192.
+Computer Science Departmnent, Yale University (1981)
+18.	Shinohara, T.: Inductive Inference of Monotonic Formal Systems From Positive
+Data. New Generation Computing 8 (1991) 371—384
+19.	Generalized unification as background knowledge in learning logic programs. In:
+Jantke, K., Kobayashi, S., Tomita, E., Yokomori, T. (eds.): Algorithmic Learning
+Theory:	Fourth International Workshop (ALT ‘93). Lecture Notes in Artificial
+Intelligence, Vol. 744. Springer-Verlag (1993) 111—122

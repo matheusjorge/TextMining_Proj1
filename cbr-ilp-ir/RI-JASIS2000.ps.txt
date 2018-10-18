@@ -1,0 +1,98 @@
+Using Clustering Strategies for Creating Authority Files
+
+James C. French \Lambda Allison L. Powell
+Department of Computer Science
+University of Virginia
+Charlottesville, Virginia 22903
+ffrench---alp4gg@cs.virginia.edu
+Eric Schulman
+Institute for Defense Analyses
+1801 N. Beauregard Street
+Alexandria, VA 22311
+eschulma@ida.org
+January 4, 2000
+
+Abstract
+As more online databases are integrated into digital libraries, the issue of quality control
+of the data becomes increasingly important, especially as it relates to the effective retrieval of
+information. Authority work, the need to discover and reconcile variant forms of strings in
+bibliographic entries will become more critical in the future. Spelling variants, misspellings, and
+transliteration differences will all increase the difficulty of retrieving information. We investigate
+a number of approximate string matching techniques that have traditionally been used to help
+with this problem. We then introduce the notion of approximate word matching and show how
+it can be used to improve detection and categorization of variant forms. We demonstrate the
+utility of these approaches using data from the Astrophysics Data System and show how we can
+reduce the human effort involved in the creation of authority files.
+
+References
+[Abt, 1993] Abt, H. A. (1993). Institutional Productivities. Publications of the Astronomical So­ciety 
+of the Pacific, 105:794--798.
+[Accomazzi et al., 1997] Accomazzi, A., Eichhorn, G., Kurtz, M. J., Grant, C. S., and Murray, S. S.
+(1997). Astronomical Information Discovery and Access: Design and Implementation of the ADS
+Jour. of the American Society for Information Science, to appear 35
+Bibliographic Services. In Astronomical Data Analysis Software and Systems VI, volume 125 of
+the Astronomical Society of the Pacific Conference Series, pages 357--360.
+[Auld, 1982] Auld, L. (1982). Authority Control: An Eighty­Year Review. Library Resources &
+Technical Services, 26:319--330.
+[Borgman and Siegfried, 1992] Borgman, C. L. and Siegfried, S. L. (1992). Getty's Synoname and
+its Cousins: A Survey of Applications of Personal Name­Matching Algorithms. Journal of the
+American Society for Information Science, 43(7):459--476.
+[Damerau, 1964] Damerau, F. J. (Mar. 1964). A Technique for Computer Detection and Correction
+of Spelling Errors. Communications of the ACM, 7(3):171--176.
+[French et al., 1997a] French, J. C., Powell, A. L., and Schulman, E. (1997a). Applications of
+Approximate Word Matching in Information Retrieval. In 6th International Conference on In­
+formation and Knowledge Management (CIKM'97), pages 9--15, Las Vegas, Nevada.
+[French et al., 1997b] French, J. C., Powell, A. L., Schulman, E., and Pfaltz, J. L. (1997b). Au­tomating 
+the Construction of Authority Files in Digital Libraries: A Case Study. In Peters,
+C. and Thanos, C., editors, First European Conference on Research and Advanced Technology
+for Digital Libraries, volume 1324 of Lecture Notes in Computer Science, pages 55--71, Pisa.
+Springer­Verlag.
+[Ganti et al., 1999] Ganti, V., Ramakrishnan, R., Gehrke, J., Powell, A., and French, J. (1999).
+Clustering Large Datasets in Arbitrary Metric Spaces. In 15th International Conference on Data
+Engineering (ICDE'99), pages 502--511, Sydney.
+[Gusfield, 1997] Gusfield, D. (1997). Algorithms on Strings, Trees, and Sequences. Cambridge
+University Press.
+Jour. of the American Society for Information Science, to appear 36
+[Hall and Dowling, 1980] Hall, P. A. V. and Dowling, G. R. (Dec. 1980). Approximate String
+Matching. Computing Surveys, 12(4):381--402.
+[Jain and Dubes, 1988] Jain, A. K. and Dubes, R. C. (1988). Algorithms for Clustering Data.
+Prentice Hall.
+[Kukich, 1992] Kukich, K. (Dec. 1992). Techniques for Automatically Correcting Words in Text.
+Computing Surveys, 24(4):377--440.
+[Lowrance and Wagner, 1975] Lowrance, R. and Wagner, R. A. (Apr. 1975). An Extension of the
+String­to­String Correction Problem. Journal of the ACM, 22(2):177--183.
+[Morgan, 1970] Morgan, H. L. (Feb. 1970). Spelling Correction in Systems Programs. Communi­cations 
+of the ACM, 13(2):90--94.
+[O'Neill and Vizine­Goetz, 1988] O'Neill, E. T. and Vizine­Goetz, D. (1988). Quality Control in
+Online Databases. Annual Review of Information Science and Technology, 23:125--156.
+[Schulman et al., 1997a] Schulman, E., French, J. C., Powell, A. L., Eichhorn, G., Kurtz, M. J., and
+Murray, S. S. (1997a). Trends in Astronomical Publication Between 1975 and 1996. Publications
+of the Astronomical Society of the Pacific, 109:1278--1284.
+[Schulman et al., 1997b] Schulman, E., French, J. C., Powell, A. L., Murray, S. S., Eichhorn, G.,
+and Kurtz, M. J. (1997b). The Sociology of Astronomical Publication Using ADS and ADAMS.
+In Hunt, G. and Payne, H., editors, Astronomical Data Analysis Software and Systems VI,
+volume 125 of the Astronomical Society of the Pacific Conference Series, pages 361--364.
+[Schulman et al., 1996] Schulman, E., Powell, A. L., French, J. C., Eichhorn, G., Kurtz, M. J., and
+Murray, S. S. (1996). Using the ADS Database to Study Trends in Astronomical Publication.
+Bulletin of the American Astronomical Society, 28(4):1281.
+Jour. of the American Society for Information Science, to appear 37
+[Siegfried and Bernstein, 1991] Siegfried, S. L. and Bernstein, J. (1991). Synoname: The Getty's
+New Approach to Pattern Matching for Personal Names. Computers and the Humanities,
+25(4):211--226.
+[Strong et al., 1997] Strong, D. M., Lee, Y. W., and Wang, R. Y. (1997). Data Quality in Context.
+Communications of the ACM, 40(5):103--110.
+[Taylor, 1984] Taylor, A. G. (1984). Authority Files in Online Catalogs: An Investigation of Their
+Value. Cataloging & Classification Quarterly, 4(3):1--17.
+[Trimble, 1984] Trimble, V. (1984). Postwar Growth in the Length of Astronomical and Other
+Scientific Papers. Publications of the Astronomical Society of the Pacific, 96:1007--1016.
+[Wagner and Fischer, 1974] Wagner, R. A. and Fischer, M. J. (Jan. 1974). The String­to­String
+Correction Problem. Journal of the ACM, 21(1):168--173.
+[Williams and Lannom, 1981] Williams, M. E. and Lannom, L. (May 1981). Lack of Standard­
+ization of the Journal Title Data Element in Databases. Journal of the American Society for
+Information Science, 32(3):229--233.
+[Zhang et al., 1996] Zhang, T., Ramakrishnan, R., and Livny, M. (1996). BIRCH: An Efficient
+Data Clustering Method for Very Large Databases. In Proceeedings of the 1996 ACM SIGMOD
+International Conference on Management of Data, pages 103--114, Montreal.
+[Zobel and Dart, 1996] Zobel, J. and Dart, P. (Aug. 1996). Phonetic String Matching: Lessons from
+Information Retrieval. In Proc. 19th Inter. Conf. on Research and Development in Information
+Retrieval (SIGIR'96), pages 166--172.

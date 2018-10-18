@@ -1,0 +1,44 @@
+An Experimental Study of Increasing Diversity
+for Case-Based Diagnosis
+
+Lu Zhang, Frans Coenen, and Paul Leng
+
+The Department of Computer Science, The University of Liverpool,
+Liverpool L69 3BX, UK
+{lzhang, frans, phl}@csc.liv.ac.uk
+
+
+
+Abstract. Increasing diversity for case-based reasoning (CBR) is an issue that
+has recently drawn the attention of researchers in the CBR field. Several
+diversification techniques have been proposed and discussed in the literature.
+However, whether and to what extent those techniques can bring about benefits
+to end-users remains in question. In this paper, we report an experiment in
+applying a diversification technique to a case-based diagnosis tool in a product
+maintenance domain. The results of this offer some evidence in support of
+diversification techniques.
+References
+
+1.	Bradley, K., Smyth, B.: Improving Recommendation Diversity. In: Proceedings of the
+Twelfth Irish Conference on Artificial Intelligence and Cognitive Science, Maynooth,
+Ireland (2001) 85-94
+2.	Coenen, F., Leng, P., Weaver, R., Zhang, W.: Integrated online support for field service
+engineers in a flexible manufacturing context. In: Applications and Innovations in
+Intelligent Systems VIII (Proc ES2000 Conference, Cambridge), eds A Macintosh, M
+Moulton and F Coenen, Springer, London, (2000) 141-152
+3.	Coenen, F., Leng, P., Zhang. L.: Flexible Field Service Support using Multiple Diagnostic
+Tools. In Proceedings of 5th IEEE International Conference on Intelligent Engineering
+Systems, (2001) 225-229
+4.	McSherry, D.: Increasing Recommendation Diversity Without Loss of Similarity. In:
+Proceedings of the Sixth UK CBR Workshop, 10 December (2001) 23-31
+5.	Smyth, B., Cotter, P.: A Personalised TV Listing Service for the Digital TV Age.
+Knowledge-Based Systems, 13 (2000) 53-59.
+6.	Smyth, B., McClave, P.: Similarity vs. Diversity. In: Aha, D.W., Watson, I. (eds) Case-Based 
+Reasoning Research and Development. LNAI, Vol. 2080. Springer-Verlag, Berlin
+Heidelberg (2001) 347-361
+7.	Zhang, W., Coenen, F., Leng, P.,: On-Line Support for Field Service Engineers in a
+Flexible Manufacturing Environment: the Stoves Project. In: Proceedings of IeC ‘2000
+Conference, Manchester (2000) 31-40
+8.	Zhang, L., Coenen, F., Leng, P.,: A Case Based Diagnostic Tool in a Flexible
+Manufacturing Context. In: Proceedings of the Sixth UK CBR Workshop, 10 December
+(2001) 61-69

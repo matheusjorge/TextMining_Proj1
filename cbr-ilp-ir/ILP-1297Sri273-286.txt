@@ -1,0 +1,100 @@
+Carcinogenesis Predictions Using ILP *
+
+A. Srinivasan1, R.D. King2, S.H. Muggleton1, M.J.E. Sternberg3
+
+1 Oxford University Comp. Lab., Wolfson Bldg., Parks Rd, Oxford, UK
+2 Dept. of Comp. Sc., University of Wales Aberystwyth, Ceredigion, UK
+3 Biomolecular Modelling Lab., ICRF, 44 Lincoln’s Inn Fields, London, UK
+
+
+Abstract. Obtaining accurate structural alerts for the causes of chemical 
+cancers is a problem of great scientific and humanitarian value. This
+paper follows up on earlier research that demonstrated the use of Inductive 
+Logic Programming (ILP) for predictions for the related problem of
+mutagenic activity amongst nitroaromatic molecules. Here we are concerned 
+with predicting carcinogenic activity in rodent bioassays using
+data from the U.S. National Toxicology Program conducted by the National 
+Institute of Environmental Health Sciences. The 330 chemicals
+used here are significantly more diverse than the previous study, and
+form the basis for obtaining Structure-Activity Relationships (SARs) relating 
+molecular structure to cancerous activity in rodents. We describe
+the use of the ILP system Progol to obtain SARs from this data. The
+rules obtained from Progol are comparable in accuracy to those from
+expert chemists, and more accurate than most state-of-the-art toxicity
+prediction methods. The rules can also be interpreted to give clues about
+the biological and chemical mechanisms of carcinogenesis, and make use
+of those learnt by Progol for inutagenesis. Finally, we present details of,
+and predictions for, an ongoing international blind trial aimed specifically
+at comparing prediction methods. This trial provides ILP algorithms an
+opportunity to participate at the leading-edge of scientific discovery.
+References
+
+1.	J. Ashby and R.W. Tennant. Definitive relationships among chemical structure,
+carcinogenicity and mutagenicity for 301 chemicals tested by the U.S. NTP. Mutation 
+Research, 257:229—306, 1991.
+2.	D. Babler and D. Bristol, The induction of rules for predicting chemical carcinogenesis. 
+In Proceedings of the 26th Hawaii International Conference on System
+Sciences, Los Alamitos, 1993. IEEE Computer Society Press.
+3.	D. Bahler and D. Bristol. The induction of rules for predicting chemical carcinogenesis 
+in rodents. In L. Hunter, D. Searls, and J. Shavlick, editors, Intelligent
+Systems for Molecular Biology-93, pages 29-37. MA:AAI/MIT, Cambridge, MA,
+1993.
+4.	G. Bakale and R.D. McCreary. Prospective ke screening of potential carcinogens
+being tested in rodent bioassays by the US National Toxicology Program. Mutagenesis, 7:91—94, 1992.
+5.	R. Benigni. Predicting chemical carcinogenesis in rodents: the state of the art in
+the light of a comparative exercise. Mutation Research, 334:103—113, 1995.
+6.	D.W. Bristol, J.T. Wachsman, and A. Greenwell. The NIEHS Predictive-Toxicology 
+Evaluation Project. Environmental Health Perspectives, pages 1001—
+1010, 1996. Supplement 3.
+7.	A.K. Debnath, R.L Lopez de Compadre, G. Debnath, A.J. Schusterman, and
+C. Hansch. Structure-Activity Relationship of Mutagenic Aromatic and Heteroaromatic 
+Nitro compounds. Correlation with molecular orbital energies and hydrophobicity. 
+Journal of Medicinal Chemistry, 34(2):786 — 797, 1991.
+8.	K. Enslein, B.W. Blake, and H.H. Borgstedt. Predicition of probability of carcinogenecity 
+for a set of ntp bioassays. Mutagenesis, 5:305—306, 1990.
+9.	J.E. Huff, J.K. Haseman, and D.P. Rail. Scientific concepts, value and significance
+of chemical carcinogenesis studies. Ann Rev Pharmacol Toxicol, 31:621-652, 1991.
+10.	T.D. Jones and C.E. Easterly. On the rodent bioassays currently being conducted
+on 44 chemicals: a RASH analysis to predict test results from the National Toxicology 
+Program. Mutagenesis, 6:507—514, 1991.
+11.	R.D. King, S. Muggleton, A.Srinivasan, C. Feng, R.A. Lewis, and M.J.E. Sternberg. 
+Drug design using inductive logic programming. In Proceedings of the 26th
+Hawaii International Conference on System Sciences, Los Alamitos, 1993. IEEE
+Computer Society Press.
+12.	R.D. King, S.H. Muggleton, A. Srinivasan, and M.J.E. Sternberg. Structure-activity 
+relationships derived by machine learning: The use of atoms and their
+bond connectivities to predict mutagenicity by inductive logic programming. Proc.
+of the National Academy of Sciences, 93:438—442, 1996.
+13.	R.D. King, S.H. Muggleton, and M.J.E. Sternberg. Drug design by machine learning: 
+The use of inductive logic programming to model the structure-activity relationships 
+of trimethoprim analogues binding to dihydrofolate reductase. Proc. of
+the National Academy of Sciences, 89(23):11322—11326, 1992.
+14.	R.D. King and A. Srinivasan. Prediction of rodent carcinogenicity bioassays from
+molecular structure using inductive logic programming. Environmental Health Perspectives, 
+104(5):1031—1040, 1996.
+15.	H. Kubini. QSAR: Hansch A nal ysis and Related Approaches. VCH, New York,
+1993.
+16.	D.F.V. Lewis, C. Ionnides, and D.V. Parke. A prospective toxicity evaluation
+(COMPACT) on 40 chemicals currently being tested by the National Toxicology
+Program. Mutagenesis, 5:433—436, 1990.
+17.	S. Muggleton. Inverse Entailment and Progol. New Gen. Comput., 13:245—286,
+1995.
+18.	H.S. Rosenkranz and G. Klopman. Predicition of the carcinogenecity in rodents
+of chemicals currently being tested by the US National Toxicology Program. Mutagenesis, 
+5:425—432, 1990.
+19.	D.M. Sanderson and C.G. Earnshaw. Computer prediction of possible toxic action
+from chemical structure. Human Exp Toxicol, 10:261—273, 1991.
+20.	A. Srinivasan, Ross D. King, and Stephen Muggleton. The role of background
+knowledge: using a problem from chemistry to examine the performance of an ILP
+program. Under review (available from the first author), 1996.
+21.	A. Srinivasan, S.H. Muggleton, R.D. King, and M.J.E. Sternberg. Mutagenesis:
+ILP experiments in a non-determinate biological domain. In S. Wrobel, editor,
+Proceedings of the Fourth International Inductive Logic Programming Workshop.
+Gesellschalt fur Mathematik und Datenverarbeitung MBH, 1994. GMD-Studien
+Nr 237.
+22.	A. Srinivasan, S.H. Muggleton, R.D. King, and M.J.E. Sternberg. Theories for
+mutagenicity: a study of first-order and feature based induction. Artificial Intelligence, 
+85:277—299, 1996.
+23.	R.W. Tennant, J. Spalding, S. Stasiewicz, and J. Ashby. Prediction of the outcome
+of rodent carcinogenicity bioassays currently being conducted on 44 chemicals by
+the National Toxicology Program. Mutagenesis, 5:3—14, 1990.

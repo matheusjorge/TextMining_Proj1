@@ -1,0 +1,50 @@
+A Large Case-Based Reasoner for Legal Cases
+
+Rosina Weber-Lee
+Ricardo Miranda Barcia
+Marcio C. da Costa
+Ilson W. Rodrigues Filho
+Hugo C. Hoeschl
+Tania C. D’Agostini Bueno
+Alejandro Martins
+Roberto C. Pacheco
+
+Federal University of Santa Catarina
+LIA - Production Engineering
+rolee@eps.ufsc.br
+
+
+Abstract. In this paper we propose a large case-based reasoner for the legal domain.
+Analyzing legal texts for indexing purposes makes the implementation of large case
+bases a complex task. We present a methodology to automatically convert legal texts
+into legal cases guided by domain expert knowledge in a rule-based system with
+Natural Language Processing (NLP) techniques. This methodology can be generalized
+to be applied in different domains making Case-Based Reasoning (CBR) paradigm a
+powerful technology to solve real world problems with large knowledge sources.
+
+6.	References
+Ashley, Kevin D. & Rissland, Edwina L. (1988a). Compare and Contrast, A Test of
+Expertise. Proceedings of a Workshop on Case-Based Reasoning, 31-36.
+Ashley, Kevin D. & Rissland, Edwina L. (1988b). Waiting on weighting: A symbolic
+least commitment approach. Proceedings of AAAI-88. Cambridge, MA: AAAI
+Press/MIT Press.
+Bench-Capon, T.J.M. (1995) Argument in Artificial Intelligence and Law. JURIX
+1995.
+Blair, D.C. & Maron, M.E. An Evaluation of Retrieval Effectiveness for a Full-Text
+Document-Retrieval System. Communications of the ACM, 28 (3), 289-299,
+March 1985 in Daniels & Rissland , 1995.
+Branting, L. Karl & Lester, James C. (1996) Justification Structures for Document
+Reuse Advances in Case-Based Reasoning third European Workshop;
+proceedings/ EWCBR-96, Lausanne,Switzerland, November 14-16, 1996. Ian
+Smith; Boi Faltings (ed.)-Berlin; Springer,1996.
+Daniels, J. J. and Rissland, B. L. (1995). A Case-Based Approach to Intelligent
+Information Retrieval. Proceedings of the SIGIR ‘95 Conference SIGIR ‘95
+Seattle WA USA 1995 ACM.
+Kolodner, J. (1993). Case-Based Reasoning. Morgan Kaufmann, Los Altos, CA.
+Klahr, Philip (1996). Global Case-Base Development and Deployment. Advances in
+Case-Based Reasoning: third European Workshop; proceedings/ EWCBR-96,
+Lausanne, Switzerland, November 14-16, 1996. Ian Smith; Boi Faltings (ed.)-
+Berlin; Springer,1996.
+Uyttendaele, Caroline, Moens, Marie-Francine & Dumortier, Jos. SALOMON:
+Automatic Abstracting of Legal Cases for Effective Access to Court Decisions.
+JURIX 1996.

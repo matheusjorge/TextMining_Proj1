@@ -1,0 +1,122 @@
+Case Library Reduction Applied to Pile Foundations
+
+Celestino Lei1, Otakar Babka1, and Laurinda A. G. Garanito2
+
+1 Faculty of Science and Technology, University of Macau
+P.O. Box 3001, Macau (via Hong Kong)
+Ph.: +853 3974 471, Fax: +853 838 314
+babka@umac.mo, m986218@sftw.umac.mo
+
+2 Laboratório de Engenharia Civil de Macau
+Rua da Sé, 30, Macau
+Ph.: +853 343 372
+laurin48@macau.ctm.net
+
+
+
+Abstract. The case-based reasoning paradigm is applied in support of decision
+making processes related to pile foundations. Based on this paradigm, the
+system accumulates experience from previously realized pile foundations. This
+experience can be drawn when new situations with similar attributes of
+geotechnical situation of the site and geometric characteristics of the piles are
+encountered. Two case libraries were created based on previously realized sites.
+The representativeness of the case libraries and the efficiency of the search
+process are facilitated by the use of a genetic algorithm reduction.
+References
+
+1.	A. Aamodt, B. Plaza, Case-Based Reasoning: Foundational Issues, Methodological, and
+System Approaches, IOS Press, 1994.
+2.	B. W. Davis, Global Similarity Visualization and Searches in Case-Based Reasoning,
+http://cimic.rutgers.edu/~badavis/research/cbr_vis.html
+3.	B. Smyth, Case Adaptation & Reuse in Déjà Vu, in Proceedings of ECAI-96 Workshop on
+Adaptation in Case-Based Reasoning, 1996, ftp://ftpagr.informatik.uni-kl.de/pub/
+ECAI96-ADAPT-WS/smyth.ps
+4.	W. Wilke, R. Bergmann, Adaptation with the INRECA - System, in Proceedings of ECAI-
+96 Workshop on Adaptation in Case-Based Reasoning, 1996, ftp://ftpagr.informatik.uni-kl.
+de/pub/ECAI96-ADAPT-WS/wilke.ps
+5.	H. Chen, J. Kim, GANNET: Information Retrieval using Genetic Algorithms and Neural
+Nets, 1994, http://ai.bpa.arizona.edu/papers/gannet93.html
+6.	H. Chen, L. She, A. Iyer, G. Shankaranarayanan, A Machine Learning Approach to
+Inductive Query by Examples: An Experiment using Relevance Feedback, 1D3, Genetic
+Algorithms, and Simulated Annealing, 1995, http://ai.bpa.arizona.edu/papers/expert94.html
+7.	D. A. Muresan, Genetic Algorithms for Nearest Neighbor: Final Report, 1997,
+http://www.cs.caltech.edu/~muresan/GANN/report.html
+8.	D. B. Skalak, Using a genetic algorithm to learn prototypes for case retrieval and
+classification, in Proceedings of the AAAI-93 Case-based Reasoning Workshop, 1993.
+9.	J. Kolodner, Case-based Reasoning, Morgan Kaufmann Publ., U.S.A., 1993.
+10.	S. Berchtold, B. Ertl, D. A. Keim, H.-P. Kriegel, T. Seidi, Fast Nearest Neighbor Search in
+High-dimensional Space, in ICDE’98, 1998.
+11.	B. V. Dasarathy, Nearest neighbor (NN) norms: NN patterns classification techniques.
+IEEE Computer Society Press, Los Alamitos, CA, USA, 1991.
+12.	D. Wettschereck, T. G. Dietrich, An experimental comparison of the nearest neighbor and
+nearest hyperectangle algorithms, in Machine Learning, 19, 5-28, 1995.
+13.	D. Wettschereck, D. W. Aha, Weighting features, in Proceedings of the First International
+Conference on Case-Based Reasoning, Lisbon, Portugal, Springer-Verlag, 1995.
+14.	G. P. Ingargiola, Building Classification Models: 1D3 and C4.5, Temple University, 1994,
+http://yoda.cis.temple.edu:8080/UGAIWWW/lectures/C45
+15.	H. Chen, Machine Learning for Information Retrieval: Neural Networks, Symbolic
+Learning, and Genetic Algorithms, in Journal of the American Society for Information
+Science, 1994, http://ai.bpa.arizona.edu/papers/PS/mlir93.ps.Z
+16.	H. G. Solheim, Building Classification Models, http://yoda.cis.temple.edu:8080/
+UGAIWWW/C45
+17.	D. W. Aha, L. A. Breslow, Refining conversational case libraries, in Proceedings of the
+Second International Conference on Case-Based Reasoning, pp. 267-278, Providence, RI,
+Springer-Verlag, 1997.
+18.	R. Heider, E. Auriol, E. Tartarin, M. Manago, Improving quality of case bases for building
+of better decision support system. in R. Bergmann and W. Wilke (Eds.) Fifth German
+Workshop on CBR: Foundation, Systems, and Application (Technical Report LSA -97-OlE),
+University of Kaiserlautem, Department of Computer Science, 1997.
+19.	D. W. Aha, A proposal for refining case libraries, in R. Bergmann & W. Wilke (Eds.), Fifth
+German Workshop on Case-Based Reasoning: Foundations, Systems, and Applications
+(Technical Report LSA-97-OIE), University of Kaiserslautern, Department of Computer
+Science, 1997.
+20.	E. McKenna, B. Smyth, A Competence Model for Case-Based Reasoning, in 9th Irish
+Conference on Artificial Intelligence and Cognitive Science, Ireland, 1998,
+http://ww.cs.ucd.ie/staff/bsmyth/papers/Cascade%20Submit.doc
+21.	P. Ricci, P. Avesani, Learning a local simllarity metric for case-based reasoning, in Case-based 
+reasoning research and development, M. Veloso and A. Aamondt, (Eds.),
+Proceedings of the First International on Case-based Reasoning, ICCBR-95, Sesimbra,
+Portugal, October 23-26, 1995, Springer, pp. 301-312.
+22.	K. S. Fu, Sequential methods in pattern recognition and machine learning, New York,
+Academic Press, 1968.
+23.	J. Doak, An evaluation of feature selection methods and their application to computer
+security, Technical Report CSE-92-18. University of California, Department of Computer
+Science, Davis, CA, USA, 1992.
+24.	D. Skalak, Prototype of feature selection by sampling and random mutation hill algorithms,
+in Proceedings of the Eleventh International Machine Learning Conference, Morgan
+Kaufmann Pubi., U.S.A., pp. 293-301, 1994.
+25.	D. W. Aha, R. L. Bankert, A comparative evaluation of sequential feature selection
+algorithms, in Proceedings of the Fifth International Workshop on Artificial Intelligence
+and Statistics (pp 1-7). Ft. Lauderdale, FL: Unpublished. (NCARAI TR: AIC-94-026),
+1995.
+26.	S. L. Salzberg, A nearest hyperrectangle learning method, in Machine Learning, 6, 251-
+276, 1991.
+27.	C. E. Shannon, A mathematical theory of communication, in Bell System Technology
+Journal, 27, 379-423, 1948.
+28.	J. D. Kelly Jr., L. Davis, A hybrid genetic algorithm for classification, in Proceedings of the
+Twelve lnternational Conference on Artificial Intelligence, Sydney, Australia, Morgan
+Kaufmann, pp. 249-256, 1991.
+29.	O. Babka, S. I. Leong, C. Lei, M. W. Pang, Reusing Data Mining Methods for Handwritten
+Digit Recognition, in Proceedings of World Multiconference on Systems, Cybernetics and
+Informatics (SCI’98), 1998.
+30.	S. I. Leong, C. Lei, M. W. Pang, HWDR — Handwritten Digit Recognition — Final Report,
+Bachelor degree graduation project report, University of Macau, 1998.
+31.	H. N. Ferreira, L. N. Lamas, L. Hong Sal, S. Qiang, Guia de Fundações LECM, Macau,
+1997.
+32.	L. A. G. Garanito, Case-based Reasoning and Piles Foundations, Master’s Thesis,
+University of Macau, 1997.
+33.	M. L. Maher, A. 0. de S. Garza, Developing Case-Based Reasoning for Structural Design,
+in IEEE Expert, Volume 11, Number 3, 1996, http://www.arch.su.edu.au/%7Eandres/
+ieee-expert96.ps
+34.	M. L. Maher, A. G. de S. Garza, The Adaptation of Structural System Designs Using
+Genetic Algorithms, in Proceedings of the International Conference on Information
+Technology in Civil and Structural Engineering Design — Taking Stock and Future
+Directions, Scotland, 1996, http://www.arch.su.edu.au/%7Eandres/glasgow96.ps
+35.	O. Babka, L. A. G. Garanito, Case-based Reasoning for Pile Foundation, in Proceedings of
+Symposium on Science & Technology and Development of Macau, Dec. 1-4, 1998, Macau,
+pp. 295-300.
+36.	K. Hanney, M. Keane, B. Smyth, P.Cunningham, Systems, tasks, and adaptation
+knowledge: revealing some revealing dependencies, in Case-based reasoning research and
+development, M. Veloso and A. Aamondt (Eds.), Proceedings of the First International on
+Case-based Reasoning, ICCBR-95, Sesimbra, Portugal, October 23-26, 1995, Springer, pp.
+461-470.

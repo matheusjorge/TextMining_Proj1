@@ -1,0 +1,63 @@
+Knowledge Engineering for CBR systems
+from a Cognitive Science Perspective
+
+G. Strube, A. Enzinger, D. Janetzko & M. Knauff
+Center/or Cognitive Science, University of Freiburg
+IIG. Friedrichstr. 50, D-79098 Freiburg, Germany
+{strube | enzinger | dietmar | knauff}@cognition.iig.uni-freiburg.de
+
+
+
+Abstract
+
+Although CBR has been advertised as a technique to elude knowledge engineering (RE), 
+we argue that knowledge-level modeling in KE is of eminent importance 
+to the success of CBR systems, both for practical and theoretical reasons.
+Cases are knowledge structures linked to some underlying database (although
+not necessarily in a one-to-one fashion), and in order to define case structures
+and their relations to the database, domain knowledge is needed. In this paper,
+we focus on KE for CBR in the domain of architectural design, first looking at
+general analyses of work processes and information use, then discussing micro-analyses 
+of task structure in order to define case size, finally proceeding to
+knowledge-level evaluation of the domain knowledge acquired and modeled so
+far.
+
+
+References
+Chandrasekaran, B. (1986). Generic tasks in knowledge-based reasoning: High-level building
+blocks for expert system design. IEEE Expert, 1, 23-30.
+Clancey, W. J. (1985). Heuristic dassification. A rtificial Intelligence, 27,289-350.
+Burkhardt, J.-M., & Détienne, F. (1995) An empirical study of software reuse by experts in
+object-oriented design. Proceedings of Interact ‘95. Lillehammer (Norway), 27-29 June.
+Drury, C. G., Paramore, B., van Cott, H. P., Grey, S. M., & Corlett, E. N. (1987) Task
+analysis. In G. Salvendy (Ed.), Handbook of Human Factors (370-401).New York: Wiley.
+Enzinger, A. (forthcoming). Experts ‘ working input. Phil. Diss., University of Freiburg.
+Janetzko, D., Börner, K., Jäschke, O. & Strube, G. (1994). Task-oriented Knowledge Acquisition 
+and Reasoning for Design Support Systems. Proceedings of the First European Conference on
+Cognitive Science in Industry, 28th - 30th September, 1994, Luxembourg, 153-184.
+Kolodner, J. (1993). Case-based reasoning. San Mateo, CA: Morgan Kaufmänn.
+Newell, A. (1982). The knowledge level. Artificial Intelligence, 18, 87-12.
+Riesbeck, C. K., & Schank, R. C. (1989). Inside case-based reasoning. Hillsdale, NJ: Erlbaum.
+Schreiber, G., Wielinga, B., & Breuker, J. (1993). KADS. A principled approach to knowledge-based 
+systems development. London: Academic Press.
+Steels, L. (1990, Summer). The components of expertise. AI Magazine. (also VUB AI Lab
+Memo 88-16).
+Strube, G., Janetzko, D. & Knauff, M. (in press). Cooperative construction of expert
+knowledge. In P. B. Baltes & U. M. Staudinger (Eds.), Interactive minds. Cambridge:
+Cambridge University Press.
+Van de Velde, W. (1993). Issues in knowledge-level modelling. In J. M. David, J. P. Krivine,
+& R. Simmons (Eds.), Second Generation Expert Systems (pp. 211-231). Berlin: Springer.
+VanLehn, K. (1989). Problem solving and cognitive skill acquisition. In M. I. Posner (Ed.),
+Foundations of cognitive science (pp. 527-579). Cambridge, MA: MIT Press (Bradford)
+Visser, W. (1987). Strategies in Programming programmable controllers: field study on a
+professional programmer. In G. Olson, S. Sheppard, & E. Soloway (Eds.), Empirical Studies
+of Programmers. Second Workshop. Norwood, NJ: Ablex.
+Wielinga, B. J., & Breuker, J. A. (1986). Training of knowledge engineers using a structured
+methodology. In T. Bernold (Ed.), Expert Systems and Knowledge Engineering (pp. 133-139).
+Amsterdam: Elsevier (North-Holland).
+Wielinga, B. J., Schreiber, A. T., Breuker, J. A. (1992). KADS: A modelling approach to
+knowledge engineering. Knowledge Acquisition, 4 (Special Issue “The KADS approach to
+knowledge engineering”).
+Wielinga, B., Van de Velde, W., Schreiber, G., & Akkermans, H. (1993). Towards a
+unification of knowledge modelling approaches. In J. M. David, J. P. Krivine, & R. Simmons
+(Eds.), Second Generation Expert Systems (pp. 299-335). Berlin: Springer.

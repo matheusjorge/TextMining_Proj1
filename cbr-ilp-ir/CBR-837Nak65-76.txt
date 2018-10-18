@@ -1,0 +1,105 @@
+Learning Prediction of Time Series. A Theoretical
+and Empirical Comparison of CBR with some
+other Approaches
+
+Gholamreza Nakhaeizadeh
+
+Daimler-Benz AG, Research and Technology, F3W,
+
+Wilhelm-Runge-Str. 11, Postfach 2360, D-89013 Ulm, Germany
+
+
+
+Abstract
+Case-based Reasoning (CBR) is a rather new research area in Artificial 
+Intelligence. The concept of K-Nearest Neighbours (KNN) that can be
+considered as a subarea of CBR traced back, however, to early fifties and
+during the last years it is deeply investigated by the statistical community. 
+In dealing with the task “learning prediction of time series”, besides
+the KNN-approach, the Statistician have investigated other approaches
+based on regression analysis and Box-Jenkins methods. Recently, neural
+networks and symbolic machine learning approaches are applied to performing 
+this task as well. Although learning prediction of time series is a
+very important task in different scientific disciplines, there is no comprehensive 
+study in the literature which compares the performance of CBR
+with the performance of the other alternative approaches. The aim of this
+paper is to contribute to this debate from a theoretical and empirical point
+of view.
+References
+
+Althoff, K. D., Wess, S. Bartsch-Spörl, B. and Janetzko, D. (Hrsg.) (1992). Proceedings 
+of the Workshop: Ahnlichkeit von Fallen beim fallbasierten Schliessen.
+University of Kaiserslautern. Fachbereich Informatik.
+
+
+Arminger, G. (1994). Okonometrische Schätzmethoden für Neuronale Netze. To
+appear in Bol, G. Nakhaeizadeh, G. and Vollmer K. H. (Eds). Proceedings of
+the Fourth Econometric Workshop. Physica Verlag, Heidelberg.
+
+
+Box, G.E.P. and Jenkins, G.M. (1976). Time Series Analysis, Forecasting and
+Control. San Francisco, Holden-Day.
+
+
+Breiman, L., Friedman, J. H., Olshen, A. and Stone, C. J. (1984). Classification
+and Regression Trees. Wadsworth, Belmont.
+
+
+Cardie, C. (1993). Using Decision Trees to improve Case-Based Learning. In:
+Proceedings of the Tenth International Conference on Machine Learning, 25-32.
+Morgan Kaufmann Publishers.
+
+
+Bamberger, S. K. and Goos, K. (1993). Integration of Case-based Reasoning
+and Inductive Learning Methods. Paper presented in EWCBR-93, University of
+Kaiserslautern, Germany.
+
+
+Dasarathy, B. V. (Ed.) (1991). Nearest Neighbor(NN) Norms. NN Pattern
+Classification Techniques. IEEE Computer Society Press.
+
+
+Dasarathy, B. V. and Sheela, B. V. (1979). A composite Classifier System Design: 
+Concepts and Methodology. In: Proceedings of the IEEE, Volume, 67,
+Number 5, 708-713.
+Fix, E. and Hodges, J.L. (1951). Discriminatory Analysis, Nonparametric estimation: 
+Consistency Properties. Report no 4, UASF School of Aviation
+Medicine, Texas.
+
+
+Graf. J. and Nakhaeizadeh, G. (1993). Application of Neural Networks and
+Symbolic Machine Learning to Predicting of Stock Prices. To appear in : Plantamura, 
+V. L. Soucek, B. and Visaggio, G. (Eds). Logistic and Learning for
+Quality Software, Management and Manufacturing. Wiley & Sons, New York.
+
+
+Henery, R. and Nakhaeizadeh, G. (1993). Forecasting of Time Series. Mimeo,
+University of Strathclyde, Glasgow.
+
+
+Jantke, K. P. (1992). Formalizations in Case-Based Reasoning. In : Althoff, K.
+D. Wess, S. Bartsch-Spörl, B. and Janetzko, D. (Hrsg.) (1992). Proceedings of
+the Workshop: Ähnlichkeit von Fällen beim fallbasierten Schliessen. University
+of Kaiserslautern. Fachbereich Informatik, 9-14.
+
+
+Makridakis, S; Andersen, A; Carbone, R; Fildes, R; Hibon, M; Lewandowski, R;
+Newton, J; Parzen, E; and Winkler, R. (1984). The Accuracy of Extrapolation
+(Time Series) Methods: Results of.a forecasting competition. In : Makridakis,
+S. (Ed.). The Forecasting Accuracy of Major Time Series Methods. Wiley &
+Sons. 103-166.
+
+
+Merkel, A. and Nakhaeizadeh, G. (1992). Application of Artificial Intelligence
+Methods to Prediction of Financial Time Series. In: Gritzmann, P. et al. (
+Hrsg.). Operations Research 91, 557-559.
+
+
+Quinlan, J. R. (1992). Learning with Continuous Classes. In: Proceedings of
+the 5th Australian Joint Conference on Artificial Intelligence, Singapore: World
+Scientific.
+
+
+Quinlan, J. R. (1993). Combining instance-based and model-based learning.
+In: Proceedings of the Tenth International Conference on Machine Learning,
+236-243. Morgan Kaufmann Publishers.

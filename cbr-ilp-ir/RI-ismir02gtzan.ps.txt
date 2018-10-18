@@ -1,0 +1,110 @@
+Pitch Histograms in Audio and Symbolic Music Information Retrieval
+
+George Tzanetakis
+Computer Science Department
+35 Olden Street
+Princeton NJ 08544
++1 609­258­5030
+gtzan@cs.princeton.edu
+Andrey Ermolinskyi
+Computer Science Department
+35 Olden Street
+Princeton NJ 08544
++1 609­258­5030
+andreye@princeton.edu
+Perry Cook
+Computer Science Department
+35 Olden Street
+Princeton NJ 08544
++1 609­258­5030
+prc@cs.princeton.edu3
+
+ABSTRACT
+In order to represent musical content, pitch and timing
+information is utilized in the majority of existing work in
+Symbolic Music Information Retrieval (MIR). Symbolic
+representations such as MIDI allow the easy calculation of such
+information and its manipulation. In contrast, most of the existing
+work in Audio MIR uses timbral and beat information, which can
+be calculated using automatic computer audition techniques.
+In this paper, Pitch Histograms are defined and proposed as a way
+to represent the pitch content of music signals both in symbolic
+and audio form. This representation is evaluated in the context of
+automatic musical genre classification. A multiple­pitch detection
+algorithm for polyphonic signals is used to calculate Pitch
+Histograms for audio signals. In order to evaluate the extent and
+significance of errors resulting from the automatic multiple­pitch
+detection, automatic musical genre classification results from
+symbolic and audio data are compared. The comparison indicates
+that Pitch Histograms provide valuable information for musical
+genre classification. The results obtained for both symbolic and
+audio cases indicate that although pitch errors degrade
+classification performance for the audio case, Pitch Histograms
+can be effectively used for classification in both cases.
+
+REFERENCES
+[1] Barlow, H., DeRoure, D. A Dictionary of Musical Themes.
+New York, Crown, 1948.
+[2] Baeza­Yates, R.. Ribeiro­Neto, B., Modern Information
+Retrieval, Addison­Wesley, 1999.
+[3] Downie, J. S. Evaluating a Simple Approach to Music
+Information Retrieval: Conceiving Melodic N­grams as Text,
+Ph.D thesis, University of Western Ontario, 1999.
+[4] Pickens, J. A Comparison of Language Modeling and
+Probabilistic Text Information Retrieval Approaches to
+Monophonic Music Retrieval. In Proc. Int. Symposium on
+Music Information Retrieval (ISMIR), Plymouth, MA, 2000.
+[5] Kageyama, T., Mochizuki, K., Takashima, Y. Melody
+Retrieval with Humming. In Proc. Int. Computer Music
+Conference (ICMC), 1993.
+[6] Ghias, A., Logan, J., Chamberlin, D., and Smith, B.C., Query
+by humming: Musical information retrieval in an audio
+database. In Proc. of ACM Multimedia, 231­236, 1995.
+[7] Hewlett, W.B., and Selfridge­Field, Eleanor (Eds), Melodic
+Similarity: Concepts, Procedures and Applications.
+Computing in Musicology, 11.
+[8] Barthelemy, J., and Bonardi, A. Figured Bass and Tonality
+Recognition. In Proc. Int. Symposium on Music Information
+Retrieval (ISMIR), Bloomington, Indiana, 2001.
+[9] Pachet, F. Computer Analysis of Jazz Chord Sequences: Is
+Solar a Blues. Readings in Music and Artificial Intelligence,
+Miranda, E. Ed, Harwood Academic Publishers, 2000.
+[10] Foote, J. ARTHUR: Retrieving Orchestral Music by Long­
+Term Structure. In Proc. Int. Symposium on Music
+Information Retrieval (ISMIR), Plymouth, MA, 2000.
+[11] Logan, B. Mel Frequency Cepstral Coefficients for Music
+Modeling. In Proc. Int. Symposium on Music Information
+Retrieval (ISMIR), Plymouth, MA, 2000
+[12] Scheirer, E., and Slaney, M. Construction and Evaluation of
+a Robust Multifeature Speech/Music Discriminator. In Proc.
+Int. Conf. on Acoustics, Speech, and Signal Processing
+(ICASSP), Munich, Germany, 1997.
+[13] Tzanetakis, G., and Cook, P. Audio Information Retrieval
+(AIR) Tools. In Proc. Int. Symposium on Music Information
+Retrieval (ISMIR), Plymouth, MA, 2000.
+[14] Scheirer, E. Tempo and Beat Analysis of Acoustic Musical
+Signals. Journal of the Acoustical Society of America,
+103(1):588,601, Jan. 1998.
+[15] Laroche, J. Estimating Tempo, Swing and Beat Locations in
+Audio Recordings. In Proc. IEEE Int. Workshop on
+Applications of Signal Processing to Audio and Acoustics
+(WASPAA), 135­139, Mohonk, NY, 2001.
+[16] Tzanetakis, G., and Cook, P., Musical Genre Classification of
+Audio Signals (to appear) IEEE Transactions on Speech and
+Audio Processing, July 2002.
+[17] Tolonen, T., and Karjalainen, M. A Computationally
+Efficient Multipitch Analysis Model IEEE Trans. On Speech
+and Audio Processing, 8(6):708­716, Nov. 2000.
+[18] Duda, R., Hart, P., and Stork, D., Pattern Classification. John
+Wiley & Sons, New York, 2000.
+[19] Perrot, D., and Gjerdigen, R. Scanning the dial: An
+exploration of factors in the identification of musical style. In
+Proc. of the 1999 Society for Music Perception and
+Cognition pp.88, (abstract)
+[20] Tzanetakis, G., Cook, P. Marsyas: A framework for audio
+analysis. Organised Sound, vol. 4(3), 2000.
+[21] Allamanche, E. et al., Content­based identification of audio
+material using MPEG­7 Low Level Description. In Proc. Int.
+Symposium on Music Information Retrieval (ISMIR),
+Bloomington, 2001.
+

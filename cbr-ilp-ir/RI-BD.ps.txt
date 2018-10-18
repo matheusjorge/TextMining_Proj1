@@ -1,0 +1,67 @@
+Buses for Anonymous Message Delivery
+
+Amos Beimel Shlomi Dolev
+Department of Computer Science
+Ben-Gurion University of the Negev
+Beer-Sheva 84105, Israel
+beimel,dolev@cs.bgu.ac.il
+April 11, 2002
+
+Abstract
+This work develops a novel approach to hide the senders and the receivers of messages. 
+The intuition is taken from an everyday activity that hides the \communication
+pattern" { the public transportation system. To describe our protocols, busses are
+used as a metaphor: Busses, i.e., messages, are traveling on the network, each piece of
+information is allocated a seat within the bus. Routes are chosen and buses are scheduled 
+to traverse these routes. Deterministic and randomized protocols are presented,
+the protocols differ in the number of buses in the system, the worst case traveling time,
+and the required buffer size in a \station." In particular, a protocol that is based on
+cluster partition of the network is presented; in this protocol there is one bus traversing
+each cluster. The clusters' size in the partition gives time and communication trade-off
+s. One advantage of our protocols over previous works is that they are not based on
+statistical properties for the communication pattern. Another advantage is that they
+only require the processors in the communication network to be busy periodically.
+
+References
+[1] R. Aleliunas, R. M. Karp, R. J. Lipton, L. Lovasz, and C. Racko
+. Random walks,
+universal traversal sequences, and the complexity of maze problems. In Proc. of the
+11th Annu. ACM Symp. on the Theory of Computing, pp. 218{223, 1979.
+[2] D. Chaum. Untraceable electronic mail, return addresses, and digital pseudonyms. Communication 
+of the ACM, vol. 24, no. 2, pp. 84{88, 1981.
+[3] D. Chaum. The dining cryptographers problem: unconditional sender and recipient
+untraceability. Journal of Cryptology, vol. 1, no. 1, pp. 65{75, 1988.
+[4] J. Cheriyan and R. Thurimella. Approximating minimum-size k-connected spanning
+subgraphs via matching. SIAM J. on Computing, vol. 30, no. 2, pp. 528{560, 2000.
+[5] S. Dolev, E. Kranakis, D. Krizanc, and D. Peleg. Bubbles: adaptive routing scheme
+for high-speed dynamic networks. SIAM J. on Computing, vol. 29, no. 3, pp. 804{833,
+1999.
+[6] S. Dolev and R. Ostrovsky. Xor-trees for e∆cient anonymous multicast and reception.
+ACM Transactions on Information and System Security, vol. 3, no. 2, pp. 63{84, 2000.
+[7] O. Goldreich. Fragments on a chapter on Encryption Schemes. Extracts from
+Foundations of Cryptography vol. 2 (in preparation). 2001. Available from
+http://www.wisdom.weizmann.ac.il/oded/foc-vol2.html.
+[8] O. Goldreich. Fragments on a chapter on Digital Signature and Message Authentication.
+Extracts from Foundations of Cryptography vol. 2 (in preparation). 2001. Available from
+http://www.wisdom.weizmann.ac.il/oded/foc-vol2.html.
+[9] S. Goldwasser and S. Micali. Probabilistic encryption. J. of Computer and System
+Sciences, vol. 28, no. 21, pp. 270{299, 1984.
+[10] A. Ptzmann. How to implement ISDNs without user observability { some remarks. TR
+14/85, Fakultat fur Informatik, Universitat Karlsruhe, 1985.
+[11] A. Ptzmann, B. Ptzmann, and M. Waidner. ISDN-MIXes { Untraceable communication 
+with very small bandwidth overhead. In Proc. Kommunikation in verteilten
+Systemen, pp. 451{463, 1991.
+[12] T. Rabin and M. Ben-Or. Veriable secret sharing and multiparty protocols with honest
+majority. In Proc. of the 21st ACM Symp. on the Theory of Computing, pp. 73{85, 1989.
+[13] C. Racko
+ and D. Simon. Cryptographic defense against tra∆c analysis. In Proc. of the
+25th Annu. ACM Symp. on the Theory of Computing, pp. 672{681, 1993.
+[14] M. G. Reed, P. F. Syverson, and D. M. Goldschlag. Anonymous Connections and Onion
+Routing. IEEE Journal on Selected Areas in Communication, vol. 16, no. 4, pp. 482{494,
+1998.
+[15] M. Waidner and B. Ptzmann. The dining cryptographers in the disco: unconditional
+sender and recipient untraceability with computationally secure serviceability. In Advances 
+in Cryptology { EUROCRYPT 89, vol. 434 of LNCS, pp. 690, Springer-Verlag,
+1990.
+[16] A. C. Yao. Protocols for secure computations. In Proc. of the 23th Annu. IEEE Symp.
+on Foundations of Computer Science, pp. 160{164, 1982.

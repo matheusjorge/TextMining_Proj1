@@ -1,0 +1,52 @@
+Local Predictions for Case-Based Plan Recognition
+
+Boris Kerkez and Michael T. Cox
+
+Department of Computer Science and Engineering
+Wright State University, Dayton, OH
+{bkerkez,mcox}@cs.wright.edu
+
+
+
+Abstract. This paper presents a novel case-based plan recognition system that
+interprets observations of plan behavior using a case library of past
+observations. The system is novel in that it represents a plan as a sequence of
+action-state pairs rather than a sequence of actions preceded by some initial
+state and followed by some final goal state. The system utilizes a unique
+abstraction scheme to represent indices into the case base. The paper examines
+and evaluates three different methods for prediction. The first method is
+prediction without adaptation; the second is predication with adaptation, and the
+third is prediction with heuristics. We show that the first method is better than a
+baseline random prediction, that the second method is an improvement over the
+first, and that the second and the third methods combined are the best overall
+strategy.
+References
+
+Bares, M., Canamero, D., Delannoy, J. F., & Kodratoff, Y. (1994). XPlans: Case-based
+reasoning for plan recognition. Applied Artificial Intelligence 8, 617-643.
+Bergmann, R., & Wilke, W. (1995). Building and Refining Abstract Planning Cases by Change
+of Representation Language. Journal of Artificial Intelligence Research, 3:53—118.
+Bergmann, R., & Wilke, W. (1996). On the Role of Abstractions in Case-Based Reasoning. In
+EWCBR-96 European Conference on Case-Based Reasoning. Springer, 1996.
+Carbonell, J. G., Blythe, J., Etzioni, O., Gil, Y., Joseph, R., Kahn, D., Knoblock, C., Minton, S.,
+Perez, A., Reilly, S., Veloso, M., & Wang, X. (1992). PRODIGY 4.0: The Manual and
+Tutorial (Tech. Rep. No. CMU-CS-92-150). Carnegie Mellon University, Department of
+Computer Science, Pittsburgh, PA.
+Cox, M. T., & Ram, A. (1999). Introspective multistrategy learning: On the construction of
+learning strategies. Artificial Intelligence, 112, 1-55.
+Kautz, H. (1991). A formal theory of plan recognition and its implementation. In J. Allen, et.
+al., Reasoning about plans. San Francisco: Morgan Kaufmann.
+Kerkez, B. (2001) Incremental case-based keyhole plan recognition. Technical Report, WSU-
+CS-01-01, Department of Computer Science and Engineering, Wright State Univ.
+Kerkez, B., & Cox, M. (2001). Case-based plan recognition using state indices, In D. W. Aha &
+I. Watson (Eds.), Case-based Reasoning Research and Development: Proceedings of 4th
+international conference on case-based reasoning (pp. 227-242). Berlin: Springer.
+Kerkez, B. (2002). Learning Plan Libraries for Case-based Plan Recognition. In Proceedings of
+the 13th Midwest Artificial Intelligence and Cognitive Science Conference. IIT, Chicago, IL.
+Lesh, N., & Etzioni, O. (1996). Scaling up goal recognition. In Proceedings of the Fifth
+Internat. Conference on Principles of Knowledge Representation and Reasoning (pp 178-
+189).
+Pazzani, M. (1994) Learning causal patterns: Making a transition from data-driven to theory-driven 
+learning, in: R. Michalski and G. Tecuci, eds., Machine learning IV: A multistrategy
+approach (Morgan Kaufmann, San Francisco, 1994) 267-293.
+Veloso, M. (1994). Planning and learning by analogical reasoning. Berlin: Springer.

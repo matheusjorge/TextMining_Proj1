@@ -1,0 +1,111 @@
+Improving Case Representation and Case Base
+Maintenance in Recommender Agents
+
+Miquel Montaner, Beatriz López, and Josep Lluís de la Rosa
+
+Institut d’Informàtica i Aplicacions
+Universitat de Girona
+Campus Montilivi
+17071 Girona, Spain
+{mmontane, blopez, pepiluis}@eia.udg.es
+
+
+
+
+Abstract. Recommendations by salespeople are always based on knowledge 
+about the products and expertise about your tastes, preferences, interests 
+and behavior in the shop. In an attempt to model the behavior of
+salespeople, AI research has been focussed on the so called recommender
+agents. Such agents draw on previous results from machine learning and
+other advances in AI technology to develop user models and to anticipate 
+and predict user preferences. In this paper we introduce a new
+approach to recommendation, based on Case-Based Reasoning (CBR).
+CBR is a paradigm for learning and reasoning through experience, as
+salesmen do. We present a user model based on cases in which we try
+to capture both explicit interests (the user is asked for information) and
+implicit interests (captured from user interaction) of a user on a given
+item. Retrieval is based on a similarity function that is constantly tuned
+according to the user model. Moreover, in order to cope with the utility
+problem that current CBR system suffer from, our approach includes a
+forgetting mechanism (the drift attribute) that can be extended to other
+applications beyond e-commerce.
+References
+
+1.	D. Billsus and M. J. Pazzani. A hybrid user model for news classification. In Kay J.
+(ed.), UM99 User Modeling - Proceedings of the Seventh International Conference,
+pages 99—108. Wien, New York: Springer-Verlag, 1999.
+2.	R. Burke. A case-based reasoning approach to collaborative filtering. In E.
+Blanzieri and L. Portinale (eds.), Advances in Case-Based Reasoning (5th European 
+Workshop, EWCBR 2000), pages 370—379. Springer Verlag, New York, 2000.
+3.	R. Burke. Semantic ratings and heuristic similarity for collaborative filtering.
+In AAAI Workshop on Knowledge-based Electronic Markets 2000 (KBEM’00).
+Austin, TX, 2000.
+4.	R. Burke, K. Hammond, and B. Young. The findme approach to assisted browsing.
+In IEEE Expert, volume 12(4), pages 32—40, 1997.
+5.	J. Carroll and M. B. Rosson. The paradox of the active user. In Interfacing
+Thought: Cognitive Aspects of Human-Computer Interaction, pages 26—28. J. M.
+Carroll (Ed.), Cambridge, MA: MIT Press, 1987.
+6.	P. Cunningham, R. Bergmann, S. Schmitt, R. Traphoner, S. Breen, and B. Smyth.
+Websell: Intelligent sales assistants for the world wide web. In e-Business and
+e-Work 2001 (e-2001), 2001.
+7.	G. Falkman. Similarity measures for structured representations: A definitional
+approach. In Blanzieri, E. and Portinale, L., eds., Advances in Case-Based Reasoning. 
+Proceedings of the 5th European Workshop, EWCBR 2000, Trento, Italy,
+volume 1898, pages 380—392. Springer-Verlag, Berlin, 2000.
+8.	A. G. Francis and A. Ram. The utility problem in case-based reasoning. In
+CaseBased Reasoning: Papers from the 1993 Workshop. AAAI Press (WS-93-01).
+Washington, 1993.
+9.	M. H. Goker and C. A. Thompson. The adaptive place advisor: A conversational
+recommendation system. In Proceedings of the 8th German Workshop on Case
+Based Reasoning, Lammerbuckel, Germany., 2000.
+10.	M. Jaczynski and B. Trousse. Www assisted browsing by reusing past navigations
+of a group of users. In Advanced in Case-based Reaosning, 4th European Workshop
+on Case-Based Reasoning, volume 1488, pages 160-171. Lecture Notes in Artificial
+Intelligence, 1998.
+11.	D. Kibler and D. W. Aha. Case-based classification. In Proceedings of the Case-Based 
+Reasoning Workshop at AAAI’88, pages 62—67, 1988.
+12.	D. B. Leake and D. C. Wilson. Categorizing case-base maintenance: Dimensions
+and directions. In Advances in Case-Based Reasoning: 4th European Workshop,
+EWCBR-98, Dublin (Ireland), 1998.
+13.	D. B. Leake and D. C. Wilson. Guiding case-base maintenance: Competence and
+performance. In Proceedings of the 14th European Conference on Artificial Intelligence 
+Workshop on Flexible Strategies for Maintaining Knowledge Containers,
+2000.
+14.	M. A. Maloof and R. S. Michalski. Selecting examples for partial memory learning.
+In Machine Learning, volume 41, pages 27—52, 2000.
+15.	E. McKenna and B. Smyth. A competence model for case-based reasoning. In 9th
+Irish Conference on Artificial Intelligence and Cognitive Science. Dublin, Ireland,
+1998.
+16.	T. Mitchell, R. Caruana, D. Freitag, J. McDermott, and D. Zabowski. Experience
+with a learning personal assistant. In Communications of the ACM, volume 37:7,
+pages 81—91, 1994.
+17.	M. Montaner. A taxonomy of personalized agents on the internet. In Technical 
+Report, TR-2001-05-1, Departament d’Electrònica, Informàtica i Automàtica.
+Universitat de Girona, 2001.
+18.	S. Ontañon and E. Plaza. Collaboration policies for case-based reasoning agents. In
+Proc. Workshop on Learning Agents Autonomous (Agents ‘2001). Montreal, 2001.
+19.	P. Resnick and H. Varian. Recommender systems. In Communications of the ACM,
+pages 56—58, 1997.
+20.	R. Sanguesa, U. Cortés, and B. Faltings. W9. workshop on recommender systems.
+In Autonomous Agents, 2000. Barcelona, Spain, 2000.
+21.	I. Schwab, A. Kobsa, and I. Koychev. Learning user’s interests through positive
+examples using content analysis and collaborative filtering, 2001. Submitted.
+22.	A. Stefani and C. Strappavara. Personalizing access to web sites: The siteif project.
+In Proc. 2nd Workshop on Adaptive Hypertext and Hypermedia HYPERTEXT’98,
+1998.
+23.	V. Torra. On the integration of numerical information: from the arithmetic mean
+to fuzzy integrals. In Torra V. (Ed). Information fusion in data mining. Physiin-Verlag. (Forthcoming), 2001.
+24.	B. Trousse, M. Jaczynski, and R. Kanawati. Using user behavior similarity for
+recommendation computation: The broadway approach. In Proceedings of the 8th
+international conference on human computer interaction (HCI’99), Munich, 1999.
+25.	R. Vilà and M. Montaner. Implementació d’un sistema multiagent distribuit format
+per agents personals que recomanen restaurants aplicant raonament basat en casos
+i tècniques de trust, May, 2002. Projecte Fi de Carrera en Enginyeria Informàtica,
+Universitat de Girona.
+26.	G. Webb and M. Kuzmycz. Feature based modelling: A methodology for producing
+coherent, consistent, dynamically changing models of agents’ competencies. In User
+Modelling and User-Adapted Interaction, volume 5, pages 117—150, 1996.
+27.	D. R. Wilson and T. R. Martinez. Improved heterogeneous distance functions. In
+Journal of Articial Intelligence Research, volume 6:1, pages 1—34, 1997.
+28.	R. R. Yager. On ordered weighted averaging aggregation operators in multi-criteria
+decision making. In IEEE Transactions on SMC, volume 18, pages 183—190, 1988.

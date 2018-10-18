@@ -1,0 +1,82 @@
+A First Study on Case-Based Planning in
+Organic Synthesis
+
+Amedeo Napoli and Jean Lieber
+
+CRIN CNRS - INRIA Lorraine
+B.P. 239 — 54506 Vandoeuvre-lès-Nancy Cedex — France
+(e-mail: napoli@loria.fr — lieber@loria.fr)
+
+
+Abstract. In this paper, we present an application of case-based reasoning 
+to the design of synthetic plans in organic synthesis. First, we
+briefly introduce the principles of organic synthesis planning, e.g. building 
+a new molecular structure or target molecule. Then, we present the
+knowledge representation and reasoning principles on which relies the
+system for organic synthesis planning that we are developing. Two main
+kinds of reasoning processes are employed in the system. Classification-based 
+reasoning is used at a tactical level for the perception of chemical
+characteristics and the structure modifications of the target molecule.
+Case-based reasoning is used at a strategic level to build a synthetic
+plan, according to the similarity between the target molecule and memorized 
+synthetic plans. The representation and the handling of one-step
+synthetic plans are detailed and end the paper.
+References
+
+1.	H. Bunke and B.T. Messmer. Similarity Measures for Structured Representations.
+In M.M. Richter, S. Wess, K.-D. Althoff, and F. Maurer, editors, Proceedings of the
+First European Workshop on Case-Based Reasoning (E WCBR ‘93), Kaiserslautern,
+pages 26—31, 1993.
+
+2.	J.G. Carbonell. Derivational Analogy: A Theory of Reconstructive Problem Solving 
+and Expertise Acquisition. In R.S. Michalski, J.G. Carbonell, and T.M.
+Mitchell, editors, Machine Learning, an Artificial Intelligence Approach, Volume 
+II, pages 371—392. Morgan Kaufmann Publishers, Inc., Los Altos, California,
+1986.
+3.	E.J. Corey and X.M. Cheng. The Logic of Chemical Synthesis. John Wiley &
+Sons, New York, 1989.
+4.	E.J. Corey, A.K. Long, and S.D. Rubenstein. Computer-Assisted Analysis in Organic 
+Synthesis. Science, 228:408—418, 1985.
+5.	P.T. Devanbu and D.J. Litman. Plan-based Terminological Reasoning. In Proceedings 
+of the Second International Conference on Principles of Knowledge Representation 
+and Reasoning (KR’91), Cambridge, Massachusetts, pages 128—138,
+1991.
+6.	J. Lieber. Etude du raisonnement par cas. Rapport de Recherche 93-R-043, Centre
+de Recherche en Informatique de Nancy, 1993.
+7.	G. Masini, A. Napoli, D. Colnet, D. Léonard, and K. Tombre. Object-Oriented
+Languages. Academic Press, London, 1991.
+8.	J. Mostow. Design by Derivational Analogy: Issues in the Automated Replay of
+Design Plans. Artificial Intelligence, 40:119—184, 1989.
+9.	A. Napoli. Using Frame-Based Representation Languages to Describe Chemical
+Objects. New Journal of Chemistry, 14(12):913—919, 1990.
+10.	A. Napoli. Subsumption and Classification-Based Reasoning in Object-Based Representations. 
+In Proceedings of the 10th European Conference on Artificial Intelligence (ECAI’92), 
+Vienna, Austria, pages 425—429, 1992.
+11.	B. Nebel. Reasoning and Revision in Hybrid Representation Systems. Lecture
+Notes in Computer Science 422. Springer-Verlag, Berlin, 1990.
+12.	T. Okada and T. Kawai. Analogical Reasoning in Chemistry (1. Introduction and
+General Strategy, 2. DNET/MS System). Tetrahedron Computer Methodology,
+2(6):327—347, 1989.
+13.	M.M. Richter. Classification and Learning of Similarity Measures. In Opitz,
+Lausen, and Kiar, editors, Studies in Classification, Data Analysis and Knowledge
+Organization. Springer-Verlag, Berlin, 1992.
+14.	L.G. Shapiro and R.M. Haralick. Structural Descriptions and Inexact Matching.
+IEEE Transactions on Pattern Analysis and Machine Intelligence, 3:504—519, 1981.
+15.	I. Ugi, , M. Wochner, E. Fontain, J. Bauer, B. Gruber, and R. Karl. Chemical
+Similarity, Chemical Distance, and Computer-Assisted Formalized Reasoning by
+Analogy. In M.A. Johnson and G.M. Maggiora, editors, Concepts and Applications
+of Molecular Similarity, pages 239—288. John Wiley & Sons Ltd, Chichester, West
+Sussex, 1990.
+16.	M.M. Veloso and J.G. Carbonell. Derivational Analogy in PRODIGY: Automating 
+Case Acquisition, Storage, and Utilization. Machine Learning, 10(3):249—278,
+1993.
+17.	R. Weida and D. Litman. Terminological Reasoning with Constraint Networks
+and an Application to Plan Recognition. In Proceedings of the Third International
+Conference on Principles of Knowledge Representation and Reasoning (KR ‘92),
+Cambridge, Massachusetts, pages 282—293, 1992.
+18.	P. Willett. Algorithms for the Calculation of Similarity in Chemical Structure
+Databases. In M.A. Johnson and G.M. Maggiora, editors, Concepts and Applications 
+of Molecular Similarity, pages 43—63. John Wiley & Sons Ltd, Chichester,
+West Sussex, 1990.
+19.	M.E. Winston, R. Chaffin, and D. Herrmann. A Taxonomy of Part-Whole Relations. 
+Cognitive Science, 11:417—444, 1987.

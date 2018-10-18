@@ -1,0 +1,76 @@
+A Multi­Layered, XML­Based Approach to the Integration of Linguis­
+tic and Semantic Annotations
+
+Paul Buitelaar*, Thierry Declerck § , Bogdan Sacaleanu*, SŸpela Vintar*,
+Diana Raileanu*, Claudia Crispi §
+*Language Technology Lab
+DFKI GmbH
+{paulb|bogdan|vintar|raileanu}@dfki.de
+§ Department of Computational Linguistics
+University of Saarland
+{declerck|crispi}@dfki.de
+
+Abstract
+In this paper we present a multi­layered
+approach to document annotation that al­lows for 
+the structural integration of lin­guistic 
+and semantic annotations
+produced by various language technology
+tools and using knowledge encoded in
+different domain ontologies as needed for
+semantic web applications.
+
+
+References
+[1] Vintar SŸ., Buitelaar P., Ripplinger B., Sacaleanu
+B., Raileanu D., Prescher D. An Efficient and
+Flexible Format for Linguistic and Semantic Anno­tation In: Proceedings of LREC2002 , Las Palmas,
+Canary Islands ­ Spain, May 29­31, 2002.
+[2] Piskorski J., G. Neumann. An Intelligent Text Ex­traction and Navigation System. Proceedings of the
+6th International Conference on Computer­-Assisted
+Information Retrieval (RIAO). 2000.
+[3] Brants, T. TnT ­ A Statistical Part­ of ­Speech Tag­ger. 
+In: Proceedings of 6th ANLP Conference, Se­
+attle, WA. 2000.
+[4] Petitpierre, D. and Russell, G. MMORPH ­ The
+Multext Morphology Program. Multext deliverable
+report for the task 2.3.1, ISSCO, University of Ge­neva. 1995.
+[5] Skut W. and Brants T. A Maximum Entropy partial
+parser for unrestricted text. In: Proceedings of the
+6th ACL Workshop on Very Large Corpora
+(WVLC), Montreal. 1998.
+[6] Vossen, P. 1997. EuroWordNet: a multilingual
+database for information retrieval. In: Proceedings
+of the DELOS workshop on Cross­language Infor­mation Retrieval, March 5­7, 1997.
+[7] Declerck T., Wittenburg P., Cunningham H. The
+Automatic Generation of Formal Annotations in a
+Multimedia Indexing and Searching Environment.
+Proceedings of the Workshop on Human Language
+Technology and Knowledge Management, ACL­
+2001.
+[8] Declerck T. A set of tools for integrating linguistic
+and non­linguistic information. Proceedings of
+SAAKM 2002, ECAI 2002, Lyon.
+[9] Buitelaar P., Alexandersson J., Jaeger T., Lesch S.,
+Pfleger N., Raileanu D., von den Berg T., Klöckner
+K., Neis H., Schlarb H. An Unsupervised Semantic
+Tagger Applied to German. In: Proceedings of Re­cent 
+Advances in NLP (RANLP) , Tzigov Chark,
+Bulgaria. 2001.
+[10] Buitelaar P., Sacaleanu B. Ranking and Selecting
+Synsets by Domain Relevance. In: Proceedings of
+WordNet and Other Lexical Resources: Applica­
+tions, Extensions and Customizations. NAACL
+2001 Workshop, Carnegie Mellon University,
+Pittsburgh. 2001.
+[11] Saggion H., Kuper J., Declerck T., Reidsma D.,
+Cunningham H. Intelligent Multimedia Indexing
+and Retrieval through Multi­source Information
+Extraction and Merging. Technical Report, Univer­sity 
+of Sheffield.
+[12] Guadeloupe Aguado­de­Cea, Inmaculada Alva­rez­de­Mon, 
+Antonio Pareja­Lora and Rosario
+Plaza­Arteche: RDF(S)/XML Linguistic Annotation
+of Semantic Web Page, In Proceedings of
+NLPXML 2002, COLING, Taipei. 2002.
+

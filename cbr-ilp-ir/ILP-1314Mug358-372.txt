@@ -1,0 +1,75 @@
+Learning from Positive Data
+
+Stephen Muggleton
+
+Oxford University Computing Laboratory,
+Parks Road,
+Oxford, OX1 3QD,
+United Kingdom.
+
+
+Abstract. Gold showed in 1967 that not even regular grammars can be
+exactly identified from positive examples alone. Since it is known that
+children learn natural grammars almost exclusively from positives 
+examples, Gold’s result has been used as a theoretical support for Chomsky’s
+theory of innate human linguistic abilities. In this paper new results are
+presented which show that within a Bayesian framework not only 
+grammars, but also logic programs are learnable with arbitrarily low expected
+error from positive examples only. In addition, we show that the upper
+bound for expected error of a learner which maximises the Bayes’ 
+posterior probability when learning from positive examples is within a small
+additive term of one which does the same from a mixture of positive and
+negative examples. An Inductive Logic Programming implementation is
+described which avoids the pitfalls of greedy search by global 
+optimisation of this function during the local construction of individual clauses
+of the hypothesis. Results of testing this implementation on 
+artificially-generated data-sets are reported. These results are in agreement with
+the theoretical predictions.
+References
+
+1.	D. Angluin. Inference of reversible languages. Journal of the A CM, 29:741—765,
+1982.
+2.	A.W. Biermann and J.A. Feldman. On the synthesis of finite-state machines from
+samples of their behaviour. IEEE Transactions on Computers, C(21):592—597,
+1972.
+3.	W. Buntine. A Theory of Learning Classification Rules. PhD thesis, School of
+Computing Science, University of Technology, Sydney, 1990.
+4.	N. Chomsky. Knowledge of language: its nature, origin and use. Praeger, New
+York, 1986. First published 1965.
+5.	E.M. Gold. Language identification in the limit. Information and Control, 10:447—
+474, 1967.
+6.	D. Haussler, M Kearns, and R. Shapire. Bounds on the sample complexity of
+Bayesian learning using information theory and the VC dimension. In COLT-
+91: Proceedings of the 4th Annual Workshop on Computational Learning Theory,
+pages 61—74, San Mateo, CA, 1991. Morgan Kauffmann.
+7.	D. Haussler, M Kearns, and R. Shapire. Bounds on the sample complexity of
+Bayesian learning using information theory and the VC dimension. Machine 
+Learning Journal, 14(1):83—113, 1994.
+8.	R.J. Mooney and M.E. Califf. Induction of first-order decision lists: Results on
+learning the past tense of english verbs. Journal of Artificial Intelligence Research,
+3:1—24, 1995.
+9.	S. Muggleton. Bayesian inductive logic programming. In M. Warmuth, editor,
+Proceedings of the Seventh Annual ACM Conference on Computational Learning
+Theory, pages 3—11, New York, 1994. ACM Press.
+10.	S. Muggleton. Inverse entailment and Progol. New Generation Computing, 13:245—
+286, 1995.
+11.	S. Muggleton. Stochastic logic programs. In L. De Raedt, editor, Advances in
+Inductive Logic Programming. IOS Press/Ohmsha, 1996.
+12.	S. Muggleton, M.E. Bain, J. Hayes-Michie, and D. Micbie. An experimental 
+comparison of human and machine learning formalisms. In Proceedings of the Sixth
+International Workshop on Machine Learning, Los Altos, CA, 1989. Kaufmann.
+13.	S. Muggleton and C.D. Page. A learnability model for universal representations.
+Technical Report PRG-TR-3-94, Oxford University Computing Laboratory, Oxford, 1994.
+14.	S. Pinker. Language learnability and language development. Harvard University
+Press, Cambridge, Mass., 1984.
+15.	G.D. Plotkin. A note on inductive generalisation. In B. Meltzer and D. Michie,
+editors, Machine Intelligence 5, pages 153—163. Edinburgh University Press, Edinburgh, 1969.
+16.	J.R. Quinlan and R.M. Cameron. Induction of logic programs: FOIL and related
+systems. New Generation Computing, 13:287—312, 1995.
+17.	L. De Raedt and M. Bruynooghe. A theory of clausal discovery. In Proceedings of
+the 13th International Joint Conference on Artificial Intelligence. Morgan Kaufmann, 1993.
+18.	T. Shinohara. Inductive inference of monotonic formal systems from positive data.
+In Proceedings of the first international workshop on algorithmic learning theory,
+Tokyo, 1990. Ohmsha.
+19.	L.G. Valiant. A theory of the learnable. Communications of the ACM, 27:1134—
+1142, 1984.

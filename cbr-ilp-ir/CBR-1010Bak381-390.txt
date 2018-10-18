@@ -1,0 +1,59 @@
+DOM-ArC: An Active Decision Support
+System for Quality Assessment of Cases*
+
+Shirin Bakhtari1 and Wolfgang Oertel2
+
+1 BSR Consulting GmbH, Wirtstrasse 38, D-81539 München, Germany
+2 Technische Universität Dresden, Institut Künstliche Intelligenz,
+D-01062 Dresden, Germany
+
+
+
+Abstract. There is a general acceptance that a case-based assistance
+system that can meet the requirements of real-world complex applications 
+should maintain a core of domain specific knowledge in combination
+with its case store. The presented DOM-ArC incorporates a domain ontology 
+and is situated within a case-based design support system. The
+domain ontology incorporates not only deep domain knowledge, but also
+the decision making knowledge that ensures the quality and reliability of
+the domain cases. The DOM-ArC undertakes the role of an active assistant 
+that supports the case-based reasoner with the following services.
+It reviews and analyses a case and makes suggestions about which case
+to retain, how to overcome deficiencies in a proposed solution, which
+solution to reject, and how to construct a case from scratch.
+References
+
+1.	Alberts, L.K., Dikker, F.: Integrating Standards and Synthesis Knowledge Using
+the YMIR Ontology. In: Gero, J. S., Sudweeks, F. (eds): Artificial Intelligence in
+Design 94. Kiuwer Academic Publishers, Dordrecht (1994) 517—534.
+2.	Aamodt, A., Plaza, E.: Case-Based Reasoning: Foundational Issues, Methodological 
+Variations, and System Approaches. AI Communication, Vol. 7, Nr. 1 (1994)
+39—59.
+3.	Bakhtari, S., Bartsch-Spörl, B.: Bridging the Gap between AI Technology and
+Design Requirements. In: Gero, J. S., Sudweeks, F. (eds): Artificial Intelligence in
+Design 94. Kluwer Academic Publishers, Dordrecht (1994) 753—768.
+4.	Bakhtari, S., Oertel, W.: Quality Assessment of Design Cases within the DOM
+Environment. In: Proceedings of the German Workshop on Case-Based Reasoning.
+LSA-95-02, University of Kaiserslauten, Germany (1995) 106—113.
+5.	Bakhtari, S., Bartsch-Spörl, B., Oertel, W., Eltz, U.: DOM: Domain Ontology
+Modelling for Architectural and Engineering Design. Fabel-Report Nr. 33, GMD,
+Sankt Augustin (1995).
+6.	Beheshti, M.R., Zreik, K. (eds): Advanced Technologies: Architecture, Planning,
+Civil Engineering. Elsevier (1993).
+7.	Fabel-Consortium: A Survey of FABEL. Fabel-Report Nr. 2, Sankt Augustin, GMD
+(1993).
+8.	Haller, F.: ARMILLA - ein Installationsmodell, Institut für Baugestaltung,
+Baukonstruktion und Entwerfen, Universität Karlsruhe (1985).
+9.	Hovestadt, L.: A4 Digital Building: Extensive Computer Support for the Design,
+Construction, and Management of Buildings. In: U. Flemming and S. van Wyk
+(eds): Proceedings of the Fifth International Conference on Computer-Aided Architectural 
+Design Futures. North-Holland, Amsterdam (1993) 405—422.
+10.	Kolodner, J.: Case-Based Reasoning. Morgan Kaufmann (1993).
+11.	Neches, R., Fikes, R., Finin, T., Gruber, T., Patil, R., Senator, T., Swartout, W.:
+Enabling Technology for Knowledge Sharing. AI Magazin (1991).
+12.	Oertel, W.: FAENSY: Fabel Development System. FABEL Report Nr. 27, GMD,
+Sankt Augustin (1994).
+13.	Walther, J., Graether, W., Oertel, W., Schmidt-Belz, B., Voss, A.: An Open Architecture 
+for Multiple Case Retrieval Methods. In: Keane, M., Haton, J.P., Manago,
+M. (eds): Preprints of the Second European Workshop on Case-Based Reasoning.
+AcknoSoft Press, Paris, France (1994) 373—380.

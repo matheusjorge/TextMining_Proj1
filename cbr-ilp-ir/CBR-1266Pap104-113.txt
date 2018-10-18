@@ -1,0 +1,52 @@
+Ocram-CBR:
+A Shell for Case-Based Educational Systems
+
+Marco Papagni, Vincenzo Cirillo, and Alessandro Micarelli
+
+Dipartimento di Informatica e Automazione
+UniversitA di Roma Tre
+Via della Vasca Navale 79, 00146 Roma, Italy
+{papagni, cirillo, micarel}@inf.uniroma3.it
+
+
+
+Abstract. This paper presents a case-based authoring system for training
+and educational applications. The system, called Ocram-CBR and
+developed in JAVATM, can plan lessons for any application domain
+whatsoever. Ocram-CBR contains a User Modeling module, capable of
+building a representation of the user objectives and characteristics, that
+allows personalizing the teaching interaction. A distinguishing feature of
+the User Modeling module is the use of a hybrid approach, in which case-based 
+components and an artificial neural network are integrated into
+one coherent system so that each component performs the tasks for which
+it is best suited. The Training module of Ocram-CBR plans lessons using
+a library of cases indexed and successively retrieved by means of a
+discrimination search and serial search. The system has been adapted for
+a training course in Information Systems” and for a second application
+which will teach learners to write business letters more effectively.
+References
+
+1.	Ambrosini, L., Cirillo, V. and Micarelli, A.: “A hybrid Architecture for
+User-Adapted Information Filtering on the World Wide Web”. In
+Proceedings of the 6th International Conference on User Modeling UM-97,
+Chia Laguna (In press) (1997).
+2.	Chandler, T.N.: “The Science Education Advisor: Applying a User Centered
+Design Approach to the Development of an Interactive Case-Based
+Advising System”. In Journal of Artificial Intelligence in Education, 5(3)
+(1994) 283-318.
+3.	Kolodner, J.L.: “From Case-Based Reasoning to Scaffolded Electronic
+Notebooks: A Journey”. In J. Greer (ed.) Proc. of AI-ED 1995,
+Charlottesville: AACE (1995) 25-35.
+4.	Micarelli, A. and Sciarrone, F.: “A Case-Based Toolbox for Guided
+Hypermedia Navigation”. In Proc. of the Fifth International Conference on
+User Modeling UM-96, Kailua-Kona, Hawaii (1996a) 129-136.
+5.	Micarelli, A. and Sciarrone, F.: “A Case-Based System for Adaptive
+Hypermedia Navigation”. In: I. Smith and B. Faltings (eds.) Advances in
+Case-Based Reasoning. Lecture Notes in Artificial Intelligence, Springer-Verlag, 
+Berlin (1996b) 266-279.
+6.	Rich, E.: “Users are individuals: individualizing user models”.
+International Journal of Man-Machine Studies, 18 (1983) 199-214.
+7.	Rumelhart, D.E. and McClelland, J.L. (eds): Parallel Distributed
+Processing. MIT Press, Cambridge, Massachusetts (1986).
+8.	Schank R. C.: “Case-Based Teaching: Four Experiences in Educational
+Software Design”. In Interactive learning Environments 1 (1990) 231-253.

@@ -1,0 +1,36 @@
+CBR in a Changing Environment
+
+D. Y. Joh
+Handong University
+Pohang, Kyoungbuk 79 1-940, Korea
+dyjoh@han.ac.kr
+
+
+Abstract
+Case-Based Reasoning (CBR) has been proposed for design tasks in which past experience is
+exploited to solve the current problem. Based on a study of experts, it is believed that a case based
+approach would be appropriate as the basis for computer aided decision support system for
+intemetwork design. However, certain characteristics of the intemetwork design domain require
+that the state of the art in CBR be extended before it could be applied to intemetwork design.
+A knowledge revision mechanism is proposed to extend the use of previous cases.
+Knowledge revision updates information about design components and uses that information to
+augment the case base, enabling the retrieval mechanism to select both from actual experiences
+and from experiences which might have occurred had current devices been available at the time.
+A computer program, CIDA, implements key portions of the model.
+An empirical experiment was performed to validate the model. The results, blinded, were
+graded by three evaluators. A statistical analysis of the evaluations indicates that CIDAs
+performance is between that of experts and intermediates, but is significantly better than that of
+human novices. An ablation experiment shows the extended CBR approach has advantages over
+both existing state-of-the-art CBR systems and constraint satisfaction systems.
+References
+
+Cohen, P. and Howe, A. (1988). “How Evaluation Guides Research, “AI Magazine,
+9(4), 35-43.
+Ericsson K. A. and Simon, H. A. (1984). Protocol Analysis: Verbal Reports as Data,
+Cambridge, MA, MIT Press.
+Joh, D. (1996). “Knowledge Revision in Case-Based Reasoning: A Cognitive Model of
+the Telecommunications Internetwork Design Process,” Ph.D. Dissertation, Joseph M.
+Katz Graduate School of Business, University of Pittsburgh.
+Kolodner, J. (1991). “Improving Human Decision Making through Case-Based Decision
+Aiding,” AI Magazine, 12(2), 52-68.
+Schank, R. C. (1982). Dynamic Memory, Cambridge University Press, Cambridge, UK.

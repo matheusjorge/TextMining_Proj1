@@ -1,0 +1,105 @@
+Running head: LEARNING FROM TEXT
+Learning from text:
+Matching readers and texts by Latent Semantic Analysis
+
+Michael B. W. Wolfe, M. E. Schreiner, Bob Rehder, Darrell Laham,
+University of Colorado, Boulder
+Peter W. Foltz
+New Mexico State University
+Walter Kintsch, and Thomas K Landauer
+University of Colorado, Boulder
+Wolfe, M. B., Schreiner, M. E., Rehder, B., Laham, D.,
+Foltz, P. W., Kintsch, W., & Landauer, T. K. (1998).
+Learning from text: Matching readers and text by Latent
+Semantic Analysis. Discourse Processes, 25, 309­336.
+Correspondence to:
+Michael B.W. Wolfe
+Campus Box 345 ­ Cognitive
+University of Colorado
+Boulder, CO 80309
+(303) 492­7299
+Email: wolfem@psych.colorado.edu
+
+Abstract
+This study examines the hypothesis that the ability of a reader to learn
+from text depends on the match between the background knowledge of
+the reader and the difficulty of the text information. Latent Semantic
+Analysis (LSA), a statistical technique that represents the content of a
+document as a vector in high dimensional semantic space based on a
+large text corpus, is used to predict how much readers will learn from
+texts based on the estimated conceptual match between their topic
+knowledge and the text information. Participants completed tests to
+assess their knowledge of the human heart and circulatory system,
+then read one of four texts that ranged in difficulty from elementary to
+medical school level, then completed the tests again. Results show a
+non­monotonic relationship in which learning was greatest for texts
+that were neither too easy nor too difficult. LSA proved as effective at
+predicting learning from these texts as traditional knowledge
+assessment measures. For these texts, optimal assignment of text on the
+basis of either pre­reading measure would have increased the amount
+learned significantly.
+
+
+
+References
+Basmajian, J. V. (1982). Primary Anatomy. Baltimore/London:
+Williams & Wilkins.
+Britton, B. K., & Gulgoz, S. (1991). Using Kintsch's
+computational model to improve instructional text: Effects of inference
+calls on recall and cognitive structures. Journal of Educational
+Psychology, 83, 329­345.
+Davis, G. P., & Park, E. (1981). The Heart: The Living Pump.
+Washington, D. C.: U.S. News Books.
+Deerwester, S., Dumais, S. T., Furnas, G. W., Landauer, T. K., &
+Harshman, R. (1990). Indexing by Latent Semantic Analysis. Journal of
+the American Society for Information Science, 41, 391­407.
+Gould, S. E. (Ed.) (1983). Pathology of the Heart. Springfield, IL:
+Charles C Thomas.
+Kintsch, E., & Kintsch, W. (1995). Strategies to promote active
+learning from text: Individual differences in background and
+knowledge. Swiss Journal of Psychology, 54, 141­151.
+Kintsch, W. (1994). Text comprehension, memory, and learning.
+American Psychologist, 49, 294­303.
+Landauer, T. K., & Dumais, S. T. (1997). A solution to Plato's
+problem: The Latent Semantic Analysis theory of the acquisition,
+induction, and representation of knowledge. Psychological Review,
+104, 211­240.
+Landauer, T. K, Foltz, P. W., & Laham, D. (1998/this issue). An
+introduction to latent semantic analysis. Discourse Processes, 25, 259­
+284.
+Landauer, T. K, Laham, D, & Foltz, P. W., (1998). Computer­based
+grading of the conceptual content of essays. Manuscript in preparation.
+McKeown, M. G., Beck, I. L., Sinatra, G. M., & Loxterman, J. A.
+(1992). The contribution of prior knowledge and coherent text to
+comprehension. Reading Research Quarterly, 27, 79­93.
+McNamara, D. S., Kintsch, E., Songer, N. B., & Kintsch, W.
+(1996). Are good texts always better? Interactions of text coherence,
+background knowledge, and levels of understanding in learning from
+text. Cognition and Instruction, 14, 1­43.
+McNamara, D. S., & Kintsch, W. (1996). Learning from texts:
+Effects of prior knowledge and text coherence. Discourse Processes, 22,
+247­288.
+Means, M., & Voss, J. (1985). Star Wars: A developmental study
+of expert and novice knowledge structures. Memory and Language, 24,
+746­757.
+Moravcsik, J. E., & Kintsch, W. (1993). Writing quality, reading
+skills, and domain knowledge as factors in text comprehension.
+Canadian Journal of Experimental Psychology, 47, 360­374.
+Rehder, B., Schreiner, M. E., Wolfe, M. B. W., Laham, D.
+Landauer, T. K, & Kintsch, W. (this volume). Using Latent Semantic
+Analysis to assess knowledge: Some technical considerations. Discourse
+Processes.
+Schneider, W., K“rkel, J., & Weinert, F. E. (1990). Expert
+knowledge, general abilities, and text processing. In W. Schneider, & F.
+E. Weinert (Ed.), Interactions among aptitudes, strategies, and
+knowledge in cognitive performance (pp. 235­251). New York: Springer
+Verlag.
+Silverstein, A., & Silverstein, V. B. (1983). Heartbeats: Your Body,
+Your Heart. New York: J. B. Lippincott.
+Spilich, G. J., Vesonder, G. T., Chiesi, H. L., & Voss, J. F. (1979).
+Text processing of domain related information for individuals with
+high and low domain knowledge. Journal of Verbal Learning and
+Verbal Behavior, 18, 275­290.
+Voss, J. F., & Silfies, L. N. (1996). Learning from history text: The
+interaction of knowledge and comprehension skill with text structure.
+Cognition and Instruction, 14, 45­68.

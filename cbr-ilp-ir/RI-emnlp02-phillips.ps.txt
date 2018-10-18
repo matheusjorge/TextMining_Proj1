@@ -1,0 +1,96 @@
+Exploiting Strong Syntactic Heuristics and Co­Training to Learn Semantic
+Lexicons
+
+William Phillips and Ellen Riloff
+School of Computing
+University of Utah
+Salt Lake City, UT 84112 USA
+fphillips,riloffg@cs.utah.edu
+
+Abstract
+We present a bootstrapping method that
+uses strong syntactic heuristics to learn
+semantic lexicons. The three sources
+of information are appositives, compound
+nouns, and ISA clauses. We apply heuris­
+tics to these syntactic structures, embed
+them in a bootstrapping architecture, and
+combine them with co­training. Results
+on WSJ articles and a pharmaceutical cor­pus 
+show that this method obtains high
+precision and finds a large number of
+terms.
+
+
+References
+C. Aone and S. W. Bennett. 1996. Applying machine learn­ing 
+to anaphora resolution. In Stefan Wermter, Ellen Riloff,
+and Gabriele Scheler, editors, Connectionist, Statistical, and
+Symbolic Approaches to Learning for Natural Language
+Processing, pages 302--314. Springer­Verlag, Berlin.
+Daniel M. Bikel, Scott Miller, Richard Schwartz, and Ralph
+Weischedel. 1997. Nymble: a high­performance learning
+name­finder. In Proceedings of ANLP­97, pages 194--201.
+A. Blum and T. Mitchell. 1998. Combining Labeled and Unla­beled 
+Data with Co­Training. In Proceedings of the 11th An­
+nual Conference on Computational Learning Theory (COLT­
+98).
+E. Brill and P. Resnik. 1994. A Transformation­based Ap­proach 
+to Prepositional Phrase Attachment Disambiguation.
+In Proceedings of the Fifteenth International Conference on
+Computational Linguistics (COLING­94).
+S. Caraballo. 1999. Automatic Acquisition of a Hypernym­
+Labeled Noun Hierarchy from Text. In Proceedings of the
+37th Annual Meeting of the Association for Computational
+Linguistics, pages 120--126.
+M. Collins and Y. Singer. 1999. Unsupervised Models for
+Named Entity Classification. In Proceedings of the Joint
+SIGDAT Conference on Empirical Methods in Natural Lan­guage 
+Processing and Very Large Corpora (EMNLP/VLC­
+99).
+S. Cucerzan and D. Yarowsky. 1999. Language Independent
+Named Entity Recognition Combining Morphologi cal and
+Contextual Evidence. In Proceedings of the Joint SIGDAT
+Conference on Empirical Methods in Natural Language Pro­cessing 
+and Very Large Corpora (EMNLP/VLC­99).
+S. Harabagiu, D. Moldovan, M. Pasca, R. Mihalcea, Surdeanu
+M., R. Bunescu, R. Girju, V. Rus, and P. Morarescu. 2000.
+FALCON: Boosting Knowledge for Answer Engines. In
+Proceedings of the Ninth Text Retrieval Conference (TREC­
+9).
+M. Hearst. 1992. Automatic Acquisition of Hyponyms
+from Large Text Corpora. In Proceedings of the Four­teenth 
+International Conference on Computational Linguis­tics (COLING­92).
+Lynette Hirschman, Marc Light, Eric Breck, and John D.
+Burger. 1999. Deep Read: A reading comprehension sys­tem. 
+In Proceedings of the 37th Annual Meeting of the As­sociation 
+for Computational Linguistics.
+M. Marcus, B. Santorini, and M. Marcinkiewicz. 1993. Build­
+ing a Large Annotated Corpus of English: The Penn Tree­
+bank. Computational Linguistics, 19(2):313--330.
+Joseph F. McCarthy and Wendy G. Lehnert. 1995. Using De­cision 
+Trees for Coreference Resolution. In Proceedings of
+the Fourteenth International Joint Conference on Artificial
+Intelligence, pages 1050--1055.
+G. Miller. 1990. Wordnet: An On­line Lexical Database. In­
+ternational Journal of Lexicography, 3(4).
+E. Riloff and R. Jones. 1999. Learning Dictionaries for In­formation 
+Extraction by Multi­Level Bootstrapping. In Pro­ceedings 
+of the Sixteenth National Conference on Artificial Intelligence.
+E. Riloff and M. Schmelzenbach. 1998. An Empirical Ap­proach 
+to Conceptual Case Frame Acquisition. In Proceed­ings 
+of the Sixth Workshop on Very Large Corpora, pages
+49--56.
+E. Riloff and J. Shepherd. 1997. A Corpus­Based Approach
+for Building Semantic Lexicons. In Proceedings of the Sec­ond 
+Conference on Empirical Methods in Natural Language
+Processing, pages 117--124.
+B. Roark and E. Charniak. 1998. Noun­phrase Co­occurrence
+Statistics for Semi­automatic Semantic Lexicon Construc­tion. 
+In Proceedings of the 36th Annual Meeting of the As­sociation 
+for Computational Linguistics, pages 1110--1116.
+S. Soderland, D. Fisher, J. Aseltine, and W. Lehnert. 1995.
+CRYSTAL: Inducing a conceptual dictionary. In Proceed­ings 
+of the Fourteenth International Joint Conference on Ar­tificial 
+Intelligence, pages 1314--1319.
+

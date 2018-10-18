@@ -1,0 +1,66 @@
+Which Hypotheses Can Be Found with
+Inverse Entailment?
+
+Akihiro YAMAMOTO*.
+
+Meme Media Laboratory
+Hokkaido University
+Email: yamamoto@meme.hokudai.ac.jp
+
+
+
+Abstract. In this paper we give a completeness theorem of an inductive 
+inference rule inverse entailment proposed by Muggleton. Our main
+result is that a hypothesis clause H can be derived from an example E
+under a background theory B with inverse entailment if H subsumes E
+relative to B in Plotkin’s sense. The theory B can be any clausal theory,
+and the example E can be any clause which is neither a tautology nor
+implied by B. The derived hypothesis H is a clause which is not always
+definite. In order to prove the result we give a declarative semantics for
+arbitrary consistent clausal theories, and show that SB-resolution, which
+was originally introduced by Plotkin, is a complete procedural semantics.
+The completeness is shown as an extension of the completeness theorem
+of SLD-resolution. We also show that every hypothesis H derived with
+saturant generalization, proposed by Rouveirol, must subsume E w.r.t.
+B in Buntine’s sense. Moreover we show that saturant generalization can
+be obtained from inverse entailment by giving some restriction to it.
+References
+
+1.	H. Arimura. Learning Acyclic First-order Horn Sentences From Implication. To
+appear in the Proceedings of the 8th International Workshop on Algorithmic Learning 
+Theory, 1997.
+2.	W. Buntine. Generalized Subsumption and Its Applications to Induction and Redundancy. 
+Artificial Intelligence, 36:149—176, 1988.
+3.	W. W. Cohen. Pac-learning Recursive Logic Programs: Efficient Algorithms. J. of
+Artificial Intelligence Research, 2:501—539, 1995.
+4.	W. W. Cohen. Pac-learning Recursive Logic Programs: Negative Results. J. of
+Artificial Intelligence Research, 2:541—573, 1995.
+5.	K. Furukawa, T. Murakami, K. Ueno, T. Ozaki, and K. Shimazu. On a Sufficient
+Condition for the Exisitence of Most Specific Hypothesis in Progol. SIG-FAI-9603,
+56—61, Resarch Reprot of JSAI, 1997.
+6.	K. Inoue. Linear Resolution for Consequence Finding. Artificial Intelligence,
+56:301—353, 1992.
+7.	R. A. Kowalski. The Case for Using Equality Axioms in Automatic Demonstration.
+In Proceedings of the Symposium on Automatic Demonstaration (Lecture Notes in
+Mathematics 125), pages 112—127. Springer-Verlag, 1970.
+8.	J. W. Lloyd. Foundations of Logic Programming: Second, Extended Edition.
+Springer - Verlag, 1987.
+9.	S. Muggleton. Inverse Entailment and Progol. New Generation Computing,
+13:245—286, 1995.
+10.	S.-H. Nienhuys-Cheng and Ronald de Wolf. The Subsumption Theorem in Inductive 
+Logic Programming: Facts and Fallacies. In L. de Raedt, editor, Proceedings of
+the 5th International Workshop on Inductive Logic Programming, pages 147—160,
+1994.
+11.	G. D. Plotkin. Automatic Methods of Inductive Inference. PhD thesis, Edinburgh
+University, 1971.
+12.	C. Rouveirol. Completeness for Inductive Procedures. In Proceedings of the 8th
+International Workshop on Machine Learning, pages 452—456. Morgan Kaufmann,
+1991.
+13.	C. Rouveirol. Extentions of Inversion of Resolution Applied to Theory Completion.
+In S. Muggleton, editor, Inductive Logic Programming, pages 63—92. Academic
+Press, 1992.
+14.	A. Yamamoto. Improving Theories for Inductive Logic Programming Systems with
+Ground Reduced Programs. Submitted to New Generation Computing, 1996.
+15.	A. Yamamoto. Representing Inductive Inference with SOLD-Resolution. To appear 
+in the Proceedings of the IJCAI’97 Workshop on Abduction and Induction in
+Al, 1997.

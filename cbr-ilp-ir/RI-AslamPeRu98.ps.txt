@@ -1,0 +1,67 @@
+Generating, Visualizing, and Evaluating
+High­Quality Clusters for Information
+Organization
+
+Javed Aslam, Katya Pelekhov, and Daniela Rus
+Department of Computer Science, Dartmouth College, Hanover NH 03755
+{jaa,katya,rus}@cs.dartmouth.edu
+
+Abstract. We present and analyze the star clustering algorithm. We
+discuss an implementation of this algorithm that supports browsing and
+document retrieval through information organization. We define three
+parameters for evaluating a clustering algorithm to measure the topic
+separation and topic aggregation achieved by the algorithm. In the ab­sence 
+of benchmarks, we present a method for randomly generating clus­tering 
+data. Data from our user study shows evidence that the star al­gorithm 
+is effective for organizing information.
+
+References
+[All95] J. Allan. Automatic hypertext construction. PhD thesis. Department of Com­puter 
+Science, Cornell University, January 1995.
+[Cro80] W. B. Croft. A model of cluster searching based on classification. Information
+Systems, 5:189­195, 1980.
+[Cro77] W. B. Croft. Clustering large files of documents using the single­link method.
+Journal of the American Society for Information Science, pp189­195, November
+1977.
+[CKP93] D. Cutting, D. Karger, and J. Pedersen. Constant interaction­time scat­ter/gather 
+browsing of very large document collections. In Proceedings of the
+16 th SIGIR, 1993.
+[HP96] M. Hearst and J. Pedersen. Reexamining the cluster hypothesis: Scat­ter/Gather 
+on Retrieval Results. In Proceedings of the 19 th SIGIR, 1996.
+[JD88] A. Jain and R. Dubes. Algorithms for Clustering Data, Prentice Hall 1988.
+[JR71] N. Jardine and C.J. van Rijsbergen. The use of hierarchical clustering in infor­mation 
+retrieval, 7:217­240, 1971.
+[KP93] G. Kortsarz and D. Peleg. On choosing a dense subgraph. In Proceedings of the
+34th Annual Symposium on Foundations of Computer Science (FOCS), 1993.
+[LC96] A. Leouski and B. Croft. An evaluation of techniques for clustering search
+results. Technical report, Department of Computer Science, the University of
+Massachusetts at Amherst, 1996.
+[LLR95] N. Linial, E. London, and Y. Rabinovich. The geometry of graphs and some
+of its algorithmic applications. Combinatorica 15(2):215­245, 1995.
+[LY94] C. Lund and M. Yannakakis. On the hardness of approximating minimization
+problems. Journal of the ACM 41, 960--981, 1994.
+[Rij79] C.J. van Rijsbergen. Information Retrieval. Butterworths, London, 1979.
+[RA95] D. Rus and J. Allan. Structural queries in electronic corpora. In Proceedings of
+DAGS95: Electronic Publishing and the Information Superhighway, May 1995.
+[Sal89] G. Salton. Automatic Text Processing: the transformation, analysis, and re­trieval 
+of information by computer, Addison­Wesley, 1989.
+[Sal91] G. Salton. The Smart document retrieval project. In Proceedings of the Four­teenth 
+Annual International ACM/SIGIR Conference on Research and Develop­ment in Information Retrieval, pages 356­358.
+[SM83] G. Salton and M. McGill. Introduction to Modern Information Retrieval.
+McGraw­Hill, New York, 1983.
+[SA93] G. Salton and J. Allan. Selective text utilization and text traversal. In Hypertext
+'93 Proceedings, pages 131­144, Seattle, Washington, 1993.
+[SJJ70] K. Spark Jones and D. Jackson. The use of automatically­obtained keyword
+classifications for information retrieval. Inform. Stor. Retr. 5:174­201, 1970.
+[Tur90] H. Turtle. Inference networks for document retrieval. PhD thesis. University
+of Massachusetts, Amherst, 1990.
+[VGJ95] E. Voorhees, N. Gupta, and B. Johnson­Laird. Learning collection fusion
+strategies. In Proceedings of the 18 th SIGIR, Seattle, WA, 1995.
+[Voo85] E. Voorhees. The cluster hypothesis revisited. In Proceedings of the 8 th SIGIR,
+pp 95­104, 1985.
+[Wil88] P. Willett. Recent trends in hierarchical document clustering: A critical review.
+Information Processing and Management, 24:(5):577­597, 1988.
+[Wor71] S. Worona. Query clustering in a large document space. In Ed. G. Salton, The
+SMART Retrieval System, pp 298­310. Prentice­Hall, 1971.
+[Zuc93] D. Zuckerman. NP­complete problems have a version that's hard to approxi­mate. 
+In Proceedings of the Eight Annual Structure in Complexity Theory Con­ference, IEEE Computer Society, 305--312, 1993.

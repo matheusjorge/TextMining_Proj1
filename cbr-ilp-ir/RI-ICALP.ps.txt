@@ -1,0 +1,74 @@
+Information­Theoretic Private Information Retrieval:
+A Unified Construction
+
+Amos Beimel 1 and Yuval Ishai 2
+1 Ben­Gurion University, Israel. beimel@cs.bgu.ac.il.
+2 DIMACS and AT&T Labs -- Research, USA. yuval@dimacs.rutgers.edu.
+
+Abstract. A Private Information Retrieval (PIR) protocol enables a user to re­trieve 
+a data item from a database while hiding the identity of the item being
+retrieved. In a t­private, k­server PIR protocol the database is replicated among
+k servers, and the user's privacy is protected from any collusion of up to t servers.
+The main cost­measure of such protocols is the communication complexity of re­trieving 
+a single bit of data.
+This work addresses the information­theoretic setting for PIR, in which the user's
+privacy should be unconditionally protected from collusions of servers. We pre­sent 
+a unified general construction, whose abstract components can be instanti­ated 
+to yield both old and new families of PIR protocols. A main ingredient in
+the new protocols is a generalization of a solution by Babai, Kimmel, and Lokam
+to a communication complexity problem in the so­called simultaneous messages
+model.
+Our construction strictly improves upon previous constructions and resolves some
+previous anomalies. In particular, we obtain: (1) t­private k­server PIR protocols
+with O(n 1=b(2k 1)=tc
+) communication bits, where n is the database size. For
+t > 1, this is a substantial asymptotic improvement over the previous state of
+the art; (2) a constant­factor improvement in the communication complexity of
+1­private PIR, providing the first improvement to the 2­server case since PIR pro­tocols 
+were introduced; (3) efficient PIR protocols with logarithmic query length.
+The latter protocols have applications to the construction of efficient families of
+locally decodable codes over large alphabets and to PIR protocols with reduced
+work by the servers.
+
+References
+1. A. Ambainis. Upper bound on the communication complexity of private information re­trieval. 
+In Proc. of the 24th ICALP, vol. 1256 of LNCS, pp. 401--407. 1997.
+2. A. Ambainis and S. Lokam. Improved upper bounds on the simultaneous messages com­plexity 
+of the generalized addressing function. In LATIN 2000, vol. 1776 of LNCS, pp. 207
+-- 216. 2000.
+3. L. Babai, P. G. Kimmel, and S. V. Lokam. Simultaneous messages vs. communication. In
+12th STOC, vol. 900 of LNCS, pp. 361--372. 1995.
+4. D. Beaver and J. Feigenbaum. Hiding instances in multioracle queries. In STACS '90, vol.
+415 of LNCS, pp. 37--48. 1990.
+5. D. Beaver, J. Feigenbaum, J. Kilian, and P. Rogaway. Locally random reductions: Improve­ments 
+and applications. J. of Cryptology, 10(1):17--36. 1997.
+6. A. Beimel and Y. Ishai. Information­Theoretic Private Information Retrieval: A Unified Con­struction.
+ TR01­15, Electronic Colloquium on Computational Complexity. 2001.
+7. A. Beimel, Y. Ishai, and T. Malkin. Reducing the servers' computation in private information
+retrieval: PIR with preprocessing. In CRYPTO 2000, vol. 1880 of LNCS, pp. 56--74. 2000.
+8. J. Benaloh and J. Leichter. Generalized secret sharing and monotone functions. In CRYPTO
+'88, vol. 403 of LNCS, pp. 27--35. 1990.
+9. C. Cachin, S. Micali, and M. Stadler. Computationally private information retrieval with
+polylogarithmic communication. In EUROCRYPT '99, vol. 1592 of LNCS, 402--414. 1999.
+10. B. Chor and N. Gilboa. Computationally private information retrieval. In Proc. of the 29th
+STOC, pp. 304--313. 1997.
+11. B. Chor, O. Goldreich, E. Kushilevitz, and M. Sudan. Private information retrieval. J. of the
+ACM, 45:965--981. 1998.
+12. G. Di­Crescenzo, Y. Ishai, and R. Ostrovsky. Universal service­providers for private infor­mation 
+retrieval. J. of Cryptology, 14(1):37--74. 2001.
+13. Y. Gertner, Y. Ishai, E. Kushilevitz, and T. Malkin. Protecting data privacy in private infor­mation 
+retrieval schemes. JCSS, 60(3):592--629. 2000.
+14. O. Goldreich and L. Trevisan. On the length of linear error­correcting codes having a 2­query
+local decoding procedure. Manuscript, 2000.
+15. Y. Ishai and E. Kushilevitz. Improved upper bounds on information theoretic private infor­mation 
+retrieval. In Proc. of the 31th STOC, pp. 79 -- 88. 1999.
+16. M. Ito, A. Saito, and T. Nishizeki. Secret sharing schemes realizing general access structure.
+In Proc. of Globecom 87, pp. 99--102. 1987.
+17. H. Karloff and L. Schulman. Manuscript, 2000.
+18. J. Katz and L. Trevisan. On the efficiency of local decoding procedures for error­correcting
+codes. In Proc. of the 32th STOC, pp. 80--86. 2000.
+19. E. Kushilevitz and R. Ostrovsky. Replication is not needed: Single database,
+computationally­private information retrieval. In Proc. of the 38th FOCS, pp. 364--373. 1997.
+20. E. Mann. Private access to distributed information. Master's thesis, Technion -- Israel Insti­tute 
+of Technology, Haifa, 1998.
+21. A. Shamir. How to share a secret. CACM, 22:612--613. 1979.

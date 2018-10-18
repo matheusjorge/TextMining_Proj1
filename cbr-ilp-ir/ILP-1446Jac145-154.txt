@@ -1,0 +1,57 @@
+Using ILP-Systems for Verification
+and Validation of Multi-agent Systems
+
+Nico Jacobs, Kurt Driessens, Luc De Raedt
+
+K.U. Leuven, Dept. of Computer Science,
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+{nico, kurtd, lucdr}@cs.kuleuven.ac.be
+
+
+Abstract. Most applications of inductive logic programming focus on
+prediction or the discovery of new knowledge. We describe a less common
+application of ILP namely verification and validation of knowledge based
+systems and multi-agent systems. Using inductive logic programming,
+partial declarative specifications of the software can be induced from the
+behaviour of the software. These rules can be readily interpreted by the
+designers or users of the software, and can in turn result in changes to the
+software. The approach outlined was tested in the domain of multi-agent
+systems, more in particular the RoboCup domain.
+References
+
+1.	F. Bergadano and D. Gunetti. Testing by means of inductive program learning.
+ACM Transactions on Software Engineering and Methodology, 5(2):119—145, 1996.
+2.	H. Blockeel and L. De Raedt. Lookahead and discretization in ILP. In Proceedings
+of the 7th International Workshop on Inductive Logic Programming, volume 1297
+of Lecture Notes in Artificial Intelligence, pages 77—85. Springer-Verlag, 1997.
+3.	P. Clark and T. Niblett. The CN2 algorithm. Machine Learning, 3(4):261—284,
+1989.
+4.	W. Cohen. Recovering Software Specifications with ILP. In Proceedings of the 12th
+National Conference on Artificial Intelligence (AAAI-94), pages 142—148, 1994.
+5.	S. Craw and D. Sleeman. Knowledge-based refinement of knowledge based systems. 
+Technical Report 95/2, The Robert Gordon University, Aberdeen, UK, 1995.
+6.	L. De Raedt. Interactive Theory Revision: an Inductive Logic Programming Approach. 
+Academic Press, 1992.
+7.	L. De Raedt. Logical settings for concept learning. Artificial Intelligence, 95:187—
+201, 1997.
+8.	L. De Raedt. Using ILP for verification, validation and testing of knowledge based
+systems, 1997. invited talk at EUROVAV 1997.
+9.	L. De Raedt and L. Dehaspe. Clausal discovery. Machine Learning, 26:99—146,
+1997.
+10.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70:375—392, 1994.
+11.	L. De Raedt, G. Sablon, and M. Bruynooghe. Using interactive concept learning
+for knowledge-base validation and verification. In Validation, Verification and Test
+of Knowledge-based Systems, pages 177—190, 1991.
+12.	B. Dunin-Keplicz and J. Treur. Compositional formal specification of multi-agent
+systems. In Proceedings of the ECAI’94 Workshop on Agent Theories, Architec-
+tures and Languages, pages 102—117, 1995.
+13.	H. Kitano, M. Veloso, H. Matsubara, M. Tambe, S. Coradescbi, I. Noda, P. Stone,
+E. Osawa, and M. Asada. The robocup synthetic agent challenge 97. In Proceedings 
+of the 15th International Joint Conference on Artificial Intelligence, pages
+24—29. Morgan Kaufmann, 1997.
+14.	J. Ross Quinlan. C4.5: Programs for Machine Learning. Morgan Kaufmann series
+in machine learning. Morgan Kaufmann, 1993.
+15.	J. Vanthienen, C. Mues, and C. Wets. Inter-tabular verification in an interactive
+environment. In Proceedings of the ‘97 European Symposium on the Validation and
+Verification of Knowledge Based Systems (EUROVAV-97), pages 155—165, 1997.

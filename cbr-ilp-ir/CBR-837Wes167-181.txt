@@ -1,0 +1,118 @@
+Using k-d Trees to Improve the Retrieval Step
+in Case-Based Reasoning*
+
+Stefan Wess, Klaus-Dieter Althoff and Guido Derwand
+
+University of Kaiserslautern
+D-67653 Kaiserslautern, Germany
+wess@informatik.uni-kl.de
+
+
+
+
+Abstract. Retrieval of cases is one important step within the case-based
+reasoning paradigm. We propose an improvement of this stage in the
+process model for finding most similar cases with an average effort of
+O[log2n], n number of cases. The basic idea of the algorithm is to use the
+heterogeneity of the search space for a density-based structuring and to
+employ this precomputed structure, a k-d tree, for efficient case retrieval
+according to a given similarity measure. Besides illustrating the basic
+idea, we present empirical results of a comparison of four different k-d
+tree generating strategies and introduce the notion of dynamic bounds
+which significantly reduce the retrieval effort. The presented approach is
+fully implemented and used within two case-based reasoning systems for
+classification and diagnostic tasks, PATDEX and INRECA.
+References
+
+1.	David W. Aha. Case-Based Learning Algorithms. In Ray Bareiss, editor, Proceedings 
+CBR Workshop 1991, pages 147-158. Morgan Kaufmann Publishers, 1991.
+2.	Klaus-Dieter Althoff and Stefan Wess. Case-Based Knowledge Acquisition, Learning 
+and Problem Solving for Diagnostic Real World Tasks. In Proceedings of the
+5th European Knowledge Acquisition Workshop EKAW’91, 1991.
+3.	Klaus-Dieter Althoff and Stefan Wess. Case-Based Reasoning and Expert System
+Development. In Franz Schmalhofer, Gerhard Strube, and Thomas Wetter, editors, 
+Contemporary Knowledge Engineering and Cognition. Springer-Verlag, Berlin,
+1992. In preparation.
+4.	Peter Anick, Evangelos Simoudis, Bruce Croft, William Mark, and Chris Riesbeck, 
+editors. Case-Based Reasoning and Information Retrieval, Stanford University, 
+March 1993. American Association for Artificial Intelligence, AAAI - Spring
+Symposium Series.
+5.	R. Barletta and W. Mark. Explanation-Based Indexing of Cases. In Kolodner
+[20], pages 50—61.
+6.	J.L. Bentley. Multidimensional binary search trees used for associative searching.
+Coin. of the ACM, 18:509—517, 1975.
+7.	A.J. Broder. Strategies for efficient incremental nearest neighbor search. Pattern
+Recognition, 23:171—178, 1990.
+8.	F. Charniak, and D. McDermott. Introduction to AL Addison-Wesley, 1985.
+9.	Belur Dasarathy. Nearest Neighbor Norms: NN Pattern Classification Techniques.
+IEEE Computer Society Press, 1990.
+10.	B. A. Feigenbaum. The simulation of verbal learning behavior. In E. A. Feigenbaum 
+and J. Feldman, editors, Computers and Thought. McGraw-Hill, 1963.
+11.	D. Fisher. Cobweb: Knowledge acquisition via conceptual clustering. Machine
+Learning, 2:139—172, 1987.
+12.	J.H. Friedman, J.L. Bentley, and RA. Finkel. An algorithm for finding best
+matches in logarithmic expected time. ACM Trans. math. Software, 3:209—226,
+1977.
+13.	J. H. Gennari, P. Langley, and D. Fisher. Models of incremental concept formation. 
+Artificial Intelligence, 40:11—61, 1989.
+14.	Dedre Gentner and Kenneth D. Forbus. MAC/FAG: A model of similarity-based
+retrieval. In Proceedings of the 13th Annual Conference of the Cognitive Science
+Society, pages 504—509, 1991.
+15.	Kristian J. Hammond, editor. Proceedings: Case-Based Reasoning Workshop. Morgan 
+Kaufmann Publishers, 1989.
+16.	K. J. Holyoak and K. Koh. Analogical Problem Solving: Effects of Surface and
+Structural Similarity in Analogical Transfer. In Midwestern Psychological Association, 
+editor, Proceedings of the Conference of the Midwestern Psychological
+Association, 1986. May 1986.
+17.	Dietmar Janetzko, Stefan Wess, and Erica Melis. Goal-Driven Similarity Assessment. 
+In Hans-Jürgen Ohlbach, editor, Proc. German Workshop on AI
+(GWAI’92). Springer Verlag, 1993.
+18.	Dennis Kibler, David Aba, and Marc Albert. Comparing instance-averaging with
+instance filtering learning algorithms. In Proceedings of the third European Working 
+Session on Learning, pages 63—80, 1988.
+19.	Janet L. Kolodner. Retrieval and Organizational Strategies in Conceptual Memory.
+PhD thesis, Yale University, 1980.
+20.	Janet L. Kolodner, editor. Proceedings Case-Based Reasoning Workshop. Morgan
+Kaufmann Publishers, 1988.
+21.	Janet L. Kolodner. Retrieving Events from a Case Memory: A Parallel Implementation. 
+In Proc. Case-Based Reasoning Workshop [20], pages 233—249.
+22.	J.L. Kolodner, R.L. Simpson, and K. Sycara. A Process Model of Case-Based
+Reasoning in Problem Solving. In IJCAI, editor, Proc. IJCAI 1985, pages 284—
+290. Morgan Kaufmann Publishers, 1985. Los Angeles, California, USA.
+23.	M. Manago, K.D. Althoff, E. Auriol, R. Traphöner, S. Wess, N. Conruyt, and
+F. Manrer. Induction and reasoning from cases. In M.M. Richter, S. Wess, K.D.
+Althoff, and F. Maurer, editors, First European Workshop on Case-Based Reasoning 
+(EWCBR-93), pages 3313-318, 1993.
+24.	Kurt Mehlhorn. Data Structures and Algorithms 3: Multi-dimensional Searching
+and Computational Geometry. Springer, 1984.
+25.	Hannes Ochsner and Stefan Wess. Ähnlichkeitsbasiertes Retrieval von Fallbeispielen 
+durch Assoziative Suche in einem mehrdimensionalen Datenraum. In K-D. Althoff, 
+S. Wess, B. Bartsch-Spörl, and D. Janetzko, editors, Ähnlichkeit von Fallen
+in Systemen des fallbasierten Schließens, SEKI- Report, Universität Kaiserslautern,
+SFB 314, 25.-26. Juni, June 1992.
+26.	Stephen M. Omohundro. Five balltree construction algorithms. Technical report,
+International Computer Science Institue, 1989.
+27.	B. W. Porter. Similarity Assessment: Computation vs. Representation. In Hammond 
+[15], pages 82—84.
+28.	JR. Quinlan. Learning efficient classification procedures and their application to
+chess endgames. In R. Michalski, J. Carbonell, and T. Mitchell, editors, Maschine
+Learning. Tioga Press, 1983.
+29.	Michael M. Richter and Stefan Wess. Similarity, Uncertainty and Case-Based Reasoning 
+in PATDEX. In Robert S. Boyer, editor, Automated Reasoning, Essays in
+Honor of Woody Bledsoe, pages 249—265. Kluwer Academic Publishing, 1991.
+30.	Craig Stanfill and David Waltz. Toward Memory-Based Reasoning. Coin. of the
+ACM, 29(12):1213—1229, 1986.
+31.	R. H. Stottler, A. L. Henke, and J. A. King. Rapid Retrieval Algorithms for Case-Based 
+Reasoning. In Proceedings of the 11th International Conference on Artificial
+Intelligence IJ CA I-89, pages 233—237, 1989. Detroit, Michigan, USA.
+32.	Toshikazu Tanaka and Naomichi Sueda. Combining strict matching and similarity
+assessment for retrieving appropriate cases efficiently. In Änick et al. [4].
+33.	P. Thagard and K. I. Holyoak. Why Indexing is the Wrong Way to Think About
+Analog Retrieval. In Hammond [15], pages 36—40.
+34.	Amos Tversky. Features of Similarity. Psychological Review, 84:327—352, 1977.
+35.	Stefan Wess. PATDEX - Inkrementelle und wissensbasierte Verbesserung von
+Ahnlichkeitsurteilen in der fallbasierten Diagnostik. In Tagungsband 2. deutsche
+Expertensystemtagung XPS- 93, Hamburg, 1993. Springer Verlag.
+36.	Stefan Wess. Fallbasiertes Problemlosen in wissensbasierten Systemen zur
+Entscheidungsunterstützung und Diagnostik.Xd PhD thesis, Fachbereich Informatik, 
+Universität Kaiserslautern, 1994. (in preparation).

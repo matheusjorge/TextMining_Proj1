@@ -1,0 +1,89 @@
+Active Delivery for Lessons Learned Systems
+
+Rosina Weber1,2, David W. Aha2, Hector Muñoz-Ávila2,3, and Leonard A. Breslow2
+
+1Department of Computer Science, University of Wyoming
+Laramie, WY 82071-3682
+2Navy Center for Applied Research in Artificial Intelligence
+Naval Research Laboratory, Washington, DC 20375
+3Department of Computer Science, University of Maryland
+College Park, MD 20742-3255
+lastname@aic.nrl.navy.mil
+
+
+
+Abstract. Lessons learned processes, and software systems that support
+them, have been developed by many organizations (e.g., all USA
+military branches, NASA, several Department of Energy organizations,
+the Construction Industry Institute). Their purpose is to promote the
+dissemination of knowledge gained from the experiences of an
+organization’s employees. Unfortunately, lessons learned systems are
+usually ineffective because they invariably introduce new processes
+when, instead, they should be embedded into the processes that they are
+meant to improve. We developed an embedded case-based approach for
+lesson dissemination and reuse that brings lessons to the attention of
+users rather than requiring them to fetch lessons from a standalone
+software tool. We demonstrate this active lessons delivery architecture
+in the context of HICAP, a decision support tool for plan authoring. We
+also show the potential of active lessons delivery to increase plan
+quality for a new travel domain.
+References
+
+1.	Aha, D.W., Becerra-Fernandez, I., Maurer, F., and Muñoz-Avila, H. (Eds.). 1999.
+Exploring Synergies of Knowledge Management and Case-Based Reasoning:
+Papers from the AAAJ 1999 Workshop (Technical Report WS-99-10). Menlo
+Park, CA: AAAI Press.
+2.	Aha, D.W., & Weber, R. (2000). Intelligent Lessons Learned Systems: Papers
+from the AAAI Workshop (Technical Report WS-00-08). Menlo Park, CA: AAAI
+Press.
+3.	Davenport, T. H., & Prusak, L. (1998). Working knowledge: How organizations
+manage what they know. Boston, MA: Harvard Business School Press.
+4.	Fisher, D., Deshpande, S., & Livingston, J. (1998). Modeling the lessons learned
+process (Research Report 123-1 1). Albequerque, NM: The University of New
+Mexico, Department of Civil Engineering.
+5.	Johnson, C., Birnbaum, L., Bareiss, R., & Hinrichs, T. (2000). War Stories:
+Harnessing Organizational Memories to Support Task Performance. Intelligence,
+11(1), 17—31.
+6.	Leake, D. B., Bauer, T., Maguitman, A., & Wilson, D. C. (2000). Capture,
+storage, and reuse of lessons about information resources: Supporting task-based
+information search. To appear in (Aha & Weber, 2000).
+7.	Leake, D. B. Kinley, A. (1998). Integrating CBR components within a Case-
+Based Planner. Papers from the 1998 Workshop on Case-Based Reasoning
+Integrations (80-84). Technical Report WS-98-15.
+8.	Muñoz-Avila, H., Aha, D. W., Breslow, L. A., Nau, D., & Weber, R. (2000).
+Integrating conversational case retrieval with generative planning. To appear in
+Proceedings of the Fifth European Workshop on Case-Based Reasoning. Trento,
+Italy: Springer.
+9.	Muñoz-Avila, H., McFarlane, D., Aha, D.W., Ballas, J., Breslow, L.A., & Nau,
+D.	(1999). Using guidelines to constrain interactive case-based HTN planning.
+Proceedings of the Third International Conference on Case-Based Reasoning
+(pp. 288-302). Munich: Springer.
+10.	Reimer, U. (1998). Knowledge Integration for Building Organisational
+Memories. In: Proceedings of the Eleventh Banif Knowledge Acquisition for
+Knowledge-Based Systems Workshop. Banif, Canada.
+11.	Sary, C., & Mackey, W. (1995). A case-based reasoning approach for the access
+and reuse of lessons learned. Proceedings of the Fifth Annual International
+Symposium of the National Council on Systems Engineering (pp. 249-2 56). St.
+Louis, Missouri: NCOSE.
+12.	Secchi, P. (Ed.) (1999). Proceedings ofAlerts and Lessons Learned: An Effective
+way to prevent failures and problems (Technical Report WPP-167). Noordwijk,
+The Netherlands: ESTEC. [www.estec.esa.nl/CONFANNOUN/99c06]
+13.	Secchi, P., Ciaschi, R., & Spence, D. (1999a). The ESA alert system. In (Secchi,
+1999).
+14.	SELLS (1999). Proceedings of the Society for Effective Lessons Learned
+Sharing’s Spring Meeting. Las Vegas, NV: Unpublished.
+[www.tis.eh.doe.gov/ll/sells/proceedings399.htm]
+15.	Vandeville, J. V. & Shaikh, M. A. (1999). A structured approximate reasoning-
+based approach for gathering “lessons learned” information from system
+development projects. Systems Engineering, 2(4), 242-247.
+16.	Weber, R., Aha, D. W., & Becerra-Fernandez, I. (2000a). To appear in the
+International Journal of Expert Systems Research & Applications Special issue
+on Artificial Intelligence and Knowledge Management.
+17.	Weber, R., Aha, D. W., Branting, L. K., Lucas, J. R., & Becerra-Fernandez, I.
+(2000b). Active case-based reasoning for lessons delivery systems. Proceedings
+of the Thirteenth Annual Conference of the International Florida Artificial
+Intelligence Research Society (pp. 170-174). Orlando, FL: AAAI Press.
+18.	Weber, R., Aha, D. W., Munoz, H., & Breslow, L. A. (2000c). An intelligent
+lessons learned process. To appear in Proceedings of the Twelfth International
+Symposium on Methodologies for Intelligent Systems. Charlotte, NC: Springer-
+Verlag.

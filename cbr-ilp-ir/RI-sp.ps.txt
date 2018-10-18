@@ -1,0 +1,122 @@
+LOWER BOUNDS FOR MONOTONE SPAN
+PROGRAMS
+
+Amos Beimel
+Department of Computer Science
+Technion
+Haifa, 32000 Israel
+beimel@cs.technion.ac.il
+Anna G' al
+School of Mathematics
+Institute for Advanced Study
+Princeton, NJ 08540, USA
+panni@math.ias.edu
+Mike Paterson
+Department of Computer Science
+University of Warwick
+Coventry CV4 7AL, UK
+msp@dcs.warwick.ac.uk
+
+
+Abstract. Span programs provide a linear algebraic model of computa≠tion. 
+Lower bounds for span programs imply lower bounds for formula 
+size, symmetric branching programs and for contact schemes. Monotone
+span programs correspond also to linear secret≠sharing schemes. We
+present a new technique for proving lower bounds for monotone span
+programs. We prove a lower bound of \Omega\Gamma m 2:5 ) for the 6≠clique func≠tion. 
+Our results improve on the previously known bounds for explicit
+functions.
+
+
+References
+N. Alon and R. B. Boppana, The monotone circuit complexity of Boolean func≠tions. 
+Combinatorica 7(1) (1987), 1--22.
+L. Babai, A. G' al, J. Koll' ar, L. R' onyai, T. Szab' o, and A. Wigderson,
+Extremal bipartite graphs and superpolynomial lower bounds for monotone span
+programs. In Proc. Twenty≠eighth Ann. ACM Symp. Theor. Comput., 1996. To
+appear.
+A. Beimel, Ideal secret sharing schemes. Master's thesis, Technion ≠ Israel Institute
+of Technology, Haifa, 1992. (In Hebrew, Abstract in English).
+A. Beimel and B. Chor, Universally ideal secret sharing schemes. IEEE Trans.
+Inform. Theory 40(3) (1994), 786--794.
+A. Beimel, A. G' al, and M. Paterson, Lower bounds for monotone span pro≠grams. 
+Research Series BRICS≠RS≠94≠46, BRICS, Department of Computer Science,
+University of Aarhus, 1994.
+A. Beimel, A. G' al, and M. Paterson, Lower bounds for monotone span pro≠grams. 
+In Proc. 36th Ann. IEEE Symp. Found. Comput. Sci., 1995, 674--681.
+J. Benaloh and J. Leichter, Generalized secret sharing and monotone functions.
+In Advances in Cryptology ≠ CRYPTO '88, ed. S. Goldwasser, vol. 403 of Lecture
+Notes in Computer Science. Springer≠Verlag, 1990, 27--35.
+S. J. Berkowitz, On computing the determinant in small parallel time using a
+small number of processors. Inform. Process. Lett. 18 (1984), 147--150.
+M. Bertilsson and I. Ingemarsson, A construction of practical secret sharing
+schemes using linear block codes. In Advances in Cryptology ≠ AUSCRYPT '92,
+ed. J. Seberry and Y. Zheng, vol. 718 of Lecture Notes in Computer Science.
+Springer≠Verlag, 1993, 67--79.
+G. R. Blakley, Safeguarding cryptographic keys. In Proc. AFIPS 1979 NCC, vol.
+48, 1979, 313--317.
+C. Blundo, A. De Santis, L. Gargano, and U. Vaccaro, On the information
+rate of secret sharing schemes. Theoret. Comput. Sci. 154(2) (1996), 283--306.
+E. F. Brickell and D. M. Davenport, On the classification of ideal secret sharing
+schemes. J. Cryptology 4(73) (1991), 123--134.
+G. Buntrock, C. Damm, H. Hertrampf, and C. Meinel, Structure and im≠portance 
+of the logspace≠mod class. Math. Systems Theory 25 (1992), 223--237.
+R. M. Capocelli, A. De Santis, L. Gargano, and U. Vaccaro, On the size
+of shares for secret sharing schemes. Journal of Cryptology 6(3) (1993), 157--168.
+L. Csirmaz, The dealer's random bits in perfect secret sharing schemes, 1994.
+Preprint.
+L. Csirmaz, The size of a share must be large. In Advances in Cryptology -- 
+Eu≠rocrypt `94, ed. A. De Santis, vol. 950 of Lecture Notes in Computer Science.
+Springer≠Verlag, 1995, 13--22.
+M. van Dijk, On the information rate of perfect secret sharing schemes. Designs,
+Codes and Cryptography 6 (1995a), 143--169.
+M. van Dijk, A linear construction of perfect secret sharing schemes. In Advances
+in Cryptology -- Eurocrypt '94, ed. A. De Santis, vol. 950 of Lecture Notes in
+Computer Science. Springer≠Verlag, 1995b, 23--34.
+M. Ito, A. Saito, and T. Nishizeki, Secret sharing schemes realizing general
+access structure. In Proc. IEEE Global Telecommunication Conf., Globecom 87,
+1987, 99--102.
+W. Jackson and K. M. Martin, Geometric secret sharing schemes and their
+duals. In Designs, Codes and Cryptography, vol. 4, 1994, 83--95.
+M. Karchmer, On proving lower bounds for circuit size. In Proceeding 8th Ann.
+IEEE Structure in Complexity Theory, 1993, 112--118.
+M. Karchmer and A. Wigderson, On span programs. In Proceeding 8th Ann.
+IEEE Structure in Complexity Theory, 1993, 102--111.
+E. D. Karnin, J. W. Greene, and M. E. Hellman, On secret sharing systems.
+IEEE Trans. Inform. Theory 29(1) (1983), 35--41.
+J. Kilian and N. Nisan, Private communication, 1990.
+S. C. Kothari, Generalized linear threshold scheme. In Advances in Cryptology ≠
+CRYPTO '84, ed. G. R. Blakley and D. Chaum, vol. 196 of Lecture Notes in
+Computer Science. Springer≠Verlag, 1985, 231--241.
+T. Kù ov' ari, V. T. S' os, and P. Tur' an, On a problem of K. Zarankiewicz. Colloq.
+Math. 3 (1954), 50--57.
+K. Mulmuley, A fast parallel algorithm to compute the rank of a matrix over an
+arbitrary field. Combinatorica 7 (1987), 101--104.
+E. I. Neü ciporuk, A Boolean function. Dokl. Akad. Nauk SSSR 169(4) (1966),
+765--766. In Russian. English translation in Soviet Mathematics Doklady 7:4, pages
+999≠1000.
+E. I. Neü ciporuk, On a Boolean matrix. Problemy Kibernet. 21(4) (1969), 237--240.
+In Russian. English translation in Systems Theory Res., 21 (1971) 236--239.
+N. Pippenger, On another Boolean matrix. Theoret. Comput. Sci. 11 (1980), 49--
+56.
+A. A. Razborov, Lower bounds on monotone complexity of some Boolean functions.
+Dokl. Akad. Nauk SSSR 281 (1985), 798--801. In Russian, English translation in:
+Sov. Math. Dokl., 31:354--357, 1985.
+A.A. Razborov, On the method of approximation. In Proc. Twenty≠first Ann.
+ACM Symp. Theor. Comput., 1989, 167--176.
+A. Shamir, How to share a secret. Comm. ACM 22 (1979), 612--613.
+G. J. Simmons, How to (really) share a secret. In Advances in Cryptology ≠
+CRYPTO '88, ed. S. Goldwasser, vol. 403 of Lecture Notes in Computer Science.
+Springer≠Verlag, 1990, 390--448.
+G. J. Simmons, An introduction to shared secret and/or shared control and their
+application. In Contemporary Cryptology, The Science of Information Integrity, ed.
+G. J. Simmons, 441--497. IEEE Press, 1991.
+G. J. Simmons, W. Jackson, and K. M. Martin, The geometry of shared secret
+schemes. Bulletin of the ICA 1 (1991), 71--88.
+D. R. Stinson, An explication of secret sharing schemes. Designs, Codes and
+Cryptography 2 (1992), 357--390.
+I. Wegener, The Complexity of Boolean Functions. Wiley≠Teubner Series in Com≠puter 
+Science. B. G. Teubner & John Wiley, 1987.
+A. Wigderson, The fusion method for lower bounds in circuit complexity. In Bolyai
+Society Mathematical Studies, Combinatorics, Paul Erdùos is Eighty, vol. 1, Keszthely
+(Hungary), 1993, 453--467.

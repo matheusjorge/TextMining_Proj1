@@ -1,0 +1,61 @@
+Communication in Key Distribution Schemes \Lambda
+
+Amos Beimel y Benny Chor z
+Department of Computer Science
+Technion, Haifa 32000, Israel
+
+Abstract
+A (g; b) key distribution scheme allows conferences of g users to generate secret keys,
+such that disjoint coalitions of b users cannot gain any information on the generated
+key (in the information theoretic sense). In this work, we study the relationships
+between communication and space efficiency of key distribution schemes. We prove
+that communication does not help in the context of unrestricted schemes. On the
+other hand, we show that for restricted schemes, which are secure only when used by
+a limited number of conferences, communication can substantially improve the space
+efficiency. We also present lower bounds on the space efficiency of restricted schemes.
+Index Terms -- Key Distribution, communicating protocols, space efficiency, one
+time schemes, cryptography.
+
+
+References
+[1] R. Blom. An optimal class of symmetric key generation systems. In T. Beth, N. Cot,
+and I. Ingemarsson, editors, Advances in Cryptology -- Eurocrypt '84, volume 209 of
+Lecture Notes in Computer Science, pages 335--338. Springer­Verlag, 1985.
+[2] T. Matsumoto and H. Imai. On the key predistribution systems: a practical solution
+to the key distribution problem. In C. Pomerance, editor, Advances in Cryptology
+-- CRYPTO '87, volume 293 of Lecture Notes in Computer Science, pages 185--193.
+Springer­Verlag, 1988.
+[3] C. Blundo, A. De Santis, A. Herzberg, S. Kutten, U. Vaccaro, and M. Yung. Perfectly­
+secure key distribution for dynamic conferences. In E. F. Brickell, editor, Advances in
+Cryptology ­ CRYPTO '92, volume 740 of Lecture Notes in Computer Science, pages
+471--486. Springer­Verlag, 1993.
+[4] C. J. Mitchell and F. C. Piper. Key storage in secure networks. Discrete Applied
+Mathematics, 21(3):215--228, 1988.
+[5] E. Okamoto and K. Tanaka. Key distribution system based on identification informa­tion. 
+IEEE Journal on Selected Areas in Communications, 7(4):481--485, 1989.
+[6] L. Gong and D. J. Wheeler. A matrix key­distribution scheme. Journal of Cryptology,
+2(1):51--59, 1990.
+[7] K. A. S. Quinn. Some constructions for key distribution patterns. Designs, Codes and
+Cryptography, 4(2):177--191, 1994.
+[8] M. J. Fischer, M. S. Paterson, and C. Rackoff. Secure bit exchange using a random deal
+of cards. In Distributed Computing and Cryptography, pages 173--181. AMS, 1991.
+[9] M. J. Fischer and R. N. Wright. Multiparty secret key exchange using a random deal of
+cards. In J. Feigenbaum, editor, Advances in Cryptology -- CRYPTO '91, volume 576
+of Lecture Notes in Computer Science, pages 141--155. Springer­Verlag, 1992.
+[10] W. Diffie and M. E. Hellman. New directions in cryptography. IEEE Transactions on
+Information Theory, 22(6):644--654, 1976.
+[11] A. Fiat and M. Naor. Broadcast encryption. In D.R. Stinson, editor, Advances in
+Cryptology ­ CRYPTO '93, volume 773 of Lecture Notes in Computer Science, pages
+480--491. Springer­Verlag, 1994.
+[12] T. M. Cover and J. A. Thomas. Elements of Information Theory. John Wiley & Sons,
+1991.
+[13] R. G. Gallanger. Information Theory and Reliable Communications. John Wiley &
+Sons, New York, 1968.
+[14] I. Csiszar and J. K¨orner. Information Theory. Coding Theorems for Discrete Memoryless
+Systems. Academic press, 1986.
+[15] U. M. Maurer. Secret key agreement by public discussion from common information.
+IEEE Transactions on Information Theory, 39(3):733--742, 1993.
+[16] R. Ahlswede and I. Csiszar. Common randomness in information theory and cryptog­
+raphy -- part I: secret sharing. IEEE Transactions on Information Theory, 39(4):1121--
+1132, 1993.
+

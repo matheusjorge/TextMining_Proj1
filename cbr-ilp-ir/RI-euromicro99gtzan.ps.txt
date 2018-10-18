@@ -1,0 +1,91 @@
+A framework for audio analysis based on
+classification and temporal segmentation
+
+George Tzanetakis 1
+Department of Computer Science
+Princeton University
+Perry Cook 2
+Department of Computer Science 3
+and Department of Music
+Princeton University
+
+Abstract
+Existing audio tools handle the increasing amount of computer audio data
+inadequately. The typical tape­recorder paradigm for audio interfaces is
+inflexible and time consuming, especially for large data sets. On the other
+hand, completely automatic audio analysis and annotation is impossible
+using current techniques.
+Alternative solutions are semi­automatic user interfaces that let users
+interact with sound in flexible ways based on content. This approach offers
+significant advantages over manual browsing, annotation and retrieval. Fur­thermore, 
+it can be implemented using existing techniques for audio content
+analysis in restricted domains.
+This paper describes a framework for experimenting, evaluating and in­
+tegrating such techniques. As a test for the architecture, some recently
+proposed techniques have been implemented and tested. In addition, a new
+method for temporal segmentation based on audio texture is described. This
+method is combined with audio analysis techniques and used for hierarchical
+browsing, classification and annotation of audio files.
+
+
+References
+[1] B Arons. Speechskimmer: A system for interactively skimming recorded
+speech. ACM Transactions Computer Human Interaction, 4:3--38, 1997.
+http://www.media.mit.edu/people/barons/papers/ToCHI97.ps.
+[2] J Boreczky and L Wilcox. A hidden markov model framework for
+video segmentation using audio and image features. Proc. Int.Conf on
+Acoustics,Speech and Signal Processing Vol.6, pages 3741--3744, 1998.
+[3] A Bregman. Auditory Scene Analysis. MIT Press, 1990.
+[4] R Duda and P Hart. Pattern Classification and Scene Analysis. John
+Wiley & Sons, 1973.
+[5] D Ellis. Prediction­driven computational auditory scene analysis. PhD
+thesis, MIT Dept. of Electrical Engineering and Computer Science,
+1996.
+[6] J Foote. An overview of audio information retrieval. ACM Multimedia
+Systems, 7:2--10, 1999.
+[7] I Fujinaga. Machine recognition of timbre using steady­state tone of
+acoustic instruments. Proc. ICMC 98, pages 207--210, 1998.
+[8] A Hauptmann and M Witbrock. Informedia: News­on­demand multi­media 
+information acquisition and retrieval. In Intelligent Multimedia
+Information Retrieval, chapter 10, pages 215--240. MIT Press, Cam­bridge, 
+Mass., 1997. http://www.cs.cmu.edu/afs/cs/user/alex/www/.
+[9] M Hunt, M Lennig, and P Mermelstein. Experiments in syllable­based
+recognition of continuous speech. In Proc. 1996 ICASSP, pages 880--
+883, 1980.
+[10] D Kimber and L Wilcox. Acoustic segmentation for audio browsers.
+Proc. Interface Conference (Sydney, Australia 96), 1996.
+[11] J Makhoul. Linear prediction: A tutorial overview. Proc.IEEE, 63:561--
+580, April 1975.
+[12] K Martin. Toward automatic sound source recognition: identifying
+musical instruments. In NATO Computational Hearing Advanced Study
+Institute. Il Ciocco IT, 1998.
+[13] K Martin, E Scheirer, and B Vercoe. Musical content analysis through
+models of audition. In Proc.ACM Multimedia Workshop on Content­
+Based Processing of Music, Bristol, UK, 1998.
+[14] L Rabiner, M Cheng, A Rosenberg, and C McGonegal. A comparative
+performance study of several pitch detection algorithms. IEEE Trans.
+Acoust., Speech, and Signal Process., ASSP­24:399--417, October 1976.
+[15] S Rossignol, X Rodet, et al. Features extraction and temporal segmen­tation 
+of acoustic signals. Proc. ICMC 98, pages 199--202, 1998.
+[16] E Scheirer. Bregman's chimerae: Music perception as auditory scene-analysis. 
+In Proc.International Conference on Music Perception and
+Cognition, Montreal, 1996.
+[17] E Scheirer. Tempo and beat analysis of acoustic musical signals.
+J.Acoust.Soc.Am, 103(1):588,601, Jan 1998.
+[18] E Scheirer and M Slaney. Construction and evaluation of a robust mul­tifeature 
+speech/music discriminator. IEEE Transactions on Acoustics,
+Speech and Signal Processing (ICASSP'97), pages 1331--1334, 1997.
+[19] M Slaney. A critique of pure audition. Computational Auditory Scene
+Analysis, 1997.
+[20] M Slaney and R Lyon. A perceptual pitch detector. In Proceedings
+of the 1990 International Conference on Acoustics, Speech and Signal
+Processing (ICASP), pages 357--360, Albuquerque, NM, 1990. IEEE.
+[21] M Slaney and R Lyon. On the importance of time­a temporal represen­tation 
+of sound. In M Cooke, B Beet, and M Crawford, editors, Visual
+Representations of Speech Signals, pages 95--116. John Wiley & Sons
+Ltd, 1993.
+[22] C van Rijsbergen. Information retrieval. Butterworths, London, 2nd
+edition, 1979.
+[23] E Wold, T Blum, D Keislar, and J Wheaton. Content­based classi­fication, 
+search and retrieval of audio. IEEE Multimedia, 3(2):27--36,
+1996.

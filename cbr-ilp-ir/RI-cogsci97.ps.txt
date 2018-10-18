@@ -1,0 +1,76 @@
+How Well Can Passage Meaning be Derived without Using Word Order?
+A Comparison of Latent Semantic Analysis and Humans
+
+Thomas K. Landauer, Darrell Laham, Bob Rehder, and M. E. Schreiner
+Department of Psychology & Institute of Cognitive Science
+University of Colorado, Boulder
+Boulder, CO 80309­0345
+{landauer, dlaham, rehder, missy}@psych.colorado.edu
+
+Abstract
+How much of the meaning of a naturally occurring English
+passage is derivable from its combination of words without
+considering their order? An exploratory approach to this
+question was provided by asking humans to judge the
+quality and quantity of knowledge conveyed by short
+student essays on scientific topics and comparing the inter­
+rater reliability and predictive accuracy of their estimates
+with the performance of a corpus­based statistical model
+that takes no account of word order within an essay. There
+was surprisingly little difference between the human judges
+and the model.
+
+
+References
+Berry, M. W. (1992). Large scale singular value
+computations. International Journal of Supercomputer
+Applications, 6(1), 13­49.
+Berry, M. W., Dumais, S. T. and O'Brien, G. W. (1995).
+Using linear algebra for intelligent information retrieval.
+SIAM: Review, 37(4), 573­595.
+Chomsky, N. (1965). Aspects of the theory of syntax.
+Cambridge, MA.: MIT Press.
+Deerwester, S., Dumais, S. T., Furnas, G. W., Landauer, T.
+K., & Harshman, R. (1990). Indexing By Latent Semantic
+Analysis. Journal of the American Society For
+Information Science, 41(6), 391­407.
+Dumais, S. T. (1991). Improving the retrieval of
+information from external sources. Behavior Research
+Methods, Instruments and Computers., 23(2), 229­236.
+Dumais, S. T. (1994). Latent semantic indexing (LSI) and
+TREC­2. In D. Harman (Ed.), National Institute of
+Standards and Technology Text Retrieval Conference,
+NIST special publication.
+Foltz, P. W., Kintsch, W., & Landauer, T. K. (1993, July).
+An analysis of textual coherence using Latent Semantic
+Indexing. Paper presented at the meeting of the Society for
+Text and Discourse, Boulder, CO.
+Foltz, P. W., Kintsch, W., & Landauer, T. K. (in press).
+Analysis of text coherence using Latent Semantic
+Analysis. Discourse Processes.
+Harman, D. (Ed.) (1994). National Institute of Standards and
+Technology Text Retrieval Conference, NIST special
+publication.
+Landauer, T. K., & Dumais, S. T. (1996). How come you
+know so much? From practical problem to theory. In D.
+Hermann, C. McEvoy, M. Johnson, & P. Hertel (Eds.),
+Basic and applied memory: Memory in context. Mahwah,
+NJ: Erlbaum, 105­126.
+Landauer, T. K., & Dumais, S. T. (1997). A solution to
+Plato's problem: The Latent Semantic Analysis theory of
+the acquisition, induction, and representation of
+knowledge. Psychological Review, 104(2), 211­240.
+Lund, K., Burgess, C., & Atchley, R. A. (1995). Semantic
+and associative priming in high­dimensional semantic
+space. In J. D. Moore & J. F. Lehman (Ed.), Cognitive
+Science Society, Pittsburgh, PA: Lawrence Erlbaum
+Associates, 660­665.
+Rehder, B., Schreiner, M. E., Wolfe, B. W., Laham, D.,
+Landauer, T. K., & Kintsch, W. (in press). Using Latent
+Semantic Analysis to assess knowledge: Some technical
+considerations. Discourse Processes.
+Wolfe, M. B., Schreiner, M. E., Rehder, B., Laham, D.,
+Foltz, P. W., Kintsch, W., & Landauer, T. K. (in press).
+Learning from text: Matching readers and text by Latent
+Semantic Analysis. Discourse Processes.
+

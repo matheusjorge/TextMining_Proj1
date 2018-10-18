@@ -1,0 +1,81 @@
+Knowledge Discovery in Databases: An
+Overview
+
+Usama Fayyad
+Microsoft Research
+
+One Microsoft Way, Redmond, WA 98052-6399, USA
+Fayyad@microsoft.com
+http://wwww.research.microsoft.com/dtg/fayyad
+
+
+
+Abstract. Data Mining and knowledge Discovery in Databases (KDD)
+promise to play an important role in the way people interact with databases,
+especially decision support databases where analysis and exploration operations 
+are essential. Inductive logic programming can potentially play
+some key roles in KDD. This is an extended abstract for an invited talk
+in the conference. In the talk, we define the basic notions in data mining
+and KDD, define the goals, present motivation, and give a high-level definition 
+of the KDD Process and how it relates to Data Mining. We then
+focus on data mining methods. Basic coverage of a sampling of methods
+will be provided to illustrate the methods and how they are used. We
+cover a case study of a successful application in science data analysis: the
+classification of cataloging of a major astronomy sky survey covering 2
+billion objects in the northern sky. The system can outperform human as
+well as classical computational analysis tools in astronomy on the task of
+recognizing faint stars and galaxies. We also cover the problem of scaling
+a clustering problem to a large catalog database of billions of objects. We
+conclude with a listing of research challenges and we outline area where
+ILP could play some important roles in KDD.
+References
+
+1.	Agrawal, R., Mannila, H., Srikant, R., Toivonen, H., and Verkamo, I. “Fast Discovery 
+of Association Rules”, in Advances in knowledge Discovery and Data Mining,
+pp. 307—328, U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and R. Uthurusamy
+(Eds.), MIT Press, 1996.
+2.	R. Brachman, T. Khabaza, W. Kloesgen, G. Piatetsky-Shapiro, and E. Simoudis,
+Industrial Applications of Data Mining and Knowledge Discovery, Communications
+of ACM, vol. 39, no. 11. 1996.
+3.	E.F. Codd (1993). “Providing OLAP (On-line Analytical Processing) to User-Analysts: 
+An IT Mandate” . E.F. Codd and Associates.
+4.	Communications of The ACM, special issue on Data Mining, vol. 39, no. 11.
+6.	R.O. Duda and P.E. Hart Pattern Classification and Scene Analysis. New York:
+John Wiley and Sons, 1973.
+6.	S. Dzeroski. “Inductive Logic Programming and Knowledge Discovery in
+Databases”, in In Advances in Knowledge Discovery and Data Mining, Fayyad
+et al (Eds.), pp. 117 — 152, MIT Press, 1996.
+7.	U. Fayyad, D. Haussler, and P. Stolorz, “Mining Science Data”, Communications
+of ACM, vol. 39, no. 11. 1996.
+8.	U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and R. Uthurusamy (Eds.) Advances
+in Knowledge Discovery and Data Mining, MIT Press, 1996.
+9.	U. Fayyad, G. Piatetsky-Shapiro, and P. Smyth. “From Data Mining to Knowledge
+Discovery: An Overview.” In Advances in Knowledge Discovery and Data Mining,
+Fayyad et al (Eds.) MIT Press, 1996.
+10.	Glymour, C., Scheines, R., Spirtes, P. Kelly, K. Discovering Causal Structure. New
+York, NY: Academic Press, 1987.
+11.	C. Glymour, D. Madigan, D. Pregibon, and P. Smyth. “Statistical Themes and
+Lessons for Data Mining”, Data Mining and Knowledge Discovery, vol. 1, no. 1,
+1997.
+12.	J. Gray, S. Chaudhuri, A. Bosworth, A. Layman, D. Reichart, M. Venkatrao, F.
+Pellow, and H. Pirahesh, “Data Cube: A Relational Aggregation Operator Generalizing 
+Group-by, Cross-Tab, and Sub Totals”, Data Mining and Knowledge Discovery, vol. 1, no. 1, 1997.
+13.	D. Heckerman, “Bayesian Networks for Data Mining”, Data Mining and Knowledge
+Discovery, vol. 1, no. 1, 1997.
+14.	J. Kettenring and D. Pregibon (Eds.) Statistics and Massive Data Sets, Report to
+the Committee on Applied and Theoretical Statistics, National Research Council,
+Washington, D.C. 1996.
+15.	Kaufman, L. and Rousseeuw, P. J. 1990. Finding Groups in Data: An Introduction
+to Cluster Analysis, New York: Wiley.
+16.	Leamer, Edward, E. Specification searches: ad hoc inference with nonexperimental
+data, Wiley, 1978
+17.	M. Mehta, R. Agrawal, and J. Rissanen, “SLIQ: a fast scalable classifier for data
+mining”, Proceedings of EDBT-96, Springer Verlag, 1996.
+18.	G. Piatetsky-Shapiro and W. Frawley (Eds). Knowledge Discovery in Databases,
+MIT Press 1991.
+19.	A. Silberschatz and A. Tuzhilin, 1995. On Subjective Measures of Interestingness
+in Knowledge Discovery. In Proceedings of KDD-95: First International Conference
+on Knowledge Discovery and Data Mining, pp. 275-281, Menlo Park, CA: AAAI
+Press.
+20.	J. Ullman. Principles of Database and Knowledge Base Systems, vol. 1, Rockville,
+MA: Computer Science Press, 1988

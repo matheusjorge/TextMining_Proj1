@@ -1,0 +1,74 @@
+Similarity Measures for Structured
+Representations
+
+H. Bunke and B.T.Messmer
+
+Institut für Informatik und angewandte Mathematik,
+Universität Bern, Länggassstr. 51,
+CH-3012 Bern, Switzerland
+bunke@iam.unibe.ch, messmer@iam.unibe.ch
+
+
+
+Abstract. A key concept in case-based reasoning is similarity. In this
+paper, we first propose a similarity measure for structured representations 
+that is based on graph edit operations. Then we show how this
+similarity measure can be computed by means of state space search. Subsequently, 
+subgraph isomorphism is considered as a special case of graph
+similarity and a new efficient algorithm for its detection is proposed.
+The new algorithm is particularly suitable if there is a large number of
+library cases being tested against an input graph. Finally, we present experimental 
+results showing the computational efficiency of the proposed
+approach.
+References
+
+1.	H. Bunke and C. Allerman. Inexact graph matching for structural pattern recognition. 
+Pattern Recognition Letters 1, 4:245—253, 1983.
+2.	B. Falkenhainer, K.D. Forbus, and D. Gentner. The structure-mapping engine:
+Algorithms and examples. Artificial Intelligence, 41:1—63, 1989/90.
+3.	C.L. Forgy. Rete, a fast algorithm for the many pattern / many object pattern
+match problem. In Artificial Intelligence, volume 19, pages 17 — 37. Elvesier, 1982.
+4.	M.R. Garey and D.S. Johnson. Computers and Intractability: A Guide to the theory
+of NP-Completeness. Freeman and Company, 1979.
+5.	D. Gentner and K.D. Forbus. Mac/Fac: A model of similarity based retrieval. In
+Proceedings of the Thirteenth Annual Conference of the Cognitive Science Society,
+volume III, pages 504—509, 1983.
+6.	M. A. Kelly and R. E. Seviora. An evaluation of DRETE on CUPID for OPS5
+matching. In 11 ‘th International Joint Conference on Artificial Intelligence, volume 1, pages 84—90, 1989.
+7.	H.S. Lee and M.I. Schor. Match algorithms for generalized Rete networks. Artificial 
+Intelligence, pages 255—270, 1992.
+8.	F. Maurer. Similarity based retrieval of interpretation models. In M.M. Richter,
+S.Wess, K.-D. Althoff, and F. Maurer, editors, Preproceedings: First European
+Workshop on Case-Based Reasoning, pages 366—370, 1993.
+9.	B.T. Messmer and H. Bunke. A network based approach to exact and inexact
+graph matching. Technical Report IAM-93-021, University of Berne, September
+1993.
+10.	S.H. Myaeng and A. Lopez-Lopez. Conceptual graph matching: a flexible algorithm 
+and experiments. Journal of Experimental and Theoretical Artificial Intelligence, 
+4:107—126, April 1992.
+11.	A. Napoli. Finding strategies in organic synthesis planning with case-based reasoning. 
+In M.M. Richter, S.Wess, K.-D. Althoff, and F. Maurer, editors, Preproceedings: 
+First European Workshop on Case-Based Reasoning, pages 221—226, 1993.
+12.	N.J. Nilsson. Principles of Artificial Intelligence. Tioga, Palo Alto, 1980.
+13.	J. Poole. Similarity in legal case based reasoning as degree of matching in conceptual 
+graphs. In MM. Richter, S.Wess, K.-D. Althoff, and F. Maurer, editors,
+Preproceedings: First European Workshop on Case-Based Reasoning, pages 54—58,
+1993.
+14.	M.M. Richter. Classification and learning of similarity measures. In Opitz,
+Klausen, and Klar, editors, Studies in Classification, Data Analysis and Knowledge
+Organisation. Springer Verlag, 1992.
+15.	J.F. Sowa. Conceptual structures: Information Processing in Mind and Machine.
+Addison-Wesley, 1984.
+16.	R.H. Stottler, A.L. Henke, and J.A. King. Rapid retrieval algorithms for case
+based reasoning. in Proceedings of the 11 ‘th International Conference on Artificial
+Intelligence IJCAI-89, pages 233—237, Detroit , Michigan, 1989.
+17.	P. Thagard, K.J. Holyoak, G. Nelson, and D. Gochfeld. Analog retrieval by constraint 
+satisfaction. Artificial Intelligence, 46:259—310, 1990.
+18.	J.R. Ullman. An algorithm for subgraph isomorphism. Journal of the Association
+for Computing Machinery, 23(1):31—42, 1976.
+19.	R.A. Wagner and M.J. Fischer. The string-to-string correction problem. Journal
+of the Association for Computing Machinery, 21(1):168—173, 1974.
+20.	O. Wendel. Case based reasoning in a simulation environment for biological neural
+networks. In M.M. Richter, S.Wess, K.-D. Althoff, and F. Maurer, editors, Pre-proceedings: 
+First European Workshop on Case-Based Reasoning, pages 221—226,
+1993.

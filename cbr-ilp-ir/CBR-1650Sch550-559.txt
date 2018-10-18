@@ -1,0 +1,67 @@
+Case-Based Reasoning for Antibiotics Therapy Advice
+
+Rainer Schmidt a), Bernhard Pollwein b), Lothar Gierl a)
+
+
+a)	Institut für Medizinische Informatik und Biometric, Universität Rostock
+Rembrandtstr. 16 I 17, D-18055 Rostock, Germany
+Email:	{rainer.schmidt , lothar.gierl}@medizin.uni-rostock.de
+b)	Institut für Anästhesiologie, Ludwig-Maximilians Universität Münchcn
+Marchioninistr. 15, D-8 1377 München, Germany
+
+
+
+Abstract
+In this paper, we describe case-based techniques in a medical application. We
+have developed a prototype of an antibiotics therapy adviser within the ICONS
+project, where the main advantage of applying CBR techniques is to speed-up
+the process of computing advisable therapies. However, some adaptations do
+not really belong to the Case-Based Reasoning paradigm though information
+from former cases is considered. They deal with rather typical medical tasks,
+namely modifications due to information updates. In our incrementally working
+system we have attempted to solve the problem of the continuously increasing
+number of stored cases by generalising from specific single eases to more
+general prototypes and by subsequently erasing redundant cases. Here we present
+results of experiments with threshold settings for our prototype architecture.
+The results show that the chosen design, which has mainly been founded on
+experiences with diagnostic applications, is not only advantageous for this
+therapeutic task, but that it contains a slight drawback as well.
+
+
+References
+1.	Bueno-Cavanillas, A., Delgado-Rodriguez, M., Lopez-Luque, A., Schaffino-Cano, S.,
+Galvez-Vargas, R.: Influence of nosocomial infection on mortality rate in an intensive
+care unit. Crit Care Med 22 (1994) 55-60
+2.	Stottler, R.H., Henke, A.L., King, J.A.: Rapid Retrieval Algorithms for Case-Based
+Reasoning. International Joint Conference on Artificial Intelligence 11(1989) 233-237
+3.	Tversky, A.: Features of Similarity. Psychological Review 84 (1977) 327-352
+4.	Smyth, B., Keane, M.T.: Retrieving Adaptable Cases: The Role of Adaptation Knowledge
+in Case Retrieval. In: Richter, M.M., Wess, S., Althoff, K.-D., Maurer, F. (eds.): First
+European Workshop on Case-Based Reasoning, University of Kaiserslautern (1993) 76-
+8 1
+5.	Smyth, B., Keane, M.T.: Adaptation-guided retrieval: questioning the similarity
+assumption in reasoning. Artificial Intelligence 102 (1998) 249-293
+6.	Schank, R.C.: Dynamic Memory: A Theory of Learning in Computer and People.
+Cambridge University Press, New York (1982)
+7.	Bareiss, R.: Exemplar-based Knowledge Acquisition. Academic Press, San Diego (1989)
+8.	Evans, C.D.: A case-based for diagnosis and avalying of dysmorphic syndromes. In: van
+Bemmel, J.H., McCray, A.T. (eds.): Yearbook of Medical informatics, Schattauer-Verlag,
+Stuttgart (1996), 473-483
+9.	Turner, R.: Organizing and Using Schematic Konwledge for Medical Diagnosis. In:
+Kolodner J.L. (ed.): Proceedings Case-Based Reasoning Workshop, Morgan Kaufmann
+Publishers, San Mateo (1988) 435-446
+10.	Bichindaritz, I.: From Cases to Classes: Focusing on Abstraction in Case-Based
+Reasoning. In: Burkhard, H.-D., Lenz, M. (eds.): 4th German Workshop on Case-Based
+Reasoning, Humboldt University Berlin (1996) 62-69
+11.	Bellazzi, R., Montani, S., Portinale, L.: Retrieval in a Prototype-Based Case Library: A
+Case Study in Diabetes Therapy Revision. In: Smyth, B., Cunningham, P. (eds.): 4th
+European Workshop on Case-Based Reasoning, Lecture Notes in Artificial Intelligence
+Vol. 1488, Springer Verlag, Berlin Heidelberg New York (1998) 64-75
+12.	Gierl, L., Stengel-Rutkowski, S.: Integrating Consultation and Semi-automatic
+Knowledge Acquisition in a Prototype-based Architecture: Experiences with Dysmorphic
+Syndromes. Artificial Intelligence in Medicine 6 (1994) 29-49
+13.	Rosch, E., Mervis, C.B.: Family resemblances: studies in the structure of categories.
+Cognitive Psychologie 7 (1975) 573-605
+14.	Schwartz, A.B., Barcia, R.M., Martins, A., Weber-Lee, R.: PSIQ - A CBR Approach to the
+Mental Health Area. In: Bergmann, R., Wilke, W. (eds.): 5th German Workshop on Case-Based 
+Reasoning, University of Kaiserslautern (1997) 217-223

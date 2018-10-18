@@ -1,0 +1,38 @@
+An Information­theoretic Measure for Document Similarity 
+
+Javed A. Aslam
+Department of Computer Science
+Dartmouth College
+jaa@cs.dartmouth.edu
+Meredith Frost
+Department of Computer Science
+Dartmouth College
+Meredith.Frost@dartmouth.edu
+
+ABSTRACT
+Recent work has demonstrated that the assessment of pair­
+wise object similarity can be approached in an axiomatic
+manner using information theory. We extend this concept
+specifically to document similarity and test the effective­
+ness of an information­theoretic measure for pairwise docu­
+ment similarity. We adapt query retrieval to rate the quality
+of document similarity measures and demonstrate that our
+proposed information­theoretic measure for document simi­larity 
+yields statistically significant improvements over other
+popular measures of similarity.
+
+4. REFERENCES
+[1] R. Baeza­Yates and B. Ribeiro­Neto. Modern
+Information Retrieval. Addison­Wesley, 1999.
+[2] T. Cover and J. Thomas. Elements of Information
+Theory. Wiley­Interscience, 1991.
+[3] D. Lin. An information­theoretic definition of
+similarity. In Proc. 15th International Conf. on
+Machine Learning, 1998.
+[4] M. McGill, M. Koll, and T. Norreault. An evaluation of
+factors a#ecting document ranking by information
+retrieval systems. Technical report, Syracuse University
+School of Information Studies, 1979.
+[5] C. J. van Rijsbergen. Information Retrieval.
+Butterworths, 1979.
+

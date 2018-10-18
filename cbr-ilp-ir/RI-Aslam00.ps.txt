@@ -1,0 +1,66 @@
+Improving Algorithms for Boosting
+
+Javed A. Aslam
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+jaa@cs.dartmouth.edu
+http://www.cs.dartmouth.edu/ ” jaa/
+
+Abstract
+Motivated by results in information­theory, we de­scribe 
+a modification of the popular boosting algo­rithm 
+AdaBoost and assess its performance both
+theoretically and empirically. We provide theo­retical
+and empirical evidence that the proposed
+boosting scheme will have lower training and test­ing 
+error than the original (non­ confidence­rated)
+version of AdaBoost. Our modified boosting al­gorithm 
+and its analysis also suggests an explana­
+tion for why boosting with confidence­rated pre­dictions 
+often markedly outperforms boosting with­
+out confidence­rated predictions. Finally, our mo­tivations 
+and analyses provide further impetus for
+the study of boosting in an information­theoretic,
+as opposed to decision­theoretic, light.
+
+
+References
+[1] Eric Bauer and Ron Kohavi. An empirical comparison
+of voting classification algorithms: bagging, boosting,
+and variants. Unpublished manuscript, 1997.
+[2] Leo Breiman. Arching classifiers. Annals of Statistics,
+to appear.
+[3] Harris Drucker and Corinna Cortes. Boosting decision
+trees. Advances in Neural Information Processing Sys­tems, (8):479--485, 1996.
+[4] Yoav Freund and Robert Schapire. Experiments with
+a new boosting algorithm. In Proceedings of the Thir­teenth 
+International Conference on Machine Learning,
+1996.
+[5] Yoav Freund and Robert Schapire. A decision­-theoretic
+generalization of on­line learning and an application to
+boosting. Journal of Computer and System Sciences,
+55(1):119--139, 1997.
+[6] Jyrki Kivinen and Manfred K. Warmuth. Boosting as
+entropy projection. In Proceedings of the Twelfth An­
+nual Conference on Computational Learning Theory,
+1999.
+[7] Richard Maclin and David Opitz. An empirical eval­uation 
+of bagging and boosting. In Prodeedings of
+the Fourteenth National Conference on Artificial Intel­ligence, 1997.
+[8] J. R. Quinlan. Bagging, boosting, and c4.5. In Prodeed­
+ings of the Thirteenth National Conference on Artificial
+Intelligence, 1996.
+[9] Robert Schapire. Using output codes to boost multi­
+class machine learning problems. In Proceedings of
+the Fourteenth International Conference on Machine
+Learning, 1997.
+[10] Robert Schapire, Yoav Freund, Peter Bartlett, and
+Wee Sun Lee. Boosting the margin: a new explana­tion 
+for the effectiveness of the voting method. Annals
+of Statistics, to appear.
+[11] Robert Schapire and Yoram Singer. Improved boosting
+algorithms using confidence­rated predictions. In Pro­ceedings 
+of the Eleventh Annual Conference on Com­putational Learning Theory, 1998.
+

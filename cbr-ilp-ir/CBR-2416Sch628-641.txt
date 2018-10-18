@@ -1,0 +1,58 @@
+Supporting Electronic Design Reuse by Integrating
+Quality-Criteria into CBR-Based IP Selection
+
+Martin Schaaf1, Rainer Maximini2, Ralph Bergmann2,
+Carsten Tautz3, and Ralph Traphöner3
+
+1University of Kaiserslautern, P0 Box 3049, D-67653 Kaiserslautern, Germany
+schaaf@informatik.uni-kl.de
+2University of Hildesheim, P0 Box 101363, D-3 1113 Hildesheim, Germany
+{r_maximi, bergmann}@dwm.uni-hildesheim.de
+3empolis knowledge management GmbH, Europaallee 10, 67657 Kaiserslautern, Germany
+{Carsten.Tautz, Ralph.Traphoener}@empolis.com
+
+
+
+Abstract. The growing complexity of today’s electronic designs requires reusing 
+existing design components, called Intellectual Properties (IPs). Experience
+management approaches can be used to support design reuse, particularly the
+process of selecting reusable IPs. For the IP selection, quality criteria concerning 
+the IP code and the documentation must be considered in addition to functional 
+requirements of the IP. We analyse IP quality criteria in detail and show
+different concepts for their integration into the retrieval process.
+References
+
+1.	Bergmann, R (2001). Experience Management: Foundations, Development
+Methodology, and Internet-Based Applications. Habilitationsschrift, Universität
+Kaiserslautern.
+2.	Bergmann, R., M. M. Richter, S. Schmitt, A. Stahl, & I. Vollrath (2001). Utility-oriented 
+matching: A new research direction for case-based reasoning. In S. Schmitt,
+I. Vollrath, and U. Reimer (Eds.), 9th German Workshop on Case-based Reasoning.
+3.	Burkhard, H. D. & Richter, M. M. (2001). On the Notion of Similarity in Case-Based 
+Reasoning and Fuzzy Theory. In: S. Pal, T. S. Dillon, & D. S. Yeung (Eds.)
+Soft Computing in Case Based Reasoning. Springer.
+4.	Bermann, R. & A. Stahl (1998). Similarity measures for object-oriented case
+representation. In B. Smyth & P. Cunningham (Eds.) Advances in Case-Based
+Reasoning (EWCBR’98), Lecture Notes in Artificial Intelligence, Springer, 25-36.
+5.	Bergmann, R. & Volirath, I. (1999). Generalized cases: Representation and steps
+towards efficient similarity assessment. In W. Burgard, Th. Christaller & A. B.
+Cremers (Hrsg.) KI-99: Advances in Artificial Intelligence, Lecture Notes in
+Artificial Intelligence, 1701, Springer, 195-206.
+6.	Lewis (1997). Lewis, J.: Intellectual Property (IP) Components. Artisan
+Components, Inc., http://www.artisan.com/ip.html, (1997).
+7.	Oehler, P., Vollrath, I., Conradi, P., Bergmann, R., & Wahlmann, T. (1998).
+READEE - Decision support for IP selection using a knowledge-based approach. In
+IP98 Europe Proceedings, Miller Freeman.
+8.	Oehler, P., Vollrath, I., Conradi, P., & Bergmann, R. (1998). Are your READee for
+IPs?. In A. Kunzmann & R. Seepold (Hrsg.) Second GI/ITG/GMM Workshop
+“Reuse Techniques for VLSI Design”, FZI-Report 3-13-9/98, Universität Kalrsruhe.
+9.	Synopsis Inc., Mentor Graphics Corporation (2001). OpenMORE Assesment
+Program for Hard/Soft IF Version 1.0, http://www.openmore.com.
+10.	Torroja, T., Casado, F., Machado, F. (2001). Guidelines and Standards Proposal for
+IF Quality at the RT Level. ToolIP - Tools and Methods for IP. Technical Report
+UPM-T1.2-Q4/01.
+11.	VSI AllianceTM, Virtual Component Transfer Development Working Group (2001).
+Virtual Component Attributes (VCA) With Formats for Proffling, Selection, and
+Transfer. Standard Version 2.2 (VCT 2.2.2).
+12.	Wiig. K. (1997). Knowledge Management: Where Did It Come From and Where
+Will It Go?. Expert Systems with Applications (14). Pergamon Press / Elsevier.

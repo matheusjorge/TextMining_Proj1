@@ -1,0 +1,62 @@
+Case-Based Reasoning for Estuarine Model Design
+
+Sara Passone1, Paul W.H. Chung2, and Vahid Nassehi1
+
+1Chemical Engineering Department, Loughborough University, Leicestershire, LEl 1 3TU
+United Kingdom
+{S.Passone, V.Nassehi}@Lboro.ac.uk
+2Computer Science Department, Loughborough University, Leicestershire, LE1 1 3TU
+United Kingdom
+P.W.H.Chung@Lboro.ac.uk
+
+
+
+Abstract. Estuaries are complex natural water systems. Their behaviour depend
+on many factors, which are possible to analyse only by adopting different study
+approaches. The physical processes within estuaries, such as floods and
+pollutant dispersion, are generally investigated through computer modelling. In
+this paper the application of case-based reasoning technology to support the
+design of estuarine models is described. The system alms to provide a non-expert 
+user in modelling with the necessary guidance for selecting a model that
+matches his goal and the nature of the problem to be solved. The system is
+based on three components: a case-based reasoning scheme, a genetic algorithm
+and a library of numerical estuarine models. An example based on the Upper
+Milford Haven estuary (UK) is used to demonstrate the efficacy of the system’s
+structure for supporting estuarmne model design.
+References
+
+1.	Dyer, K.R.: Estuaries a Physical Introduction. 2nd edn. John Wiley & Sons, New
+York (1997)
+2.	Kennish, M.J.: Ecology of Estuaries, Vol.1: Physical and chemical aspects. CRC
+Press, Boca Raton, Florida, U.S.A. (1990)
+3.	French, J. R., Clifford, N. J.: Hydrodynamic Modelling as a Basis for Explaining
+Estuarine Environmental Dynamics: Some Computational and Methological
+Issues. Hydrological Process 14 (2000) 2089-2108
+4.	O’Kane, J.P.: Conflicting Views of the Role of Models. In: Wilson, J.G., Halcrow,
+W. (eds): Estuarine Management and Quality Assessment. Plenum Press, New
+York London (1985)
+5.	Dyke, P.: Modelling Marine Processes. Prentice Hall, London (1996)
+6.	Goldberg, D.E.: Genetic Algorithm in Search, Optimization, and Machine
+Learning. Addison-Wesley Publishing Company, Massachusetts, U.S.A. (1989)
+7.	Ramsey, C., Grefensttete, J.: Case-Based Initialization of Genetic Algorithms. In:
+Forrest, S., (eds.): Proceedings of the Fifth International Conference on Genetic
+Algorithms. Morgan Kauffman, San Mateo (1993) 84-91
+8.	Davidson, N.C., D’A Laffoley, D., Doody, J.P., Way, L.S., Gordon, J., Key, R.,
+Pienkoski, M.W.,Mitchell, R., Duff, K.: Nature Conservation and Estuaries in
+Great Britain, Nature Conservancy, Peterborough, UK (1991)
+9.	Chung P.W.H. and Inder R.: Handling Uncertainty in Accessing Petroleum
+Exploration Data. Revue de L’Institut Francais du Petrole, 47 (1992) 305-314
+10.Bikangaga, J.H., Nassehi, V.: Application of Computer Modelling Techniques to
+the Determination of Optimum Effluent Discharge Policies in Tidal Water
+Systems. Water Resources 10 (1995) 2367-2375
+11. 	Hinwood J.B., Wallis, I.G.: Classification of Models of Tidal Waters. Journal of
+the Hydraulics Division, Proc. A.S.C.E. 101 (1975) HYl0 1315-1351.
+12.	Lawson J., Gunn, I.J.: Guidelines for the Use of Computational Model in Coastal
+and Estuarial Studies. Report SR 450, HR Wallingford, Oxon, UK (1996)
+13.	Jeng, B.C., Liang, T.P.: Fuzzy Indexing and Retrieval in Case-Based Systems.
+Expert Systems With Applications, 8 (1995) 135-142
+14.	Louis, S.J., Johnson, J.: Solving Similar Problems Using Genetic Algorithms and
+Case-Base Memory. Proceeding or the Seventh International conference on
+Genetic Algorithms. Morgan Kauffman, San Mateo (1997) 101-127.
+15.	Babovic, V., Abbott, M.B.: The Evolution of Equations from Hydraulic Data, I.
+Theory. Journal of Hydraulic Research 3 (1997) 397-410

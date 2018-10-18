@@ -1,0 +1,49 @@
+Scalable Information Organization #
+
+Javed Aslam, Fred Reiss, and Daniela Rus
+Department of Computer Science
+Dartmouth College
+Hanover, NH 03755 USA
+{jaa, frr, rus}@cs.dartmouth.edu
+
+Abstract
+We present three scalable extensions of the star algorithm for information organization that use
+sampling. The star algorithm organizes a document collection into clusters that are naturally induced
+by the topic structure of collection, via a computationally efficient cover by dense subgraphs. We
+also provide supporting data from extensive experiments.
+
+
+References
+Aslam, J., K. Pelekhov, and D. Rus. (1998). Static and Dynamic Information Organization with
+Star Clusters. In Proceedings of the 1998 Conference on Information Knowledge Management,
+Baltimore, MD.
+Aslam, J., K. Pelekhov, and D. Rus. (1999). A practical Clustering Algorithm for Static and Dy­namic 
+Information Organization. In Proceedings of the 1999 Symposium on Discrete Algo­rithms, Baltimore, MD.
+Charikar, M., C. Chekuri, T. Feder, and R. Motwani. (1997). Incremental clustering and dynamic
+information retrieval, in Proceedings of the 29 th Symposium on Theory of Computing.
+Croft, W.B. A model of cluster searching based on classification. Information Systems, 5:189­195,
+1980.
+Cutting, D., D. Karger, and J. Pedersen. (1993). Constant interaction­time scatter/gather browsing
+of very large document collections. In Proceedings of the 16 th SIGIR.
+Everitt, B. (1993). Cluster Analysis. Arnold, London.
+Hearst, M. and J. Pedersen. (1996). Reexamining the cluster hypothesis: Scatter/Gather on Retrieval
+Results. In Proceedings of the 19 th SIGIR.
+Jain, A. and R. Dubes. (1988). Algorithms for Clustering Data, Prentice Hall.
+Jardine, N. and C.J. van Rijsbergen. (1971). The use of hierarchical clustering in information re­trieval, 
+7:217­240.
+Mirkin, B. (1996). Mathematical classification and clustering. Kluwer Academic Publishers,
+Boston.
+van Rijsbergen, C.J.. (1979). Information Retrieval. Butterworths, London.
+Rus, D., R. Gray, and D. Kotz. (1997). Transportable Information Agents. Journal of Intelligent
+Information Systems, vol 9. pp 215­238.
+Sibson, P. (1973). SLINK: an optimally efficient algorithm for the single link cluster method. Com­puter 
+Journal 16, pp30--34.
+Silverstein, C. and J. Pedersen. (1997) Almost­Constant­Time Clustering of Arbitrary Corpus Sub­sets. 
+In Proceedings of SIGIR, pp 60--66.
+Voorhees, E. (1985). The cluster hypothesis revisited. In Proceedings of the 8 th SIGIR, pp 95­104.
+Willett, P. (1988). Recent trends in hierarchical document clustering: A critical review. Information
+Processing and Management, 24:(5):577­597.
+Worona, S. (1971). Query clustering in a large document space. In Ed. G. Salton, The SMART
+Retrieval System, pp 298­310. Prentice­Hall.
+Zuckerman, D. (1993). NP­complete problems have a version that's hard to approximate. In Pro­ceedings 
+of the Eight Annual Structure in Complexity Theory Conference, IEEE Computer So­ciety, 305--312, 1993.

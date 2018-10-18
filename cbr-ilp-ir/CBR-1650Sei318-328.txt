@@ -1,0 +1,55 @@
+A Case-Based Methodology for Planning Individualized
+Case Oriented Tutoring
+
+Alexander Seitz
+
+Dept. of Artificial Intelligence
+University of Ulm
+D-89069 Ulm, Germany
+seitz@ki.informatik.uni-ulm.de
+
+
+
+Case oriented tutoring gives students the possibility to practice their acquired
+theoretical knowledge in the context of concrete cases. Accordingly, tutoring
+systems for individualized learning have to take the skills of students at
+applying their knowledge to problem solving into account. This paper describes
+a case-based methodology for planning tutoring processes depending on the
+skills of individual users. We develop methods for retrieving tutoring plans of
+users with similar skills and present adaptation techniques for improving these
+plans based on the student’s behavior during the corresponding tutoring
+process. The developed methodology is based on the notion that a student has to
+perform threads of associations in the process of problem solving.
+References
+
+1.	Baehring T., Weichelt U., Schmidt H., Adler M., Bruckmoser S., Fischer M.:
+ProMediWeb: Problem based case training in medicine via the World Wide Web.
+Proceedings ED-MEDIA 11, Freiburg (1998).
+2.	Brusilovski, P.: Methods and techniques of adaptive hypermedia. User Modeling and
+User-Adapted Interaction 6(1996)87-129.
+3.	Carr B., Goldstein I.P.: Overlays: A Theory of Modeling for Computer-Aided Instruction.
+MIT Press, Cambridge, MA/London (1977).
+4.	Docs’N Drugs — Die virtuelle Poliklinik. httn://www.docs-n-drues.de
+5.	Hammond K.: Case-Based Planning. Academic Press, INC., Boston (1989).
+6.	Martens, A., Uhrmacher, A.M.: Modeling Tutoring as a Dynamic Process - A Discrete
+Event Simulation Approach. In: Proc. European Simulation Multiconference ESM’99
+Vol.1, Warsaw 1-4.6.1999, SCS, Gent, to appear.
+7.	Nuthalapathy F., Oh J., EIsner Ch., Altman M.: Interactive Electronic Problem Based
+Learning (iePBL): An Internet based Application for Clinical Medical Education in the
+PBL Case Format, Proceedings of the ED-MEDIA World-Conference, Freiburg (1998).
+8.	Ohlson, S.: Impact of Cognitive Theory on the Practice of Courseware Authoring. In:
+Journal of Computer Assisted Learning 4(1993)194-221.
+9.	Papagni M., Cirillo V., Micarelli A.: Ocram-CBR: A Shell for Case-Based Educational
+Systems. In: Leake D., Plaza E.: Case-Based Reasoning Research and Development.
+Springer, Heidelberg (1997) 104-113.
+10.	Patel V.L., Kaufman D.R., Arocha J.F.: Steering through the murky waters of scientific
+conflict: situated and symbolic models of clinical cognition. Artificial Intelligence in
+Medicine 7(1995)413-428.
+11.	Scheuerer C. et al.: NephroCases. Proceedings of ED-MEDIA/ED-TELECOM 98 (1998)
+2075-2076.
+12.	Schewe S., Reinhardt T., Betz C.: Experiences with a Knowledge Based Tutoring System
+for Student Education in Rhcumatology. In Proc. S. Deutsche Tagung XPS’99 —
+Wissenshasierte Systeme— Bilanz und Perspektiven, Wuerzburg, 1999.
+13.	Weber G.: Episodic Learnier Modeling. Cognitive Science 20(1996)195-236.
+14.	Wetzel, M.: Problem Based Learning: An Update on Problem Based Learning at Harvard
+Medical School. Annals of Community-Oriented Education, 7(1994)237-247.

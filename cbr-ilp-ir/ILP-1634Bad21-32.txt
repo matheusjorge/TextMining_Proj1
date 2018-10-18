@@ -1,0 +1,38 @@
+Refinement Operators Can Be (Weakly) Perfect
+
+Liviu Badea and Monica Stanciu
+
+AI Lab, Research Institute for Informatics
+8-10 Averescu Blvd., Bucharest, Romania
+e-mail: badea@ici.ro
+
+
+
+Abstract. Our aim is to construct a perfect (i.e. minimal and optimal)
+JLP refinement operator for hypotheses spaces bounded below by a most
+specific clause and subject to syntactical restrictions in the form of input/output 
+variable declarations (like in Progol). Since unfortunately
+no such optimal refinement operators exist, we settle for a weaker form
+of optimality and introduce an associated weaker form of subsumption
+which exactly captures a first incompleteness of Progol’s refinement operator. 
+We argue that this sort of incompleteness is not a drawback, as
+it is justified by the examples and the MDL heuristic.
+A second type of incompleteness of Progol (due to subtle interactions between 
+the requirements of non-redundancy, completeness and the variable dependencies) 
+is more problematic, since it may sometimes lead
+to unpredictable results. We remove this incompleteness by constructing 
+a sequence of increasingly more complex refinement operators which
+eventually produces the first (weakly) perfect refinement operator for a
+Progol-like ILP system.
+References
+
+1.	Esposito F., A. Laterza, D. Malerba, G. Semeraro. Refinement of Datalog Programs.
+Workshop on Data Mining and ILP, Bari 1996.
+2.	De Raedt L., M. Bruynooghe. A theory of clausal discovery. IJCAI-93, 1058-1063.
+3.	Grobelnik M. Induction of Prolog programs with Markus. LOPSTR’93, 57-63.
+4.	Muggleton S. Inverse entailment and Progol. New Generation Computing Journal,
+13:245-286, 1995.
+5.	van der Laag P. An Analysis of Refinement Operators in ILP. PhD Thesis, Tinbergen 
+Inst. Res. Series 102, 1995.
+6.	van der Laag P., S.H. Nienhuys-Cheng. Existence and Nonexistence of Complete
+Refinement Operators. ECML-94, 307-322.

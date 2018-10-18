@@ -1,0 +1,110 @@
+Encouraging Self-Explanation Through Case-Based
+Tutoring: A Case Study
+
+Michael Redmond
+Computer Science
+Rutgers University
+Camden, NJ 08102
+(609) 225-6122 Fax: (609) 225-6624
+E-mail: redmond@pizza.rutgers.edu
+
+Susan Phillips
+Chemistry
+Holy Family College
+Philadelphia, PA 19114
+(215) 637-7700
+E-mail: phillips@pizza.rutgers.edu
+
+
+
+Abstract. This paper presents a case-based tutor, CECELIA 1.1, that
+is based on techniques from CELIA, a computer model of case-based apprenticeship 
+learning [Redmond 1992]. The teaching techniques include:
+interactive, step by step presentation of case solution steps, student predictions 
+of an expert’s actions, presentation of the expert’s steps, student
+explanations of the expert’s actions, and presentation of the expert’s explanation. 
+In addition, GECELIA takes advantage of a technique from
+VanLehn’s [1987] SIERRA — presenting examples in an order so that solutions 
+only differ by one branch, or disjunct, from previously presented
+examples. CEGELIA relies on its teaching strategy encouraging greater
+processing of the examples by the student, rather than on embedding
+great amounts of intelligence in the tutor. CEGELIA is implemented using 
+Hypercard on an Apple Macintosh, and has been pilot tested with
+real students. The tests suggest that the approach can be helpful, but
+also suggest that eliciting self-explanations from students who normally
+do not self-explain may be challenging.
+References
+
+[Anderson et al., 1990] Anderson, J. R., Boyle, C. F., Corbett, A., & Lewis, M. W.
+(1990). Cognitive modeling and intelligent tutoring. Artificial Intelligence, 42:7—49.
+
+[Bareiss, 1989] Bareiss, R. (1989). Exemplar-based knowledge acquisition: a unified
+approach to concept representation, classification, and learning. Academic Press,
+New York, NY.
+
+[Carbonell, 1986] Carbonell, J. (1986). Derivational analogy: A theory of reconstructive 
+problem solving and expertise acquisition. In Michalski, R., Carbonell, S., &
+Mitchell, T., editors, Machine Learning: An Artificial Intelligence Approach, Volume
+IL Morgan Kaufmann, Los Altos, CA.
+
+[Carbonell & Veloso, 1988] Carbonell, J. & Veloso, M. (1988). Integrating derivational
+analogy into a general problem solving architecture. In Proceedings of a Workshop
+on Case-Based Reasoning, Clearwater, FL. Morgan Kaufmann.
+
+[Chi et al., 1989] Chi, M., Bassok, M., Lewis, M., Reimaun, P., & Glaser, R. (1989).
+Self-explanations: How students study and use examples to solve problems. Cognitive
+Science, 13:145—182.
+
+[Chi et al., 1994] Chi, M., de Leeuw, N., Chiu, M., & LaVancher, C. (1994). Eliciting
+self-explanations improves understanding. Cognitive Science, 18:439—477.
+[Corbett & Anderson, 1990] Corbett, A. T. & Anderson, J. R. (1990). The effect of
+feedback control on learning to program with the lisp tutor. In Proceedings of the
+Twelfth Annual Conference of the Cognitive Science Society, pages 796—806, Cambridge, 
+MA. Lawrence Erlbaum Associates.
+
+[Farr & Psotka, 1992] Farr, M. J. & Psotka, J. (1992). Intelligent instruction by computer: 
+Theory and practice. Taylor and Francis, New York, NY.
+
+[Koedinger & Anderson, 1990] Koedinger, K. R. & Anderson, J. R. (1990). Abstract
+planning and perceptual chunks: elements of expertise in geometry. Cognitive Science, 14:511—550.
+
+[Kolodner, 1988] Kolodner, S. (1988). Retrieving events from a case memory: a parallel
+implementation. In Proceedings of a Workshop on Case-Based Reasoning, Clearwater, FL. Morgan Kaufmann.
+
+[Lancaster & Kolodner, 1988] Lancaster, J. & Kolodner, J. (1988). Varieties of learning 
+from problem solving experience. In Proceedings of the Tenth Annual Conference
+of the Cognitive Science Society, Montreal, Canada. Lawrence Erlbaum Associates.
+
+[Nathan & Resnick, 1995] Nathan, M. J. & Resnick, L. B. (1995). Less can be more:
+Unintelligent tutoring based on psychological theories and experimentation. In Vosniadou, 
+S., Corte, E. D., Glaser, R., & Mandl, H., editors, Psychological and Educational 
+Foundations of Technology-Based Learning Environments.
+
+[Redmond, 1990] Redmond, M. (1990). Distributed cases for case-based reasoning;
+facilitating use of multiple cases. In Proceedings of the National Conference on Artificial 
+Intelligence (AAAI-90), Boston, MA. Morgan Kaufmann.
+
+[Redmond, 1992] Redmond, M. (1992). Learning by Observing and Explaining Expert
+Problem Solving. PhD thesis, Georgia Institute of Technology, Atlanta, GA.
+
+[Redmond, 1994] Redmond, M. (1994). Educational implications of celia: Learning by
+observing and explaining. In Proceedings of the Sixteenth Annual Conference of the
+Cognitive Science Society, Atlanta, GA. Lawrence Erlbaum Associates.
+
+[Renkl, 1996] Renkl, A. (1996). Learning from worked out examples: A study of individual 
+differences. Cognitive Science, 20.
+
+[Tarmizi & Sweller, 1988] Tarmizi, R. A. & Sweller, J. (1988). Guidance during mathematical 
+problem solving. Journal of Educational Psychology, 80(4):424—436.
+
+[VanLehn, 1983] VanLehn, K. (1983). Felicity conditions for human skill acquisition:
+validating an ni-based theory. Technical Report CIS-21, Xerox Parc, Palo Alto, CA.
+
+[VanLehn, 1987] VanLehn, K. (1987). Learning one subprocedure per lesson. Artificial
+Intelligence, 31:1—40.
+
+[Wegner, 1987] Wegner, E. (1987). Artificial intelligence and tutoring systems. Morgan 
+Kaufmann, Los Altos, CA.
+
+[Winston, 1970] Winston, P. (1970). Learning Structural Descriptions from Examples.
+PhD thesis, Massachussetts Institute of Technology, Cambridge, MA.

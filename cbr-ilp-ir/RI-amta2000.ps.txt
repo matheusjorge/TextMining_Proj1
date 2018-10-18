@@ -1,0 +1,96 @@
+Applying Machine Translation to Two­Stage
+Cross­Language Information Retrieval
+
+Atsushi Fujii and Tetsuya Ishikawa
+University of Library and Information Science
+1­2 Kasuga, Tsukuba, 305­8550, Japan
+E­mail: fujii@ulis.ac.jp
+
+Abstract. Cross­language information retrieval (CLIR), where queries
+and documents are in different languages, needs a translation of queries
+and/or documents, so as to standardize both of them into a common
+representation. For this purpose, the use of machine translation is an
+effective approach. However, computational cost is prohibitive in trans­lating 
+large­scale document collections. To resolve this problem, we pro­
+pose a two­stage CLIR method. First, we translate a given query into the
+document language, and retrieve a limited number of foreign documents.
+Second, we machine translate only those documents into the user lan­guage, 
+and re­rank them based on the translation result. We also show
+the effectiveness of our method by way of experiments using Japanese
+queries and English technical documents.
+
+
+References
+1. Lisa Ballesteros and W. Bruce Croft. Phrasal translation and query expansion
+techniques for cross­language information retrieval. In Proceedings of the 20th
+Annual International ACM SIGIR Conference on Research and Development in
+Information Retrieval, pp. 84--91, 1997.
+2. Lisa Ballesteros and W. Bruce Croft. Resolving ambiguity for cross­-language re­trieval. 
+In Proceedings of the 21st Annual International ACM SIGIR Conference
+on Research and Development in Information Retrieval, pp. 64--71, 1998.
+3. Jaime G. Carbonell, Yiming Yang, Robert E. Frederking, Ralf D. Brown, Yibing
+Geng, and Danny Lee. Translingual information retrieval: A comparative eval­uation. 
+In Proceedings of the 15th International Joint Conference on Artificial
+Intelligence, pp. 708--714, 1997.
+4. Mark W. Davis and William C. Ogden. QUILT: Implementing a large­scale cross­
+language text retrieval system. In Proceedings of the 20th Annual International
+ACM SIGIR Conference on Research and Development in Information Retrieval,
+pp. 92--98, 1997.
+5. Atsushi Fujii and Tetsuya Ishikawa. Cross­language information retrieval for tech­nical 
+documents. In Proceedings of the Joint ACL SIGDAT Conference on Empir­
+ical Methods in Natural Language Processing and Very Large Corpora, pp. 29--37,
+1999.
+6. Julio Gonzalo, Felisa Verdejo, Carol Peters, and Nicoletta Calzolari. Applying
+EuroWordNet to cross­language text retrieval. Computers and the Humanities,
+Vol. 32, pp. 185--207, 1998.
+7. David Hull. Using statistical testing in the evaluation of retrieval experiments. In
+Proceedings of the 16th Annual International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pp. 329--338, 1993.
+8. Noriko Kando, Kazuko Kuriyama, and Toshihiko Nozue. NACSIS test collection
+workshop (NTCIR­1). In Proceedings of the 22nd Annual International ACM SI­
+GIR Conference on Research and Development in Information Retrieval, pp. 299--
+300, 1999.
+9. E. Michael Keen. Presenting results of experimental retrieval comparisons. Infor­mation 
+Processing & Management, Vol. 28, No. 4, pp. 491--502, 1992.
+10. K.L. Kwok and M. Chan. Improving two­stage ad­hoc retrieval for short queries.
+In Proceedings of the 21st Annual International ACM SIGIR Conference on Re­search 
+and Development in Information Retrieval, pp. 250--256, 1998.
+11. Michael L. Littman, Susan T. Dumais, and Thomas K. Landauer. Automatic
+cross­language information retrieval using latent semantic indexing. In Gregory
+Grefenstette, editor, Cross­Language Information Retrieval, chapter 5, pp. 51--62.
+Kluwer Academic Publishers, 1998.
+12. Yuji Matsumoto, Akira Kitauchi, Tatsuo Yamashita, Osamu Imaichi, and Tomoaki
+Imamura. Japanese morphological analysis system ChaSen manual. Technical
+Report NAIST­IS­TR97007, NAIST, 1997. (In Japanese).
+13. J. Scott McCarley. Should we translate the documents or the queries in cross­
+language information retrieval? In Proceedings of the 36th Annual Meeting of the
+Association for Computational Linguistics, pp. 208--214, 1999.
+14. J. Scott McCarley and Salim Roukos. Fast document translation for cross­-language
+information retrieval. In Proceedings of the 3rd Conference of the Association for
+Machine Translation in the Americas, pp. 150--157, 1998.
+15. National Center for Science Information Systems. Proceedings of the 1st NTCIR
+Workshop on Research in Japanese Text Retrieval and Term Recognition, 1999.
+16. Jian­Yun Nie, Michel Simard, Pierre Isabelle, and Richard Durand. Cross­-language
+information retrieval based on parallel texts and automatic mining of parallel texts
+from the Web. In Proceedings of the 22nd Annual International ACM SIGIR
+Conference on Research and Development in Information Retrieval, pp. 74--81,
+1999.
+17. Douglas W. Oard. A comparative study of query and document translation for
+cross­language information retrieval. In Proceedings of the 3rd Conference of the
+Association for Machine Translation in the Americas, pp. 472--483, 1998.
+18. Gerard Salton. Automatic processing of foreign language documents. Journal of
+the American Society for Information Science, Vol. 21, No. 3, pp. 187--194, 1970.
+19. Gerard Salton. The SMART Retrieval System: Experiments in Automatic Docu­ment 
+Processing. Prentice­Hall, 1971.
+20. Gerard Salton and Christopher Buckley. Term­weighting approaches in automatic
+text retrieval. Information Processing & Management, Vol. 24, No. 5, pp. 513--523,
+1988.
+21. Padmini Srinivasan. A comparison of two­poisson, inverse document frequency and
+discrimination value models of document representation. Information Processing
+& Management, Vol. 26, No. 2, pp. 269--278, 1990.
+22. Ellen M. Voorhees. Variations in relevance judgments and the measurement of
+retrieval effectiveness. In Proceedings of the 21st Annual International ACM SIGIR
+Conference on Research and Development in Information Retrieval, pp. 315--323,
+1998.
+23. Justin Zobel and Alistair Moffat. Exploring the similarity space. ACM SIGIR
+FORUM, Vol. 32, No. 1, pp. 18--34, 1998.

@@ -1,0 +1,75 @@
+A Stochastic Simple Similarity
+
+Michèle Sebag
+
+LMS, Ecole Polytechnique, F-91128 Palaiseau
+LRI, Université Paris-Sud, F-91405 Orsay
+Michele.Sebag@polytechnique.fr
+
+
+
+Abstract. This paper continues a previous work using stochastic heuristics 
+to extract and exploit knowledge with no size restrictions, with polynomial 
+complexity.
+A simplified relational framework is described; within this framework,
+one basic learning component, the generalization operator, is reconsidered.
+Stochastic heuristics are combined with Plotkin’s least general generalization 
+to derive a stochastic generalization operator and a simple
+stochastic similarity function with controllable complexity.
+Preliminary experiments on the well-studied mutagenesis problem (regression-friendly 
+and regression-unfriendly datasets) demonstrate the potential 
+and the limitations of this similarity.
+References
+
+1.	G. Bisson. KBG: A knowledge base generalizer. In B. Porter and R. Mooney, editors, 
+Proceedings of the 7th International Conference on Machine Learning, pages
+9—15. Morgan Kaufmann, 1990.
+2.	G. Bisson. Learning in FOL with a similarity measure. In Proceedings of 10th
+AAAI, 1992.
+3.	D. Dolsak and S. Muggleton. The application of LLP to finite element mesh design. 
+In S. Muggleton, editor, Proceedings of the first International Workshop on
+Inductive Logic Programming, pages 453—472, 1991.
+4.	R.O. Duda and P.E. Hart. Pattern Classification and scene analysis. John Wiley
+and sons, Menlo Park, CA, 1973.
+5.	W. Emde and D. Wettscherek. Relational instance based learning. In L. Saitta,
+editor, Proceedings of the 13th International Conference on Machine Learning,
+pages 122—130, 1996.
+6.	RD. King, A. Srinivasan, and M.J.E. Sternberg. Relating chemica activity to
+structure: an examination of ILP successes. New Gen. Comput., 13, 1995.
+7.	Y. Kodratoff and J.-G. Ganascia. Improving the generalization step in learning.
+In R.S. Michaiski, J.G. Carbonell, and T.M. Mitchell, editors, Machine Learning
+.	an artificial intelligence approach, volume 2, pages 215—244. Morgan Kaufmann,
+1986.
+8.	R. Kohavi and G.H. John. Automatic parameter selection by minimizing estimated
+error. In A. Prieditis and S. Russell, editors, Proceedings of ICML-95, International
+Conference on Machine Learning, pages 304—312. Morgan Kaufmann, 1995.
+9.	R.S. Michalski. A theory and methodology of inductive learning. In R.S Michaski, 
+J.G. Carbonell, and T.M. Mitchell, editors, Machine Learning : an artificial
+intelligence approach, volume 1, pages 83—134. Morgan Kaufmann, 1983.
+10.	R. Mooney. ILP for natural language processing. In S. Muggleton, editor, Inductive
+Logic Programming, ILP96 — Selected papers. Springer-Verlag LNAI 1314, 1997.
+11.	S. Muggleton. Inductive logic programming. In S. Muggleton, editor, Inductive
+Logic Programming. Academic Press, 1992.
+12.	S. Muggleton. Inverse entailment and PROGOL. New Gen. Comput., 13:245—286,
+1995.
+13.	S. Muggleton and L. De Raedt. Inductive logic programming: Theory and methods.
+Journal of Logic Programming, 19:629—679, 1994.
+14.	G. Plotkin. A note on inductive generalization. In Machine Intelligence, volume 5.
+Edinburgh University Press, 1970.
+15.	J.R. Quinlan. Learning logical definition from relations. Machine Learning, 5:239-
+266, 1990.
+16.	L. De Raedt. Induction in logic. In Proceedings of 3nd International Workshop on
+Multistrategy Learning, pages 29—38. AAAI Press, 1996.
+17.	C. Rouveirol. Flattening and saturation: Two representation changes for generalization. 
+Machine Learning, 14:219-232, 1994.
+18.	T. Scheffer and R. Herbrich. Unbiased assessment of learning algorithms. In
+Proceedings of IJCAI-97, pages 798—803. Morgan Kaufmann, 1997.
+19.	M. Sebag and C. Rouveirol. Tractable induction and classification in FOL. In
+Proceedings of IJCAI-97, pages 888—892. Morgan Kaufmann, 1997.
+20.	A. Srinivasan. The predictive toxicology evaluation challenge. In Proceedings of
+IJCAI-97’, pages 4—8. Morgan Kaufmann, 1997.
+21.	A. Srinivasan, S.H. Muggleton, M.J.E. Sternberg, and R.D. King. Theories for mutagenicity: 
+a study in first order and feature-based induction. Artificial Intelli9ence,
+85:277—299, 1996.
+22.	D. Wettscherek and T.G. Dietterich. An experimental comparison of the nearest-neighbor 
+and nearest hyperrectangle algorithms. Machine Learnin9, 19:5—27, 1995.

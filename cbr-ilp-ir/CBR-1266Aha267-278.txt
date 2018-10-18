@@ -1,0 +1,61 @@
+Refining Conversational Case Libraries
+
+David W. Aha and Leonard A. Breslow
+
+Navy Center for Applied Research in Artificial Intelligence
+Naval Research Laboratory, Washington, DC 20375 USA
+{aha,breslow}@aic.nrl.navy.mil
+
+
+
+Abstract. Conversational case-based reasoning (CBR) shells (e.g., Inference’s 
+CBR Express) are commercially successful tools for supporting
+the development of help desk and related applications. In contrast to
+rule-based expert systems, they capture knowledge as cases rather than
+more problematic rules, and they can be incrementally extended. However, 
+rather than eliminate the knowledge engineering bottleneck, they
+refocus it on case engineering, the task of carefully authoring cases according 
+to library design guidelines to ensure good performance. Designing 
+complex libraries according to these guidelines is difficult; software is
+needed to assist users with case authoring. We describe an approach for
+revising case libraries according to design guidelines, its implementation
+in CLIRE, and empirical results showing that, under some conditions, this
+approach can improve conversational CBR performance.
+References
+
+Auriol, E., Wess. S., Manago, M., Althoff, K. -D., & Traphöner, R. (1995). INRECA: A
+seamlessly integrated system based on inductive inference and case-based reasoning. 
+Proceedings of the First ICCBR (pp. 371—380). Sesimbra, Portugal: Springer.
+Breslow, L., & Aha, D. W. (1997). Simplifying decision trees: A survey. To appear in
+Knowledge Engineering Review.
+Cardie, C. (1993). Using decision trees to improve case-based learning. Proceedings of
+the Tenth ICML (pp. 25—32). Amherst, MA: Morgan Kaufmann.
+Domingos, P. (1997). Context-sensitive feature selection for lazy learners. Artificial
+Intelligence Review, 11, 227—253.
+Fox, S., & Leake, D. L. (1995). Using introspective reasoning to refine indexing. Proceedings 
+of the Fourteenth IJCAI (pp. 391—397). Montreal: Morgan Kaufmann.
+Heider, R., Auriol, E., Tartarin, E., & Manago, M. (1997). Improving the quality
+of case bases for building better decision support systems. In R. Bergmann &
+W. Wilke (Eds.) Fifth German Workshop on CBR: Foundations, Systems, and
+Applications (Technical Report LSA-97-01E). University of Kaiserslautern, Department 
+of Computer Science.
+Inference Corporation (1995). CBR2: Designing CBR Express Case Bases. Unpublished.
+Kitano H., Shimazu H., & Shibata A. (1993). Case-method: A methodology for building 
+large-scale case-based systems. Proceedings of the Eleventh NCAI (pp. 303—308). Washington, DC: AAAI Press.
+Ku, S., & Suh, Y.-H. (1996). An investigation of the K-tree search algorithm for
+efficient case representation and retrieval. Expert Systems with Applications, 11,
+571—581.
+Manago, M., Althoff, K.-D., Auriol, E., Traphoner, R., Wess, S., Conruyt, N., &
+Maurer, F. (1993). Induction and reasoning from cases. Proceedings of the First
+EWCBR (pp. 313—318). Kaiserslautern, Germany: Springer-Verlag.
+Nguyen, T., Czerwinsksi, M., & Lee, D. (1993). COMPAQ QuickSource: Providing
+the consumer with the power of artificial intelligence. Proceedings of the Fifth IAAI
+(pp. 142—150). Washington, DC: AAAI Press.
+Quinlan, J. R. (1986). Induction of decision trees. Machine Learning, 1, 81—106.
+Quinlan, J. R. (1989). Unknown attribute values in induction. Proceedings of the Sixth
+IWML (pp. 164—168). Ithaca, NY: Morgan Kaufmann.
+Smyth, B., & Cunningham, P. (1994). A comparison of incremental CBR and inductive 
+learning. In M. Keane, 3. P. Haton, & M. Manago (Eds.) Working Papers of
+the Second EWCBR. Chantilly, France: Unpublished.
+Tan, M., & Schlimmer, J. C. (1990). Two case studies in cost-sensitive concept acquisition. 
+Proceedings of the Eighth NCAI (pp. 854—860). Boston, MA: AAAI Press.

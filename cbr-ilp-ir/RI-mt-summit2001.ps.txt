@@ -1,0 +1,118 @@
+PRIME: A System for Multi­lingual Patent Retrieval
+
+Shigeto Higuchi y , Masatoshi Fukui y , Atsushi Fujii yy;yyy , and Tetsuya Ishikawa yy
+y PATOLIS Corporation
+2­4­29 Shiohama Koto­ku, 135­0043, Japan
+yy University of Library and Information Science
+1­2 Kasuga Tsukuba, 305­8550, Japan
+yyy CREST, Japan Science and Technology Corporation
+fujii@ulis.ac.jp
+
+Abstract
+Given the growing number of patents filed in multiple countries, users are interested in retrieving patents across languages.
+We propose a multi­lingual patent retrieval system, which translates a user query into the target language, searches a
+multilingual database for patents relevant to the query, and improves the browsing efficiency by way of machine translation
+and clustering. Our system also extracts new translations from patent families consisting of comparable patents, to enhance
+the translation dictionary.
+
+
+References
+Lisa Ballesteros and W. Bruce Croft. 1998. Resolving 
+am­biguity for cross­language retrieval. In Proceedings of
+the 21st Annual International ACM SIGIR Conference
+on Research and Development in Information Retrieval,
+pages 64--71.
+Eric Brill. 1995. Transformation­based error­driven learn­ing 
+and natural language processing: A case study
+in part­of­speech tagging. Computational Linguistics,
+21(4):543--565.
+Jaime G. Carbonell, Yiming Yang, Robert E. Frederking,
+Ralf D. Brown, Yibing Geng, and Danny Lee. 1997.
+Translingual information retrieval: A comparative eval­uation. 
+In Proceedings of the 15th International Joint
+Conference on Artificial Intelligence, pages 708--714.
+Christiane Fellbaum, editor. 1998. WordNet: An Elec­tronic 
+Lexical Database. MIT Press.
+Gene Ferber. 1989. English­Japanese, Japanese­English
+Dictionary of Computer and Data­Processing Terms.
+MIT Press.
+Atsushi Fujii and Tetsuya Ishikawa. 1999. Cross­-language
+information retrieval for technical documents. In Pro­ceedings 
+of the Joint ACL SIGDAT Conference on Em­pirical 
+Methods in Natural Language Processing and
+Very Large Corpora, pages 29--37.
+Atsushi Fujii and Tetsuya Ishikawa. 2001. Evaluating
+multi­lingual information retrieval and clustering at
+ULIS. In Proceedings of the 2nd NTCIR Workshop Meet­ing 
+on Evaluation of Chinese & Japanese Text Retrieval
+and Text Summarization.
+Atsushi Fujii and Tetsuya Ishikawa. (To appear).
+Japanese/English cross­language information retrieval:
+Exploration of query translation and transliteration.
+Computers and the Humanities.
+Masatoshi Fukui, Shigeto Higuchi, Youichi Nakatani,
+Masao Tanaka, Atsushi Fujii, and Tetsuya Ishikawa.
+2000. Applying a hybrid query translation method to
+Japanese/English cross­language patent retrieval. In
+ACM SIGIR Workshop on Patent Retrieval.
+Julio Gonzalo, Felisa Verdejo, Carol Peters, and Nico­
+letta Calzolari. 1998. Applying EuroWordNet to cross­
+language text retrieval. Computers and the Humanities,
+32:185--207.
+Makoto Iwayama and Takenobu Tokunaga. 1995. Hier­archical 
+Bayesian clustering for automatic text classifi­cation. 
+In Proceedings of the 14th International Joint
+Conference on Artificial Intelligence, pages 1322--1327.
+Noriko Kando, Kazuko Kuriyama, and Toshihiko Nozue.
+1999. NACSIS test collection workshop (NTCIR­1). In
+Proceedings of the 22nd Annual International ACM SI­
+GIR Conference on Research and Development in Infor­mation 
+Retrieval, pages 299--300.
+Michael L. Littman, Susan T. Dumais, and Thomas K.
+Landauer. 1998. Automatic cross­language information
+retrieval using latent semantic indexing. In Gregory
+Grefenstette, editor, Cross­Language Information Re­trieval, 
+chapter 5, pages 51--62. Kluwer Academic Pub­
+lishers.
+Yuji Matsumoto, Akira Kitauchi, Tatsuo Yamashita,
+Yoshitaka Hirano, Hiroshi Matsuda, and Masayuki Asa­hara. 
+1999. Japanese morphological analysis system
+ChaSen version 2.0 manual 2nd edition. Technical Re­port NAIST­IS­TR99009, NAIST.
+J. Scott McCarley. 1999. Should we translate the docu­ments 
+or the queries in cross­language information re­trieval? 
+In Proceedings of the 37th Annual Meeting of the
+Association for Computational Linguistics, pages 208--
+214.
+Jian­Yun Nie, Michel Simard, Pierre Isabelle, and Richard
+Durand. 1999. Cross­language information retrieval
+based on parallel texts and automatic mining of parallel
+texts from the Web. In Proceedings of the 22nd Annual
+International ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 74--81.
+Douglas W. Oard and Philip Resnik. 1999. Support for in­teractive 
+document selection in cross­language informa­
+tion retrieval. Information Processing & Management,
+35(3):363--379.
+Douglas W. Oard. 1998. A comparative study of query
+and document translation for cross­language information
+retrieval. In Proceedings of the 3rd Conference of the
+Association for Machine Translation in the Americas,
+pages 472--483.
+S. E. Robertson and S. Walker. 1994. Some simple effective
+approximations to the 2­poisson model for probabilistic
+weighted retrieval. In Proceedings of the 17th Annual
+International ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 232--241.
+Gerard Salton. 1970. Automatic processing of foreign lan­guage 
+documents. Journal of the American Society for
+Information Science, 21(3):187--194.
+Frank Smadja, Kathleen R. McKeown, and Vasileios Hatzi­
+vassiloglou. 1996. Translating collocations for bilingual
+lexicons: A statistical approach. Computational Linguis­tics, 
+22(1):1--38.
+Kaoru Yamamoto and Yuji Matsumoto. 2000. Acquisi­tion 
+of phrase­level bilingual correspondence using de­pendency 
+structure. In Proceedings of the 18th Interna­tional 
+Conference on Computational Linguistics, pages
+933--939.
+

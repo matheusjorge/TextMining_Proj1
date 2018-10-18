@@ -1,0 +1,45 @@
+Multilingual Information Retrieval based on
+Parallel Texts from the Web
+
+Jian­Yun Nie, Michel Simard, George Foster
+Laboratoire RALI,
+Département d'Informatique et Recherche opérationnelle,
+Université de Montréal
+C.P. 6128, succursale Centre­ville
+Montréal, Québec, H3C 3J7 Canada
+{nie, simardm, foster}@iro.umontreal.ca
+
+Abstract. In this paper, we describe our approach in CLEF Cross­ Language IR
+(CLIR) tasks. In our experiments, we used statistical translation models for
+query translation. Some of the models are trained on parallel web pages that are
+automatically mined from the Web. Others are trained from bilingual
+dictionaries and lexical databases. These models are combined in query
+translation. Our goal in this series of experiments is to test if the parallel web
+pages can be used effectively to translate queries in multilingual IR. In
+particular, we compare models trained on Web documents with models that also
+combine other resources such as dictionaries. Our results show that the models
+trained on the parallel web pages can achieve reasonable CLIR performance.
+However, combining models effectively is a difficult task, and single models
+still yield better results.
+
+
+References
+1. Brown, P. F., Pietra, S. A. D., Pietra, V. D. J., Mercer, R. L.: The mathematics of machine
+translation: Parameter estimation. Computational Linguistics, vol. 19 (1993) pp. 263­312
+2. Chen, J.: Parallel Text Mining for Cross­Language Information Retrieval using a
+Statistical Translation Model, M.Sc. Thesis, DIRO, University of Montreal (2000)
+3. W. A. Gale, K.W. Church, A program for aligning sentences in bilingual corpora,
+Computational Linguistics, 19:1 (1993) 75­102
+4. Franz, M., McCarley, J.S., Roukos, S.: Ad hoc and multilingual information retrieval at
+IBM, The Seventh Text Retrieval Conference (TREC­7), NIST SP 500­242 (1998) 157­
+168
+5. J.Y. Nie, P. Isabelle, M. Simard, R. Durand, Cross­language information retrieval based
+on parallel texts and automatic mining of parallel texts from the Web, ACM­SIGIR
+conference, Berkeley, CA (1999) 74­81
+6. M. Simard, G. Foster, P. Isabelle, Using Cognates to Align Sentences in Parallel Corpora,
+Proceedings of the 4th International Conference on Theoretical and Methodological Issues
+in Machine Translation, Montreal (1992)
+7. http://www.cs.ualberta.ca/~oracle8/oradoc/DOC/cartridg.804/a58165/appa.htm
+8. http://www.muscat.com
+9. ftp://ftp.cs.cornell.edu/pub/smart/
+

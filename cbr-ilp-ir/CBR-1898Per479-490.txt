@@ -1,0 +1,80 @@
+CBR-Based Ultra Sonic Image Interpretation
+
+Petra Perner
+
+Institute of Computer Vision and Applied Computer Sciences
+Arno-Nitzsche-Str. 45, 04277 Leipzig, Germany
+Email: ibaiperner@aol.com http://members.aol.com/ibaiperner
+
+
+
+Abstract. The existing image interpretation systems lack robustness and
+accuracy. They cannot adapt to changing environmental conditions or to new
+objects. The application of machine learning to image interpretation is the next
+logical step. Our proposed approach aims at the development of dedicated
+machine learning techniques at all levels of image interpretation in a systematic
+fashion. In this paper we propose a system which uses Case-Based Reasoning
+(CBR) to optimize image segmentation at the low level according to changing
+image acquisition conditions and image quality. The intermediate-level unit
+extracts the case representation used by the high-level unit for further
+processing. At the high level, CBR is employed to dynamically adapt image
+interpretation.
+References
+
+[1]	P. Perner, Ultra Sonic Image Segmentation and Interpretation based on CBR, In: M.H.
+Göker (ed.), 8th German Workshop on Case-Based Reasoning GWCBR2000, p.133-
+145.
+
+[2]	P. Perner, An Architeture for a CBR Image Segmentation System, Journal on
+Engineering Application in Artificial Intelligence, Engineering Applications of
+Artificial Intelligence, vol. 12(6), 1999, p. 749-759
+
+[3]	P. Perner, An Architeture for a CBR Image Segmentation System, In: K.-D. Aithoff, R.
+Bergmann, and K. Branting (Eds.) Case-Based Reasoning Research and Development,
+lnai 1650, Springer Verlag, 1999, pp. 525-535
+
+[4]	Perner P., Paetzold W. An Incremental Learning System for Interpretation of Images.
+In: D. Don and A. Bruckstein (eds.). Shape, Structure, and Pattern Recognition. World
+Scientific Publishing Co., 1995, pp 311-323.
+
+[5]	Perner P., Paetzold W. An Incremental Learning System for Image Interpretation.
+HTWK Report 5/93.
+[6]	M. Grimnes and A. Amondt, A Two Layer Case-Based Reasoning Architecture for
+Medical Image Understanding, In: I. Smith and B. Faltings (Eds.), Advances in Case-Based 
+Reasoning, Springer Verlag 1996, lnai 1168, pp. 164-178.
+
+[7] V. Ficet-Cauchard, C. Porquet, and M. Revenu, CBR for the Reuse of Image
+
+Processing Knowledge: A Recursive Retrieval/Adaption Strategy, In: K.-D. Althoff, R.
+
+Bergmann, and L.K. Branting (Eds.), Case-Based Reasoning Research and
+
+Development, Springer Verlag 1999, lnai 1650, pp.438-452.
+
+[8]	Perner P., Anderson P., Summner D., Kyle J. An Application of Case-based Reasoning
+in Test Process Diagnosis. In Proceedings of the IBM ITL Conference on Expert
+Systems, Yorktown Heights USA, 1992, pp 73-85, Plenary Talk.
+
+[9]	Perner P. Ultra Sonic Image Interpretation for Non-Destructive Testing. In Proceedings
+of the IAPR Workshop on Machine Vision Applications, 1996, pp 552-554.
+
+[10]	Schlesinger M.I. Mathematical Tools of Picture Processing. Naukowa Duma, Kiew
+1989.
+
+[11]	Pemer P. Case-Based Reasoning for Image Interpretation. In: V. Hiava_ and R. Sárka
+(eds.). Computer Analysis of Images and Patterns. Springer Verlag, 1995, pp 532-537.
+
+[12] Tversky A. Feature of Similarity. Psychological Review 1977; 84(4): 111-147.
+
+[13]	Zamperoni and V. Starovoitov, ,,How dissimilar are two gray-scale images”, In Proc. of
+17. DAGM Symposium 1995,Springer Verlag, pp.448-455
+
+[14]	Schmitz V. Ultra Sonic Imaging Techniques. In Proceedings of the DGzfP- Annual
+Conference, 1989.
+
+[15]	Hemandey D. Relative Representation of Spatial Knowledge: The 2-D Case. Report
+FKI 135-90, Aug. 1990, TU München
+
+[16]	P. Perner, Different Learning Strategies in a Case-Based Reasoning System for Image
+Interpretation, Advances in Case-Based Reasoning, B. Smith and P. Cunningham
+(Eds.), LNAI 1488, Springer Verlag 1998, 5. 251-261.

@@ -1,0 +1,39 @@
+A Multivalued Conditional Logic with Probabilistic
+Interpretation for Causal Decision Theory
+
+François Lepage
+Département de philosophie
+Université de Montréal
+Jian­Yun Nie
+Dept. d'informatique et R. O.
+Université de Montréal
+
+Causal decision theory has been developed to deal with rational decision making in the case
+where making a decision may be seen as an indication that some outcome will obtain. It has
+been suggested that counterfactual conditionals should be used in such a decision situation. The
+crucial problem posed is that of calculating the probability of a counterfactual conditional. The
+only technique available until now is imaging which, however, only applies to a restricted
+structure of possible worlds. In order to make the causal decision theory applicable to the
+general case, in this paper, we extend the imaging technique to the general structure. This
+results in a logic in which counterfactual conditionals are multivalued. We further provide a
+probabilistic interpretation to this logic.
+
+References
+[1] M. L. Ginsberg, ``Counterfactuals,'' Artificial Intelligence, vol. 30, pp. 35­79, 1986.
+[2] A. Gibbard and W. L. Harper, ``Counterfactuals and two Kinds of expected utility,'' in Ifs,
+W. L. Harper, R. Stalnaker, and G. Pearce, Eds. Cambridge: Reidel, 1981, pp.153­190.
+[3] R. C. Jeffrey, The logic of decision. New York: McGraw­Hill, 1965.
+[4] R. Nozick, ``Newcomb's problem and two principles of choice,'' in Essays in honor of
+Carl G. Hempel, N. Rescher, Ed. Dordrecht­Holland: Reidel, 1969.
+[5] D. Lewis, ``Probability of conditionals and conditional probabilities,'' Philosophical
+Review, vol. LXXXV, pp. 297­315, 1976.
+[6] P. Gärdenfors, ``Imaging and conditionalization,'' The Journal of Philosophy, vol. 79, pp.
+747­760, 1982.
+[7] P. Gärdenfors, Knowledge in Flux: Modeling in Dynamics of Epistemic States.
+Cambridge: MIT Press, 1988.
+[8] D. Nute, Topics in Conditional Logic, vol. 20. Dordrecht, Holland: Reidel, 1980.
+[9] D. Lewis, Counterfactuals: Harvard University Press, 1973.
+[10] I. R. Goodman and H. T. Nguyen, ``A Theory of Conditional Information for
+Probabilistic Inference in Intelligent Systems: III. Mathematical Appendix,'' Information
+Sciences, vol. 75, pp. 253­277, 1993.
+

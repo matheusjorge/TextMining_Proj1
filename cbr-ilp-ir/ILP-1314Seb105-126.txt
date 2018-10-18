@@ -1,0 +1,127 @@
+Polynomial-Time Learning
+in Logic Programming
+and Constraint Logic Programming
+
+Michèle Sebag’ and Céline Rouveirol2
+
+(1)	LMS - URA CNRS 317, (2) LRI - URA CNRS 410,
+	Ecole Polytechnique	Université Paris Sud,
+F-91128 Palaiseau Cedex F-91405 Orsay Cedex
+Michele.Sebag@polytechnique.fr Celine.Rouveirol@lri.fr
+
+
+Abstract. Induction in first-order logic languages suffers from an additional 
+factor of complexity compared to induction in attribute-value
+languages: the number of possible matchings between a candidate hypothesis 
+and a training example.
+This paper investigates the use of a stochastic bias to control this factor
+of complexity: the exhaustive exploration of the matching space is replaced 
+by considering a fixed number of matchings, obtained by random
+sampling. One thereby constructs from positive and negative examples
+a theory which is only approximately consistent. Both the degree of approximation 
+and the computational cost of induction are controlled from
+the number of samples allowed.
+This approach is illustrated and validated on the mutagenesis problem.
+An ad hoc sampling mechanism has been purposely designed, and experimental 
+results fully demonstrates the power of stochastic approximate
+induction, in terms of both predictive accuracy and computational cost.
+Furthermore, this approach applies for learning both logic programs (as it
+is usually the case in ILP) and constrained logic programs, i.e. extended
+logic programs that can naturally handle numerical information. The
+gain of learning constrained logic programs for the mutagenesis problem
+is evaluated by comparing the predictive accuracy of the theories induced
+in both languages.
+References
+
+1.	F. Bergadano and A. Giordana. Guiding induction with domain theories. In
+Y. Kodratoff and R.S. Michaiski, editors, Machine Learning: an artificial intelligence 
+approach, volume 3, pages 474—492. Morgan Kaufmann, 1990.
+2.	G. Bisson. Learning in FOL with a similarity measure. In Proceedings of 10th
+AAAI, 1992.
+3.	M. Botta and A. Giordana. Smart+ : A multi-strategy learning tool. In Proceedings 
+of IJCAI-93, pages 937—943. Morgan Kaufmann, 1993.
+4.	P. Clark and T. Niblett. Induction in noisy domains. In I. Bratko and N. Lavrac,
+editors, Proc. of European WorkShop on Learning, pages 11—30. Sigma Press, 1987.
+5.	W. Emde and D. Wettscherek. Relational Instance Based Learning. In L. Saitta,
+editor, Proceedings of the 13th International Conference on Machine Learning,
+pages 122—130, 1996.
+6.	M. Gains. New measurements highlight the importance of redundant knowledge.
+In K. Morik, editor, Proceedings of EWSL-89, pages 71—80. Pitman, London, 1989.
+7.	A. Giordana and L. Saitta. REGAL: An integrated system for learning relations
+using genetic algorithms. In Proceedings of 2nd International Workshop on Multistrategy 
+Learning, pages 234—249. Harpers Ferry, 1993.
+8.	J. Jaffar and J. L. Lassez. Constraint Logic Programming. In Proc. of the fourteenth 
+ACM Symposium on the Principles of Programming Languages, pages 111—
+119, 1987.
+9.	K. E. Kinnear. A perspective on GP. In K. E. Kinnear, editor, Advances in Genetic 
+Programming, pages 3—19. MIT Press, Cambridge, MA; 1994.
+10.	A. Karalic. First Order Regression. PhD thesis, Institut Josef Stefan, Ljubljana,
+Slovenia, 1995.
+11.	R.D. King, A. Srinivasan, and M.J.E. Sternberg. Relating chemical activity to
+structure: an examination of ILP successes. New Gen. Comput., 13, 1995.
+12.	R. Kohavi. The power of decision tables. In N. Lavrac and S. Wrobel, editors,
+Proceedings of ECML-95, European Conference on Machine Learning, pages 174—
+189. Springer-Verlag, 1995.
+13.	R. Kohavi and G.H. John. Automatic Parameter Selection by Minimizing Estimated 
+Error. In A. Prieditis and S. Russell, editors, Proceedings of ICML-95, International 
+Conference on Machine Learning, pages 304—312. Morgan Kaufmann,
+1995.
+14.	M. Kovacic. MILP: A stochastic approach to ILP. In S. Wrobel, editor, Proceedings 
+of ILP-94, International Workshop on Inductive Logic Programming, 1994.
+15.	N. Lavrac, S. Dzeroski, and M. Grobelnick. Learning non recursive definitions of
+relations with LINUS. In Proceedings of EWSL ‘91, 1991.
+16.	R.S. Michalski. A theory and methodology of inductive learning. In R.S Michalski, 
+J.G. Carbonell, and T.M. Mitchell, editors, Machine Learning: an artificial
+intelligence approach, volume 1. Morgan Kaufmann, 1983.
+17.	R.S. Michalski, I. Mozetic, J. Hong, and N. Lavrac. The AQ15 inductive learning
+system: an overview and experiment. In Proceedings of IMAL, 1986.
+18.	T.M. Mitchell. Generalization as search. Artificial Intelligence, 18:203-226, 1982.
+19.	S. Muggleton. Bayesian inductive logic programming. In M. Warmuth, editor,
+Proceedings of COLT-94, ACM Conference on Computational Learning, pages 3-
+11. ACM Press, 1994.
+20.	S. Muggleton. Inverse entailment and PROGOL. New Gen. Comput., 13:245—286,
+1995.
+21.	S. Muggleton and L. De Raedt. Inductive logic programming: Theory and methods. 
+Journal of Logic Programming, 19:629—679, 1994.
+22.	S. Muggleton and C. Feng. Efficient induction of logic programs. In Proceedings
+of the 1st conference on algorithmic learning theory. Ohmsha, Tokyo, Japan, 1990.
+23.	R. Nok and O. Gascuel. On learning decision committees. In A. Prieditis and
+S. Russell, editors, Proceedings of ICML-95, International Conference on Machine
+Learning, pages 413—420. Morgan Kaufmann, 1995.
+24.	M. Pazzani and D. Kibler. The role of prior knowledge in inductive learning. Machine 
+Learning, 9:54—97, 1992.
+25.	J.R. Quinlan. Learning logical definition from relations. Machine Learning, 5:239-
+266, 1990.
+26.	M. Sebag. A constraint-based induction algorithm in FOL. In W. Cohen and
+H. Hirsh, editors, Proceedings of ICML-94, International Conference on Machine
+Learning. Morgan Kaufmann, J1994.
+27.	M. Sebag. Using constraints to building version spaces. In L. De Raedt and
+F. Bergadano, editors, Proceedings of ECML-94, European Conference on Machine
+Learning. Springer Verlag, 1994.
+28.	M. Sebag. Delaying the choice of bias: A disjunctive version space approach. In
+L. Saitta, editor, Proceedings of the 13th International Conference on Machine
+Learning, pages 444—452. Morgan Kaufmann, 1996.
+29.	M. Sebag and C. Rouveirol. Induction of maximally general clauses compatible
+with integrity constraints. In S. Wrobel, editor, Proceedings of ILP-94, International 
+Workshop on Inductive Logic Programming, 1994.
+30.	M. Sebag and C. Rouveirol. Constraint inductive logic programming. In
+L. de Raedt, editor, Advances in ILP, pages 277—294. los Press, 1996.
+31.	M. Sebag, C. Rouveirol, and J.F. Puget. ILP + stochastic bias = polynomial approximate 
+learning. In Proceedings of 3rd International Workshop on MultiStrategy
+Learning. MIT Press, 1996, to appear.
+32.	B.D. Smith and P.S. Rosembloom. Incremental non-backtracking focusing: A polynomially 
+bounded generalization algorithm for version space. In Proceedings of
+AAAI-90, pages 848—853. Morgan Kaufmann, 1990.
+33.	A. Srinivasan and S. Muggleton. Comparing the use of background knowledge
+by two ILP systems. In L. de Raedt, editor, Proceedings of ILP-95. Katholieke
+Universiteit Leuven, 1995.
+34.	A. Srinivasan, personal communication.
+35.	L.G. Valiant. A theory of the learnable. Communication of the ACM, 27:1134—
+1142, 1984.
+36.	M.L. Wong and K.S. Leung. Combining genetic programming and inductive logic
+programming using logic grammars. In D. B. Fogel, editor, Proceedings of the
+Second IEEE International Conference on Evolutionary Computation, pages 733—
+736.	IEEE Press, 1995.
+37.	J.-D. Zucker and J.-G. Ganasda. Selective reformulation of examples in concept
+learning. In W. Cohen and H. Hirsh, editors, Proc. of 11th International Conference on 
+Machine Learning, pages 352—360. Morgan Kaufmann, 1994.

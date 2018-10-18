@@ -1,0 +1,86 @@
+Efficient Ø-Subsumption Based on Graph
+Algorithms
+
+
+Tobias Scheffer, Raif Herbrich and Fritz Wysotzki
+
+Technische Universität Berlin, Artificial Intelligence Research Group, Sekr. FR 5-8,
+Franklinstr. 28/29, D-10587 Berlin, email: scheffer@cs.tu-berlin.de
+
+
+
+Abstract. The Ø-subsumption problem is crucial to the efficiency of
+ILP learning systems. We discuss two Ø-subsumption algorithms based on
+strategies for preselecting suitable matching literals. The class of clauses,
+for which subsumption becomes polynomial, is a superset of the deterministic 
+clauses. We further map the general problem of Ø-subsumption
+to a certain problem of finding a clique of fixed size in a graph, and
+in return show that a specialization of the pruning strategy of the Carraghan 
+and Pardalos clique algorithm provides a dramatic reduction of
+the subsumption search space. We also present empirical results for the
+mesh design data set.
+References
+
+[BM92]	B. Dolsak and S. Muggleton. The application of inductive logic programming 
+to finite-element mesh design. In Inductive Logic Programming, Lon-
+don, 1992. Academic Press.
+[CP9O]	R. Carraghan and P. Pardalos. An exact algorithm for the maximum clique
+problem. Operations Research Letters, 9:375—382, 1990.
+[DB93]	L. DeRaedt and M. Bruynooghe. A theory of clausal discovery. In Proc.
+Workshop on ILP, 1993.
+[DMR92]	S. Dzeroski, S. Muggleton, and S. Russel. Pac-learnability of determinate
+logic programs. In Proc. 5th ACM Workshop on Computational Learning
+Theory, pages 128—135, 1992.
+[Eis8l] N. Eisinger. Subsumption and connection graphs. In Proc. IJCAI, 1981.
+[FGL+ 91] U. Feige, S. Goidwasser, L. Lovasz, S. Safra, and M. Szegedy. Approximating 
+the maxcique is almost NP-complete. In Proc. 32nd IEEE Symp. on
+Foundations of Comp. Sci., 1991.
+[GHP96]	L. Gibbons, D. Hearn, and P. Pardalos. A continuous based heuristic for
+the maximum clique problem. In Clique, Graph Coloring and Satisfiability:
+Second DIMACS Implementation Challenge, 1996.
+[GL85]	G. Gottlob and A. Leitsch. On the efficiency of subsumption algorithms.
+J. ACM, 32(2):280—295, 1985.
+[Got87]	G. Gottlob. Subsumption and implication. Information Processing Letters,
+24:109—111, 1987.
+[GW96a]	P. Geibel and F. Wysotzki. Learning relational concepts with decision
+trees. In Proc. ICML, 1996.
+[GW96b]	P. Geibel and F. Wysotzki. Relational learning with decision trees. In
+Proc. ECAI, 1996.
+[JT96]	D. S. Johnson and M. A. Trick, editors. Clique, Graph Coloring and Satisfiability: 
+Second DIMA CS Implementation Challenge, DIMACS series, 1996.
+[KC92]	B. M. Kim and J. W. Cho. A new subsumption method in the connection
+graph proof procedure. Theoretical Computer Science, 103:283—309, 1992.
+[KL94]	J.-U. Kietz and M. Lübbe. An efficient subsumption algorithm for inductive 
+logic programming. In Proc. International Conference on Machine
+Learning, 1994.
+[KN86]	D. Kapur and P. Narendran. NP-completeness of the set unification and
+matching problems. In Proc. 8th International Conference on Automated
+Deduction, 1986.
+[Kow75]	R. Kowalski. A proof procedure using connection graphs. J. A CM,
+22(4):572—595, 1975.
+[Lov78]	D. W. Loveland. Automated theorem proving: A logical basis. Elsevier,
+North Holland, 1978.
+[MF9O] S. Muggleton and C. Feng. Efficient induction of logic programs. In Proc.
+1st Conf. on Algorithmic Learning Theory, pages 368—381, 1990.
+[Mug93] S. Muggleton. Inverting implication. Artificial Intelligence Journal, 1993.
+[Plo70]	G. D. Plotkin. A note on inductive generalization. In B. Meltzer and
+D. Michie, editors, Machine Intelligence, volume 5, pages 153—163, 1970.
+[Rob65]	J. A. Robinson. A machine-oriented logic based on the resolution principle.
+J. ACM, 12(1):23—41, 1965.
+[Sic76]	Sharon Sickel. A search technique for clause interconnectivity graphs.
+IEEE Transactions on Computers, C-25(8):823—835, 1976.
+[Soc88]	R. Socher. A subsumption algorithm based on characteristic matrices. In
+Proc. 9th Int. Conf. on Automated Deduction, 1988.
+[Tin76]	G. Tinhofer. Zum algorithmischen Nachweis der Isomorphie von endlichen
+Graphen. In H. Noltemeier, editor, Graphen, Algorithmen, Datenstruk-
+turen. 2. Fachtagung über Graphentheoretische Konzepte der Informatik.
+Carl Hanser Verlag, 1976.
+[UW81]	S. Unger and F. Wysotzki. Lernfähige Klassifizierungssysteme. Akademie
+Verlag Berlin, 1981.
+[vdLNC93]	P. van der Laag and S. Nienhuys-Cheng. Subsumption and refinement in
+model inference. In Machine Learning: ECML, 1993.
+[Wei76] B. Weisfeiler. On Construction and Identification of Graphs. Number 558
+in Lecture Notes in Mathematics. Springer Verlag, Berlin, 1976.
+[WSK81]	F. Wysotzki, J. Selbig, and W. Kolbe. Concept learning by structured examples — 
+an algebraic approach. In Proceedings of the 7th International
+Joint Conference on Artificial Intelligence, 1981.

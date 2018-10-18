@@ -1,0 +1,116 @@
+A Unified Model for Metasearch, Pooling,
+and System Evaluation 
+
+Javed A. Aslam
+College of Computer Science
+Northeastern University
+360 Huntington Ave, #161CN
+Boston, MA 02115
+jaa@ccs.neu.edu
+Virgiliu Pavlu
+College of Computer Science
+Northeastern University
+360 Huntington Ave, #161CN
+Boston, MA 02115
+vip@ccs.neu.edu
+Robert Savell
+Dept. of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+rsavell@cs.dartmouth.edu
+
+ABSTRACT
+We present a unified model which, given the ranked lists
+of documents returned by multiple retrieval systems in re­sponse 
+to a given query, simultaneously solves the problems
+of (1) fusing the ranked lists of documents in order to ob­tain 
+a high­quality combined list (metasearch); (2) gener­ating 
+document collections likely to contain large fractions
+of relevant documents (pooling); and (3) accurately evalu­ating 
+the underlying retrieval systems with small numbers
+of relevance judgments (eficient system assessment). Our
+approach is based on the Hedge algorithm for on­line learn­ing. 
+In effect, our proposed system ``learns'' which docu­ments 
+are likely to be relevant from a sequence of on­line
+relevance judgments. In experiments using TREC data, our
+methodology is shown to outperform standard methods for
+metasearch, pooling, and system evaluation, often remark­
+ably so.
+
+5. REFERENCES
+[1] Proceedings of the 24th Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval, New Orleans, Louisiana, USA,
+Sept. 2001. ACM Press, New York.
+[2] J. A. Aslam and M. Montague. Models for metasearch.
+In Proceedings of the 24th Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval [1], pages 276--284.
+[3] B. T. Bartell, G. W. Cottrell, and R. K. Belew.
+Automatic combination of multiple ranked retrieval
+systems. In W. B. Croft and C. van Rijsbergen,
+editors, Proceedings of the 17th Annual International
+ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 173--181,
+Dublin, Ireland, July 1994. Springer­Verlag, London.
+[4] G. V. Cormack, C. R. Palmer, and C. L. A. Clarke.
+E#cient construction of large test collections. In Croft
+et al. [5], pages 282--289.
+[5] W. B. Croft, A. Mo#at, C. J. van Rijsbergen,
+R. Wilkinson, and J. Zobel, editors. Proceedings of the
+21th Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+Melbourne, Australia, Aug. 1998. ACM Press, New
+York.
+[6] E. A. Fox and J. A. Shaw. Combination of multiple
+searches. In D. Harman, editor, The Second Text
+REtrieval Conference (TREC­2), pages 243--249,
+Gaithersburg, MD, USA, Mar. 1994. U.S. Government
+[7] Y. Freund and R. E. Schapire. A decision­theoretic
+generalization of on­line learning and an application to
+boosting. Journal of Computer and System Sciences,
+55(1):119--139, Aug. 1997.
+[8] D. Harman. Overview of the third text REtreival
+conference (TREC­3). In D. Harman, editor, Overview
+of the Third Text REtrieval Conference (TREC­3),
+pages 1--19, Gaithersburg, MD, USA, Apr. 1995. U.S.
+[9] J. H. Lee. Combining multiple evidence from different
+properties of weighting schemes. In Proceedings of the
+18th Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+pages 180--188, 1995.
+[10] J. H. Lee. Analyses of multiple evidence combination.
+In N. J. Belkin, A. D. Narasimhalu, and P. Willett,
+editors, Proceedings of the 20th Annual International
+ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 267--275,
+Philadelphia, Pennsylvania, USA, July 1997. ACM
+Press, New York.
+[11] N. Littlestone and M. Warmuth. The weighted
+majority algorithm. Information and Computation,
+108(2):212--261, 1994.
+[12] R. Manmatha, T. Rath, and F. Feng. Modeling score
+distributions for combining the outputs of search
+engines. In Proceedings of the 24th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval [1], pages
+267--275.
+[13] M. Montague and J. A. Aslam. Condorcet fusion for
+improved retrieval. In K. Kalpakis, N. Goharian, and
+D. Grossman, editors, Proceedings of the Eleventh
+International Conference on Information and
+Knowledge Management, pages 538--548. ACM Press,
+November 2002.
+[14] C. C. Vogt. How much more is better? Characterizing
+the effects of adding more IR systems to a
+combination. In Content­Based Multimedia
+Information Access (RIAO), pages 457--475, Paris,
+France, Apr. 2000.
+[15] E. Voorhees and D. Harman. Overview of the Eighth
+Text REtrieval Conference (TREC­8). In D. Harman,
+editor, The Eighth Text REtrieval Conference
+(TREC­8), Gaithersburg, MD, USA, 2000. U.S.
+[16] J. Zobel. How reliable are the results of large­scale
+retrieval experiments? In Croft et al. [5], pages
+307--314.

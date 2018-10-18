@@ -1,0 +1,74 @@
+Application of Inductive Logic Programming to
+Discover Rules Governing the
+Three-Dimensional Topology of Protein
+Structure
+
+Marcel Turcotte1, Stephen H. Muggleton2, and Michael J. E. Sternberg1
+
+1 Imperial Cancer Research Fund, Biomolecular Modelling Laboratory
+P.O. Box 123, London WC2A 3PX, UK
+{M.Turcotte, M.Sternberg}@icrf.icnet.uk
+2 University of York, Department of Computer Science
+Heslington, York, YO1 5DD, UK
+stephen@cs.york.ac.uk
+
+
+Abstract. Inductive Logic Programming (ILP) has been applied to discover 
+rules governing the three-dimensional topology of protein structure.
+The data-set unifies two sources of information; SCOP and PROMOTIF.
+Cross-validation results for experiments using two background knowledge 
+sets, global (attribute-valued) and constitutional (relational), are
+presented. The application makes use of a new feature of Progol4.4 for
+numeric parameter estimation. At this early stage of development, the
+rules produced can only be applied to proteins for which the secondary
+structure is known. However, since the rules are insightful, they should
+prove to be helpful in assisting the development of taxonomic schemes.
+The application of ILP to fold recognition represents a novel and promising 
+approach to this problem.
+References
+
+[1]	S. Muggleton, R. King, and M. J. E. Sternberg. Protein secondary structure
+prediction using logic-based machine learning. Protein Engineering, 5(7):647—657,
+1992.
+[2]	M. J. E. Sternberg, R. D. King, R. A. Lewis, and S. Muggleton. Application of
+machine learning to structural molecular biology. Philosophical Transactions of
+the Royal Society of London - Series B: Biological Sciences, 344(1310):365—71,
+1994.
+[3]	D. Fischer and D. Eisenberg. Protein fold recognition using sequence-derived
+predictions. Protein Science, 5:947—955, 1996.
+[4]	R. B. Russell, M. A. S. Saqi, P. A. Bates, R. A. Sayle, and M. J. E. Sternberg.
+Recognition of analogous and homologous protein folds - assessment of prediction
+success and associated alignment accuracy using empirical substitution matrices.
+Protein Engineering, 11(1):1—9, 1998.
+[5]	S. H. Bryant. Evaluation of threading specificity and accuracy. Proteins,
+26(2):172—185, 1996.
+[6]	T. J. Hubbard and J. Park. Fold recognition and ab initio structure predictions
+using hidden markov models and beta-strand pair potentials. Proteins Struct.
+Funct. Genet., 23(3):398—402, 1995.
+[7]	V. Francesco, Di, J. Gamier, and P. J. Munson. Protein topology recognition
+from secondary structure sequences: Application of the hidden markov models to
+the alpha class proteins. Journal of Molecular Biology, 267(2):446—463, 1997.
+[8]	B. Rost, R. Schneider, and C. Sander. Protein fold recognition by prediction-based
+threading. Journal of Molecular Biology, 270:471—480, 1997.
+[9]	I. Dubchak, I. Muchnik, and S.-H. Kim. Protein folding class predictor for scop:
+approach based on global descriptors. ismb, 5:104—107, 1997.
+[10]	S. Muggleton, editor. Inductive Logic Programming. Academic Press, 1992.
+[11]	E. G. Hutchinson and J. M. Thornton. PROMOTIF — a program to identify and
+analyze structural motifs in proteins. Protein Science, 5(2):212—20, 1996.
+[12]	S. E. Brenner, C. Chothia, T. J. Hubbard, and A. C. Murzin. Understanding
+protein structure: using SCOP for fold interpretation. Methods in Enzymology,
+266:635—43, 1996.
+[13]	C. J. Rawlings, W. R. Taylor, J. Fox J. Nyakairu, and M. J. E. Sternberg. Using
+Prolog to represent and reason about protein structure. In Ehud Y. Shapiro, editor, 
+Third International Conference on Logic Programming, volume 225 of Lecture
+Notes in Computer Science, pages 536—543. Springer, 1986.
+[14]	G. J. Barton and C. J. Rawlings. A Prolog approach to analysing protein structure. 
+Tetrahedron Computer Methodology, 3(6C):739—756, 1990.
+[15]	C.A. Orengo, A.D. Michie, S. Jones, D.T. Jones, M.B. Swindells, and J.M. Thornton. 
+CATH — a hierarchic classification of protein domain structures. Structure,
+5(8):1093—1108, 1997.
+[16]	G. H. Gonnet and S. A. Benner. Computational biochemistry research at ETH.
+Technical report, E.T.H. Department Informatik, March 1991.
+[17]	R.J. Mooney and M.E. Calif. Induction of first-order decision lists: Results on
+learning the past tense of english verbs. Journal of Artificial Intelligence Research,
+3:1—24, 1995.

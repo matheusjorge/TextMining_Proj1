@@ -1,0 +1,51 @@
+Inducing Shogi Heuristics
+Using Inductive Logic Programming
+
+Tomofumi Nakano, Nobuhiro Inuzuka, Hirohisa Seki and Hidenori Itoh
+
+Nagoya Institute of Technology
+Gokiso-cho, Showa-ku, Nagoya 466-8555, Japan
+E-mail: {tnakano,inuzuka,seki,itoh}@ics.nitech.ac.jp
+
+
+Abstract. This paper reports the results of an inductive logic programming 
+(ILP) application to solve shogi or Japanese chess mating problems, 
+which are puzzles using shogi rules. The problems can be solved
+by heuristic search of AND-OR trees. We propose a method of using the
+ILP technique to generate heuristic functions, which are automatically
+tuned according to the confidence of the knowledge induced by ILP. Experiments 
+show that the method prunes search space compared with a
+naive search.
+References
+
+1.	N. S. Flann and T. G. Dietterich: “Study of Explanation-Based Methods for Inductive 
+Learning”, Machine Learning, Vol.4, pp.187—226 (1989).
+2.	T. E. Fawcett and P. E. Utogoff: “Automatic Feature Generation for Problem
+Solving Systems”, Proc. 9th Int’l Conf. on Machine Learning, Morgan Kaufmann
+pp.144—l53 (1992).
+3.	S. Muggleton: “Inductive Acquisition of Chess Strategies”, Machine Intelligence
+11, Clarendon Press, pp. 375—387 (1988).
+4.	M. Bain and A. Srinivasan: “Inductive Logic Programming With Large-Scale
+Unstructured Data”, Machine Intelligence 14, Clarendon Press Oxford (OUP),
+pp.235—274 (1995).
+5.	T. M. Mitchell, P. E. Utogoff and R. Banerji: “Learning by Experimentation: Acquiring 
+and refining problem- solving heuristics” In R. S. Michalski ed., Machine
+learning: an artificial intelligence approach, Tioga Publishing (1983).
+6.	T. M. Mitchell, R. M. Keller and S. T. Kedar-Cabelli: “Explanation-Based Generalization: 
+A Unifying View”, Machine Learning, 1, pp.47—80 (1986).
+7.	J. M. Zelle and R. J. Mooney: “Combining FOIL and EBG to speed-up Logic Programs”, 
+Proc. 13th Int’l Joint Conf. on AI (IJCAI-93), pp. 1106—1111, (1993).
+8.	T. A. Estlin and R. J. Mooney: “Multi-Strategy Learning of Search Control for
+Partial-Order Planning”, Proc. 13th National Conf. on Al, pp. 843-848 (1996).
+9.	N. Inuzuka, H. Seki and H. Itoh: “An intelligent search method using Inductive
+Logic Programming”, Proc. IJCAI97 Workshop Frontiers of Inductive Logic Programming, 
+pp.115-120 (1997).
+10.	SHOGI-RULES, URL:http://www.ricoh.co.jp/SHOGI/rules/erules.html.
+11.	N. Inuzuka, M. Kamo, N. Ishii, H. Seki and H. Itoh: “Top-down induction of logic
+programs from incomplete samples”, Proc. 6th Int’l Inductive Logic Programming
+Workshop (LNAI 1314, Springer-Verlag), pp.265-282 (1996).
+12.	N. Inuzuka, H. Seki and H. Itoh: “Efficient induction of executable logic programs 
+from examples”, Proc. Asian Computing Science Conference (LNCS 1345,
+Springer-Verlag), pp.212-224 (1997).
+13.	J. R. Quinlan: “Learning logical definitions from relations”, Machine Learning, 5,
+pp.239—266 (1990).

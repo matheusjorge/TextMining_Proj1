@@ -1,0 +1,40 @@
+Generating Numerical Literals During
+Refinement
+
+Simon Anthony and Alan M. Frisch
+
+Department of Computer Science, University of York, York. YO1 5DD. UK.
+Email:	{simona, frisch}@cs.york.ac.uk
+
+
+Abstract. Despite the rapid emergence and success of Inductive Logic
+Programming, problems still surround number handling—problems directly 
+inherited from the choice of logic programs as the representation
+language. Our conjecture is that a generalisation of the representation
+language to Constraint Logic Programs provides an effective solution to
+this problem. We support this claim with the presentation of an algorithm 
+called NUM, to which a top-down refinement operator can delegate 
+the task of finding numerical literals. NUM can handle equations,
+in-equations and dis-equations in a uniform way, and, furthermore, provides 
+more generality than competing approaches since numerical literals
+are not required to cover all the positive examples available.
+References
+
+1.	J. Jaffar and M. J. Maher. Constraint logic programming: A survey. Journal of
+Logic Programming, 19-20:503—583, 1994.
+2.	J. Jaffar, S. Michaylov, P. Stuckey, and R. H. C. Yap. The CLP(R) language and
+system. Technical Report RC 16292-72336, IBM Watson Research Centre, 1990.
+3.	A. Karalic and Ivan Bratko. First order regression. To appear in the journal of
+Machine Learning, 1997.
+4.	S. Muggleton. Inverse entailment and Progol. New Generation Computing, 13:245—
+286, 1995.
+5.	S. Muggleton and C. D. Page. Beyond first-order learning: Inductive logic programming 
+with higher-order logic. Technical Report PRG-TR-13-94, Oxford University
+Computing Laboratory, 1994.
+6.	S. Muggleton and L. De Raedt. Inductive logic programming — theory and methods.
+Journal of Logic Programming, 19-20:629—679, 1994.
+7.	M. Sebag and C. Rouveirol. Constraint inductive logic programming. In Proceedings
+of the 5th International Workshop on Inductive Logic Programming, pages 181—198.
+Published as a technical report at the Katholieke Universiteit Leuven, 1995.
+8.	A. Srinivasan and R. Camacho. Experiments in numerical reasoning with inductive
+logic programming. To appear, 1997.

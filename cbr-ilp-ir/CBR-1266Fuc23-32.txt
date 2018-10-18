@@ -1,0 +1,67 @@
+Applying Case-Based Reasoning to Automated
+Deduction
+
+Marc Fuchs1 and Matthias Fuchs2
+
+1 Fakultat für Informatik, TU München, 80290 München, Germany
+fuchsm@informatik.tu-muenchen.de
+2 Center for Learning Systems and Applications (LSA), Fachbereich Informatik,
+Universität Kaiserslautern, 67663 Kaiserslauntern, Germany
+fuchs@informatik.uni-kl.de
+
+
+Abstract. The use of CBR has been very profitable for many areas of
+artificial intelligence. Applying CBR to automated deduction, however,
+is a very intricate problem. The premise “small changes of a problem
+cause small changes of its solution” is definitely not satisfied by automated 
+deduction. Therefore, case adaptation by means of symbolic proof
+transformation techniques is very limited.
+In view of the fact that automated deduction essentially is a search problem, 
+we propose to utilize case adaptation for selecting and configuring
+a search-guiding heuristic based on known cases. This also allows us to
+elegantly integrate methods for learning search-guiding heuristics which
+can significantly improve performance. The evaluation step of CBR corresponds 
+to an attempt of the theorem prover at hand to solve a problem 
+employing the heuristic provided by case adaptation. Experimental
+studies demonstrated that this approach is viable and actually produces
+promising results.
+
+References
+
+1.	Aha, D.W.: Case-based Learning Algorithms, Proc. Case-based Reasoning Workshop, 
+Morgan Kaufmann Publishers, 1991.
+2.	Althoff, K.-D.; Wess, S.: Case-Based Knowledge Acquisition, Learning and
+Problem Solving in Diagnostic Real World Tasks, Proc. EKAW, 1991, pp. 48—67.
+3.	Avenhaus, J.; Denzinger, J.; Fuchs, M.: DISCOUNT: A System For Dis-
+tributed Equational Deduction, Proc. 6th RTA, 1995, Springer LNCS 914, pp. 397—
+402.
+4.	Bachmair, L.; Dershowitz, N.; Plaisted, D.: Completion without Failure
+Coil, on the Resolution of Equations in Algebraic Structures, Austin, TX, USA
+(1987), Academic Press, 1989.
+5.	Brock, B.; Cooper, S.; Pierce, W.: Analogical reasoning and proof discovery,
+Proc. CADE-9, 1988, Springer LNCS 310, pp. 454—468.
+6.	Denzinger, J.; Fuchs, M.: Coal-oriented equational theorem proving using team-work, 
+Proc. 18th KI-94, 1994, Springer LNAJ 861, pp. 343—354.
+7.	Denzinger J.; Schulz, S.: Learning Domain Knowledge to Improve Theorem
+Proving, Proc. CADE-13, 1996, Springer LNAJ 1104, pp. 62—76.
+8.	Fuchs, M.: Learning proof heuristics by adapting parameters, Proc. 12th JCML,
+1995, Morgan Kaufmann, pp. 235—243.
+9.	Fuchs, M.: Experiments in the Heuristic Use of Past Proof Experience, Proc.
+CADE-13, 1996, Springer LNAI 1104, pp. 523—537.
+10.	Kolbe, T.; Waither, C.: Reusing proofs, Proc. 11th ECAI ‘94, 1994, pp. 80—84.
+11.	Kolodner, J.L.: Retrieval and Organizational Strategies in Conceptual Memory,
+Ph.D. Thesis, Yale University, 1980.
+12.	Kolodner, J.L.: An Introduction to Case-Based Reasoning, Artificial Intelligence
+Review 6:3—34, 1992.
+13.	McCune, W.W.: OTTER 3.0 reference manual and guide, Techn. Report ANL-94/6, 
+Argonne Natl. Laboratory, 1994.
+14.	Melis, E.: A model of analogy-driven proof-plan construction, Proc. 14th IJCAI
+1995, pp. 182—189.
+15.	Sutcliffe, G.; Suttner, C.: First ATP System Competition held on August 1
+in conjunction with the 13th International Conference on Automated Deduction
+(CADE-13), New Brunswick, NJ, USA, 1996; Competition results available via
+WWW at http: //wwwjessen.informatik.tu-muenchen.de/~tptp/CASC-13
+16.	Sutcliffe, G.; Suttner, C.B.; Yemenis, T.: The TPTP Problem Library, Proc.
+CADE-12, 1994, Springer LNAI 814, pp. 252—266.
+17.	Suttner, C.; Ertel, W.: Automatic acquisition of search-guiding heuristics, Proc.
+CADE-l0, 1990, Springer LNAI 449, pp. 470—484.

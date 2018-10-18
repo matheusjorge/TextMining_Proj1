@@ -1,0 +1,73 @@
+Building Compact Competent Case-Bases
+
+Barry Smyth & Elizabeth McKenna
+
+Department of Computer Science, University College Dublin,
+Belfield, Dublin 4, IRELAND
+{Barry.Smyth, Elizabeth.McKenna@ucd.ie}
+
+
+
+Abstract. Case-based reasoning systems solve problems by reusing a corpus of
+previous problem solving experience stored as a case-base of individual
+problem solving cases. In this paper we describe a new technique for
+constructing compact competent case-bases. The technique is novel in its use of
+an explicit model of case competence. This allows cases to be selected on the
+basis of their individual competence contributions. An experimental study
+shows how this technique compares favorably to more traditional strategies
+across a range of standard data-sets.
+References
+
+1.	Aha, D. W., Kibler, D., and Albert, M.K.: Instance-Based Learning Algorithms. Machine
+Learning, 6 (1991) 37-66
+2.	Blake, C., Keogh, B. & Merz, C.J: UCI Repository of machine learning databases
+[http://www.ics.uci.edu/~mlearn/MLRepository.html]. Irvine, CA: University of
+California, Department of Information and Computer Science (1998)
+3.	Broder, A.Z., Bruckstein, A.M., and Koplowitz, J.: On the Performance of Edited Nearest
+neighbor Rules in High Dimensions. IEEE Transactions on Systems, Man, and
+Cybernetics, SMC-15(l), (1985) 136-139
+4.	Chang, C.L.: Finding Prototypes for Nearest Neighbor Classifiers. IEEE Transactions on
+Computers, 2-3(1 1), (1974) 1179-1184
+5.	Dasarathy, B.V.: Nearest Neighbor Norms: NN Pattern Classification Techniques. IEEE
+Press, Los Alamitos, California (1991)
+6.	Francis, A.G. and Ram, A.: A Comparitive Utility Analysis of Case-Based Reasoning and
+Control Rule Problem Solving. In: Proceedings of the 8th European Conference on
+Machine Learning (1995)
+7.	Gates, G.W.: The Reduced Nearest Neighbor Rule. IEEE Transactions on Information
+Theory, 18(3) (1972) 43 1-433
+8.	Hart, P.E.: The Condensed Nearest Neighbor Rule. IEEE Transactions on Information
+Theory, 14(1967)515-516
+9.	Kolodner, J. Case-Based Reasoning. Morgan-Kaufmann, San Mateo, California (1993)
+10.	Koplowitz, J. & Browm, T.A.: On the Relation of Performance to Editing in Nearest-
+Neighbor Rules. Proceedings of the 4th International Joint Conference on Pattern
+Recognition, IEEE Computer Society Press (1978) 214-216
+11.	Marckovitch, S. & Scott, P.D.: Information Filtering: Selection Mechanisms in Learning
+Systems. Machine Learning, 10(1993) 113-151
+12.	Minton, S.: Qualitative results concerning the utility of explanation based learning.
+Artificial Intelligence, 42(2-3) (1991) 393-391
+13.	Penrod, C.S & Wagner, T.J.: Another Look at the Edited Nearest Neighbor Rule. IEEE
+Transactions on Systems, Man, and Cybernetics, SMC-7(2) (1977) 92-94
+14.	Smyth, B. & Cunningham, P.: The Utility Problem Analysed: A Case-Based Reasoning
+Perspective. In: Smith, I. & Faltings, B. (eds.): Advances in Case-Based Reasoning.
+Lecture Notes in Artificial Intelligence, Vol. 1168. Springer-Verlag, Berlin Heidelberg
+New York (1996) 392-399
+15.	Smyth, B. & Keane, M.T.: Adaptation-Guided Retrieval: Questioning the Similarity
+Assumption in Reasoning. Artificial Intelligence, 102. (1998) 249-293
+16.	Smyth, B. & Keane, M.T.: Remembering to Forget: A Competence Preserving Deletion
+Policy for Case-Based Reasoning Systems. In: Proceedings of the 14th International Joint
+Conference on Artificial Intelligence. Morgan-Kaufmann. (1995) 377-382
+17.	Smyth, B. & McKenna, E. Modelling the Competence of Case-Bases. In: Smyth, B. &
+Cunningham, P. (eds.): .): Advances in Case-Based Reasoning. Lecture Notes in Artificial
+Intelligence, Vol. 1488. Springer-Verlag, Berlin Heidelberg New York (1998). 208-220
+18.	Tomek, I.: Two Modifications of CNN. IEEE Transactions on Systems, Man, and
+Cybernetics, 7(2) (1976) 679-772
+19.	Wagner, T.J.: Convergence of the Edited Nearest Neighbor. IEEE Transactions on
+Information Theory, IT-19(5) (1973) 696-697
+20.	Wilson, D. R. & Martinez, T.R.: Instance Pruning Techniques. In: Proceedings of the 14th
+International Conference on Machine Learning (1997) 404-441
+21.	Wilson, D. R. & Martinez, T.R.: Reduction Techniques for Exemplar-Based Learning
+Algorithms. Machine Learning (1998)
+22.	Wilson, D. L Asymptotic Properties of Nearest Neighbor Rules Using Edited Data. IEEE
+Transactions on Systems, Man, and Cybernetics, 2-3 (1972) 408-421
+23.	Zhang, J.: Selecting Typical Instances in Instance Based Learning. In: Proceedings of the
+9th International Conference on Machine Learning (1992)

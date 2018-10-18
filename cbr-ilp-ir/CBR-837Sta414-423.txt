@@ -1,0 +1,53 @@
+Case-Based Reasoning for Network Management
+
+Michael Stadler
+
+OFFIS
+Westerstr. 10-12
+D-26121 Oldenburg
+
+
+Abstract. Even though today case-based reasoning is applied in a wide
+range of different areas, there are only few systems which make use of case-based 
+techniques for network management. In this paper, we outline the
+domain of network management and highlight consequences for the
+application of problem solvers operating in this domain. After this, we
+present a case-based prototype performing a task of closed-loop network
+management upon a simulated computer network together with first results.
+5 References
+
+[1]Richard Brandau, Alan Lemmon, Carol Lafond, Case Based
+   Reasoning for Continuous Control in: J. Kolodner (ed.) Case-Based 
+Reasoning — Proceedings of a Workshop on Case-Based
+   Reasoning, Morgan Kaufmann Publishers, 1988
+
+[2]Richard Brandau, Alan Lemmon, Carol Lafond, Experience with
+   Extended Episodes: Cases with Complex Temporal Structure in:
+   proc. DARPA Workshop on case-based reasoning, Washington,
+   1991
+
+[3]Shri K. Goyal, Knowledge technologies for evolving networks
+   in: proc. IFIP TC6/WG6.6 Second International Symposium on
+   Integrated Network Management, Crystal City, Washington
+   D.C., 1991
+
+[4]Lundy Lewis, A case-based reasoning approach to the resolution
+   of faults in communication networks, in: proc. IFIP
+   TC6/WG6.6 Third International Symposium on Integrated
+   Network Management, San Francisco, 1993
+
+[5]International Standard ISO/IEC 10040:1992(E). Information
+   technology — Open Systems Interconnection — Systems
+   management overview.
+
+[6]Request for Comments 1157, A Simple Network Management
+   Protocol , DDN Network Information Center, SRI International,
+   May 1990
+
+[7]A. Tversky, Features of Similarity in: Psychological Review,
+   Vol. 84, pp. 327-352, 1977
+
+[8]Stefan WeB, PATDEX/2: Ein System zum adaptiven,
+   fallfokussierenden Lernen in technischen Diagnosesituationen,
+   SEKI-Working-Paper SWP91/01, Dept. of computer science,
+   University of Kaiserslautern, Germany, 1991

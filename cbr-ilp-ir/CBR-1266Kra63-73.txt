@@ -1,0 +1,67 @@
+Case-Based Reasoning
+for Information System Design
+
+Dirk Krampe and Markus Lusti
+
+University of Basel, Department of Computer Science / WWZ
+Petersgraben 51, CH—4051 Basel, Switzerland
+Phone/Fax: ++41-61-26-73251
+email: krampe@ifi.wwz.unibas.ch
+
+
+Abstract. We present a process model that applies case—based reasoning 
+techniques to information system design. Describing the process
+model we focus on similarity and case adaption aspects. We are currently 
+implementing the process model in a research prototype called
+CBModeler.
+The CBModeler project shows how the development of information systems 
+can be supported by reusing design specifications from former
+projects. It assumes that all designs are derived from a reference model
+that describes the most important aspects of a specific information system 
+domain. Thus we are also integrating schema—based and model—based reasoning techniques.
+We introduce the notion of design and design component, similarity and
+adaption process. Furthermore, we describe how a meta—model can be
+used to preserve system wide consistency and a reference model to preserve 
+consistency in a domain. Finally, we give a simple design scenario.References
+
+1.	Agnar Aamodt and Enric Plaza: Case—based reasoning: Foundational issues,
+methodological variations and system approaches. AI Communications, 7(1)
+(1994) 39—59.
+2.	Agnar Aamodt and Manuela Veloso, ed.: Case—Based Reasoning Research and
+Development First International Conference on Case-Based Reasoning (ICCBR-
+95), Sesimbra/Portugal, (1995).
+3.	Klaus-Dieter Aithoff and Brigitte Bartsch-Spörl: Decision Support for Case—Based
+Applications. Wirtschaftsinformatik, 38(1) (1996) 8—16.
+4.	S. Bakhtari and B. Bartsch-Spörl: Bridging the Gap Between AI Technology and
+Design Requirements. Third International Conference on Artificial Intelligence in
+Design (AID-94), (1994) 753—768.
+5.	Brigitte Bartsch-Spörl: KI—Methoden fur innovative Design—Domänen. Beiträge
+zur 3. Deutschen Expertensystemtagung (XPS-95), (1995) 137—151.
+6.	Brigitte Bartsch-Spörl: Towards the Integration of Case—Based, Schema—Based
+and Model—Based Reasoning for Supporting Complex Design Tasks. In Aamodt
+and Veloso [2], (1995) 145—156.
+7.	Ralph Bergmann and Ulrich Eisenecker: Fallbasiertes Schliessen zur Unterstützung
+der Wiederverwendung von objektorientierter Software: Eine Falistudie. Beiträge
+zur 3. Deutschen Expertensystemtagung (XPS-95), (1995) 152—169.
+8.	Dieter Holz: Uber das Entwerfen von Gebrauchssoftware: Lehren aus dem Entwurfsprozeß 
+einer Arbeitsumgebung für einen Lexikographen. Dissertation, Universität
+Basel, Institut für Informatik, (1995).
+9.	Janet Kolodner: Case—Based Reasoning. Morgan Kaufmann Publishers, Inc.,
+(1993).
+10.	Dirk Krampe: Conceptual Modelling via System Analysis. Artificial Intelligence
+in Design 1996, Stanford University, USA; Workshop Notes on ‘New Directions in
+Case—Based Design Systems’, (1996).
+11.	Dirk Krampe: Ein wissensbasiertes Werkzeug zur Unterstützung des konzeptionellen 
+Entwurfs betrieblicher Informationssysteme. WWZ-Discussion Paper
+9604, Wirtschaftswissenschaftliches Zentrum der Universität Basel, (1996).
+12.	Dirk Krampe and Markus Lusti: Towards a Case—Based Assistant for the Conceptual 
+Modelling of Information Systems. Information and Classification: Proceedings 
+of the 20th Annual Conference of the “Gesellschaft für Klassifikation e.V.”,
+University of Freiburg im Breisgau, Springer (1996).
+13.	Pearl Pu: Issues in Case—Based Design Systems. AI EDAM, 7(2) (1993) 79—85.
+14.	Christopher K. Riesbeck and Roger C. Schank: Inside Case—Based Reasoning.
+Lawrence Erlbaum Ass., Hillsdale, (1989).
+15.	August-Wilhelm Scheer: Business Process Engineering: Reference Models for Industrial 
+Enterprises. Springer (1994).
+16.	Stefan Wess: Fallbasiertes Problemlösen in wisseusbasierten Systemen zur Entscheidungsunterstützung 
+und Diagnostik. Dissertationen zur künstlichen Intelligenz, Infix—Verlag (1995).

@@ -1,0 +1,47 @@
+Case-Based Reasoning in
+an Ultrasonic Rail-Inspection System
+
+Jacek Jarmulak1,2, Eugene J.H. Kerckhoffs’, Peter Paul van’t Veen2
+
+1 Deift University of Technology, Faculty of Technical Mathematics & Informatics,
+P.O. Box 356, 2600 AJ Delft, The Netherlands,
+2TNO Institute of Applied Physics,
+
+P.O. Box 155, 2600 AD Delft, The Netherlands,
+jarmulak@tpd.tno.nl
+
+
+Abstract: Non-destructive testing (NDT) is often used for petiodical inspection of infrastructure 
+(e.g. railroads, pipelines). The inspection results in huge amounts of data
+which usually has to be analysed by an operator (or a team of operators) for occurrence 
+of defect indications. ‘This paper presents an example of use of case-based reasoning 
+in interpretation of data from non-destructive testing, namely, a prototype for
+classification of images from an ultrasonic rail-inspection system. The reasons for the
+choice of case-based reasoning instead of statistical classification or a rule-based expert-system 
+approach are explained. The overall design of the prototype is described
+and observations and conclusions relating to the prototype and generally to the use of
+CBR for NDT are presented.
+
+
+References
+Giarratano,J. and Riley G. (1989): Expert Sy stems: Principles and Programming, PWS-KENT, Boston
+Hopgood, F.F., Woodcock, N., Hallam, N.J. and Picton, P.D. (1993): Interpreting ultrasonic images 
+using rules, algorithms and neural networks, European Jonrnal of NDT, Vol. 2, No. 4, pp.
+135-149.
+Jarmulak, J. (1996): B-scan Image clustering and Interpretation in Ultrasonic Rail-Inspection System, 
+in ASCI’96 Proceedings of the second annual conference of the Advanced Schoolfor Computing and Imaging, 
+Lommel, Belgium, June 5-7, 1996, Kerckhoffs, E.J.H., Sloot, P.M.A, Tonino, J.F.M. and
+Vossepoel, A.M. (eds.), ASCI, Delft, pp. 190-1 95.
+Mark, W., Simoudis, E. and Hinkle, D. (1996): Case-Based Reasoning: Expectations and Results, in
+Case-Based Reasoning: Experiences, Lessons & Future Directions, Leake D.B. (ed.), MIT Press, Cambridge, 
+MA, pp. 269-294.
+Pemer, P. (1993): Case-Based Reasoning for Image Interpretation in Non-Destructive Testing, in
+Proceedings of the First European Workshop on Case-Based Reasoning EWCBR-93, University of Kaiserslautern, 
+Germany, pp. 403-409.
+Roos,J. (1990): Het ultrasoon railinspectie systeem, NAG Journal, Nr. 105, Nov., pp. 21-34
+Sarle, W.S. (1994): Neural Networks and Statistical Models, in Proceedings of the Nineteenth Annual
+SAS Users Group International Conference, April 1994.
+Surma, J. and Vanhoof, K. (1995): Integrating Rules and Cases for the Classification Task, in Proceedings 
+of the First International Conference on Case-Based Reasoning ICCBR-95, Portugal, pp. 325-334
+Udpa, L. and Udpa. S.S. (1991): Neural networks for the classification of nondestructive evaluation
+signals, lEE Proceedings-F, Vol. 138, No. 1, February, pp. 41-45.

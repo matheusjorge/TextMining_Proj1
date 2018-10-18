@@ -1,0 +1,88 @@
+Reducing Lexical Semantic Complexity with Systematic Polysemous
+Classes and Underspecification
+
+Paul Buitelaar
+DFKI Language Technology Lab
+Stuhlsatzenhausweg 3,
+66123 Saarbrücken, Germany
+paulb@dfki.de
+
+Abstract
+This paper presents an algorithm for finding
+systematic polysemous classes in WordNet
+and similar semantic databases, based on a
+definition in (Apresjan 1973). The
+introduction of systematic polysemous
+classes can reduce the amount of lexical
+semantic processing, because the number of
+disambiguation decisions can be restricted
+more clearly to those cases that involve real
+ambiguity (homonymy). In many
+applications, for instance in document
+categorization, information retrieval, and
+information extraction, it may be sufficient
+to know if a given word belongs to a certain
+class (underspecified sense) rather than to
+know which of its (related) senses exactly to
+pick. The approach for finding systematic
+polysemous classes is based on that of
+(Buitelaar 1998a, Buitelaar 1998b), while
+addressing some previous shortcomings.
+
+
+References
+J. Apresjan (1973) Regular Polysemy. Linguistics,
+142.
+Paul Buitelaar (1998a) CoreLex: Systematic
+Polysemy and Underspecification. PhD Thesis,
+Brandeis University.
+Paul Buitelaar (1998b) CoreLex: An Ontology of
+Systematic Polysemous Classes. In: Formal
+Ontology in Information Systems. IOS Press,
+Amsterdam.
+Paul Buitelaar, Klaus Netter and Feiyu Xu (1998)
+Integrating Different Strategies In Cross­-Language
+Information Retrieval in the MIETTA Project. In:
+Proceedings of TWLT14, Enschede, the
+Netherlands , December.
+D. A. Cruse (1986) Lexical Semantics. Cambridge
+University Press.
+Bill Dolan (1994) Word Sense Ambiguation:
+Clustering Related Senses. In: Proceedings of
+COLING­94. Kyoto, Japan.
+Birgit Hamp and Helmut Feldweg (1997) GermaNet­
+a Lexical Semantic Net for German. In:
+Proceedings of the ACL Workshop on Automatic
+Information Extraction and Building of Lexical
+Semantic Resources for NLP Applications.
+Madrid,.
+G. Hirst (1987) Semantic Interpretation and the
+Resolution of Ambiguity. Cambridge University
+Press.
+Yuval Krymolowski and Dan Roth (1998)
+Incorporating Knowledge in Natural Language
+Learning: A Case Study. In: Proceedings ACL­98
+Workshop on the Use of WordNet in NLP.
+G. A. Miller and R. Beckwith and Ch. Fellbaum and
+D. Gross and K. Miller (1990) Introduction to
+WordNet: An On­line Lexical Database.
+International Journal of Lexicography, 3,4.
+Wim Peters, Ivonne Peters and Piek Vossen (1998)
+Automatic Sense Clustering in EuroWordNet. In:
+Proceedings of LREC. Granada.
+James Pustejovsky (1995) The Generative Lexicon.
+MIT Press.
+Hinrich Schütze (1997) Ambiguity Resolution in
+Language Learning. Volume 71 of CSLI
+Publications. Chicago University Press.
+S. Small (1981) Viewing Word Expert Parsing as
+Linguistic Theory. In: Proceedings of IJCAI.
+Noriko Tomuro (1998) Semi­Automatic Induction of
+Systematic Polysemy from WordNet. In:
+Proceedings ACL­98 Workshop on the Use of
+WordNet in NLP.
+Uriel Weinreich (1964) Webster's Third: A Critique
+of its Semantics. International Journal of American
+Linguistics, 405­409, 30.
+Yorick Wilks (1999) Is Word Sense Disambiguation
+just one more NLP task? Cs.CL/9902030.

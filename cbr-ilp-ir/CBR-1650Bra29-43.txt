@@ -1,0 +1,69 @@
+Active Exploration in Instance-Based Preference
+Modeling
+
+L. Karl Branting
+
+Department of Computer Science
+University of Wyoming
+P.O. Box 3682
+Laramie, WY 82972, USA
+karl@uwyo.edu
+
+
+
+Abstract. Knowledge of the preferences of individual users is essential 
+for intelligent systems whose performance is tailored for individual 
+users, such as agents that interact with human users, instructional
+environments, and learning apprentice systems. Various memory-based,
+instance-based, and case-based systems have been developed for preference 
+modeling, but these system have generally not addressed the task
+of selecting examples to use as queries to the user. This paper describes
+UGAMA, an approach to learning preference criteria through active exploration. 
+Under this approach, Unit Gradient Approximations (UGAs)
+of the underlying quality function are obtained at a set of reference points
+through a series of queries to the user. Equivalence sets of UGAs are then
+merged and aligned (MA) with the apparent boundaries between linear
+regions. In an empirical evaluation with artificial data, use of UGAs as
+training data for an instance-based ranking algorithm (1ARC) led to
+more accurate ranking than training with random instances, and use of
+UGAMA led to greater ranking accuracy than UGAs alone.
+References
+
+[Aha92] D. Aha. Generalizing from case studies: A case study. In Proceedings of
+	the Ninth International Workshop on Machine Learning, pages 1—10, 1992.
+[BB94]	P. Broos and K. Branting. Compositional instance-based learning. In
+	Proceedings of the Twelfth National Conference Conference on Artificial
+	Intelligence (AAAI-94), Seattle, Washington, July 31—August 4,1994.
+[BB97]	K. Branting and P. Broos. Automated acquisition of user preferences.
+International Journal of Human-Computer Studies, 46:55—77, 1997.
+[Bra99]	K. Branting. Learning user preferences by exploration. In The Sixteenth
+International Conference on Machine Learning, 27—30 June 1999 1999.
+Under review.
+[CFR91]	J. Callan, T. Fawcett, and E. Rissland. Adaptive case-based reasoning. In
+Proceedings of the Third DARPA Case-Based Reasoning Workshop, pages
+179—190. Morgan Kaufmann, May 1991.
+[DBM+92] L. Dent, J. Boticario, J. McDermott, T. Mitchell, and D. Zabowski. A
+personal learning apprentice. In Proceedings of Tenth National Conference
+on Artificial Intelligence, pages 96—103, San Jose, CA, July 12—16 1992.
+AAAI Press/MIT Press.
+[GNOT92] D. Goldberg, D. Nichols, B. Oki, and D. Terry. Using collaborative filtering 
+to weave an information tapestry. Communications of the ACM,
+35(12):61—70, 1992.
+[HGBSO98] Ralf Herbirch, Thore Graepel, Peter Bollmann-Sdorra, and Klaus Obermayer. 
+Learning preference relations for information retrieval. In Pro-
+ceedings of the AAAI-98 Workshop on Learning for Text Categorization.
+AAAI Press, July 26—27 1998.
+[KR93]	R. Keeney and H. Raiffa. Decisions with Multiple Objectives: Preferences
+and Value Tradeoffs. Cambridge University Press, second edition, 1993.
+[Mae94]	P. Maes. Agents that reduce work and information overload. Communications 
+of the ACM, 37(7):31—40, 1994.
+[MK93]	P. Maes and R. Kozierok. Learning interface agents. In Proceedings of
+Eleventh National Conference on Artificial Intelligence, pages 459—466,
+Washington, D.C., July 11—15 1993. AAAI Press/MIT Press.
+[UC91]	P. Utgoff and J. Clouse. Two kinds of training information for evaluation 
+function learning. In Proceedings of Ninth National Conference on
+Artificial Intelligence, pages 596—600, Anaheim, July 14—19 1991. AAAI
+Press/MIT Press, Menlo Park, California.
+[US87]	P. Utgoff and S. Saxena. Learning a preference predicate. In Proceedings of
+the Fourth International Workshop on Machine Learning, pages 115—121,
+1987.

@@ -1,0 +1,75 @@
+Intelligent Case-Authoring Support in CaseMaker-2
+
+David McSherry
+
+
+School of Information and Software Engineering, University of Ulster
+Coleraine BT52 ISA, Northern Ireland
+dmg.mcsherry@ulst.ac.uk
+
+
+
+Abstract. CaseMaker is an interactive environment for intelligent case-authoring 
+support in CREST, a ease-based reasoner for estimation tasks, in
+which the selection of cases for addition to a case library is guided by
+empirical evaluation of the coverage contributions of candidate eases. We
+present a new version of the environment called CaseMaker-2 which is
+designed to support ease authoring more effectively by eliminating a
+previous requirement for the evaluation of candidate eases to be repeated
+following the addition of a new ease to the library. A key role in the
+approach is played by eValuate, an algorithm for dynamic partitioning of
+the space of uncovered eases in such a way that the partition containing a
+given ease represents the minimum additional coverage provided by its
+addition to the ease library.
+References
+
+1.	Smyth B., Keane M.: Remembering to Forget: a Competence-Preserving Case
+Deletion Policy for CBR Systems. Proceedings of the Fourteenth International Joint
+Conference on Artificial Intelligence, Montreal (1995) 377-382
+
+2.	Zhu J., Yang Q.: Remembering to Add: Competence-Preserving Case-Addition
+Policies for Case-Base Maintenance. Proceedings of the Sixteenth International Joint
+Conference on Artificial Intelligence, Stockholm (1999) 234-239
+
+3.	Smyth B.: Constructing Competent Case-Based Reasoners: Theories, Tools and
+Techniques. Proceedings of the IJCAI-99 Workshop on Automating the Construction
+of Case-Based Reasoners, Stockholm (1999) 17-27
+
+4.	Racine K., Yang Q.: Maintaining Unstructured Case Bases. In: Leake D., Plaza F.
+(eds.): Case-Based Reasoning Research and Development. Lecture Notes in Artificial
+Intelligence Vol. 1266. Springer-Verlag, Berlin Heidelberg New York (1997) 553-
+564
+5.	Aha D., Breslow L.: Refining Conversational Case Libraries. In: Leake D., Plaza E.
+(eds.): Case-Based Reasoning Research and Development. Lecture Notes in Artificial
+Intelligence Vol. 1266. Springer-Verlag, Berlin Heidelberg New York (1997) 267-
+278
+
+6.	Bonzano A., Cunningham P., Smyth B.: Using Introspective Learning to Improve
+Retrieval in CBR : a Case Study in Air Traffic Control. In: Leake D., Plaza E. (eds.):
+Case-Based Reasoning Research and Development. Lecture Notes in Artificial
+Intelligence Vol. 1266. Springer-Verlag, Berlin Heidelberg New York (1997) 291-
+302
+7.	Leake D., Wilson D.: Categorizing Case-Base Maintenance: Dimensions and
+Directions. In: Smyth B., Cunningham P. (eds.): Advances in Case-Based Reasoning.
+Lecture Notes in Artificial Intelligence Vol. 1488. Springer-Verlag, Berlin
+Heidelberg New York (1998) 196-207
+8.	Smyth B., McKenna E.: Modelling the Competence of Case-Bases. In: Smyth B.,
+Cunningham P. (eds.): Advances in Case-Based Reasoning. Lecture Notes in Artificial
+Intelligence Vol. 1488. Springer-Verlag, Berlin Heidelberg New York (1998) 208-
+220
+9 .	McSherry D.: Relaxing the Similarity Criteria in Demand-Driven Discovery of
+Adaptation Knowledge. Proceedings of the IJCAI-99 Workshop on Automating the
+Construction of Case-Based Reasoners, Stockholm (1999) 56-61
+10.	McSherry D.: An Adaptation Heuristic for Case-Based Estimation. In: Smyth B.,
+Cunningham P. (eds.): Advances in Case-Based Reasoning. Lecture Notes in Artificial
+Intelligence Vol. 1488. Springer-Verlag, Berlin Heidelberg New York (1998) 184-
+195
+
+11.	McSherry D.: Demand-driven Discovery of Adaptation Knowledge. Proceedings of
+the Sixteenth International Joint Conference on Artificial Intelligence, Stockholm
+(1999) 222-227
+
+12.	McSherry D.: Automating Case Selection in the Construction of a Case Library. In:
+Bramer M., Macintosh A., Coenen F. (eds.): Research and Development in Intelligent
+Systems XVI. BCS Conference Series. Springer-Verlag, London Berlin Heidelberg
+(1999) 163-177

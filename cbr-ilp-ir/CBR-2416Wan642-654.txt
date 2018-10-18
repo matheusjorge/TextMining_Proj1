@@ -1,0 +1,85 @@
+Building a Case-Based Decision Support System
+for Land Development Control
+Using Land Use Function Pattern
+
+Xingwen Wang and Anthony G.O. Yeh
+
+Centre of Urban Planning and Environmental Management,
+The University of Hong Kong,
+Pokfulam Road, Hong Kong
+xwanga@hkusua.hku.hk, hdxugoy@hkucc.hku.hk
+
+
+
+Abstract. Land development control is the process of controlling land
+development to meet the needs of the society. In this paper, we attempt to
+advance the use of case-based reasoning in building a case-based decision
+support system for land development control. Land development control is a
+complex domain. We first discuss how to deal with the data and knowledge
+involved in land development control in order to represent the knowledge and
+define the case in the system. We then propose to use land use function pattern,
+which is built on geospatial relations and land use functions of the proposed
+development site with its surrounding environment, to simplify case input,
+representation and retrieval of the system. Different land use types have
+different land use function patterns. Land use function pattern can be extracted
+from the domain knowledge derived from town planning legislation,
+regulations, and guidelines. Our work mainly aims to support the work of
+planning officers in seeking similar precedent cases in preparing
+recommendations to the Town Planning Board. From the preliminary results of
+the experimental system, we find that cases can be more easily input and
+represented and similar case(s) can be more efficiently and effectively retrieved
+using land use function pattern.
+References
+
+1.	Bergmann, R. et al.: Integrating General Knowledge with Object-Oriented Case
+Representation and Reasoning. In: Burkhard, K.-D., Lenz, M. (eds.): 4th German
+Workshop: Case-Based Reasoning - System Development and Evaluation. Humboldt-
+University Berlin (1996) 120 -127
+2.	Bergmann, R., Pews, G. Wilke, W.: Explanation-Based Similarity: A Unifying Approach
+for Integrating Domain Knowledge into Case-Based Reasoning for Diagnosis and
+Planning Tasks. In: Wess, S., Althoff, K.-D., Richter, M. M. (eds.): Topics in Case-Based
+Reasoning: First European Workshop. Berlin Springer-Verlag (1993) 182-196
+3.	Borri, D., et al.: Norm: An Expert Systems for Development Control in Underdeveloped
+Operational Contexts. Environment and Planning B: Planning and Design. 21 (1994) 35-
+52
+4.	Kolodner, J.: Case-Based Reasoning. Morgan Kaufmann Publishers, Inc, San Mateo
+California (1993)
+5.	Leary, M.: The Role of Expert Systems in Development Control. Town Planning Review.
+58 (1987) 33 1-342
+6.	Leary, M., Rodriguez-Bachiller, A.: Expertise, Domain-Structure and Expert System
+Design: A Case Study in Development Control. Expert System. 6 (1989) 18-23
+7.	Lenz, M., Burkhard, H.-D.: Case Retrieval Nets: Basic Ideas and Extensions. In: Gorz, G.,
+Holldobler, S. (eds.): KI-96: Advances in Artificial Intelligence. Berlin Springer (1996)
+227-239
+8.	Munoz-Avila, H., Weberskirch, F., Roth-Berghofer, T.: On the Relation Between the
+Context of a Feature and the Domain Theory in Case-Based Planning. In: Leake, D. B.,
+Plaza, E. (eds.): Case-based Reasoning Research and Development: 2nd International
+Conference on Case-based Reasoning. Berlin Springer (1997) 337-348
+9.	Musen, M.: An Overview of Knowledge Acquisition. In: David, J. M., Krivine, J. P.,
+Simmons, R. (eds.): Second Generation Expert Systems. Springer Berlin (1993) 405-427
+10.	Planning Department: Town Planning in Hong Kong: A Quick Reference. Planning
+Department, Hong Kong (1995)
+11.	Planning Department: Planning Department Annual Report. Planning Department, Hong
+Kong (1997)
+12.	Richter, M. M.: The Knowledge Contained in Similarity Measures. Invited talk at the
+International Conference on Case-based Reasoning (1995)
+13.	Sanders, K. E., Kettler, B. P., Hendler, J. A: The Case for Graph-Structured
+Representation. In: Leake, D. B., Plaza, E. (eds.): Case-based Reasoning Research and
+Development:	2nd International Conference on Case-based Reasoning, (ICCBR-97). Berlin
+Springer (1997) 245-254
+14.	Schaaf, J. W.: Fish and Sink: An Anytime-Algorithm to Retrieve Adequate Cases. In:
+Velos, M. M., Aamodt, A. (eds.): Case-Based Reasoning Research and Development
+(ICCBR-95). Berlin Springer (1995) 538-547
+15.	Town Planning Board: Town Planning Board Annual Report. Town Planning Board, Hong
+Kong (1999)
+16.	Watson, I.: Applying Case-Based Reasoning: Technical for Enterprise Systems. Morgan
+Kaufmann Publishers, San Francisco, California (1997)
+17.	Watson, I., Perera, R. S.: The Evaluation of a Hierarchical Case Representation Using
+Context Guided Retrieval. In: Leake, D. B., Plaza, E. (eds.): Case-based Reasoning
+Research and Development: 2nd International Conference on Case-based Reasoning. Berlin
+Springer (1997) 255-266
+18.	Yeh, A. G. O., Shi, X.: Applying Case-Based Reasoning to Urban Planning: A New
+Planning-Support Systems Tool. Environment and Planning B: Planning and Design. 26(1)
+(1999) 101-115
+19.	Shi, X., Yeh, A. G. O.: The Integration of Case-Based Systems and GIS in Development
+Control. Environment and Planning B: Planning and Design. 26(3) (1999) 345-364

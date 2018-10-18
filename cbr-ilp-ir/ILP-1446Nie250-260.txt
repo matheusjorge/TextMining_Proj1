@@ -1,0 +1,46 @@
+Distances and Limits on Herbrand
+Interpretations
+
+Shan-Hwei Nienhuys-Cheng
+cheug@cs.few.eur.nl
+
+Department of Computer Science
+Katholieke Universiteit Leuven & Erasmus Universiteit Rotterdam
+
+
+Abstract. A notion of distances between Herbrand interpretations enables 
+us to measure how good a certain program, learned from examples,
+approximates some target program. The distance introduced in [10] has
+the disadvantage that it does not fit the notion of “identification in the
+limit” . We use a distance defined by a level mapping [5] to overcome this
+problem, and study in particular the mapping Tn induced by a definite
+program H on the metric space. Continuity of Tn holds under certain
+conditions, and we give a concrete level mapping that satisfies these conditions, 
+based on [10]. This allows us to prove the existence of fixed points
+without using the Banach Fixed Point Theorem.
+References
+
+1.	J. W. de Bakker, E. de Vink, Control Flow Semantics. MIT press, 1996.
+2.	M. Bezem Characterizing Termination of Logic Programs with Level Mappings
+p.69-80, Proceedings of the North American Conference on Logic Programming. MIT
+press, Cambridge, MA, 1989.
+3.	J. Dieudonné. Foundations of Modern Analysis. Academic Press, 1969.
+4.	B.A. Davey and H.A. Priestley. Introduction to Lattices and Order. Cambridge
+University Press, 1990.
+5.	M. Fitting. Metric methods, three examples and a theorem. Journal of Logic Programming, 
+l994;21:p.113-l27.
+6.	A. Hutchinson. Metrics on Terms and Clauses. In: M. Someren, G. Widmer, editors.
+Proceedings of the 9th European Conference on Machine Learning (ECML-97), p.138-
+145, Springer-Verlag, 1997.
+7.	J. W. Lloyd. Foundations of Logic Programming. Springer-Verlag, Berlin, second
+edition, 1987.
+8.	S. H. Nienhuys-Cheng and A. de Bruin. Kahn’s fixed-point characterization for
+linear dynamic networks. In: Proceedings of SofSem97. Lecture Notes in Computer
+Science, Springer-Verlag, 1997.
+9.	S. H. Nienhuys-Cheng and R. de Wolf. Foundations of Inductive Logic Programming, 
+LNAI Tutorial 1228, Springer-Verlag, 1997.
+10.	S. H. Nienhuys-Cheng. Distance between Herbrand interpretations: A measure for
+approximations to a target concept, In: Proccedings of ILP97, Lavrac and Dzeroski
+(eds), Springer-Verlag, 1997.
+11.	E. Y. Shapiro. Inductive inference of theories from facts. Research Report 192,
+Yale University, 1981.

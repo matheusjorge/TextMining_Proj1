@@ -1,0 +1,65 @@
+Route Planning by Analogy
+
+Karen Zita Haigh and Manuela Veloso
+
+School of Computer Science
+Carnegie Mellon University
+Pittsburgh PA 15213-3891
+khaigh@cs.cmu.edu, mmv@cs.cmu.edu
+
+
+
+Abstract. There have been several efforts to create and use real maps in
+computer applications that automatically find good map routes. In general, 
+online map representations do not include information that may be
+relevant for the purpose of generating good realistic routes, including for
+example traffic patterns, construction, or number of lanes. Furthermore,
+the notion of a good route is dependent on a variety of factors, such as the
+time of the day, and may also be user dependent. This motivation leads
+to our work on the accumulation and reuse of previously traversed routes
+as cases. In this paper, we demonstrate our route planning method which
+retrieves and reuses multiple past routing cases that collectively form a
+good basis for generating a new routing plan. We briefly present our similarity 
+metric for retrieving a set of similar routes. The metric effectively
+takes into account the geometric and continuous-valued characteristics of
+a city map. We then present the replay mechanism and how the planner
+produces the route plan by analogizing from the retrieved similar past
+routes. We discuss in particular the strategy used to merge a set of cases
+and generate the new route. We use illustrative examples and show some
+empirical results from a detailed online map of the city of Pittsburgh
+containing over 18,000 intersections and 25,000 street segments.
+
+References
+1.	Jaime G. Car bon ell, and the PRODIGY Research Group. PRODIGY4.0: The
+manual and tutorial. Technical Report CMU-CS-92-150, School of Computer Science, 
+Carnegie Mellon University, June 1992.
+2.	Ashok Goel and et al. Multistrategy adaptive path planning. IEEE Expert,
+6(6):57—65, December 1994.
+3.	Richard Goodwin and Reid Simmons. Rational handling of multiple goals for
+mobile robots. In J. Hendler, editor, Artificial Intelligence Planning Systems: Proceedings 
+of the First International Conference (AIPS92), June 1992.
+4.	Karen Zita Haigh and Jon athan Richard Shewchuk. Geometric similarity metrics 
+for case-based reasoning. In Case-Based Reasoning: Working Notes from the
+AAAI-94 Workshop, pages 182—187, Seattle, WA, August 1994. AAAI Press.
+5.	Karen Zita Haigh, Jon athan Richard Shewchuk, and Manuela M. Veloso. Route
+planning and learning from execution. In Working notes from the AAAI Fall
+Symposium “Planning and Learning: On to Real Applications”, pages 58-64, New
+Orleans, LA, November 1994. AAAI Press.
+6.	Bing Liu and et al. Integrating case-based reasoning, knowledge-based approach
+and Dijkstra algorithm for route finding. In Proceedings of the Tenth Conference
+on Artificial Intelligence for Applications, pages 149—55, San Antonia, TX, March
+1994.
+7.	Richard S. Sutton. Planning by incremental dynamic programming. In Machine
+Learning: Proceedings of the 8th International Workshop, pages 353—357. Morgan
+Kaufmann, 1991.
+8.	Charles E. Thorpe, editor. The CMU Navlab. Kiuwer Academic Publishers,
+Boston, MA, 1990.
+9.	Sebastian B. Thrun. Exploration and model building in mobile robot domains.
+In Proceedings of the IEEE International Conference on Neural Networks, San
+Francisco, CA, March 1993.
+10.	Manuela M. Veloso. Automatic storage, retrieval, and replay of multiple cases. In
+Preprints of the AAAI 1992 Spring Symposium Series, Workshop on Computa-
+tional Considerations in Supporting Incremental Modification and Reuse, Stanford
+University, CA, March 1992.
+11.	Manuela M. Veloso. Planning and Learning by Analogical Reasoning. Springer
+Verlag, December 1994.

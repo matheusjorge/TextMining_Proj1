@@ -1,0 +1,120 @@
+Noise Tolerant Algorithms for Learning and Searching
+
+Javed Alexander Aslam
+S.M., Electrical Engineering and Computer Science
+Massachusetts Institute of Technology
+
+Abstract
+We consider the problem of developing robust algorithms which cope with noisy data. In the
+Probably Approximately Correct model of machine learning, we develop a general technique
+which allows nearly all PAC learning algorithms to be converted into highly efficient PAC
+learning algorithms which tolerate noise. In the field of combinatorial algorithms, we develop
+techniques for constructing search algorithms which tolerate linearly bounded errors and 
+probabilistic errors.
+In the field of machine learning, we derive general bounds on the complexity of learning in
+the recently introduced Statistical Query model and in the PAC model with noise. We do so
+by considering the problem of improving the accuracy of learning algorithms. In particular, we
+study the problem of \boosting" the accuracy of \weak" learning algorithms which fall within
+the Statistical Query model, and we show that it is possible to improve the accuracy of such
+learning algorithms to any arbitrary accuracy. We derive a number of interesting consequences
+from this result, and in particular, we show that nearly all PAC learning algorithms can be
+converted into highly e∆cient PAC learning algorithms which tolerate classification noise and
+malicious errors.
+We also investigate the longstanding problem of searching in the presence of errors. We
+consider the problem of determining an unknown quantity x by asking \yes-no" questions,
+where some of the answers may be erroneous. We focus on two different models of error:
+the linearly bounded model, where for some known constant r < 1=2, each initial sequence of
+i answers is guaranteed to have no more than ri errors, and the probabilistic model, where
+errors occur randomly and independently with probability p < 1=2. We develop highly efficient
+algorithms for searching in the presence of linearly bounded errors, and we further show that
+searching in the presence of probabilistic errors can be e∆ciently reduced to searching in the
+presence of linearly bounded errors.
+
+
+Bibliography
+[1] Dana Angluin. Computational learning theory: Survey and selected bibliography. In
+Proceedings of the 24 th Annual ACM Symposium on the Theory of Computing, 1992.
+[2] Dana Angluin and Philip Laird. Learning from noisy examples. Machine Learning,
+2(4):343{370, 1988.
+[3] Dana Angluin and Leslie G. Valiant. Fast probabilistic algorithms for Hamiltonian circuits
+and matchings. Journal of Computer and System Sciences, 18(2):155{193, April 1979.
+[4] Martin Anthony and Norman Biggs. Computational Learning Theory. Cambridge Tracts
+in Theoretical Computer Science (30). Cambridge University Press, 1992.
+[5] Javed Aslam and Aditi Dhagat. On-line algorithms for 2-coloring hypergraphs via chip
+games. Theoretical Computer Science, 1993.
+[6] Avrim Blum, Merrick Furst, Jeffery Jackson, Michael Kearns, Yishay Mansour, and Steven
+Rudich. Weakly learning DNF and characterizing statistical query learning using Fourier
+analysis. In Proceedings of the 26 th Annual ACM Symposium on the Theory of Computing,
+May 1994.
+[7] Anselm Blumer, Andrzej Ehrenfeucht, David Haussler, and Manfred K. Warmuth. Learn-ability 
+and the Vapnik-Chervonenkis dimension. Journal of the ACM, 36(4):929{865, 1989.
+[8] Ryan S. Borgstrom and S. Rao Kosaraju. Comparison-based search in the presence of
+errors. In Proceedings of the Twenty-Fifth Annual ACM Symposium on Theory of Computing, pages 130{136, 1993.
+[9] Scott Decatur. Statistical queries and faulty PAC oracles. In Proceedings of the Sixth
+Annual ACM Workshop on Computational Learning Theory, pages 262{268. ACM Press,
+July 1993.
+[10] Aditi Dhagat, Peter Gacs, and Peter Winkler. On playing twenty questions with a liar. In
+Proceedings of the Third Annual ACM-SIAM Symposium on Discrete Algorithms, 1992.
+[11] Andrzej Ehrenfeucht, David Haussler, Michael Kearns, and Leslie Valiant. A general lower
+bound on the number of examples needed for learning. Information and Computation,
+82(3):247{251, September 1989.
+[12] U. Feige, D. Peleg, P. Raghavan, and E. Upfal. Computing with unreliable information.
+In Proceedings of the Twenty-Second Annual ACM Symposium on Theory of Computing,
+pages 128{137, 1990.
+[13] Michael Frazier. Searching with a non-constant number of lies. Unpublished manuscript,
+1990.
+[14] Yoav Freund. Boosting a weak learning algorithm by majority. In Proceedings of the Third
+Annual Workshop on Computational Learning Theory, pages 202{216. Morgan Kaufmann,
+1990.
+[15] Yoav Freund. An improved boosting algorithm and its implications on learning complexity.
+In Proceedings of the Fifth Annual ACM Workshop on Computational Learning Theory,
+pages 391{398. ACM Press, 1992.
+[16] Sally A. Goldman, Michael J. Kearns, and Robert E. Schapire. On the sample complexity
+of weak learning. In Proceedings of the Third Annual Workshop on Computational Learning
+Theory, pages 217{231. Morgan Kaufmann, 1990.
+[17] David Helmbold, Robert Sloan, and Manfred K. Warmuth. Learning integer lattices. SIAM
+Journal on Computing, 21(2):240{266, 1992.
+[18] W. Hoe
+ding. Probability inequalities for sums of bounded random variables. Journal of
+the American Statistical Association, 58:13{30, 1963.
+[19] Michael Kearns. E∆cient noise-tolerant learning from statistical queries. In Proceedings of
+the 25 th Annual ACM Symposium on the Theory of Computing, pages 392{401, San Diego,
+1993.
+[20] Michael Kearns and Ming Li. Learning in the presence of malicious errors. In Proceedings
+of the 20 th Annual ACM Symposium on Theory of Computing, Chicago, Illinois, May 1988.
+[21] Philip D. Laird. Learning from Good and Bad Data. Kluwer international series in engineering 
+and computer science. Kluwer Academic Publishers, Boston, 1988.
+[22] F.J. MacWilliams and N.J.A. Sloane. The Theory of Error-Correcting Codes, volume 1,
+page 310. North Holland Publishing Company, 1977.
+[23] Colin McDiarmid. On the method of bounded di
+erences. In J. Siemons, editor, Surveys
+in Combinatorics, pages 149{188. Cambridge University Press, Cambridge, 1989. London
+Mathematical Society LNS 141.
+[24] Andrzej Pelc. Searching wih known error probability. Theoretical Computer Science,
+63:185{202, 1989.
+[25] R. L. Rivest, A. R. Meyer, D. J. Kleitman, K. Winklmann, and J. Spencer. Coping with
+errors in binary search procedures. Journal of Computer and System Sciences, 20:396{404,
+1980.
+[26] Yasubumi Sakakibara. Algorithmic Learning of Formal Languages and Decision Trees.
+PhD thesis, Tokyo Institute of Technology, October 1991. (International Institute for
+Advanced Study of Social Information Science, Fujitsu Laboratories Ltd, Research Report
+IIAS-RR-91-22E).
+[27] N. Sauer. On the density of families of sets. Journal of Combinatorial Theory Series A,
+13:145{147, 1972.
+[28] Robert Schapire. The strength of weak learnability. Machine Learning, 5(2):197{226, 1990.
+[29] Robert E. Schapire. The Design and Analysis of E∆cient Learning Algorithms. MIT Press,
+Cambridge, MA, 1992.
+[30] Hans Ulrich Simon. General bounds on the number of examples needed for learning probabilistic 
+concepts. In Proceedings of the Sixth Annual ACM Workshop on Computational
+Learning Theory, pages 402{411. ACM Press, 1993.
+[31] Joel Spencer. Ten Lectures on the Probabilistic Method, chapter 4, pages 32{35. SIAM,
+1987.
+[32] Joel Spencer and Peter Winkler. Three thresholds for a liar. Combinatorics, Probability
+and Computing, 1:81{93, 1992.
+[33] S. M. Ulam. Adventures of a Mathematician. Charles Scribner's Sons, 1 edition, 1976.
+[34] Leslie Valiant. A theory of the learnable. Communications of the ACM, 27(11):1134{1142,
+November 1984.
+[35] Leslie Valiant. Learning disjunctions of conjunctions. In Proceedings of the Ninth International 
+Joint Conference on Articial Intelligence, 1985.
+[36] V.N. Vapnik and A.Ya. Chervonenkis. On the uniform convergence of relative frequencies
+of events to their probabilities. Theor. Probability Appl., 16(2):264{280, 1971.

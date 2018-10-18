@@ -1,0 +1,139 @@
+PRODIGY/ANALOGY: Analogical Reasoning in
+General Problem Solving*
+
+Manuela M. Veloso
+
+
+School of Computer Science
+Carnegie Mellon University
+Pittsburgh, PA 15213-3891
+veloso@cs.cmu.edu
+
+
+Abstract. This paper describes the integration of analogical reasoning
+into general problem solving as a method of learning at the strategy level
+to solve problems more effectively. The method hased on derivational
+analogy has been fully implemented in PRODIGY/ANALOGY and proven
+empirically to he amenable to scaling up hoth in terms of domain and
+problem complexity. PRODIGY/ANALOGY addresses a set of challenging
+problems, namely: how to accumulate episodic problem solving experience, 
+cases, how to define and decide when two problem solving situations
+are similar, how to organize a large library of planning cases so that
+it may be efficiently retrieved, and finally how to successfully transfer
+chains of problem solving decisions from past experience to new problem
+solving situations when only a partial match exists among corresponding
+problems. The paper discusses the generation and replay of the problem
+solving cases and we illustrate the algorithms with examples. We present
+briefly the library organization and the retrieval strategy. We relate this
+work with other alternative strategy learning methods, and also with
+plan reuse. PRODIGY/ANALOGY casts the strategy-level learning process
+for the first time as the automation of the complete cycle of constructing, 
+storing, retrieving, and flexibly reusing problem solving experience.
+We demonstrate the effectiveness of the analogical replay strategy by
+providing empirical results on the performance of PRODIGY/ANALOGY,
+accumulating and reusing a large case library in a complex problem solving 
+domain. The integrated learning system reduces the problem solving
+search effort incrementally as more episodic experience is compiled into
+the library of accumulated learned knowledge.
+References
+
+[Bareiss and King, 1989] R. Bareiss and J. A. King. Similarity assessment in case-based 
+reasoning. In Proceedings of the Second Workshop on Case-Based Reasoning,
+pages 67-71, Pensacola, FL, May 1989. Morgan Kaufmann.
+
+[Barletta and Mark, 1988] Ralph Barletta and William Mark. Explanation-based indexing 
+of cases. In Proceedings of the First Workshop on Case-Based Reasoning,
+pages 50—60, Tampa, FL, May 1988. Morgan Kaufmann.
+[Bhansali and Harandi, 1993] Sanjay Bhansali and Mehdi T. Harandi. Synthesis of
+UNIX programs using derivational analogy. Machine Learning, 10, 1993.
+[Blumenthal, 1990] Brad Blumenthal. Replaying episodes of a metaphoric application 
+interface designer. PhD thesis, University of Texas, Artificial Intelligence Lab,
+Austin, December 1990.
+[Cain et al., 1991] T. Cain, M. Pazzani, and G. Silverstein. Using domain knowledge
+to influence similarity judgments. In Proceedings of the 1991 DARPA Workshop on
+Case-Based Reasoning, pages 191—199. Morgan Kaufmann, May 1991.
+[Carbonell et al., 1992] Jaime C. Carbonell, Jim Blythe, Oren Etzioni, Yolanda Gil,
+Robert Joseph, Dan Kahn, Craig Knoblock, Steven Minton, Alicia Pérez, Scott Reilly,
+Manuela Veloso, and Xuemei Wang. PRODIGY4.0: The manual and tutorial. Tech-
+nical Report CMU-CS-92-150, SCS, Carnegie Mellon University, June 1992.
+[Carbonell, 1986] Jaime C. Carbonell. Derivational analogy: A theory of reconstructive 
+problem solving and expertise acquisition. In R. S. Michalski, J. G. Carbonell,
+and T. M. Mitchell, editors, Machine Learning, An Artificial Intelligence Approach,
+Volume II, pages 371—392. Morgan Kaufman, 1986.
+[Doorenbos and Veloso, 1993] Robert B. Doorenbos and Manuela M. Veloso. Knowledge 
+organization and the utility problem. In Proceedings of the Third International
+Workshop on Knowledge Compilation and Speedup Learning, pages 28—34, Amherst,
+MA, June 1993.
+[Etzioni, 1993] Oren Etzioni. Acquiring search-control knowledge via static analysis.
+Artificial Intelligence, 65, 1993.
+[Fink and Veloso, 1994] Eugene Fink and Manuela Veloso. Formalizing the PRODIGY
+planning algorithm. Technical Report CMU-CS-94-123, School of Computer Science,
+Carnegie Mellon University, 1994.
+[Gentner, 1987] Dedre Gentner. The mechanisms of analogical learning. In
+S. Vosniadou and A. Ortony, editors, Similarity and Analogical Reasoning. Cambridge 
+University Press, New York, NY, 1987.
+[Hickman and Larkin, 1990] Angela K. Hickman and Jill H. Larkin. Internal analogy:
+A model of transfer within problems. In The 12th Annual Conference of The Cognitiee 
+Science Society, pages 53—60, Hillsdale, NJ, 1990. Lawrence Erlbaum Associates.
+[Kambhampati and Hendler, 1992] Subbarao Kambhampati and James A. Hendler. A
+validation based theory of plan modification and reuse. Artificial Intelligence, 55(2-
+3):193—258, 1992.
+
+[Kambhampati and Kedar, 1991] Subbarao Kambhampati and Smadar Kedar. Explanation 
+based generalization of partially ordered plans. In Proceedings of AAAI-91,
+pages 679—685, 1991.
+[Kolodner, 1989] Janet Kolodner. Judging which is the “best” case for a case-based
+reasoner. In Proceedings of the Second Workshop on Case-Based Reasoning, pages
+77-81. Morgan Kaufmann, May 1989.
+[Laird et al., 1986] John E. Laird, Paul S. Rosenbloom, and Allen Newell. Chunking
+in SOAR: The anatomy of a general learning mechanism. Machine Learning, 1:11—46,
+1986.
+[Minton, 1988] Steven Minton. Learning Effective Search Control Knowledge: An
+Explanation-Based Approach. Kluwer Academic Publishers, Boston, MA, 1988.
+[Mitchell et al., 1986] Tom M. Mitchell, Richard M. Keller, and Smadar T. Kedar-Cahelli. 
+Explanation-based generalization: A unifying view. Machine Learning,
+1:47—80, 1986.
+[Mostow, 1989] Jack Mostow. Automated replay of design plans: Some issues in derivational 
+analogy. Artificial Intelligence, 40(1-3), 1989.
+[Paulokat and Wess, 1994] Juergen Paulokat and Stefan Wess. Planning for machining
+workpieces with a partial-order, nonlinear planner. In Working notes of the AAAI
+Fall Symposium on Planning and Learning: On to Real Applications, November 1994.
+[Pazzani, 1990] M. Pazzani. Creating a Memory of Causal Relationships: An integration 
+of empirical and explanation-based learning methods. Lawrence Erlbaum Associates, 
+Hillsdale, NJ, 1990.
+[Porter et al., 1989] B. Porter, R. Bareiss, and R. Holte. Knowledge acquisition and
+heuristic classification in weak-theory domains. Technical Report AI-TR-88-96, Department 
+of Computer Science, University of Texas at Austin, 1989.
+[Russell, 1986] Stuart J. Russell. Analogical and Inductive Reasoning. PhD thesis,
+Stanford University, 1986.
+[Stone et al., 1994] Peter Stone, Manuela Veloso, and Jim Blythe. The need for different 
+domain-independent heuristics. In Proceedings of the Second International
+Conference on Al Planning Systems, June 1994.
+[Veloso and Carbonell, 1990] Manuela M. Veloso and Jaime G. Carhonell. Integrating 
+analogy into a general problem-solving architecture. In Maria Zemankova and
+Zbigniew Ras, editors, Intelligent Systems, pages 29—51. Ellis Horwood, Cbichester,
+England, 1990.
+[Veloso and Carbonell, 1993a] Manuela M. Veloso and Jaime G. Carbonell. Derivational 
+analogy in PRODIGY: Automating case acquisition, storage, and utilization.
+Machine Learning, 10:249—278, 1993.
+[Veloso and Carbonell, 1993b] Manuela M. Veloso and Jaime G. Carbonell. Towards
+scaling up machine learning: A case study with derivational analogy in PRODIGY. In
+S. Minton, editor, Machine Learning Methods for Planning, pages 233—272. Morgan
+Kaufmann, 1993.
+[Veloso et al., 1990] Manuela M. Veloso, M. Alicia Pérez, and Jaime G. Carbonell.
+Nonlinear planning with parallel resource allocation. In Proceedings of the DARPA
+Workshop on Innovative Approaches to Planning, Scheduling, and Control, pages
+207—212,	San Diego, CA, November 1990. Morgan Kaufmann.
+[Veloso, 1989] Manuela M. Veloso. Nonlinear problem solving using intelligent casual-commitment. 
+Technical Report CMU-CS-89-210, School of Computer Science,
+Carnegie Mellon University, 1989.
+[Veloso, 1992] Manuela M. Veloso. Learning by Analogical Reasoning in General Problem 
+Solving. PhD thesis, School of Computer Science, Carnegie Mellon University,
+Pittsburgh, PA, August 1992. Available as technical report CMU-CS-92-174. A revised 
+version of this manuscript will be published by Springer Verlag, 1994.
+[Waldinger, 1981] R. Waldinger. Achieving several goals simultaneously. In N. J. Nilsson 
+and B. Webber, editors, Readings in Artificial Intelligence, pages 250—271. Morgan 
+Kaufman, Los Altos, CA, 1981.
+[Yang and Fisher, 1992] Hua Yang and Douglas Fisher. Similarity-based retrieval and
+partial reuse of macro-operators. Technical Report CS-92-13, Department of Computer 
+Science, Vanderbilt University, 1992.

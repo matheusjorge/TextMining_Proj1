@@ -1,0 +1,74 @@
+Automatic Case Base Management in a
+Multi-modal Reasoning System
+
+Luigi Portinale1 and Pietro Torasso2
+
+1 Dipartimento di Scienze e Tecnologie Avanzate, DISTA
+Universita’ del Piemonte Orientale “A. Avogadro”
+C.so Borsalino 54 - 15100 Alessandria (ITALY)
+portinal@unipmn.it
+2 Dipartimento di Informatica - Universita’ di Torino
+C.so Svizzera 185 - 10149 Torino (ITALY)
+torasso@di.unito.it
+
+
+
+
+Abstract. The definition of suitable case base maintenance policies is
+widely recognized as a major success key of CBR systems; underestimating 
+this issue may lead to systems that that do not perform adequately
+under performance dimensions, namely computation time, competence
+and quality of solutions. The goal of the present paper is to analyse an
+automatic case base management strategy in the context of multi-modal
+architectures combining CBR and Model-Based Reasoning. The strategy,
+called Learning by Failure with Forgetting (LFF ) is based on incremental 
+learning of cases interleaved with off-line processes of case deletion,
+in order to control the content and the size of the case library. Results
+from an extensive experimental analysis in an industrial plant diagnosis
+domain is then reported, showing the usefulness of LFF with respect
+to the maintenance of suitable performance level for the target system.
+References
+
+1.	D. S. Aghassi. Evaluating case-based reasoning for heart failure diagnosis. Technical 
+report, Dept. of EECS, MIT, Cambridge, MA, 1990.
+2.	D. Aba and J. Daniels (eds.). Proc. AAAI Workshop on CBR Integrations. AAAI
+Press, 1998.
+3.	R. Bellazzi, S. Montani, and L. Portinale. Retrieval in a prototype-based case
+library: a case study in diabetes therapy revision. In Proc. 4th EWCBR, LNAI
+1488, pages 64—75. Springer Verlag, 1998.
+4.	E. Freuder (ed.). AAAI Spring Symposium on Multi-modal Reasoning. AAAI
+Press, 1998.
+5.	A. Gerevini and I. Serina. Fast planning trough greedy action graphs. In Proc.
+AAAI 99, pages 503—510, 1999.
+6.	J. L, Kolodner, Case-Based Reasoning. Morgan Kaufmann, 1993.
+7.	D. B. Leake and D. C. Wilson. Categorizing case-base maintenance dimensions
+and directions. In Proc. 4th EWCBR, LNAI 1488, pages 196-207. Springer Verlag,
+1998.
+8.	D. B. Leake and D. C. Wilson. When experience is wrong:examining CBR for
+changing tasks and environments. In Proc. 3rd ICCBR, LNAI 1650, pages 218—
+232. Springer Verlag, 1999.
+9.	D. Magro and P. Torasso. Performance issues in unimodal and multimodal reasoning 
+approaches to diagnosis. Technical report, Dip. di Informatica, Univ. di
+Torino, 2000.
+10.	L. Portinale and P. Torasso. ADAPtER: an integrated diagnostic system combining
+case-based and abductive reasoning. In Proc. 1st ICCBR, LNAI 1010, pages 277—
+288. Springer Verlag, 1995.
+11.	L. Portinale and P. Torasso. Performance issues in ADAPtER a combined CBR-
+MBR diagnostic architecture. In Proc. AAAI Spring Sympos. on Multi-Modal
+Reasoning. AAAI Press, Stanford, 1998.
+12.	L. Portinale, P. Torasso, and D. Magro. Selecting most adaptable diagnostic solutions 
+through Pivoting-Based Retrieval. In Proc. 2nd ICCBR, LNAI 1266, pages
+393--402. Springer Verlag, 1997.
+13.	L. Portinale, P. Torasso, and P. Tavano. Dynamic case memory management. In
+Proc. ECAI 98, pages 73—78, Brighton, 1998.
+14.	L. Portinale, P. Torasso, and P. Tavano. Speed-up, quality and competence in
+multi-modal case-based reasoning. In Proc. 3nd ICCBR, LNAI 1650, pages 303—
+317. Springer Verlag, 1999.
+15.	B. Smyth and P. Cunningham. The utility problem analysed: a case-based reasoning 
+perspective. In LNAI 1168, pages 392—399. Springer Verlag, 1996.
+16.	B. Smyth and M. T. Keane. Remembering to forget. In Proc. 14th IJCAI, pages
+	377—382, Montreal, 1995.
+17.	13. Smyth and E. McKenna. Modeling the competence of case-bases. In Proc. 4th
+EWCBR, LNAJ 1488, pages 208 220. Springer Verlag, 1998.
+18.	B. Smyth and B. McKenna. Building compact competent case-bases. In Proc. 3th
+ICCBR, LNAI 1650, pages 329 342. Springer Verlag, 1999.

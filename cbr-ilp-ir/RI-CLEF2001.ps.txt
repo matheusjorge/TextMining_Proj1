@@ -1,0 +1,41 @@
+Using Statistical Translation Models for Bilingual IR
+
+Jian­Yun Nie, Michel Simard
+Laboratoire RALI
+Département d'Informatique et Recherche opérationnelle,
+Université de Montréal
+C.P. 6128, succursale Centre­ville
+Montréal, Québec, H3C 3J7 Canada
+{nie, simardm}@iro.umontreal.ca
+
+Abstract: This report describes our tests on applying statistical translation models for bilingual IR
+tasks in CLEF­2001. These translation models have been trained on a set of parallel web pages
+automatically mined from the Web. Our previous studies have shown the utility of such corpora for
+cross­language information retrieval. The goal of the current tests is to see how we can improve the
+quality of the translation models and make best uses of them. Several questions are considered: Is
+it useful to consider the IDF factor in addition to the translation probabilities? Is it useful to further
+clean the training corpora before model training or the translation models themselves? How could
+we combine the translation models with bilingual dictionaries? Although our test do not allow us to
+answer all these questions, they provide useful indication to several further research directions.
+
+
+References
+[Brown93] P. F. Brown, S. A. D. Pietra, V. D. J. Pietra, and R. L. Mercer, The mathematics of machine
+translation: Parameter estimation. Computational Linguistics, vol. 19, pp. 263­312 (1993).
+[Chen00] J. Chen, J.Y. Nie. Automatic construction of parallel English­Chinese corpus for cross­language
+information retrieval. Proc. ANLP, pp. 21­28, Seattle (2000).
+[Gale93] W. A. Gale, K.W. Church, A program for aligning sentences in bilingual corpora, Computational
+Linguistics, 19: 1, 75­102 (1993).
+[Grefenstette98] G. Grefenstette. The Problem of Cross­Language Information Retrieval. In Cross­ language
+Information Retrieval. Kluwer Academic Publishers. pages 1­9, 1998
+[Franz98] M. Franz, J.S. McCarley, S. Roukos, Ad hoc and multilingual information retrieval at IBM, The
+Seventh Text Retrieval Conference (TREC­7), NIST SP 500­242, pp. 157­168 (1998)
+[Nie99] J.Y. Nie, P. Isabelle, M. Simard, R. Durand, Cross­language information retrieval based on parallel
+texts and automatic mining of parallel texts from the Web, ACM­SIGIR conference, Berkeley, CA, pp. 74­
+81(1999).
+[Nie01] J.Y. Nie, J. Cai, Filtering noisy parallel corpora of web pages, IEEE symposium on NLP and
+Knowledge Engineering, pp. 453­458, (2001).
+[Simard92] M. Simard, G. Foster, P. Isabelle, Using Cognates to Align Sentences in Parallel Corpora,
+Proceedings of the 4th International Conference on Theoretical and Methodological Issues in Machine
+Translation, Montreal (1992).
+

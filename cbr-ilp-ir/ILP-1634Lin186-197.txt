@@ -1,0 +1,66 @@
+Improving Part of Speech Disambiguation Rules
+by Adding Linguistic Knowledge
+
+Nikolaj Lindberg1 and Martin Eineborg2
+
+1 Centre for Speech Technology (CTT), Department of Speech, Music and Hearing,
+Royal Institute of Technology, Stockholm, Sweden, nikolaj@speech.kth.se
+2 Machine Learning Group, Department of Computer and Systems Sciences (DSV),
+Stockholm University/Royal Institute of Technology, Stockholm, Sweden,
+eineborg@dsv.su.se
+
+
+
+Abstract. This paper reports the ongoing work of producing a state of
+the art part of speech tagger for unedited Swedish text. Rules eliminating 
+faulty tags have been induced using Progol. In previously reported
+experiments, almost no linguistically motivated background knowledge
+was used [5, 8]. Still, the result was rather promising (recall 97.7%, with a
+pending average ambiguity of 1.13 tags/word). Compared to the previous
+study, a much richer, more linguistically motivated, background knowledge 
+has been supplied, consisting of examples of noun phrases, verb
+chains, auxiliary verbs, and sets of part of speech categories. The aim
+has been to create the background knowledge rapidly, without laborious
+hand-coding of linguistic knowledge. In addition to the new background
+knowledge, new, more expressive rule types have been induced for two
+part of speech categories and compared to the corresponding rules of the
+previous bottom-line experiment. The new rules perform considerably
+better, with a recall of 99.4% for the new rules, compared to 97.6% for
+the old rules. Precision was slightly better for the new rules.
+References
+
+1.	Eric Brill. Some advances in transformation-based part of speech tagging. In
+Proceedings of the Twelfth National Conference on Artificial Intelligence (AAAI-
+94), 1994.
+2.	Johan Carlberg and Viggo Kaun. Implementing an efficient part-of-speech tagger.
+To appear. Available at http://www.nada.kth.se/theory/projects/granska/,
+1999.
+3.	Kenneth Ward Church and Patrick Hanks. Word association norms, mutual information, 
+and lexicography. In Proceedings from the 27th Meeting of the A CL, pages
+76—83,	1989.
+4.	James Cussens. Part of speech tagging using Progol. In Proceedings of the 7th
+International Workshop on Inductive Logic Programming (ILP-97), pages 93—108,
+Prague, Czech Republic, September 1997.
+5.	Martin Eineborg and Nikolaj Lindberg. Induction of Constraint Grammar-rules
+using Progol. In Proceedings of The Eighth International Conference on Inductive
+Logic Programming (ILP’98), Madison, Wisconsin, 1998.
+6.	Eva Ejerhed, Gunnel Källgren, Wennstedt Ola, and Magnus Aström. The Linguistic 
+Annotation System of the Stockholm- Umeå Project. Department of General
+Linguistics, University of Umeå, 1992.
+7.	Fred Karlsson, Atro Voutilainen, Juha Heikkilä, and Arto Anttila, editors. Constraint 
+Grammar: A language-independent system for parsing unrestricted text.
+Mouton de Gruyter, Berlin and New York, 1995.
+8.	Nikolaj Lindberg and Martin Eineborg. Learning Constraint Grammar-style disambiguation 
+rules using Inductive Logic Programming. In Proceedings of COLING/A CL ‘98, 
+volume II, pages 775—779, Montreal, Canada, 1998.
+9.	Oliver Mason. QTAG—A portable probabilistic tagger. Corpus Research, The
+University of Birmingham, U.K., 1997.
+10.	Stephen Muggleton. Inverse entailment and Progol. New Generation Computing
+Journal, 13:245—286, 1995.
+11.	Daniel Ridings. SUC and the Brill tagger. GU-ISS-98-1 (Research Reports from
+the Department of Swedish, Göteborg University), 1998.
+12.	Christer Samuelsson, Pasi Tapanainen, and Atro Voutilainen. Inducing Constraint
+Grammars. In Miclet Laurent and de la Higuera Colin, editors, Grammatical Inference: 
+Learning Syntax from Sentences, pages 146—155. Springer-Verlag, 1996.
+13.	Ashwin	Srinivasan.	P-Progol	User and Reference	Manual.
+http://www.comlab.ox.ac.uk/oucl/groups/machlearn/PProgol/, 1998.

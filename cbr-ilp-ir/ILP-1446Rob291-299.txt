@@ -1,0 +1,76 @@
+A Comparison of ILP and Propositional Systems
+on Propositional Traffic Data
+
+Sam Roberts1 , Wim vanLaer2, Nico Jacobs2, Stephen Muggleton3, and
+Jeremy Broughton4
+
+1 Oxford University Computing Laboratory
+Samuel.Roberts@comlab.ox.ac.uk
+2 Department of Computer Science, Katholieke Universiteit Leuven
+{Wim.VanLaer, Nico.Jacobs}@cs.kuleuven.ac.be
+3 Department of Computer Science, University of York
+stephen@cs.york.ac.uk
+4 Transport Research Laboratory, Crowthorne, Berkshire
+JeremyB@E.TRL.CO.UK
+
+
+Abstract. This paper presents an experimental comparison of two Inductive 
+Logic Programming algorithms, PROGOL and TILDE, with C4.5,
+a propositional learning algorithm, on a propositional dataset of road
+traffic accidents. Rebalancing methods are described for handling the
+skewed distribution of positive and negative examples in this dataset ,
+and the relative cost of errors of commission and omission in this domain. 
+It is noted that before the use of these methods all algorithms
+perform worse than majority class. On rebalancing, all did significantly
+better. The conclusion drawn from the experimental results is that on
+such a propositional dataset ILP algorithms perform competitively in
+terms of predictive accuracy with propositional systems, but are significantly 
+outperformed in terms of time taken for learning.
+References
+
+[1]	R. Agrawal, H. Mannila, R. Srikant, H. Toivonen, and A.I. Verkamo. Fast discovery 
+of association rules. In Advances in Knowledge Discovery and Data Mining,
+pages 307—328. MIT Press, 1996.
+[2]	H. Blockeel and L. De Raedt. Lookahead and discretization in ILP. In Proceedings
+of the 7th International Workshop on Inductive Logic Programming, volume 1297
+of Lecture Notes in Artificial Intelligence, pages 77—85. Springer-Verlag, 1997.
+[3]	H. Blockeel and L. De Raedt. Top-down induction of first order logical decision
+trees. Submitted, 1998.
+[4] P. Clark and R. Boswell. Rule induction with CN2: Some recent improvements.
+In Yves Kodratoff, editor, Proceedings of the 5th European Working Session on
+Learning, volume 482 of Lecture Notes in Artificial Intelligence, pages 151—163.
+Springer-Verlag, 1991.
+[5]	P. Clark and T. Niblett. The CN2 algorithm. Machine Learning, 3(4):261—284,
+1989.
+[6] J. Cussens, D. Page, S. Muggleton, and A. Srinivasan. Using Inductive Logic
+Programming for Natural Logic Processing. In W. Daelemans, T. Weijters, and
+A.	van der Bosch, editors, ECML ‘97 — Workshop Notes on Empirical Learning
+of Natural Language Tasks, pages 25—34, Prague, 1997. University of Economics.
+Invited keynote paper.
+[7]	L. Dehaspe and L. De Raedt. Mining association rules in multiple relations. In
+Proceedings of the 7th International Workshop on Inductive Logic Programming,
+volume 1297 of Lecture Notes in Artificial Intelligence, pages 125—132. Springer-
+Verlag, 1997.
+[8]	B. Dolsak and S. Muggleton. The application of Inductive Logic Programming to
+finite element mesh design. In S. Muggleton, editor, Inductive Logic Programming,
+pages 453—472. Academic Press, London, 1992.
+[9]	R.S. Michalski. A theory and methodology of inductive learning. In Machine
+Learning: an artificial intelligence approach, volume 1. Morgan Kaufmann, 1983.
+[10]	S. Muggleton. Inductive logic programming. New Generation Computing,
+8(4):295—318, 1991.
+[11]	S. Muggleton. Inverse entailment and Progol. New Generation Computing,
+13:245—286, 1995.
+[12] J.R. Quinlan. Induction of decision trees. Machine Learning, 1(1):81—106, 1986.
+[13] J.R. Quinlan. C4.5: Programs for Machine Learning. Morgan Kaufmann, 1993.
+Morgan Kaufmann series in machine learning.
+[14]	L. De Raedt. Induction in logic. In R.S. Michalski and J. Wnek, editors, Proceedings 
+of the 3rd International Workshop on Multistrategy Learning, pages 29—38,
+1996.
+[15]	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70:375—392, 1994.
+[16]	A. Srinivasan, S. Muggleton, R. King, and M. Sternberg. Theories for mutagenicity: 
+a study of first-order and feature based induction. Artificial Intelligence,
+85(1,2):277—299, 1996.
+[17]	B. Williams, S. Roberts, and S. Muggleton. Use of ILP to investigate accident
+data: final report. Technical Report JA022D010-0.1, Smith System Engineering,
+Surrey Research Park, Guildford, Surrey GU2 5YP, September 1997.

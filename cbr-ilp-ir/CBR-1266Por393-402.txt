@@ -1,0 +1,45 @@
+Selecting Most Adaptable
+Diagnostic Solutions through
+Pivoting-Based Retrieval
+
+Luigi Portinale, Pietro Torasso and Diego Magro
+
+Dipartimento di Informatica - Universita’ di Torino
+C.so Svizzera 185 - 10149 Torino (ITALY)
+e-mail: {portinal,torasso}@di.unito.it
+
+
+Abstract. The aim of the present paper is to investigate a retrieval strategy
+for case-based diagnosis called Pivoting Based Retrieval (PBR), based on a
+tight integration between retrieval and adaptation estimation. It exploits a
+heuristic estimate of the adaptability of a solution; during retrieval, lower and
+upper bounds for such an estimate are computed for relevant cases and a pivot
+case is selected, determining which cases have to be considered and which
+have not. Such a technique has been evaluated on three different domain
+modeis and very satisfactory results have been obtained both in terms of
+accuracy, space and retrieval time
+References
+
+1.	D.S. Aghassi. Evaluating case-based reasoning for heart failure diagnosis. Technical
+report, Dept. of EECS, MIT, Cambridge, MA, 1990.
+2.	L. Console and P. Torasso. A spectrum of logical definitions of model-based diagnosis.
+Computational Intelligence, 7(3): 133—141, 1991.
+3.	J.L. Kolodner. Case-Based Reasoning. Morgan Kaufmann, 1993.
+4.	D.B. Leake. Adaptive similarity assessment for case-based explanation. International
+Journal of Expert Systems, 8(2):165—194, 1995.
+5.	D.B. Leake, A. Kinley, and D. Wilson. Linking adaptation and similarity learning. In
+Proc. 18th Int. Conf. of Cognitive Science Society, San Diego, 1996.
+6.	B. Nebel and J. Koeliler. Plan reuse versus plan generation: a theoretical and empirical
+analysis. Artificial Intelligence, 76:427—454, 1995.
+7.	L. Portinale and P. Torasso. ADAPtER: an integrated diagnostic system combining
+case-based and abductive reasoning. In LNAI 1010, pages 277—288. Springer Verlag,
+1995.
+8.	L. Portinale and P. Torasso. On the usefulness of re-using diagnostic solutions. In
+Proc. 12th European Conf. on Al - ECAI 96, pages 137—141, Budapest, 1996.
+9.	J. Rousu and R.J. Aarts. Adapatation cost as a criterion for solution evaluation. In
+LNAI 1168, pages 354—361. Springer Verlag, 1996.
+10.	J.W. Schaaf. Fish and shrink. A next step towards efficient case retrieval in large scale
+case bases. In LNAI 1168, pages 362—376. Springer Verlag, 1996.
+11.	B. Smyth and M.T. Keane. Design a Ia Deja’ Vu: reducing the adaptation overhead. In
+D.B. Leake, editor, Case Based Reasoning: Experiences, Lessons and Future Directions.
+AAAI Press, 1996.

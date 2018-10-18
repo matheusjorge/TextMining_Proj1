@@ -1,0 +1,31 @@
+Lexical Semantics in the Age of the Semantic Web
+
+Paul Buitelaar
+DFKI GmbH, Language Technology Department
+Stuhlsatzenhausweg 3, D­66123 Saarbruecken, Germany
+paulb@dfki.de
+
+1. Introduction
+Lexical semantics is the study of word meaning. The semantic web is a vision of what the web
+could be if it would foremost consist of knowledge (structured data) rather than text or other
+unstructured data as it is today. This talk is about the future of word meaning if the semantic
+web becomes a reality. First, I will therefore briefly clarify what the semantic web vision
+consists of, followed by a sketch of lexical semantics. Finally, I will speculate on how the
+inherent semantic standardization process of the semantic web could have a dramatic
+influence on the study and use of word meaning.
+
+
+References
+[1] Tim Berners­Lee, James Hendler and Ora Lassila ­ The Semantic Web: A new form of
+Web content that is meaningful to computers will unleash a revolution of new
+possibilities. Scientific American. May, 2001.
+http://www.sciam.com/print_version.cfm?articleID=00048144­10D2­1C70­84A9809EC588EF21
+[2] http://dublincore.org/
+[3] http://www.w3.org/TR/rdf­schema/
+[4] http://www.daml.org/2001/03/daml+oil­index
+[5] http://www.w3.org/XML/Schema
+[6] http://www.topicmaps.org/xtm/1.0/
+[7] Gil Y., Ratnaker V. -- A Comparison of (Semantic) Markup Languages. In:
+Proceedings of AAAI 2001. http://trellis.semanticweb.org/expect/web/semanticweb/comparison.html
+[8] http://www.getty.edu/research/tools/vocabulary/aat/about.html
+

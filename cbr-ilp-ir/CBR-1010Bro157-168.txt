@@ -1,0 +1,80 @@
+Separating the Cases from the Data: Towards
+More Flexible Case-Based Reasoning
+
+Mike Brown1, Ian Watson2 and Nick Filer1
+
+1 Department of Computer Science, The University of Manchester, Manchester, UK
+michaelb/nick@cs.man.ac.uk
+2 Department of Surveying, University of Salford, Salford, UK
+i.d.watson@surveying.salford.ac.uk
+
+
+Abstract. The number of successful, small-scale and purpose-built applications 
+of CBR is growing rapidly. However, CBR has so far not been
+widely used as a methodology for reusing the large-scale data repositories 
+typically maintained by a corporation. To facilitate this, cases must
+no longer be considered as concretely represented at the data level, but
+as virtual views of the underlying data. This paper argues that the basic
+requirement to support virtual cases are mapping functions between different 
+data representations. It is argued that the use of mapping functions
+can increase flexibility in a number of ways. Multiple CBR applications
+can exploit a single database. Similarly, a single case representation can
+span multiple databases. Support for communication between different
+CBR applications as well as the evolution of case representation within a
+single application are also catered for by the same methodology. The paper 
+provides reference to related work on database systems, with respect
+to the issues of mapping function implementation and management.
+References
+
+1.	Special Issue on Heterogeneous Databases. ACM Computing Surveys, 22(3),
+September 1990.
+2.	Special Issue on Heterogeneous Distributed Database Systems. Computer, 24(12),
+December 1991.
+3.	R Alterman and M Wentworth. Determining the Important Features of a Case.
+In DARPA CBR Workshop, pages 197—202. Morgan Kaufmann, 1989.
+4.	K-D Althoff, E Auriol, R Barletta, and M Manago. A Review of Industrial Case-Based 
+Reasoning Tools. AI Intelligence, P0 Box 95, Oxford, 0X2 7XL, 1995.
+ISBN 1 898804 01 X.
+5.	S Andreas, G Schiageter, and S Kirn. Problem Solving in Federative Environments: 
+The FRESCO Concept of Cooperative Agents. In The New Generation of
+Information Systems: From Data to Knowledge. Springer-Verlag, 1992.
+6.	K D Ashley. Indexing and Analytical Models. In DARPA CBR Workshop, pages
+197—202. Morgan Kaufmann, 1989.
+7.	M Brown. Case-Based Reasoning: Principles and Potential. AI Intelligence, P0
+Box 95, Oxford, OX2 7XL, 1992.
+8.	M Brown. Generic Operators for Schema-to-Schema Mappings. Technical Report
+JCF/MAN/111-05/31-Mar-95, The Uni. of Manchester, 1995.
+9.	M Brown, Z Moosa, N Filer, J Heaton, and J Pye. Close Integration of a CAD
+Vendor’s Framework into the Jessi-Common-Frame Using a Flexible and Adaptable
+Procedural Interface. In Proc. of The Int. Workshop on Concurrent/Simultaneous
+Engineering Frameworks and Applications, Lisboa, Portugal, 1995.
+10.	C S dos Santos, S Abiteboul, and C Delobel. Virtual Schemas and Bases. Lecture
+Notes in Computer Science: Proc. of EDBT 94, (779):81—94, 1994.
+11.	D C Edelson. When Should a Cheetah Remind You of a Bat? Reminding in Case-based 
+Teaching. In Proc. of AAAI-92, pages 667—672, 1992.
+12.	B Falkenhainer, K D Forbus, and D Gentner. The Structure Mapping Engine:
+Algorithms and Examples. Artificial Intelligence, 41(1):1—63, 1989.
+13.	N Filer, M Brown, and Z Moosa. Integrating CAD Tools into a Framework Environment 
+Using a Flexible and Adaptable Procedural Interface. In Proc. of EURODAC '94, 
+pages 200—205, Grenoble, 1994. IEEE-CS Press.
+14.	A K Goel, J L Kolodner, M Pearce, and R Billington. Towards a Case-Based Tool
+for Aiding Conceptual Design Problem Solving. In DARPA CBR Workshop, pages
+109—120, Washington, D.C., 1991.
+15.	K J Hammond. Explaining and Repairing Plans That Fail. Artificial Intelligence.,
+45:173—228, 1990.
+16.	S Mir. Heuristic Reasoning for an Automatic Commonsense Understanding of
+Logic Electronic Design Specifications. PhD thesis, The Uni. of Manchester, 1993.
+17.	M J Pazzani. Indexing Strategies for Goal Specific Retrieval of Cases. In DARPA
+CBR Workshop, pages 31—35. Morgan Kaufmann, 1989.
+18.	P K C Pun. Knowledge-Based Applications = Knowledge Base + Mappings +
+Application. PhD thesis, The Uni. of Manchester, 1991.
+19.	M P Reddy, B E Prasad, P G Reddy, and A Gupta. A Methodology for Integration 
+of Heterogeneous Databases. IEEE Transactions on Knowledge and Data
+Engineering, 6(6):920—933, December 1994.
+20.	H Shimazu, H Kitano, and A Shibata. Retrieving Cases from Relational Data-Bases: 
+Another Stride Towards Corporate-Wide Case-Based Systems. In Proc. of
+IJCAI-93, pages 909—914, Chambéry, 1993. Morgan Kaufmann.
+21.	J E Vargas and S Raj. Developing Maintainable Expert Systems Using Case-Based
+Reasoning. Expert Systems, 10(iv) :219—225, 1993.
+22.	I Watson and F Marir. Case-Based Reasoning: A Review. The Knowledge Engineering 
+Review, 9(4):327—54, 1994.

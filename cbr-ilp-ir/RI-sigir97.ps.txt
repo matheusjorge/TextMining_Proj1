@@ -1,0 +1,219 @@
+Cat­a­Cone: An Interactive Interface for Specifying Searches and
+Viewing Retrieval Results using a Large Category Hierarchy
+
+Marti A. Hearst Chandu Karadi
+Xerox Palo Alto Research Center School of Medicine, M121
+3333 Coyote Hill Rd Stanford University
+Palo Alto, CA 94304 Stanford, CA 94305
+hearst@parc.xerox.com karadi@leland.stanford.edu
+
+Abstract
+This paper introduces a novel user interface that inte­grates 
+search and browsing of very large category hierar­chies 
+with their associated text collections. A key com­ponent 
+is the separate but simultaneous display of the
+representations of the categories and the retrieved doc­uments. 
+Another key component is the display of mul­tiple 
+selected categories simultaneously, complete with
+their hierarchical context. The prototype implementa­tion 
+uses animation and a three­dimensional graphical
+workspace to accommodate the category hierarchy and
+to store intermediate search results. Query specifica­tion 
+in this 3D environment is accomplished via a novel
+method for painting Boolean queries over a combination
+of category labels and free text. Examples are shown
+on a collection of medical text.
+
+References
+Agosti, M., G. Gradenigo, & P.G. Marchetti. 1992. A
+hypertext environment for interacting with large textual
+databases. Information Processing & Management 28.371--
+387.
+Allen, Robert B. 1995. Two digital library interfaces that
+exploit hierarchical structure. In Proceedings of DAGS95:
+Electronic Publishing and the Information Superhighway,
+Boston, MA.
+------, Pascal Obry, & Michael Littman. 1993. An interface
+for navigating clustered document sets returned by queries.
+In Proceedings of ACM COOCS: Conference on Organiza­
+tional Computing Systems, Milpitis, CA.
+Aronson, A., T. Rindglesch, & A. Browne. 1994. Exploiting
+a large thesaurus for information retrieval. In Proceedings
+of RIAO '94; Intelligent Multimedia Information Retrieval
+Systems and Management, 197--216.
+Baldonado, Michelle Q. Wang, & Terry Winograd. 1997.
+Sensemaker: An information­exploration interface support­
+ing the contextual evolution of a user's interests. In Proceed­
+ings of the ACM SIGCHI Conference on Human Factors in
+Computing Systems. To appear.
+Belkin, N., P. G. Marchetti, & C. Cool. 1993. Braque --
+design of an interface to support user interaction in infor­mation 
+retrieval. Information Processing and Management
+29.325--344.
+Card, Stuart K., George G. Robertson, & William York.
+1996. The webbook and the web forager: An information
+workspace for the world­wide web. In Proceedings of the
+ACM SIGCHI Conference on Human Factors in Computing
+Systems, Vancouver, Canada.
+Carpineto, Claudio, & Giovanni Romano. 1996. Informa­tion 
+retrieval through hybrid navigation of lattice represen­tations. 
+International Journal of Human­Computer Studies
+45.553--578.
+Chalmers, Matthew, & Paul Chitson. 1992. Bead: Explo­ration 
+in information visualization. In Proceedings of the
+15th Annual International ACM/SIGIR Conference, 330--
+337, Copenhagen, Denmark.
+Chen, Hsinchen, Andrea L. Houston, Robin R. Sewell, &
+Bruce R. Schatz. 1997. Internet browsing and searching:
+User evaluations of category map and concept space tech­
+niques. Journal of the American Society for Information
+Sciences (JASIS) . To appear.
+Crouch, C. J. 1990. An approach to the automatic construction
+of global thesauri. Information Processing and Management
+26.629--640.
+Cutting, Douglass R., Jan O. Pedersen, David Karger, &
+John W. Tukey. 1992. Scatter/Gather: A cluster­basedap­
+proach to browsing large document collections. In Proceed­ings 
+of the 15th Annual International ACM/SIGIR Confer­ence, 318--329, Copenhagen, Denmark.
+Deerwester, Scott, Susan T. Dumais, George W. Furnas,
+Thomas K. Landauer, & Richard Harshman. 1990. In­dexing 
+by latent semantic analysis. Journal of the American
+Society for Information Science 41.391--407.
+Drabenstott, Karen M., & Marjorie S. Weller. 1996. The
+exact­display approach for online catalog subject searching.
+Information Processing and Management 32.719--745.
+Egan, Dennis E., Joel R. Remde, Louis M. Gomez,
+Thomas K. Landauer, Jennifer Eberhardt, & Carol C.
+Lochbaum. 1989. Formative design evaluation of Super­
+Book. Transaction on Information Systems 7.
+Evans, David A., Kimberly Ginther­Webster, Mary Hart,
+Robert G. Lefferts, & Ira A. Monarch. 1991. Auto­matic 
+indexing using selective NLP and first­order thesauri.
+In Proceedings of the RIAO, volume 2, 624--643.
+Fowler, Richard H., Wendy A. L. Fowler, & Bradley A.
+Wilson. 1991. Integrating query, thesaurus, and documents
+through a common visual representation. In Proceedings
+of the 14th Annual International ACM/SIGIR Conference,
+142--151, Chicago.
+Fox, Edward A., Deborah Hix, Lucy T. Nowell, Den­nis 
+J. Brueni, William C. Wake, Lenwwod S. Heath,
+& Durgesh Rao. 1993. Users, user interfaces, and objects:
+Envision, a digital library. Journal of the American Society
+for Information Science 44.480--491.
+Grefenstette, Gregory. 1994. Explorations in automatic the­
+saurus discovery. Kluwer international series in engineering
+and computer science. Kluwer Academic Publishers.
+Hearst, Marti A. 1994. Using categories to provide context
+for full­text retrieval results. In Proceedings of RIAO '94;
+Intelligent Multimedia Information Retrieval Systems and
+Management, 115--130.
+------. 1995. Tilebars: Visualization of term distribution informa­
+tion in full text information access. In Proceedings of the
+ACM SIGCHI Conference on Human Factors in Comput­
+ing Systems, Denver, CO.
+Hemmje, Matthias, Clemens Kunkel, & Alexander Willett.
+1994. LyberWorld -- a visualization user interface supporting
+fulltext retrieval. In Proceedings of the 17th Annual Interna­tional 
+ACM/SIGIR Conference, 249--259, Dublin, Ireland.
+Henzler, Rolf G. 1978. Free or controlled vocabularies: Some
+statistical user­oriented evaluations of biomedical informa­tion 
+systems. International Classification 5.21--26.
+Hersh, William R., David H. Hickman, Brian Haynes, &
+K. Ann McKibbon. 1994. A performance and failure anal­ysis 
+of SAPHIRE with a MEDLINE test collection. Journal
+of the American Medical Informatics Association 1.51--60.
+Hill, William C., James D. Hollan, Dave Wroblewski, &
+Tim McCandless. 1992. Edit wear and read wear. In
+Proceedings of the ACM SIGCHI Conference on Human
+Factors in Computing Systems, 3--9.
+Ingwersen, Peter, & Irene Wormell. 1986. Improved sub­ject 
+access, browsing, and scanning mechanisms in modern
+online IR. In Proceedings of the 9th Annual International
+ACM/SIGIR Conference, 68--76, Pisa, Italy.
+Korfhage, Robert R. 1991. To see or not to see -- is that the
+query? In Proceedings of the 14th Annual International
+ACM/SIGIR Conference, 134--141, Chicago.
+Korn, Flip, & Ben Shneiderman. 1995. Navigating terminol­ogy 
+hierarchies to access a digital library of medical images.
+Technical Report HCIL­TR­94­03, University of Maryland.
+Lancaster, F. 1986. Vocabulary control for information re­
+trieval, second edition. Arlington, VA: Information Re­sources.
+Lin, Xia, Dagobert Soergel, & Gary Marchionini. 1991. A
+self­organizing semantic map for information retrieval. In
+Proceedings of the 14th Annual International ACM/SIGIR
+Conference, 262--269, Chicago.
+Lowe, Henry J., & G. Octo Barnett. 1994. Understanding
+and using the medical subject headings (MeSH) vocabulary
+to perform literature searches. Journal of the American
+Medical Assocation (JAMA) 271.1103--1108.
+Maarek, Y. S., & A.J. Wecker. 1994. The librarian's assistant:
+Automatically assembling books into dynamic bookshelves.
+In Proceedings of RIAO '94; Intelligent Multimedia Infor­
+mation Retrieval Systems and Management.
+Markey, Karen, Pauline Atherton, & Claudia Newton.
+1982. An analysis of controlled vocabulary and free text
+search statements in online searches. Online Review 4.225--
+236.
+Pedersen, Gert Schmeltz. 1993. A browser for bibliographic
+information retrieval, based on an application of lattice
+theory. In Proceedings of the 16th Annual International
+ACM/SIGIR Conference, 270--279, Pittsburgh, PA.
+Rennison, Earl. 1994. Galaxy of news: An approach to visu­alizing 
+and understanding expansive news landscapes. In
+Proceedings of UIST 94, ACM Symposium on User Inter­face 
+Software and Technology, 3--12, New York.
+Robertson, George C., Stuart K. Card, & Jock D. MacKin­lay. 
+1993. Information visualization using 3D interactive
+animation. Communications of the ACM 36.56--71.
+Rose, Daniel E., & Richard K. Belew. 1991. Toward a direct­
+manipulation interface for conceptual information retrieval
+systems. In Interfaces for information retrieval and on­
+line systems, ed. by Martin Dillon, 39--54. New York, NY:
+Greenwood Press.
+Ruge, Gerda. 1991. Experiments on linguistically based term
+associations. In Proceedings of the RIAO, 528--545.
+Salton, Gerard. 1989. Automatic text processing: the transfor­mation, 
+analysis, and retrieval of information by computer.
+Reading, MA: Addison­Wesley.
+Schaffer, Doug, Zhengping Zuo, Saul Greenberg, Lyn Bar­tram, 
+John Dill, Shelli Dubs, & Mark Roseman. 1996.
+Navigating hierarchically clustered networks through fisheye
+and full­zoom methods. ACM Transactions on Computer­
+Human Interaction 3.162--188.
+Sch¨ utze, Hinrich. 1993. Word space. In Advances in neural
+information processing systems 5, ed. by Stephen J. Hanson,
+Jack D. Cowan, & C. Lee Giles. San Mateo CA: Morgan
+Kaufmann.
+Schuyler, P. Y., W. T. Hole, M. S. Tuttle, & D. D. Sher­ertz. 
+1993. The UMLS metathesaurus: representing differ­ent 
+views of biomedical concepts. Bulletin of the Medical
+Library Association 81.217--222.
+Shneiderman, Ben. 1996. The eyes have it: A task by data type
+taxonomy. In Proceedings of Visual Languages 96, Boulder,
+CO.
+Spoerri, Anselm. 1993. InfoCrystal: A visual tool for informa­tion 
+retrieval & management. In Proceedings of Information
+Knowledge and Management '93, Washington, D.C.
+Srinivasan, Padmini. 1996a. Optimal document­indexing vocab­ulary 
+for medline. Information Processing and Management
+32.503--514.
+------. 1996b. Query expansion and medline. Information Pro­cessing 
+and Management 32.431--443.
+------. 1996c. Retrieval feeback in medline. Journal of the Amer­ican 
+Medical Informatics Association (JAMA) 3.157--167.
+Svenonius, Elaine. 1986. Unanswered questions in the design
+of controlled vocabularies. Journal of the American Society
+for Information Science 37.331--340.
+Thompson, R. H., & B. W. Croft. 1989. Support for browsing
+in an intelligent text retrieval system. International Journal
+of Man [sic] ­Machine Studies 30.639--668.
+Wise, James A., James J. Thomas, Kelly Pennock, David
+Lantrip, Marc Pottier, & Anne Schur. 1995. Visual­
+izing the non­visual: Spatial analysis and interaction with
+information from text documents. In Proceedings of the In­
+formation Visualization Symposium 95, 51--58. IEEE Com­puter Society Press.
+Yang, Yiming, & Christopher G. Chute. 1994. Expert net­work: 
+Effective and efficient learning from human decisions
+in text categorization and retrieval. In Proceedings of the
+17th Annual International ACM/SIGIR Conference, 13--22,
+Dublin, Ireland.

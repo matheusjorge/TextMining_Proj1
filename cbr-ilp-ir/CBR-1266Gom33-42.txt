@@ -1,0 +1,62 @@
+A Case-Based Approach for Elaboration of Design
+Requirements
+
+Paulo Gomes1,2
+
+1 ISEC - Instituto Superior de Engenharia
+de Coimbra
+Quinta da Nora, 3030 Coimbra
+
+pgomes@sun.isec.pt
+
+Carlos Bento2
+
+2 CISUC - Centro de Informática e
+Sistemas da Universidade de Coimbra
+Polo II - Universidade de Coimbra, 3030
+Coimbra
+
+{pgomes|bento}@eden.dei.uc.pt
+
+Abstract
+The process of Case-Based Creative Design comprises: problem
+specification, problem elaboration, case retrieval, case adaptation, and
+verification. Problem specification and elaboration are crucial stages in the
+design process. Notwithstanding most of the current systems do not address
+this phase, assuming that the problem is well defined and complete, which is
+not a valid assumption for most of the situations.
+In this paper we propose a case-based method for problem
+elaboration. Old design episodes are used for problem specification and
+elaboration. Through the use of a graphical editor the user explores a set of
+alternative problem specifications. This helps the user in the problem
+specification task. If the problem still remains ill or incompletely defined, a
+problem elaboration method is used to complete the problem specification
+based on a library of cases and domain knowledge.
+
+
+9. References
+(Bylander and Chandrasekaran 1985) Bylander,T., and Chandrasekaran, B. 1985.
+Understanding Behavior Using Consolidation. In Proceedings of the Ninth
+International Joint Conference on Artificial Intelligence.
+(Gero 1994) Gero, J. 1994. Computational Models of Creative Design Processes. In
+T. Dartnall (ed.), AI in Creativity. Kiuwer, Dordrecht, pp. 269-281.
+(Goel 1992) Goel, A. 1992. Representation of Design Functions in Experience-Based
+Design. Intelligent Computer Aided Design. D. Brown, M. Waldron, and H.
+Yoshikawa (eds.). Elsevier Science Publishers.
+(Gomes et al. 1996) Gomes, P., Bento, C., Gago, P., and Costa, E. 1996. Towards a
+Case-Based Model for Creative Processes. In Proceedings of the 12th European
+Conference on Artificial Intelligence. John Willey & Sons.
+(Kolodner and Wills 1993) Kolodner, K., and Wills, L. 1993. Case-Based Creative
+Design. In AAAI Spring Symposium on AI+Creativity, Stanford, CA.
+(Nakatani, Tsukiyama and Fukuda 1993) Nakatani, Y., Tsukiyama, M., and Fukuda,
+T.1993. Reuse of Conceptual Designs for an Engineering Design Group. In
+Reuse of Designs: an interdisciplinary cognitive approach. De. Willemien
+Visser. Proceedings of the Workshop of the 1 3th IJCAI, France.
+(Reich 1991) Reich, Y. 1991. Design Knowledge Acquisition: Task Analysis and a
+Partial Implementation. Knowledge Acquisition: An International Journal of
+Knowledge Acquisition for Knowledge-Based System 3(3):234-254.
+(Stroulia et al. 1992) Stroulia, E., Shankar, M., Goel, A., and Penberthy, L. 1992. A
+Model-Based Approach to Blame Assignment in Design. In Proceedings of the
+2nd International Conference on Al in Design.
+(Tong and Sriram 1992) Tong, C., and Sriram, D. eds. 1992. Artificial Intelligence
+in Engineering Design, Vol. I. Academic Press.

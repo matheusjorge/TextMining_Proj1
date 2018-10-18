@@ -1,0 +1,62 @@
+Estimating Software Development Effort
+with Case-Based Reasoning
+
+G.R. Finnie*, G.E. Wittig* and J-M. Desharnais**
+
+* School of Information Technology
+Bond University, Gold Coast
+Queensland 4229. Australia
+gfinnie@Bond.edu.au
+gwittig@Bond.edu.au
+** Software Engineering Laboratory in Applied Metrics
+7415 rue Beaubien Est, suite 509
+Anjou, Quebec, Canada HiM 3RS
+(Address Correspondence to Dr. G.R.Finnie)
+
+Abstract
+Software project effort estimation is a difficult problem complicated by a variety of
+interrelated factors. Current regression-based models have not had much success in
+accurately estimating system size. This paper describes a case based reasoning approach to
+software estimation which performs somewhat better than regression models based on the
+same data and which has some similarity to human expert judgement approaches. An
+analysis is performed to determine whether different forms of averaging and adaptation
+improve the overall quality of the estimate.
+
+References
+Desharnais, J.M., et al. Adjustment Model for Function Points Scope Factors - A
+Statistical Study, IFPUG Spring Conference, Florida (1990).
+Ferens, D.V. & Gurner, R.B. An Evaluation of Three Function Point Models for
+Estimation of Software Effort, IEEE National Aerospace and Electronics
+Conference — NAECON92, Vol. 2, 625—642, (1992).
+Finnie, G.R. & Wittig, G.E. AI Tools for Software Development Effort Estimation,
+Proceedings of the Conference on Software Engineering : Education and Practice,
+University of Otago, 113-120, (1996).
+Finnie, G.R., Wittig, G.E. and Desharnais, J-M. A Comparison of Software Effort
+Estimation Techniques: Using Function Points with Neural Networks, Case Based
+Reasoning and Regression Models, to appear in Journal of Systems and Software,
+1997.
+Function Point Counting Practices Manual, Release 4.0 International Function
+Point Users Group, Blendonview Office Park, 5008—28 Pine Creek Drive,
+Westerville, OH 43081—4899, USA, (1994).
+Heemstra, F.J. Software Cost Estimation, Information and Software Technology,
+vol. 34, no. 10, pp. 627—639, 1992.
+Jeffery, D.R and Low, G.C. Calibrating Estimation Tools for Software
+Development, Software Engineering Journal, 215—221, (July 1990).
+Jeffery, D.R., Low, G.C. and Barnes, M. A Comparison of Function Point Counting
+Techniques, IEEE Transactions on Software Engineering, vol. 19, no. 5, 529—532,
+(1993).
+Kemerer, C.F., An Empirical Validation of Software Cost Estimation Models,
+Communications of the ACM, vol. 30, no 5,416-429, (1987).
+Kemerer, C.F., Reliability of Function Points Measurement: A Field Experiment,
+Communications of the ACM, vol. 36, no 2, 85-97, (1993).
+Lootsma, F.A., The Relative Importance of the Criteria in the Multiplicative AHP
+and SMART, to appear in European Journal of Operations Research, 1997.
+Matson, J.E., Barrett, B.E. and Mellichamp, J.M., Software Development Cost
+Estimation Using Function Points, IEEE Transactions on Software Engineering, vol.
+20, no. 4, 275—287, (1994).
+Mukhopadhyay, T., Vicinanza, S.S. and Prietula, M.J., Examining the Feasibility of
+a Case-Based Reasoning Model for Software Effort Estimation, MIS Quarterly, vol.
+16, no. 2, 155—17 1, (1992).
+Srinivasan, K. and Fisher, D., Machine Learning Approaches to Estimating Software
+Development Effort, IEEE Transactions on Software Engineering, vol. 21, no.
+2126-137, (1995).

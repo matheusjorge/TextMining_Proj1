@@ -1,0 +1,65 @@
+Searching the Subsumption Lattice
+by a Genetic Algorithm
+
+Alireza Tamaddoni-Nezhad and Stephen H. Muggleton
+
+Department of Computer Science
+University of York, York, YO1 5DD, UK
+{alireza, stephen}@cs.york.ac.uk
+
+
+
+Abstract. A framework for combining Genetic Algorithms with LLP
+methods is introduced and a novel binary representation and relevant
+genetic operators are discussed. It is shown that the proposed representation 
+encodes a subsumption lattice in a complete and compact way. It
+is also shown that the proposed genetic operators are meaningful and can
+be interpreted in ILP terms such as lgg(least general generalization) and
+mgi (most general instance) . These operators can be used to explore a
+subsumption lattice efficiently by doing binary operations (e.g. and/or).
+An implementation of the proposed framework is used to combine Inverse
+Entailment of CProgol with a genetic search.
+References
+
+[1]	L. Badea and M. Stanciu. Refinement operators can be (weakly) perfect. In
+S. Dzeroski and P. Flach, editors, Proceedings of the 9th International Workshop
+on Inductive Logic Programming, volume 1634 of Lecture Notes in Artificial 
+Intelligence, pages 21—32. Springer-Verlag, 1999.
+[2]	A. Giordana and F. Neri. Search-intensive concept induction. Evolutionary 
+Computation Journal, 3(4):375—416, 1996.
+[3]	A. Giordana and C. Sale. Learning structured concepts using genetic algorithms.
+In D. Sleeman and P. Edwards, editors, Proceedings of the 9th International 
+Workshop on Machine Learning, pages 169—178. Morgan Kaufmann, 1992.
+[4]	D. E. Goldberg. Genetic Algorithms in Search, Optimization and Machine 
+Learning. Addison Wesley, Reading, MA, 1989.
+[5]	J. Hekanaho. Dogma: A ga-based relational learner. In D. Page, editor, Proceedings 
+of the 8th International Conference on Inductive Logic Programming, volume
+1446 of Lecture Notes in Artificial Intelligence, pages 205—214. Springer-Verlag,
+1998.
+[6]	J.H. Holland. Adaption in Natural and Artificial Systems. University of Michigan
+Press, Ann Arbor, Michigan, 1975.
+[7]	Claire J. Kennedy and Christophe Giraud-Carrier. An evolutionary approach to
+concept learning with structured data. In Proceedings of the fourth International
+Conference on Artificial Neural Networks and Genetic Algorithms, pages 1—6.
+Springer Verlag, April 1999.
+[8] Y. Kodratoff and R. Michalski. Research in machine learning: Recent progress,
+classification of methods and future directions. In Y. Kodratoff and R. Michalski,
+editors, Machine learning: an artificial intelligence approach, volume 3, pages 3—
+30.	Morgan Kaufman, San Mateo, CA, 1990.
+[9]	J. R. Koza. Genetic Programming. MIT Press, Cambridge, MA, 1991.
+[10]	K. S. Leung and M. L. Wong. Genetic logic programming and applications. IEEE
+Expert, 10(5):68—76, 1995.
+[11]	R.S. Michalski. Pattern recognition as rule-guided inductive inference. In 
+Proceedings of IEEE Transactions on Pattern Analysis and Machine Intelligence, pages
+349—361, 1980.
+[12]	S. Muggleton. Inductive logic programming. New Generation Computing,
+8(4):295—318, 1991.
+[13]	S. Muggleton. Inverse entailment and Progol. New Generation Computing,
+13:245—286, 1995.
+[14]	S-H. Nienhuys-Cheng and R. de Wolf. Poundations of Inductive Logic 
+Programming. Springer-Verlag, Berlin, 1997. LNAL 1228.
+[15]	G.D. Plotkin. A note on inductive generalisation. In B. Meltzer and D. Michie,
+editors, Machine Intelligence 5, pages 153—163. Edinburgh University Press, Edinburgh, 1969.
+[16]	A. Varsek. Inductive Logic Programming with Genetic Algorithms. PhD thesis,
+Faculty of Electrical Engineering and Computer Science, University of Ljubljana,
+Ljubljana, Slovenia, 1993. (In Slovenian).

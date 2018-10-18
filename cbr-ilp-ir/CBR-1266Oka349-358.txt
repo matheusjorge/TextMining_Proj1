@@ -1,0 +1,55 @@
+Theoretical Analysis of Case Retrieval Method
+Based on Neighborhood of a New Problem
+
+Seishi Okamoto and Nobuhiro Yugami
+
+Fujitsu Laboratories Limited.
+2-2-1 Momochihama. Sawara-ku, Fukuoka 814, Japan
+{seishi, yugami}@flab.fujitsu.co.jp
+
+
+Abstract. The retrieval of similar cases is often performed by using the
+neighborhood of a new problem. The neighborhood is usually defined
+by a certain fixed number of most similar cases (k nearest neighbors) to
+the problem. This paper deals with an alternative definition of neighborhood 
+that comprises the cases within a certain distance, d, from the
+problem. We present an average-case analysis of a classifier, the d-nearest
+neighborhood method (d-NNh), that retrieves cases in this neighborhood
+and predicts their majority class as the class of the problem. Our analysis
+deals with rn-of-n/i target concepts, and handles three types of noise. We
+formally compute the expected classification accuracy of d-NNh, then we
+explore the predicted behavior of d-NNh. By combining this exploration
+for d-NNh and one for k-nearest neighbor method (k-NN) in our previous
+study, we compare the predicted behavior of each in noisy domains. Our
+formal analysis is supported with Monte Carlo simulations.
+References
+
+1.	Aha, D., Kibler, D., and Albert, M. Instance-Based Learning Algorithms. Machine
+Learning, 6, (1991) 37—66.
+2.	Albert, M. and Aha, D. Analyses of Instance-Based Learning Algorithms. In Proceedings 
+of AAAI-91, (1991) 553—558. AAAI Press/MIT Press.
+3.	Cover, T. and Hart, P. Nearest Neighbor Pattern Classification. IEEE Transactions
+on Information Theory. 13(1), (1967) 21—27.
+4.	Creecy, H., Masand, M., Smith, J., and Waltz, D. Trading Mips and Memory for
+Knowledge Engineering. Communications of the ACM, 35(8), (1992) 48—63.
+5.	Drakopoulos, J. Bounds on the Classification Error of the Nearest Neighbor Rule.
+In Proceedings of ICML -95, (1995) 203—208. Morgan Kaufmann.
+6.	Langley, P. and Iba, W. Average-Case Analysis of a Nearest Neighbor Algorithm.
+In Proceedings of IJCAI-93, (1993) 889—894. Morgan Kaufmann.
+7.	Murphy, P. and Pazzani, M. ID2-of-3: Constructive Induction of M-o f-N Concepts
+for Discriminators in Decision Trees. In Proceedings of IWML-91, (1991) 183—187.
+Morgan Kaufmann.
+8.	O’Callaghan, J. F. An Alternative Definition for Neighborhood of a Point, IEEE
+Transactions on Computers, 24(11), (1975) 1121—1125.
+9.	Okamoto, S. and Satoh, K. An Average-Case Analysis of k-Nearest Neighbor Classifier. 
+In Proceedings of ICCBR-95 (Veloso, M. and Aamodt, A. Eds., LNAI, 1010),
+(1995) 243—264. Springer-Verlag.
+10.	Okamoto, S. and Yugami, N. Theoretical Analysis of the Nearest Neighbor Classifier 
+in Noisy Domains. In Proceedings of ICML-96 (1996) 355—363. Morgan Kaufmann.
+11.	Okamoto, S. and Yugami, N. An Average-Case Analysis of the k-Nearest Neighbor
+Classifier for Noisy Domains. In Proceedings of IJCAI-97, (1997) to appear. Morgan
+Kaufmann.
+12.	Pazzani, M. and Sarrett, W. A Framework for Average Case Analysis of Conjunctive 
+Learning Algorithms. Machine Learning, 9 (1992) 349—372.
+13.	Wettschereck. D. and Aha, D. Weighting Features. In Proceedings of ICCBR-95
+(Veloso, M. and Aamodt, A. Eds., LNAI, 1010), (1995) 347—358. Springer-Verlag.

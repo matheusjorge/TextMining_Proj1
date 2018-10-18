@@ -1,0 +1,103 @@
+Learning to Improve Case Adaptation
+by Introspective Reasoning and CBR*
+
+David B. Leake, Andrew Kinley, and David Wilson
+
+Computer Science Department
+Lindley Hall 215, Indiana University
+Bloomington, IN 47405, U.S.A.
+
+
+
+Abstract. In current CBR systems, case adaptation is usually performed 
+by rule-based methods that use task-specific rules hand-coded
+by the system developer. The ability to define those rules depends on
+knowledge of the task and domain that may not be available a priori,
+presenting a serious impediment to endowing CBR systems with the
+needed adaptation knowledge. This paper describes ongoing research on
+a method to address this problem by acquiring adaptation knowledge
+from experience. The method uses reasoning from scratch, based on introspective 
+reasoning about the requirements for successful adaptation,
+to build up a library of adaptation cases that are stored for future reuse. 
+We describe the tenets of the approach and the types of knowledge
+it requires. We sketch initial computer implementation, lessons learned,
+and open questions for further study.
+References
+
+1.	Dean Allemang. Review of the first European workshop on case based reasoning
+EWCBR-93. Case-Based Reasoning Newsletter, 2(3), 1993. Electronic newsletter,
+special interest group AK-CBR, German Society for Computer Science.
+2.	R. Barletta. A hybrid indexing and retrieval strategy for advisory CBR systems
+built with ReMind. In Proceedings of the Second European Workshop on Case-
+Based Reasoning, pages 49—58, Chantilly, France, 1994.
+3.	J. Berger. Using past repair episodes. Unpublished manuscript, August 1995.
+4.	J. Berger and K. Hammond. ROENTGEN: a memory-based approach to radiation
+therapy treatment. In R. Bareiss, editor, Proceedings of the Case-Based Reasoning
+Workshop, pages 203—214, San Mateo, 1991. DARPA, Morgan Kaufmann, Inc.
+5.	J. Carbonell. Learning by analogy: Formulating and generalizing plans from past
+experience. In R. Michalski, J. Carbonell, and T. Mitchell, editors, Machine Learning: 
+An Artificial Intelligence Approach. Morgan Kaufmann, San Mateo, CA, 1983.
+6.	M. Cox. Machines that forget: Learning from retrieval failure of mis-indexed explanations. 
+In Proceedings of the Sixteenth Annual Conference of the Cognitive
+Science Society, pages 225—230, Atlanta, GA, 1994.
+7.	R.J. Firby. Adaptive Execution in Complex Dynamic Worlds. PhD thesis, Yale
+University, 1989. Computer Science Department TR 672.
+8.	K. Hammond. Case-Based Planning: Viewing Planning as a Memory Task. Academic 
+Press, San Diego, 1989.
+9.	T. Hinrichs. Problem Solving in Open Worlds: A Case Study in Design. Lawrence
+Erlbaum Associates, Hillsdale, NJ, 1992.
+10.	L. Hunter. Planning to learn. In Proceedings of the Twelfth Annual Conference of
+the Cognitive Science Society, pages 261—268, Cambridge, MA, July 1990. Cognitive
+Science Society.
+11.	A. Kass. Tweaker: Adapting old explanations to new situations. In R.C. Schank,
+C. Riesbeck, and A. Kass, editors, Inside Case-Based Explanation, chapter 8, pages
+263—295. Lawrence Erlbaum Associates, 1994.
+12.	A. Kennedy. Using a domain-independent introspection mechanism to improve
+memory search. In Proceedings of the 1995 AAAI Spring Symposium on Representing 
+Mental States and Mechanisms, Stanford, CA, March 1995. AAAI.
+13.	J. Kolodner. Retrieval and Organizational Strategies in Conceptual Memory.
+Lawrence Erlbaum Associates, Hillsdale, NJ, 1984.
+14.	J. Kolodner. Improving human decision making through case-based decision aiding. 
+The Al Magazine, 12(2):52—68, Summer 1991.
+15.	J. Kolodner. Case-Based Reasoning. Morgan Kaufmann, San Mateo, CA, 1993.
+16.	D. Leake. Evaluating Explanations: A Content Theory. Lawrence Erlbaum Associates, 
+Hillsdale, NJ, 1992.
+17.	D. Leake. Towards a computer model of memory search strategy learning. In
+Proceedings of the Sixteenth Annual Conference of the Cognitive Science Society,
+pages 549—554, Atlanta, GA, 1994.
+18.	D. Leake. Workshop report: The AAAI-93 workshop on case-based reasoning. The
+Al Magazine, 15(1):63—64, 1994.
+19.	D. Leake. Combining rules and cases to learn case adaptation. In Proceedings of
+the Seventeenth Annual Conference of the Cognitive Science Society, Pittsburgh,
+PA, 1995. In press.
+20.	D. Leake. Representing self-knowledge for introspection about memory search. In
+Proceedings of the 1995 AAAI Spring Symposium on Representing Mental States
+and Mechanisms, pages 84—88, Stanford, CA, March 1995. AAAI.
+21.	S. Minton. Learning Search Control Knowledge: An Explanation-Based Approach.
+Kluwer Academic Publishers, Boston, 1988.
+22.	T. Mitchell, R. Keller, and S. Kedar-Cabelli. Explanation-based generalization: A
+unifying view. Machine Learning, 1(1):47—80, 1986.
+23.	Ashwin Ram. AQUA: Asking questions and understanding answers. In Proceedings
+of the Sixth Annual National Conference on Artificial Intelligence, pages 312—316,
+Seattle, WA, July 1987. Morgan Kaufmann Publishers, Inc.
+24.	M. Redmond. Learning by Observing and Understanding Expert Problem Solving.
+PhD thesis, College of Computing, Georgia Institute of Technology, 1992. Technical 
+report GIT-CC-92/43.
+25.	E. Rissland, D. Skalak, and M.T. Friedman. Heuristic harvesting of information
+for case-based argument. In Proceedings of the Twelfth National Conference on
+Artificial Intelligence, pages 36—43, Seattle, WA, July 1994. AAAI.
+26.	Uriel Rosenthal, Michael Charles, and Paul Hart, editors. Coping with crises: The
+management of disasters, riots, and terrorism. C.C. Thomas, Springfield, IL, 1989.
+27.	R.C. Schank. Dynamic Memory: A Theory of Learning in Computers and People.
+Cambridge University Press, Cambridge, England, 1982.
+28.	A. Segre. On the operationality/generality tradeoff in explanation-based learning.
+In Proceedings of the Tenth International Joint Conference on Artificial Intelligence, 
+Milan, Italy, August 1987. IJCAI.
+29.	K. Sycara. Using case-based reasoning for plan adaptation and repair. In
+J. Kolodner, editor, Proceedings of the Case-Based Reasoning Workshop, pages
+425—434, Palo Alto, 1988. DARPA, Morgan Kaufmann, Inc.
+30.	M. Veloso. Planning and Learning by Analogical Reasoning. Springer Verlag,
+Berlin, 1994.
+31.	R. Wilensky. Knowledge representation—a critique and a proposal. In J. Kolodner
+and C. Riesbeck, editors, Experience, Memory and Reasoning, chapter 2, pages 15—28. 
+Lawrence Erlbaum Associates, 1986.

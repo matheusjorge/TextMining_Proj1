@@ -1,0 +1,75 @@
+Learning to Refine Indexing by
+Introspective Reasoning*
+
+Susan Fox and David B. Leake
+
+Computer Science Department
+Indiana University
+Bloomington, IN 47405, USA
+
+
+
+Abstract. A significant problem for case-based reasoning (CBR) systems is determining 
+the features to use in judging case similarity for retrieval. We describe
+research that addresses the feature selection problem by using introspective reasoning 
+to learn new features for indexing. Our method augments the CBR system
+with an introspective reasoning component which monitors system performance
+to detect poor retrievals, identifies features which would lead retrieval of more
+adaptable cases, and refines the indexing criteria to include the needed features
+to avoid future failures. We explore the benefit of introspective reasoning by performing 
+empirical tests on the implemented system. These tests examine the effect
+of introspective index refinement, and the effects of problem order on case and index 
+learning, and show that introspective learning of new index features improves
+performance across the different problem orders.
+References
+
+1.	D. Aha, editor. Pmceedings of the AAAI-94 Workshop on Case-Based Reasoning, Seattle,
+WA, July 1994.
+2.	R. Alterman. An adaptive planner. In Proceedings of the Fifth National Conference on Artificial 
+Intelligence, pages 65—69, Philadelphia, PA, August 1986. AAAI.
+3.	J. Arcos and E. Plaza. A reflective architecture for integrated memory-based learning and
+reasoning. In S. Wess, K.D. Altoff, and M. Richter, editors, Topics in Case-Based Reasoning.
+Springer-Verlag, Kaiserslautern, Germany, 1993.
+4.	W.M. Bain. Case-based Reasoning: A Computer Model of Subjective Assessment. PhD thesis, 
+Yale University, 1986. Computer Science Department Technical Report 470.
+5.	S. Bhatta and A. Goel. Model-based learning of structural indices to design cases. In Proceedings 
+of the IJCAI-93 Workshop on Reuse of Design, Chambery, France, September 1993.
+IJCAI.
+6.	L. Birnbaum, G. Collins, M. Brand, M. Freed, B. Krulwich, and L. Pryor. A model-based
+approach to the construction of adaptive case-based planning systems. In R. Bareiss, editor, 
+Proceedings of the Case-Based Reasoning Workshop, pages 215—224, San Mateo, 1991.
+DARPA, Morgan Kaufmann, Inc.
+7.	M. Cox and A. Ram. Managing learning goals in strategy-selection problems. In Proceedings 
+of the Second European Workshop on Case-Based Reasoning, pages 85-93, Chantilly,
+France, 1994.
+8.	R. J. Firby. Adaptive Execution in Complex Dynamic Worlds. PhD thesis, Yale University,
+Computer Science Department, 1989. Technical Report 672.
+9.	S. Fox and D. Leake. Using introspective reasoning to guide index refinement in case-based
+reasoning. In Proceedings of the Sixteenth Annual Conference of the Cognitive Science Society, 
+pages 324—329, Atlanta, GA, 1994. Lawrence Erlbaum Associates.
+10.	S. Fox and D. Leake. An introspective reasoning method for index refinement. In Proceedings 
+of 14th international Joint Conference on Artificial Intelligence. IJCAI, 1995.
+11.	S. Fox and D. Leake. Modeling case-based planning for repairing reasoning failures. In
+Proceedings of the 1995 AAAI Spring Symposium on Representing Mental States and Mechanisms, 
+Stanford, CA, March 1995. AAAI. (ftp.cs.indiana.edu:/pub/leake/p-95-02.ps.Z).
+12.	M. Freed and G. Collins. Adapting routines to improve task coordination. In Proceedings
+of the 1994 Conference on AI Planning Systems, pages 255-259, 1994.
+13.	A. Goel, K. Ali, and Andrés Gómez de Silva Garza. Computational tradeoffs in experience-based 
+reasoning. In Proceedings of the AAAI-94 workshop on Case-Based Reasoning, pages
+55—61, Seattle, WA, 1994.
+14.	C. Hammond. Case-Based Planning: Viewing Planning as a Memory Task. Academic Press,
+San Diego, 1989.
+15.	J. Kolodner. Case-Based Reasoning. Morgan Kaufman, San Mateo, CA, 1993.
+16.	D. Leake. Constructive similarity assessment: Using stored cases to define new situations.
+In Proceedings of the Fourteenth Annual Conference of the Cognitive Science Society, pages
+313—318, Bloomington, IN, 1992. Cognitive Science Society.
+17.	R. Oehlmann, P. Edwards, and D. Sleeman. Changing the viewpoint: Re-indexing by introspective 
+questioning. In Proceedings of the Sixteenth Annual Conference of the Cognitive
+Science Society, pages 675—680. Lawrence Erlbaum Associates, 1994.
+18.	M. Redmond. Learning by Observing and Understanding Expert Problem Solving. PhD
+thesis, College of Computing, Georgia Institute of Technology, 1992. Technical report GIT-CC-92/43.
+19.	B. Smyth and M. Keane. Retrieving adaptable cases: The role of adaptation knowledge in
+case retrieval. In S. Wess, K. Althoff, and M Richter, editors, Topics in Case-Based Reasoning, 
+pages 209—220, Berlin, 1994. Springer Verlag.
+20.	E. Stroulia and A. Goel. Task structures: What to learn? In M. desJardins and A. Ram, edi-
+tors, Proceedings of the 1994 AAAI Spring Symposium on Goal-driven Learning, pages 112—121. AAAI Press, 1994.

@@ -1,0 +1,52 @@
+A New Approach to Solution Adaptation
+and Its Application for Design Purposes
+
+Mahmoudreza Hejazi and Kambiz Badie
+
+Info. Society Group, Iran Telecom Research Center, Tehran, Iran
+m_hejazi@itrc.ac.ir
+k_badie@itrc.ac.ir
+
+
+
+Abstract. In this paper, a new approach is proposed for transformational
+adaptation based on detecting a solution’s incompatibility regarding the new
+problem situation and trying to overcome the incompatibility in an iterative
+manner. By incompatibility, we mean a state for which the required objectives
+are not satisfied due to any change in the status of the constraints. Based upon
+this approach, we have proposed a framework for redesigning an existing
+system under new constraints. To show the capability of this framework, a
+software prototype was developed that it is capable of redesigning an existing
+digital circuit under presence of new constraints, e.g. type of gates, power
+dissipation, fan in/out, gate prices and so on.
+References
+
+1.	Kumar V.: Algorithms for constraint satisfaction problems: A survey. Al Magazine, Vol.
+13, No. 1(1992) 32-44
+2.	De Kleer, J., and Sussman, G. J.: Propagation of Constraints Applied to Circuit Synthesis.
+Circuit Theory and Applications. Vol.8 (1980) 425-434
+3.	Nadel, B. Lin. J.: Automobile Transmission Deign as a Constraint Satisfaction Problem:
+Modeling the Kinematic Level. Artificial Intelligence, Vol. 21(1991) 425-434
+4.	Tong C., Sriram D. (eds.): Artificial Intelligence Approaches to Engineering Design, Vol.
+1,2,3. Academic Press (1992)
+5.	Kolonder, J.: Case-Based Reasoning, Morgan Kaufmann Publishers (1993)
+6.	Huhns M., Acosta R. D.: Argo: An analogical reasoning system for solving design
+problems. Tech. Rep. AI/CAD-092-87, Microelectronics and Computer Technology
+Cooperation, 3500 West Balcones Center Drive, Austin TX 78759 (1987)
+7.	Goel A. K.: Representation of design functions in experience-based design. In: Brown D.,
+Waldron M., Yoshikawa H. (eds.): Proceedings of the IFIP TC5/WG52 Working
+Conference on Intelligent Computer Aided Design (1991)
+8.	Jones E.K.: Model-based case adaptation. Proceedings of AAAI-92 (1992)
+9.	Liew C.W., Steinberg L. I.: Constrained REDO: An Alternative to REPLAY. DCS/LCSR
+Technical Reports (1993)
+10.	Leake, D. B.: Combining Rules and Cases to Learn Case Adaptation. Proceedings of the 7th
+Annual Conference of the Cognitive Science Society (1995)
+11.	Sycara, K.: Using case-Based Reasoning for Plan Adaptation and Repair. In: Kolondner, J.
+(ed.): Proceedings of Case-Based Reasoning Workshop, Palo Alto. DARPA, Morgan
+Kaufmann, Inc. (1988) 425-434
+12.	Wilke, W., Bergmann, R.: Techniques and Knowledge Used for Adaptation During Case-Based 
+Problem Solving. Tasks and Methods in Applied Artificial Intelligence, LNAI 1416,
+Springer-Verlag (1998) 497-505
+13.	Cunighom P., Finn. D., Slattery S.: Knowledge Engineering Requirements in Derivational
+Analogy. In: Wess, S., Althoff, K-D., Richter, M.M. (eds.):Topics in Case-Based
+Reasoning. Amsterdam: Springer-Verlag (1994)

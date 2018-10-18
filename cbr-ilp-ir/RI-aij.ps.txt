@@ -1,0 +1,141 @@
+An Empirical Study of Automated Dictionary
+Construction for Information Extraction in Three
+Domains
+
+Ellen Riloff
+Department of Computer Science, University of Utah, Salt Lake City, UT 84112
+
+A primary goal of natural language processing researchers is to de­
+velop a knowledge­based natural language processing (NLP) system
+that is portable across domains. However, most knowledge-­based
+NLP systems rely on a domain­specific dictionary of concepts,
+which represents a substantial knowledge­engineering bottleneck.
+We have developed a system called AutoSlog that addresses the
+knowledge­engineering bottleneck for a task called information ex­traction. 
+AutoSlog automatically creates domain­specific dictionar­
+ies for information extraction, given an appropriate training corpus.
+We have used AutoSlog to create a dictionary of extraction patterns
+for terrorism, which achieved 98% of the performance of a hand­
+crafted dictionary that required approximately 1500 person­hours
+to build. In this paper, we describe experiments with AutoSlog in
+two additional domains: joint ventures and microelectronics. We
+compare the performance of AutoSlog across the three domains,
+discuss the lessons learned about the generality of this approach,
+and present results from two experiments which demonstrate that
+novice users can generate effective dictionaries using AutoSlog.
+
+
+References
+[1] D. Ayuso, S. Boisen, H. Fox, H. Gish, R. Ingria, and R. Weischedel. BBN
+PLUM: Description of the PLUM System as Used for MUC­4. In Proceedings
+36
+of the Fourth Message Understanding Conference (MUC­4), pages 177--185, San
+Mateo, CA, 1992. Morgan Kaufmann.
+[2] J. G. Carbonell. Subjective Understanding: Computer Models of Belief
+Systems. PhD thesis, Research Report 150, Computer Science Department,
+Yale University, 1979.
+[3] J. G. Carbonell. Towards a Self­Extending Parser. In Proceedings of the 17th
+Meeting of the Association for Computational Linguistics, pages 3--7, 1979.
+[4] R. E. Cullingford. Script Application: Computer Understanding of Newspaper
+Stories. PhD thesis, Research Report 116, Computer Science Department, Yale
+University, 1978.
+[5] Gerald DeJong. An Overview of the FRUMP System. In W. Lehnert and
+M. Ringle, editors, Strategies for Natural Language Processing, pages 149--177.
+Lawrence Erlbaum Associates, 1982.
+[6] Gerald DeJong and R. Mooney. Explanation­Based Learning: An Alternative
+View. Machine Learning, 1:145--176, 1986.
+[7] William Dolan, Lucy Vanderwende, and Stephen D. Richardson. Automatically
+Deriving Structured Knowledge Bases from On­Line Dictionaries. In
+Proceedings of the First Conference of the Pacific Association for
+Computational Linguistics, pages 5--14, 1993.
+[8] D. H. Fisher. Knowledge Acquisition Via Incremental Conceptual Clustering.
+Machine Learning, 2:139--172, 1987.
+[9] W. Francis and H. Kucera. Frequency Analysis of English Usage. Houghton
+Mifflin, Boston, MA, 1982.
+[10] R. H. Granger. FOUL­UP: A Program that Figures Out Meanings of Words
+from Context. In Proceedings of the Fifth International Joint Conference on
+Artificial Intelligence, pages 172--178, 1977.
+[11] Philip J. Hayes and Steven P. Weinstein. Construe­TIS: A System for Content­
+Based Indexing of a Database of News Stories. In Proceedings of the Second
+Annual Conference on Innovative Applications of Artificial Intelligence, pages
+49--64. AAAI Press, 1991.
+[12] Jerry R. Hobbs, Douglas Appelt, Mabry Tyson, John Bear, and David Israel.
+SRI International: Description of the FASTUS System Used for MUC­4. In
+Proceedings of the Fourth Message Understanding Conference (MUC­4), pages
+268--275, San Mateo, CA, 1992. Morgan Kaufmann.
+[13] P. Jacobs and U. Zernik. Acquiring Lexical Knowledge from Text: A Case
+Study. In Proceedings of the Seventh National Conference on Artificial
+Intelligence, pages 739--744, 1988.
+[14] J. Kim and D. Moldovan. Acquisition of Semantic Patterns for Information
+Extraction from Corpora. In Proceedings of the Ninth IEEE Conference on
+Artificial Intelligence for Applications, pages 171--176, Los Alamitos, CA, 1993.
+IEEE Computer Society Press.
+[15] G. Krupka, P. Jacobs, L. Rau, L. Childs, and I. Sider. GE NLTOOLSET:
+Description of the System as Used for MUC­4. In Proceedings of the Fourth
+Message Understanding Conference (MUC­4), pages 177--185, San Mateo, CA,
+1992. Morgan Kaufmann.
+[16] W. Lehnert. Symbolic/Subsymbolic Sentence Analysis: Exploiting the Best of
+Two Worlds. In J. Barnden and J. Pollack, editors, Advances in Connectionist
+and Neural Computation Theory, Vol. 1, pages 135--164. Ablex Publishers,
+Norwood, NJ, 1991.
+[17] W. Lehnert, C. Cardie, D. Fisher, J. McCarthy, E. Riloff, and S. Soderland.
+University of Massachusetts: Description of the CIRCUS System as Used for
+MUC­4. In Proceedings of the Fourth Message Understanding Conference
+(MUC­4), pages 282--288, San Mateo, CA, 1992. Morgan Kaufmann.
+[18] W. Lehnert, C. Cardie, D. Fisher, J. McCarthy, E. Riloff, and S. Soderland.
+University of Massachusetts: MUC­4 Test Results and Analysis. In Proceedings
+of the Fourth Message Understanding Conference (MUC­4), pages 151--158, San
+Mateo, CA, 1992. Morgan Kaufmann.
+[19] W. Lehnert, C. Cardie, D. Fisher, E. Riloff, and R. Williams. University of
+Massachusetts: Description of the CIRCUS System as Used for MUC­3. In
+Proceedings of the Third Message Understanding Conference (MUC­3), pages
+223--233, San Mateo, CA, 1991. Morgan Kaufmann.
+[20] W. Lehnert, C. Cardie, D. Fisher, E. Riloff, and R. Williams. University of
+Massachusetts: MUC­3 Test Results and Analysis. In Proceedings of the Third
+Message Understanding Conference (MUC­3), pages 116--119, San Mateo, CA,
+1991. Morgan Kaufmann.
+[21] W. Lehnert, J. McCarthy, S. Soderland, E. Riloff, C. Cardie, J. Peterson,
+F. Feng, C. Dolan, and S. Goldman. UMass/Hughes: Description of the
+CIRCUS System as Used for MUC­5. In Proceedings of the Fifth Message
+Understanding Conference (MUC­5), pages 277--291, San Francisco, CA, 1993.
+Morgan Kaufmann.
+[22] M. Marcus, B. Santorini, and M. Marcinkiewicz. Building a Large Annotated
+Corpus of English: The Penn Treebank. Computational Linguistics, 19(2):313--
+330, 1993.
+[23] M. Mauldin. Retrieval Performance in FERRET: A Conceptual Information
+Retrieval System. In Proceedings of the 14th Annual International ACM SIGIR
+Conference on Research and Development in Information Retrieval, pages 347--
+355, 1991.
+[24] T. M. Mitchell, R. Keller, and S. Kedar­Cabelli. Explanation­-Based
+Generalization: A Unifying View. Machine Learning, 1:47--80, 1986.
+[25] S. Montemagni and L. Vanderwende. Structural Patterns vs. String Patterns
+for Extracting Semantic Information from Dictionaries. In Proceedings of the
+Fourteenth International Conference on Computational Linguistics (COLING­
+92), pages 546--552, 1992.
+[26] Proceedings of the Third Message Understanding Conference (MUC­3), San
+Mateo, CA, 1991. Morgan Kaufmann.
+[27] Proceedings of the Fourth Message Understanding Conference (MUC­4), San
+Mateo, CA, 1992. Morgan Kaufmann.
+[28] Proceedings of the Fifth Message Understanding Conference (MUC­5), San
+Francisco, CA, 1993. Morgan Kaufmann.
+[29] J. R. Quinlan. Induction of Decision Trees. Machine Learning, 1:80--106, 1986.
+[30] E. Riloff. Automatically Constructing a Dictionary for Information Extraction
+Tasks. In Proceedings of the Eleventh National Conference on Artificial
+Intelligence, pages 811--816. AAAI Press/The MIT Press, 1993.
+[31] E. Riloff. Information Extraction as a Basis for Portable Text Classification
+Systems. PhD thesis, Department of Computer Science, University of
+Massachusetts Amherst, 1994.
+[32] E. Riloff and W. Lehnert. Information Extraction as a Basis for High­-Precision
+Text Classification. ACM Transactions on Information Systems, 12(3):296--333,
+July 1994.
+[33] E. Riloff and W. G. Lehnert. A Dictionary Construction Experiment with
+Domain Experts. In Proceedings of the TIPSTER Text Program (Phase I),
+pages 257--259, San Francisco, CA, 1993. Morgan Kaufmann.
+[34] E. Riloff and J. Shoen. Automatically Acquiring Conceptual Patterns Without
+an Annotated Corpus. In Proceedings of the Third Workshop on Very Large
+Corpora, pages 148--161, 1995.
+[35] P. Utgoff. ID5: An Incremental ID3. In Proceedings of the Fifth International
+Conference on Machine Learning, pages 107--120, 1988.
+[36] R. Weischedel, M. Meteer, R. Schwartz, L. Ramshaw, and J. Palmucci.
+Coping with Ambiguity and Unknown Words through Probabilistic Models.
+Computational Linguistics, 19(2):359--382, 1993.

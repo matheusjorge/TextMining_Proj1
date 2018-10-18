@@ -1,0 +1,84 @@
+Knowledge Engineering Requirements
+in Derivational Analogy
+
+Pádraig Cunningham*, Donal Finn**, Seán Slattery*
+
+*Department of Computer Science, Trinity College Dublin, Ireland
+
+**Hitachi Dublin Laboratory, Trinity College Dublin, Ireland
+
+
+Abstract. A major advantage in using a case-based approach to
+developing knowledge-based systems is that it can be applied to problems
+where a strong domain theory may be difficult to determine. However the
+development of case-based reasoning (CBR) systems that set out to support
+a sophisticated case adaptation process does require a strong domain model.
+The Derivational Analogy (DA) approach to CBR is a case in point. In DA
+the case representation contains a trace of the reasoning process involved
+in producing the solution for that case. In the adaptation process this
+reasoning trace is reinstantiated in the context of the new target case; this
+requires a strong domain model and the encoding of problem solving
+knowledge. In this paper we analyse this issue using as an example a CBR
+system called CoBRA that assists with the modelling tasks in numerical
+simulation.
+References
+
+1.	Smyth B., Cunningham P., "Déjà Vu: A Hierarchical Case-Based Reasoning
+System for Software Design", in Proceedings of 10th. European Conference on
+Artificial Intelligence, Vienna, Austria, ed. Bemd Neumann, Wiley & Son,
+pp587-589, 1992.
+
+2.	Carbonell J.G., "Derivational Analogy: A theory of reconstructive problem
+solving and expertise acquisition", in Machine Learning Vol. II, R.S.
+Michaiski, J.G. Carbonell, T.M. Mitchell eds., pp37l-392, 1986.
+
+3.	Mostow J., "Design by Derivational Analogy: Issues in the automated replay of
+design plans", Art ificial Intelligence, pp1 19-184, Vol. 40, 1989.
+
+4.	Bhansali S., Harandi M.T., "Synthesis of UNIX programs using derivational
+analogy", Machine Learning, pp7-55, Vol. 10, 1993
+
+5.	Carbonell J.G., Veloso M., "Integrating derivational analogy into a general
+problem solving architecture", DARPA Workshop on Case-Based
+Reasoning,pp104-124, Clearwater Beach, Florida, Morgan Kaufmann, 1988.
+
+6.	Veloso M., Carbonell J.G., "Learning analogies by analogy - the closed loop of
+memory organisation and problem solving", DARPA Workshop on Case-Based
+Reasoning,pp153-158, Clearwater Beach, Florida, Morgan Kaufmann, 1989.
+7.	Veloso M., Carbonell J.G., “Learning by analogical replay in PRODIGY: first
+results”, European Working Session on Learning, Y. Kodratoff, ed., pp375-389,
+Porto, Portugal, Springer Verlag, 1991.
+
+8.	Hammond K.J., Case-Based Planning: Viewing Planning as a Memory Task,
+Academic Press, New York, 1989.
+
+9.	Bergmann R., Pews G., “Explanation-based similarity for case retrieval and
+adaptation and its application to diagnosis and planning tasks”, in Working
+papers of European Workshop on CBR, Universität Kaiserslautern SEKI Report
+SR-93-23, pp30l-306, 1993.
+
+10.	Finn D.P., Grimson, J.B., and Harty, N.M. “An intelligent modelling assistant
+for preliminary analysis in design”, In: J.S. Gero (ed) “Artificial Intelligence in
+Design” Proceedings of the 2nd Int. Conf. of Artificial Intelligence in Design,
+pp 579, 596, (1992).
+
+11.	Finn, D.P. “A Physical modelling assistant for the Preliminary Stages of
+Finite element Analysis “Artificial Intelligence in Engineering Design,
+Analysis and Manufacturing (Al EDAM), 7(4), 1993.
+
+12.	D. Finn, S. Slattery, P. Cunningham, “Modelling of Engineering Thermal
+Problems - An Implementation using CBR with Derivational Analogy” in
+Proceedings of European Workshop on Case-Based Reasoning, Kaiserslautem,
+Germany, November, 1993.
+
+13.	K. Yip: “Model simplification by asymptotic order of magnitude reasoning” In:
+D.	Weld (ed.): Working Papers Qualitative Reasoning ‘93 (QR ‘93). Seattle:
+University of Washington 1993, pp. 266-272.
+
+14.	S. Ling, L. Steinberg, Y. Jaluria: MSG: “A computer system for automated
+modelling of heat transfer” Artificial Intelligence in Engineering Design,
+Analysis and Manufacturing (AI EDAM), 7(4), 1993.
+
+15.	S. Addanki, R. Cremonini, J. Scott Penberthy: “Reasoning about assumptions
+in graphs of models”. In: D. Weld and J. de Kleer (eds.): Qualitative Reasoning
+about Physical Systems. San Mateo: Morgan Kaufmann 1990, pp. 546-552.

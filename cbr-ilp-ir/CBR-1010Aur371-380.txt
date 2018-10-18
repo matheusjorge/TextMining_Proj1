@@ -1,0 +1,98 @@
+INRECA: A Seamlessly Integrated System Based on
+Inductive Inference and Case-Based Reasoning
+
+E. Auriol1, S. Wess2, M. Manago1, K.-D. Althoff2, R. Traphöner3
+
+1 AcknoSoft, 58a, rue du Dessous-des-Berges, 75013 Paris, France
+Phone: +33 1 44248800, Fax: +33 1 44248866, E-mail: {auriol, manago}@ipbc.fr
+2 University of Kaiserslautern, Dept. of Computer Science, P0 Box 3049. 67653
+Kaiserslautern, Germany. Phone: +49 631 205 3360, Fax: +49 631 205 3357, E-mail:
+{althoff,wess}@informatik.uni-kl.de
+3 tecInno GmbH, Sauerwiesen 2, 67661 Kaiserslautern, Germany
+Phone: +49 6301 60660, Fax: +49 6301 60666
+
+Abstract: This paper focuses on integrating inductive inference and case-based reasoning. We
+study integration along two dimensions: Integration of case-based methods with methods based
+on general domain knowledge, and integration of problem solving and incremental learning
+from experience. In the INRECA system, we perform case-based reasoning as well as TDIDT
+(Top-Down Induction of Decision Trees) classification by using the same data structure called
+the INRECA tree. We extract decision knowledge using a TDIDT algorithm to improve both the
+similarity assessment by determining optimal weights, and the speed of the overall system by
+inductive learning. The integrated system we implemented evolves smoothly along application
+development time from a pure case-based reasoning approach, where each particular case is a
+piece of knowledge, to a more inductive approach where some subsets of the cases are
+generalised into abstract knowledge. Our proposed approach is driven by the needs of a
+concrete pre-commercial system and real diagnostic applications. We evaluate the system on a
+database of insurance risk for cars and an application involving forestry management in
+Ireland.
+7.	References
+Aamodt, A. (1994). Explanation-Driven Case-Based Reasoning. Richter, Wess et al. , 274-288.
+
+Breiman, L., Friedman, J., Qishen, R. & Stone, C. (1984). Classification and Regression Trees.
+Belmont, CA: Wadsworth.
+
+Cardie, C. (1993). Using decision trees to improve case-based learning. Proc. 10th Int. Conf on
+Machine Learning, 25-32.
+
+Friedman, J. H., Bentley, J. L. & Finkel, R. A. (1977). An algorithm for finding best matches in
+logarithmic expected time. ACM Trans. Math. Software 3, 209-226.
+Golding, A. R. & Rosenblum, P. S. (1991). Improving Rule-Based Systems Through Case-
+Based Reasoning. Proc. AAAI Conference 1991.
+
+Hart, A. (1984). Experience in the use of an inductive system in knowledge engineering. M.
+Bramer (ed.), Research and Development Systems, Cambridge University Press, 117-126.
+
+Kibler, D. & Aha, D. W. (1987). Learning representative exemplars of concepts: An initial case
+study. Proc. of the Fourth lnternational Workshop on Machine Learning, pp. 24-30. Irvine,
+CA: Morgan Kaufmann.
+
+Koopmans, L. H. (1987). Introduction to Contemporary Statistical Methods. Second Edition,
+Duxbury, Boston.
+
+Manago, M., Althoff, K.-D., Auriol, E., Traphoner, R., Wess, S., Conruyt, N., Maurer, F.
+(1993). Induction and Reasoning from Cases. Richter, Wess et al. , 313-3 18.
+
+Mikalski, R. & Tecuci, G. (Eds.) (1994). Machine Learning : A Multi-Strategy Approach
+(Volume IV). San Francisco, CA: Morgan Kaufman.
+
+Mingers, J. (1989). An Empirical Comparison of Selection Measures for Decision-Tree
+Induction & An Empirical Comparison of Pruning Tree Methods for Decision-Tree
+Induction. Machine Learning 3 (319-342); 4 (227-242).
+
+Moore, A. W. (1990). Acquisition of dynamic control knowledge for a robotic manipulator. In:
+Proc. of the Seventh lnternational Conference on Machine Learning, 242-252. Austin, TX:
+Morgan Kaufman.
+
+Quinlan, R. (1986). Induction of Decision Trees. Machine Learning 1, 81-106.
+
+Quinlan, R. (1993). C4.5: Programs for machine learning. San Mateo, CA: Morgan Kaufmann.
+
+Richter, M. M., Wess, S., Althoff, K.-D. & Maurer, F. (eds.) (1993). Proc. 1st European
+Workshop on Case-Based Reasoning (EWCBR-93).
+
+Salzberg, 5. (1991). A Nearest Hyperrectangle Learning Method. Machine Learning 6, 277-309
+
+Sebag, M. & Schoenauer, M. (1994). A Rule-Based Similarity Measure. Richter, Wess et al.,
+119-131.
+
+Shannon & Weaver (1947). The Mathematical Theory of Computation. University of Illinois
+Press, Urbana.
+
+Sokal, R. R. & Rahlf, F. J. (1981). Biometry. W. H. Freeman and Co., San Francisco.
+
+Ting, K. M. (1994). The problem of small disjuncts: Its remedy in decision trees. Proc. of the
+Tenth Canadian Conference on Artificial Intelligence, 91-97.
+
+Utgoff, P. (1988). ID5: An incremental ID3. Fifth International Conference on Machine
+Learning, Morgan Kaufmann, Los Altos.
+
+Wess, S., Althoff, K.-D. & Derwand, G. (1994). Using k-d Trees to Improve the Retrieval Step
+in Case-Based Reasoning. Wess, Althoff & Richter (Eds.), Topics in Case-Based
+Reasoning, Springer-Verlag, 167-181.
+
+Wettschereck, D. (1994). A Hybrid Nearest-Neighbor and Nearest-Hyperrectangle Algorithm.
+Bergadano & De Raedt (Eds.), ECML-94, Springer Veriag, 323-335.
+
+Zhang, J. (1990). A method that combines inductive learning with exemplar-based learning.
+Proc. for Tools for Artificial Intelligence, 31-37. Herndon, VA: IEEE Computer Society
+Press.

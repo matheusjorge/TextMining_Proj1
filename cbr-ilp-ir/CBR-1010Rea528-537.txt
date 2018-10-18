@@ -1,0 +1,84 @@
+Using a Neural Network to Learn General
+Knowledge in a Case-Based System
+
+Eliseo Reategui1, John A. Campbell1 and Shirley Borghetti2
+
+1 Department of Computer Science, University College London
+Gower St, London WC1E 6BT, UK
+(e-mail: e.reategui, jac@cs.ucl.ac.uk)
+2 Department of Transplants, The Heart Institute of São Paulo
+Av. Dr. Eneas Carvalho de Aguiar 44
+05403-000 São Paulo, SP - Brazil
+(e-mail: dcl_edimar@pinatubo.incor.usp.br)
+
+
+Abstract. This paper presents a new approach for learning general
+knowledge in a diagnostic case-based system through the use of a neural 
+network. We take advantage of the self-adapting nature of the neural 
+network to discover the most relevant features and combination of
+features for each diagnosis considered. The knowledge acquired by the
+network is interpreted and mapped into symbolic diagnosis descriptors,
+which are kept and used by the case-based system to guide its reasoning
+process, to retrieve cases from a case library and to build explanations.
+The neural network used in the learning process was the Combinatorial
+Neural Model, a network that has been combined with other symbolic
+approaches previously. The paper presents the method used to interpret
+the knowledge learned in the neural network, as well as the guidelines
+followed by the reasoning process of the CBR system. An initial experiment 
+in clinical psychology is also reported, where the case-based model
+introduced here was used to learn and represent the psychological proffle
+of patients in evaluation for heart transplant.
+References
+
+1.	L. Becker and K. Jazayeri. A connectionist approach to case-based reasoning. In
+K. J. Hammond, editor, Proceedings of the Case-Based Reasoning Workshop, pages
+213—217, Pensacola Beach, Florida, 1989. Morgan Kaufmann.
+2.	S. A. Borghetti-Maio. Quality of life after cardiomyoplasty. Journal of heart and
+lung transplantation, 13(6), 1994.
+3.	3. Dinsmore. Thunder in the gap. In J. Dinsmore, editor, The connectionist and
+the symbolic paradigm: closing the gap. Lawrence Eribaum Associates, Hillsdale,
+NJ, 1992.
+4.	J. A. Hendler. Marker-passing over microfeatures: towards a hybrid symbolic/connectionist 
+model. Cognitive Science, 13:79—106, 1989.
+5.	J. Kolodner. Maintaining organization in a dynamic long-term memory. Cognitive
+Science, 7:243—280, 1983.
+6.	P. Koton. Reasoning about evidence in causal explanations. In Proceedings of the
+AAAI, pages 256—261, St. Paul, Minnesota, August 1988. Cambridge, MA: AAAI
+Press.
+7.	B. F. Leão and E. B. Reategui. A hybrid connectionist expert system to solve
+classificational problems. In Proceedings of Computers in Cardiology, London, UK,
+1993.
+8.	B. F. Leão and A. F. Rocha. Proposed methodology for knowledge acquisition: a
+study on congenital heart disease diagnosis. Methods of Information in Medicine,
+29:30—40, 1990.
+9.	D. T. Lunde. Psychiatric complications of heart transplant. American Journal of
+Psychiatry, 126(3):117—129, 1969.
+10.	R. J. Machado and A. F. Rocha. The combinatorial neural network: a connectionist 
+model for knowledge based systems. In B. Bouchon-Meunier, R. R. Yager, and
+L. A. Zadeh, editors, Uncertainty in knowledge bases. Springer Verlag, 1990.
+11.	R. J. Machado and A. F. Rocha. A hybrid architecture for fuzzy connectionist
+expert systems. In A. Kandel and G. Langholz, editors, Hybrid architectures for
+intelligent systems, pages 135—152. CRC Press, Boca Raton, 1992.
+12.	M. Malek and V. Rialle. A case-based reasoning system applied to neuropathy
+diagnosis. In M. Keane, J. P. Haton, and M. Manago, editors, Proceedings of the
+European Workshop on Case-Based Reasoning, Chantilly, France, 1994.
+13.	P. Myllymaki and H. Tirri. Massively parallel case-based reasoning with probabilistic 
+similarity metrics. In K-D. Althoff, K. Richter, and S. Wess, editors, Proceedings 
+of the First European Workshop on Case-Based Reasoning, pages 48—53,
+Kaiserslautern, November 1993.
+14.	M. E. Olbrich and J. L. Levenson. Psychosocial evaluation of heart transplant
+candidates: an international survey of process, criteria and outcomes. Journal of
+heart and lung transplantation, 10(6):948—955, 1991.
+15.	B. W. Porter, R. Bareiss, and R. C. Holte. Concept learning and heuristic classification 
+in weak theory domains. Artificial Intelligence, 45(1-2):229—263, September
+1990.
+16.	E. B. Reategui and J. Campbell. A classification system for credit card transactions. 
+In M. Keane, J. P. Haton, and M. Manago, editors, Proceedings of the
+European Workshop on Case-Based Reasoning, Chantilly, France, 1994.
+17.	E. B. Reategui and B. F. Leão. Integrating neural networks with the formalism
+of frames. In S. Grossberg, editor, Proceedings of the World Congress on Neural
+Networks, Portland, Oregon, 1993. Lawrence Erlbaum Associates.
+18.	D. E Rumelhart, G. E. Hinton, and J. L. McClelland. Learning internal representations 
+by error propagation. In D. E Rumeihart, J. L. McClelland, and The
+PDP Research Group, editors, Parallel Distributed Processing: explorations in the
+microstructures of cognition, volume 1. MIT Press, Cambridge, MA, 1986.

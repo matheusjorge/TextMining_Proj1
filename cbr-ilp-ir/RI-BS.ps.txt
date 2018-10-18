@@ -1,0 +1,78 @@
+Robust Information­Theoretic Private Information Retrieval
+
+Amos Beimel  Yoav Stahl y
+
+Abstract
+A Private Information Retrieval (PIR) protocol allows a user to retrieve a data item of its choice from
+a database, such that the servers storing the database do not gain information on the identity of the item
+being retrieved. PIR protocols were studied in depth since the subject was introduced in Chor, Goldreich,
+Kushilevitz, and Sudan 1995. The standard definition of PIR protocols raises a simple question -- what
+happens if some of the servers crash during the operation? How can we devise a protocol which still works
+in the presence of crashing servers? Current systems do not guarantee availability of servers at all times
+for many reasons, e.g., crash of server or communication problems. Our purpose is to design robust PIR
+protocols, i.e., protocols which still work correctly even if only k out of ` servers are available during the
+protocols' operation (the user does not know in advance which servers are available).
+We present various robust PIR protocols giving different tradeoffs between the different parameters.
+These protocols are incomparable, i.e., for different values of n and k we will get better results using differ­ent 
+protocols. We first present a generic transformation from regular PIR protocols to robust PIR protocols,
+this transformation is important since any improvement in the communicationcomplexity of regular PIR protocol 
+will immediately implicate improvement in the robust PIR protocol communication. We also present
+two specific robust PIR protocols. Finally, we present robust PIR protocols which can tolerate Byzantine
+servers, i.e., robust PIR protocols which still work in the presence of malicious servers or servers with
+corrupted or obsolete databases.
+
+
+References
+[1] N. Alon. Explicit construction of exponential sized families of k­independent sets. Discrete Math., 58:191--193, 1986.
+[2] N. Alon and M. Naor. Derandomization, witnesses for Boolean matrix multiplication and construction of perfect hash functions.
+Algorithmica, 16:434--449, 1996.
+[3] A. Ambainis. Upper bound on the communication complexity of private information retrieval. In Proc. of the 24th International
+Colloquium on Automata, Languages and Programming, volume 1256 of Lecture Notes in Computer Science, pages 401--407,
+1997.
+[4] M. Atici, S. S. Magliveras, D. R. Stinson, and W. D. Wei. Some recusrive constructions for perfect hash families. J. Combin.
+Des., 4:353--363, 1996.
+[5] D. Beaver and J. Feigenbaum. Hiding instances in multioracle queries. In C. Choffrut and T. Lengauer, editors, STACS '90,
+7th Annu. Symp. on Theoretical Aspects of Computer Science, volume 415 of Lecture Notes in Computer Science, pages 37--48.
+Springer­Verlag, 1990.
+[6] D. Beaver, J. Feigenbaum, J. Kilian, and P. Rogaway. Locally random reductions: Improvements and applications. J. of 
+Cryp­tology, 10(1):17--36, 1997. Early version: Security with small communication overhead, CRYPTO '90, volume 537 of Lecture
+Notes in Computer Science, pages 62­76. Springer­Verlag, 1991.
+[7] A. Beimel and Y. Ishai. Information­theoretic private information retrieval: A unified construction. In P. G. Spirakis and J. van
+Leeuven, editors, Proc. of the 28th International Colloquium on Automata, Languages and Programming, volume 2076 of Lecture
+Notes in Computer Science, pages 912--926. Springer, 2001.
+[8] A. Beimel, Y. Ishai, E. Kushilevitz, and J. F. Raymond. Breaking the O(n
+1
+2k 1 ) barrier for inforamtion­theoretic private infor­
+mation retrieval. In Proc. of the 43rd Annu. IEEE Symp. on Foundations of Computer Science, 2002. To Appear.
+[9] S. R. Blackburn. Combinatorial designs and their applications. Research Notes in Mathematics, 403:44--70, 1999.
+[10] S. R. Blackburn. Perfect hash families: Probabilistic methods and explicit constructions. Journal of Combinatorial Theory ­
+Series A, 92:54--60, 2000.
+[11] S. R. Blackburn, M. Burmester, Y. Desmedt, and P. R. Wild. Efficient multiplicative sharing schemes. In U. Maurer, editor,
+Advances in Cryptology -- EUROCRYPT '96, volume 1070 of Lecture Notes in Computer Science, pages 107--118, 1996.
+[12] S. R. Blackburn and P. R. Wild. Optimal linear perfect hash families. J. Combinatorial Theory, 83:233--250, 1998.
+[13] B. Chor, O. Goldreich, E. Kushilevitz, and M. Sudan. Private information retrieval. In Proc. of the 36th Annu. IEEE Symp. on
+Foundations of Computer Science, pages 41--51, 1995. Journal version: J. of the ACM, 45:965--981, 1998.
+[14] Z. J. Czech, G. Havas, and B. S. Majewski. Perfect hashing. Theoretical Computer Science, 182:1--143, 1997.
+[15] A. Fiat and M. Naor. Broadcast encryption. In D. R. Stinson, editor, Advances in Cryptology -- CRYPTO '93, volume 773 of
+Lecture Notes in Computer Science, pages 480--491. Springer­Verlag, 1994.
+[16] M. L. Fredman and J. Komlos. On the size of separating systems and families of perfect hash funtions. SIAM J. Alg. Discrete
+Methods, 5:61--68, 1984.
+[17] Y. Ishai and E. Kushilevitz. Improved upper bounds on information theoretic private information retrieval. In Proc. of the 31st
+Annu. ACM Symp. on the Theory of Computing, pages 79 -- 88, 1999.
+[18] T. Itoh. Efficient private information retrieval. IEICE Trans. Fundamentals of Electronics, Communications and Computer
+Sciences, E82­A(1):11--20, 1999.
+[19] J. Korner and Marton. New bounds for perfect hashing via information theory. European J. Combin., 9:523--530, 1988.
+[20] F. R. Macwilliams and N. J. A. Sloane. The Theory of Error­Correcting Codes. Mathematical library. North­Holland, 1978.
+[21] K. Mehlhorn. Data structures and Algorithms, volume 1. Sorting and Searching. Springer­Verlag, 1984.
+[22] R. Motwani and P. Raghavan. Randomized Algorithms. Cambridge University Press, 1995.
+[23] I. Newman and A. Wigderson. Lower bounds on formula size of Boolean functions using hypergraph entropy. SIAM J. on Discrete
+Mathematics, 8:536--542, 1995.
+[24] I. S. Reed and G. Solomon. Polynomial codes over certain finite fields. J. SIAM, 8:300--304, 1960.
+[25] A. Shamir. How to share a secret. Communications of the ACM, 22:612--613, 1979.
+[26] C. Slot and P. van Emde Boas. On tape versus core; an application of space efficient perfect hash functions to the invariance of
+space. In Proc. of the 16th Annu. ACM Symp. on the Theory of Computing, pages 391--400, 1984.
+[27] Y. Stahl. Robust information­theoretic private information retrieval. Master's thesis, Ben­Gurion University, Beer­Sheva, 2002.
+[28] D. Stinson, T. van Trung, and R. Wei. Secure frameproof codes, key distribution patterns, group testing algorithms and related
+structures. Journal of Statistical Planning and Inference, 86(2):595--617, 2000.
+[29] D. R. Stinson, R. Wei, and L. Zhu. New constructions for perfect hash families and related structures using combinatorial designs
+and codes. J. of Combinatorial Designs, 8:189--200, 2000.

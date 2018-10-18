@@ -1,0 +1,99 @@
+Handling Quantifiers in ILP
+
+M.-Elisabeth GONCALVES
+
+Université de Paris Sud,
+Laboratoire de Recherche en Informatique,
+Bâtiment 490,
+91405 Orsay Cedex, France
+email: goncalve@lri.fr
+
+
+Abstract. An important research area in the field of Inductive Logic
+Programming (ILP) is concerned with predicate learning. Recently, many
+predicate learners have been developed whose task consists in learning a
+definition of a concept from positive and negative examples. In most of
+them, the definition of the concept is represented by a set of definite (or
+normal) clauses. The variables that appear in the head of a clause (the
+head-variables) are universally quantified, and the variables that appear
+only in the body of the clause (the body-variables) are existentially quantified. 
+Some predicate learners described in the ILP literature are able to
+deal with such existential (body-)variables, using some language bias like
+ij-determinacy (see [11]). However, as far as the authors know, no ILP
+system is able to deal with clauses in whose body both existential and
+universal body-variables appear. Moreover, there exists no generalisation
+and no specialisation operator that handle such body-variables.
+In this paper, we first present a set of generalisation/specialisation rules
+devoted to deal with existential and universal variables that appear only
+in the body of the clauses. We then highlight some properties of these
+rules, essentially correctness and completeness theorems. We do not explicit 
+any type of control that could permit to exploit practically these
+rules in an ILP system, however we give some ideas of how to integrate
+them in different sorts of systems with minor modifications and without
+increasing the search space too greatly.
+Following the motivation of ILP systems with respect to more classical 
+machine learning ones, an important motivation of these rules is to
+extend the expressiveness of the ILP representation formalism (clauses
+without any Skolem functions, i.e. with only existential body-variables).
+Moreover, a significant interest of the q-operators presented in this paper
+is that several existing ILP systems can be adapted (with some modifications) 
+to process quantifiers in the body of clauses and thus increase
+their expressiveness.
+References
+
+1.	Ade, H., De Raedt, L., and Bruynooghe, M., 1995: Declarative Bias for Specific-to-General 
+ILP Systems. Machine Learning, Volume 20, pp. 119—154.
+2.	Bergadano, F., Gunetti, D., Nicosia, M. and Ruffo, G., 1995: Learning Logic Programs 
+with Negation as Failure. In De Raedt, L., editor, Proceedings of the 5th
+International Workshop on Inductive Logic Programming, pp. 33—51. Leuven, Belgium.
+3.	Cain, T., 1991: The DUCTOR: A Theory Revision System for Propositional Domains. 
+In Proceedings of the 5th. International Machine Learning Workshop,
+Evanston.
+4.	Cox, P. T., and Pietrzykowski, T., 1984: A Complete, Nonredundant Algorithm for
+Reversed Skolemisation. In Theoretical Computer Science, volume 28, pp. 239-261.
+5.	Ginsberg, A., 1989: Theory Revision via Prior Operationalisation. In Proceedings
+of the National Conference on Artificial Intelligence, pp. 590—595.
+6.	Goncalves, E., 1996: Traitement des Quantificateurs en ILP. In Technical Report,
+LRI-Orsay, to appear.
+7.	Lapointe, S., and Matwin, S., 1992: Sub-Unification: A Tool for Efficient Induction
+of Recursive Programs. In Proceedings of the 9th International Machine Learning
+Conference, Morgan-Kaufmann, Los Altos, CA.
+8.	Michalski, R.S., 1983: Learning from Observation: Conceptual Clustering. In
+Michaiski, R.S., Carbonell, C., and Mitchell, T.M., editors, Machine Learning:
+An Artificial Intelligence Approach, pp. 361-363.
+9.	Muggleton, S., 1995: Inverse Entailment and Progol. In New Generation Computing, 
+Volume 13, pp. 245—286.
+10.	Muggleton, S., and Buntine, W., 1988: Machine Invention of First-Order Predicates
+by Inverting Resolution. In Morgan Kaufmann, editor, Proceedings of the 5th
+International Conference on Machine Learning, pp. 339-352.
+11.	Muggleton, S., and Feng, C., 1990: Efficient Induction of Logic Programs. In Proceedings 
+of the Workshop on Algorithmic Learning Theory. Obmeha publishers,
+Tokyo.
+12.	Muggleton, S., and De Raedt, L., 1994: Inductive Logic Programming: Theory and
+Methods. In Journal of Logic Programming, Volume 19,20, pp 626-679.
+13.	Nedellec, C., 1992: How to Specialise by Theory Refinement. In B. Neumann,
+editor, Proceedings of ECAI, pp. 474—478. Wiley.
+14.	Nedellec, C., and Rouveirol, C., 1993: Biases for Incremental Hypothesis-Driven
+Systems. In the AAAI Spring Symposium on Training Issues in Incremental Learning, Standford University.
+15.	Nedellec, C., and Rouveirol, C., 1994: Specifications of the HAIKU System. In
+technical report, LRI, Number 928.
+16.	Ourston, D., and Mooney, R.J., 1990: Changing the Rules: A Comprehensive Approach 
+to Theory Refinement. In Proceedings of National Conference on Artificial
+Intelligence, pp. 815—820.
+17.	Quinlan, J. R., and Cameron-Jones, R. M., 1993: FOIL: a Midterm Report. In
+Pavel B. Brazdil, editor, Machine Learning: ECML-93. Vienna, Austria. Springer
+Verlag.
+18.	De Raedt, L., 1992: Interactive Theory Revision, an Inductive Logic Programming
+Approach. In Academic Press Limited.
+19.	De Raedt, L., and Bruynooghe, M., 1993: A Theory of Clausal Discovery. In Proceedings 
+of the 13th. IJCAI, Morgan Kaufmann.
+20.	Rouveirol, C., 1992: Extensions of Inversion of Resolution Applied and Theory
+Completion. In Muggleton, S., editor, Inductive Logic Programming, pp. 64—92,
+Academic Press.
+21.	Sammut, C., and Banerji, R.B., 1986: Learning Concepts by Asking Questions.
+In Michalski, R., Carbonnel, J., and Mitchell, T., editors, Machine Learning: An
+Artfficial Intelligence Approach, Volume 2, Kaufmann, Los Altos, CA, pp. 167—192.
+22.	Shapiro, E.Y., 1983: Algorithmic Program Debugging. MIT Press.
+23.	Wrobel, S., 1993: On the Proper Definition of Minimality in Specialisation and
+Theory Revision. In Pavel B. Brazdil editor, Proceedings of the European Conference 
+on Machine Learning, pp. 65—82, Springer-Verlag, Vienna.

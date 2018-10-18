@@ -1,0 +1,86 @@
+When Experience Is Wrong:
+Examining CBR for Changing Tasks and
+Environments *
+
+David B. Leake and David C. Wilson
+
+Computer Science Department
+Indiana University, Lindley Hall
+150 S. Woodlawn Ave
+Bloomington, IN 47405, U.S.A.
+{leake,davwils}@cs.indiana.edu
+
+
+
+Abstract. Case-based problem-solving systems reason and learn from
+experiences, building up case libraries of problems and solutions to guide
+future reasoning. The expected benefits of this learning process depend
+on two types of regularity: (1) problem-solution regularity, the relationship 
+between problem-to-problem and solution-to-solution similarity measures 
+that assures that solutions to similar prior problems are a useful
+starting point for solving similar current problems, and (2) problem-distribution 
+regularity, the relationship between old and new problems
+that assures that the case library will contain cases similar to the new
+problems it encounters. Unfortunately, these types of regularity are not
+assured. Even in contexts for which initial regularity is sufficient, problems 
+may arise if a system’s users, tasks, or external environment change
+over time. This paper defines criteria for assessing the two types of regularity, 
+discusses how the definitions may be used to assess the need
+for case-base maintenance, and suggests maintenance approaches for responding 
+to those needs. In particular, it discusses the role of analysis of
+performance over time in responding to environmental changes.
+References
+
+[Cheetham and Graf, 1997] W. Cheetham and J. Graf. Case-based reasoning in color
+matching. In Proceedings of the Second International Conference on Case-Based
+Reasoning, pages 1—12, Berlin, 1997. Springer Verlag.
+[Faltings, 1997] Boi Faltings. Probabilistic indexing for case-based prediction. In 
+Proceedings of the Second International Conference on Case-Based Reasoning, pages
+611—622, Berlin, 1997. Springer Verlag.
+[Fox and Leake, 1995] S. Fox and D. Leake. Using introspective reasoning to refine 
+indexing. In Proceedings of the Thirteenth International Joint Conference on Artificial
+Intelligence, pages 391—397, San Francisco, CA, August 1995. Morgan Kaufmann.
+[Fox, 1995] 5. Fox. Introspective Reasoning for Case-based Planning. PhD thesis,
+Indiana University, 1995. Computer Science Department.
+[Harries et al., 1998] M. Harries, K. Horn, and C. Sammut. Learning in time ordered
+domains with hidden changes in context. In Papers from the AAAI 1998 Workshop on
+Predicting the Puture: AI Approaches to Time-Series Problems, pages 29—33. AAAI,
+1998.
+[Kolodner, 1993] J. Kolodner. Case-Based Reasoning. Morgan Kaufmann, San Mateo,
+CA, 1993.
+[Kriegsman and Barletta, 1993] M. Kriegsman and R. Barletta. Building a case-based
+help desk application. IEEE Expert, 8(6):18—26, December 1993.
+[Lane and Brodley, 1998] T. Lane and C. Brodley. Approaches to online learning and
+concept drift for user identification in computer security. In Papers from the AAAI
+1998 Workshop on Predicting the Future: Al Approaches to Time-Series Problems,
+pages 64—70. AAAI, 1998.
+[Leake and Wilson, 1998] D. Leake and D. Wilson. Case-base maintenance: Dimensions 
+and directions. In P. Cunningham, B. Smyth, and M. Keane, editors, Proceedings 
+of the Fourth European Workshop on Case-Based Reasoning, pages 196—207,
+Berlin, 1998. Springer Verlag.
+[Redmond, 1992] M. Redmond. Learning by Observing and Understanding Expert
+Problem Solving. PhD thesis, College of Computing, Georgia Institute of Technology,
+1992. Technical report GIT-CC-92/43.
+[Salganicoff, 1997] M. Salganicoff. Tolerating concept and sampling shift in lazy learning 
+using prediction error context switching. Artificial Intelligence Review, 11(1-
+5):133—155, 1997.
+[Smyth and Keane, 1995] B. Smyth and M. Keane. Remembering to forget: A
+competence-preserving case deletion policy for case-based reasoning systems. In Proceedings 
+of the Thirteenth International Joint Conference on Artificial Intelligence,
+pages 377—382, Montreal, August 1995. IJCAI.
+[Smyth and Keane, 1996] B. Smyth and M. Keane. Design à la Déjà Vu: Reducing
+the adaptation overhead. In D. Leake, editor, Case-Based Reasoning: Experiences,
+Lessons, and Future Directions. AAAI Press, Menlo Park, CA, 1996.
+[Smyth and McKenna, 1998] B. Smyth and E. McKenna. Modelling the competence
+of case-bases. In P. Cunningham, B. Smyth, and M. Keane, editors, Proceedings
+of the Fourth European Workshop on Case-Based Reasoning, pages 208—220, Berlin,
+1998. Springer Verlag.
+[Talebzadeh et al., 1995] Houman Talebzadeh, Sanda Mandutianu, and Christian
+Winner. Countrywide loan-underwriting expert system. AI Magazine, 16(1):51—64,
+1995.
+[Veloso, 1994] M. Veloso. Planning and Learning by Analogical Reasoning. Springer
+Verlag, Berlin, 1994.
+[Watson, 1997] Ian Watson. Applying Case-Based Reasoning: Techniques for Enterprise 
+Systems. Morgan Kaufmann, San Francisco, 1997.
+[Zhu and Yang, 1998] J. Zhu and Q. Yang. Remembering to add: Competence-preserving 
+case-addition policies for case based reasoning. 1998.

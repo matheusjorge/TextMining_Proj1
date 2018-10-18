@@ -1,0 +1,80 @@
+An Explicit Representation of Reasoning Failures
+
+Michael T. Cox
+Computer Science Department. Carnegie Mellon University
+Pittsburgh, PA 15213-3891
+mcox@cs.cmu.edu
+
+
+Abstract. This paper focuses upon the content and the level of granularity at which representations 
+for the mental world should be placed in case-based explainers that employ
+introspective reasoning. That is, for a case-based reasoning system to represent thinking
+about the self, about the states and processes of reasoning, at what level of detail should
+one attempt to declaratively capture the contents of thought? Some claim that a mere set of
+two mental primitives are sufficient to represent the utterances of humans concerning
+verbs of thought such as “I forgot his birthday.” Alternatively, many in the CBR community 
+have built systems that record elaborate traces of reasoning, keep track of knowledge
+dependencies or inference, or encode much metaknowledge concerning the structure of
+internal rules and defaults. The position here is that a system should be able instead to capture 
+enough details to represent causally a common set of reasoning failure symptoms. I
+propose a simple model of expectation-driven reasoning, derive a taxonomy of reasoning
+failures from the model, and present a declarative representation of the failure symptoms
+that have been implemented in a CBR simulation. Such representations enable a system to
+explain reasoning failures by mapping from symptoms of the failures to causal factors
+involved.
+References
+
+1.	Cox. M. T. (1997). Loose Coupling of Failure Explanation and Repair: Using learning 
+goals to sequence learning methods. This volume.
+
+2.	Cox. M. T. (1996). Introspective multistrategy learning: Constructing a learning strategy 
+under reasoning failure. Doctoral dissertation, Technical Report. GIT-CC-96-06,
+College of Computing, Georgia Institute of Technology, Atlanta. (Available at URL
+ftp ://ftp.cc .gatech.edu/pub/ai/ram/git-cc-96-06.html)
+
+3.	Cox, M. T., & Ram, A. (1995). Interacting learning-goals: Treating learning as a planning 
+task. In J.-P. Haton, M. Keane & M. Manago (Eds.), Advances in case-based reasoning: 
+Second European Workshop, EWCBR-94 (pp. 60-74). Berlin: Springer-Verlag.
+
+4. 	Doyle, J. (1979). A truth maintenance system, Artificial Intelligence, 12, 23 1-272.
+
+5.	Glenberg, A. M., Wilkinson, A. C., & Epstein, W. (1992). The illusion of knowing:
+Failure in the self-assessment of comprehension. In T. 0. Nelson (Ed.), Metacognition: 
+Core readings (pp. 185-195). Boston: Allyn and Bacon. (Original work published in 1982)
+
+6.	Krinsky, R., & Nelson, T. 0. (1985). The feeling of knowing for different types of
+retrieval failure. Acta Psychologica, 58, 141-158.
+
+7.	Nelson, T. 0., & Dunlosky, J. (1991). When people’s Judgements of Learning (JOLs)
+are extremely accurate at predicting subsequent recall: The “Delayed-JOL Effect.”
+Psychological Science, 2(4), 267-270.
+
+8.	Newell, A. (1990). Unified theories of cognition. Cambridge, MA: Harvard University
+Press.
+
+9.	Ram, A. (1993). Indexing, elaboration and refinement: Incremental learning of explanatory 
+cases. Machine Learning, 10, 20 1-248.
+
+10.	Ram, A. (1994). AQUA: Questions that drive the understanding process. In R. C.
+Schank, A. Kass, & C. K. Riesbeck (Eds.), Inside case-based explanation (pp. 207-
+261). Hillsdale, NJ: Lawrence Erlbaum Associates
+
+11.	Schank, R. C. (1975). Conceptual information processing. Amsterdam: North-Holland
+Publishing.
+
+12.	Schank, R. C. (1986). Explanation patterns. Hillsdale: LEA.
+
+13.	Schank, R. C., Goldman, N., Rieger, C. K., & Riesbeck, C. (1972). Primitive concepts
+underlying verbs of thought (Stanford Artificial Intelligence Project Memo No. 162).
+Stanford, CA: Stanford Univ., Computer Science Dept. (NTIS No. AD744634)
+
+14.	Schank, R. C., Kass, A., & Riesbeck, C. K. (1994). Inside case-based explanation.
+Hillsdale, NJ: LEA.
+
+15.	Schwanenflugel, P. J., Fabricius, W. V., Noyes, C. R., Bigler, K., D., & Alexander, J.
+M. (1994). The organization of mental verbs and folk theories of knowing. Journal of
+Memory and Language. 33, 376-395.
+
+16.	Stallman, R. M., & Sussman, G. J. (1977). Forward reasoning and dependency-
+directed backtracking in a system for computer-aided circuit analysis. Artificial Intelligence, 
+9, 135-196.

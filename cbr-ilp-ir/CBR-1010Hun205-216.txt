@@ -1,0 +1,57 @@
+Case Memory and Retrieval Based on the Immune
+System
+
+John E. Hunt, Denise E. Cooke and Horst Holstein
+Centre for Intelligent Systems, Department of Computer Science,
+University of Wales, Aberystwyth,
+Penglais Campus, Aberystwyth, Dyfed,
+SY23 3DB United Kingdom,
+Email: {jjh,dzc,hoh} @uk.ac.aber
+Tel: [ +44] (0)1970 622537
+
+June 27, 1995
+
+Abstract
+	A variety of case memory organisations and case retrieval techniques have been
+proposed in the literature. Each of these has different features which can affect how useful
+they are for different applications. However, in applications which are likely to hold very
+large numbers of cases. which are highly volatile. and the structure of which is poorly
+understood, most of the current approaches are unsuitable.
+	In this paper we present a novel approach to case memory organisation and case
+retrieval based on metaphors taken from the human immune system. We illustrate how the
+immune system is inherently case based and how it relies on its content addressable
+memory, and a general pattern matcher, to help it identify new antigens (new situations)
+which are similar to old antigens (past cases). We construct a case memory based on the
+immune system theory and show how its pattern recognition. learning and memory
+operations can support CBR.
+References
+[1] Bersini, H. 1991. Immune network and adaptive control, Proc. 1st European Conference
+on Artificia1 Life, ed. by F. J. Varela and P. Bourgine, Pub. MIT Press.
+[2] H.	Bersini, and F. Varela. 1994. The Immune Learning Mechanisms: Reinforcement,
+Recruitment and their Application. Computing with Biological Metaphors, ed. R.
+Paton, Pub. Chapman and Hall, London. 166-192.
+[3] D.E. Cooke, and J.E. Hunt. 1995. Recognising Promoter Sequences using an Artificial
+Immune System, to appear in the Proceedings of the Third International Conference
+on Intelligent Systems for Molecular Biology. Pub. AAAI Press, California.
+[4] De Boer, R. J. and Perelson, A. S. 1991. How diverse should the immune system be?
+Proc. Royal Society of London B, Vol. 252, 171-175.
+[5] Farmer, J. D., Packard, N. H. and Perelson, A. S. 1986. The immune system, adaptation
+and machine learning. Physica 22D, 187-204.
+[6] Forrest, S., Javornik, B., Smith, R. E. and Perelson, A. S. 1993. Using Genetic
+Algorithms to Explore Pattern Recognition in the Immune System, Evolutionary
+Computation, 1(3), 191-211.
+[7] Gilbert, C. J. and Routen, T. W. 1994. Associative Memory in an Immune-Based
+System, Proc. AAAI’94 , Vol. 2, 852-857.
+[8] R. Hightower, S. Forrest and A.S. Perelson 1993. The Baldwin effect in the immune
+system: Learning by somatic hypermutation. Department of Computer Science,
+University of New Mexico, Albuquerque, USA.
+[9] Kolodner, J. 1993. Case-Based Reasoning, Pub. Morgan Kaufmann CA.
+[10] Kriegsman, M. and Barletta, R. 1993. Building a Case-Based Help Desk Application.
+IEEE Expert, Vol. 8, No. 6., 18-26.
+[11] Perelson, A. S. 1989. Immune Network Theory, Immunological Review, 110, pp 5-36.
+[12] Pu, P. 1993. (Guest Editor). 1993. Special Issue on Case-Based Reasoning in Design,
+AJ-EDAM Vol 7 No 2.
+[13] Quinlan, J. R. 1993. C4.5 Programs for Machine Learning, Pub. Morgan Kaufmann
+CA.
+[14] Utgoff, P. E. 1989. Incremental induction of decision trees. Machine Learning, 4, 2,
+16 1-186.

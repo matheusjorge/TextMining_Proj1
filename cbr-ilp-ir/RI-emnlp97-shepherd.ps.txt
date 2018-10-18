@@ -1,0 +1,91 @@
+A Corpus­Based Approach for Building Semantic Lexicons
+
+Ellen Riloff and Jessica Shepherd
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+riloff@cs.utah.edu
+
+Abstract
+Semantic knowledge can be a great asset to
+natural language processing systems, but
+it is usually hand­coded for each applica­tion. 
+Although some semantic information
+is available in general­purpose knowledge
+bases such as WordNet and Cyc, many ap­plications 
+require domain­specific lexicons
+that represent words and categories for a
+particular topic. In this paper, we present
+a corpus­based method that can be used
+to build semantic lexicons for specific categories. 
+The input to the system is a small
+set of seed words for a category and a rep­resentative 
+text corpus. The output is a
+ranked list of words that are associated
+with the category. A user then reviews the
+top­ranked words and decides which ones
+should be entered in the semantic lexicon.
+In experiments with five categories, users
+typically found about 60 words per cate­gory 
+in 10­15 minutes to build a core se­mantic lexicon.
+
+
+
+References
+Berwick, Robert C. 1989. Learning Word Mean­ings from 
+Examples. In Semantic Structures: Ad­vances 
+in Natural Language Processing. Lawrence
+Erlbaum Associates, chapter 3, pages 89--124.
+Brill, E. 1994. Some Advances in Rule­based Part of
+Speech Tagging. In Proceedings of the Twelfth Na­tional 
+Conference on Artificial Intelligence, pages
+722--727. AAAI Press/The MIT Press.
+Carbonell, J. G. 1979. Towards a Self­Extending
+Parser. In Proceedings of the 17th Annual Meeting
+of the Association for Computational Linguistics,
+pages 3--7.
+Cardie, C. 1993. A Case­Based Approach to
+Knowledge Acquisition for Domain­Specific Sen­tence 
+Analysis. In Proceedings of the Eleventh Na­tional 
+Conference on Artificial Intelligence, pages
+798--803. AAAI Press/The MIT Press.
+Church, K. 1989. A Stochastic Parts Program and
+Noun Phrase Parser for Unrestricted Text. In Pro­ceedings 
+of the Second Conference on Applied Nat­ural Language Processing.
+Granger, R. H. 1977. FOUL­UP: A Program that
+Figures Out Meanings of Words from Context. In
+Proceedings of the Fifth International Joint Con­ference 
+on Artificial Intelligence, pages 172--178.
+Hastings, P. and S. Lytinen. 1994. The Ups and
+Downs of Lexical Acquisition. In Proceedings of
+the Twelfth National Conference on Artificial In­telligence, 
+pages 754--759. AAAI Press/The MIT Press.
+Jacobs, P. and U. Zernik. 1988. Acquiring Lexical
+Knowledge from Text: A Case Study. In Pro­ceedings 
+of the Seventh National Conference on
+Artificial Intelligence, pages 739--744.
+Lehnert, W., C. Cardie, D. Fisher, J. McCarthy,
+E. Riloff, and S. Soderland. 1992. Univer­sity 
+of Massachusetts: Description of the CIR­
+CUS System as Used for MUC­4. In Proceedings
+of the Fourth Message Understanding Conference
+(MUC­4), pages 282--288, San Mateo, CA. Mor­gan Kaufmann.
+Lenat, D. B., M. Prakash, and M. Shepherd. 1986.
+CYC: Using Common Sense Knowledge to Over­come 
+Brittleness and Knowledge­Acquisition Bot­tlenecks. AI Magazine, 6:65--85.
+Miller, G. 1990. Wordnet: An On­line Lexical
+Database. International Journal of Lexicography,
+3(4).
+MUC­4 Proceedings. 1992. Proceedings of
+the Fourth Message Understanding Conference
+(MUC­4). Morgan Kaufmann, San Mateo, CA.
+Weischedel,
+R., M. Meteer, R. Schwartz, L. Ramshaw, and
+J. Palmucci. 1993. Coping with Ambiguity and
+Unknown Words through Probabilistic Models.
+Computational Linguistics, 19(2):359--382.
+Yarowsky, D. 1992. Word sense disambiguation us­ing 
+statistical models of Roget's categories trained
+on large corpora. In Proceedings of the Fourteenth
+International Conference on Computational Lin­guistics (COLING­92), pages 454--460.
+

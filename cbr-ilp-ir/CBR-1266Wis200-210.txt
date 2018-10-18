@@ -1,0 +1,62 @@
+A Scalable Approach for Question Based Indexing of
+Encyclopedic Texts
+
+Christopher Wisdo
+
+The Institute for the Learning Sciences, Northwestern University
+1890 Maple Avenue
+Evanston, Illinois, USA
+wisdo@ils.nwu.edu
+
+
+Abstract. This paper describes a tool set developed to aid a human
+content analyst index texts for use in a particular form of structured
+hypermedia known as an ASK System. The tool set assists the content
+analyst by employing a library of question templates to represent the
+types of questions the output ASK system might contain. Question
+templates provided roughly a six-fold increase in the rate with which
+texts are indexed compared to manual techniques. Indexing progress is
+linear throughout, indicating that the methodology can be used to
+effectively index a large body of texts.
+
+References
+Ashley, K. D., Modeling Legal Argument: Reasoning with Cases and Hypotheticals. (Revision
+of Ph.D. thesis.) Cambridge, MA: MIT Press. 1990.
+Bareiss, R., Exemplar-based Knowledge Acquisition: Unified Approach to Concept
+Representation, Classification, and Learning, Academic Press. San Diego. 1989.
+Bareiss, R., & Beckwith, R. The Evaluation of Trans-ASK (Unpublished Technical Report),
+The Institute of the Learning Sciences. Northwestern University. 1994.
+Bareiss, R. and Osgood, R. “Applying AI models to the design of exploratory hypermedia
+systems.” Hypertext ‘93, 1993.
+Bareiss ,R. and Slator, B., From PROTOS to ORCA: Reflections on a Unified Approach to
+Knowledge Representation, Categorization, and Learning. Technical Report 20, Institute
+for the Learning Sciences, Northwestern University, Evanston Illinois, 1992.
+Cleary, C., & Bareiss, R., Practical Methods for Automatically Generating Typed Links. In The
+Proceedings of the Seventh ACM Conference on Hypertext. Washington, DC: 1996.
+Comptons on “Revolution, American.” Compton’s MultiMedia Encyclopedia: Compton’s
+Learning Company, Britannica Software, Inc. San Francisco, California, 1991.
+Conklin, E. “Hypertext: An introduction and survey.” IEEE Computer 2(1987): 17-41.
+Ferguson, W., R. Bareiss, L. Birnbaum and R. Osgood. “ASK Systems: An approach to the
+realization of story-based teachers.” The Journal of the Learning Sciences 1 (2 1992): 95—
+134.
+Lenat, D. B. and Guha, R.V. Building Large Knowledge-Based Systems: Representation and
+Inference in the CYC Project. Reading, Massachusetts: Addison-Wesley, 1990.
+Martin, C. E. “Case-Based Parsing” and “Micro DMAP.” Inside Case-Based Reasoning, ed.
+Christopher K. Riesbeck and Roger C. Schank. Hillsdale, N.J.: Lawrence Erlbaum
+Associates, 1989.
+Nanard, J., & Nanard. M., “Should anchors be typed too? An experiment with MacWeb.”
+InThe Proceedings of the Fifth ACM Conference on Hypertext, (pp. 51-62). Seattle. WA:
+ACM Press.1993.
+Osgood, R. and Bareiss, R. “Automated index generation for constructing large-scale
+conversational hypermedia systems.” Eleventh National Conference on Artificial
+Intelligence, 1993, 309-3 14.
+Osgood, R. “The conceptual indexing of conversational hypertext” Ph.D., Northwestern
+University. 1994.
+Riesbeck, C. K. and C. E. Martin: “Direct Memory Access Parsing.” In Experience, Memory
+and Reasoning, eds. J. Kolodner and C. K. Riesbeck. Hillsdale, N.J.: Lawrence Erlbaum
+Associates, 1986.
+Schank, R. C. “Rules and topics in conversation.” Cognitive Science 1(1977): 42 1-441.
+Spiro, R. J. and Jehng, J. “Cognitive flexibility and hypertext: Theory and technology for the
+nonlinear and multidimensional traversal of complex subject matter.” Cognition,
+Education and Multimedia: Exploring Ideas in High Technology, ed. Don Nix and Rand
+Spiro. Hillsdale, NJ: Lawrence Erlbaum Associates, 1990.

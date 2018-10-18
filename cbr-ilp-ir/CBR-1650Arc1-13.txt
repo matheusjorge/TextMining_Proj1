@@ -1,0 +1,68 @@
+Affect-Driven CBR to Generate Expressive
+Music
+
+Josep Lluís Arcos, Dolores Cañamero, and Ramon López de Mántaras
+
+IIIA, Artificial Intelligence Research Institute
+CSIC, Spanish Council for Scientific Research
+Campus UAB, 08193 Bellaterra, Catalonia, Spain.
+Vox: +34-93-5809570, Fax: +34-93-5809661
+{arcos, lola, mantaras}@iiia.csic.es
+http://www.iiia.csic.es
+
+
+
+
+Abstract. We present an extension of an existing system, called SaxEx,
+capable of generating expressive musical performances based on Case-Based 
+Reasoning (CBR) techniques. The previous version of SaxEx did
+not take into account the possibility of using affective labels to guide
+the CBR task. This paper discusses the introduction of such affective
+knowledge to improve the retrieval capabilities of the system. Three
+affective dimensions are considered—tender-aggressive, sad-joyful, and
+calm-restless—that allow the user to declaratively instruct the system
+to perform according to any combination of five qualitative values along
+these three dimensions.
+References
+
+1.	Josep Lluís Arcos and Ramon López de Mántaras. Perspectives: a declarative bias
+mechanism for case retrieval. In David Leake and Enric Plaza, editors, Case-Based
+Reasoning. Research and Development, number 1266 in Lecture Notes in Artificial
+Intelligence, pages 279—290. Springer-Verlag, 1997.
+2.	Josep Lluís Arcos, Ramon López de Mántaras, and Xavier Serra. Saxex : a case-based 
+reasoning system for generating expressive musical performances. Journal
+of New Music Research, 27 (3):194—210, 1998.
+3.	Josep Lluís Arcos and Enric Plaza. Inference and reflection in the object-centered
+representation language Noos. Journal of Future Generation Computer Systems,
+12:173—188, 1996.
+4.	Josep Lluís Arcos and Enric Plaza. Noos: an integrated framework for problem
+solving and learning. In Knowledge Engineering: Methods and Languages, 1997.
+5.	Sergio Canazza and Nicola Orio. How are the players perceived by listeners: analysis 
+of “how high the moon” theme. In International workshop Kansei Technology
+of Emotion (AIMI’97), 1997.
+6.	Manfred Clynes. Microstructural musical linguistics: composers’ pulses are liked
+most by the best musicians. Cognition, 55:269-310, 1995.
+7.	D. Cooke. The Language of Music. New York: Oxford University Press, 1959.
+8.	Mary Cyr. Performing Baroque Music. Portland, Oregon: Amadeus Press, 1992.
+9.	Giovani De Poli, Antonio Rodà, and Alvise Vidolin. Note-by-note analysis of
+the influence of expressive intentions and musical structure in violin performance.
+Journal of New Music Research, 27 (3):293--321, 1998.
+10.	P. Desain and H. Honing. Computational models of heat induction: the rule-based
+approach. In Proceedings of IJCAI’95 Workshop on AI and Music, pages 1—10,
+1995.
+11.	W. Jay Dowling and Dane L. Harwood. Music Cognition. Academic Press, 19986.
+12.	H. Honing. The vibrato problem, comparing two solutions. Computer Music Journal, 
+19 (3):32—49, 1995.
+13.	Carroll E. Izard, Jerome Kagan, and Robert B. Zajonc. Emotions, Cognition, and
+Behavior. Cambridge University Press, 1984.
+14.	M.L. Jolmson. An expert system for the articulation of Bach fugue melodies. In
+D.L. Baggi, editor, Readings in Computer-Generated Music, pages 41—51. IEEE
+Computes Society Press, 1992.
+15.	Robert Jourdain. Music, the Brain, and Ecstasy. Avon Books, 1997.
+16.	Fred Lerdahl and Ray Jackendoff. An overview of hierarchical structure in music.
+In Stephan M. Schwanaver and David A. Levitt, editors, Machine Models of Music,
+pages 289—312. The MIT Press, 1993. Reproduced from Music Perception.
+17.	Eugene Narmour. The Analysis and cognition of basic melodic structures : the
+implication-realization model. University of Chicago Press, 1990.
+18.	Gerhard Widmer. Learning expressive performance: The structure-level approach.
+Journal of New Music Research, 25 (2):179—205, 1996.

@@ -1,0 +1,87 @@
+A Case-Based Approach for Developing Writing Tools
+Aimed at Non-native English Users
+
+Sandra M. Aluísio1 and Osvaldo N. Oliveira Jr.2
+
+
+1 Universidade de São Paulo
+Departamento de Ciências de Computação e Estatística
+CP 668, 13560-970, São Carlos, SP, BRAZIL
+e-mail:sandra@icmsc.sc.usp.br
+2 Universidade de São Paulo
+Instituto de Física de São Carlos
+CP 369, 13560-970 São Carlos, SP, BRAZIL
+e-mail:chu@ifqsc.sc.usp.br
+
+
+
+Abstract
+
+	A writing tool has been developed for helping non-native English users to produce
+a first draft of Introductory Sections of scientific papers. A corpus analysis was carried
+out in 54 papers of Experimental Physics which allowed one to identify the schematic
+structure of Introductions and 30 rhetorical strategies generally employed. Each one of
+the Introductions analysed constituted a case. The user chooses from menus features
+related to the rhetorical strategies for each component and gives the intended order for
+his/her Introduction, thus forming the requisition. Using three types of metric, the tool
+recovers the best-match cases that can be later modified in a revision process.
+Preliminary experiments showed that high precision and recall will only be obtained if
+the number of cases in the case base is considerably increased. In the revision process,
+four operations are suggested which consist in modifying/adding/deleting the different
+rhetorical messages that constitute the strategies of the chosen case.
+References
+
+[Born-92] Born, G. A Hipertext -Based Support Aid for Writing Software
+Documentation. In Computers and Writing - State of the Art, P. O’Brian-Holt &
+N.Williams (eds), Kiuwer Academic Publishers, Dordrecht, pp. 266-277, 1992.
+[Buchanan-92] Buchanan, R.A. Textbase Technology: Writing with Reusable Text. In
+Computers and Writing - State of the Art, P. O’Brian-Holt & N.Williams (eds),
+Kluwer Academic Publishers, Dordrecht, pp. 254-265, 1992.
+[Caldeira-92] (Caldeira), Alufsio S.M.; De Oliveira, M.C.F.; Fontana, N.; Nacamatsu,
+C.O. and Oliveira Jr., O.N. Writing tools for non-native users of English.
+Proceedings of the XVIII Latinamerican Informatics Conference, Spain, p. 224-
+231, 1992.
+[Crookes-86] Crookes, G. Towards a Validate Analysis of Scientific Text Structure.
+Applied Linguistics, Vol. 7 No. 1, 1986, pp.57-70.
+[Fontana-93] Fontana, N.; (Caldeira), Aluísio S.M.; De Oliveira, M.C.F. and Oliveira
+Jr., O.N. Computer Assisted Writing--Aplications to English as a Foreign
+Language. CALL, Volume 6 (2), p. 145-161, 1993.
+[Hovy-90] Hovy, E. Pragmatics and Natural Language Generation. Artificial
+Intelligence 43, p. 153-197, 1990.
+[Huckin-91] Huckin, T.N. and Olsen, L.A. Technical Writing and Professional
+Communication for Nonnative Speakers of English. McGraw-Hill, In. 1991.
+[Jacobs-85] Jacobs, P.S. PHRED: A Generator for Natural Language Interfaces.
+Computational Linguistics 11 (4):2 19-242.
+[Kettler-94] Kettler, B.P.; Hendler, J.A. Andersen, W.A; and Evett M.P. Massively
+Parallel Support for Case-Based Planning. IEEE Expert, pp. 8-14, February 1994.
+[Kitano-90] Kitano, H. Parallel Incremental Sentence Production for a Model of
+Simultaneous Interpretation. In Current Research in Natural Language Generation,
+Dale, R., Mellish, C. and Zock, M. (eds), Academic Press, Boston, 1990, pp. 321-
+351.
+[Kukich-83] Kukich, K. Knowledge-Based Report Generation: A Knowledge
+Engineering Approach to Natural Language Report Generation. PhD Thesis,
+University of Pittsburg, 1983.
+[Maybury-91] Maybury, M.T. Planning Multisentential English Text Using
+Communicative Acts. (PhD Thesis) Tech. R. 239, University of Cambridge, 1991.
+[Oliveira-91] Oliveira, Jr. O.N.; (Caldeira), Alufsio S.M. and Fontana, N. Chusaurus:
+A Writing Tool Resource for Non-Native Users of English, In Proceedings of the
+XI International Conference of The Chilean Computer Science Society, pp. 59-70.
+Also In Computer Science: Research and Applications, R. Baeza-Yates and U.
+Manber (eds), Plenum Press, N.Y. pp. 63-72, 1992.
+[Paice-90] Paice, C.D. Constructing Literature Abstracts by Computer: Techniques
+and Prospects. Information Processing & Management, Vol. 26, No. 1, pp. 171-
+186, 1990.
+[Pautler-94] Pautler, D. Planning and learning in domains providing little feedback.
+AAAI Fall Symposium on Planning & Learning Notes’94.
+[Smadja-91] Smadja, F. Retrieving Collocational Knowledge from Textual Corpora.
+An application: Language Generation. PhD Thesis, Computer Science
+Department, Columbia University, 1991.
+[Swales-90] Swales, J. Genre Analisys - English in academic and research settings.
+Cambridge University Press, 1990.
+[Taylor-91] Taylor, G. and Tingguang, C. Linguistic, Cultural and Subcultural Issues
+in Contrastive Discourse Analysis: Anglo-amarican and Chinese Scientific Texts.
+Applied Linguistics, Vol. 12, No. 3, 1991, pp. 3 19-336.
+[Trimble-85] Trimble, L. English for science and technology: a discourse approach.
+Cambridge University Press, 1985.
+[Weissberg-90] Weissberg R. and Buker, S. Writing up Research - Experimental
+Research Report Writing for Students of English. Prentice Hall Regents, 1990.

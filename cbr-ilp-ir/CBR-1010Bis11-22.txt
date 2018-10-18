@@ -1,0 +1,48 @@
+Cost Estimation of Software Projects through
+Case Base Reasoning
+
+Rossella Bisio and Fabio Malabocchia
+
+Centro Studi E Laboratori Telecomunicazioni
+Via Guglielmo Reiss Romoli, 274
+10148 Torino, Italy
+Fax: +39-11-2286862
+Tel: +39-11-2286999 E-Mail : Rossella.Bisio@cselt.stet.it
+Tel: +39-11-2286778 E-Mail : Fabio.Malabocchia@cselt.stet.it
+
+
+Abstract. One of the most challenging goals for the software development 
+community is the definition and assessment of techniques and tools
+enabling the cost estimation of projects in the early phases of the software 
+life cycle. Despite of the increasing needs and the available tools
+and methods, a satisfactory solution is still to be found.
+During the last two years, has gained some interest in this community
+an approach based on analogy. Following this approach, an estimation
+is made starting from analogies with other software projects met in the
+past. The main reason for this trend is the increased flexibility with respect 
+to other approaches. The main drawback of this method was the
+inadequacy of the software technologies to provide an effective and eflident 
+implementation.
+The experience reported here, demonstrates that CBR techniques allow
+a natural implementation of the estimation by analogy paradigm, and
+the software estimation by analogy in particular.
+
+
+References
+
+1.	Simoudis, E.: Using case-based retrieval for customer technical support. IEEE Expert 
+7 (Oct. 1992).
+2.	Hennessy, D., Hinkle, D.: Applying case-base reasoning to autoclave loading. IEEE
+Expert 7,5, (Oct. 1992).
+3.	Pearce, M., Goel, A.K., Kolodner, J. L., Zimring, C., Sentosa, L., Billington R.:
+Case-based design support IEEE Expert, October 7,5 1992.
+4.	Nguyen, T., Czerwinski, M., Dan Lee: Compaq Quicksource providing the consumer
+with the power of AL AI Magazine - Fall (1993)
+5.	Allen, B. P.: Case-based reasoning: business applications Communication of the
+ACM Vol 37 No 3, March (1994)
+6.	Boehm, B. W.: Software engineering economics Prentice-Hall, Englewood Cliffs,
+New Jersey (1981)
+7.	Subramanian, G. H.: An empirical examination of software development modes The
+Journal of Systems and Software 23:3-7, (1993)
+8.	Weiss, S. M., Kulikowski, C. A.: Computer systems that learn, Morgan Kauffman
+Publishers, 1990.

@@ -1,0 +1,50 @@
+Case-Based Reasoning with Confidence
+
+William Cheetham (cheetham@crd.ge.com)
+phone: (518) 387-5222 fax: (518) 387-6845,
+GE Research and Development Center,
+1 Research Circle, Niskayuna, NY 12309
+
+Abstract. A case-based reasoning system can produce both a solution and
+an estimate of the confidence in that solution. The confidence value can be
+used to determine whether the solution does or does not have the needed
+accuracy. A statistical method can be used to compute a confidence value
+from information generated during the case-based reasoning process. This
+confidence value allows users to know when the results of the system
+should and should not be used.
+References
+1.	Althoff, K-D., A Review of Industrial Case-Based Reasoning Tools, AI
+Intelligence, United Kingdom, 1995.
+
+2.	Bonissone, P., Mars: A Mergers & Acquisitions Reasoning System, Computer 
+Science in Economics and Management, Kluwer Academic Publishers,
+Holland, 1990.
+3.	Bonissone, P., Financial Applications of Fuzzy Case-Based Reasoning to
+Residential Property Valuation, IEEE-Fuzzy 97, Barcelona, Spain, 1997.
+
+4.	Cheetham, W., Case-Based Reasoning with Confidence, Ph.D Thesis, Rensselaer 
+Polytechnic Institute, December 1996.
+
+5.    Efron, B., An Introduction to the Bootstrap, Chapman & Hall, 1993.
+
+6.	Everitt, B., Cluster Analysis, Third Edition, John Wiley and Sons Inc., London, 1993.
+
+7.	Hammond, K., “Case Based Planning: Viewing Planning as a Memory
+Task,” Academic Press, Boston, 1989.
+
+8.    Klir, G., Fuzzy Sets, Uncertainty, and Information, Prentice Hall, 1988.
+9.    Kolodner, J., Case-Based Reasoning. Morgan Kaufmann, 1993.
+
+10.	Koton, P., Reasoning About Evidence in Causal Explanation, In Proceedings
+of AAAI-88. Cambridge, MA: AAAI Press/MIT Press, 1988.
+
+11.	Mendel, J., Fuzzy Logic Systems for Engineering: A Tutorial, Proceedings
+of the IEEE, Vol. 83, no. 3, March 1995.
+
+12.	Quinlan, J.R. C4.5: Programs for Machine Learning. Morgan Kaufmann,
+San Mateo, CA, 1993.
+
+13.	StatSci (A division of MathSoft), S-PLUS Guide to Statistical and Mathematical 
+Analysis, Seattle, Washington, 1993.
+
+14.	Walpole, R., Probability and Statistics for Engineers and Scientists, Macmillan Publishing, New York, 1985.

@@ -1,0 +1,99 @@
+A Case Study in Using Linguistic Phrases
+for Text Categorization on the WWW
+
+Johannes F¨urnkranz
+juffi@cs.cmu.edu
+School of Computer Science
+Carnegie Mellon University
+Pittsburgh, PA 15213
+Tom Mitchell
+mitchell+@cs.cmu.edu
+School of Computer Science
+Carnegie Mellon University
+Pittsburgh, PA 15213
+Ellen Riloff
+riloff@cs.utah.edu
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+
+Abstract
+Most learning algorithms that are applied to text cat­
+egorization problems rely on a bag­of­words document
+representation, i.e., each word occurring in the docu­ment 
+is considered as a separate feature. In this paper,
+we investigate the use of linguistic phrases as input fea­tures 
+for text categorization problems. These features
+are based on information extraction patterns that are
+generated and used by the AutoSlog­TS system. We
+present experimental results on using such features as
+background knowledge for two machine learning algo­
+rithms on a classification task on the WWW. The re­sults 
+show that phrasal features can improve the pre­cision 
+of learned theories at the expense of coverage.
+
+
+References
+Cohen, W. W., and Singer, Y. 1996. Context­sensitive
+learning methods for text categorization. In Proceed­ings 
+of the 19th Annual International ACM SIGIR
+Conference on Research and Development in Informa­tion 
+Retrieval (SIGIR­96), 307--315.
+Cohen, W. W. 1995. Fast effective rule induction. In
+Prieditis, A., and Russell, S., eds., Proceedings of the
+12th International Conference on Machine Learning
+(ML­95), 115--123. Lake Tahoe, CA: Morgan Kauf­
+mann.
+Cohen, W. W. 1996. Learning trees and rules with set­
+valued features. In Proceedings of the 13th National
+Conference on Artificial Intelligene (AAAI­96), 709--
+716. AAAI Press.
+Craven, M.; DiPasquio, D.; Freitag, D.; McCallum, A.;
+Mitchell, T.; Nigam, K.; and Slattery, S. 1998a. Learn­ing 
+to extract symbolic knowledge from the World
+Wide Web. Technical report, School of Computer Sci­ence, 
+Carnegie Mellon University, Pittsburgh, PA.
+Craven, M.; DiPasquio, D.; Freitag, D.; McCallum, A.;
+Mitchell, T.; Nigam, K.; and Slattery, S. 1998b. Learn­ing 
+to extract symbolic knowledge from the World
+Wide Web. In Proceedings of the 15th National Con­ference 
+on Artificial Intelligence (AAAI­98). AAAI
+Press.
+F¨urnkranz, J., and Widmer, G. 1994. Incremental
+Reduced Error Pruning. In Cohen, W., and Hirsh,
+H., eds., Proceedings of the 11th International Con­ference 
+on Machine Learning (ML­94), 70--77. New
+Brunswick, NJ: Morgan Kaufmann.
+F¨urnkranz, J. 1997. Pruning algorithms for rule learn­ing. 
+Machine Learning 27(2):139--171.
+F¨urnkranz, J. 1998. Separate­and­conquer rule learn­ing. 
+Artificial Intelligence Review. In press.
+Lang, K. 1995. NewsWeeder: Learning to filter net­
+news. In Prieditis, A., and Russell, S., eds., Proceed­
+ings of the 12th International Conference on Machine
+Learning (ML­95), 331--339. Morgan Kaufmann.
+Mitchell, T. M. 1997. Machine Learning. McGraw
+Hill.
+Quinlan, J. R. 1990. Learning logical definitions from
+relations. Machine Learning 5:239--266.
+Riloff, E., and Lorenzen, J. 1998. Extraction­based
+text categorization: Generating domain­specific role
+relationships automatically. In Strzalkowski, T., ed.,
+Natural Language Information Retrieval. Kluwer Aca­demic 
+Publishers. forthcoming.
+Riloff, E. 1995. Little words can make a big dif­ference 
+for text classification. In Proceedings of the
+18th Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+130--136.
+Riloff, E. 1996a. Automatically generating extrac­tion 
+patterns from untagged text. In Proceedings of
+the 13th National Conference on Artificial Intelligence
+(AAAI­96), 1044--1049. AAAI Press.
+Riloff, E. 1996b. An empirical study of automated
+dictionary construction for information extraction in
+three domains. Artificial Intelligence 85:101--134.
+Witten, I. H., and Bell, T. C. 1991. The zero­frequence
+problem: Estimating the probabilities of novel events
+in adaptive text compression. IEEE Transactions on
+Information Theory 37(4):1085--1094.

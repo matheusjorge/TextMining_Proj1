@@ -1,0 +1,75 @@
+Search and Adaptation
+in a Fuzzy Object Oriented Case Base
+
+Magali Ruet and Laurent Geneste
+
+LGP / ENIT, Avenue d’Azereix, BP 1629,
+65016 TARBES Cedex, France
+{ruet, laurent}@enit.fr
+
+
+
+Abstract. In this paper we propose to represent a case using an object oriented
+model that enables the description of imprecise knowledge using possibility
+distributions. The proposed search process is based on this modeling and a
+fuzzy similarity measure is defined. The adaptation process is achieved with
+propagation of domain constraints in a neighborhood of the retrieved case. We
+propose a method to define this neighborhood. We illustrate our proposition by
+an example in the field of machining operation configuration.
+References
+
+1.	Bergmann, R., Stahl, A.: Similairity measures for object-oriented case representations.
+Lecture Notes in Computer Science 1488 Springer, (1998) 25-36
+2.	Bessière, C.: Arc-consistency in dynamic constraint satisfaction problems. 10th AAAI,
+California (1991) 221-226
+3.	Brown, D.C.: Some Thoughts on Configuration Processes. AAAI 1996 Fall Symposium
+Workshop on Configuration, MIT, Cambridge, Massachusetts, USA (1996)
+4.	Dechter, R., Dechter, A. Structure driven algorithms for truth maintenance. Artificial
+Intelligence Journal (82) (1996) 1-20
+5.	Dubois, D., Prade, H.: Fuzzy Sets and Systems. Eds: Academic Press. New York, Fuzzy
+Logic CDROM Library (1996)
+6. Dubois, D., Fargier, H., Prade, H.: Possibility theory in constraint satisfaction problems:
+Handling priority, preference and uncertainty. Applied Intelligence (6) (1996) 287-309
+7.	Dubois, D., Esteva, F., Garcia, P., Godo, L., Lopez de Mantaras, R., Prade, H.: Fuzzy set-based 
+models in case-based reasoning. 2nd ICCBR, Providence, Rhode Island, USA (1997)
+8.	Dubois, D., Kerre, E., Mesiar, R., Prade, H.: Fuzzy interval analysis. Fundamentals of
+Fuzzy Sets, Dubois & Prade, The Handbook of Fuzzy Sets, Kluwer Acad. Publ. (1999)
+9.	Fowler, M., Scott, K., Booch, G.: Uml Distilled: Applying the Standard Object Modeling
+Language. Addison-Wesley Pub Co. (1997)
+10.	Gelle, E.: On the generation of locally consistent solution spaces inmixed dynamic
+constraint problems, PhD Thesis, Swiss Federal Institute of Technology (EPFL), Lausanne
+(1998)
+11.	Geneste, L., Ruet, M., Monteiro, T.: Configuration of a machining operation. Workshop on
+Configuration, 14th European Conference on Artificial Intelligence, ECAT, Berlin (2000)
+12.	Hansen, B.: Weather Prediction Using Case-Based Reasoning and Fuzzy Set Theory.
+Master of Computer Science Thesis, Technical University of Nova Scotia, Canada (2000)
+13.	Hüllermeier, E., Dubois, D., Prade, H.: Extensions of a qualitative approach to case-based
+decision making: uncertainty and fuzzy quantification in act evaluation, 7th European
+Congress on Intelligent Techniques & Soft Computing, Aachen, Germany (1999)
+14.	Kolodner, J.: Case Based Reasoning. Morgan Kaufmann Publishers, Inc. (1993)
+15.	Lottaz, C.: Constraint solving, preference activation and solution adaptation in IDIOM.
+Technical report, Swiss Federal Institute of Technology (EPFL), Lausanne (1996)
+16.	Monteiro, T., Perpen, J.L., Geneste, L.: Configuring a machining operation as a constraint
+satisfaction problem. CIMCA’99, Austria (1999)
+17.	Neagu, N., Faltings, B.: Constraint satisfaction for case adaptation. Workshop on Case
+Adaptation of the Int. Conf. on CBR, ICCBR, Kaiserslautern, Germany (1999)
+18.	Neagu, N., Faltings, B.: Exploiting interchangeabilities for case adaptation. 4th ICCBR,
+Case-Based Reasoning Research and Development. Aha D.W., Watson I. & Yang Q.,
+Springer, LNCS (2001)
+19.	Purvis, L., Pu, P.: An approach to case combination. Workshop on adaptation in case-based
+reasoning, European Conference on Artificial Intelligence, ECAI, Budapest (1996)
+20.	Salotti, S.: Filtrage flou et représentation centrée objet pour raisonner par analogie: le
+système FLORAN. (in French) PhD Thesis, University of Paris XI, Orsay, France (1992)
+21.	Sam, D.: Constraint consistency techniques for continuous domains. PhD Thesis, Swiss
+Federal Institute of Technology (EPFL), Lausanne (1995)
+22.	Smyth, B., Keane, M. T.: Experiments on adaptation-guided retrieval in case-based design.
+1st Int. Conf. on Case-Based Reasoning, ICCBR, Portugal (1995)
+23.	Sqalli, M. H., Freuder, E. C.: CBR support for CSP modeling of InterOperability testing.
+Workshop on CBR Integrations, AAAI, Madison, Wisconsin, USA (1998)
+24.	Sqalli, M. H., Purvis, L., Freuder, E.C.: Survey of applications integrating constraint
+satisfaction and case-based reasoning. PACLP, London (1999)
+25.	Weigel, R., Torrens, M., Faltings, B.V.: Interchangeability for Case Adaptation
+Configuration Problems. Workshop on CBR Integrations (AAAI-98), Madison, Wisconsin,
+USA. (1998)
+26.	Yager, R.R.: On the specificity of a possibility distribution. Fuzzy Sets and Systems (50)
+(1992) 279-292

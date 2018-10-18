@@ -1,0 +1,35 @@
+From Troubleshooting to Process Design:
+Closing the Manufacturing Loop
+
+C. J. Price, I. S. Pegler, M. B. Ratcliffe, A. McManus
+
+
+Department of Computer Science, University of Wales, Aberystwyth
+Ceredigion, SY23 3DB, United Kingdom
+email: cjp@aber.ac.uk
+
+
+Abstract. This paper describes the dual use of a case base for diagnosis
+and for improving the design of a manufacturing process. In the short
+term, the case base is used to provide past experience in dealing with
+similar problems during the manufacture of aluminum components. In
+the longer term, it is used to feed that experience into the design of the
+manufacturing process for new components.
+This is achieved by having a case hase of previous manufacturing process
+problems and solutions. For diagnosis, case base matching is done in a
+fairly straightforward manner. In order to use the cases in design analysis,
+the case information about process type and problems with a particular
+process is fed into a process failure mode and effects analysis (FMEA),
+and provides details of possible problems and their likelihood.
+References
+
+1.	Acorn. T. L.. Walden, S. H.: SMART: Support Management Automated Reasoning
+Technology for Ccmpaq Customer Service. In Innovative Applications of Artificial
+Intelligence 4, eds: Scott, A. C., Klahr, P; AAAI Press (1992) 3—18
+2.	Dattani, I. Magaldi, R. V., Bramer, M. A.; A Review and Evaluation of the Application 
+of Case-based Reasoning (CBR) Technology in Aircraft Maintenance.
+Applications and Innovations in Expert Systems IV. SCES Publications (1996)
+189—203
+3.	Schenck, D .A., Wilson, P. R.; Information Modeling the EXPRESS Way. Oxford
+University Press (1994) ISBN 0-19-508714-3
+4.	Failure Mode and Effects Analysis Handbook. Ford Motor Company Ltd (1995)

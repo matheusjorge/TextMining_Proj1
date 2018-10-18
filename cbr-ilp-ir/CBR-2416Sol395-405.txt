@@ -1,0 +1,63 @@
+Category-Based Filtering and User Stereotype Cases
+to Reduce the Latency Problem in Recommender Systems
+
+Mikael Sollenborn and Peter Funk
+
+Mälardalen University
+Department of Computer Science and Engineering
+Västerås, Sweden
+{mikael.sollenborn, peter.funk}@idt.mdh.se
+
+
+
+Abstract. Collaborative filtering is an often successful method for personalized
+item selection in Recommender systems. However, in domains where items are
+frequently added, collaborative filtering encounters the latency problem.
+Characterized by the system’s inability to select recently added items, the
+latency problem appears because new items in a collaborative filtering system
+must be reviewed before they can be recommended. Content-based filtering
+may help to counteract this problem, but runs the risk of only recommending
+items almost identical to the ones the user has appreciated before. In this paper,
+a combination of category-based filtering and user stereotype cases is proposed
+as a novel approach to reduce the latency problem. Category-based filtering
+puts emphasis on categories as meta-data to enable quicker personalization.
+User stereotype cases, identified by clustering similar users, are utilized to
+decrease response times and improve the accuracy of recommendations when
+user information is incomplete.
+References
+
+1.	Reichheld, F.F., Sasser, W.E.: Zero defections:quality comes to service. Harvard Business
+Review, 68:105-7, September-October (1990)
+2.	Shardanad, U., Maes, P.: Social Information Filtering: Algorithms for Automating ‘Word
+of Mouth’. Proceedings of the ACM Conference on Human Factors in Computing Systems,
+ACM Press (1995) 210-217
+3.	Konstan, J.A., Miller, B.N., Maltz, D., Herlocker, J.L., Gordan, L.R., Riedi, J.: GroupLens:
+Applying collaborative filtering to usenet news. Communications of the ACM 40 (1997)
+3:77-87
+4.	Cotter, P., Smyth, B.: WAPing the Web: Content Personalisation for WAP-Enabled
+Devices. Proceedings of the 1st International Conference on Adaptive Hypermedia and
+Adaptive Web-Based Systems, Trento, Italy (2000) 98-108
+5.	Mukherjee, R., Dutta, S.: MOVIES2GO — a new approach to online movie
+recommendations. In workshop Intelligent Techniques for Web Personalization, IJCAI-
+2001, Seattle Washington (2001)26-34
+6.	Rafter, R., Smyth, B.: Passive Profiling from Server Logs in an Online Recmitment
+Environment. In workshop Intelligent Techniques for Web Personalization, IJCAI-2001,
+Seatfie Washington (2001) 35-41
+7.	Mobasher, B., Dal, H., Luo, T., Nakagawa, M.: Improving the Effectiveness of
+Collaborative Filtering on Anonymous Web Usage Data. In workshop Intelligent
+Techniques for Web Personalization, IJCAI-2001, Seattle Washington (2001) 53-60
+8.	Ungar, L.H., Foster, D.P.: Clustering Methods for Collaborative Filtering. Proceedings of
+the Workshop on Recommendation Systems. AAAI Press, Menlo Park California (1998)
+9.	Funakoshi, K., Ohguro, T.: A content-based collaborative recommender system with
+detalled use of evaluations. In Proceedings of 4th International Conference on Knowledge-Based 
+Intelligent Engineering Systems and Allied Technologies, Volume 1 (2000) 253-256
+10.	Hayes, C., Cunningham, P., Smyth, B.: A Case-Based Reasoning View of Automated
+Collaborative Filtering. In Proceedings of 4th International Conference on Case-Based
+Reasoning, ICCBR2001 (2001) 243-248
+11.	Rich, E.: User Modeling via Stereotypes. Cognitive Science 3 (1979) 329-354
+12.	Balabanovic, M., Shoham, Y.: Combining Content-Based and Collaborative
+Recommendation. Communications of the ACM 40 (1997) 3:66-72
+13.	Kohrs, A., Merialdo, B.: Using category-based collaborative filtering in the Active
+WebMuseum. Proceedings of IEEE International Conference on Multimedia and Expo,
+New York (2000)1:351-354
+14.	Jain, A.K., Dubes, R.C.: Algorithms for Clustering Data. Prentice Hall (1988)

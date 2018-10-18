@@ -1,0 +1,97 @@
+Efficient Similarity Determination and Case
+Construction Techniques for Case-Based Reasoning
+
+David W. Patterson, Niall Rooney, and Mykola Galushka
+
+The Northern Ireland Knowledge Engineering Laboratory
+School of Information and Software Engineering
+University of Ulster at Jordanstown,
+Newtownabbey, County Antrim,
+Northern Ireland
+{wd.patterson, nf.rooney, mg.galushka}@ulst.ac.uk
+
+
+
+Abstract. In this paper, we present three techniques for knowledge discovery in
+case-based reasoning. The first two techniques D-HS and D-HS+SR are
+concerned with the discovery of similarity knowledge and operate on an
+uncompacted case-base while the third technique D-HS+PSR is concerned with
+the discovery of both similarity and case knowledge and operates on a
+compacted case-base. All three techniques provide a very efficient and
+competent means of similarity determination in CBR, which are empirically
+shown to be up to 25 times faster than k-NN without any loss in competency.
+D-HS+PSR proposes a novel approach to automatically engineering compact
+case-bases with a minimal overhead to the system, compared to other
+approaches such as case deletion/addition. Additionally as the approach
+provides a means for automatically reducing the number of cases required in the
+case-base without any loss in problem solving competency it has the greatest
+implication of the three techniques for reducing the effects of the utility
+problem in CBR.
+References
+
+[1]	Aha, D. W. and Breslow, L. Refining conversational case libraries. In Proceedings of the
+2nd International Conference on Case-based Reasoning,-ICCBR-97, pp 267-276,
+Providence RI, USA, 1997.
+[2]	Anand, SS; Patterson, DW and Hughes, JG. Knowledge Intensive Exception Spaces,
+AAAI-98, pp 574-579, 1998.
+[3]	Cost, S.; and Salzberg, 5. 1993. A Weighted Nearest Neighbour Algorithm for Learning
+with Symbolic Features. Machine Learning 10: 57-78.
+[4]	Deangdej, J., Lukose, D., Tsui, E., Beinat, P. and Prophet, L. Dynamically creating indices
+for two million cases: A real world problem. In Smith, I. And Faltings, B. eds., Advances
+in Case-Based Reasoning, Lecture Notes in AI, .Springer-Verlag. 105-119. Berlin:
+Springer Verlag 1996.
+[5]	Fox, S. and Leake, D.B. Using Introspective reasoning to refine indexing. In roceedings of
+the 14”’ International Joint Conference on Artificial Intelligence. Montreal, Canada,
+August , pp 391-387. 1995.
+[6]	Hanney, K. and Keane M. Learning Adaptation Rules from a Case-Base, Proc. Advances
+in Case-Based Reasoning, 3rd European Workshop, EWCBR-96, pp179-192, Lausanne,
+Switzerland, November 1996.
+[7]	Hunt, J.E., Cooke, D.E. and Holstein, H. Case-memory and retrieval based on the immune
+system. 1st International Conference on Case-Based reasoning (ICCBR-95), pp 205-216,.
+1995.
+[8]	McSherry, D. Automating case selection in the construction of a case library. Proceedings
+of ES99, the 19th SGES International Conference on Knowledge-Based Systems and
+Applied Artificial Intelligence, Cambridge, pp 163-177, December 1999
+[9]	Patterson, D., Anand, S.S., Dubitzky, D. and Hughes, J.G. Towards Automated Case
+Knowledge Discovery in the M2 Case-Based Reasoning System, Knowledge and
+Information Systems:An International Journal, (1), pp 61-82, Springer Verlag, 1999.
+[10] Patterson, D; Anand, SS; Dubitzky, D and Hughes, J.G. A Knowledge Light Approach to
+Similarity Maintenance for Improving Case-Based Competence. Workshop on Flexible
+Strategies for Maintaining Knowledge Containers 14th European Conference on Artificial
+Intelligence, ECAI 2000. PP 65 - 77. 2000
+[11]	Patterson, D., Rooney, N. & Galushka, M. Towards Dynamic Maintenance of Retrieval
+Knowledge in CBR. Proceedings of the 15th International FLAIRS Conference. AAAI
+Press. 2002
+98, pp. 73-78, John Wiley and Sons, Brighton, 1998.
+[12] 	Portinale, L., Torasso, P. and Magro, D. Dynamic Case Memory Management, Proc.
+ECAI 98, pp.73-78, John Wiley and Sons, Brighton, 1998.
+[13]	Portinale, L., Torasso, P. and Magro, D. Speed up quality and competence in multi model
+reasoning Proceedings of the 3rd International Conference in Case-Based Reasoning pp
+303-317,	1999.
+[14]	Racine, K. and Yang, Q. Maintaining unstructured case-bases. In the Proceedings of the
+2”” International Conference on case-Based Reasoning, ICCBR-97, pp 553-564,
+Providence, RI, USA. 1997.
+[15]	Richter, M. The Knowledge Contained in Similarity Measures. Invited Talk, The First
+International Conference in Case-Based Reasoning, Sesimbra, Portugal, October, 1995.
+[16]	Stanfill, C.; and Waltz, D. 1986. Towards Memory-based Reasoning. Communications of
+the ACM. 29(12): 1213-1228.
+[17]	Smyth, B. and Keane, M. Remembering to Forget.: A Competence-Preserving case
+Deletion Policy for Case-Based Reasoning Systems. Proceedings of 14th IJCAI, pp377-
+382. 1995.
+[18]	Smyth. B. Constructing Competent Case-Based Reasoners: Theories, Tools and
+techniques. Workshop On Automating the Construction of Case-Based Reasoners,
+Sixteenth International Joint Conference on Artificial Intelligence, Stockholm, Sweden,
+pp 17-23 1999
+[19] Smyth, B. and McKenna, E. Footprint-based retrieval. Proceedings of the 3rd International
+Conference on Case-Based Reasoning, Munich, Germany, pp 343-3 57. July 1999.
+[20]	Tadepalli, P. A theory of unsupervised speedup learning. Proceedings of the 12th National
+Conference on Artificial Intelligence (AAAI-92), pp 229-234, 1992.
+[21]	Wettschereck et al 1997. Wettschereck, D.; Aha, D.; and Mohri, T. 1997. A Review of
+Empirical Evaluation of Feature Weighting Methods for a Class of Lazy Learning
+Algorithms, Artificial Intelligence Review Journal.
+[22]	Zang, Z. and Yang, Q. Towards lifetime maintenance of case-based indexes for continual
+case-based reasoning. In Proceedings of the 8th International Conference on Artificial
+Intelligence: Methodology, Systems, Applications, Sozopol, Bulgaria, 1998.
+[23]	Zhu, J. and Yang, Q. Remembering to Add: Competence-preserving Case Addition
+Policies for Case-base Maintenance. In International Joint Conference in Artificial
+Intelligence 1999 (IJCAI-99), pp. 234-239. 1999.

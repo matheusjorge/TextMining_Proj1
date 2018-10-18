@@ -1,0 +1,66 @@
+Combining Rule-Based and Case-Based Learning
+for Iterative Part-of-Speech Tagging
+
+Alneu de Andrade Lopes and Alipio Jorge
+
+LIACC - Laboratório de Inteligência Artificial e Ciências de Computadores
+Universidade do Porto - R. do Campo Alegre 823, 4150 Porto, Portugal
+alneu@ncc.up.pt
+amjorge@ncc.up.pt
+
+
+
+Abstract. In this article we show how the accuracy of a rule based first
+order theory may be increased by combining it with a case-based
+approach in a classification task. Case-based learning is used when the
+rule language bias is exhausted. This is achieved in an iterative
+approach. In each iteration theories consisting of first order rules are
+induced and covered examples are removed. The process stops when it
+is no longer possible to find rules with satisfactory quality. The
+remaining examples are then handled as cases. The case-based
+approach proposed here is also, to a large extent, new. Instead of only
+storing the cases as provided, it has a learning phase where, for each
+case, it constructs and stores a set of explanations with support and
+confidence above given thresholds. These explanations have different
+levels of generality and the maximally specific one corresponds to the
+case itself The same case may have different explanations representing
+different perspectives of the case. Therefore, to classify a new case, it
+looks for relevant stored explanations applicable to the new case. The
+different possible views of the case given by the explanations
+correspond to considering different sets of conditions/features to
+analyze the case. In other words, they lead to different ways to compute
+similarity between known cases/explanations and the new case to be
+classified (as opposed to the commonly used global metric).
+Experimental results have been obtained on a corpus of Portuguese
+texts for the task of part-of-speech tagging with significant
+improvement.
+References
+
+1 .	Aamodt, E. Plaza Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches. Al Communications, Vol. 7 Nr. 1, (1994),39-59.
+2.	Cussens, J.; Dzeroski, S.; Erjavec, T.: Morphosyntatic Tagging of Slovene Using
+Progol. Proceedings of the 9th Int. Wdrkshop on Inductive Logic Programming
+(ILP-99). Dzeroski, S. and Flach, P. (Eds). LNAI 1634, 1999.
+3.	Cussens, J.: Part of Speech Tagging Using Progol. In Inductive Logic
+Programming. Proceedings of the 7th Int. Workshop on Inductive Logic
+Programming (ILP-9 7). LNAI 1297, 1997.
+4.	Domingos, P.: Unifying Instance-Based and Rule-Based Induction. Machine
+Learning 24 (1996), 141-168.
+5.	Golding, A. R.; Rosenbloom, P.S.: Improving Accuracy by Providing Rule-based
+and Case-based Reasoning. Artificial lntelligence 87 (1996), 2 15-254.
+6.	Horváth, T.; Alexin, Z.; Gyim6thy, T.; Wrobel, S.: Application of Different
+Learning Methods to Hungarian Part-of-Speech Tagging. Proceedings of the 9th
+Int. Workshop on Inductive Logic Programming (ILP-99). Dzeroski, S. and
+Flach, P. (Eds). LNAI 1634, 1999.
+7.	Jorge, A.; Brazdil, P.: Architecture for Iterative Learning of Recursive
+Definitions. Advances in Inductive Logic Programming, De Raedt, L. (Ed.), 105
+Press, 1996.
+8.	Jorge, A. Lopes, A.: Iterative Part-of-Speech Tagging. Learning Language in
+Logic (LLL) Workshop, Cussens, J. (Ed.), 1999.
+9.	Jorge, A.: lterative Induction of Logic Programs: an approach to logic program
+synthesis from incomplete specifications. Ph.D. thesis. University of Porto, 1998.
+10.	Lindberg, N; Eineborg, M: Improving Part-of-Speech Disambiguation Rules by
+Adding Linguistic Knowledge. Proceedings of the 9th Int. Workshop on Inductive
+Logic Programming (ILP-99). Dzeroski, S. and Flach, P. (Eds). LNAI 1634,1999.
+11.	Liu, B:; Hsu, W:; Ma, Y.: Integrating Classification and Association Rule
+Mining. In Proceedings of KDD 1998: pp. 80-86. 1998.

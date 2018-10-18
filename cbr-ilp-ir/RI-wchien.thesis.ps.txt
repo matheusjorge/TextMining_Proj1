@@ -1,0 +1,64 @@
+Learning Query Behavior in the Haystack System
+
+Wendy S. Chien
+Department of Electrical Engineering and Computer Science
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+
+Abstract
+Haystack is a personalized information retrieval system that allows users to store,
+maintain, and query for information. This thesis describes how learning is added
+to the system so that when a user makes a query on a topic similar to a previous
+query, the system can use the relevance feedback information from before to provide
+an improved result set for the current query. The learning module was designed to
+be modular and extensible so more sophisticated learning algorithms and techniques
+can be easily implemented in the future. Testing of our system showed that learning
+based on relevance feedback somewhat improved the results of the queries.
+
+
+Bibliography
+[A98] E. Adar. Hybrid-Search and Storage of Semi-structured Information. Master's
+Thesis, Massachusetts Institute of Technology, Department of Electrical Engineering 
+and Computer Science, May 1998.
+[AW00] AntWorld webpage http://aplab.rutgers.edu/ant/
+[DH00] Direct Hit webpage http://www.directhit.com
+[G98] G. Grei
+. A Theory of Term Weighting Based on Exploratory Data Analysis.
+Proceedings of SIGIR '98, August 1998, pp. 11-19.
+[H92] D. Harman. Relevance Feedback and Other Query Modication Techniques. In-
+formation Retrieval: Data Structures & Algorithms, pp. 241-263, Upper Saddle
+River, NJ, 1992. Prentice Hall, Inc.
+[HRA92] D. Harman. Ranking Algorithms. Information Retrieval: Data Structures &
+Algorithms, pp. 363-392, Upper Saddle River, NJ, 1992. Prentice Hall, Inc.
+[LI99] I. Lisanskiy. A Data Model for he Haystack Document Management System.
+Master's Thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, February 1999.
+[LOW99] A. Low. A Folder-Based Graphical Interface for an Information Retrieval System.
+Master's Thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, June 1999.
+[MSB98] M. Mitra, A. Singhal, C. Buckley. Improving Automatic Query Expansion.
+Proceedings of SIGIR '98, August 1998, pp. 206-214.
+[NST00] NIST TREC webpage http://nist.trec.gov.
+[RW92] S. Robertson, S. Walker, M. Hancock-Beaulieu, A. Gull, M. Lau. Okapi at
+TREC NIST Special Publication 500-207: The First Text REtrieval Conference
+(TREC-1), November 1992, pp. 21-30.
+[RW93] S. Robertson, S. Walker, S. Jones, M. Hancock-Beaulieu, M. Gatford. Okapi at
+TREC-2 NIST Special Publication 500-215: The Second Text REtrieval Conference 
+(TREC-2), August-September 1993, pp. 21-34.
+[R71] J.J. Rocchio. Relevance Feedback in Information Retrieval. The SMART Retrieval 
+System{Experiements in Automatic Document Processing, pp. 313-323,
+Englewood Cli
+s, NJ, 1971. Prentice Hall, Inc.
+[SB90] G. Salton, C. Buckley. Improving Retrieval Performance by Relevance Feedback
+Journal of the American Society of Information Science, 41(4):288-297, 1990.
+[S99] R. Schapire. A Brief Introduction to Boosting Proceedings of the Sixteenth
+International Conference on Articial Intelligence, 1999.
+[SSS98] R. Schapire, Y. Singer, A. Singhal. Boosting and Rocchio Applied to Text
+Filtering Proceedings of SIGIR '98, August 1998, pp. 215-223.
+[S00] S. Shnitser. Integrating Structural Search Capabilities into Project Haystack
+Master's Thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, June 2000.
+[SBM96] A. Singhal, C. Buckley, M. Mitra. Pivoted Dcoument Length Normalization
+Proceedings of SIGIR '96, August 1996, pp. 21-29.
+[SMB97] A. Singhal, M. Mitra, C. Buckley. Learning Routing Queries in a Query Zone.
+Proceedings of SIGIR '97, August 1997, pp. 25-32.

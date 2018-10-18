@@ -1,0 +1,188 @@
+Inductive Logic Programming
+for Natural Language Processing
+
+Raymond J. Mooney
+
+Department of Computer Sdences
+University of Texas, Austin TX 78712-1188, USA
+
+
+Abstract. This paper reviews our recent work on applying inductive
+logic programming to the construction of natural language processing
+systems. We have developed a system, CHILL, that learns a parser from a
+training corpus of parsed sentences by inducing heuristics that control an
+initial overly-general shift-reduce parser. CHILL learns syntactic parsers
+as well as ones that translate English database queries directly into 
+executable logical form. The ATIS corpus of airline information queries was
+used to test the acquisition of syntactic parsers, and CHILL performed
+competitively with recent statistical methods. English queries to a small
+database on U.S. geography were used to test the acquisition of a 
+complete natural language interface, and the parser that CHILL acquired was
+more accurate than an existing hand-coded system. The paper also 
+includes a discussion of several issues this work has raised regarding the
+capabilities and testing of ILP systems as well as a summary of our
+current research directions.
+Reference
+
+Abramson, H., & Dahl, V. (1989). Logic Grammars. Springer-Verlag, New York.
+Allen, J. F. (1995). Natural Language Understanding (2nd Ed.). Benjamin/Cummings, Menlo Park, CA.
+Anoe, C., & Bennett, S. W. (1995). Evaluating automated and manual acquisition of
+anaphora resolution strategies. In Proceedings of the 33rd Annual Meeting of
+the Association for Computational Linguistics, pp. 122—129 Cambridge, MA.
+ARPA (Ed.). (1993). Proceedings of the Fifth DARPA Message Understanding 
+Evaluation and Conference, San Mateo, CA. Morgan Kaufman.
+Bergadano, F., & Gunetti, D. (1993). An interactive system to learn functional logic
+programs. In Proceedings of the Thirteenth International Joint Conference on
+Artificial Intelligence, pp. 1044—1049 Chambery, France.
+Berwick, B. (1985). The Acquisition of Syntactic Knowledge. MIT Press, Cambridge,
+MA.
+Black, E., & et. al. (1991). A procedure for quantitatively comparing the syntactic
+coverage of English grammars. In Proceedings of the Fourth DARPA Speech
+and Natural Language Workshop, pp. 306—311.
+Bloom, P. (1994). Overview: Controversies in language acquisition. In Bloom, P.
+(Ed.), Language Acquisition: Core Readings, pp. 5—48. MIT Press, Cambridge,
+MA.
+Borland International (1988). Turbo Prolog 2.0 Reference Guide. Borland 
+International, Scotts Valley, CA.
+Brill, E. (1993). Automatic grammar induction and parsing free text: A
+transformation-based approach. In Proceedings of the 31st Annual Meeting of
+the Association for Computational Linguistics, pp. 259—265 Columbus, Ohio.
+Brill, E. (1995). Transformation-based error-driven learning and natural language
+processing: A case study in part-of-speech tagging. Computational Linguistics,
+21(4), 543—565.
+Brill, E., & Church, K. (Eds.). (1996). Proceedings of the Conference on Empirical
+Methods in Natural Language Processing. University of Pennsylvania, Philadelphia, PA.
+Charniak, E. (1993). Statistical Language Learning. MIT Press.
+Church, K. (1988). A stochastic parts program and noun phrase parser for 
+unrestricted text. In Proceedings of the Second Conference on Applied Natural
+Language Processing. Association for Computational Linguistics.
+Church, K., & Mercer, R. L. (1993). Introduction to the special issue on 
+computational linguistics using large corpora. Computational Linguistics, 19(1), 1—24.
+Church, K., & Patil, R. (1982). Coping with syntactic ambiguity or how to put the
+block in the box on the table. American Journal of Computational Linguistics,
+8(3-4), 139-149.
+Cohen, W. W. (1990). Learning approximate control rules of high utility. In 
+Proceedings of the Seventh International Conference on Machine Learning, pp.
+268—276 Austin, TX.
+Coflins, M. J. (1996). A new statistical parser based on bigram lexical dependencies.
+In Proceedings of the 34th Annual Meeting of the Association for Computational
+Linguistics, pp. 184—191 Santa Cruz, CA.
+De Raedt, L. (1992). Interactive Theory Revision: An Inductive Logic Programming
+Approach. Academic Press, New York, NY.
+De Raedt, L., & Bruynooghe, M. (1993). A theory of clausal discovery. In Proceedings
+of the Thirteenth International Joint Conference on Artificial Intelligence, pp.
+1058-1063 Chambery, France.
+Estlin, T. A., & Mooney, R. J. (1996). Multi-strategy learning of search control for
+partial-order planning. In Proceeding. of the Thirteenth National Conference
+on Artificial Intelligence Portland, OR.
+Fillmore, C. J. (1968). The case for case. In Bach, E., & Harms, R. T. (Eds.),
+Universals in Linguistic Theory. Holt, Reinhart and Winston, New York.
+Goodman, J. (1996). Parsing algorithms and metrics. In Proceedings of the 34th
+Annual Meeting of the Association for Computational Linguistics, pp. 177—183
+Santa Cruz, CA.
+Huffman, S. B. (1996). Learning information extraction patterns from examples. In
+Wermter, S., Riloff, E., & Scheler, G. (Eds.), Connectionist, Statistical, and
+Symbolic Approaches to Learning for Natural Language Processing, pp. 246—
+260. Springer, Berlin.
+Kijsirikul, B., Numao, M., & Shimura, M. (1992). Discrimination-based constructive
+induction of logic programs. In Proceedings of the Tenth National Conference
+on Artificial Intelligence, pp. 44—49 San Jose, CA.
+Langley, P. (1985). Learning to search: From weak methods to domain specific 
+heuristics. Cognitive Science, 9(2), 217—260.
+Lavrac, N., & Dzeroski, S. (Eds.). (1994). Inductive Logic Programming: Techniques
+and Applications. Ellis Horwood.
+Leckie, C., & Zuckerman, I. (1993). An inductive approach to learning search 
+control rules for planning. In Proceedings of the Thirteenth International Joint
+Conference on Artificial Intelligence, pp. 1100—1105 Chamberry,France.
+Lehnert, W., & Sundheim, B. (1991). A performance evaluation of text-analysis
+technologies. AI Magazine, 12(3), 81—94.
+Ling, C. X., & Marinov, M. (1993). Answering the connectionist challenge: A 
+symbolic model of learning the past tense of English verbs. Cognition, 49(3),
+235—290.
+Magerman, D. M. (1995). Statistical decision-tree models for parsing. In Proceedings
+of the 33rd Annual Meeting of the Association for Computational Linguistics,
+pp. 276-283 Cambridge, MA.
+Marcus, M. (1980). A Theory of Syntactic Recognition for Natural Language. MIT
+Press, Cambridge, MA.
+Marcus, M., Santorini, B., & Marcinkiewicz, M. (1993). Building a large annotated
+corpus of English: The Penn treebank. Computational Linguistics, 19(2), 313—
+330.
+Miikkulainen, R. (1996). Subsymbolic case-role analysis of sentences with embedded
+clauses. Cognitive Science, 20(1), 47—73.
+Miikkulainen, R. (1993). Subs ymbolic Natural Language Processing: An Integrated
+Model of Scripts, Lexicon, and Memory. MIT Press, Cambridge, MA.
+Mitchell, T. (1983). Learning and problem solving. In Proceedings of the Eighth 
+International Joint Conference on Artificial Intelligence, pp. 1139—1151 Karlsruhe,
+West Germany.
+Mooney, R. J., & Calf, M. E. (1995). Induction of first-order decision lists: Results
+on learning the past tense of English verbs. Journal of Artificial Intelligence
+Research, 3, 1—24.
+Muggleton, S., & Buntine, W. (1988). Machine invention of first-order predicates by
+inverting resolution. In Proceedings of the Fifth International Conference on
+Machine Learning, pp. 339—352 Ann Arbor, MI.
+Muggleton, S., & Feng, C. (1992). Efficient induction of logic programs. In Muggleton,
+S. (Ed.), Inductive Logic Programming, pp. 281—297. Academic Press, New
+York.
+Periera, F., & Shabes, Y. (1992). Inside-outside reestimation from partially bracketed
+corpora. In Proceedings of the 30th Annual Meeting of the Association for
+Computational Linguistics, pp. 128—135 Newark, Delaware.
+Pinker, S. (Ed.). (1994). The Language Instinct: How the Mind Creates Language.
+William Morrow, N.Y.
+Quinlan, J. R. (1996). Learning first-order definitions of functions. Journal of 
+Artificial Intelligence Research, to appear.
+Quinlan, J. (1990). Learning logical definitions from relations. Machine Learning,
+5(3), 239—266.
+Reilly, R. G., & Sharkey, N. E. (Eds.). (1992). Connectionist Approaches to Natural
+Language Processing. Lawrence Eribaum and Associates, Hilldale, NJ.
+Richards, B. L., & Mooney, R. J. (1995). Automated refinement of first-order 
+Horn-clause domain theories. Machine Learning, 19(2), 95—131.
+Riloff, E. (1993). Automatically constructing a dictionary for information 
+extraction tasks. In Proceedings of the Eleventh National Conference on Artificial
+Intelligence, pp. 811—816.
+Rumelhart, D. E., & McClelland, J. (1986). On learning the past tense of English
+verbs. In Rumeihart, D. E., & McClelland, J. L. (Eds.), Parallel Distributed
+Processing, Vol. II, pp. 216—271. MIT Press, Cambridge, MA.
+Simmons, R. F., & Yu, Y. (1992). The acquisition and use of context dependent
+grammars for English. Computational Linguistics, 18(4), 391—418.
+Soderland, S., & Lehnert, W. (1994). Wrap-Up: A trainable discourse module for
+information extraction. Journal of Artificial Intelligence Research, 2, 131—158.
+Tomita, M. (1986). Efficient Parsing for Natural Language. Kluwer Academic Pub-
+lishers, Boston.
+Waibel, A., & Lee, K. F. (Eds.). (1990). Readings in Speech Recognition. Morgan
+Kaufmann, San Mateo,CA.
+Warren, D., & Pereira, F. (1982). An efficient easily adaptable system for interpreting
+natural language queries. American Journal of Computational Linguistics, 8(3-
+4), 110—122.
+Wermter, S., Riloff, E., & Scheler, G. (Eds.). (1996). Connectionist, Statistical, and
+Symbolic Approaches to Learning for Natural Language Processing. Springer
+Verlag, Berlin.
+Wirth, R. (1988). Learning by failure to prove. In Proceedings of the Third European
+Working Session on Learning, pp. 237—251. Pitman.
+Wirth, R. (1989). Completing logic programs by inverse resolution. In Proceedings
+of the Fourth European Working Session on Learning, pp. 239—250. Pitman.
+Zelle, J. M. (1995). Using Inductive Logic Programming to Automate the 
+Construction of Natural Language Parsers. Ph.D. thesis, University of Texas, Austin,
+TX.
+Zelle, J. M., & Mooney, R. J. (1993a). Combining FOIL and EBG to speed-up logic
+programs. In Proceedings of the Thirteenth International Joint Conference on
+Artificial Intelligence, pp. 1106—1111 Chambery, France.
+Zelie, J. M., & Mooney, R. J. (1993b). Learning semantic grammars with 
+constructive inductive logic programming. In Proceedings of the Eleventh National
+Conference on Artificial Intelligence, pp. 817—822 Washington, D.C.
+Zelle,	J. M., & Mooney, R. J. (1994a). Combining top-down and bottom-up methods
+in inductive logic programming. In Proceedings of the Eleventh International
+Conference on Machine Learning, pp. 343—351 New Brunswick, NJ.
+Zelle,	J. M., & Mooney, R. J. (1994b). Inducing deterministic Prolog parsers from
+treebanks: A machine learning approach. In Proceedings of the Twelfth National
+Conference on Artificial Intelligence, pp. 748—753 Seattle, WA.
+Zelle,	J. M., & Mooney, R. J. (1996a). Comparative results on using inductive logic
+programming for corpus-based parser construction. In Wermter, S., Riloff, E.,
+& Scheler, G. (Eds.), Connectionist, Statistical, and Symbolic Approaches to
+Learning for Natural Language Processing, pp. 355—369. Springer, Berlin.
+Zelle,	J. M., & Mooney, R. J. (1996b). Learning to parse database queries using
+inductive logic programming. In Proceedings of the Thirteenth National 
+Conference on Artificial Intelligence Portland, OR.
+Zelle,	J. M., Thompson, C., Califf, M. E., & Mooney, R. J. (1995). Inducing logic
+programs without explicit negative examples. In Proceedings of the Fifth 
+International Workshop on Inductive Logic Programming, pp. 403—416 Leuven,
+Belgium.

@@ -1,0 +1,186 @@
+Japanese/English Cross­Language Information Retrieval:
+Exploration of Query Translation and Transliteration 1
+
+Atsushi Fujii and Tetsuya Ishikawa
+University of Library and Information Science
+1­2 Kasuga Tsukuba 305­8550, JAPAN
+E­mail:fujii@ulis.ac.jp
+1 Computers and the Humanities, Vol.35, No.4, pp.389--420, Nov. 2001
+
+Abstract
+Cross­language information retrieval (CLIR), where queries and documents are in different lan­guages, 
+has of late become one of the major topics within the information retrieval community.
+This paper proposes a Japanese/English CLIR system, where we combine a query translation
+and retrieval modules. We currently target the retrieval of technical documents, and therefore
+the performance of our system is highly dependent on the quality of the translation of techni­cal 
+terms. However, the technical term translation is still problematic in that technical terms
+are often compound words, and thus new terms are progressively created by combining existing
+base words. In addition, Japanese often represents loanwords based on its special phonogram.
+Consequently, existing dictionaries find it di#cult to achieve su#cient coverage. To counter the
+first problem, we produce a Japanese/English dictionary for base words, and translate compound
+words on a word­by­word basis. We also use a probabilistic method to resolve translation ambigu­ity. 
+For the second problem, we use a transliteration method, which corresponds words unlisted
+in the base word dictionary to their phonetic equivalents in the target language. We evaluate
+our system using a test collection for CLIR, and show that both the compound word translation
+and transliteration methods improve the system performance.
+References
+AAAI. 1997. Electronic Working Notes of the AAAI Spring Symposium on Cross­Language Text and Speech
+Retrieval. http://www.clis.umd.edu/dlrg/filter/sss/papers/.
+ACM SIGIR. 1996­1998. Proceedings of the Annual International ACM SIGIR Conference on Research and
+Development in Information Retrieval.
+Chinatsu Aone, Nicholas Charocopos, and James Gorlinsky. 1997. An intelligent multilingual information
+browsing and retrieval system using information extraction. In Proceedings of the 5th Conference on
+Applied Natural Language Processing, pages 332--339.
+Lisa Ballesteros and W. Bruce Croft. 1997. Phrasal translation and query expansion techniques for cross­
+language information retrieval. In Proceedings of the 20th Annual International ACM SIGIR Conference
+on Research and Development in Information Retrieval, pages 84--91.
+Lisa Ballesteros and W. Bruce Croft. 1998. Resolving ambiguity for cross­language retrieval. In Proceedings
+of the 21st Annual International ACM SIGIR Conference on Research and Development in Information
+Retrieval, pages 64--71.
+Peter F. Brown, Stephen A. Della Pietra, Vincent J. Della Pietra, and Robert L. Mercer. 1993. The math­
+ematics of statistical machine translation: Parameter estimation. Computational Linguistics, 19(2):263--
+311.
+Jaime G. Carbonell, Yiming Yang, Robert E. Frederking, Ralf D. Brown, Yibing Geng, and Danny Lee. 1997.
+Translingual information retrieval: A comparative evaluation. In Proceedings of the 15th International
+Joint Conference on Artificial Intelligence, pages 708--714.
+Hsin­Hsi Chen, Sheng­Jie Huang, Yung­Wei Ding, and Shih­Chung Tsai. 1998. Proper name translation in
+cross­language information retrieval. In Proceedings of the 36th Annual Meeting of the Association for
+Computational Linguistics and the 17th International Conference on Computational Linguistics, pages
+232--236.
+Hsin­Hsi Chen, Guo­Wei Bian, and Wen­Cheng Lin. 1999. Resolving translation ambiguity and target
+polysemy in cross­language information retrieval. In Proceedings of the 37th Annual Meeting of the
+Association for Computational Linguistics, pages 215--222.
+Kenneth W. Church and Robert L. Mercer. 1993. Introduction to the special issue on computational
+linguistics using large corpora. Computational Linguistics, 19(1):1--24.
+Mark W. Davis and William C. Ogden. 1997. QUILT: Implementing a large­scale cross­language text
+retrieval system. In Proceedings of the 20th Annual International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages 92--98.
+Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, and Richard Harshman.
+1990. Indexing by latent semantic analysis. Journal of the American Society for Information Science,
+41(6):391--407.
+Edsgar W. Dijkstra. 1959. A note on two problems in connexion with graphs. Numerische Mathematik,
+1:269--271.
+Bonnie J. Dorr and Douglas W. Oard. 1998. Evaluating resources for query translation in cross ­language
+information retrieval. In Proceedings of the 1st International Conference on Language Resources and
+Evaluation, pages 759--764.
+Susan T. Dumais, Thomas K. Landauer, and Michael L. Littman. 1996. Automatic cross­ linguistic informa­tion 
+retrieval using latent semantic indexing. In ACM SIGIR Workshop on Cross­Linguistic Information
+Retrieval.
+Christiane Fellbaum, editor. 1998. WordNet: An Electronic Lexical Database. MIT Press.
+Gene Ferber. 1989. English­Japanese, Japanese­English Dictionary of Computer and Data­Processing
+Terms. MIT Press.
+Pascale Fung, Liu Xiaohu, and Cheung Chi Shun. 1999. Mixed language query disambiguation. In Proceed­ings 
+of the 37th Annual Meeting of the Association for Computational Linguistics, pages 333--340.
+Pascale Fung. 1995. A pattern matching method for finding noun and proper noun translations from
+noisy parallel corpora. In Proceedings of the 33rd Annual Meeting of the Association for Computational
+Linguistics, pages 236--243.
+Denis A. Gachot, Elke Lange, and Jin Yang. 1996. The SYSTRAN NLP browser: An application of
+machine translation technology in multilingual information retrieval. In ACM SIGIR Workshop on
+Cross­Linguistic Information Retrieval.
+Julio Gilarranz, Julio Gonzalo, and Felisa Verdejo. 1997. An approach to conceptual text retrieval using
+the EuroWordNet multilingual semantic database. In Electronic Working Notes of the AAAI Spring
+Symposium on Cross­Language Text and Speech Retrieval.
+Julio Gonzalo, Felisa Verdejo, Carol Peters, and Nicoletta Calzolari. 1998. Applying EuroWordNet to
+cross­language text retrieval. Computers and the Humanities, 32:185--207.
+David A. Hull and Gregory Grefenstette. 1996. Querying across languages: A dictionary­based approach
+to multilingual information retrieval. In Proceedings of the 19th Annual International ACM SIGIR
+Conference on Research and Development in Information Retrieval, pages 49--57.
+David Hull. 1993. Using statistical testing in the evaluation of retrieval experiments. In Proceedings of
+the 16th Annual International ACM SIGIR Conference on Research and Development in Information
+Retrieval, pages 329--338.
+David A. Hull. 1997. Using structured queries for disambiguation in cross­language information retrieval. In
+Electronic Working Notes of the AAAI Spring Symposium on Cross­Language Text and Speech Retrieval.
+Japan Electronic Dictionary Research Institute. 1995a. Bilingual dictionary. (In Japanese).
+Japan Electronic Dictionary Research Institute. 1995b. Technical terminology dictionary (information
+processing). (In Japanese).
+Hiroyuki Kaji and Toshiko Aizono. 1996. Extracting word correspondences from bilingual corpora based on
+word co­occurrence information. In Proceedings of the 16th International Conference on Computational
+Linguistics, pages 23--28.
+Noriko Kando, Kazuko Kuriyama, and Toshihiko Nozue. 1999. NACSIS test collection workshop (NTCIR­1).
+In Proceedings of the 22nd Annual International ACM SIGIR Conference on Research and Development
+in Information Retrieval, pages 299--300.
+E. Michael Keen. 1992. Presenting results of experimental retrieval comparisons. Information Processing &
+Management, 28(4):491--502.
+Kevin Knight and Jonathan Graehl. 1998. Machine transliteration. Computational Linguistics, 24(4):599--
+612.
+Yoshiyuki Kobayashi, Takenobu Tokunaga, and Hozumi Tanaka. 1994. Analysis of Japanese compound
+nouns using collocational information. In Proceedings of the 15th International Conference on Computa­tional 
+Linguistics, pages 865--869.
+Oh­Woog Kwon, Insu Kang, Jong­Hyeok Lee, and Geunbae Lee. 1998. Conceptual cross­language text
+retrieval based on document translation using Japanese­to­Korean MT system. International Journal of
+Computer Processing of Oriental Languages, 12(1):1--16.
+Jae Sung Lee and Key­Sun Choi. 1997. A statistical method to generate various foreign word translitera­tions 
+in multilingual information retrieval system. In Proceedings of the 2nd International Workshop on
+Information Retrieval with Asian Languages, pages 123--128.
+Inderjeet Mani and Eric Bloedorn. 1998. Machine learning of generic and user­focused summarization. In
+Proceedings of AAAI/IAAI­98, pages 821--826.
+Yuji Matsumoto, Akira Kitauchi, Tatsuo Yamashita, Osamu Imaichi, and Tomoaki Imamura. 1997. Japanese
+morphological analysis system ChaSen manual. Technical Report NAIST­IS­TR97007, NAIST. (In
+Japanese).
+J. Scott McCarley. 1999. Should we translate the documents or the queries in cross­language information
+retrieval? In Proceedings of the 37th Annual Meeting of the Association for Computational Linguistics,
+pages 208--214.
+P.E. Mongar. 1969. International co­operation in abstracting services for road engineering. The Information
+Scientist, 3:51--62.
+Nichigai Associates. 1996. English­Japanese computer terminology dictionary. (In Japanese).
+Jian­Yun Nie, Michel Simard, Pierre Isabelle, and Richard Durand. 1999. Cross­language information
+retrieval based on parallel texts and automatic mining of parallel texts from the Web. In Proceedings of
+the 22nd Annual International ACM SIGIR Conference on Research and Development in Information
+Retrieval, pages 74--81.
+National Institute of Standards & Technology. 1992--1998. Proceedings of the Text REtrieval Conferences.
+http://trec.nist.gov/pubs.html.
+Douglas W. Oard and Philip Resnik. 1999. Support for interactive document selection in cross­ language
+information retrieval. Information Processing & Management, 35(3):363--379.
+Douglas W. Oard. 1998. A comparative study of query and document translation for cross ­language infor­mation 
+retrieval. In Proceedings of the 3rd Conference of the Association for Machine Translation in the
+Americas, pages 472--483.
+Akitoshi Okumura, Kai Ishikawa, and Kenji Satoh. 1998. Translingual information retrieval by a bilingual
+dictionary and comparable corpus. In The 1st International Conference on Language Resources and
+Evaluation, Workshop on Translingual Information Management: Current Levels and Future Abilities.
+Ari Pirkola. 1998. The e#ects of query structure and dictionary setups in dictionary­based cross ­language in­
+formation retrieval. In Proceedings of the 21st Annual International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages 55--63.
+Tetsuya Sakai, Masahiro Kajiura, Kazuo Sumita, Gareth Jones, and Nigel Collier. 1999. A study on English­
+Japanese/Japanese­English cross­language information retrieval using machine translation. Transactions
+of Information Processing Society of Japan, 40(11):4075--4086. (In Japanese).
+Gerard Salton and Christopher Buckley. 1988. Term­weighting approaches in automatic text retrieval.
+Information Processing & Management, 24(5):513--523.
+Gerard Salton and Michael J. McGill. 1983. Introduction to Modern Information Retrieval. McGraw­Hill.
+Gerard Salton. 1970. Automatic processing of foreign language documents. Journal of the American Society
+for Information Science, 21(3):187--194.
+Gerard Salton. 1971. The SMART Retrieval System: Experiments in Automatic Document Processing.
+Prentice­Hall.
+Gerard Salton. 1972. Experiments in multi­lingual information retrieval. Technical Report TR 72­154,
+Computer Science Department, Cornell University.
+Peter Sch˜auble and P’araic Sheridan. 1997. Cross­language information retrieval (CLIR) track overview. In
+The 6th Text Retrieval Conference.
+P’araic Sheridan and Jean Paul Ballerini. 1996. Experiments in multilingual information retrieval using the
+SPIDER system. In Proceedings of the 19th Annual International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages 58--65.
+Frank Smadja, Kathleen R. McKeown, and Vasileios Hatzivassiloglou. 1996. Translating collocations for
+bilingual lexicons: A statistical approach. Computational Linguistics, 22(1):1--38.
+Masami Suzuki, Naomi Inoue, and Kazuo Hashimoto. 1998. E#ect on displaying translated major keywords
+of contents as browsing support in cross­language information retrieval. Information Processing Society
+of Japan SIGNL Notes, 98(63):99--106. (In Japanese).
+Masami Suzuki, Naomi Inoue, and Kazuo Hashimoto. 1999. E#ects of partial translation for users' document
+selection in cross­language information retrieval. In Proceedings of The 5th Annual Meeting of The
+Association for Natural Language Processing, pages 371--374. (In Japanese).
+Anastasios Tombros and Mark Sanderson. 1998. Advantages of query biased summaries in information
+retrieval. In Proceedings of the 21st Annual International ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 2--10.
+Keita Tsuji and Kyo Kageura. 1997. An HMM­based method for segmenting Japanese terms and keywords
+based on domain­specific bilingual corpora. In Proceedings of the 4th Natural Language Processing Pacific
+Rim Symposium, pages 557--560.
+Ellen M. Voorhees. 1998. Variations in relevance judgments and the measurement of retrieval effectiveness.
+In Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development
+in Information Retrieval, pages 315--323.
+Piek Vossen. 1998. Introduction to EuroWordNet. Computers and the Humanities, 32:73--89.
+S.K.M. Wong, W. Siarko, and P.C.N. Wong. 1985. Generalized vector space model in information retrieval.
+In Proceedings of the 8th Annual International ACM SIGIR Conference on Research and Development
+in Information Retrieval, pages 18--25.
+Jinxi Xu and W. Bruce Croft. 1996. Query expansion using local and global document analysis. In
+Proceedings of the 19th Annual International ACM SIGIR Conference on Research and Development in
+Information Retrieval, pages 4--11.
+Kiyoshi Yamabana, Kazunori Muraki, Shinichi Doi, and Shin'ichiro Kamei. 1996. A language conversion
+front­end for cross­linguistic information retrieval. In ACM SIGIR Workshop on Cross­ Linguistic Infor­mation Retrieval.
+Justin Zobel and Alistair Mo#at. 1998. Exploring the similarity space. ACM SIGIR FORUM, 32(1):18--34.

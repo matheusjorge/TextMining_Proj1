@@ -1,0 +1,39 @@
+Realizing Progol by Forward Reasoning
+
+Tomonobu OZAKI, Koichi FURUKAWA,
+Tomoko MURAKAMI and Ken UENO
+
+Graduate School of Media and Governance, Keio University
+5322 Endo, Fujisawa, Kanagawa 252, JAPAN
+
+
+Abstract. Current implementation of coverage check for evaluating the
+candidate hypothesis in A* -like search in Progol is based on backward
+reasoning of Prolog. But it contains some kinds of redundancy. In this
+paper, we propose an alternative algorithm based on forward reasoning 
+of extended MGTP (Model Generation Theorem Prover). Since this
+alternative can remove the redundant computations, we can expect to
+realize a more efficient search process.
+References
+
+1.	Beeri, C. and Ramakrishnan, R.: On the Power of Magic, J. of Logic Programming,
+Vol. 10, pp.255-299 (1991).
+2.	Ishizuka, M.: Computational Cost of Hypothetical Reasoning and Its Fast Inference
+Mechanism, J. of Japanese Society for Artificial Intelligence, Vol. 9, No. 8, pp.342-
+349 (1994).
+3.	Fujita, H. and Hasegawa, R.: A Model Generation Theorem Prover in KL1 Using
+a Ramified-Stack Algorithm, Proc. of the 8th International Conference of Logic
+Programming, pp.535-548 (1991).
+4.	H.Fujita, N.Yagi, T.Ozaki, K.Furukawa. A New Design and Implementation of Progol 
+by Bottom-up Computation. Proc. of the 6th International Workshop on Inductive 
+Logic Programming, 1996.
+5.	Muggleton, S. and Feng, C.: Efficient Induction of Logic Programs. Proc. First
+Conference on Algorithmic Learning Theory, pp.368-381, Ohmsha, Tokyo (1990).
+6.	Muggieton, S.: Inverse entailment and Progol, New Generation Computing, 13,
+pp.245-286 (1995).
+7.	Ozaki, T., Furukawa, K., Murakami, T. and Ueno, K.: Improving A* -like search in
+Progol by the Input/Output Relation of Variables, SIG-FAI-9701, pp.30-35 (1997).
+8.	Quinlan, J. R. and Cameron-jones, R. M.: Induction of Logic Programs: FOIL and
+Related Systems. New Generation Computing, 13, pp.287-312 (1995).
+9.	Shapiro, E.: Inductive Inference of Theories from Facts, Research Report 192, Department 
+of Computer Science, Yale University (1981).

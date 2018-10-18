@@ -1,0 +1,55 @@
+Evaluation Corpora for Sense Disambiguation in the Medical Domain
+
+Diana Raileanu § , Paul Buitelaar § , Spela Vintar § , Jörg Bay*
+§ DFKI GmbH
+Stuhlsatzenhausweg 3,
+66123 Saarbrücken, Germany
+{raileanu, paulb, vintar}@dfki.de
+* Zinfo, University of Frankfurt
+60590 Frankfurt am Main, Germany
+jbay@add.uni­frankfurt.de
+
+Abstract
+An important aspect of word sense disambiguation is the evaluation of different methods and parameters. Unfortunately, there is a lack
+of test sets for evaluation, specifically for languages other than English and even more so for specific domains like medicine. Given
+that our work focuses on English as well as German text in the medical domain, we had to develop our own evaluation corpora in
+order to test our disambiguation methods. In this paper we describe the work on developing these corpora, using GermaNet and UMLS
+as (lexical) semantic resources, next to a description of the annotation tool KiC that we developed for support of the annotation task.
+
+
+References
+Carletta, J.C. Assessing agreement on classification tasks:
+the kappa statistic. In: Computational Linguistics
+22(2):249­254, 1996.
+Buitelaar, P. and Sacaleanu, B. 2001. Ranking and
+Selecting Synsets by Domain Relevance. In:
+Proceedings NAACL WordNet Workshop.
+Hamp, B. and Feldweg, H. 1997. GermaNet: a Lexical­
+Semantic Net for German. In: Proceedings of the
+ACL/EACL97 workshop on Automatic Information
+Extraction and Building of Lexical Semantic Resources
+for NLP Applications, Madrid.
+Kilgarriff, A. 1997. Sample the lexicon. Technical report
+ITRI­97­01, University of Brighton.
+Miller, G.A. 1995. WordNet: A Lexical Database for
+English. Communications of the ACM 11.
+Plaehn P. and Brants Th. 2000. Annotate ­­ An Efficient
+Interactive Annotation Tool In: Proceedings of the Sixth
+Conference on Applied Natural Language Processing
+ANLP, Seattle, WA.
+Siegel, S. and N.J. Castellan, Jr. Nonparametric Statistics
+for the Behavioral Sciences. McGraw­Hill, second
+edition, 1988.
+Vintar, S., P. Buitelaar, B. Ripplinger, B. Sacaleanu, D.
+Raileanu & D. Prescher. An Efficient and Flexible
+Format for Linguistic and Semantic Annotation. In:
+Proceedings of the 3rd International Conference on
+Language Resources and Evaluation (LREC 2002),
+May 29­31, Las Palmas, Canary Islands, Spain.
+Vossen, P. 1997. EuroWordNet: a multilingual database
+for information retrieval. In: Proceedings of the
+DELOS workshop on Cross­language Information
+Retrieval, March 5­7, 1997, Zurich.
+Weeber M. Mork J. and Aronson A. 2001. Developing a
+Test Collection for Biomedical Word Sense
+Disambiguation. In: Proceedings AMIA.

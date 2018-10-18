@@ -1,0 +1,95 @@
+An Assessment of ILP-Assisted Models for
+Toxicology and the PTE-3 Experiment 
+
+Ashwin Srinivasan1, Ross D. King2 and Douglas W. Bristol3
+
+1 Oxford University Comp. Lab., Wolfson Bldg., Parks Rd, Oxford, UK
+2 Dept. of Comp. Sc., University of Wales Aberystwyth, Ceredigion, UK
+3 NIEHS, Lab. of Carcinogenesis and Mutagenesis, RTP, NC, USA
+
+
+
+Abstract. The Predictive Toxicology Evaluation (or PTE) Challenge
+provided Machine Learning techniques with the opportunity to compete
+against specialised techniques for toxicology prediction. Toxicity models
+that used findings from ILP programs have performed creditably in the
+PTE-2 experiment proposed under this challenge. We report here on an
+assessment of such models along scales of: (1) quantitative performance,
+in comparison to models developed with expert collaboration; and (2)
+potential explanatory value for toxicology. Results appear to suggest the
+following: (a) across of range of class distributions and error costs, some
+explicit models constructed with ILP-assistance appear closer to optimal 
+than most expert-assisted ones. Given the paucity of test-data, this
+is to be interpreted cautiously; (b) a combined use of propositional and
+ILP techniques appears to yield models that contain unusual combinations 
+of structural and biological features; and (c) significant effort was
+required to interpret the output, strongly indicating the need to invest
+greater effort in transforming the output into a “toxicologist-friendly”
+form. Based on the lessons learnt from these results, we propose a new
+predictive toxicology evaluation experiment — PTE-3 — which will address
+some important shortcomings of the previous study.
+References
+
+1.	J. Asliby. Predictions of rodent carcinogenicity for 30 compounds. Environmental
+Health Perspectives, pages 1101—1104, 1996.
+2.	R. Benigni. (Q)sar prediction of chemical carcinogenicity and the biological side
+of the structure activity relationship. In Proceedings of The Eighth International
+Workshop on QSARs in the Environmental Sciences, 1998. Held in Baltimore,
+May 16—20, 1998.
+3.	J. Bootman. Speculations on the carcinogenicity of 30 chemicals currently under
+review in rat and mouse bioassays organised by the us national toxicology program.
+Mutagenesis, 27:237—243, 1996.
+4.	L. Breiman, J.H. Friedman, R.A. Olshen, and C.J. Stone. Classification and Regression 
+Trees. Wadsworth, Belmont, 1984.
+5.	D.W. Bristol, J.T. Wachsman, and A. Greenwell. The NIEHS Predictive-Toxicology 
+Evaluation Project. Environmental Health Perspectives, pages 1001—
+1010, 1996. Supplement 3.
+6.	L. Dehaspe, H. Toivonen, and R.D. King. Finding frequent substructures in chemical 
+compounds. In Proceedings of the Fourth International Conference on Knowledge 
+Discovery and Data Mining (KDD-98), pages 30—36. AAAI Press, 1998.
+7.	J. Huff, E. Weisburger, and V.A. Fung. Multicomponent criteria for predicting
+carcinogenicity: dataset of 30 ntp chemicals. Environmental Health Perspectives,
+104:1105—1112, 1996.
+8.	J.E. Huff, J.K. Haseman, and D.P. Rail. Scientific concepts, value and significance
+of chemical carcinogenesis studies. Ann Rev Pharmacol Toxicol, 31:621—652, 1991.
+9.	D.F.V. Lewis, C. Ioannides, and D.V. Parke. COMPACT and molecular structure
+in toxicity assessment: a prospective evaluation of 30 chemicals currently being
+tested for rodent carcinogenicity by the NCI/NTP. Environmental Health Per-
+spectives, pages 1011—1016, 1996.
+10.	C.A. Marchant. Prediction of rodent carcinogencity using the DEREK system for
+30 chemicals currently being tested by the National Toxicology Program. Environmental 
+Health Perspectives, pages 1065—1074, 1996.
+11.	F. Provost and T. Fawcett. Analysis and visualization of classifier performance:
+comparison under imprecise class and cost distributions. In Proceedings of the
+Third International Conference on Knowledge Discovery and Data Mining (KDD-
+97), pages 43—48. AAAI Press, 1998.
+12.	F. Provost and T. Fawcett. Robust classification systems for imprecise environments. 
+In Proceedings of the Fifteenth National Conference on Artificial Intelligence 
+(AAAI-98). AAAI Press, 1998.
+13.	R. Purdy. A mechanism-mediated model for carcinogenicity: model content a
+prediction of the outcome of rodent carcinogencity bioassays currently being conducted 
+on 25 organic chemicals. Environmental Health Perspectives, pages 1085—
+1094, 1996.
+14.	R.Benigni, C. Andreoli, and R.Zito. Prediction of the carcinogenicity of further
+30 chemicals bioassayed by the US National Toxicology Program. Environmental
+Health Perspectives, pages 1041—1044, 1996.
+15.	A. Srinivasan. Note on the location of optimal classifiers in n-dimensional ROC
+space. Technical Report PRG-TR-2-99, Oxford University Computing Laboratory,
+Oxford, 1999.
+16.	A. Srinivasan and R.D. King. Using Inductive Logic Programming to construct
+Structure-Activity Relationships. In Proceedings of the AAAI Spring Symposium
+on Predictive Toxicology. AAAI Press, Menlo Park, CA, 1999. (to appear).
+17.	A. Srinivasan, R.D. King, and D.W. Bristol. An assessment of submissions made
+to the Predictive Toxicology Evaluation Challenge. In Proceedings of the Sixteenth
+International Conference on Artificial Intelligence (IJCAI-99,). Morgan Kaufmann,
+Los Angeles, CA, 1999. (to appear).
+18.	A. Srinivasan, R.D. King, S.H. Muggleton, and M.J.E. Sternberg. The Predictive
+Toxicology Evaluation Challenge. In Proceedings of the Fifteenth International
+Conference on Artificial Intelligence (IJCAI-97,). Morgan Kaufmann, Los Angeles,
+CA, 1997.
+19.	R.W. Tennant and J. Spalding. Predictions for the outcome of rodent carcinogenicity 
+bioassays: identification of trans-species carcinogens and non-carcinogens.
+Environmental Health Perspectives, pages 1095—1100, 1996.
+20.	Y.T. Woo, D.Y. Lai, J.C. Arcos, M.F. Argus, M.C. Cimino, S. DeVito, and
+L. Keifer. Mechanism-based structure-activity relationship (sar) analysis of 30
+ntp test chemicals. Environ. Carcino. Ecotox. Revs. C, 15:139—160, 1997.

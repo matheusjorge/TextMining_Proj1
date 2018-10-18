@@ -1,0 +1,89 @@
+Development and Utilization of a Case-Based
+Help-Desk Support System in a Corporate Environment
+
+Mehmet Göker1 & Thomas Roth-Berghofer2
+
+1 DaimlerChrysler Research and Technology 3, FT3/KL
+P.O. Box 2360, D89013 Ulm, Germany
+mehmet.goeker@daimlerchrysler.com
+Phone: +49 731 5052856 Fax: +49 731 5054210
+
+2tec:inno GmbH
+Sauerwiesen 2, D67661 Kaiserslautern, Germany
+roth@tecinno.com
+Phone: +49 6031 606400 Fax: +49 6031 606409
+
+
+
+Abstract: Current Case-Based Reasoning (CBR) process models present CBR
+as a low maintenance AI-technology and do not take the processes that have to
+be enacted during system development and utilization into account. Since a
+CBR system can only be useful if it is integrated into an organizational
+structure and used by more than one user, processes for continuous knowledge
+acquisition, -utilization and -maintenance have to be put in place. In this paper
+the short-comings of classical CBR process models are analyzed, and, based on
+the experiences made during the development of the case-based help-desk
+support system HOMER, the managerial, organizational and technical
+processes related to the development and utilization of CBR systems described.
+References
+
+1.	Bergmann, R., Breen, S., Göker, M., Manago, M., Wess, S. “Developing Industrial Case
+Based Reasoning Applications: The INRECA Methodology.”, Lecture Notes in Artificial
+Intelligence, 1612, Berlin, Springer Verlag, 1999
+2.	Goker M., Roth-Berghofer Th., Bergmann R., Pantleon T., Traphoner R., Wess S., Wilke
+W., “The Development of HOMER: A Case-Based CAD/CAM Help-Desk Support Tool”,
+Smyth B. & Cunningham P. eds., “Advances in Case-Based Reasoning, Proceedings of the
+Fourth European Workshop on Case-Based Reasoning EWCBR98 Dublin, September 23-
+25,1998”, LNAI 1488, pp. 346-357, Berlin, Springer Verlag, 1998
+3.	Riesbeck C., Schank R., “Inside Case-based Reasoning”, Lawrence Erlbaum Associates,
+Publishers, Hillsdale 1989
+4.	Hammond K., “Case-Based Planning-Viewing Planning as a Memory Task”, Academic
+Press Inc, HBJ Publishers, San Diego, 1989
+5.	Kolodner J., “Case-based Reasöning”, Morgan Kaufmann Publishers Inc, San Mateo, 1993
+6.	A. Aamodt, E. Plaza., “Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches”, AICOM Vol.7 Nr. 1, pp.39-59, March 1994
+7.	Leake D., “CBR in Context: The Present and the Future” in Leake D. (ed.), “Case-Based
+Reasoning — Experiences, Lessons and Future Directions”, pp. 3-30, AAAI press / MIT
+press, Menlo Park California, Cambridge Massachusetts, London, 1996
+8.	Kitano H., Shimazu H., “The Experience Sharing Architecture: A Case Study in
+Corporate-Wide Case-Based Software Quality Control” in Leake D. (ed.), “Case-Based
+Reasoning — Experiences, Lessons and Future Directions”, pp. 235-268, AAAI press /
+MIT press, Menlo Park California, Cambridge Massachusetts, London, 1996
+9.	Stolpmann M. Wess S. “Optimierung der Kundenheziehungen mit CBR systemen-
+Intelligente Systeme für E-Commerce und Support”, Addison Wesley Longmann (Business
+& Computing), Bonn, 1999
+10.	Richter M., “Introduction”, in Lenz M., Bartsch-Spörl B., Burkhardt H. D., Wess S.
+(Eds.), “Case-Based Reasoning Technology, From Foundations to Applications”, Lecture
+Notes in Artificial Intelligence Vol. 1400, pp.1-15, Springer-Verlag, Berlin, Heidelberg
+1998. Also: Richter M., “The Knowledge Contained in Similarity Measures”, Invited talk
+at ICCBR95, http://wwwagr.informatik.uni-kl.de/~lsa/CBR/Richtericcbr95remarks.html
+11.	Wilke W., Vollrath I., Bergmann R., “Using Knowledge Containers to Model a
+Framework for Learning Adaptation Knowledge”, ECML (European Conference on
+Machine Learning) Workshop, Prag, 1997
+12.	Leake D., Wilson D., “Categorizing Case-Base Maintenance: Dimensions and
+Directions”, Smyth B. & Cunningham P. eds., “Advances in Case-Based Reasoning,
+Proceedings of the Fourth European Workshop on Case-Based Reasoning EWCBR98
+Dublin, September 23-25,1998”, LNAI 1488, pp. 196-207, Berlin, Springer Verlag, 1998
+13.	Smyth B., McKenna B., “Modeling the Competence of Case-Bases”, Smyth B. &
+Cunningham P. eds., “Advances in Case-Based Reasoning, Proceedings of the Fourth
+European Workshop on Case-Based Reasoning EWCBR98 Dublin, September 23-
+25,1998”, LNAI 1488, pp. 208-220, Berlin, Springer Verlag, 1998
+14.	Surma J., Tyburcy J., “A Study on Competence-Preserving Case Replacing Strategies in
+Case-Based Reasoning”, Smyth B. & Cunningham P. eds., “Advances in Case-Based
+Reasoning, Proceedings of the Fourth European Workshop on Case-Based Reasoning
+EWCBR98 Dublin, September 23-25,1998”, LNAI 1488, pp. 233-238, Berlin, Springer
+Verlag, 1998
+15.	Racine K., Yang Q., “Maintaining Unstructured Case-Bases”, Leake B. & Plaza E. eds.,
+“Case-Based Reasoning Research and Development”, Proceedings of the second
+International Conference on Case-Based Reasoning ICCBR-97 Rhode Island, July 1997,
+LNAI 1266, pp. 553-564, Berlin, Springer Verlag, 1997
+16.	Hüttemeister A., “Wartung einer Fallbasis”, Diploma Thesis, University of Kaiserslautern,
+Department of Computer Science, February 1999
+17.	Heister F., Wilke W., “An Architecture for Maintaining Case-Based Reasoning Systems”,
+Smyth B. & Cunningham P. eds., Advances in Case-Based Reasoning, Proceedings of the
+Fourth European Workshop on Case-Based Reasoning EWCBR98 Dublin, September 23-
+25,1998”, LNAI 1488, pp. 221-232, Berlin, Springer Verlag, 1998
+18.	Thomas, H., Foil R., Dacus, J.: ” New Technology Bliss and Pain in a Large Customer
+Service Center”, in: Case-Based Reasoning Research and Development, Proceedings of
+the ICCBR97, Leake, Plaza (eds.), , pp. 166-177, LNAI1266, Springer Verlag, Berlin,
+1997

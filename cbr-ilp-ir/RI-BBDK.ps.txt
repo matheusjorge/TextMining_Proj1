@@ -1,0 +1,101 @@
+COMPUTING FUNCTIONS OF A SHARED SECRET
+AMOS BEIMEL  , MIKE BURMESTER y , YVO DESMEDT z , AND EYAL KUSHILEVITZ x
+
+Abstract. In this work we introduce and study threshold (t-out-of-n) secret sharing schemes
+for families of functions F . Such schemes allow any set of at least t parties to compute privately the
+value f(s) of a (previously distributed) secret s, for any f 2 F . Smaller sets of players get no more
+information about the secret than what follows from the value f(s). The goal is to make the shares
+as short as possible. Results are obtained for two different settings: we study the case when the
+evaluation is done on a broadcast channel without interaction; and we examine what can be gained
+by allowing evaluations to be done interactively via private channels.
+
+
+REFERENCES
+[1] M. Abadi, J. Feigenbaum, and J. Kilian, On hiding information from an oracle, J. of Computer 
+and System Sciences, 39 (1989), pp. 21{50.
+[2] M. Aigner, Combinatorial Theory, Springer-Verlag, Berlin, 1979.
+[3] D. Beaver and J. Feigenbaum, Hiding instances in multioracle queries, in STACS '90, 7th
+Annu. Symp. on Theoretical Aspects of Computer Science, C. Chorut and T. Lengauer,
+eds., vol. 415 of Lecture Notes in Computer Science, Springer-Verlag, 1990, pp. 37{48.
+[4] A. Beimel and B. Chor, Universally ideal secret sharing schemes, IEEE Trans. on Information
+Theory, 40 (1994), pp. 786{794.
+[5] M. Ben-Or, S. Goldwasser, and A. Wigderson, Completeness theorems for noncryptographic 
+fault-tolerant distributed computations, in Proc. of the 20th Annu. ACM Symp. on
+the Theory of Computing, 1988, pp. 1{10.
+[6] J. Benaloh, Secret sharing homomorphisms: Keeping shares of a secret secret, in Advances
+in Cryptology - CRYPTO '86, A. M. Odlyzko, ed., vol. 263 of Lecture Notes in Computer
+Science, Springer-Verlag, 1987, pp. 251{260.
+[7] J. Benaloh and J. Leichter, Generalized secret sharing and monotone functions, in Advances
+in Cryptology - CRYPTO '88, S. Goldwasser, ed., vol. 403 of Lecture Notes in Computer
+Science, Springer-Verlag, 1990, pp. 27{35.
+[8] G. R. Blakley, Safeguarding cryptographic keys, in Proc. of the 1979 AFIPS National Computer 
+Conference, R. E. Merwin, J. T. Zanca, and M. Smith, eds., vol. 48 of AFIPS
+Conference proceedings, AFIPS Press, 1979, pp. 313{317.
+[9] G. R. Blakley and C. Meadows, The security of ramp schemes, in Advances in Cryptology
+- CRYPTO '84, G. R. Blakley and D. Chaum, eds., vol. 196 of Lecture Notes in Computer
+Science, Springer-Verlag, 1985, pp. 242{268.
+[10] C. Blundo, A. De Santis, G. Di Crescenzo, A. Giorgio Gaggia, and U. Vaccaro, Multisecret 
+sharing schemes, in Advances in Cryptology - CRYPTO '94, Y. Desmedt, ed.,
+vol. 839 of Lecture Notes in Computer Science, Springer-Verlag, 1994, pp. 150{163.
+[11] C. Blundo, A. De Santis, and U. Vaccaro, EÆcient sharing of many secrets, in STACS '93,
+P. Enjalbert, A. Finkel, and K. W. Wagner, eds., vol. 665 of Lecture Notes in Computer
+Science, Springer-Verlag, 1993, pp. 692{703.
+[12] E. F. Brickell, Some ideal secret sharing schemes, Journal of Combin. Math. and Combin.
+Comput., 6 (1989), pp. 105{113.
+[13] E. F. Brickell and D. M. Davenport, On the classification of ideal secret sharing schemes,
+J. of Cryptology, 4 (1991), pp. 123{134.
+[14] E. F. Brickell and D. R. Stinson, Some improved bounds on the information rate of perfect
+secret sharing schemes, J. of Cryptology, 5 (1992), pp. 153{166.
+[15] D. Chaum, C. Cr epeau, and I. Damgard, Multiparty unconditionally secure protocols, in
+Proc. of the 20th Annu. ACM Symp. on the Theory of Computing, 1988, pp. 11{19.
+[16] B. Chor and E. Kushilevitz, A zero-one law for Boolean privacy, SIAM J. on Discrete
+Mathematics, 4 (1991), pp. 36{47.
+[17] A. De Santis, Y. Desmedt, Y. Frankel, and M. Yung, How to share a function securely,
+in Proc. of the 26th Annu. ACM Symp. on the Theory of Computing, 1994, pp. 522{533.
+[18] Y. Desmedt, Threshold cryptosystems, in Advances in Cryptology - AUSCRYPT '92, J. Seberry 
+and Y. Zheng, eds., vol. 718 of Lecture Notes in Computer Science, Springer-Verlag,
+1993, pp. 5{14.
+[19] Y. Desmedt and Y. Frankel, Shared generation of authenticators and signatures, in Advances
+in Cryptology - CRYPTO '91, J. Feigenbaum, ed., vol. 576 of Lecture Notes in Computer
+Science, Springer-Verlag, 1992, pp. 457{469.
+[20] , Homomorphic zero-knowledge threshold schemes over any finite abelian group, SIAM
+J. on Discrete Mathematics, 7 (1994), pp. 667{679.
+[21] M. K. Franklin and M. Yung, Communication complexity of secure computation, in Proc.
+of the 24th Annu. ACM Symp. on the Theory of Computing, 1992, pp. 699{710.
+[22] M. Ito, A. Saito, and T. Nishizeki, Secret sharing schemes realizing general access structure,
+in Proc. of the IEEE Global Telecommunication Conf., Globecom 87, 1987, pp. 99{102.
+Journal version: Multiple assignment scheme for sharing secret. J. of Cryptology, 6 (1993),
+pp. 15{20.
+[23] W. Jackson, K. M. Martin, and C. M. O'Keefe, Multisecret threshold schemes, in Advances
+in Cryptology - CRYPTO '93, D. R. Stinson, ed., vol. 773 of Lecture Notes in Computer
+Science, Springer-Verlag, 1994, pp. 126{135.
+[24] , On sharing many secrets, in ASIACRYPT '94, J. Pieprzyk and R. Safavi-Naini, eds.,
+vol. 917 of Lecture Notes in Computer Science, Springer-Verlag, 1995, pp. 42{54.
+[25] , Ideal secret sharing schemes with multiple secrets, J. of Cryptology, 9 (1996), pp. 233{
+250.
+[26] E. D. Karnin, J. W. Greene, and M. E. Hellman, On secret sharing systems, IEEE Trans.
+on Information Theory, 29 (1983), pp. 35{41.
+[27] J. Kilian and N. Nisan, Private communication, 1990.
+[28] S. C. Kothari, Generalized linear threshold scheme, in Advances in Cryptology - CRYPTO
+'84, G. R. Blakley and D. Chaum, eds., vol. 196 of Lecture Notes in Computer Science,
+Springer-Verlag, 1985, pp. 231{241.
+[29] E. Kushilevitz, Privacy and communication complexity, SIAM J. on Discrete Mathematics,
+5 (1992), pp. 273{284.
+[30] R. J. McEliece and D. V. Sarwate, On sharing secrets and Reed-Solomon codes, Communications 
+of the ACM, 24 (1981), pp. 583{584.
+[31] M. O. Rabin, Randomized Byzantine generals, in Proc. of the 24th Annu. IEEE Symp. on
+Foundations of Computer Science, 1983, pp. 403{409.
+[32] R. L. Rivest, L. Adleman, and M. L. Dertouzos, On data banks and privacy homomorphisms, 
+in Foundations of Secure Computation, R. A. DeMillo, D. P. Dobkin, A. K. Jones,
+and R. J. Lipton, eds., Academic Press, 1978, pp. 169{179.
+[33] P. D. Seymour, On secret-sharing matroids, J. of Combinatorial Theory, Series B, 56 (1992),
+pp. 69{73.
+[34] A. Shamir, How to share a secret, Communications of the ACM, 22 (1979), pp. 612{613.
+[35] G. J. Simmons, An introduction to shared secret and/or shared control and their application,
+in Contemporary Cryptology, The Science of Information Integrity, G. J. Simmons, ed.,
+IEEE Press, 1992, pp. 441{497.
+[36] G. J. Simmons, W. Jackson, and K. M. Martin, The geometry of shared secret schemes,
+Bulletin of the ICA, 1 (1991), pp. 71{88.
+[37] D. R. Stinson, An explication of secret sharing schemes, Designs, Codes, and Cryptography,
+2 (1992), pp. 357{390.
+

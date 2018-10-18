@@ -1,0 +1,130 @@
+Static and Dynamic Information Organization
+with Star Clusters
+
+Javed Aslam Katya Pelekhov Daniela Rus
+Department of Computer Science
+Dartmouth College
+Hanover, NH 03755
+
+Abstract
+In this paper we present a system for static and dy­
+namic information organization and show our evaluations
+of this system on TREC data. We introduce the off­line
+and on­line star clustering algorithms for information or­
+ganization. Our evaluation experiments show that the offline 
+star algorithm outperforms the single link and average
+link clustering algorithms. Since the star algorithm is also
+highly e#cient and simple to implement, we advocate its
+use for tasks that require clustering, such as information
+organization, browsing, filtering, routing, topic tracking,
+and new topic detection.
+
+
+References
+[AB84] M. Aldenderfer and R. Blashfield, Cluster Analy­sis, Sage, Beverly Hills, 1984.
+[All95] J. Allan. Automatic hypertext construction. PhD
+thesis. Department of Computer Science, Cornell
+University, January 1995.
+[All98] J. Allan, Personal communication, March 1998.
+[APR98] J. Aslam, K. Pelekhov, and D. Rus, Generat­ing, 
+visualizing, and evaluating high­accuracy clus­ters for 
+information organization, in Principles of
+Digital Document Processing, eds. C. Nicholas, Lecture 
+Notes in Computer Science, Sprinter Verlag
+1998 (to appear). Also available as Technical Report
+PCS­TR97­319, Department of Computer Science,
+Dartmouth, 1997.
+[APR97] J. Aslam, K. Pelekhov, and D. Rus, Computing
+Dense Clusters On­line for Information Organiza­tion, 
+Technical Report PCS­TR97­324, Department
+of Computer Science, Dartmouth, 1997.
+[Bol95] B. Bollob’as, Random Graphs, Academic Press,
+London, 1995.
+[Bur95] R. Burgin, The retrieval e#ectiveness of five clus­tering 
+algorithms as a function of indexing exhaus­tively, 
+Journal of American Society for Information Science 46(8:562­572, 1995.
+[Can93] F. Can, Incremental clustering for dynamic infor­mation 
+processing, in ACM Transactions on Infor­mation 
+Systems, no. 11, pp143­164, 1993.
+[CCFM97] M. Charikar, C. Chekuri, T. Feder, and R.
+Motwani, Incremental clustering and dynamic in­
+formation retrieval, in Proceedings of the 29 th Sym­posium 
+on Theory of Computing, 1997.
+[Cro80] W. B. Croft. A model of cluster searching based
+on classification. Information Systems, 5:189­195,
+1980.
+[Cro77] W. B. Croft. Clustering large files of documents
+using the single­link method. Journal of the Amer­ican 
+Society for Information Science, pp189­195,
+November 1977.
+[CKP93] D. Cutting, D. Karger, and J. Pedersen. Con­stant 
+interaction­time Scatter/Gather browsing of
+very large document collections. In Proceedings of
+the 16 th SIGIR, 1993.
+[FG88] T. Feder and D. Greene, Optimal algorithms for
+approximate clustering, in Proceedings of the 20 th
+Symposium on Theory of Computing, pp 434­444,
+1988.
+[HP96] M. Hearst and J. Pedersen. Reexamining the clus­ter 
+hypothesis: Scatter/Gather on Retrieval Re­sults. 
+In Proceedings of the 19 th SIGIR, 1996.
+[HS86] D. Hochbaum and D. Shmoys, A unified approach
+to approximation algorithms for bottleneck prob­lems, 
+Journal of the ACM, no. 33, pp533­550, 1986.
+[JD88] A. Jain and R. Dubes. Algorithms for Clustering
+Data, Prentice Hall 1988.
+[JR71] N. Jardine and C.J. van Rijsbergen. The use of
+hierarchical clustering in information retrieval, In­
+formation Storage and Retrieval, 7:217­240, 1971.
+[KP93] G. Kortsarz and D. Peleg. On choosing a dense
+subgraph. In Proceedings of the 34th Annual Sympo­sium 
+on Foundations of Computer Science (FOCS),
+1993.
+[LLR95] N. Linial, E. London, and Y. Rabinovich. The
+geometry of graphs and some of its algorithmic ap­plications. 
+Combinatorica 15(2):215­245, 1995.
+[LY94] C. Lund and M. Yannakakis. On the hardness of
+approximating minimization problems. Journal of
+the ACM 41, 960--981, 1994.
+[Rij79] C.J. van Rijsbergen. Information Retrieval. But­
+terworths, London, 1979.
+[Sal89] G. Salton. Automatic Text Processing: the trans­formation, 
+analysis, and retrieval of information by
+computer, Addison­Wesley, 1989.
+[Sal91] G. Salton. The Smart document retrieval project.
+In Proceedings of the Fourteenth Annual Interna­tional 
+ACM/SIGIR Conference on Research and
+Development in Information Retrieval, pp 356­358.
+[Sha86] W. Shaw, On the foundation of evaluation, Jour­nal 
+of the American Society for Information Sci­ence, vol 37, pp 346­348, 1986.
+[Sha93] W. Shaw, Controlled and uncontrolled subject de­
+scriptions in the CF database: a comparison of
+optimal cluster­based retrieval results, Information
+Processing and Management, vol. 29, pp 751­763,
+1993.
+[SJJ70] K. Spark Jones and D. Jackson. The use of
+automatically­ obtained keyword classifications for
+information retrieval. Information Storage and Re­trieval, 5:174­201, 1970.
+[Tur90] H. Turtle. Inference networks for document retrieval. 
+PhD thesis. University of Massachusetts,
+Amherst, 1990.
+[vRC75] C.J. van Rijsbergen and B. Croft, Document clus­tering: 
+an evaluation of some experiments with the
+Cranfield 1400 collection, Information Processing
+and Management, 11, 171­182.
+[Voo85] E. Voorhees. The effectiveness and efficiency of agglomerative
+hierarchical clustering in document re­trieval, PhD Thesis, 
+Department of Computer Sci­ence, 
+Cornell University 1985, available as TR 85­
+705.
+[Voo85] E. Voorhees. The cluster hypothesis revisited. In
+Proceedings of the 8 th SIGIR, pp 95­104, 1985.
+[Wil88] P. Willett. Recent trends in hierarchical document
+clustering: A critical review. Information Process­ing and Management, 24:(5):577­597, 1988.
+[Wor71] S. Worona. Query clustering in a large document
+space. In Ed. G. Salton, The SMART Retrieval Sys­tem, pp 298­310. Prentice­Hall, 1971.
+[Zuc93] D. Zuckerman. NP­complete problems have a ver­sion 
+that's hard to approximate. In Proceedings
+of the Eight Annual Structure in Complexity The­ory 
+Conference, IEEE Computer Society, 305--312,
+1993.

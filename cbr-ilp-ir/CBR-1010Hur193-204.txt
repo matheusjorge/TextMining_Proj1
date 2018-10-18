@@ -1,0 +1,48 @@
+Evaluating the Application of CBR in Mesh
+Design for Simulation Problems
+
+Neil Hurley
+Hitachi Dublin Laboratory. Trinity College Dublin 2, IRELAND
+(E-mail: nhurley@hdl.ie)
+
+Abstract. One of the great difficulties facing a designer of a knowledge-based
+interface to a numerical simulation engine is acquiring sufficient domain
+knowledge to cover a significant range of problems to a depth that will make the
+system useful for real problem-solving. It is difficult to enumerate a priori all the
+different scenarios which may be encountered and to devise rules to cater for each.
+Indeed, it is true to say that often the tuneable parameters of a numerical algorithm
+(such as the error tolerance in a matrix inversion technique or the mesh density in
+a finite element analysis) are determined on a trial and error basis when the
+problem is first encountered. Setting up a knowledge-base therefore requires a lot
+of time-consuming experimentation over a range of different problems. There is
+no easy way to avoid this knowledge acquisition task if a robust system to tackle
+real-world problems is to be created. Furthermore, we must accept that the system
+at some stage is likely to encounter problems outside its coverage. It is therefore
+worthwhile examining alternative reasoning techniques which can be utilised
+when domain knowledge is lacking, as well as ways that new knowledge can be
+incorporated into the knowledge-base as problem-solving takes place. Towards
+this end, we have examined the application of case-based reasoning (CBR) to
+finite element simulation and in particular to the sub-task of finite element mesh
+design. In [5] a CBR approach to mesh design was outlined. In the current paper
+we evaluate that system, assess its performance at problem solving, discuss the
+lessons learned from its development and what implications these have for CBR in
+general.
+References
+1.	E. Kang & K. Haghighi: A knowledge-based a-priori approach to Mesh
+Generation in Thermal Problems, International Journal for Numerical Methods in
+Engineering 35, 915-937 (1992)
+2.	O.C. Zienkiewicz & K. Morgan: Finite Elements and Approximations, Wiley &
+Sons, (1983)
+3.	M. Shepherd: Approaches to the automatic generation and control offinite element
+meshes , Applied Mechanics Reviews vol. 41 no. 4 (1988)
+4.	O.C. Zienkiewiez & J.Z. Zhu: A simple error estimator and adaptive procedure for
+practical engineering analysis, International Journal for Numerical Methods in
+Engineering vol. 24, 337-357 (1987)
+5.	N. Hurley: A priori Selection of Mesh Densities for Adaptive Finite Element
+Analysis Using a CBR Approach, In : Topics in Case-Based Reasoning, Lecture
+Notes in Artificial Intelligence 837, 379-391, Springer Verlag (1994)
+6.	C. Johnson, J. Pitkaranta : Finite Element Methods for Linear Hyperbolic
+Problems, Comp. Meth. Appl. Mech. Eng. vol. 45 285-312 (1984)
+7.	D.P. Finn, N. Hurley, N. Sagawa: AI-DEQSOL . A Knowledge-based Environment
+for Numerical Simulation of Engineering Problems Described by Partial
+Differential Equations, AI-EDAM vol. 6 no. 3 199-212 (1992)

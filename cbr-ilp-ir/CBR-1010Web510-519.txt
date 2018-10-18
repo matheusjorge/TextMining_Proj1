@@ -1,0 +1,110 @@
+Case-Based Reasoning for Cash Flow Forecasting using
+Fuzzy Retrieval
+
+Rosina Weber Lee1*, Ricardo Miranda Barcia2 and Suresh K. Khator1
+1University of South Florida, Tampa, Fl, USA
+2Federal University of Santa Catarina, Industrial Engineering,
+Florianópolis, SC, BRAZIL.
+
+	Abstract. Case-Based Reasoning (CBR) simulates the human way of solving
+problems as it solves a new problem using a successful past experience applied to a
+similar problem. In this paper we describe a CBR system that develops forecasts
+for cash flow accounts. Forecasting cash flows to a certain degree of accuracy is an
+important aspect of a Working Capital Decision Support System. Working Capital
+(WC) management decisions reflect a choice among different options on how to
+arrange the cash flow. The decision establishes an actual event in the cash flow
+which means that one needs to envision the consequences of such a decision.
+Hence, forecasting cash flows accurately can minimize losses caused by usually
+unpredictable events. Cash flows are usually forecasted by a combination of
+different techniques enhanced by human experts’ feelings about the future, which
+are grounded in past experience. This makes the use of the CBR paradigm the
+proper choice. Advantages of a CBR system over other Artificial Intelligence
+techniques are associated to knowledge acquisition, knowledge representation,
+reuse, updating, and justification. An important step in developing a CBR system is
+the retrieval of similar cases. The proposed system makes use of fuzzy integrals to
+calculate the synthetic evaluations of similarities between cases instead of the usual
+weighted mean.
+7.	References
+Aamodt, A. & Plaza, E. (1994). Case-Based Reasoning: Foundational Issues,
+Methodological Variations, and System Approaches. Artificial Intelligence
+Communications, 7(1), 39-59.
+Baldwin, J.F. (1993). Evidential support logic, FRIL and case based reasoning.
+International Journal of Intelligent Systems, 8 (9), 939-960.
+Barnett, F. W. (1988). Four Steps to Forecast Total Market Demand. Harvard Business
+Review, 66 (4), 28(6).
+Caporaletti, L. E., Dorsey, R. E., Johnson, John D. & Powell, William A. (1994)
+Decision support system for in-sample simultaneous equation systems forecasting
+using artificial neural systems. Decision Support Systems, 11 (5), 481-495
+Catsimpoolas, N. & Marti, J. (1992).Scripting highly autonomous simulation behavior
+using case-based reasoning. Proceedings of the 25th Annual Simulation Symposium,
+Orlando, Fl, USA.
+Caughlin, G. W. (1988). The cash management discipline. CMA - the Management
+Accounting Magazine; March, 62 (2), 49(2).
+Chiu, C. & Scott, R. (1994). Intelligent forecasting support system in auditing. Expert
+system and neural network approach. Proceedings of the Hawaii International
+Conference on System Sciences, 3, 272-280.
+Coad, P. & Yourdon, E. (1990). Object-oriented Analysis. Prentice-Hall, Inc. New
+Jersey.
+Cortes-Rello, E. & Golshani, F. (1990). Uncertain reasoning using the Dempster-Shafer
+method. An application in forecasting and marketing management. Expert Systems,
+7( 1),9-18.
+D’Attilio, D. F. (1992). Net working capital forecasting at DuPont. Journal of Business
+Forecasting, 11(1), 11(5).
+Dempster, M. A. H. & Ireland, A. M. (1991). Object-oriented model integration in a
+financial decision support system. Decision Support Systems, 7(4), 329-340.
+Fliedner, E. B. & Mabert, V. A. Constrained Forecasting: Some Implementation
+Guidelines. Decision Sciences, 23, 1143-1151.
+Gage, T. J. (1988). Forecasts get clearer when current data, not history, is used.
+Corporate Cashflow Magazine, 9 (11), 7(2).
+Giarratano, J. & Riley, G. (1994). Expert Systems: Principles and Programming. 2nd ed.
+PWS Publishing Company, Boston.
+Herbig, P. A., Milewicz,J. & Golden, J. (1993). The Do’s and Don’ts of Sales
+Forecasting. Industrial Marketing Management, 22, 49-57.
+Jain, Ch. L. & Chen, T. P. (1992). The role of judgment in business forecasting.
+Industrial Management, 34 (6), 1(3).
+Kaufmann A. (1975). Introduction to the Theory of Fuzzy Subsets, vol.1, Academic
+Press, New York.
+Kolodner J. (1993). Case-Based Reasoning. Morgan Kaufmann, Los Altos, CA,.
+Lo, T. (1994). An Expert System for choosing demand forecasting techniques.
+International Journal of Production Economics, 33, 5-15.
+Loscalzo, W. (1982). Cash Flow Forecasting. McGraw-Hill Book Company.
+Mcintyre, S. H., Achabal, D. D. & Miller, C. M. (1993). Applying Case-Based
+Reasoning to Forecasting Retail Sales. Journal of Retailing, 69 (4), 372-398.
+Montenegro, F. & Pacheco, R. (1994). Orientação a Objetos em C++. Editora Campus,
+Brasil.
+Nakatani, Y., Tsukiyama, M. & Fukuda, T. (1991). Case organization in a case-based
+engineering design support system. Proceedings of the IEEE International
+Conference on Systems, Man and Cybernetics, 3, 1789-1794.
+Newquist III, H. P. (1990). A maturing AI is finding its way in the world.
+Computerworld, 24 (8), 23(1).
+Randolph, A. (1988). Cash flow estimation practices of large firms. Financial
+Management, 17(2), 71(9).
+Riesbeck, C.K.& Schank, R.C. (1989). Inside Case-Based Reasoning. Erlbaum,
+Hillsdale, NJ.
+Shahabuddin, 5. (1990). Expert systems and forecasting. International Journal of
+Systems Science, 21(10), 1997-2004
+Shen, Z.L., Lui, H.C. & Ding, L.Y. (1994). Approximate Case-Based Reasoning on
+Neural Networks. International Journal of Approximate Reasoning, 10(1), 75-98.
+Singer, A.E. (1994). DCF without forecasts. Omega, 22 (3), 221(15).
+Slade, S. (1991). Case-based reasoning: a research paradigm. AI Magazine, 12, 42-55.
+Stottler, R. H.(1994). CBR for Cost and Sales Prediction. AI Expert, (Aug.), 25-33.
+Sugeno, M. (1977) Fuzzy Measures and Fuzzy Integrals - A Survey. In Fuzzy Automata
+and Decision Processes, Gupta Madan M., Saridis, George N. & Gaines, Brian R.
+(editors) ,North-Holland, New York.
+Van Home, J. C., Dipchand, C. R. & Hanrahan, J.R. (1985). Fundamentals of Financial
+Management. Prentice-Hall Canada Inc., Scarborough, Ontario,1985.
+Wang, Z. & Klir, G. (1992). Fuzzy Measure Theory. Plenum Press, New York.
+Weber-Lee, R., Viali, L., Pacheco, R., Martins, A. , Khator, S. & Barcia, R. (1995).
+Object Oriented Analysis and Programming for a Working Capital Management
+System. Proceedings of the CIFEr, Conference on Computational Intelligence for
+Financial Engineering, New York City, April 9-11.
+Whalen, T. & Schott, B. (1985). Goal-Directed Approximate Reasoning in a Fuzzy
+Production System. Approximate Reasoning in Expert Systems. M.M.Gupta,
+A.Kandel, W.Bandler, J.B .Kiszka(editors) Elsevier Science Publishers B.V.(North-
+Holland).
+Wilson, A. (1990). Effective cash and profit forecasting. The Accountant’s Magazine,
+94 (1009), 45(3).
+Womack, D. E. (1994). The numbers game: software that analyzes your cash flow.
+Black Enterprise, 25 (2), 36(1).
+Zadeh, L.A. (1975). The Concept of a Linguistic Variable and its Application to
+Approximate Reasoning-I. Information Sciences, 8, 199-249.

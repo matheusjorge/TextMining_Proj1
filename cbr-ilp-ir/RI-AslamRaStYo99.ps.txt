@@ -1,0 +1,101 @@
+Improved Bicriteria Existence Theorems for Scheduling
+
+Javed Aslam # April Rasala + Cli# Stein # Neal Young §
+Dartmouth College
+
+Two common objectives for evaluating a schedule
+are the makespan, or schedule length, and the average
+completion time. In this note, we give improved bounds
+on the existence of schedules that simultaneously opti­mize 
+both criteria.
+In a scheduling problem, we are given n jobs and
+m machines. With each job j we associate a non­
+negative weight w j . A schedule is an assignment of
+jobs to machines over time, and yields a completion
+time C j for each job j. We then define the average
+completion time as # n
+j=1 w j C j and the makespan as
+Cmax = max j C j . We use C opt
+max
+and # w j C #
+j
+to denote
+the optimal makespan and average completion time.
+We will give results which will hold for a wide vari­ety 
+of combinatorial scheduling problems. In particular,
+we require that valid schedules for the problem satisfy
+two very general conditions. First, if we take a valid
+schedule S and remove from it all jobs that complete
+after time t, the schedule remains a valid schedule for
+those jobs that remain. Second, given two valid sched­ules 
+S 1 and S 2 for two sets J 1 and J 2 of jobs (where
+J 1 # J 2 is potentially nonempty), the composition of S 1
+and S 2 , obtained by appending S 2 to the end of S 1 , and
+removing from S 2 all jobs that are in J 1 # J 2 , is a valid
+schedule for J 1 # J 2 .
+For the rest of this note we will make claims about
+``any'' scheduling problem, and mean any problem that
+satisfies the two conditions above. In addition, if a
+schedule has Cmax # #C opt
+max
+and # w j C j
+# # # w j C # j
+we call S an (#, #)­schedule.
+Stein and Wein [7] recently gave a powerful but
+simple theorem on the existence of schedules which are
+simultaneously good approximations for makespan and
+for average completion time. They showed that for any
+scheduling problem, there exists a (2, 2)­schedule. The
+construction is simple. We take an optimal average
+completion time schedule and replace the subset J # of
+jobs that finish after time C opt
+max
+by an optimal makespan
+schedule for J # . The schedule has length at most 2C opt
+max
+,
+and the completion time of each job at most doubles,
+thus we obtain a (2,2)­schedule.
+In the (2,2)­schedule, C opt
+max
+was the break­point, the
+point at which we truncated the average completion
+time schedule and started the makespan schedule on the
+remaining jobs. By considering several di#erent break
+points simultaneously, and taking the best one, Stein
+and Wein show, via a complicated case analysis, how to
+achieve improved approximations. In particular, they
+prove the existence of (2, 1.735)­schedules, (1.785, 2)­
+schedules and (1.88, 1.88)­schedules.
+
+
+
+References
+[1] J.L. Bruno, E.G. Co#man, and R. Sethi. Scheduling
+independent tasks to reduce mean finishing time. Com­munications 
+of the ACM, 17:382--387, 1974.
+[2] S. Chakrabarti, C. A. Phillips, A. S. Schulz, D. B.
+Shmoys, C. Stein, and J. Wein. Improved scheduling
+algorithms for minsum criteria. In F. Meyer auf der
+Heide and B. Monien, editors, Automata, Languages
+and Programming, number 1099 in Lecture Notes in
+Computer Science. Springer, Berlin, 1996. Proceedings
+of the 23rd International Colloquium (ICALP'96).
+[3] D.S. Hochbaum and D.B. Shmoys. A polynomial ap­proximation 
+scheme for machine scheduling on uniform
+processors: using the dual approximation approach.
+SIAM Journal on Computing, 17:539--551, 1988.
+[4] W. Horn. Minimizing average flow time with parallel
+machines. Operations Research, 21:846--847, 1973.
+[5] T. Kawaguchi and S. Kyan. Worst case bound of
+an LRF schedule for the mean weighted flow­time
+problem. SIAM Journal on Computing, 15:1119--1129,
+1986.
+[6] J.K. Lenstra, D.B. Shmoys, and ’
+E. Tardos. Approx­imation algorithms for scheduling unrelated parallel
+machines. Mathematical Programming, 46:259--271,
+1990.
+[7] C. Stein and J. Wein. On the existence of schedules
+that are near­optimal for both makespan and total
+weighted completion time. Operations Research Let­ters, 21, 1997.
+

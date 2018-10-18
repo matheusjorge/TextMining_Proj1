@@ -1,0 +1,68 @@
+Modelling the CBR Life Cycle
+Using Description Logics *
+
+Mercedes Gómez-Albarrán, Pedro A. González-Calero,
+Belén Díaz-Agudo and Carlos Fernández-Conde
+
+Dep. Sistemas Informáticos y Programación
+Universidad Complutense de Madrid
+28040 Madrid, Spain
+email: {albarran, pedro, belend, carlosf}@sip.ucm.es
+
+
+
+Abstract. In this paper Description Logics are presented as a suitable
+formalism to model the CBR life cycle. We propose a general model
+to structure the knowledge needed in a CBR system, where adaptation
+knowledge is explicitly represented. Next, the CBR processes are described 
+based on this model and the CBR system OoFRA is presented
+as an example of our approach.
+References
+
+1.	Ashley, K. & Aleven, V., 1993: “A logical representation for relevance criteria”, in
+Topics in CBR (Wess S., Althoff K. & Richter M., eds.), Springer-Verlag.
+2.	Borgida, A., 1996: “On the Relative Expressiveness of Description Logics and Predicate 
+Logics”, Artificial Intelligence Journal, vol. 82, no. 1-2, pp. 353-367.
+3.	Brachman, R.J., McGuinness, D.L., Patel-Schneider, P.F., Resnick, L. & Borgida,
+A., 1991: “Living with CLASSIC: When and How to Use a KL-ONE-Like language”, 
+in Principles of Semantic Networks, Morgan Kaufmann.
+4.	Coupey, P., Fouquere, C. & Salotti, 5., 1998: “Formalizing Partial Matching and
+Similarity in CBR with a Description Logic”, Applied Artificial Intelligence, vol.
+12, no. 1, pp. 71-112.
+5.	Donini, F.M., Lenzerini, M., Nardi, D., & Schaerf, A., 1996: “Reasoning in Description 
+Logics”, in Foundation of Knowledge Representation, CSLI-Publications.
+6.	Fernández-Chamizo, C., González-Calero, P., Gómez-Albarrán, M. & Hernández-Yáñez, 
+L., 1996: “Supporting Object Reuse through Case-Based Reasoning”,
+Procs. EWCBR ‘96.
+7.	Gómez-Albarrán, M., González-Calero, P. & Fernández-Chamizo, C., 1998:
+“Framework Understanding through Explicit Knowledge Representation”, Procs.
+IBERAMIA ‘98.
+8.	Heinsohn, J., Kudenko, D., Nebel, B., and Profitlich, H., 1994: “An empirical
+analysis of terminological representation systems”. Artificial Intelligence, vol. 68,
+pp. 367-398
+9.	Koehler, J., 1994: “An Application of Terminological Logics to Case-based Reasoning”, 
+Procs. KR ‘94.
+10.	Koehler, J., 1996: “Planning from Second Principles”, Artificial Intelligence, vol.
+87, pp. 145-186.
+11.	Kolodner, J., 1993: Case-Based Reasoning, Morgan Kaufmann.
+12.	Leake, D. B., Kinley, A., & Wilson, D., 1996: “Acquiring Case Adaptation Knowledge: 
+A Hybrid Approach”, Procs. AAAI ‘96.
+13.	Mac Gregor, R., 1991: “The evolving technology of classification-based knowledge
+representation systems”, in Principles of Semantic Networks: Explorations in the
+Representation of Knowledge (J. Sowa, ed.), Morgan Kaufmann.
+14.	Napoli, A., Lieber, J., & Courien, R., 1996: “Classification-Based Problem Solving
+in Case-Based Reasoning”, Procs. EWCBR ‘96.
+15.	Napoli, A., Lieber, J. & Simon, A., 1997: “A Classification-Based Approach to
+Case-Based Reasoning”, Procs. DL ‘97.
+16.	Plaza, E., 1995: “Cases as Terms: A feature term approach to the structured representation 
+of cases”, Procs. ICCBR ‘95.
+17.	Richter, M., 1995: “The knowledge contained in Similarity Measures”. Invited 
+talk given at ICCBR’95. October, 25. http://wwwagr.informatik.uni-kl.de/lsa/CBR/Richtericcbr95remarks.html
+18.	Salotti, S. & Ventos, V., 1998: “Study and Formalization of a Case-Based Reasoning
+System using a Description Logic”, in Procs. EWCBR ‘98.
+19.	Salton, G. & McGill, M. J., 1983: Introduction to Modern Information Retrieval,
+McGraw-Hill.
+20.	Tautz, C., & Althoff, K., 1997: “Using Case-Based Reasoning for Reusing Software
+Knowledge”, Procs. ICCBR ‘97.
+21.	Yen, J., Teh, H.,& Liu X., 1994: “Using Description Logics for Software Reuse and
+Case-Based Reasoning”, Procs. DL ‘94.

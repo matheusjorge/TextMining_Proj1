@@ -1,0 +1,66 @@
+Using Machine Learning for Assigning Indices to Textual Cases*
+
+
+Stefanie Brüüninghaus and Kevin D. Ashley
+
+University of Pittsburgh
+Learning Research and Development Center, Intelligent Systems Program, and School of Law
+3939 O’Hara Street, Pittsburgh, PA 15260
+steffi+@pitt.edu, ashley+@pitt.edu
+
+
+
+Abstract. This paper reports preliminary work on developing methods automatically 
+to index cases described in text so that a case-based reasoning system
+can reason with them. We are employing machine learning algorithms to classify
+full-text legal opinions in terms of a set of predefined concepts. These factors,
+representing factual strengths and weaknesses in the case, are used in the case-based 
+argumentation module of our instructional environment CA TO. We first
+show empirical evidence for the conncetion between the factor model and the
+vector representation of texts developed in information retrieval. In a set of hypotheses 
+we sketch how including knowledge about the meaning of the factors,
+their relations and their use in the case-based reasoning system can improve
+learning, and discuss in what ways background knowledge about the domain can
+be beneficial. The paper presents initial experiments that show the limitations of
+purely inductive algorithms for the task.
+
+
+References
+Aleven, V., and Ashley, K. 1996. How Different is Different? Arguing about the
+Significance of Similarities and Differences. In Proc. of the 4th European Workshop
+on Case-Based Reasoning, 1—15.
+Aleven, V., and Ashley, K. 1997. An Empirical Evaluation of an Intelligent Learning
+Environment for Case-Based Argumentation. In AIED-97. to appear.
+Ashley, K. 1990. Modeling Legal Argument, Reasoning with Cases and Hypotheticals.
+MIT-Press.
+Branting, L. 1991. Building explanations from rules and structured cases. Internation
+Journal on Man-Machine Studies 34(6).
+Callan, J.; Croft, W.; and Harding, 5. 1992. The INQUERY Retrieval System. In Proc.
+of the 3rd Internat. Conference on Database and Expert Systems Applications, 78—83.
+Callan, J. 1996. Document Filtering with Inference Networks. In Proc. of the 19th
+Annual International ACM SIGIR Conference.
+Cowie, J., and Lehnert, W. 1996. Information extraction. Comm. ACM 39(1):80—91.
+Cox, M. 1994. Machines that Forget: Learning from retrieval failure of mis-indexed
+explanations. In Proc. of the 16th Conf of the Cognitive Science Society, 225—230.
+Fox, S., and Leake, D. 1995. Learning to Refine Indexing by Introspective Reasoning.
+In Proceedings of the 1st International Conference on Case-Based Reasoning.
+Frankes, W., and Baeza-Yates, R. 1992. Information Retrieval - Data Structures &
+Algorithms. Prentice-Hall.
+Golding, A., and Roth, D. 1996. Applying winnow to context-sensitive spelling
+correction. In Proceedings of the 13th International Conference on Machine Learning.
+Joachims, T. 1996. A Probabilistic Analysis of the Rochio Algorithm with TFIDF for
+Text Categorization. Technical report, Carnegie Mellon University. CMU-CS-96-l 18.
+Lewis, D.; Shapire, R.; Callan, J.; and Papka, R. 1996. Training Algorithms for Linear
+Text Classifiers. In Proc. of the 19th Annual lnternational ACM SIGIR Conference.
+Mitchell, T. 1997. Machine Learning. Mc Graw Hill.
+Osgood, R., and Bareiss, R. 1993. Automated Index Generation for Constructing Large-scale 
+Conversational Hypermedia Systems. In Proc. of the 11th National Conference
+on Artificial Intelligence, 309—314.
+Papka, R.; Callan, J.; and Barto, A. 1996. Text-Based Information Retrieval Using
+Exponentiated Gradient Descent. In Neural Information Processing Systems. To
+appear.
+Portinale, L., and Torasso, P 1995. ADAPtER: An Integrated Diagnostic System
+Combining Case-Based and Abductive Reasoning. In Proc. of the 1st Int. Conf on
+Case-Based Reasoning, 277—288.
+Rissland, E., and Daniels, J. 1995. Using CBR to drive IR. In Proc. of the 14th
+International Joint Conference on Artificial Intelligence, 400—407.

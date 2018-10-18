@@ -1,0 +1,64 @@
+Fuzzy Modelling of Case-Based Reasoning
+and Decision
+
+Didier Dubois1, Francesc Esteva2, Pere Garcia2, Lluís Godo2,
+Ramon L. de Màntaras2 and Henri Prade1
+
+1 Institut de Recherche en Informatique de Toulouse (IRIT), Université Paul
+Sabatier, Bât. 1R3, 118 Route de Narbonne, 31062 Toulouse Cedex 4, France
+emails: {dubois ,prade}@irit.fr
+2 Institut d’Investigació en Intelligència Artificial (IIIA), Consejo Superior de
+Investigaciones Científicas(CSIC), Campus Universitat Autonoma de Barcelona
+08193 Bellaterra, Spain
+emails: {esteva,pere,godo,mantaras}@iiia.csic.fr
+
+
+Abstract. This paper is an attempt at providing a fuzzy set-based formalization
+of case-based reasoning. The proposed approach, which does
+not take into account the learning aspects of case-based reasoning, assumes 
+a principle stating that “the more similar are the problem description 
+attributes, the more similar are the outcome attributes” . A
+weaker form of this principle is also considered. These two forms of the
+case-based reasoning principle are modelled in terms of fuzzy rules. Then
+an approximate reasoning machinery taking advantage of this principle
+enables us to apply the information stored in the memory of precedent
+cases to the current problem. A particular instance of case-based reasoning, 
+named case-based decision, is especially investigated. A logical
+model of case-based inference is also described.
+References
+
+1.	Aamodt A., Plaza E. (1994) Case-based reasoning: Foundational issues, methodological 
+varoations and system approaches. AI Communications, 7(1), 39-59.
+2.	Davies T.R., Russell S.J. (1987) A logical approach to reasoning by analogy. Proc.
+of the 10th Inter. Joint Conf. on Artificial Intelligence (IJCAI’87), 264-270.
+3.	Dubois D., Esteva F., Garcia P., Codo L., Prade H. (1997a) A logical approach to
+interpolation based on similarity relations. To appear in Int. J. of Approx. Reas.
+4.	Dubois D., Esteva F., Garcia P., Godo L., de Mantaras R.L., Prade H. (1997b)
+Fuzzy set-based models in case-based reasoning. In Tech. Rep. IRIT/96-54-R.
+5.	Dubois D., Grabisch M., Prade H. (1994) Gradual rules and the approximation
+of control laws. In: Theoretical aspects of fuzzy control (H.T. Nguyen et al. eds.),
+Wiley, 147-181.
+6.	Dubois D., Prade H. (1992) Gradual inference rules in approximate reasoning. Information 
+Sciences, 61, 103-122.
+7.	Dubois D., Prade H. (1994) Similarity-based approximate reasoning. In: Computational 
+Intelligence Imitating Life (Proc. IEEE Symp., Orlando, FL, June 27-July
+1st, 1994) (J.M. Zurada et al., eds.), IEEE Press, New York, 69-80.
+8.	Dubois D., Prade H. (1995) Possibility theory as a basis for qualitative decision
+theory. Proc. of the 14th Inter. Joint Conf. on Artificial Intelligence (IJCAI’95),
+Montréal, Canada, Aug. 20-25, 1924-1930.
+9.	Dubois D., Prade H. (1996) What are fuzzy rules and how to use them. Fuzzy Sets
+and Systems, 84, 169-185.
+10.	Gilboa I., Schmeidler D. (1995) Case-based decision theory. The Quarterly J. of
+Economics, August, 607-639.
+11.	Jaczynski M., Trousse B. (1994) Fuzzy logic for the retrieval step of a case-based
+reasoner. Proc. of the EWCBR’94, 313-321.
+12.	Kolodner J. (1993) Case-Based Reasoning. Morgan Kaufmann, San Mateo, CA.
+13.	Léa Sombé (Group) (1990) Reasoning by analogy. In: Reasoning Under Incomplete
+Information in Artificial Intelligence. Wiley, New York, 418-424.
+14.	Plaza E., Esteva F., Garcia P., Godo L., López de Màntaras R. (1996) A logical 
+approach to case-based reasoning using fuzzy similarity relations. To appear in
+Information Sciences.
+15.	Plaza E., Lopez de Mantaras R. (1990) A case-based apprentice that learns from
+fuzzy examples. In: Methodologies for Intelligent Systems, Vol. 5 (Z.W. Ras, M.
+Zemankova, M.L. Emrich, eds.), Elsevier, 420-427.
+16.	Ruspini E.H. (1991) On the semantics of fuzzy logic. Int. J. of Approximate Reasoning, 5, 45- 88.

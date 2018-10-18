@@ -1,0 +1,50 @@
+An Architecture for a CBR Image Segmentation
+System
+
+Petra Perner
+
+Institute of Computer Vision and Applied Computer Sciences
+Arno-Nitzsche-Str. 45, 04277 Leipzig, Germany
+e-mail: ibaipemer@aol.com fax: +49 341 8665 636
+
+
+
+Abstract. Image Segmentation is a crucial step if extracting information from a
+digital image. It is not easy to set up the segmentation parameter so that it fits
+best over the entire set of images, which should be segmented. In the paper, we
+propose a novel architecture for image segmentation method based on CBR,
+which can adapt to changing image qualities and environmental conditions. We
+describe the whole architecture, the methods used for the various components
+of the systems and show how it performs on medical images.
+References
+
+1.	P. Perner, Different Learning Strategies in a Case-Based Reasoning System for
+Image Interpretation, Advances in Case-Based Reasoning, B. Smith and P.
+Cunningham (Eds.), LNAI 1488, Springer Verlag 1998, S. 251-261.
+2.	P. Perner, Case-Based Reasoning For Image Interpretation in Non-destructive
+Testing, 1st European Workshop on Case-Based Reasoning, Otzenhausen Nov.
+1993, Proc. SFB 314 Univ. Kaiserslautern, Hrsg. M. Richter, vol. II, pp. 403-410
+3.	Bettin, J. Dietrich, C. Dannenberg, H. Barthel, D. Zedlick, K. Jobst, W.H. Knapp,
+Früherkennung von Hirnleistungstörungen — Vergleich linearer und
+volumetrischer Parameter (CT) mit Ergebnlssen der Perfusions-SPET,” 78.
+Deutscher Röntgenkongreß Wiesbaden 1997
+4.	S. Zhang, “Evaluation and Comparision of different Segmentation Algorithm,”
+Pattern Recognition Letters, v. 18, No. 10, pp. 963-968, 1997.
+5.	G. Kummer and P. Perner, Motion Analysis, IBaI Report January 1999, ISSN
+143 1-2360
+6.	H. Dreyer and W. Sauer, Prozeßanalyse, Verlag Technik Berlin 1982
+7.	R. Ohlander, K. Price, and D.R. Reddy, “Picture Segmentation using recursive
+region splitting method,” Comput. Graphics and Image Processing, 8: 313-333,
+1978
+8.	C.H. Lee, “Recursive region splitting at the hierarchical scope views,” Computer
+Vision Graphics, and Image Processing, 33, 237-259, 1986
+9.	P. Perner, Similarity-Based Image Segmentation, IBaI Report 1996 ISSN 1431-
+2360
+10.	A. Tversky, ,,Feature of Similarity”, Psychological Review, vol. 84, No. 4, pp.
+327-350, 1977.
+11.	Alzheimer Study “Degenerative Erkrankungen des zentralen und peripheren
+Nervensystems - Kliik und Grundlage”, BMFT Study, Abschlußbericht der
+medizinische Fakultät der Uni Leipzig 1996
+12.	A. Tschammler et. al,”Computerized tomography volumetry of cerebrospinal fluid
+by semiautomatic contour recognition ad gray value histogram analysis”, Rofo
+Fortschr. Geb. Roentgenstr. Neue Bildgeb. Verfahren 1996, Jan: 164(1): 13-1

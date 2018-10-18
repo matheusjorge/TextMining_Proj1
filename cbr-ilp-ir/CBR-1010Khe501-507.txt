@@ -1,0 +1,63 @@
+A Memory-Based Hierarchical Planner
+
+Deepak Khemani	P.V.S.R.Bhanu Prasad
+
+Department of Computer Science and Engineering
+Indian Institute of Technology, Madras
+Madras - 600036
+India
+khemani@iitm.ernet.in	bhanu@iitm.ernet.in
+
+
+Abstract. This paper describes a memory-based planning system. The
+memory constitutes a collection of generalized plans, which we call skeletons. 
+Each skeleton embodies a style, and organizes planning knowledge
+in a packaging hierarchy. Traversal of this hierarchy results in hierarchical 
+plan development, and the process is guided by a secondary memory
+which organizes the properties of ingredients into an inheritance hierarchy. 
+A simple indexing hierarchy allows access to each skeleton, which is
+quite distinct and captures a whole class of plans in that style. Stepwise
+refinement of the plan is accompanied by modifications which add ingredient 
+specific steps on the way. A system has been implemented in the
+culinary domain.
+
+5 References
+
+[1] K. Currie, A. Tate: O-Plan-Control in the Open Planner Architecture. In BCS
+Expert Systems Conference. Camhridge: Cambridge University Press, 1985.
+[2] M. Dyer: In-depth Understanding. Cambridge MA: MIT Press, 1983.
+[3] R.E. Fikes, N.J. Nilsson: Strips: A New Approach to the Application of
+Theorem Proving to Problem Solving. Artificial Intelligence, Vol. 2, pp. 189-208,
+1971.
+[4] K.J. Hammond: Case-Based Planning: Viewing planning as a memory task.
+Academic Press, Inc, New York, 1989.
+[5] 5. Kambhampati, A Theory of Plan Modification. In Proceedings of AAAI,
+1990.
+[6] B.P. Kettler, J.A. Hendler, W.A. Andersen, M.P. Evett: Massively Parallel
+Support for Case-Based Planning. In IEEE EXPERT, February, 1994.
+[7] J. Kolodner: Capitalizing on Failure Through Case-Based Inference. In Proceedings 
+of the Ninth Annual Conference of the Cognitive Science Society, Lawrence
+Erlbaum Associates, Publishers, New Jersy, 1987.
+[8] J. Kolodner: Case-Based Reasoning. Morgan Kaufmann, San Mateo, CA,
+1993.
+[9] M. Redmond: Distributed Cases for Case-Based Reasoning; Facilitating Use
+of Multiple Cases. In Proceedings of AAAI, 1990.
+[10] C.K. Riesheck, R.C. Schank: Inside Case-Based Reasoning, Lawrence Erlbaum 
+Associates, Publishers, New Jersy, 1989.
+[11] E.D. Sacerdoti: Planning in a Hierarchy of Abstraction Spaces, Artificial
+Intelligence, 5(2), pp. 115-135, 1974.
+[12] E.D. Sacerdoti: A Structure for Plans and Behavior. Amsterdam: Elsevier-North Holland, 1977.
+[13] R.C. Schank, R.P. Abelson: Scripts, Plans, Goals, and Understanding. Lawrence
+Erlbaum Associates, Publishers, New Jersy, 1977.
+[14] R.C. Schank: Dynamic Memory: A Theory of Learning in Computers and
+People. Cambridge University pres, 1982.
+[15] R.L.Jr. Simpson: A Computer Model of Case-Based Reasoning in Problem
+Solving. Ph.D. thesis, Georgia Institute of Technology, Atlanta, GA, USA, 1985.
+[16] A. Tate: Project Planning Using a Hierarchic Non-linear Planner, Research
+Report No. 25, Department of Artificial Intelligence, University of Edinburgh,
+U.K., 1975.
+[17] R. Wilensky: Planning and Understanding: A Computational Approach
+to Human Reasoning. Addision-Wesley Publishing Company, Reading, Mas-
+sachusetts, 1983.
+[18] D.E. Wilkins: Practical Planning-Extending the Classical AI Planning Paradigm.
+Morgan Kaufmann Publishers, San Mateo, California, 1988.

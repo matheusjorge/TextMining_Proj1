@@ -1,0 +1,67 @@
+Subspace Morphing Theory for Appearance Based Object
+Identification
+
+Zhongfei (Mark) Zhang Rohini K. Srihari
+Computer Science Dept. Center of Excellence for Document
+Watson School Analysis and Recognition (CEDAR)
+State Univerisity of New York State University of New York
+Binghamton, NY 13902 Bu
+alo, NY 14228
+zhongfei@cs.binghamton.edu rohini@cedar.buffalo.edu
+
+Abstract
+Object identification techniques have wide applications 
+ranging from industry, business, military, law
+enforcement, to people's daily life. With the fast development 
+in e-business, its applications in internet
+related business and commercial models have also been
+witnessed to grow fast. This work is motivated to develop 
+a new theory for appearance based object identification with 
+its applications in different areas.
+Although many successful techniques have been proposed in 
+certain specific applications, object identification, 
+in general, still remains as a di∆cult and
+challenging problem. In appearance based approaches,
+typical methods include eigenfaces and the related
+subspace analysis, singular value decomposition, Gabor 
+wavelet features, neural networks, and shape and
+appearance-based probabilistic models. All these methods 
+are based on a fundamen tal assumption, i.e., all
+the images (both in the model base and to be queried)
+are in the same dimensions, so that the feature vectors
+are all in the same feature space; if images are provided
+with different dimensions, a normalization in scale to
+a pre-determined image space must be conducted.
+In this research, a theory for appearance based object identication 
+called subspace morphing is developed, which allows scale-invariant 
+identification of images of objects, and therefore, does not require 
+normalization. Theoretical analysis and experimental evaluation 
+show that in the situation where images are
+provided in different dimensions, which is common in
+many applications, subspace morphing theory is superior 
+to the existing, normalization-based techniques in
+performance.
+References
+[1] R. Brunelli and T. Poggio. Face recognition: features 
+versus templates. IEEE Trans. PAMI, 15,
+1993.
+[2] B.J. Frey, A. Colmenarez, and T.S. Huang. Mixtures 
+of local linear subspaces for face recognition.
+In Proc. CVPR. IEEE, 1998.
+[3] G.H. Golub and C.F.V. Loan. Matrix Computations, 
+2nd Ed. The Johns Hopkins University
+Press, 1989.
+[4] Z. Hong. Algebraic feature extraction of image for
+recognition. Pattern Recognition, 24, 1991.
+[5] S.Z. Li. Face recognition based on nearest linear
+combinations. In Proc. CVPR. IEEE, 1998.
+[6] B.S. Manjunath, R. Chellappa, and C.V.D. Malsburg. 
+A feature based approach to face recognition.
+In Proc. CVPR, 1992.
+[7] B. Moghaddam and A. Pentland. Probabilistic
+visual learning for object representation. Trans.
+PAMI, July 1997.
+[8] A. Pentland, B. Moghaddam, and T. Starner.
+View-based and modular eigenspaces for face
+recognition. In Proc. CVPR, 1994.
+

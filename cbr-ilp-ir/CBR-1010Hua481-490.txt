@@ -1,0 +1,51 @@
+A Case Based Method for Solving Relatively Stable
+Dynamic Constraint Satisfaction Problems
+
+Y. Huang and R. Miles
+
+Faculty of Computer Studies and Mathematics
+University of West England
+Bristol BS16 1QY, United Kingdom
+Email: huang@btc.uwe.ac.uk rgm@btc.uwe.ac.uk
+
+Abstract This paper discusses some key issues in using case based methods to solve
+large constraint satisfaction problems. The problem addressed here is characterised by
+the large cardinality of the constraint tables. The aim is to reduce the amount of
+consistency checking carried out by database queries. We have addressed issues
+concerning the similarity measurement, adaptation/repair control in terms of conflict
+ordering strategies, the quality of the case base and issues concerning backtracking
+strategies. The results presented in this paper indicate an approach for improving case
+based methods in solving large constraint satisfaction problems.
+References
+Dechter R. (1990). Enhancement Schemes for Constraint Processing: Backjumping. Learning and
+Cutset Decomposition. AI 41, 273 -312.
+
+Freuder E. C. (1982). A sufficient condition of backtrack-free search, J. ACM 29(1)24-32.
+
+Gaschnig J. (1979). Performance measurement and analysis of certain search algorithms, Tech.
+Rept. CMU-CS-79-124. Carnegie-mellon University, Pittsburgh. PA.
+
+Haralick R. M. and Elliott G. L (1980). Increasing tree search efficiency for constraint satisfaction
+problems, AI 14,263 -313.
+
+Hinrichs T. R. (1992). Problem solving in open worlds: A case study in design. Northvale,
+NJ: Erlbaum.
+
+Hua K., Smith I., Faltings B. (1994) Integrated Case-Based Building Design. EWCBR 93,246-51.
+
+Hunt J. and Miles R. (1994). Hybrid Case-Based Reasoning. Knowledge Engineering Review, 9.
+
+Kolodner J. (1993). Case Based Reasoning. Morgan Kaufmann Publishers.
+
+Maher M. L and Zhang D. M. (1993). CADSYN: A Case-Based Design Process Model. AI
+EDAM. 7(2), 97-110, Academic Press.
+
+Minton S., Johnston M. D., Philips A. B. and Laird P. (1992). Minimizing conflicts: a heuristic
+repair method for constraint satisfaction and scheduling problems. AI 58, 161-205.
+
+Riesbeck C. K. & Schank R. C. (1989). Inside Case-Based Reasoning. Northvale, NJ: Erlbaum,
+
+Stallman R. M. and Sussman G. J. (1977). Forward reasoning and dependency-directed
+backtracking in a system for computer-aided circuit analysis. AI 9,135-196.
+
+Tsang E. (1993). Foundations of Constraint Satisfaction. Academic Press.

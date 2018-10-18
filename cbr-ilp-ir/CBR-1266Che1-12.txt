@@ -1,0 +1,26 @@
+Case-Based Reasoning in Color Matching
+
+William Cheetham (cheetham@crd.ge.com),
+
+John Graf (graf@crd.ge.com),
+
+GE Research & Development Center, 1 Research Circle, Niskayuna, NY 12309
+
+
+Abstract - A case-based reasoning system for determining what colorants
+to use for producing a specific color of plastic was created. The selection of
+colorants needs to take many factors into consideration. A technique that
+involved fuzzy logic was used to compare the quality of the color match for
+each factor. The system has been in use for two years at a growing number
+of GE Plastics sites and has shown significant cost savings.
+
+7 References
+[1]	Aamodt, A., Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches, AICOM, Vol. 7, No. 1, March 1994.
+[2]	Althoff, K-D., A Review of Industrial Case-Based Reasoning Tools, AI
+Intelligence, United Kingdom, 1995.
+[3]	Billmeyer, F., Principles of Color Technology: Second Edition, John Wiley
+& Sons, New York, 1981.
+[4]	Kolodner, J., Case-Based Reasoning. Morgan Kaufmann, 1993.
+[5]	Mendel, J., Fuzzy Logic Systems for Engineering: A Tutorial, Proceedings
+of the IEEE, Vol. 83, no. 3, March 1995.

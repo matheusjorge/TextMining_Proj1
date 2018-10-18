@@ -1,0 +1,53 @@
+Maintaining Unstructured Case Bases
+
+Kirsti Racine1 and Qiang Yang1
+
+School of Computing Science
+Simon Fraser University
+Burnaby BC V5A 1S6,
+Canada
+Email : kracine@cs.sfu.ca, qyaug@cs.sfu.ca
+Web : http://fas.sfu.ca/kracine
+
+
+
+Abstract. With the dramatic proliferation of case based reasoning systems 
+in commercial applications, many case bases are now becoming
+legacy systems. They represent a significant portion of an organization’s
+assets, but they are large and difficult to maintain. One of the contributing 
+factors is that these case bases are often large and yet unstructured;
+they are represented in natural language text. Adding to the complexity
+is the fact that the case bases are often authored and updated by different 
+people from a variety of knowledge sources, making it highly likely
+for a case base to contain redundant and inconsistent knowledge.
+In this paper, we present methods and a system for maintaining large
+and unstructured case bases. We focus on two difficult problems in case-base 
+maintenance: redundancy and inconsistency detection. These two
+problems are particularly pervasive when one deals with an unstructured
+case base. We will discuss both algorithms and a system for solving these
+problems. As the ability to contain the knowledge acquisition problem
+is of paramount importance, our methods allow one to express relevant
+domain expertise for detecting both redundancy and inconsistency naturally 
+and effortlessly. Empirical evaluations of the system prove the
+effectiveness of the methods in several large domains.
+References
+
+[Aha91]	D. Aha. Case-based learning algorithms. Proceedings of the 1991 DARPA
+Case-Based Reasoning Workshop, 1, 1991.
+[FBY92]	William B. Frakes and R. Baeza-Yates. Information Retrieval: Data Structures 
+and Algorithms. Prentice-HALL, North Virginia, 1992.
+[LS8l]	B. P. Lientz and B. E. Swanson. Problems in application software maintenance. 
+Communications of ACM, 24(11):763—769, 1981.
+[LST78]	B. P. Lientz, E. B. Swanson, and C. E. Tompkins. Characteristics of application 
+software maintenance. Communications of ACM, 21, June 1978.
+[M083]	R. J. Martin and W. M. Osborne. Guidance on software maintenance. National 
+Bureau of Standards Special Publication 500—106, Superintendent of
+Documents, Washington DC, 1983.
+[SK95]	B. Smyth and M. Keane. Remembering to forget : A competence-preserving
+case deletion policy for case-based reasoning systems. International Joint
+Conference on Artificial Intelligence, 1:377—382, 1995.
+[SM83]	G. Salton and M.J. McGill. Introduction to Modern Information Retrieval.
+Computer Science Series McGraw Hill Publishing Company, New York, 1983.
+[ST96]	H. Shimazu and Y. Takashima. Detecting discontinuities in case-bases. Proceedings 
+of the Thirteenth National Conference on Aritifical Intelligence,
+1:690—695, 1996.

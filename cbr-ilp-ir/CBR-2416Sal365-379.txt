@@ -1,0 +1,88 @@
+Deleting and Building Sort Out Techniques
+for Case Base Maintenance
+
+Maria Salamó and Elisabet Golobardes
+
+Enginyeria i Arquitectura La Salle, Universitat Ramon Llull,
+Psg. Bonanova 8, 08022 Barcelona, Spain
+{mariasal,elisabet}@salleurl.edu
+
+
+
+Abstract. Early work on case based reasoning reported in the literature
+shows the importance of case base maintenance for successful practical
+systems. Different criteria to the maintenance task have been used for
+more than half a century. In this paper we present different sort out
+techniques for case base maintenance. All the sort out techniques proposed 
+are based on the same principle: a Rough Sets competence model.
+First of all, we present sort out reduction techniques based on deletion
+of cases. Next, we present sort out techniques that build new reduced
+competent case memories based on the original ones. The main purpose
+of these methods is to maintain the competence and reduce, as much
+as possible, its size. Experiments using different domains, most of them
+from the UCI repository, show that the reduction techniques maintain
+the competence obtained by the original case memory. The results are
+analysed with those obtained using well-known reduction techniques.
+References
+
+1.	D. Aha and D. Kibler. Instance-based learning algorithms. Machine Learning,
+Vol. 6, pages 37—66, 1991.
+2.	C.E. Brodley. Addressing the selective superiority problem: Automatic algorithm/model 
+class selection. In Proceedings of the 10th International Conference
+on Machine Learning, pages 17—24, 1993.
+3.	P. Domingos. Context-sensitive feature selection for lazy learners. In AI Review,
+volume 11, pages 227—253, 1997.
+J.M. Garrell, E. Golobardes, E. Bernadó, and X. Llorà. Automatic diagnosis with
+Genetic Algorithms and Case-Based Reasoning. 13:367—362, October 1999. Elsevier 
+Science Ltd., ISSN 0954-1810.
+5.	E. Golobardes, X. Llorà, M. Salamó, and J. Martí. Computer Aided Diagnosis
+with Case-Based Reasoning and Genetic Algorithms. Knowledge-Based Systems,
+(15):45—52, 2002.
+6.	D. Leake and D. Wilson. Remembering Why to Remember: Performance-Guided
+Case-Base Maintenance. In Proceedings of the Fifth European Workshop on Case-Based 
+Reasoning, pages 161—172, 2000.
+7.	X. Llorà and J.M. Garrell. Inducing Partially-Defined Instances with Evolutionary 
+Algorithms. In Proceedings of the 18th International Conference on Machine
+Learning (ICML ‘2001), pages 337—344. Morgan Kaufmann Publishers, 2001.
+8.	C. J. Merz and P. M. Murphy. UCI Repository for Machine Learning Data-Bases
+[http://www.ics.uci.edu/~mlearn/MLRepository.html]. Irvine, CA: University of
+California, Department of Information and Computer Science, 1998.
+9.	Z. Pawlak. Rough Sets. In International Journal of Information and Computer
+Science, volume 11, 1982.
+10.	L. Portinale, P. Torasso, and P. Tavano. Speed-up, quality and competence in
+multi-modal reasoning. In Proceedings of the Third International Conference on
+Case-Based Reasoning, pages 303—317, 1999.
+11.	T. Reinartz and I. Iglezakis. Review and Restore for Case-Base Maintenance.
+Computational Intelligence, 17(2):214—234, 2001.
+12.	C.K. Riesbeck and R.C. Schank. Inside Case-Based Reasoning. Lawrence Erlbaum
+Associates, Hillsdale, NJ, US, 1989.
+13.	M. Salamó and E. Golobardes. BASTIAN: Incorporating the Rough Sets theory
+into a Case-Based Classifier System. In Butlletí de l’acia: III Congrés Català
+d’Intel.ligència Artificial (CCIA ‘00), pages 284—293, Barcelona, Spain, October
+2000.
+14.	M. Salamó and E. Golobardes. Rough sets reduction techniques for case-based
+reasoning. In Proceedings 4th. International Conference on Case-Based Reasoning,
+ICCBR 2001, pages 467—482, Vancouver, BC, Canada, 2001.
+15.	M. Salamó, E. Golobardes, D. Vernet, and M. Nieto. Weighting methods for a
+Case-Based Classifier System. In LEARNING’00, Madrid, Spain, October 2000.
+IEEE.
+16.	S. Salzberg. A nearest hyperrectangle learning method. Machine Learning, 6:277—
+309, 1991.
+17.	B. Smyth and M. Keane. Remembering to forget: A competence-preserving case
+deletion policy for case-based reasoning systems. In Proceedings of the Thirteen
+International Joint Conference on Artificial Intelligence, pages 377—382, 1995.
+18.	B. Smyth and E. McKenna. Building compact competent case-bases. In Proceedings
+of the Third International Conference on Case-Based Reasoning, pages 329—342,
+1999.
+19.	B. Smyth and E. McKenna. Competence Models and the maintenance problem.
+Computational Intelligence, 17(2):235—249, 2001.
+20.	D.C. Wilson and D.B. Leake. Maintaining Case-Based Reasoners:Dimensions and
+Directions. Computational Intelligence, 17(2):196—213, 2001.
+21.	D.R. Wilson and T.R. Martinez. Reduction techniques for Instance-Based Learning
+Algorithms. Machine Learning, 38, pages 257—286, 2000.
+22.	Q. Yang and J. Wu. Keep it Simple: A Case-Base Maintenance Policy Based on
+Clustering and Information Theory. In Proc. of the Canadian AI Conference, pages
+102—114,	2000.
+23.	J. Zhu and Q. Yang. Remembering to add: Competence-preserving case-addition
+policies for case base maintenance. In Proceedings of the Fifteenth International
+Joint Conference on Artificial Intelligence, volume 1, pages 234—239, 1999.

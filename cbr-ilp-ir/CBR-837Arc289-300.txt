@@ -1,0 +1,115 @@
+A Reflective Architecture for
+Integrated
+Memory-based Learning and Reasoning
+
+	Josep Lluís Arcos	Enric Plaza
+
+
+Artificial Intelligence Research Institute, IIIA.
+Spanish Council for Scientific Research, CSIC.
+Camí de Santa Bàrbara, 17300 Blanes, Catalunya, Spain.
+{arcos | plaza}@ceab.es
+
+
+
+Abstract. In this paper we will discuss the role of case-based reasoning and
+learning as a tool for integrating different methods of inference and different
+methods of learning. The Massive Memory Architecture, an experimental
+framework for experience-based learning and reasoning, is described. Its
+reflective capabilities are described and we put forth the hypothesis that learning
+methods are inference methods able to inspect the problem solving process and
+modify the system itself so as to improve its behavior. Therefore, learning
+methods require a self-model of the system. Self-models and method
+implementation are based on conceptual, knowledge-level descriptions of
+inference.
+References
+[1] Aamodt, A., Knowledge-intensivecase-based reasoning and learning. Proc. ECAI-
+90, Stockholm, August 1990.
+[2] Akkermans, H., van Harmelen, F., Schreiber, G., Wielinga, B., A formalisation of
+knowledge-level model for knowledge acquisition. Int Journal of Intelligent Systems
+forthcoming, 1993.
+[3] Armengol, E. and Plaza E., Analyzing case-based reasoning at the knowledge
+level. European Workshop on Case-based Reasoning EWCBR ‘93, 1994.
+[4] Carbonell, J., Derivational analogy: A theory of reconstructive problem solving
+and expertise acquisition. In R. S. Michalski, J. G. Carbonell, and T. M. Mitchell
+(Eds.),Machine Learning , Vol. II. Morgan Kaufmann, pp.371-392, 1986.
+
+[5] Carbonell, J. G., Knoblock, C. A., Minton, S., Prodigy: An integrated architecture
+for planning and learning. In K Van Kehn (Eds.), Architectures for Intelligence.
+Lawrence Erlbaum Ass., Hillsdadale, NJ, 1991.
+
+[6] Chandrasekaran, B., Task structures, knowledge acquisition and machine learning.
+Machine Learning 2:341-347, 1989.
+
+[7] Giunchilia, F., and Traverso, P., Plan formation and execution in an architecture of
+declarative metatheories . Proc of META -90: 2nd Workshop of Metaprogramming in
+Logic Programming.. MIT Press, 1990.
+
+[8] Godo, L., L6pez de Màntaras, R., Sierra, C., Verdaguer, A., MILORD: The
+architecture and the management of linguistically expressed uncertainty. Int. J.
+Intelligent Systems, 4:47 1-501, 1989.
+
+[9] Greiner, R., Lenat, D. RLL- 1: A Representation Language Language, HPP-80-9
+Comp. Science dept., Stanford University. Expanded version of the same paper in
+Proc. First AAAI Conference., 1980.
+
+[10] Kiczales G., Des Rivières J., Bobrow D. G., The Art of the Metaobject Protocol,
+The MIT Press: Cambridge, 1991.
+
+[11] López, B. and Plaza, E., Case-based planning for medical diagnosis, In Z Ras
+(Ed.) Methodologies for Intelligent Systems. Lecture Notes in Artificial Intelligence,
+689, p. 96-105. Springer-Verlag, 1993.
+
+[121 Mitchell, T.M., Allen, J., Chalasani, P., Cheng, J., Etzioni, 0., Ringuette, M.,
+Schlimmer, J. C. , Theo: a framework for self-improving systems. In K Van Lenhn
+(Ed.) Architectures for Intelligence. Laurence Erlbaum, 1991.
+
+[13] Newell, A., Unified Theories of Cognition. Cambridge MA: Harvard
+UniversityPress, 1990.
+[14] Plaza, E, Reflection for analogy: Inference-level reflection in an architecture for
+analogical reasoning. Proc. IMSA ‘92 Workshop on Reflection and Metalevel
+Architectures, Tokyo, p. 166-171, November 1992.
+[15] Plaza, E. Arcos J. L., Reflection and Analogy in Memory-based Learning, Proc.
+Multistrategy Learning Workshop. p. 42-49, 1993.
+
+[16] Plaza, E. Arcos J. L., Flexible Integration of Multiple Learning Methods into a
+Problem Solving Architecture, Reserch Report 93/16 1993.
+
+[17] Ram, A., Cox, M .T., Narayanan, S., An architecture for integrated introspective
+learning. Proc. ML ‘92 Workshop on Computational Architectures for Machine
+Learning and Knowledge Acquisition, 1992.
+
+[18] Russell, S., The use of knowledge in analogy and induction. Morgan Kaufinann,
+1990.
+
+[19] Sierra, C., and Godo, L. Specifying simple scheduling tasks in a reflective and
+modular architecture. In J Treur and T Wetter (Eds.) Formal Specifications Methods
+for Complex Reasoning Systems,.Ellis Horwood, pp. 199-232, 1993.
+
+[20] Slodzian, A., Configuring decision tree learning algorithms with KresT,
+Knowledge level models of machine learning Workshop preprints. Catania, Italy,
+April 1994.
+
+[21] Smith, B. C., Reflection and semantics in a procedural language, In Brachman, R.
+J., and Levesque, H. J. (Eds.) Readings in Knowledge Representation. Morgan
+Kauffman, California, pp. 31-40, 1985.
+
+[22] Steels, L., The Components of Expertise, Al Magazine, Summer 1990.
+
+[23] Treur, J., On the use of reflection principles in modelling complex reasoning. Int.
+J. Intelligent Systems , 6:277-294, 1991.
+
+[24] Van de Velde, W., Towards Knowledge Level Models of Learning Systems,
+Knowledge level models of machine learning Workshop preprints. Catania, Italy,
+April 1994.
+
+[25] van Marcke, K., KRS: An object-oriented representation language, Revue
+d’Intelligence Artificielle, 1(4), 43-68, 1987.
+
+[26] Wielinga, B., Schreiber, A., Breuker, J., KADS: A modelling approach to
+knowledge engineering. Knowledge Acquisition 4(1), 1992.
+
+[27] Wielinga, B., Van de Velde, W., Schreiber, G., Akkermans, H., Towards a
+Unification of Knowledge Modelling Approaches. In J.-M. David, J.-P. Krivine and
+R. Simmons (eds.). Second generation Expert Systems. pp299-335. Springer Verlag,
+1993.

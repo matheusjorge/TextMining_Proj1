@@ -1,0 +1,119 @@
+Applying a Hybrid Query Translation Method to
+Japanese/English Cross­Language Patent Retrieval
+
+Masatoshi Fukui y Shigeto Higuchi y Youichi Nakatani y
+Masao Tanaka y Atsushi Fujii z Tetsuya Ishikawa z
+y Japan Patent Information Organization
+Satoh Daiya Bldg., 1­7 Toyo 4­Chome Koto­ku 135­0016, JAPAN
+z University of Library and Information Science
+1­2 Kasuga Tsukuba 305­8550, JAPAN
+E­mail: fujii@ulis.ac.jp
+
+Abstract
+This paper applies an existing query trans­lation 
+method to cross­language patent re­trieval. 
+In our method, multiple dictionar­ies 
+are used to derive all possible transla­tions 
+for an input query, and collocational
+statistics are used to resolve translation am­biguity. 
+We used Japanese/English parallel
+patent abstracts to perform comparative exper­iments, 
+where our method outperformed a sim­ple 
+dictionary-­based query translation method,
+and achieved 76% of monolingual retrieval in
+terms of average precision.
+
+
+References
+[1] Lisa Ballesteros and W. Bruce Croft. Resolv­ing 
+ambiguity for cross­language retrieval. In
+Proceedings of the 21st Annual International
+ACM SIGIR Conference on Research and De­velopment in Information Retrieval, pp. 64--71,
+1998.
+Table 1: Non­interpolated average precision
+values, averaged over the three queries, for dif­ferent methods.
+Method Avg. Precision Ratio to JJ
+JJ 0.4151 --
+JEDIS 0.3156 0.7603
+JEALL 0.2709 0.6526
+[2] Jaime G. Carbonell, Yiming Yang, Robert E.
+Frederking, Ralf D. Brown, Yibing Geng, and
+Danny Lee. Translingual information retrieval:
+A comparative evaluation. In Proceedings of
+the 15th International Joint Conference on Ar­tificial Intelligence, pp. 708--714, 1997.
+[3] Mark W. Davis and William C. Ogden.
+QUILT: Implementing a large­scale cross­
+language text retrieval system. In Proceedings
+of the 20th Annual International ACM SIGIR
+Conference on Research and Development in
+Information Retrieval, pp. 92--98, 1997.
+[4] Christiane Fellbaum, editor. WordNet: An
+Electronic Lexical Database. MIT Press, 1998.
+[5] Atsushi Fujii and Tetsuya Ishikawa. Cross­
+language information retrieval at ULIS. In
+Proceedings of the 1st NTCIR Workshop on
+Research in Japanese Text Retrieval and Term
+Recognition, pp. 163--169, 1999.
+[6] Atsushi Fujii and Tetsuya Ishikawa. Cross­
+language information retrieval for technical
+documents. In Proceedings of the Joint ACL
+SIGDAT Conference on Empirical Methods in
+Natural Language Processing and Very Large
+Corpora, pp. 29--37, 1999.
+[7] Julio Gonzalo, Felisa Verdejo, Carol Peters,
+and Nicoletta Calzolari. Applying EuroWord­
+Net to cross­language text retrieval. Comput­
+ers and the Humanities, Vol. 32, pp. 185--207,
+1998.
+[8] David Hull. Using statistical testing in the
+evaluation of retrieval experiments. In Proceed­
+ings of the 16th Annual International ACM SI­
+GIR Conference on Research and Development
+in Information Retrieval, pp. 329--338, 1993.
+[9] Japan Electronic Dictionary Research Insti­tute. 
+EDR electronic dictionary technical guide, 1995. (In Japanese).
+[10] Noriko Kando, Kazuko Kuriyama, and Toshi­hiko 
+Nozue. NACSIS test collection workshop
+(NTCIR­1). In Proceedings of the 22nd An­nual 
+International ACM SIGIR Conference on
+Research and Development in Information Re­trieval, 
+pp. 299--300, 1999.
+[11] Michael L. Littman, Susan T. Dumais, and
+Thomas K. Landauer. Automatic cross­
+language information retrieval using latent se­mantic 
+indexing. In Gregory Grefenstette,
+editor, Cross­Language Information Retrieval,
+chapter 5, pp. 51--62. Kluwer Academic Pub­lishers, 1998.
+[12] Yuji Matsumoto, Akira Kitauchi, Tatsuo Ya­mashita, 
+Osamu Imaichi, and Tomoaki Ima­mura. 
+Japanese morphological analysis system
+ChaSen manual. Technical Report NAIST­IS­
+TR97007, NAIST, 1997. (In Japanese).
+[13] J. Scott McCarley. Should we translate the
+documents or the queries in cross­language in­
+formation retrieval? In Proceedings of the 37th
+Annual Meeting of the Association for Compu­tational 
+Linguistics, pp. 208--214, 1999.
+[14] Douglas W. Oard. A comparative study of
+query and document translation for cross­
+language information retrieval. In Proceedings
+of the 3rd Conference of the Association for
+Machine Translation in the Americas, pp. 472--
+483, 1998.
+[15] Gerard Salton. Automatic processing of for­eign 
+language documents. Journal of the
+American Society for Information Science,
+Vol. 21, No. 3, pp. 187--194, 1970.
+[16] Gerard Salton and Christopher Buckley. Term­
+weighting approaches in automatic text re­trieval. 
+Information Processing & Manage­
+ment, Vol. 24, No. 5, pp. 513--523, 1988.
+[17] Ellen M. Voorhees. Variations in relevance
+judgments and the measurement of retrieval
+effectiveness. In Proceedings of the 21st An­nual 
+International ACM SIGIR Conference on
+Research and Development in Information Re­trieval, pp. 315--323, 1998.
+[18] Justin Zobel and Alistair Moffat. Exploring
+the similarity space. ACM SIGIR FORUM,
+Vol. 32, No. 1, pp. 18--34, 1998.
+

@@ -1,0 +1,47 @@
+A Unified Model for Metasearch and the Efficient
+Evaluation of Retrieval Systems via the Hedge Algorithm
+
+Javed A. Aslam, Virgiliu Pavlu, Robert Savell
+Department of Computer Science
+Dartmouth College
+{jaa,virgilpavlu,rsavell}@cs.dartmouth.edu
+
+ABSTRACT
+We present a unified framework for simultaneously solving
+both the pooling problem (the construction of eficient doc­ument 
+pools for the evaluation of retrieval systems) and
+metasearch (the fusion of ranked lists returned by retrieval
+systems in order to increase performance). The implemen­tation 
+is based on the Hedge algorithm for online learning,
+which has the advantage of convergence to bounded error
+rates approaching the performance of the best linear com­bination 
+of the underlying systems. The choice of a loss
+function closely related to the average precision measure of
+system performance ensures that the judged document set
+performs well, both in constructing a metasearch list and
+as a pool for the accurate evaluation of retrieval systems.
+Our experimental results on TREC data demonstrate excel­lent 
+performance in all measures---evaluation of systems, re­trieval 
+of relevant documents, and generation of metasearch
+lists.
+
+
+
+4. REFERENCES
+[1] G. V. Cormack, C. R. Palmer, and C. L. A. Clarke.
+Eficient construction of large test collections. In Croft
+et al. [2], pages 282--289.
+[2] W. B. Croft, A. Mo#at, C. J. van Rijsbergen,
+R. Wilkinson, and J. Zobel, editors. Proceedings of the
+21th Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+Melbourne, Australia, Aug. 1998. ACM Press, New
+York.
+[3] Y. Freund and R. E. Schapire. A decision­theoretic
+generalization of on­line learning and an application to
+boosting. Journal of Computer and System Sciences,
+55(1):119--139, Aug. 1997.
+[4] J. Zobel. How reliable are the results of large­scale
+retrieval experiments? In Croft et al. [2], pages
+307--314.
+

@@ -1,0 +1,49 @@
+Prolog, Refinements and RLGG’s
+
+Claude Sammut
+
+School of Computer Science and Engineering
+University of New South Wales
+Sydney 2052 Australia
+claude@cse.unsv.edu.au
+http://vvv.cse.unsw.edu.au/~claude
+
+
+
+Abstract. Cohen’s [1] refinement rules provide a flexible mechanism
+for introducing intentional background knowledge in an ILP system.
+Whereas Cohen used a limited second order theorem prover to implement 
+the rule interpreter, we extend the method to use a full Prolog
+interpreter. This makes the introduction of more complex background
+knowledge possible. Although refinement rules have been used to generate 
+literals for a general-to-specific search, we show how they can also be
+used as filters to reduce the number of literals in an RLGG algorithm.
+Each literal constructed by the LGG is tested against the refinement
+rules and only admitted if a refinement rule has been satisfied.
+References
+
+1.	Cohen, W.: Learning to classify English text with ILP methods. In L. de Raedt
+(Eds.), Advances in Inductive Logic programming. IOS Press (1996) 124—143
+2.	Muggleton, S., Feng, C.: Efficient induction of logic programs. In First Conference
+on Algorithmic Learning Theory. Omsha, Tokyo (1990)
+3.	Muggleton, S.: Inverse Entailment and Progol. New Generation Computing 13
+(1995) 245—286.
+4.	Page, C. D., Frisch, A. M.: Generalization and Learnability: A study of constrained
+atoms. In S. Muggleton (Eds.): Inductive Logic Programming. Academic Press
+(1992) 29—61
+5.	Plotkin, G. D.: A further note on inductive generalization. In B. Meltzer and D.
+Michie (Eds.): Machine Intelligence 6. Elsevier, New York (1971)
+6.	Quinlan, J. R.: Learning Logical Definitions from Relations. Machine Learning 5
+(1990) 239-266
+7.	Rouveirol, C., Puget, J.-F.: Beyond Inversion of Resolution. In Proceedings of the
+Seventh International Conference on Machine Learning. Morgan Kaufmann (1990)
+8.	Sammut, C. A., Banerji, R. B.: Learning Concepts by Asking Questions. In R.
+S.	Michalski Carbonell, J.G. and Mitchell, T.M. (Eds.): Machine Learning: An
+Artificial Intelligence Approach, Vol 2. Morgan Kaufmann, Los Altos, California
+(1986) 167—192
+9.	Sammut, C.: Using background knowledge to build multistrategy learners. Machine
+Learning 27 (1997) 241—257
+10.	Srinivasan, A., Camacho, R.: Experiments in numerical reasoning with Inductive
+Logic Programming. Journal of Logic Programming (in press)
+11.	Zrimec, T., Sammut, C.A.: A Medical Image Understanding System. Engineering
+applications of Artificial Intelligence 10(1) (1997) 31—39.

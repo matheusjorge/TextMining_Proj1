@@ -1,0 +1,65 @@
+A Case-Based Reasoner Adaptive to Different
+Cognitive Tasks
+
+Isabelle Bichindaritz
+
+Université René Descartes, LIAP-5, UFR de Math-Info
+45 rue des Saints-Pères, 75270 Paris Cedex 6, France
+Email : bici@math-info.univ-paris5.fr
+
+
+Abstract. Case-based reasoning systems are generally devoted to the
+realization of a single cognitive task. The need for such systems to perform 
+various cognitive tasks questions how to organize their memory
+to permit them to be task-adaptive. The case-based reasoning system
+adaptive to cognitive tasks presented here is capable to adapt to analysis
+tasks as well as synthesis tasks. Its adaptability comes from its memory
+composition, both cases and concepts, and from its hierarchical memory
+organization, based on multiple points of view, some of them associated
+to the various cognitive tasks it performs. For analytic tasks, the most
+specific cases are preferably used for the reasoning process. For synthesis 
+tasks, the most specific concepts, learnt by conceptual clustering, are
+used. An example of this system abilities, in the domain of eating disorders 
+in psychiatry, is briefly presented.
+References
+
+1.	Aamodt A., Plaza E.: Case-based Reasoning : Foundational issues, methodological
+variations, and system approaches. AI Communications, 7(1) (1994)
+2.	Bichindaritz, I.: A case-based reasoning system using a control case-base. In : Proceedings 
+ECAI-94, T. Cohn (Edt.) (1994) 38-42
+3.	Bichindaritz, I.: A case-based assistant for clinical psychiatry expertise. In : Proceedings 
+18th Symposium on Computer Applications in Medical Care, AMIA, Washing-
+ton DC (1994) 673-677
+4.	Bichindaritz, I.: Apprentissage de concepts dans une mémoire dynamique : raisonnement 
+à partir de cas adaptable à La tache cognitive. PhD thesis of University René
+Descartes, Paris (1994)
+5.	Bichindaritz, I.: Case-Based Reasoning and Conceptual Clustering : for a Cooperative 
+Approach. In : Proceedings of 1st UK CBR Workshop, I. Watson and
+F. Marir (Edts.) (to appear)
+6.	Callan J., Fawcett T., Rissland E.: CABOT : An Adaptive Approach to Case-Based
+Search. In : Proceedings of AAAI-92, Cambridge, MA (1992) 803-808
+7.	Clancey W.: Heuristic classification. Artificial Intelligence, volume 27 (1985) 289-350
+8.	Cornuéjols A.: Getting Order Independance in Incremental Learning. In: Proceedings 
+of the European Working Session on Learning (1993) 196-212
+9.	Gennari J., Langley P., Fisher D.: Models of Incremental Concept Formation. Artificial 
+Intelligence, 40 (1989) 11-61
+10.	Kodratoff Y., Michalski R. (Edts.): Machine Learning : An Artificial Intelligence
+Approach. Volume 3. Morgan Kaufmann Publishers, Inc., San Mateo, CA (1990)
+11.	Kolodner J.: Maintaining Organization in a Dynamic Long-Term Memory. Cognitive 
+Science, 7 (1983) 243-280
+12.	Kolodner J.: Case-Based Reasoning. Morgan Kaufmann Publishers, Inc., San Mateo, 
+CA (1993)
+13.	Lebowitz M.: Generalization From Natural Language Text. Cognitive Science, 7
+(1983) 1-40
+14.	Lebowitz M. : Concept Learning in a Rich Input Domain : Generalization- Based
+Memory. In : Machine Learning : An Artificial Intelligence Approach, Vol 2. Michalski 
+R., Carbonell J., Mitchell T. (Edts.), Morgan Kaufmann, Los Altos, CA (1986)
+15.	Lebowitz M. : Deferred Commitment in UNIMEM : Waiting to learn. In : Proceedings 
+5th Machine Learning Conference, Ann Arbor, Michigan (1988) 80-86
+16.	Ram A.: Indexing, Elaboration and Refinement : Incremental Learning of Explanatory 
+Cases. In : Case-Based Learning, Kolodner J. (Edt.), Kiuwer Academic
+Publishers, Boston (1993) 7-54
+17.	Rich E. : Artificial Intelligence. In : Encyclopedia of Artificial Intelligence, Shapiro
+S. (Edt.), Wiley Interscience (1987) 9-16
+18.	Schank R. : Dynamic memory. A theory of reminding and learning in computers
+and people. Camdridge University Press, Cambridge (1982)

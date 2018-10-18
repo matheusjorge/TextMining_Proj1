@@ -1,0 +1,53 @@
+The Adaptation Knowledge Bottleneck: How to
+Ease it by Learning from Cases
+
+Kathleen Hanney and Mark T. Keane
+
+Dept. of Computer Science, Trinity College, Dublin, Ireland
+E-mail: kathleen.hanney, mark.keane@cs.tcd.ie
+
+
+Abstract. Assuming that adaptation knowledge will continue to be an
+important part of CBR systems, a major challenge for the area is to
+overcome the knowledge-engineering problems that arise in its acquisition. 
+This paper describes an approach to automating the acquisition
+of adaptation knowledge overcoming many of the associated knowledge-engineering 
+costs. This approach makes use of inductive techniques, which
+learn adaptation knowledge from case comparison. We also show how this
+adaptation knowledge can be usefully applied and report on how available 
+domain knowledge might be exploited in such an adaptation-rule
+learning-system.
+
+
+References
+
+1.	Agrawal R., Mannila H., Srikant R., Toivonen H., Verkamo A.: Fast Discovery of
+Association Rules. In Fayyad U., Piatetsky-Shapiro G., Smyth P., Uthurusamy R.
+(Ed.) Advances in Knowledge Discovery and Data Mining. AAAI Press / The MIT
+Press (1996)
+2.	Hammond K. :Case-Based Planning: Viewing Planning as a Memory Task. Boston:
+Academic Press (1989)
+3.	Hanney K., Keane M.T., Smyth B., Cunningham P.: Systems, Tasks and Adaptation
+Knowledge: Revealing some Revealing dependencies. In Proceedings of the First
+International Conference on Case-based Reasoning (1995) 461—470.
+4.	Hanney K.and Keane M.T.: Learning Adaptation Rules from a Case-Base. In Proceedings 
+of the Third European Workshop on Case-based Reasoning (1996) 179—192.
+5.	Hanney K.: Learning Adaptation Rules from Cases. MSc Thesis, Computer Science
+Department, Trinity College Dublin
+6.	Langley, P.: Elements of Machine Learning. Morgan Kaufmann (1996)
+7.	Leake D., Kinley A., Wilson D.: Learning to Improve Case Adaptation by Introspective 
+Reasoning and CBR. In Proceedings of the First International Conference
+on Case-based Reasoning (1995) 229—240.
+8.	Michalski R.: A Theory and Methodology of Inductive Learning. In R. Michalski, J.
+Carbonell, T. Mitchell (Ed.) Machine Learning: An Artificial Intelligence Approach
+Vol. 1. Morgan Kaufmann (1983)
+9.	Smyth B. 1996. Case-based Design. Ph.D. Dissertation, Computer Science Department, 
+Trinity College Dublin.
+10.	Smyth B., Keane M.T.: Retrieving Adaptable Cases: The Role of Adaptation
+Knowledge in Case Retrieval. In Topics in Case-Based Reasoning: Lecture Notes
+in Artifical Intelligence 837. Springer Verlag (1994) 209—220
+11.	Smyth B., Keane M.T.: Remembering to Forget: A Competence-Preserving Deletion 
+Policy in Case-Based Systems. In Proceedings International Joint Conference
+on Artificial Intelligence, Montreal. (1995)
+12.	Sycara E.P.: Using Case-Based Reasoning for Plan Adaptation and Repair. In
+Proceedings: Case-Based Reasoning Workshop (1988) 425-434.

@@ -1,0 +1,75 @@
+A Knowledge-Level Task Model of Adaptation in
+Case-Based Reasoning
+
+Béatrice Fuchs1, Alain Mille2
+
+1 Université Lyon III. IAE - équipe MODEME, 15 quai Claude Bernard,
+69 239 Lyon cedex 02, fuchs@univ-lyon3.fr
+2 CPE-Lyon. LISA, équipe Raisonnement à Partir de Cas,
+43 bd du 11 novembre 1918, 69 616 Villeurbanne cedex, am@cpe.fr
+
+
+
+Abstract. The adaptation step is central in case-based reasoning
+(CBR), because it conditions the obtaining of a solution to a problem.
+This step is difficult from the knowledge acquisition and engineering
+points of view. We propose a knowledge level analysis of the adaptation
+step in CBR using the reasoning task concept. Our proposal is based on
+the study of several CBR systems for complex applications which imply 
+the adaptation task. Three of them are presented to illustrate our
+analysis. We sketch from this study a generic model of the adaptation
+process using the task concept. This model is in conformity with other
+CBR formal models.
+References
+
+[Aamodt and Plaza, 1994] Aamodt, A. and Plaza, E. (1994). Case-Based Reasoning:
+Foundational Issues, Methodological Variations, and System Approaches. AI Communications. 
+7(1):39—58.
+[Armengol and Plaza. 1994] Armengol. B. and Plaza, B. (1994). A Knowledge Level
+Model of Case-Based Reasoning. In Richter, M. M., Wess, S., Althoff, K.-D., and
+Maurer, F., editors, First European Workshop on Case-Based Reasoning - EWCBR-
+98, pages 53—64, University of Kayserslautern, Germany. LNAI, vol. 837, Springer
+Verlag, Berlin.
+[Bergmann and Wilke. 1995] Bergmann, R. and Wilke, W. (1995). Building and refining 
+abstract planning cases by change of representation language. Journal of Artificial
+Intelligence Research, 3:53—118.
+[Fuchs, 1997] Fuchs, B. (1997). Représentation des connaissances pour le raisonnement
+à partir de cas : le système ROCADE. Thèse d’université, Université Jean Monnet.
+Saint-Etienne. France.
+[Fuchs et al., 1995] Fuchs, B., Mille, A., and Chiron, B. (1995). Operator Decision
+aiding by Adaptation of Supervision Strategies. In Veloso, M. and Aamodt, A.,
+editors, First International Conference on Case-Based Reasoning - ICCBR-95, pages
+23—32. Sesimbra, Portugal. LNAI, vol. 1010, Springer Verlag, Berlin.
+[Goel, 1996] Goal, A. (1996). Meta cases: Explaining case-based reasoning. In Smith,
+I. and Faltings, B., editors, Third European Workshop on Case-Based Reasoning -
+EWCBR-96, pages 150—163, Lausanne, Suisse. LNAI, vol. 1168. Springer Verlag,
+Berlin.
+[Hanks and Weld, 1995] Hanks, S. and Weld, D. S. (1995). A domain independant
+algorithm for plan adaptation. Journal of Artificial Intelligence Research, 2:319—360.
+[Hua et al., 1996] Hua, K., Faltings, B., and Smith, I. (1996). CADRE : Case Based
+Geometric Design. Artificial Intelligence in Engineering. 10:171—183.
+[Hna et al., 1993] Hua, K., Smith, I., and Faltings, B. (1993). Exploring case-based
+design: CADRE. Artificial Intelligence for Engineering Design, Analysis and Manufacturing 
+(Al EDAM), 7(2) :135—144.
+[Koehler, 1996] Koehler, J. (1996). Planning from Second Principles. Artificial Intelligence, 
+87:145—186.
+[Leake et al., 1997] Leake, D., Kinley, A., and Wilson, B. (1997). Learning to integrate
+multiple knowledge sources for case-based reasoning. In Proceedings of the 15th
+International Joint Conference on Artificial Intelligence. Morgan Kaufmann.
+[Lieber, 1997] Lieber, J. (1997). Raisonnement à partir de cas et classification
+hiérarchique. Application à la planification de synthèse en chimie organique. Thèse
+d’université. Université Henri Poincaré Nancy 1, Nancy, France.
+[Lieber and Napoli, 1996] Lieber, J. and Napoli, A. (1996). Adaptation of Synthesis
+Plans in Organic Chemistry. In Workshop on Adaptation in Case-Based Reasoning,
+ECAI-96, pages 18—21, Budapest, Hungary.
+[Maher et al., 1995] Maher, M. L., Balachandran, M. B., and Zhang, D. M. (1995).
+Case-Based Design. Lawrence Erlbaum Associates, Mahwah, New Jersey.
+[Mille, 1995] Mille, A. (1995). Raisonnement basé sur l’expérience pour coopérer
+à Ia prise de décision, un nouveau paradigme en supervision industrielle. Thèse
+d’université, Université Jean Monnet, Saint-Etienne.
+[Smyth, 1996] Smyth, B. (1996). Case-Based Design. Doctoral thesis of the Trinity
+College, Dublin.
+[Voß, 1996] Voß, A., editor (1996). Proceedings of the ECAI’96 Workshop: Adaptation
+in Case-Based Reasoning.
+[Voß, 1997] Voß, A. (1997). Case Reusing Systems - Survey, Framework and Guidelines. 
+Knowledge Engineering Review, 12(1):59—89.

@@ -1,0 +1,74 @@
+A New Algorithm for Learning Range Restricted
+Horn Expressions 
+(Extended Abstract)
+
+
+Marta Arias and Roni Khardon
+
+Division of Informatics, University of Edinburgh
+The King’s Buildings, Edinburgh EH9 3JZ, Scotland
+{marta,roni}@dcs.ed.ac.uk
+
+
+
+
+Abstract. A learning algorithm for the class of range restricted Horn
+expressions is presented and proved correct. The algorithm works within
+the framework of learning from entailment, where the goal is to exactly
+identify some pre-fixed and unknown expression by making questions to
+membership and equivalence oracles. This class has been shown to be
+learnable in previous work. The main contribution of this paper is in
+presenting a more direct algorithm for the problem which yields an improvement 
+in terms of the number of queries made to the oracles. The
+algorithm is also adapted to the class of Horn expressions with inequalities 
+on all syntactically distinct terms where a significant improvement
+in the number of queries is obtained.
+References
+
+[AK00a]		M. Arias and R. Khardon. Learning Inequated Range Restricted Horn
+Expressions. Technical Report EDJ-JNF-RR-OO11, Division of Informatics,
+University of Edinburgh, March 2000.
+[AK00b]		M. Arias and R. Khardon. A New Algorithm for Learning Range Restricted 
+Horn Expressions. Technical Report EDJ-LNF-RR-0010, Division
+of Informatics, University of Edinburgh, March 2000.
+[Ari97]		Hiroki Arimura. Learning acyclic first-order Horn sentences from entailment. 
+In Proceedings of the International Conference on ALT, Sendai,
+Japan, 1997. Springer-Verlag. LNAI 1316.
+[Coh95a]	W. Cohen. PAC-learning recursive logic programs: Efficient algorithms.
+Journal of Artificial Intelligence Research, 2:501—539, 1995.
+[Coh95b]	W. Cohen. PAC-learning recursive logic programs: Negative results. Journal 
+of Artificial Intelligence Research, 2:541—573, 1995.
+[FP93]		M. Frazier and L. Pitt. Learning from entailment: An application to propositional 
+Horn sentences. In Proceedings of the International Conference on
+Machine Learning, pages 120—127, Amherst, MA, 1993. Morgan Kaufmann.
+[Kha99a]	R. Khardon. Learning function free Horn expressions. Machine Learning,
+37:241—275, 1999.
+[Kha99b]	R. Khardon. Learning range restricted Horn expressions. In Proceedings of
+the Fourth European Conference on Computational Learning Theory, pages
+111—125, Nordkirchen, Germany, 1999. Springer-verlag. LNAI 1572.
+[KhaOO]	Roni Khardon. Learning horn expressions with LOGAN-H. To appear in
+ICML, 2000.
+[Llo87]		J.W. Lloyd. Foundations of Logic Programming. Springer Verlag, 1987.
+[MF92]		S. Muggleton and C. Feng. Efficient induction of logic programs. In
+S. Muggleton, editor, Inductive Logic Programming, pages 281—298. Aca-
+demic Press, 1992.
+[MR94]		S. Muggleton and L. De Raedt. Inductive logic programming: Theory and
+methods. The Journal of Logic Programming, 19 & 20:629—680, May 1994.
+[Plo70]		G. D. Plotkin. A note on inductive generalization. Machine Intelligence,
+5:153—163, 1970.
+[RB92]		L. De Raedt and M. Bruynooghe. An overview of the interactive concept-learner 
+and theory revisor CLINT. In S. Muggleton, editor, Inductive Logic
+Programming, pages 163—192. Academic Press, 1992.
+[RS98]		K. Rao and A. Sattar. Learning from entailment of logic programs with
+local variables. In Proceedings of the International Conference on Algo-
+rithmic Learning Theory, Otzenhausen, Germany, 1998. Springer-verlag.
+LNAI 1501.
+[RT98]		C. Reddy and P. Tadepalli. Learning first order acyclic Horn programs from
+entailment. In International Conference on Inductive Logic Programming,
+pages 23—37, Madison, WI, 1998. Springer. LNAI 1446.
+[SEMF98]	G. Semeraro, F. Esposito, D. Malerba, and N. Fanizzi. A logic framework
+for the incremental inductive synthesis of datalog theories. In Proceedings
+of the International Conference on Logic Program Synthesis and Transformation 
+(LOPSTR ‘97). Springer-Verlag, 1998. LNAI 1463.
+[Sha83]		E. Y. Shapiro. Algorithmic Program Debugging. MIT Press, Cambridge,
+MA, 1983.

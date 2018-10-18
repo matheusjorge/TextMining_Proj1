@@ -1,0 +1,69 @@
+On the Relation between the Context of a
+Feature and the Domain Theory in Case-Based
+Planning
+
+Héctor Muñoz-Avila & Frank Weberskirch &
+Thomas Roth-Berghofer
+
+Centre for Learning Systems and Applications (LSA)
+University of Kaiserslautern, Dept. of Computer Science
+P.O. Box 3049, D-67653 Kaiserslautern, Germany
+E-mail: {munioz|weberski|roth}@informatik.uni-kl.de
+
+
+
+Abstract. Determining the context of a feature (i.e., the factors affecting 
+the ranking of a feature within a case) has been subject of several
+studies in analysis tasks, particularly for classification but not in synthesis 
+tasks like planning. In this paper we will address this problem and
+explain how the domain theory plays a key role in determining the context 
+of a feature. We provide a characterization of the domain theory and
+show that in domains meeting this characterization, the context can be
+simplified. We also use explanation-based learning techniques to determine 
+the context in domains not meeting the characterization. Our work
+relates for the first time CBR, machine learning and planning theory to
+determine the context of a feature.
+References
+
+1.	D. W. Aha and R. L. Goldstone. Learning attribute relevance in context in
+instance-based learning algorithms. In Proceedings of the Twelfth Annual Conference 
+of the Cognitive Science Society, pages pp 141-148, Cambridge, IN: Lawrence
+Eribaum, 1990.
+2.	A. Barrett and D.S. Weld. Partial-order planning: Evaluating possible efficiency
+gains. Artificial Intelligence, 67(1) :71—112, 1994.
+3.	L. Ihrig and S. Kambhampati. Derivational replay for partial-order planning. In
+Proceedings of AAAI-94, pages 116—125, 1994.
+4.	L. Ihrig and S. Kambhampati. Design and implementation of a replay framework
+based on a partial order planner. In D. Weld, editor, Proceedings of AAAI-96. IOS
+Press, 1996.
+5.	5. Kambliampati, L. Ihrig, and B. Srivastava. A candidate set based analysis
+of subgoal interactions in conjunctive goal planning. In Proceedings of the 3rd
+International Conference on AI Planning Systems (AIPS-96), pages 125—133, 1996.
+6.	5. Kambliampati, S. Katukam, and Y. Qu. Failure driven dynamic search control
+for partial order planners: An explanation-based approach. Artificial Intelligence,
+88(1-2):253—315, 1996.
+7.	D. McAllester and D. Rosenblitt. Systematic nonlinear planning. In Proceedings
+of AAAI-91, pages 634—639, 1991.
+8.	5. Minton. Learning Search Control Knowledge: An Explanation-Based Approach.
+Kluwer Academic Publishers, Boston, 1988.
+9.	H. Muñoz-Avila and J. Hüllen. Retrieving relevant cases by using goal dependencies. 
+In M. Veloso and A. Aamodt, editors, Proceedings of the 1st International
+Conference on Case-Based Reasoning (ICCBR-95), number 1010 in Lecture Notes
+in Artificial Intelligence. Springer, 1995.
+10.	H. Muñoz-Avila and 3. Hüllen. Feature weighting by explaining case-based planning 
+episodes. In Third European Workshop (EWCBR-96), number 1168 in Lecture
+Notes in Artificial Intelligence. Springer, 1996.
+11.	H. Muñoz-Avila and F. Weberskirch. A specification of the domain of process
+planning: Properties, problems and solutions. Technical Report LSA-96-10E, Centre 
+for Learning Systems and Applications, University of Kaiserslautern, Germany,
+1996.
+12.	F. Ricci and P. Avesani. Learning a local similarity metric for case-based reasoning. 
+In Case-Based Reasoning Research and Development, Proceedings of the 1st
+International Conference (ICCBR-95), Sesimbra, Portugal, 1995. Springer Verlag.
+13.	T. Roth-Berghofer. Explanation-based learning of control information of failures
+in planning. Masters thesis (in german), University of Kaiserslautern, 1996.
+14.	P. D. Turney. The identification of context-sensitive features: A formal definition
+of context for concept learning. In Proceedings of the ECML-96 Workshop on
+Learning in Context-Sensitive Domains, 1996.
+15.	M. Veloso. Planning and learning by analogical reasoning. Number 886 in Lecture
+Notes in Artificial Intelligence. Springer Verlag, 1994.

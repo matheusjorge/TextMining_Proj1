@@ -1,0 +1,73 @@
+KBS Maintenance as Learning Two-Tiered
+Domain Representation *
+
+Gennady Agre
+
+Institute of Information Technologies - Bulgarian Academy of Sciences
+Acad. G. Bonchev St. Block 29A, 1113 Sofia, Bulgaria
+Email: agre@iinf.bg
+
+
+Abstract. The paper deals with the problem of improving problem-solving 
+behavior of traditional KBS in the course of its real operation
+which is a part of the maintenance task. The solution of the problem is
+searched in integration of the KBS with a specially designed case-based
+reasoning module used for correcting solutions produced by the KBS.
+Special attention is paid to the methods of case matching and reconciling 
+conflicts between CBR and RBR. The proposed solution for both
+problems is based on treating the maintenance task as a problem for
+learning two-tiered domain representation. From this view point rules
+form the first domain tier reflecting existing strong patterns in the representation 
+of domain concepts, while the second tier is formed by the
+newly solved cases along with a special domain-dependent procedure for
+case matching. The main ideas of the approach are illustrated by the
+results of some experiments with the experimental system CoRCase.
+References
+
+1.	Aamodt, A.: Knowledge-intensive, integrated approach to problem solving and sustained 
+learning. Ph.D. Dissertation, University of Trondheim (1991).
+2.	Agre, G.: Improvement of KBS Behavior by Using Problem-Solving Experience.
+Ph. Jorrand and V. Sgurev (Eds.), Proc. of the VIth Int. Conference AIMSA ‘94,
+World Scientific Pubi., Singapore (1994) 257—266.
+3.	Agre, G.: An Approach to Integration of Rule-Based and Case-Based Reasoning.
+Problems of Engineering Cybernetics and Robotics, 42, Bulgarian Academy of Sciences, 
+Sofia (1995) 40—49.
+4.	Barsalou, L., Hale, G.: Components of conceptual representation: from feature lists
+to recursive frames. I. Van Mechelen, J. Hampton, R.S. Michalsi and P. Theuns
+(Eds.) Categories and Concepts - Theoretical Views and Inductive Data Analysis,
+Academic Press (1993) 97—144.
+5.	Bergadano, F., Matwin, S., Michaiski R.S., Zhang, J.: Learning two-tiered description 
+of flexible concepts: the POSEIDON system. Machine Learning 8 (1992) 5—43.
+6.	Biberman, Y.: A Contex Similarity Measure. F. Bergadano and L. De Raedt (Eds.)
+Machine Learning: ECML-94. LNAJ 784, Springer-Verlag (1994) 48—63
+7.	Coenen, F., Bench-Capon, T.: Maintenance of Knowledge-Based Systems: Theory,
+Techniques and Tools, Academic Press (1993).
+8.	Golding A.R., Rosenbloom, P.S.: Improving rule-based systems through case-based
+reasoning. Proceedings of the National Conference on Artificial Intelligence, Anaheim, 
+MIT Press (1991) 22—27.
+9.	Hammond, K.: Case-Based Planning: Viewing Planning as a Memory Task. Academic Press (1989).
+10.	Iordanova l., Giacometti, A., Vila, A., Amy, B., Reymond, F., Abaoub, L., Dahou
+M., Rialle, V.: Shade - A Hybrid System for Diagnosis in Electromyography. Proc.
+of IXth Int. Congress on Electromyography, Jerusalem (1992).
+11.	Kolodner, J.L.: Extending problem solver capabilities through case-based inference.
+Proc. of 4th Workshop on Machine Learning, UC-Irvine, June 22-25 (1987) 167—
+178.
+12.	Markov, Z.: Private communication (1995).
+13.	Matwin, S., Plante, B.: A Deductive-Inductive Method For Theory Revision. R.S.
+Michalski and Gh. Tecuci (Eds.) Proc. of the First Int. Workshop on Multistrategy
+Learning (1991) Harpers Ferry, 160—174.
+14.	Michalski R.S.: Learning flexible concepts: fundamental ideas and a method based
+on two-tiered representation. Y. Kodratoff and R.S. Michalski (Eds.) Machine
+Learning: an Artificial Intelligence Approach 3, San Mateo, CA: Morgan Kaufmann (1990) 63—111.
+15.	Mitchell, T.M., R. Keller, Kedar-Cabelli, S.: Explanation-Based Generalization: A
+unifying view. Machine Learning 1 (1986) 47—80.
+16.	Cost, S., Salzberg, S.: A weighted nearest neighbor algorithm for learning with
+symbolic features. Machine Learning 10(1) (1991) 56—78.
+17.	Stanfill, C., Waltz, D.: Toward memory-based reasoning. Communication of ACM
+29(12) (1986) 1213—1229.
+18.	Zhang, J.: Integrating Symbolic and Subsymbolic Approaches in Learning Flexible
+Concepts. R.S. Michalski and Gh. Tecuci (Eds.) Proc. of the First Int. Workshop
+on Multistrategy Learning, Harpers Ferry (1991) 289—304.
+19.	Zhang, J.: Selecting Typical Instances in Instance-Based Learning. D. Sleeman and
+P. Edwards (Eds.) Machine Learning - Proc. of the Ninth Int. Workshop (ML02),
+San Mateo, CA: Morgan Kaufmann (1992) 470—479

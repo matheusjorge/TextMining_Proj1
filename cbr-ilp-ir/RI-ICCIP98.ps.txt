@@ -1,0 +1,65 @@
+Semi­automatic Acquisition of Machine
+Translation Knowledge from Examples
+
+Fuji REN
+Institute of Information science ,
+Hiroshima City University,
+3­4­1, Ozuka­Higasi,Asa­Minami­Ku,Hiroshima,
+731­31, Japan
+ren@its.hiroshima­cu.ac.jp
+Lixin Fan
+Digital Express Corporation
+3­601, Ozuka­Nisi 6­14, Asa­Minami­Ku, Hiroshima,
+731­31, Japan
+Jian­Yun NIE
+DIRO, Université de Montréal
+C.P. 6128, succ. centre­vile, Québec,
+H3C 3J7 Canada
+nie@iro.umontreal.ca
+Youliang JIAN
+Computer Institute,
+Dalian University of Technology
+116023, Dalian, China
+newyou@dlut.edu.cn
+
+Abstract
+A crucial problem in rule­based machine translation is the acquisition of translation knowledge. Many
+studies have been conducted for automatic acquisition in the past, but they require a great deal of
+annotated examples. In this paper, we describe a semi­automatic acquisition from translation examples in
+Japanese­Chinese environment. Whenever necessary, the process interacts with a user (a linguist) who
+will provides additional information and constraints for generalizing the translation examples. The semi­-automatic 
+approach is more efficient in the sense that less examples are required than automatic
+approaches. Once the acquired knowledge is integrated with an MT system, we observe an improvement
+in translation quality.
+
+References
+Dagan, I., Church, K. (1997) Termight: Coordinating humans and machine in bilingual terminology
+acquisition, Machine Translation, 12/1­2, pp. 89­107.
+Fung, P., McKeown, K. (1997) A technical word­ and term­translation aid using noisy parallel corpora
+across language groups, Machine Translation, 12/1­2, pp. 53­87.
+Furuse, O. and Iida, H. (1992) An Example­based Method for Transfer­Driven Machine Translation,
+Proc. TMI­92, pp. 139­150.
+Jian Y., Chang H., Wang X., Huang D. (1997) A Japanese parser using dependence relation, Language
+Engineering, pp. 258­265.
+Kaji, H., Kida, Y. and Morimoto, Y. (1992) Learning Translation Templates from Bilingual Text, Proc.
+COLING­92, pp. 672­678.
+Kay, M. (1997) The proper place of men and machine in language translation, Machine Translation,
+12/1­2, pp. 3­23.
+Kitamura, M. and Matsumoto, Y. (1996) Automatic Acquisition of Translation Rules from Parallel
+Corpora, Transactions of IPSJ, 37 / 6, pp. 1030­1040.
+Langé, J.­M., Gaussier, É., Daille, B. (1997) Bricks and skeletons: Some ideas for the near future of
+MAHT, Machine Translation, 12/1­2, pp. 39­51.
+Ren F. (1996), SWKJC Machine Translation System Based on Translation Rules Acquired from
+Corpora, Technique Report of Hiroshima City University,Technique Report of Hiroshima City
+University,HCU­IS­96­004, pp.1­31.
+Sato, S. (1995) MBT2: A Method for Combining Fragments of Examples in Example­based Translation,
+Artificial Intelligence, 75, pp. 31­49.
+Sun, M. (1994) Chinese syntactic analysis using a multiple pass, deterministic algorithm and its
+application in text understanding, Proceedings of Processing of Linguistic Information, pp. 103­168
+Watanabe, H. (1993) A Method for Extracting Translation Patterns from Translation Examples, Proc.
+TMI­93, pp. 292­301.
+Yu, S. (1995) A hypothesis about restricted regular Chinese, Proceedings of Chinese modernization, pp.
+193­205
+Zajac, R., Vanni, M. (1997) Glossary­based MT engines in a multilingual analyst's workstation
+architecture, Machine Translation, 12/1­2, pp. 131­151.
+

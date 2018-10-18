@@ -1,0 +1,77 @@
+Structural Similarity as Guidance
+in Case-Based Design *
+
+Katy Börner
+
+HTWK Leipzig, Department of Informatics,
+P.O.Box 66, 04251 Leipzig, FRG
+katy@informatik.th-leipzig.de
+
+
+
+Abstract. This paper presents a novel approach to determine structural
+similarity as guidance for adaptation in case-based reasoning (CBR). We
+advance structural similarity assessment which provides not only a single
+numeric value but the most specific structure two cases have in common,
+inclusive of the modification rules needed to obtain this structure from
+the two cases. Our approach treats retrieval, matching, and adaptation
+as a group of dependent processes. This guarantees the retrieval and
+matching of not only similar but adaptable cases. Both together enlarge
+the overall problem solving performance of CBR and the explainability
+of case selection and adaptation considerably. Although our approach
+is more theoretical in nature and not restricted to a specific domain,
+we will give an example taken from the domain of industrial building
+design. Additionally, we will sketch two prototypical implementations of
+the approach.
+References
+
+1.	Katy Börner. Structural similarity in case-based design. In Dietmar Janetzko and
+Thomas J. Schult, editors, Fälle in hybriden Systemen. Beiträge zum 2. Workshop
+des Arbeitskreises fallbasiertes Schließen, pages 1—13, 1993.
+2.	Eric A. Domeshek and Janet L. Kolodner. A case-based design aid for architecture.
+In Proc. Second International Conference on Artificial Intelligence in Design, pages
+497—516. Kiuwer Academic Publishers, June 1992.
+3.	Dedre Gentner and Kenneth D. Forbus. MAC/FAC: A model of similarity-based
+retrieval. In Proceedings of the Cognitive Science Conference, pages 504—509, 1991.
+4.	Ashok K. Goel. Integration of case-based reasoning and model-based reasoning for
+adaptive design problem solving. PhD thesis, Ohio State University, 1989.
+5.	Kristian J. Hammond. CHEF: A Model of Case-Based Planning. In Proceedings
+of the 5th Annual National Conference on Artificial Intelligence (AAAI-86), pages
+267—271. Morgan Kaufmann, 1986.
+6.	Thomas R. Hinrichs. Problem solving in open worlds: A case study in design.
+Lawrence Erlbaum Associates, 1992.
+7.	Ludger Hovestadt. A4 — Digital Building — Extensive Computer Support for the
+Design, Construction, and Management of Buildings. In CAAD Futures ‘93, Pro-
+ceedings of the Fifth International Conference on Computer-Aided Architectural
+Design Futures, pages 405—422, Pittsburgh, June 1993. North-Holland, Amster-
+dam.
+8.	Kefeng Hua and Boi Faltings. Exploring case-based building design — CADRE. Al
+EDAM, 7(2):135—143, 1993.
+9.	Bipin Indurkhya. On the role of interpretive analogy in learning. New Generation
+Computing, 8(4):385—402, 1991.
+10.	Klaus P. Jantke. Nonstandard concepts of similarity in case-based reasoning. In
+M. M. Richter H. H. Bock, W. Lenski, editor, Information Systems and Data Anal-
+ysis: Prospects —Foundations—Applications, Proceedings of the 17th Annual Con-
+ference of the GfKl, Univ. of Kaiserslautern, 1993, pages 29—44. Springer Verlag,
+1994.
+11.	Alex M. Kass, David B. Leake, and Christopher C. Owens. SWALE: A program
+that explains. In Roger C. Schank, editor, Explanation patterns: Understanding
+mechanically and creatively, pages 232—254. Lawrence Erlbaum Associates, 1986.
+12.	Janet L. Kolodner. An introduction to case-based reasoning. ArtificialIntelligence
+Review, 6:3—34, 1992.
+13.	Phyllis Koton. Using experience in learning and problem solving. PhD thesis, MIT,
+1988.
+14.	D. Navin chandra. Innovative design systems, where are we and where do we go
+from here? Part I: Design by association. The Knowledge Engineering Review,
+7:3:183—213, 1992.
+15.	Scott O’Hara. A model of the ‘redescription’ process in the context of geomet-
+ric proportional analogy problems. In Klaus P. Jantke, editor, Proceedings of
+the International Workshop on Analogical and Inductive Inference, pages 268—293.
+Springer Verlag, 1992.
+16.	Michael M. Richter. Classification and learning of similarity measures. In Proc.
+Ähnlichkeit von Fallen beim fallbasierten Schließen, Workshop, June 25-26, 1992,
+Kaiserslautern, pages 1—8. Universität Kaiserslautern, FB Informatik, SEKI Work-
+ing Paper SWP-92-11, 1992.
+17.	Stefan WeB. PATDEX/2: Ein System zum adaptiven, failfokussierenden Lernen in
+technischen Diagnosesituationen. SEKI-Working Paper SWP9 1/01, University of
+Kaiserslautern, Germany, 1991.

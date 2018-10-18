@@ -1,0 +1,45 @@
+Case Based Reasoning, Fuzzy Systems Modeling and
+Solution Composition
+
+
+Ronald R. Yager
+Machine Intelligence Institute, Iona College
+New Rochelle, NY 10801
+
+
+Abstract
+Fuzzy systems modeling technique and the case based reasoning methodology are briefly
+described, It is then shown that these two approaches can be viewed as essentially involving
+the same process, a matching step and a solution composition step. It is noted that in the
+typical case based reasoning application the solution composition step is more difficult.
+Two techniques are suggested to help in the solution composition task in case based
+reasoning. The first, the weighted median, is useful in domains in which the action space
+consists of an ordered collection of alternatives. The second, a variation of reinforcement
+learning, is useful in domains in which the resulting actions involve a sequence of steps.
+
+References
+[1]. Yager, R. R. and Filev, D. P., Essentials of Fuzzy Modeling and Control, John
+Wiley: New York, 1994.
+[2]. Kolodner, J., Case-Based Reasoning, Morgan Kaufmann: San Mateo, CA, 1993.
+[3]. Yager, R. R., “Information fusion and weighted median aggregation,” Proceedings
+5th International CIFT Workshop Trento, Italy, 209-219, 1995.
+[4]. Yager, R. R., “Fusion of ordinal information using weighted median aggregation,”
+Technical Report# MII-1520 Machine Intelligence Institute, Lona College, 1995.
+[5]. Yager, R. R. and Rybalov, A., “Understanding the Median as a Fusion Operator,”
+International Journal of General Systems, (To Appear).
+[6]. Barto, A. G., Sutton, R. S. and Anderson, C. W., “Neuronlike adaptive elements
+that can solve difficult learning control problems,” IEEE Transactions on Systems,
+Man and Cybernetics 13, 834-846, 1983.
+[7]. Zadeh, L. A., “Similarity relations and fuzzy orderings,” Inf. Sci. 3, 177-200,
+1971.
+[8]. Dubois, D. and Prade, H., “A review of fuzzy sets aggregation connectives,”
+Information Sciences 36, 85 - 121, 1985.
+[9]. Zadeh, L. A., “Fuzzy sets and information granularity,” in Advances in Fuzzy Set
+Theory and Applications, Gupta, M.M., Ragade, R.K. & Yager, R.R. (eds.),
+Amsterdam: North-Holland, 3-18, 1979.
+[10]. Zadeh, L. A., “A computational approach to fuzzy quantifiers in natural
+languages,” Computing and Mathematics with Applications 9, 149-184, 1983.
+[11]. Yager, R. R., “Quantifier guided aggregation using OWA operators,”
+International Journal of Intelligent Systems 11, 49-73, 1996.
+[12]. Yager, R. R., “On ordered weighted averaging aggregation operators in multi-criteria 
+decision making,” IEEE Trans. on Sys, Man and Cyber. 18, 183-190, 1988.

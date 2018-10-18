@@ -1,0 +1,58 @@
+Universally Ideal Secret Sharing Schemes \Lambda
+
+Amos Beimel y Benny Chor z
+Department of Computer Science
+Technion, Haifa 32000, Israel
+
+Abstract
+Given a set of parties f1; : : : ; ng, an access structure is a monotone collection of subsets of
+the parties. For a certain domain of secrets, a secret sharing scheme for an access structure
+is a method for a dealer to distribute shares to the parties. These shares enable subsets
+in the access structure to reconstruct the secret, while subsets not in the access structure
+get no information about the secret. A secret sharing scheme is ideal if the domains of the
+shares are the same as the domain of the secrets. An access structure is universally ideal
+if there exists an ideal secret sharing scheme for it over every finite domain of secrets. An
+obvious necessary condition for an access structure to be universally ideal is to be ideal
+over the binary and ternary domains of secrets. In this work, we prove that this condition
+is also sufficient. We also show that being ideal over just one of the two domains does not
+suffice for universally ideal access structures. Finally, we give an exact characterization for
+each of these two conditions.
+
+References
+[1] J.C. Benaloh and J. Leichter. Generalized Secret Sharing and Monotone Functions. In
+S. Goldwasser, editor, Advances in Cryptology ­ CRYPTO '88 proceeding, volume 403 of
+Lecture notes in computer Science, pages 27--35. Springer­Verlag, 1990.
+[2] J.C. Benaloh and S. Rudich. Private Communication, 1989.
+[3] G.R. Blakley. Safeguarding Cryptographic Keys. In Proc. AFIPS 1979 NCC, vol. 48, pages
+313--317, June 1979.
+[4] C. Blundo, A. De Santis, L. Gargano, and U. Vaccaro. On the Information Rate of Secret
+Sharing Schemes. In Advances in Cryptology ­ CRYPTO '92 proceeding, 1992.
+[5] E.F. Brickell. Some Ideal Secret Sharing Schemes. Journal of Combin. Math. and Combin.
+Comput., 6:105--113, 1989.
+[6] E.F. Brickell and D.M. Davenport. On the Classification of Ideal Secret Sharing Schemes.
+Journal of Cryptology, 4(73):123--134, 1991.
+[7] R.M. Capocelli, A. De Santis, L. Gargano, and U. Vaccaro. On the Size of Shares for
+Secret Sharing Schemes. In J. Feigenbaum, editor, Advances in Cryptology ­ CRYPTO '91
+proceeding, volume 576 of Lecture notes in computer Science, pages 101--113. Springer­Verlag,
+1992.
+[8] M. Ito, A. Saito, and T. Nishizeki. Secret Sharing Schemes Realizing General Access Struc­ture. 
+In Proc. IEEE Global Telecommunication Conf., Globecom 87, pages 99--102, 1987.
+[9] W. Jackson and K. M. Martin. On Ideal Secret Sharing Schemes. submitted for publication,
+1992.
+[10] E.D. Karnin, J.W. Greene, and M.E. Hellman. On Secret Sharing Systems. IEEE Trans.
+on Inform. Theory, IT­29 no. 1:35--41, 1983.
+[11] J. Kilian and N. Nisan. Private Communication, 1990.
+[12] M. Krachmer and A. Wigderson. Monotone Circuits for Connectivity Require Super­
+Logarithmic Depth. In Proceeding 20th Annual Symposium on the Theory of Computing,
+pages 539--550, 1988.
+[13] K. M. Martin. Discrete Structures in the Theory of Secret Sharing. PhD thesis, University
+of London, 1991.
+[14] P. D. Seymour. On Secret­Sharing Matroids. J. of Combinatorial Theory, Series B, 56:69--
+73, 1992.
+[15] A. Shamir. How to Share a Secret. Communications of the ACM, 22:612--613, November
+1979.
+[16] K. Truemper. Matroid Decomposition. Academic press, Boston, 1992.
+[17] W.T. Tutte. A Homotopy Theorem for Matroids I,II. Transactions of the American Math­
+ematical Society, 88:144--160,161--174, 1958.
+[18] D.J.A. Welsh. Matroid Theory. Academic press, London, 1976.
+

@@ -1,0 +1,53 @@
+Learning User Preferences in Case-Based Software
+Reuse
+
+Paulo Gomes and Carlos Bento
+
+Centro de Informática e Sistemas da Universidade de Coimbra
+Polo II — Pinhal de Marrocos, 3030 Coimbra, Portugal
+{pgomes,bento}@dei.uc.pt
+
+
+
+Abstract. Case-Based Reasoning is a good framework for Software Reuse 
+because it provides a flexible and powerful searching mechanism
+for software components. In a CBR system for software reuse it is important 
+to learn the user preferences adapting the system software
+choices to the user. In a complex domain as software design, the similarity 
+metric will also be complex, thus creating the necessity for a
+learning algorithm capable of weight learning. In this paper we present
+an evolutionary approach to similarity weight learning in a CBR system
+for software reuse. This approach is justified by the similarity metric
+complexity and recursive nature, which makes other learning methods to
+fail. We present experimental work showing the feasibility of this approach 
+and we also present a parametric study, exploring several crossover 
+and mutation strategies.
+References
+
+Back, T. and H.-P. Schwefel (1993). ,,An Overview of Evolutionary Algorithms for
+Parameter Optimization.” Evolutionary Computation 1(1): 1-23.
+Bonzano, A., P. Cunningham, et al. (1997). Using Introspective Learning to Improve
+Retrieval in CBR: A Case Study in Air Trafic Control. International Conference on
+Case-Based Reasoning (ICCBR’97), Providence, RI, USA, Springer-Verlag.
+Bruninghaus, S. and K. Ashley (1997). Using Machine Learning for Assigning Indices
+to Textual Cases. Second International Conference on Case-Based Reasoning
+(ICCBR’97), Providence, RI, USA, Springer-Verlag.
+Fox, S. and D. Leake (1995). Learning to Refine Indexing by Introspective Learning.
+International Conference on Case-Based Reasoning (ICCBR’95), Sesimbra, Portugal, 
+Springer-Verlag.
+Goel, A. (1992). Representation of Design Functions in Experience-Based Design.
+Intelligent Computer Aided Design. D. Brown, M. Waldron and H. Yosnikawa,
+Elsevier Science.
+Gomes, P. and C. Bento (1999). Converting Programs into Cases for Software Reuse.
+International Joint Conference on Artificial Intelligence (IJCAI 99) Workshop:
+Automating the Construction of Case-Based Reasoners, Stockholm, Sweden.
+Katalagarianos, P. and Y. Vassiliou (1995). ,,On the reuse of software: a case-based
+approach employing a repository.” Automated Software Engineering 2: 55-86.
+Prieto-Diaz, R. (1993). ,,Status Report: Software Reusability.” IEEE Software(May).
+Ricci, F. and P. Avesani (1995). Learning a Local Similarity Metric for Case-Based
+Reasoning. International Conference on Case-Based Reasoning (ICCBR’95), Sesimbra, 
+Portugal, Springer-Verlag.
+Watson, 1. (1997). Applying Case-Based Reasoning: techniques for enterprise systems, 
+Morgan Kaufmann.
+Wettschereck, D. and D. Aha (1995). Weighting Features. International Conference
+on Case-Based Reasoning (ICCBR’95), Sesimbra, Portugal. Springer-Verlag.

@@ -1,0 +1,68 @@
+Integrating CBR and Heuristic Search for
+Learning and Reusing Solutions in Real-Time
+Task Scheduling
+
+Juan Manuel Adán Coello1, Ronaldo Camilo dos Santos2
+
+1 Instituto de Informática, PUC-Campinas, Cx.P. 317, CEP 13.020-904,
+Campinas, SP, BRAZIL
+juan@zeus.puccamp.br
+2FEEC/UNICAMP Campinas, SP, BRAZIL
+ronaldo@dca.fee.unicamp.br
+
+
+
+Abstract. This paper presents the Case-Based Reasoning Real-Time Scheduling 
+System (CBR-RTS) that integrates into a case-based reasoning framework a
+heuristic search component. The problem addressed involves scheduling sets of
+tasks with precedence, ready time and deadline constraints. CBR-RTS reuses
+the solution of known cases to simplify and solve new problems. When the
+system does not have applicable cases, it tries to find a solution using heuristic
+search. A particularly interesting feature of CBR-RTS is its learning ability.
+New problems solved by the heuristic scheduler can be added to the case base
+for future reuse. Performed tests have shown that small bases of cases carefully
+chosen allow to substantially reduce the time needed to solve new complex
+problems
+References
+
+1.	Stankovic, J. A. Misconceptions About Real-Time Computing. IEEE Computer, October,
+1988.
+2.	Liu, C.L., J. W. Layland. Scheduling Algorithms for Multiprogramming in a Hard-Real-Time 
+Environment. JACM, vol. 20. no.1, 1973.
+3.	Blazewicz, J., J.K. Lenstra and A.H.G.R. Kan. Scheduling Subject to Resource Constraints: 
+Classification and Complexity. Discrete Applied Mathematics 5:11-24, 1983.
+4.	Adán Coello, J. M., M. F. Magalhães, K. Ramamritham. Developing predictable and
+flexible real-time systems. Control Engineering Practice. 6(1):67-8 1. 1998.
+5.	Kolodner, J. Case-Based Reasoning. Morgan Kaufmann, 1993.
+6.	Mok, A. K. Fundamental Desing Problems of Distributed Systems for the Distributed
+Hard-Real-Time Environment. PhD Thesis, Dept. of Electrical Engineering and Computer
+Science. Massachusetts Institute of Technology. 1983.
+7.	Sprunt, B., L. Sha and J. Lehoczky. Aperiodic Task Scheuling for Hard-Real-Time Systems. 
+The Journal of Real-Time Systems 1, 27-60. 1989.
+8.	Messmer, B. T. Efficient Graph Matching algorithms for Preprocessed Model Graphs.
+PhD Thesis. Institute of Computer Science and Applied Mathematics, University of Bern,
+Switzerland, 1996.
+9.	Ullman, J. R. An algorithm for subgraph isomorphism. Journal of the ACM, 23(1):31-42,
+1976.
+10.	Ramamritham, K., G. Fohier, J.M. Adán. Issues in the static allocation and scheduling of
+complex periodic tasks. In: Proc. 10th IEEE Workshop on Real-Time Operating Systems
+and Software. 1993.
+11.	Xu, J. and D. L. Parnas. Scheduling processes with release times, deadlines, precedence,
+and exclusion relations. IEEE Transactions on Software Engineering, 16(3):360-369.
+1990.
+12.	Miyashita, K. and K. Sycara. CABINS: A framework of Knowledge Acquisition and
+Iterative Revision for Schedule Improvement and Reactive Repair. CMU Technical Report
+CMU-RI-TR-94-34. The Robotics Institute, Carnegie Mellon University, USA, 1995.
+13.	Koton, P. Reasoning about evidence in causal explanation. In Proceedings of AAAI-88.
+AAAI Press/MIT Press. Cambridge, MA, 1988.
+14.	Cunningham, P. and B. Smyth. Case-Based Reasoning in Scheduling: Reusing Solution
+Components. Technical Report TCD-CS-96-12, Department of Computer Science, Trinity
+College Dublin, Ireland. 1996.
+15.	Veloso, M. PRODIGY/ANALOGY: Analogical Reasoning in General Problem Solving.
+In Topics in Case-Based Reasoning, S. Wess, K. Althoff and M. Richter (Eds.) Lecture
+Notes in Artificial Intelligence, Springer-Verlag, 1994.
+16.	Bunke, H. and B. T. Messmer. Similarity Measures for Structured Representations. In
+Topics in Case-Based Reasoning, S. Wess, K. Althoff and M. Richter (Eds.) Lecture
+Notes in Artificial Intelligence, Springer-Verlag. 1994.
+17.	Gebhardt, F. Methods and systems for case retrieval exploiting the case structure. FABEL
+report no. 39. GMD, Germany. 1995.

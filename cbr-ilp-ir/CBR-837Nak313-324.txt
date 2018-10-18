@@ -1,0 +1,46 @@
+Tuning Rules by Cases
+
+	      Yoshio Nakatani	                  David Israel
+	Industrial Electronics & Systems Lab.	       CSLI
+	    Mitsubishi Electric Corp.	       Stanford University
+	  Amagasaki, Hyogo 661, Japan	   Stanford, CA 94305-4115, USA
+
+
+Abstract. A new method is proposed for tuning rules by cases, especially in domains in
+which precise and exceptionless rules are known to be unavailable. When the result of
+execution of a rule is not satisfactory, the system stores the name of the executed rule, the
+conditions under which the rule was executed, the evaluation of the execution, the attributes 
+and values to be modified, and hypothesized alternatives, as a case. The next
+time the rule is to be executed under the same conditions, the relevant attributes and
+values are temporarily modified, by replacement by their hypothesized alternatives. After 
+a certain number of such experiments, the maintainer of the system can reconstruct
+the whole rule base by referring to the stored cases. This methodology is implemented as
+a system, A LA CARTE, in the domain of cooking.
+
+References
+1.	Branting, L. K. and Porter, B.W.: “Rules and Precedents as Complementary Warrants”, 
+Proc. of AAAI-91 (1991).
+
+2.	Golding, A. R. and Rosenbloom, P.S.: “Improving Rule-Based Systems through
+Case-Based Reasoning”, Proc. of AAAI-91 (1991).
+
+3.	Hammond, K. J.: Case-Based Planning: Viewing Planning as a Memory Task. Academic 
+Press 1989, San Diego.
+
+4.	Kolodner, J. L. : “Towards an Understanding of the Role of Experience in the Evolution 
+from Novice to Expert”, Int. J. Man-Machine Studies, 19 (1983).
+
+5.	Kolodner, J. L.: “An Introduction to Case-Based Reasoning”, Artificial Intelligence
+Review, 6(1992).
+
+6.	Lave, J. : “Cognition in Practice: Mind, Mathematics and Culture in Everyday Life”,
+Cambridge, UK, Cambridge University Press (1988).
+
+7.	Minsky, M.: “Logical Versus Analogical or Symbolic Versus Connectionist or Neat
+Versus Scruffy”, AI Magazine, SUMMER (1991).
+
+8.	Miyake, N. and Hatano, G.: “Socio-cultural Constraints and Beyond”, Advances in
+Japanese Cognitive Science, Vol. 4 (1991) in Japanese.
+
+9.	Nakatani, Y. and Israel, D. : An Architecture for Tuning Rules by Cases, Report No.
+CSLI-92-173, CSLI, Stanford University (1992).

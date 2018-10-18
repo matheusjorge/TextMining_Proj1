@@ -1,0 +1,49 @@
+Similarity Evaluation Between Observed Behaviours for
+the Prediction of Processes
+
+Sophie ROUGEGREZ
+
+LAFORIA-IBP
+University Pierre & Marie Curie
+4, place Jussieu
+75230 PARIS cedex 05
+FRANCE
+e-mail: rougegre@laforia.ibp.fr
+
+
+
+Abstract:
+This article deals with the prediction of processes. Research work on this
+topic considers some well known processes. Their prediction is based on a
+model which takes precisely into account the influence of the parameters
+involved in the modification of their state. Such models are not conceivable
+here : the point is indeed of some processes that human beings control little,
+like forest fires, which is the subject of the system presented here. The
+reasoning that it uses relies on cases. We consider indeed that if two processes
+behaved the same way during a certain interval then their behaviours are very
+likely to be similar afterwards. The matching is based on an approximate
+string matching. Because of the complexity of the handled processes, points
+of view have been introduced. Their consideration requires a matching
+adapted to each one. They are presented here.
+
+Bibliography
+[1] : Bernard Carré, Jean-Marc Geib : The point of view notion for multiple
+inheritance. Proceedings of ECOOP/OOPSLA’90
+[2] : H. Cassagne : Modélisation de la propagation des feux de forêts. Rapport du
+CEA Cadarache - IPSN/DRS/SESRU
+[3] : P. A. F. Hall, G. R. Dowling : Approximate string matching. Computing
+surveys, Vol. 12, nº 4, pp. 381 - 402, december 1980
+[4] : J. Mc Carthy : Situations, actions and causal laws. (AI memo 1), Artificial
+Intelligence Project. Stanford University, 1957
+[5] : O. Marino, F. Rechenmann, P. Uvietta : Multiple perspectives and
+classification mechanism in object-oriented representation. Proceedings of the 9th
+ECAI, Stockholm, 1990
+[6] : M. J. Pazzani : Indexing strategies for goal specific retrieval of cases.
+Proceedings of the DARPA workshop on CBR, 1989
+[7] : S. Rougegrez : A case-based reasoning system independent of a representation
+of cases in terms of features. Proceedings of the AAAI Spring Symposium on Case-based 
+reasoning and Information Retrieval, Stanford University, March 1993
+[8] : L. Trabaud : Lesfeux de forêts : mécanismes, comportement et environnement.
+France Sélection, 1992
+[9] : Wagner R.A., Fischer M.J. : The string-to-string correction problem. Journal of
+the ACM. Vol. 21, No. 1, 1974

@@ -1,0 +1,57 @@
+FILTERING NOISY PARALLEL CORPORA OF WEB PAGES
+
+Jian­Yun Nie, Jian Cai
+RALI lab., Département d'informatique et recherche opérationnelle
+Université de Montréal, Montréal, Québec, H3C 3J7 Canada
+{nie, cai}@iro.umontreal.ca
+
+Abstract
+In our previous study, we successfully built an
+automatic mining system for parallel texts from the
+Web -- PTMiner that is able to determine a large
+number of parallel Web pages for different language
+pairs. However, there are a number of non­parallel
+text pairs in this corpus. This paper proposes a
+filtering approach to clean up the corpus. Our
+experiments show that once the corpus is cleaned,
+both the translation accuracy of the resulting
+translation models and the effectiveness of cross­
+language information retrieval (CLIR) using these
+models are improved significantly.
+
+References
+1 P.F. Brown, S.A. Della Pietra, V.J. Della Pietra,
+and R.L. Mercer. The mathematics of machine
+translation: Parameter estimation. Computational
+Linguistics, 19: 263­311, 1993.
+2 S. F. Chen. Aligning sentences in bilingual corpora
+using lexical information. Proc. ACL, pp. 9­16,
+1993.
+3 J. Chen, J.Y. Nie. Automatic construction of
+parallel English­Chinese corpus for cross­ language
+information retrieval. Proc. ANLP, pp. 21­28,
+Seattle, 2000.
+4 P. Denisowski. Cedict project, http://www.
+mindspring.com/~paul_denisowski/cedict.html, 1999.
+5 W. A. Gale and K. W. Church. A program for
+aligning sentences in bilingual corpora. Proc. ACL,
+pp. 177­184., 1991.
+6 P. Isabelle, G. Foster, and P. Plamondon. SILC: a
+System for Language and coding identification.
+http://www­rali.iro.umontreal.ca/ProjetSILC.en.html,
+1997.
+7 K. L. Kwok and L. Grunfeld, TREC­5 English and
+Chinese retrieval experiments using PIRCS. Proc.
+TREC­5, NIST SP 500­238. Ed. Harman, D. K.
+and Voorhees, E. M, pp. 133­142, 1996.
+8 J.Y. Nie, M. Simard, P. Isabelle, and R. Durand.
+Cross­language information retrieval based on
+parallel texts and automatic mining parallel texts
+from the Web. Proc. ACM SIGIR, pages 74­81,
+1999.
+9 M. Simard, G. F. Foster, and P. Isabelle. Using
+cognates to align sentences in bilingual corpora.
+Proc. TMI­92, 1992.
+10 D. Wu. Aligning a parallel English­Chinese
+corpus statistically with lexical criteria. Proc. ACL,
+pp. 80­87, 1994.

@@ -1,0 +1,148 @@
+Linguistic Annotation for the Semantic Web
+
+Paul Buitelaar and Thierry Declerck
+DFKI GmbH, Language Technology Department
+Stuhlsatzenhausweg 3, D­66123 Saarbruecken, Germany
+
+Abstract. Establishing the semantic web on a large scale implies the widespread an­
+notation of web documents with ontology­based knowledge markup. For this purpose,
+tools have been developed that allow for semi­automatic annotation of web documents
+with ontology­based metadata. However, given that a large number of web documents
+consist either fully or at least partially of free text, language technology tools will be
+needed to support this authoring process by providing an automatic analysis of the
+semantic structure of textual documents. In this way, free text documents will become
+available as semi­structured documents, from which meaningful units can be extracted
+automatically (information extraction) and organized through clustering or classifica­tion 
+(text mining). Obviously, this is of importance for both knowledge markup and
+ontology development, i.e. the dynamic adaptation of ontologies to evolving appli­cations 
+and domains. In this paper we present the following linguistic analysis steps
+that underlie both of these: morphological analysis, part­of­speech tagging, chunking,
+dependency structure analysis, semantic tagging. Examples for each are given in the
+context of two projects that use linguistic and semantic annotation for the purpose of
+cross­lingual information retrieval and content­based multimedia access.
+
+References
+[1] Koskenniemi K. Two­level morphology: a general computational model for word­form recognition and
+production. Publication No. 11. Helsinki: University of Helsinki Department of General Linguistics. 1983.
+[2] http://www.lingsoft.fi/doc/gertwol/
+[3] Finkler W. and Neumann G. Morphix: A Fast Realization of a Classification­Based Approach to Morphol­ogy. 
+Proceedings of the 4th Austrian Artificial Intelligence Conference. 1988.
+[4] Petitpierre, D. and Russell, G. MMORPH ­ The Multext Morphology Program. Multext deliverable report
+for the task 2.3.1, ISSCO, University of Geneva. 1995.
+[5] Matsumoto Y., Kitauchi A., Yamashita T., Hirano Y., Matsuda H., Asahara M. Japanese Morphological
+Analysis System ChaSen, version 2.0, Manual 2nd edition. 1999. http://chasen.aist­nara.ac.jp/
+[6] http://www.xrce.xerox.com/research/mltt/fsnlp/morph.de.html
+[7] http://www.issco.unige.ch/projects/MULTEXT.html
+[8] Volk M., Vintar S., Buitelaar P., Raileanu D., Sacaleanu B. Semantic Annotation for Concept ­Based Cross­
+Language Medical Information Retrieval. To appear in the International Journal of Medical Informatics.
+[9] http://www.georgetown.edu/cball/ling361/tagging overview.html
+[10] Brill E. A simple rule­based part of speech tagger. Proceedings of the Third Annual Conference on Applied
+Natural Language Processing, ACL. 1992.
+[11] Brill E. Unsupervised learning of disambiguation rules for part of speech tagging. Proceedings of the third
+ACL Workshop on Very Large Corpora. 1995.
+[12] Tapanainen, P., Voutilainen, A. Tagging accurately: don't guess if you don't know. Technical Report,
+Xerox Corporation. 1994. http://www.ling.helsinki.fi/ tapanain/cg/index.html
+[13] Cutting D., Kupiec J., Pedersen J., Sibun P. A Practical Part­of­Speech Tagger. In Proceedings of the 3rd
+conference on Applied Natural Language Processing (ANLP). 1992. ftp://parcftp.xerox.com/pub/tagger/
+[14] Schmid H. Probabilistic Part­of­Speech Tagging Using Decision Trees. In International Con­
+ference on New Methods in Language Processing. Manchester. 1994. (http://www.ims.uni­
+stuttgart.de/projekte/corplex/TreeTagger/DecisionTreeTagger.html)
+[15] Brants, T. TnT ­ A Statistical Part­of­Speech Tagger. In: Proceedings of 6th ANLP Conference, Seattle,
+WA. 2000.
+[16] Brill E., Marcus M. Tagging an unfamiliar text with minimal human supervision. ARPA Technical Report.
+1993. (ftp://ftp.cs.jhu.edu/pub/brill/Programs/UNSUP TAGGER V0.8.tar.gz)
+[17] Chomsky N. Aspects of the Theroy of Syntax. The MIT Press, Cambridge, MA, 1965.
+[18] Abney S. Chunks and Dependencies: Bringing Processing Evidence to Bear on Syntax. In: Computational
+Linguistics and the Foundations of Linguistic Theory. CSLI. 1995.
+[19] Abney S. Partial Parsing via Finite­State Cascades. Journal of Natural Language Engineering, 2(4): 337­
+344. 1996.
+[20] http://muchmore.dfki.de
+[21] Vintar S., Buitelaar P., Ripplinger B., Sacaleanu B., Raileanu D., Prescher D. An Efficient and Flexi­ble 
+Format for Linguistic and Semantic Annotation In: Proceedings of LREC2002 , Las Palmas, Canary
+Islands ­ Spain, May 29­31, 2002.
+[22] Piskorski J., G. Neumann. An Intelligent Text Extraction and Navigation System. Proceedings of the 6th
+International Conference on Computer­Assisted Information Retrieval (RIAO). 2000.
+[23] http://www.coli.uni­sb.de/ thorsten/tnt/
+[24] Skut W. and Brants T. A Maximum Entropy partial parser for unrestricted text. In: Proceedings of the 6th
+ACL Workshop on Very Large Corpora (WVLC), Montreal. 1998.
+18 Paul Buitelaar and Thierry Declerck
+[25] Vossen, P. 1997. EuroWordNet: a multilingual database for information retrieval. In: Proceedings of the
+DELOS workshop on Cross­language Information Retrieval, March 5­7, 1997.
+[26] http://umls.nlm.nih.gov
+[27] http://www.coli.uni­sb.de/sfb378/negra­corpus/
+[28] http://www.cogs.susx.ac.uk/users/geoffs/Rsue.html
+[29] Declerck T. A set of tools for integrating linguistic and non­linguistic information. Proceedings of
+SAAKM 2002, ECAI 2002, Lyon.
+[30] Heflin J., Hendler J., and Luke S. SHOE: A Knowledge Representation Language for Internet Applica­tions. 
+Technical Report CS­TR­4078. Department of Computer Science, University of Maryland, 1999.
+[31] Bechhofer S. and Goble C. Towards Annotation using DAML+OIL Communications of the ACM, 2000.
+[32] Staab S., Maedche A., Handschuh S. An Annotation Framework for the Semantic Web. In The First Inter­national 
+Workshop on Multimedia Annotation, Tokyo, Japan, 2001.
+[33] Miller, G.A. WordNet: A Lexical Database for English. Communications of the ACM 11. 1995.
+[34] http://www.nlm.nih.gov/mesh/meshhome.html
+[35] http://www.cyc.com
+[36] Kavi Mahesh and Sergei Nirenburg. A situated ontology for practical NLP. In Proceedings of IJCAI­95
+Workshop on Basic Ontological Issues in Knowledge Sharing. 1995.
+[37] Knight, K., Luk . Building a Large Knowledge Base for Machine Translation. Proceedings of the American
+Association of Artificial Intelligence Conference AAAI­94. Seattle, WA. 1994.
+[38] Small, S.L. Word Expert Parsing: A Theory of Distributed Word­based Natural Language Understanding.
+Ph.D. thesis, The University of Maryland, Baltimore, MD. 1980.
+[39] Small, S.L. Parsing as cooperative distributed inference. In King, M. (ed.): Parsing Natural Language.
+Academic Press, London. 1983.
+[40] Hirst, G. Semantic Interpretation and the Resolution of Ambiguity. Cambridge University Press. 1988.
+[41] Adriaens, G., and S.L. Small. Word expert revisited in a cognitive science perspective. In Small, S., G.W.
+Cottrell, and M.K. Tanenhaus (eds.): Lexical Ambiguity Resolution: Perspectives from Psycholinguistics,
+Neuropsychology, and Artificial Intelligence. Morgan Kaufmann, San Mateo, CA, pages 13­43. 1988.
+[42] Lesk, M.E. Automated sense disambiguation using machine­readable dictionaries: How to tell a pine cone
+from an ice cone. In Proceedings of the SIGDOC Conference. 1986.
+[43] Yarowsky, D. Word­sense disambiguation using statistical models of Roget's categories. In Proceedings
+of COLING­92, Nantes, France. 1992.
+[44] Resnik, P. Using information content to evaluate semantic similarity in a taxonomy. In Proceedings of the
+14th International Joint Conference on Artificial Intelligence (IJCAI). 1995.
+[45] Ng, H.T., and H.B. Lee. Integrating multiple knowledge sources to disambiguate word sense: An exemplar­
+based approach. In Proceedings of ACL96. 1996.
+[46] Schtze, H. Context space. In Goldman, R., P. Norvig, E. Charniak, and B. Gale (eds.): Working Notes of
+the AAAI Fall Symposium on Probabilistic Approaches to Natural Language, AAAI Press, Menlo Park,
+CA, pages 113­120. 1992.
+[47] Schtze, H. Automatic word sense discrimination. Computational Linguistics, 24(1):97­123. 1998.
+[48] Ide N., Veronis J. Introduction to the special issue on word sense disambiguation: The state of the art.
+Computational Linguistics, 24(1):1--40. 1998.
+[49] Kilgariff, A. 1998. Gold standard datasets for evaluating word sense disambiguation programs. Computer
+Speech and Language 12(4), Special Issue on Evaluation.
+Linguistic Annotation for the Semantic Web 19
+[50] Vronis, J. 1998. A study of polysemy judgements and inter­annotator agreement. In Programme and ad­vanced 
+papers of the Senseval workshop, Herstmonceux Castle (England), pages 2­4.
+[51] Kilgariff, A., and M. Palmer. 2000. Introduction to the special issue on SENSEVAL. Computers and the
+Humanities 34(1/2):1­13.
+[52] http://www.sle.sharp.co.uk/senseval2/
+[53] Buitelaar P., Alexandersson J., Jaeger T., Lesch S., Pfleger N., Raileanu D., von den Berg T., Klckner K.,
+Neis H., Schlarb H. An Unsupervised Semantic Tagger Applied to German. In: Proceedings of Recent
+Advances in NLP (RANLP) , Tzigov Chark, Bulgaria. 2001.
+[54] Buitelaar P., Sacaleanu B. Ranking and Selecting Synsets by Domain Relevance. In: Proceedings of Word­
+Net and Other Lexical Resources: Applications, Extensions and Customizations. NAACL 2001 Workshop,
+Carnegie Mellon University, Pittsburgh. 2001.
+[55] Raileanu D., Buitelaar P., Bay J., Vintar S. An Evaluation Corpus for Sense Disambiguation in the Medical
+Domain. In: Proceedings of LREC2002, Las Palmas, Canary Islands. 2002.
+[56] Appelt D.E. An Introduction to Information. AI Communications, 12. 1999.
+[57] Cunningham H. Information Extraction: A user Guide. Research Report CS­9907,Department of Com­puter 
+Science, University of Sheffield. 1999.
+[58] Declerck T., Wittenburg P., Cunningham H. The Automatic Generation of Formal Annotations in a Multi­media 
+Indexing and Searching Environment. Proceedings of the Workshop on Human Language Technol­ogy 
+and Knowledge Management, ACL­2001.
+[59] MUC­7: Seventh Message Understanding Conference. http://www.muc.saic.com/, SAIC Information Ex­
+traction. 1998.
+[60] Neumann G., Backofen R., Baur J., Becker M., Braun C. An Information Extraction Core System for
+Real World German Text Processing. Proceedings of the 5th Conference on Applied Natural Language
+Processing, ANLP­97, 209­216. 1997.
+[61] Lappin, S., Shih H­H. A generalized Algorithm for Ellipsis Resolution. Proceedings of the 16th Interna­tional 
+Conference on Computational Linguistics, COLING­96. 1996.
+[62] Hellwig P. NATURAL LANGUAGE PARSERS A ''Course in Cooking. COLING­ACL '98-- Pre­ Conference Tutorial. 1998.
+[63] Balari S. Information­Based Linguistics and Head­Driven Phrase Structure. In Miguel Filgueiras and Lus
+Damas and Nelma Moreira and Ana Paula Toms, editor(s), Natural Language Processing. 55­101. Berlin:
+Springer­Verlag. 1991.
+[64] Borsley R. D. Modern Phrase Structure Grammar. Blackwell textbooks in linguistics, number 11. : Black­
+well Publishers. 1996.
+[65] Borsley R. D. Heads in HPSG. In Greville Corbett and N. Fraser and S. McGlashan, editor(s), Heads in
+Grammatical Theory. Forthcoming.
+[66] Pollard C., Sag. Head­Driven Phrase Structure Grammar. Chicago: University of Chicago Press. 1994.
+

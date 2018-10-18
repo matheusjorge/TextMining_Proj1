@@ -1,0 +1,45 @@
+ForMAT and Parka: A Technology Integration
+Experiment and Beyond*
+
+David Rager1, James Hendler1, and Alice Mulvehill2
+
+1 Department of Computer Science, University of Maryland, College Park MD 20742
+2 BBN Systems and Technologies, 10 Moulton Street, Cambridge MA 02138
+
+
+Email: rager@cs.umd.edu, hendler@cs.umd.edu, amm@bbn.com
+
+
+Abstract. This report describes a Technology Integration Experiment (TIE)
+between the University of Maryland and The MITRE Corporation which was
+undertaken as part of the (D)Arpa/Rome Laboratory Planning Initiative (ARPI).
+This work led to an integration of the UM Parka-DB tool into the MITRE ForMAT
+transportation planning tool.
+References
+
+[1]	Andersen, W., Evett, M., Hendler, J. and Kettler, B. “Massively Parallel Matching of
+Knowledge Structures,” in Massively Parallel Artificial Intelligence, Kitano, H. and Hendler,
+J. (eds.), AAAI/MIT Press, 1994.
+[2]	Evett, M.P., Hendler, J.A., and Spector, L., “Parallel Knowledge Representation on the
+Connection Machine,” Journal of Parallel and Distributed Computing, 1994.
+[3]	Evett, M.P. PARKA: A System for Massively Parallel Knowledge Representation, Ph.D.
+thesis, Dept. of Computer Science, University of Maryland, College Park, 1994.
+[4]	Evett, M.P., Hendler, J.A., and Andersen, W.A., “Massively Parallel Support for Computationally 
+Effective Recognition Queries”, Proc. Eleventh National Conference on Artificial
+Intelligence, 1993.
+[5] 	Hendler, J. High Performance Artificial Intelligence, Science, Vol. 265, August, 1994.
+[6]	Lenat, D.B. and Guha, R.V., “Building Large Knowledge-Based Systems”, Addison Wesley,
+Reading, Mass., 1990.
+[7]	Kettler, B.P., Hendler, J.A., Andersen, W.A., Evett, M.P., “Massively Parallel Support for
+Case-based Planning”, IEEE Expert, Feb, 1994.
+[8] 	Kettler, Brian “Case-based Planning with a High-Performance Parallel Memory,” Doctoral
+Dissertation, Department of Computer Science, University of Maryland, October, 1995.
+[9] 	K. Stoffel, J. Hendler and J. Saltz, High Performance Support for Very Large Knowledge
+Bases, Proc. Frontiers of Massively Parallel Computing, Feb, 1995 (Extended Abstract).
+[10]	VS Subrahmanian, Sibel Adali and Ross Emery, A Uniform Framework For Integrating
+Knowledge In Heterogeneous Knowledge Systems, Proceedings of the Eleventh IEEE
+International Conference of Data Engineering, March, 1995.
+[11]	Walker, E. and Cross, S. eds. Proceedings of the ARPA-Rome LaboratoryPlanning Initiative
+Annual Workshop. San Mateo, Ca., Morgan-Kaufmann Publishers, 1994.
+[12]	Watanabe, L., and Rendell, L., “Effective Generalization of Relational Descriptions”, AAAI
+Eighth National Conference on Artificial Intelligence, 1990.

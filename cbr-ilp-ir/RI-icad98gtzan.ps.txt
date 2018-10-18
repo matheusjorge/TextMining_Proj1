@@ -1,0 +1,71 @@
+N >> 2: Multi­speaker Display Systems for
+Virtual Reality and Spatial Audio Projection
+
+Perry R. Cook
+Department of Computer Science (also Music)
+Princeton University, Princeton, NJ, USA
+1 Georg Essl, 1 Georgos Tzanetakis, 2 Dan Trueman
+1 Department of Computer Science
+2 Department of Music
+Princeton University, Princeton, NJ, USA
+
+Abstract
+This paper describes multi­speaker display systems for immersive auditory environments, collaborative
+projects, realistic acoustic modeling, and live musical performance. Two projects are described. The sound
+sub­system of the Princeton Display Wall project, and the NBody musical instrument body radiation response
+project. The Display Wall is an 18' x 8' rear­projection screen, illuminated by 8 high­resolution video
+projectors. Each projector is driven by a 4­way symmetric­multi­processor PC. The audio sub­system of this
+project involves 26 loudspeakers and server PCs to drive the speakers in real time from soundfile playback,
+audio effects applied to incoming audio streams, and parametric sound synthesis. The NBody project
+involves collecting and using directional impulse responses from a variety of stringed musical instruments.
+Various signal processing techniques were used to investigate, factor, store, and implement the collected
+impulse responses. A software workbench was created which allows virtual microphones to be placed around
+a virtual instrument, and then allows signals to be processed through the resulting derived transfer functions.
+Multi­speaker display devices and software programs were constructed which allow real­time application of
+of the filter functions to arbitrary sound sources. This paper also discusses the relation of spherical display
+systems to conventional systems in terms of spatial audio and sound­field reconstruction, with the conclusion
+that most conventional techniques can be used for spherical display systems as well.
+
+6 References
+[1] Wenzel, E. M., ``Spatial Sound and Sonification,'' In Kramer, G. (ed.), ``Auditory Display,'' Santa Fe Institute
+Studies in the Sciences of Complexity, Proceedings Volume XVIII. Addison­Wesley, 1994, pp. 127­150.
+[2] Evans, M. J., Tew, A. I., Angus, J. A. S., ``Spatial Audio Teleconferencing -- Which Way is Better?,'' In:
+Proceedings of the International Conference on Auditory Display, Palo Alto, 1997, pp. 29­37.
+[3] Various authors, Computer Music Journal Special Issues on Physical Modeling, 16:4 & 17:1, 1992 & 1993.
+[4] Huopaniemi, J., Karjalainen, M.,Välimäki, V., Huotilainen, T., ``Virtual Instruments in Virtual Rooms -- A
+Real­Time Binaural Room Simulation Environment for Physical Models of Musical Instruments,'' In:
+Proceedings of the International Computer Music Conference (ICMC), 1994, pp. 455­462.
+[5] Cook, P. R., ``Physically Informed Sonic Modeling (PhISM): Synthesis of Percussion Sounds,'' Computer
+Music Journal, 21:3, 1997, pp. 38­49.
+[6] Caussé, R., Bresciani, J., and Warusfel, O., ``Radiation of musical instruments and control of reproduction
+with loudspeakers,'' In: Proceedings of the International Symposium on Musical Acoustics, Tokyo, 1992.
+[7] Hiipakka, J., Hänninen, R., Ilmonen, T., et al, ``Virtual orchestra performance,'' In: Visual Proceedings of
+SIGGRAPH, 81, 1997, p. 81.
+[8] Gardner, W. G., ``3­D Audio Using Loudspeakers,'' Ph.D. thesis, Massachusetts Institute of Technology,
+1997. Chapter 2.
+[9] Pape, D., Carolina Cruz­Neira, C., and Czernuszenko, M., ``The Cave User's Guide, version 2.5.6,''
+http://www.evl.uic.edu/pape/CAVE/prog/CAVEGuide.2.5.6.html, 1996.
+[10] Chowning, J. M., ``The Simulation of Moving Sound Sources,'' AES Preprint No. 723 (M­3), Presented at
+the 38th Convention, 1970, pp. 1­9.
+[11] Moore, F. R., ``A General Method for Spatial Processing of Sound,'' Computer Music Journal, 7:3, 1983, pp.
+559­568.
+[12] Allen, J. B., Berkley, D. A., ``Image Model for Efficiently Modelling Small­Room Acoustics,'' J. Acoust.
+Soc. Am. 65, 1979, pp. 943­950.
+[13] Goudeseune, C., ``Learning to use the Vanilla Sound Server. An Introduction to VSS 3.1,''
+http://cage.ncsa.uiuc.edu/adg/VSS/doc/vss3.0usersguide.html, May 1998.
+[14] Cook, P. and Trueman, D., ``A Database of Measured Musical Instrument Body Radiation Impulse
+Responses, and Computer Applications for Exploring and Utilizing the Measured Filter Functions,'' In:
+Proceedings of the International Symposium on Musical Acoustics, Leavenworth, Washington, 1998, pp.
+303­308.
+[15] Berkhout, A. J., de Vries, D., Vogel, P., ``Acoustic control by wave field synthesis,'' J. Acoust. Soc. Am.
+93:5, 1993, pp. 2764­2778.
+[16] Gerzon, M. A., ``Ambisonics in Multichannel Broadcasting and Video,'' J. Audio Eng. Soc., 33:11, 1985,
+pp. 859­871.
+[17] Pulkki, V., ``Virtual Sound Source Positioning Using Vector Based Amplitude Panning,'' J. Audio Eng.
+Soc., 45:6, 1997, pp. 456­466.
+[18] Flanagan, J. L., Johnston, J. D., Zahn, R., Elko, G. W., ``Computer­steered microphone arrays for sound
+transduction in large rooms,'' J. Acoust. Soc. Am. 78:5, 1985, pp. 1508­1518.
+[19] Casey, M. A., Gardner, W. G., Basu, S., ``Vision Steered Beam­Forming and Transaural Rendering for the
+Artificial Life Interactive Video Environment (ALIVE),'' AES Preprint No. 4052 (B­5), Presented at the
+99th Convention, 1995, pp. 1­23.
+

@@ -1,0 +1,77 @@
+Experimental Study of a Similarity Metric for
+Retrieving Pieces from Structured Plan Cases:
+Its Role in the Originality of Plan Case Solutions
+
+Luís Macedo (1,2), Francisco C. Pereira (2), Carlos Grilo (2), Amílcar Cardoso (2)
+
+(1) Instituto Superior de Engenharia de Coimbra, 3030 Coimbra, Portugal
+(macedo@dei.uc.pt)
+(2) CISUC - Centro de Informática e Sistemas da Universidade de Coimbra, Polo II,
+3030 Coimbra, Portugal
+(francisco@alma.uc.pt, grilo@alma.uc.pt, amilcar@dei.uc.pt)
+
+Abstract. This paper describes a quantitative similarity metric and its
+contribution to achieve original plan solutions. This similarity metric is used
+by an iterative process of piece retrieval from structured plan cases. Within
+our approach plan cases are tree-like networks of pieces (goals and actions).
+These case pieces are ill-related each other by links (explanations). These
+links may be classified as hierarchical or temporal, antecedent or consequent,
+and explicit or implicit. Besides links, each case piece has also information
+about its properties (the attributes-value pairs), its hierarchical and temporal
+position in the case (the address), and about its constraints in the relationship
+with others (the constraints). The similarity metric computes a similarity
+value between two case pieces taking into account similarities between these
+case piece’s information types. Each time a problem is proposed, different
+weights are given to some of those similarities, with the aim of solving it
+with an original solution. This similarity metric is used by the system
+INSPIRER (ImagiNation taking as Source Past and Imperfectly REalated
+Reasonings). We illustrate the role of the similarity metric in the creativity of
+solutions, focusing specially their originality, with the presentation of the
+experimental results obtained in the musical composition domain, which is
+considered by us as a planning domain.
+
+References
+Balaban, M., (1992). Musical Structures: Interleaving the Temporal and Hierarchical Aspects
+in Music. In Understanding Music with IA: Perspectives in Music Cognition, MIT Press.
+Barletta, R., Mark, W., (1988). Breaking cases into pieces, in Proceedings of a Case-Based
+Reasoning Workshop, St. Paul, MN.
+Barletta, R., Mark, W., (1989). Explanation-Based Indexing of Cases, in Proceedings of a
+Case-Based Reasoning Workshop, Morgan-Kaufmann.
+Bento, C. and Costa, E., (1994). A Similarity Metric for Retrieval of Cases Imperfectly
+Explained, in First European Workshop on Case-Based Reasoning, Kaiserslautern.
+Bento, C., Macedo, L. and Costa, E., (1994). RECIDE - Reasoning with Cases Imperfectly
+Described and Explained, in Second European Workshop on Case-Based Reasoning..
+Duda, R., and Hart, P., (1973). Pattern Classification and Scene Analysis, New York: Wiley.
+Hammond, K., (1986). Case Based Planning: An Integrated Theory of Planning, Learning
+and Memory, PhD Dissertation, Yale University.
+Kolodner, J., and Riesbeck, C., (1986). Experience, Memory, and Reasoning, Lawrence
+Erlbaum Associates, Hillsdale, NJ.
+Kolodner, J., (1988). Retrieving events from a Case Memory: a parallel implementation, in
+Proceedings of a Case-Based Reasoning Workshop, San Mateo, CA, Morgan-Kaufmann.
+Kolodner, J., (1989). Judging Which is the “Best” Case for a Case-Based Reasoner, in Case-Based 
+Reasoning: Proceedings of a Workshop, florida, Morgan-Kaufmann.
+Koton, P., (1989). Using Experience in Learning and Problem Solving, Massachusets
+Institute of Technology, Laboratory of Computer Science (Ph D diss.), MIT/LCS/TR-
+441.
+Macedo, L., Pereira, F., Grilo, C. and Cardoso, M., (1996a). Plan Cases as Strnctured
+Networks of Hierarchical and Temporal Related Case Pieces, Third European Workshop
+on Case-Based Reasoning, Lausanne.
+Macedo, L., Pereira, F., Grilo, C. and Cardoso, M., (1996b). Solving Planning Problems that
+Require Creative Solutions using a Hierarchical Case-Based Planning Approach,
+International Conference on Knowledge Based Computer Systems, India.
+Macedo, L., Pereira, F., Grilo, C. and Cardoso, M., (1996c). A Case-Based Computational
+Model for Creative Planning, Proceedings of the First European Workshop on Cognitive
+Modeling, Berlim.
+Macedo, L., Pereira, F., Grilo, C. and Cardoso, M., (1997a). A Computational Model for the
+Creative Planning Faculties of Mind, in Mind Modelling - A Cognitive Science
+Approach to Reasoning, Learning and Discover, Schmith, U., Krems, J.F., and Wysotzki,
+F., (Editors).(forthcomming)
+Plaza, E., (1995). Cases as terms: A feature term approach to the structured representation of
+cases, in Proceedings of the First International Conference on Case-Based Reasoning,
+Sesimbra, Portugal.
+Redmond, M., (1990). Distributed Cases for Case-Based Reasoning; Facilitating Use of
+Multiple Cases, In Proceedings of AAAI.
+Sycara, K., Navinchandra, D., (1991). Influences: A Thematic Abstraction for Creative Use
+of Multiple Cases, in Proceedings of a Case-Based Reasoning Workshop.
+Veloso, M., (1992). Learning by Analogical Reasoning in General Problem Solving, Ph D
+thesis, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA.

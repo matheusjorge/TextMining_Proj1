@@ -1,0 +1,93 @@
+The Dynamic Absorbing Model for the Web
+
+Gianni Amati # , Iadh Ounis, Vassilis Plachouras
+Department of Computing Science
+University of Glasgow
+Glasgow G12 8QQ, U.K.
+
+Abstract
+In this paper we propose a new theoretical method for combining both content
+and link structure analysis for Web information retrieval. This approach is based
+on performing a random walk on a modified Markov chain, induced from the Web
+graph. This new model is applicable either in a static way, where a global pres­tige 
+score is computed for every document, or in a dynamic way, where the link
+structure of the results from a first pass retrieval is taken into account. The results
+of experiments on the TREC WT10g and .GOV collections show that it is a robust
+method, particularly suitable for dynamic link analysis. Moreover, we show that it
+outperforms PageRank under the same experimental settings.
+
+
+
+References
+[1] G. Amati and C. J. Van Rijsbergen. Probabilistic models of information retrieval
+based on measuring the divergence from randomness. ACM Transactions on Infor­mation 
+Systems (TOIS), 20(4):357--389, 2002.
+[2] P. Bailey, N. Craswell, and D. Hawking. Engineering a Multi­Purpose Test Collec­tion 
+for Web Retrieval Experiments. Accepted by the Information Processing and
+Management journal.
+[3] K. Bharat and M.R. Henzinger. Improved algorithms for topic distillation in a
+hyperlinked environment. In Proceedings of the 21st annual international ACM
+SIGIR conference on Research and development in information retrieval, pages
+104--111. ACM Press, 1998.
+[4] A. Borodin, G.O. Roberts, J.S. Rosenthal, and P. Tsaparas. Finding authorities
+and hubs from link structures on the world wide web. In Proceedings of the tenth
+international conference on World Wide Web, pages 415--429. ACM Press, 2001.
+[5] S. Brin and L. Page. The anatomy of a large­scale hypertextual Web search engine.
+Computer Networks and ISDN Systems, 30(1--7):107--117, 1998.
+[6] S. Chakrabarti. Integrating the document object model with hyperlinks for en­hanced 
+topic distillation and information extraction. In Proceedings of the tenth
+international conference on World Wide Web, pages 211--220. ACM Press, 2001.
+[7] S. Chakrabarti, M. Joshi, and V. Tawde. Enhanced topic distillation using text,
+markup tags, and hyperlinks. In Proceedings of the 24th annual international ACM
+SIGIR conference on Research and development in information retrieval, pages
+208--216. ACM Press, 2001.
+[8] N. Craswell and D. Hawking. Draft overview of the trec 2002 web track, 2002.
+[9] W.B. Croft. Combining approaches to information retrieval. In W.B. Croft, edi­tor, 
+Advances in Information Retrieval from the Center for Intelligent Information
+Retrieval. Kluwer Academic, 2000.
+[10] W. Feller. An Introduction to Probability Theory and its Applications, volume 1,
+2nd edition. John Wiley and Sons, 1957.
+[11] E. Garfield. Citation analysis as a tool in journal evaluation. Science, 178:471--479,
+1972.
+[12] T.H. Haveliwala. Topic­Sensitive PageRank. In Proceedings of the Eleventh Inter­national 
+World Wide Web Conference, 2002.
+[13] D. Hawking and N. Craswell. Overview of the TREC­2001 Web Track, NIST
+Special Publication 500­250: The Tenth Text REtrieval Conference (TREC 2001),
+2001.
+[14] T. Hofmann. Probabilistic latent semantic indexing. In Proceedings of the 22nd
+annual international ACM SIGIR conference on Research and development in in­
+formation retrieval, pages 50--57. ACM Press, 1999.
+[15] R. Jin and S. Dumais. Probabilistic combination of content and links. In Pro­ceedings 
+of the 24th annual international ACM SIGIR conference on Research and
+development in information retrieval, pages 402--403. ACM Press, 2001.
+[16] Rong Jin, Christos Falusos, and Alex G. Hauptmann. Meta­scoring: automatically
+evaluating term weighting schemes in ir without precision­recall. In Proceedings
+of the 24th annual international ACM SIGIR conference on Research and develop­ment 
+in information retrieval, pages 83--89. ACM Press, 2001.
+[17] J.M. Kleinberg. Authoritative sources in a hyperlinked environment. Journal of
+the ACM, 46(5):604--632, 1999.
+[18] R. Lempel and S. Moran. The stochastic approach for link­structure analysis
+(SALSA) and the TKC effect. Computer Networks (Amsterdam, Netherlands:
+1999), 33(1­6):387--401, 2000.
+[19] R. Manmatha, T. Rath, and F. Feng. Modeling score distributions for combining the
+outputs of search engines. In Proceedings of the 24th annual international ACM
+SIGIR conference on Research and development in information retrieval, pages
+267--275. ACM Press, 2001.
+[20] S. Milgram. The small world problem. Psychology Today, 2:60--67, 1967.
+[21] A.Y. Ng, A.X. Zheng, and M.I. Jordan. Stable algorithms for link analysis. In
+Proceedings of the 24th annual international ACM SIGIR conference on Research
+and development in information retrieval, pages 258--266. ACM Press, 2001.
+[22] F. Osareh. Bibliometrics, citation analysis, and co­citation analysis: A review of
+literature i. Libri, 46:149--158, 1996.
+[23] M.F. Porter. An algorithm for suffix stripping. Program, 14(3):130--137, 1980.
+[24] M. Richardson and P. Domingos. The Intelligent Surfer: Probabilistic Combination
+of Link and Content Information in PageRank. In Advances in Neural Information
+Processing Systems 14, 2002.
+[25] J. Savoy and J. Picard. Retrieval effectiveness on the web. Information Processing
+& Management, 37(4):543--569, 2001.
+[26] Ilmrio Silva, Berthier Ribeiro­Neto, Pvel Calado, Edleno Moura, and Nvio Ziviani.
+Link­based and content­based evidential information in a belief network model. In
+Proceedings of the 23rd annual international ACM SIGIR conference on Research
+and development in information retrieval, pages 96--103. ACM Press, 2000.
+[27] C. J. Van Rijsbergen. Information Retrieval, 2nd edition. Butterworth-­Heinemann,
+1979.

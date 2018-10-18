@@ -1,0 +1,37 @@
+On a Sufficient Condition for the Existence of
+Most Specific Hypothesis in Progol
+
+Koichi FURUKAWA1, Tomoko MURAKAMI1, Ken UENO1,
+Tomonobu OZAKI1 and Keiko SHIMAZU1
+
+Graduate School of Media and Governance, Keio University
+5322 Endo, Fujisawa, Kanagawa 252, JAPAN
+
+
+Abstract. In this paper, we give a sufficient condition for the existence
+of the moat specific hypothesis (MSH) in Progol. Muggleton [2] showed
+that for any first order theory (background knowledge) B and a single
+clause (a positive example) E, there exists the most specific hypothesis
+-bot(B, E) which satisfies B A -bot(B, E) |= E and for any hypothesis
+H satisfying B A H |= E, H entails bot(B, E) assuming that hypotheses
+are all single clauses. Yamamoto[8] gave a counter example and indicated
+that Muggleton’s proof contains error. He also gave a sufficient condition
+under which the MSH exists. In this paper, we give another and more
+realistic sufficient condition to guarantee the existence of the MSH.
+References
+
+1.	Breiman, L., Friedman, j. H., Olshen, R. A. and Stone, C. J.: Classification and
+Regression Trees. Wadsworth, Belmont (1984).
+2.	Muggleton, S.: Inverse Entailment and Progol. New Generation Computing, Vol.13,
+pp.245-286 (1995).
+3.	Muggleton, S. and Feng, C.: Efficient induction of logic programs. In Proc. First
+Conference on Algorithmic Learning Theory, pp.368-381, Ohmsha, Tokyo (1990).
+4.	Plotkin, G.D.: A note on inductive generalization. In Meltzer, B. and Michie, D.
+editors, Machine Intelligence 5, pp.153-163, Edinburgh University Press (1970).
+5.	Quinlan, J.R.: Induction of decision trees. Machine Learning, 1(1), pp.81-106 (1986).
+6.	Quinlan, J.R.: C4.5: Programs for Machine Learning. Morgan Kaufmann, San Mateo, CA (1993).
+7.	Shapiro, E.: Inductive Inference of Theories from Facts. Research Report 192, Department 
+of Computer Science, Yale University (1981).
+8.	Yamamoto, A.: Improving Theories for Inductive Logic Programming Systems with
+Ground Reduced Programs. Technical Report, Forschungsbericht AIDA-96-19 FG
+Intellektik FB Informatik TH Darmstadt (1996).

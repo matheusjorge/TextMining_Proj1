@@ -1,0 +1,70 @@
+SOUND ANALYSIS USING MPEG COMPRESSED AUDIO
+
+George Tzanetakis
+Computer Science Department
+Princeton University
+35 Olden Street, Princeton NJ 08544,USA
+gtzan@cs.princeton.edu
+Perry Cook
+Computer Science and Music Deptartment
+Princeton University
+35 Olden Street, Princeton NJ 08544,USA
+prc@cs.princeton.edu
+
+ABSTRACT
+There is a huge amount of audio data available that is
+compressed using the MPEG audio compression standard.
+Sound analysis is based on the computation of short time
+feature vectors that describe the instantaneous spectral con­tent 
+of the sound. An interesting possibility is the calcu­lation 
+of features during the decompression process. Since
+the bulk of the feature calculation is performed during the
+encoding stage this process has a significant performance
+advantage if the available data is compressed. Combining
+decoding and analysis in one stage is also very important
+for audio streaming applications.
+In this paper, we describe the calculation of features
+directly from MPEG audio compressed data. Two of the
+basic processes of analyzing sound are: segmentation and
+classification. To illustrate the effectiveness of the calcu­lated 
+features we have implemented two case studies: a
+general audio segmentation algorithm and a Music/Speech
+classifier . Experimental data is provided to show that the
+results obtained are comparable with sound analysis algo­rithms 
+working directly with audio samples.
+
+
+
+10. REFERENCES
+[1] J. Foote, ``An overview of audio information retrieval,''
+ACM Multimedia Systems, vol. 7, pp. 2--10, 1999.
+[2] A. Bregman, Auditory Scene Analysis, MIT Press,
+1990.
+[3] G. Tzanetakis and P. Cook, ``Multifeature audio seg­mentation 
+for browsing and annotation,'' in Proc.1999
+IEEE Workshop on Applications of Signal Processing
+to Audio and Acoustics, WASPAA99, New Paltz, NY,
+1999.
+[4] E. Scheirer and M. Slaney, ``Construction and evalu­ation 
+of a robust multifeature speech/music discrimi­nator,'' 
+IEEE Transactions on Acoustics, Speech and
+Signal Processing (ICASSP'97), pp. 1331--1334, 1997.
+[5] Noll Peter, ``Mpeg digital audio coding,'' IEEE Signal
+Processing Magazine, pp. 59--81, September 1997.
+[6] ISO/IEC JTC1/SC29, Information Technology­ Coding
+of Moving Pictures and Associated Audio for Digi­tal 
+Storage Media at up to about 1.5 Mbit/s­IS 11172
+(Part 3, Audio), 1992.
+[7] ISO/IEC JTC1/SC29, Information Technology­
+Generic Coding of Moving Pictures and Associated Au­dio 
+Information­IS 13818 (Part 3, Audio), 1994.
+[8] R. Duda and P. Hart, Pattern Classification and Scene
+Analysis, John Wiley & Sons, 1973.
+[9] S. Rossignol, X. Rodet, et al., ``Features extraction
+and temporal segmentation of acoustic signals,'' Proc.
+ICMC 98, pp. 199--202, 1998.
+[10] G. Tzanetakis and P. Cook, ``A framework for audio
+analysis based on classification and temporal segmen­tation,'' 
+in Proc.25th Euromicro Conference. Work­shop on Music Technology 
+and Audio Processing, Mi­lan, Italy, 1999, IEEE Computer Society.
+

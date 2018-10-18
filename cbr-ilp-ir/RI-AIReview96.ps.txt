@@ -1,0 +1,140 @@
+An Inferential Approach to Information Retrieval and
+its Implementation using a Manual Thesaurus
+
+Jian­Yun Nie, Martin Brisebois
+Département d'Informatique et Recherche opérationnelle,
+Université de Montréal
+C.P. 6128, succursale Centre­ville
+Montreal, Quebec
+H3C 3J7 Canada
+e­mail: nie@iro.umontreal.ca
+briseboi@iro.umontreal.ca
+
+Most inferential approaches to Information Retrieval (IR) have been investigated
+within the probabilistic framework. Although these approaches allow one to cope
+with the underlying uncertainty of inference in IR, the strict formalism of probability
+theory often confines our use of knowledge to statistical knowledge alone (e.g.
+connections between terms based on their co­occurrences). Human­-defined
+knowledge (e.g. manual thesauri) can only be incorporated with difficulty. In this
+paper, departing from a general idea proposed by van Rijsbergen, we first develop an
+inferential approach within a fuzzy modal logic framework. Differing from previous
+approaches, the logical component is emphasized and considered as the pillar in our
+approach. In addition, the flexibility of a fuzzy modal logic framework offers the
+possibility of incorporating human­defined knowledge in the inference process. After
+defining the model, we describe a method to incorporate a human­defined thesaurus
+into inference by taking user relevance feedback into consideration. Experiments on
+the CACM corpus using a general thesaurus of English, Wordnet, indicate a
+significant improvement in the system's performance.
+
+References
+1 . A. Bookstein (1983). Outline of a general probabilistic retrieval model. Journal of
+Documentation, 39(2): 63­72.
+2 . D. A. Buell (1982). An analysis of some fuzzy subset: applications to information
+retrieval systems. Fuzzy Sets and Systems, 7: 35­42.
+3 . D. A. Buell and D. H. Kraft (1981). A model for a weighted retrieval system. Journal of
+the American Society for Information Science, 32: 211­216.
+4 . B. F. Chellas (1980). Modal logic ­ An Introduction. Cambridge University Press:
+Cambridge.
+5 . H. Chen and V. Dhar (1991). Cognitive process as a basis for intelligent retrieval system
+design. Information Processing & Management, 27(5): 405­432.
+6 . H. Chen, K. J. Lynch, K. Basu, and D. Ng (1993). Generating, integrating and
+activating thesauri for concept­based document retrieval. IEEE Expert Intelligent Systems
+& their Applications, 8(2): 25­34.
+7 . Y. Chiaramella and J.­Y. Nie (1989). A retrieval model based on an extended modal
+logic and its application to the RIME experimental approach. Research and Development
+on Information Retrieval ­ ACM­SIGIR Conference, 25­43, Brussels.
+8 . W. S. Cooper (1995). Some inconsistencies and misidentified modeling assumptions in
+probabilistic information retrieval. ACM Transactions on Information Systems, 13(1):
+100­111.
+9 . W. B. Croft (1987). Approaches to intelligent information retrieval. Information
+Processing & Management, 23(4): 249­254.
+10. D. Dubois and H. Prade (1984). Fuzzy logics and the generalized modus ponens
+revisited. Cybernetics and Systems: An International Journal, 15: 293­331.
+11. E. A. Fox (1983). Characterization of two experimental collections in computer and
+information science. Cornell University, Department of Computer Science, Technical
+report TR 83­561, September.
+12. E. E. Fox (1980). Lexical relations: Enhancing effectiveness of information retrieval
+systems. Sigir Forum, 15(3): 6­35.
+13. W. B. Frikes and R. Baeza­Yates (ed.) (1992). Information Retrieval: Data Structures &
+Algorithms, Prentice­Hall: Englewood Cliffs, N.J.
+14. N. Fuhr (1992). Probabilistic models in information retrieval. The Computer Journal,
+35(3): 243­255.
+15. G. Grefenstette (1992). Use of syntactic context to produce term association lists. 15th
+ACM­SIGIR Conference, 89­97.
+16. V. Güntzer, G. Jüttner, S. G., and F. Sarre (1989). Automatic thesaurus construction by
+machine learning from retrieval sessions. Information Processing & Management, 25(3):
+265­273.
+17. M. Hancock­Beaulieu and S. Walker (1992). An evaluation of automatic query
+expansion in an online library catalogue. Journal of Documentation, 48(4): 406­421.
+18. M. A. Hearst (1992). Automatic acquisition of hyponyms from large text corpora.
+Fourteenth International Conference on Computational Linguistics COLING'92.
+19. D. Hindle (1989). Acquiring disambiguation rules from text. 27th Annual Meeting of the
+Association for Computational Linguistics, 118­125, Pittsburgh.
+20. Y. W. Kim and J. H. Kim (1990). A model of knowledge based information retrieval
+with hierarchical concept graph. Journal of Documentation, 46(2): 113­136.
+21. H. Kimoto and T. Iwaderie (1990). Construction of a dynamic thesaurus and its use for
+associated information retrieval. 13th ACM­SIGIR Conference, 227­240.
+22. D. H. Kraft and D. A. Buell (1983). Fuzzy sets and generalized Boolean retrieval
+systems. International Journal on Man­Machine Studies, 19: 49­56.
+23. J. H. Lee, M. H. Kim, and Y. J. Lee (1993). Information retrieval based on conceptual
+distance in IS­A hierarchies. Journal of Documentation, 49: 188­207.
+24. J. H. Lee, M. H. Kim, and Y. J. Lee (1994). Ranking documents in thesaurus­based
+Boolean retrieval systems. Information Processing & Management, 30(1): 79­91.
+25. X. Lu (1990). Document retrieval: a structure approach. Information Processing &
+Management, 26(2): 209­218.
+26. M. Maron and J. Kuhns (1960). On relevance, probabilistic indexing and information
+retrieval. Journal of the ACM, 7: 216­244.
+27. G. Miller (ed.) (1990). Wordnet: an on­line lexical database,
+28. S. Miyamoto (1990). Information retrieval based on fuzzy associations. Fuzzy Sets and
+Systems, 38: 191­205.
+29. J.­Y. Nie (1989). An information retrieval model based on modal logic. Information
+Processing & Management, 25(5): 477­491.
+30. J. Pearl (1988). Probabilistic Reasoning in Intelligent Systems: Networks of Plausible
+Inference. Morgan Kaufmann: San Mateo CA.
+31. H. J. Peat and P. Willett (1991). The limitation of term co­occurence data for query
+expansion in document retrieval systems. Journal of the American Society for
+Information Science, 42(5): 378­383.
+32. Y. Qiu and H. P. Frei (1993). Concept based query expansion. Research and
+Development in Information Retrieval, ACM­SIGIR, 160­169.
+33. R. Rada, J. Barlow, J. Potharst, P. Zanstra, and D. Bijstra (1991). Document ranking
+using an enriched thesaurus. Journal of Documentation, 47: 240­253.
+34. R. Rada, H. Mili, E. Bicknell, and M. Blettner (1989). Development and application of a
+metric on semantic nets. IEEE Transaction on Systems, Man, and Cybernetics, 19(1):
+17­30.
+35. T. Radecki (1979). Fuzzy set theoretical approach to document retrieval. Information
+Processing & Management, 15: 247­259.
+36. C. J. v. Rijsbergen (1977). A theoretical basis for the use of co­ocurrence data in
+information retrieval. Journal of Documentation, 33: 106­119.
+37. C. J. v. Rijsbergen (1979). Information Retrieval, 2 nd ed. Butterworths: London.
+38. C. J. v. Rijsbergen (1986). A non­classical logic for information retrieval. The Computer
+Journal, 29(6): 481­485.
+39. C. J. v. Rijsbergen (1989). Towards an information logic. Research and Development
+on Information Retrieval ­ ACM­SIGIR, 77­86.
+40. S. Robertson, M. Maron, and W. Cooper (1982). Probability of relevance: a unification
+of two competing models for document retrieval. Information Technology: Research and
+Development, 1: 1­21.
+41. G. Salton and C. Buckley (1988). On the use of spreading activation methods in
+automatic information retrieval. 11th ACM­SIGIR Conference.
+42. G. Salton and M. J. McGill (1983). Introduction to Modern Information Retrieval.
+McGraw­Hill:
+43. P. K. Schotch (1975). Fuzzy modal logic. International Symposium on Multiple-­Valued
+Logic, 176­182, Indiana University, Bloomington.
+44. J. Sinclair (1991). Corpus, concordance, collocation. Oxford University Press: Oxford.
+45. K. Sparck­Jones (1991). Notes and references on early automatic classification work.
+SIGIR Forum, 25(1): 10­17.
+46. P. Thompson (1988). Subjective probability and information retrieval: A review of the
+psychological literature. Journal of Documentation, 44(2): 119­143.
+47. H. Turtle and W. B. Croft (1990). Inference network for document retrieval. Research
+and Development on Information Retrieval ­ ACM­SIGIR, Brussels.
+48. E. M. Voorhees (1993). Using Wordnet to disambiguate word senses for text retrieval.
+Research and Development on Information Retrieval ­ ACM­SIGIR, Pittsburgh.
+49. E. M. Voorhees (1994). Query expansion using lexical­semantic relations. Research and
+Development on Information Retrieval ­ ACM­SIGIR, 61­70, Dublin.
+50. W. G. Waller and D. H. Kraft (1979). A mathematical model for a weighted Boolean
+retrieval system. Information Processing & Management, 15: 235­245.
+51. S. K. M. Wong and Y. Y. Yao (1991). A probabilistic inference model for information
+retrieval. Information Systems, 16(3): 301­321.
+52. M. S. Ying (1988). On standard models of fuzzy modal logics. Fuzzy Sets and Systems,
+26: 357­363.
+53. L. A. Zadeh (1983). The role of fuzzy logic in the management of uncertainty in expert
+systems. Fuzzy Sets and Systems, 11: 199­227.

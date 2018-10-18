@@ -1,0 +1,46 @@
+Relational Knowledge Discovery in Databases
+
+Hendrik Blockeel and Luc De Raedt
+
+Katholieke Universiteit Leuven
+Department of Computer Science
+Celestijnenlaan 200A
+3001 Heverlee
+e-mail: {Hendrik.Blockeel, Lu .DeRaedt}@cs.kuleuven.ac.be
+
+
+Abstract. In this paper, we indicate some possible applications of ILP
+or similar techniques in the knowledge discovery field, and then discuss 
+several methods for adapting and linking ILP-systems to relational
+database systems. The proposed methods range from “pure ILP” to
+“based on techniques originating in ILP” . We show that it is both easy
+and advantageous to adapt ILP-systems in this way.
+References
+
+1.	L. De Raedt and L. Dehaspe. Clausal discovery. Forthcoming, 1995.
+2.	L. De Raedt and W. Van Laer. Inductive constraint logic. In Proceedings of the 5th
+Workshop on Algorithmic Learning Theory, Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1995.
+3.	L. Dehaspe and L. De Raedt. DLAB: a declarative language bias for concept learning 
+and knowledge discovery engines. Technical Report CW-214, Department of
+Computer Science, Katholieke Universiteit Leuven, October 1995.
+4.	R. Elmasri and S. B. Navathe. Fundamentals of Database Systems. The Benjamin/Cummings 
+Publishing Company, 2nd edition, 1989.
+5.	U. M. Fayyad and R. Uthurusamy, editors. Proceedings of the First International
+Conference on Knowledge Discovery and Data Mining. AAAI Press, August 1995.
+6.	J-U. Kietz and S. Wrobel. Controlling the complexity of learning in logic through
+syntactic and task-oriented models. In S. Muggleton, editor, Inductive logic programming, 
+pages 335—359. Academic Press, 1992.
+7.	G. Lindner. Anwendung des lernverfahrens RDT auf eine relationele datenbank.
+Master’s thesis, Universität Dortmund, August 1994. In German.
+8.	G. Lindner and K. Morik. Coupling a relational learning algorithm with a database
+system. In Y. Kodratoff, G. Nakhaeizadeh, and C. Taylor, editors, Workshop
+Notes of the MLnet Familiarization Workshop on Statistics, Machine Learning
+and Knowledge Discovery in Databases, pages 163—168, 1995.
+9.	S. Muggleton. Inverse entailment and progol. New Generation Computing, 13,
+1995.
+10.	J. Paredaens. On the expressive power of the relational algebra. Information
+Processing Letters, 7(2):107—111, February 1978.
+11.	J.R. Quinlan. FOIL: A midterm report. In P. Brazdil, editor, Proceedings of the 6th
+European Conference on Machine Learning, Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1993.

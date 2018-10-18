@@ -1,0 +1,154 @@
+Digital Image Similarity
+for Geo-spatial Knowledge Management
+
+James D. Carswell1, David C. Wilson2, and Michela Bertolotto2
+
+1 Digital Media Centre, Dublin Institute of Technology, Dublin 2, Ireland
+jcarswell@dit.ie
+2 Smart Media Institute, Department of Computer Science,
+University College Dublin, Belfield, Dublin 4, Ireland
+{david.wilson,michela.bertolotto}@ucd.ie
+
+
+Abstract. The amount and availability of high-quality geo-spatial image 
+data, such as digital satellite and aerial photographs, is increasing
+dramatically. Task-based management of such visual information and
+associated knowledge is a central concern for organisations that rely on
+digital imagery. We are developing geo-spatial knowledge management
+techniques that employ case-based reasoning as the core methodology. In
+order to provide effective retrieval of task-based experiences that center
+around geo-spatial imagery, we need to forward novel similarity metrics
+for directly comparing the image components of experience cases. Based
+on work in geo-spatial image database retrieval, we are building an effective 
+similarity metric for geo-spatial imagery that makes comparisons
+based on derived image features, their shapes, and the spatial relations
+between them. This paper gives an overview of the geo-spatial knowledge
+management context, describes our image similarity metric, and provides
+an initial evaluation of the work.
+References
+
+1.	F. Ackerman. Digital image correlation: Performance and potential application in
+photogrammetry. Photogrammetric Record, 11(64) :429—439, 1984.
+2.	P. Agouris, M. Bertolotto, J. D. Carswell, C. Georgiadis, and A. Stefanidis. Scale
+and orientation-invariant scene similarity metrics for image queries. International
+Journal of Geographical Information Science, 16, 2002.
+3.	P. Agouris, J. Carswell, and A. Stefanidis. An environment for content-based
+image retrieval from large spatial databases. ISPRS Journal of Photogrammetry
+& Remote Sensing, 54(4):263—272, 1999.
+4.	P. Agouris, J. Carswell, and A. Stefanidis. Sketch-based image queries in topographic 
+databases. Journal of Visual Communication and Image Representation,
+10(2):113—129, 1999.
+5.	Peggy Agouris, Michela Bertolotto, James D. Carswell, and Anthony Stefanidis. A
+scene similarity metric for matching configurations of image objects. In Proceedings
+of the XIX ISPRS Congress, Amsterdam, 2000.
+6.	D. Aha, I. Becerra-Fernandez, F. Maurer, and H. Muñoz-Avila, editors. Proceedings
+of the AAAI-99 Workshop on Exploring Synergies of Knowledge Management and
+Case-Based Reasoning. AAAI Press, 1999.
+7.	I. Becerra-Fernandez and D. Aha. Case-based problem solving for knowledge management 
+systems. In Proceedings of the Twelfth Annual Florida Artificial Intelligence 
+Research Symposium, pages 219—223. AAAI, 1999.
+8.	C. Carson, S. Belongie, H. Greenspan, and J. Malik. Region-based image querying.
+In Proceedings of the IEEE Workshop on Content-Based Access of Image and Video
+Libraries, pages 42—49, San Juan, Puerto Rico, 1997.
+9.	J. Carswell. Using Raster Sketches for Digital Image Retrieval. PhD thesis, University 
+of Maine, Orono, Maine, USA, 2000.
+10.	S.D. Cohen and L.J. Guibas. Shape-based indexing and retrieval; some first steps.
+In Proceedings of the 1996 ARPA Image Understanding Workshop, volume 2, pages
+1209—1212, 1996.
+11.	Carl-Helmut Coulon. Image retrieval without recognition. In First European Workshop 
+on Case-Based Reasoning (EWCBR‘93), Posters and Presentations, volume 2
+of SEKI-Report 93-12-2, pages 399—402, 1993.
+12.	Ellen Yi-Luen Do and Mark D. Gross. Reasoning about cases with diagrams. In
+American Society of Civil Engineers (ASCE) 3rd Congress on Computing in Civil
+Engineering, pages 314—320, 1996.
+13.	M. Egenhofer and R. Franzosa. Point-set topological spatial relations. International
+Journal of Geographical Information Systems, 5(2):161—174, 1991.
+14.	M. Egenhofer and D. Mark. Naive geography, spatial information theory - a theoretical 
+basis for gis. In A. Frank and W. Kuhn, editors, Lecture Notes in Computer
+Science, pages 1—15, 1995.
+15.	M. Egenhofer and J. Sharma. Topological consistency. In Proceedings of the 5th
+International Symposium on Spatial Data Handling, pages 335—343, 1992.
+16.	D.A. Forsyth et al. Finding pictures of objects in large collections of images. In
+Proceedings of the ECCV 96 Workshop on Object Representation, 1996.
+17.	M. Flickner et al. Query by image and video content: The QBIC system. IEEE
+Computer, 28(9):23—32, 1995.
+18.	Kurt Fenstermacher and Garsten Tautz, editors. Proceedings of the ICCBR-01
+Workshop on Case-Based Reasoning Approaches for Process-Oriented Knowledge
+Management. 2001.
+19.	C. Frankel, M. Swain, and W. Athitsos. Webseer: An image search engine for the
+world wide web. Technical Report TR-96-14, Department of Computer Science,
+University of Chicago, 1996.
+20.	J. Glasgow and I. Jurisica. Integration of case-based and image-based reasoning.
+In Proceedings of the AAAI-98 Workshop on Case-Based Reasoning, 1998.
+21.	R. Goyal and M. Egenhofer. Cardinal directions between extended spatial objects.
+IEEE Transactions on Knowledge and Data Engineering, 2000.
+22.	Morten Grimnes and Agnar Aamodt. A two layer case-based reasoning architecture
+for medical image understanding. In Proceedings of EWCBR-96, pages 164—178,
+1996.
+23.	M. Gross, C. Zimring, and E. Do. Using diagrams to access a case library of design.
+In Proceedings of the 1994 International Conference on Artificial Intelligence in
+Design, pages 129—144. Kluwer, 1994.
+24.	A.W. Gruen and E.P. Baltsavias. Geometrically constrained multiphoto matching.
+Photogrammetric Engineering and Remote Sensing, 1987.
+25.	V.N. Gudivada and V.V. Raghavan. Design and evaluation of algorithms for image 
+retrieval by spatial similarity. ACM Transactions on Information Systems,
+13(2):115—144, 1995.
+26.	A. Holt and G. L. Benwell. Case-based reasoning and spatial analysis. Journal of
+the Urban and Regional Information Systems Association, 8(1):27—36, 1996.
+27.	A. Holt and G. L. Benwell. Applying case-based reasoning techniques in GIS. The
+International Journal of Geographical Information Science, 13(1) :9—25, 1999.
+28.	B. Jose, B. P. Singh, S. Venkataraman, and R. Krishnan. Vector based image
+matching for indexing in case based reasoning systems. In Proceedings of G WCBR-
+96, 1996.
+29.	I. Jurisica, P. Rogers, J. Glasgow, S. Fortier, J. Luft, D. Bianca, and G. DeTitta.
+Image-feature extraction for protein crystallization: Integrating image analysis and
+case-based reasoning. In Proceedings of the Thirteenth Annual Conference on Innovative 
+Applications of Artificial Intelligence (IAAI-2001), pages 73—80, 2001.
+30.	Daniel Kaster, Heloisa Vieira Rocha, and Claudia Bauzer Medeiros. Case-based
+reasoning applied to environmental modeling with GIS. In Proceedings of GIScience
+2000, 2000.
+31.	A. Khattak and H. Renski. PLAN<>HOV: A case-based reasoning planning tool
+for high-occupancy-vehicle lane analysis in a GIS environment. Transportation
+Research Record, 1682:18—27, 1999.
+32.	H. Kitano and H. Shimazu. The experience sharing architecture: A case study in
+corporate-wide case-based software quality control. In D. Leake, editor, Case-Based 
+Reasoning: Experiences, Lessons, and Future Directions, pages 235-268.
+AAAI Press, Menlo Park, CA, 1996.
+33.	Yu Ting Hung Ko-Wan Tsou, Yao-Lin Chang. A case-based urban planning support 
+system using an integrated combination of geographical information systems
+and remote sensing. In Proceedings of the 21st Asian Conference on Remote Sensing, 2000.
+34.	D. Leake. Case-based CBR: Capturing and reusing reasoning about case adaptation. 
+International Journal of Expert Systems, 1997.
+35.	David B. Leake and David C. Wilson. A case-based framework for interactive
+capture and reuse of design knowledge. Applied Intelligence, 14(1), 2001.
+36.	R. T. Macura and K. J. Macura. MacRad: Case-based retrieval system for radiology
+image resource. In Proceedings of ICCBR-95, 1995.
+37.	R. Mehrotra and J. Gray. Similar-shape retrieval in shape data management. IEEE
+Computer, 28(9):57—62, 1995.
+38.	Alessandro Micarelli, Alessandro Neri, and Giuseppe Sansonetti. A case-based
+approach to image recognition. In Proceedings of EWCBR-2000, pages 443—454,
+2000.
+39.	Mirjam Minor and Steffen Staab, editors. Proceedings of the German Workshop
+on Experience Management. 2002.
+40.	A. D. Narasimhalu. CAFIIR: An image based CBR/IR application. In Proceedings
+of the 1993 AAAI Spring Symposium on Case-Based Reasoning and Information
+Retrieval, pages 70—77, 1993.
+41.	V.E. Ogle. Chabot: Retrieval from a relational database of images. IEEE Computer, 
+pages 23—32, September 1995.
+42.	A. Pentland, R. W. Picard, and S. Scarloff. Photobook: Content-based manipulation 
+of image databases. International Journal of Computer Vision, 18(3):233—254,
+1996.
+43.	P. Perner. An architeture for a cbr image segmentation system. Engineering
+Applications of Artificial Intelligence, 12(6):749—759, 1999.
+44.	P. Perner. CBR-based ultra sonic image interpretation. In Proceedings of EWCBR-
+2000, pages 479—481, 2000.
+45.	R.W. Pickard and T.P. Minka. Vision texture for annotation. Multimedia Systems,
+3(1):3—14, 1995.
+46.	Proceedings of GWCBR-01: Knowledge Management by Case-Based Reasoning:
+Experience Management as Reuse of Knowledge. 2001.
+47.	S. Sclaroff, L. Taycher, and M. La Cascia. Imagerover: A content-based image
+browser for the world wide web. In Proceedings of the IEEE Workshop on Content-Based 
+Access of Image and Video Libraries, pages 2—9, 1997.
+48.	S. Venkataraman, R. Krishnan, and K. Rao. A rule-rule-case based system for image 
+analysis. In First European Workshop on Case-Based Reasoning (EWCBR ‘93),
+Posters and Presentations, volume 2 of SEKI-Report 93-12-2, pages 410-414, 1993.

@@ -1,0 +1,88 @@
+Hierarchical Power­aware Routing in Sensor Networks
+
+Qun Li, Javed Aslam, Daniela Rus
+Department of Computer Science
+Dartmouth College
+{liqun, jaa, rus}@cs.dartmouth.edu
+
+ABSTRACT
+This paper discusses online power­aware routing in large
+sensor networks. We seek to optimize the lifetime of the
+network. We develop an approximation algorithm called
+max­min zPmin that has a good empirical competitive ra­tio. 
+To ensure scalability, we introduce a hierarchical algo­rithm, which is called zone­based routing.
+
+6. REFERENCES
+[1] Jon Agre and Loren Clare. An integrated architeture
+for cooperative sensing networks. Computer, pages 106
+-- 108, May 2000.
+[2] A.D. Amis, R. Prakash, T.H.P. Vuong, and D.T.
+Huynh. Max­min d­cluster formation in wireless ad
+hoc networks. In Proceedings IEEE INFOCOM 2000.
+Conference on Computer Communications, March
+2000.
+[3] Jae­Hwan Chang and Leandros Tassiulas. Energy
+conserving routing in wireless ad­hoc networks. In
+Proc. IEEE INFOCOM, Tel Aviv, Israel, Mar. 2000.
+[4] Yu Chen and Thomas C. Henderson. S­NETS: Smart
+sensor networks. In Seventh International Symposium
+on Experiemental Robotics, Hawaii, Dec. 2000.
+[5] B. Das, R. Sivakumar, and V. Bharghavan. Routing in
+ad hoc networks using a spine. In Proceedings of Sixth
+International Conference on Computer
+Communications and Networks, Sept. 1997.
+[6] Deborah Estrin, Ramesh Govindan, John Heidemann,
+and Satish Kumar. Next century challenges: Scalable
+coordination in sensor networks. In ACM MobiCom
+99, Seattle, USA, August 1999.
+[7] M. Gerla, X. Hong, and G. Pei. Landmark routing for
+large ad hoc wireless networks. In Proceedings of IEEE
+GLOBECOM 2000, San Francisco, CA, Nov. 2000.
+[8] W. Rabiner Heinzelman, A. Chandrakasan, and
+H. Balakrishnan. Energy­e#cient routing protocols for
+wireless microsensor networks. In Hawaii International
+Conference on System Sciences (HICSS '00), Jan.
+2000.
+[9] Chalermek Intanagonwiwat, Ramesh Govindan, and
+Deborah Estrin. Directed di#usion: A scalable and
+robust communication paradigm for sensor networks.
+In Proc. of the Sixth Annual International Conference
+on Mobile Computing and Networks (MobiCOM
+2000), Boston, Massachusetts, August 2000.
+[10] Mario Joa­Ng and I­Tai Lu. A peer­to­peer zone­based
+two­level link state routing for mobile ad hoc
+networks. IEEE Journal on Selected Areas in
+Communications, 17, Aug. 1999.
+[11] P. Krishna, N.H. Vaidya, M. Chatterjee, and D.K.
+Pradhan. A cluster­based approach for routing in
+dynamic networks. Computer Communication Review,
+27, April 1997.
+[12] A.B. McDonald and T.F. Znati. A mobility­based
+framework for adaptive clustering in wireless ad hoc
+networks. IEEE Journal on Selected Areas in
+Communications, 17, Aug. 1999.
+[13] M.R. Pearlman and Z.J. Haas. Determining the
+optimal configuration for the zone routing protocol.
+IEEE Journal on Selected Areas in Communications,
+17, Aug. 1999.
+[14] G. J. Pottie and W. J. Kaiser. Wireless integrated
+newtork sensors. Communications of the ACM,
+43(5):51--58, May 2000.
+[15] S. Ramanathan and M. Steenstrup.
+Hierarchically­organized, multihop mobile networks
+for multimedia support. ACM/Baltzer Mobile
+Networks and Applications, 3(1):101--119, June 1998.
+[16] Volkan Rodoplu and Teresa H. Meng. Minimum
+energy mobile wireless networks. In Proc. of the 1998
+IEEE International Conference on Communications,
+ICC'98, volume 3, pages 1633--1639, Atlanda, GA,
+June 1998.
+[17] Elizabeth Royer and C­K. Toh. A review of current
+routing protocols for ad hoc mobile wireless networks.
+In IEEE Personal Communication, volume 6, pages 46
+-- 55, April 1999.
+[18] S. Singh, M. Woo, and C. S. Raghavendra.
+Power­aware routing in mobile ad­hoc networks. In
+Proc. of Fourth Annual ACM/IEEE International
+Conference on Mobile Computing and Networking,
+pages 181--190, Dallas, TX, Oct. 1998.

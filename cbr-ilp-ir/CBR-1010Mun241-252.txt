@@ -1,0 +1,60 @@
+Retrieving Gases in Structured Domains by
+Using Goal Dependencies *
+
+Héctor Muñoz-Avila and Jochem Huellen
+
+Centre for Learning Systems and Applications (LSA)
+University of Kaiserslautern, Dept. of Computer Science
+P.O. Box 3049, D-67653 Kaiserslautern, Germany
+E-mail: {munioz|huellen}@informatik.uni-kl.de
+
+
+
+Abstract. Structured domains are characterized by the fact that there
+is an intrinsic dependency between certain key elements in the domain.
+Considering these dependencies leads to better performance of the planning 
+systems, and it is an important factor for determining the relevance
+of the cases stored in a case-base. However, testing for cases that meet
+these dependencies, decreases the performance of case-based planning, as
+other criterions need also to be consider for determining this relevance.
+We present a domain-independent architecture that explicitly represents
+these dependencies so that retrieving relevant cases is ensured without
+negatively affecting the performance of the case-based planning process.
+References
+
+Bergmann, R. (1995). Building and refining abstract planning cases by change
+of representation language. To appear in Journal of Al Research.
+Carbonell, J. (1983). Derivational analogy in problem solving and knowledge
+acquisition. In Proceedings of the 2nd International Workshop on Machine
+Learning. University of Illinois, Monticello, Illinois.
+Cunningham, P., & Slattery, S. (1994). Knowledge engineering requirements in
+derivational analogy. In (Richter, Wess, Althoff, & Maurer, 1994,).
+Ihrig, L. H., &: Kambhampati, S. (1994). Derivational replay for partial-order
+planning. In Proceedings of the Twelfth National Conference on Artificial
+Intelligence, AAAI-94. The AAAI Press/The MIT Press.
+Janetzko, D., Wess, S., & Melis, E. (1993). Goal-Driven Simmilarity Assessment. 
+In Olilbach, H.-J. (Ed.), GWAI-92: Advances in Artificial Intelligence, 
+Springer Verlag, pp. 283—298.
+Minton, S. (1988). Learning Search Control Knowledge: An Explanation-Based
+Approach. Kluwer Academic Publishers, Boston.
+Mitchell, T., Keller, R., & Kedar-Cabelli, S. (1986). Explanation-based generalization: 
+A unifying view. Machine Learning, 1, 47—80.
+Muñoz-Avila, H., Paulokat, J., & Wess, 5. (1994). Controlling a nonlinear hierachical 
+planner using case-based reasoning. In Keane, M., Halton, J. P.,
+& Manago, M. (Eds.), Proceedings Second European Workshop on Case-Based Reasoning, EWCBR-94.
+Paulokat, J., & Wess, 5. (1994). Planning for machining workpieces with a
+partial-order nonlinear planner. In Gil, & Veloso (Eds.), AAAI- Working
+Notes ‘Planning and Learning: On To Real Applications’. New Orleans.
+Richter, M., Wess, S., Althoff, K., & Maurer, F. (Eds.). (1994). First European
+Workshop on Case-Based Reasoning (EWCBR-93,). No. 837 in Lecture
+Notes in Artificial Intelligence. Springer Verlag.
+Smyth, B., & Keane, M. T. (1994). Retrieving adaptable cases: the role of
+adaptation knowledge in case retrieval. In (Richter et al., 1994).
+Veloso, M., & Carbonell, J. (1993). Derivational analogy in prodigy: Automating
+case acquisition, storage, and utilization. Machine Learning, 10.
+Veloso, M. (1994). Planning and learning by analogical reasoning. Lecture Notes
+in Artificial Intelligence. Springer Verlag.
+Yang, H., & Lu, W. F. (1994). Case adaptation in a case-based process planning 
+system. In Hammond, K. (Ed.), Proceedings of The Second International 
+Conference on Artificial Intelligence Planning Systems, AIPS-94.
+The AAAI Press.

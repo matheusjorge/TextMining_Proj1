@@ -1,0 +1,106 @@
+REMEX - A Case-Based Approach for
+Reusing Software Measurement Experienceware
+
+Christiane Gresse von Wangenheim
+
+Federal University of Santa Catarina - Production Engineering
+Florianópolis, Brazil
+gresse@eps.ufsc.br
+
+
+Abstract. For the improvement of software quality and productivity, organizations 
+need to systematically build up and reuse software engineering know-how,
+promoting organizational learning in software development. Therefore, an integrated 
+support platform has to be developed for capturing, storing and retrieving
+software engineering knowledge. Technical support is complicated through specific 
+characteristics of the software engineering domain, such as the lack of
+explicit domain models in practice and the diversity of environments. Applying
+Case-Based Reasoning, we propose an approach for the representation of relevant 
+software engineering experiences, the goal-oriented and similarity-based
+retrieval tailorable to organization-specific characteristics and the continuous
+acquisition of new experiences. The approach is applied and validated in the
+context of the Goal/Question/Metric (GQM) approach, an innovative technology
+for software measurement.
+References
+
+1.	Althoff, K.-D., et al.: Case-Based Reasoning for Decision Support and Diagnostic
+Problem Solving: The INRECA Approach. Proc. 3rd German Workshop on Case-
+Based Reasoning, Germany (1995)
+2.	Althoff, K.-D., Bomarius, F., Tautz, C.: Using Case-Based Reasoning Technology to
+Build Learning Software Organizations. Proc. of Workshop on Building, Maintaining,
+and Using Organizational Memories at the 13th European Conference on AI (1998)
+3.	Althoff, K.-D., et al.: CBR for Experimental Software Engineering. In M. Lenz et al.
+(eds.), Case-Based Reasoning Technology - From Foundations to Applications, LNAI
+1400, Springer Verlag (1998)
+4.	Althoff, K.-D.: Evaluating Case-Based Reasoning Systems: The Inreca Case Study.
+Postdoctoral Thesis, University of Kaiserslautern, Germany (1997)
+5.	Aamodt, A., Plaza, E.: Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches. Al Communications, 17(1) (1994)
+6.	Althoff, K.-D., Wess, S.: Case-based Knowledge Acquisition, Learning and Problem
+Solving in Diagnostic Real World Tasks. Proc. of the 5th European Knowledge Acquisition 
+for Knowledge-Based Systems Workshop, Scotland/UK (1991)
+7.	Barletta, R.: A Hybrid Indexing and Retrieval Strategy for Advisory CBR Systems
+Built with ReMind. Proc. of the 2nd European Workshop on Case-Based Reasoning
+(1994)
+8.	Basili, V. R., Caldiera, G., Rombach, H. D.: Experience Factory. In J. J. Marciniak
+(ed.), Encyclopedia of Software Engineering, John Wiley & Sons (1994)
+9.	Basili, V. R., Caldiera, G., Rombach, H. D.: Goal Question Metric Paradigm. In J. J.
+Marciniak (ed.), Encyclopedia of Software Engineering, John Wiley & Sons (1994)
+10.	Barr, J.M., Magaldi, R .V.: Corporate Knowledge Management for the Millennium. In
+I. Smith, B. Faltings (eds.), Advances in Case-Based Reasoning, Springer Verlag
+(1996)
+11.	CEMP Consortium. Customized Establishment of Measurement Programs. Final Report, 
+ESSI Project Nr.10358 (1996)
+12.	Frakes, W. B., Gandel, P. B.: Representing Reusable Software. Information and Software 
+Technology, 32(10) (1990)
+13.	Finnie, G. R., Wittig, G. W., Desharnais, J. -M.: Estimating Software Development Effort 
+with Case-Based Reasoning. Proc. of the 2nd Int. Conf. on Case-Based Reasoning,
+RI (1997)
+14.	Gresse von Wangenheim, C., Althoff, K.-D., Barcia, R.M.: Intelligent Retrieval of
+Software Engineering Experienceware. Proc. of the 11th Int. Conf. on Software Engineering 
+and Knowledge Engineering, Germany (1999)
+15.	Gresse von Wangenheim, C.: REMEX - A Case-Based Approach for Reuse of Software 
+Measurement Experienceware. Technical Report PPGEP-C3002 .99E, Graduate
+Program in Production Engineering, Federal University of Santa Catarina, Brazil
+(1999)
+16.	Gresse, C., Briand, L. C.: Requirements for the Knowledge-Based Support of Software 
+Engineering Measurement Plans. Journal of Knowledge-Based Systems, 11
+(1998)
+17.	Gibbs, W.W.: Software’s Chronic Crisis. Scientific American (1994)
+18.	Gresse von Wangenheim, C.: Knowledge Management in Experimental Software Engineering - 
+Create, Renew, Build and Organize Knowledge Assets. Proc. of the 10th
+Int. Conf. on Software Engineering and Knowledge Engineering, San Francisco, California (1998)
+19.	Gresse von Wangenheim, C., von Wangenheim, A., Barcia, R. M.: Case-BasedReuse
+of Software Engineering Measurement Plans. Proc. of the 10th Int. Conf. on Software
+Engineering and Knowledge Engineering, San Francisco, California (1998)
+20.	Henninger, S.: Capturing and Formalizing Best Practices in a Software Development
+Organization. Proc. of the 9th Int. Conf. on Software Engineering and Knowledge Engineering, 
+Spain (1997)
+21.	Kolodner, J. L.: Case-Based Reasoning. Morgan Kaufmann, San Francisco, California (1993)
+22.	Kitano, H., Shimazu, H.: The Experience-Sharing Architecture. In D. Leake (ed.),
+Case-Based Reasoning Experiences: Lessons Learned & Future Directions (1996)
+23.	Lam, W., Shankararaman, V.: Managing Change During Software Development: An
+Incremental, Knowledge-Based Approach. Proc. of the 10th Int. Conf. on Software
+Engineering and Knowledge Engineering, San Francisco, California (1998)
+24.	Manago, M. et al.: Casuel: A Common Case Representation Language. Technical Report 
+Deliverable D1, Esprit Project Inreca P6322 (1994)
+25.	Maiden, N.A., Sutcliffe, A. G.: Exploiting Reusable Specifications Through Analogy.
+Communications of the ACM, 35(4) (1992)
+26.	Kempter, H., Leippert, F.: Systematische Software-Qualitätsverbesserung durch
+zielorientiertes Messen und Bewerten sowie explizite Wiederverwendung des Soft-
+ware-Entwicklungs-Know-how. Proc. of the BMBF-Seminar Software Technology,
+Germany (1996)
+27.	Tautz, C., Althoff, K.-D.: Using Case-based Reasoning for Reusing Software Knowledge. 
+Proc. of the 2nd Int. Conference on Case-Based Reasoning, Springer Verlag
+(1997)
+28.	Tautz, C., Gresse von Wangenheim, C.: REFSENO: A Representation Formalism for
+Software Engineering Ontologies. Proc. 5th German Conf. on Knowledge-Based Systems, Germany (1999).
+29.	Tautz, C., Gresse von Wangenheim, C.: REFSENO: A Representation Formalism for
+Software Engineering Ontologies. Technical IESE-Report 015.98/E, Fraunhofer Institute 
+for Experimental Software Engineering, Kaiserslautern, Germany (1998).
+30. 	Tversky, A.: Features of Similarity. Psychological Review, 84(1977)
+31. 	Wess, S.: Fallbasiertes Problemlosen in wissensbasierten Systemen zur Entscheidungsunterstützung 
+und Diagnostik. Ph.D. Thesis, University of Kaiserslautern,
+Germany, infix Verlag (1995)
+32. 	Zand, M., Samadzadeh, M.: Software Reuse: Current Status and Trends. Journal of
+Systems and Software, 30 (3) (1995)

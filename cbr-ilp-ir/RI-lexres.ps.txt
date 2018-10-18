@@ -1,0 +1,61 @@
+Ranking and Selecting Synsets by Domain Relevance
+
+Paul Buitelaar, Bogdan Sacaleanu
+DFKI GmbH
+Stuhlsatzenhausweg 3
+D­66123 Saarbruecken, Germany
+{paulb,bogdan}@dfki.de
+
+Abstract
+The paper presents a novel method for domain
+specific sense assignment. The method
+determines the domain specific relevance of
+GermaNet synsets on the basis of the
+relevance of their constituent terms that co­-occur 
+within representative domain corpora.
+The approach is task independent and
+completely automatic. Experiments show
+results on three selected domains: business,
+soccer and medical.
+
+References
+Brants, T. 2000. TnT ­ A Statistical Part­of­
+Speech Tagger. In: Proceedings of 6 th ANLP
+Conference, Seattle, WA.
+Buitelaar, P. 2000. MUCHMORE: Multilingual
+Concept Hierarchies for Medical Information
+Organization and Retrieval. In: Proceedings of ASIS
+2000, Chicago, USA.
+Declerck, Th. and Wittenburg, P. 2001. MUMIS ­
+­ A Multimedia Indexing and Searching Environment.
+In: Proceedings of the First International Workshop
+on MultiMedia Annotation, Tokyo, Japan.
+Declerck, Th., Klein, J. and Neumann G. 1998.
+Evaluation of the NLP Components of an Information
+Extraction System for German. In: Proceedings of
+LREC, Granada, Spain.
+Hamp, B. and Feldweg, H. 1997. GermaNet: a
+Lexical­Semantic Net for German. In: Proceedings of
+the ACL/EACL97 workshop on Automatic
+Information Extraction and Building of Lexical
+Semantic Resources for NLP Applications, Madrid.
+Miller, G.A. 1995. WordNet: A Lexical Database
+for English. Communications of the ACM 11.
+Petitpierre, D. and Russell, G. 1995. MMORPH ­
+The Multext Morphology Program. Multext
+deliverable report for the task 2.3.1, ISSCO,
+University of Geneva.
+Sacaleanu B. 2001. Domain specific Tuning and
+Extension of Lexical Semantic Resources. Master
+Thesis, University of the Saarland, Germany.
+Salton, G. and Buckley, C. 1988. Term­Weighting
+Approaches In Automatic Text Retrieval. In:
+Information Processing & Management. 24, 5,
+pp.515­523.
+Turcato, D., Popowich F., Toole J., Fass D.,
+Nicholson D., and Tisher G. 2000. Adapting a
+synonym database to specific domains. In:
+Proceedings of the ACL'2000 Workshop on Recent
+Advances in Natural Language Processing and
+Information Retrieval, Hong Kong.
+

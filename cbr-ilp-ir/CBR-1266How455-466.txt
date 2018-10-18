@@ -1,0 +1,93 @@
+Examining Locally Varying Weights for Nearest
+Neighbor Algorithms
+
+Nicholas Howe and Claire Cardie
+
+Department of Computer Science, Cornell University, Ithaca NY 14850.
+E-mail: nihowe@cs.cornell.edu; cardie@cs.cornell.edu
+
+
+Abstract. Previous work on feature weighting for case-based learning
+algorithms has tended to use either global weights or weights that vary
+over extremely local regions of the case space. This paper examines the
+use of coarsely local weighting schemes, where feature weights are allowed
+to vary but are identical for groups or clusters of cases. We present a new
+technique, called class distribution weighting (CDW), that allows weights
+to vary at the class level. We further extend CDW into a family of related
+techniques that exhibit varying degrees of locality, from global to local.
+The class distribution techniques are then applied to a set of eleven
+concept learning tasks. We find that one or more of the CDW variants
+significantly improves classification accuracy for nine of the eleven tasks.
+In addition, we find that the relative importance of classes, features, and
+feature values in a particular domain determines which variant is most
+successful.
+References
+
+(Aha and Goldstone, 1992) Aha, D. W. and Goldstone, R. L. 1992. Concept learning
+and flexible weighting. In Proceedings of the Fourteenth Annual Conference of the
+Cognitive Science Society, Bloomington, IN. The Cognitive Science Society, Lawrence
+Eribaum Associates. 534—539.
+(Aha et al., 1991) Aba, D. W.; Kibler, D.; and Goldstone, R.L. 1991. Instance-based
+learning algorithms. Machine Learning 6:37—66.
+(Aha, 1992) Aha, D. W. 1992. Tolerating noisy, irrelevant, and novel attributes in
+instance-based learning algorithms. International Journal of Man-Machine Studies
+36:267—287.
+(Atkeson et al., 1997a) Atkeson, C. G.; Moore, A. W.; and Schaal, S. 1997a. Locally
+weighted learning. Artificial Intelligence Review Special Issue on Lazy Learning Algorithms.
+(Atkeson et al., 1997b) Atkeson, C. G.; Moore, A. W.; and Schaal, S. 1997b. Locally
+weighted learning for control. Artificial Intelligence Review Special Issue on Lazy
+Learning Algorithms.
+(Cain et al., 1991) Cain, T.; Pazzani, M. J.; and Silverstein, C. 1991. Using domain
+knowledge to influence similarity judgement. In Proceedings of the Case-Based Reasoning 
+Workshop, Washington, DC. Morgan Kaufmann. 191—199.
+(Cardie, 1993a) Cardie, C. 1993a. A Case-Based Approach to Knowledge Acquisition 
+for Domain-Specific Sentence Analysis. In Proceedings of the Eleventh National
+Conference on Artificial Intelligence, Washington, DC. AAAI Press / MIT Press.
+798—803.
+(Cardie, 1993b) Cardie, C. 1993b. Using Decision Trees to Improve Case-Based Learning. 
+In Utgoff, P., editor, Proceedings of the Tenth International Conference on
+Machine Learning, University of Massachusetts, Amherst, MA. Morgan Kaufmann.
+25—32.
+(Creecy et al., 1992) Creecy, R. H.; Masand, B. M.; Smith, S. 1.; and Waltz, D. L.
+1992. Trading mips and memory for knowledge engineering. Communications of the
+ACM 35:48—64.
+(Fawcett, 1996) Fawcett, T. 1996. Learning with Skewed Class Distributions — Summary 
+of Responses. Machine Learning List: Vol. 8, No. 20.
+(Friedman, 1994) Friedman, J. H. 1994. Flexible metric nearest neighbor classification. 
+Unpublished manuscript available by anonymous FTP from play-fair.stanford.edu (see /pub/friedman/README).
+(Hastie and Tibshirani, 1994) Hastie, T.J. and Tibshirani, R.J. 1994. Discriminant
+adaptive nearest neighbor classification. Unpublished manuscript available by anonymous 
+FTP from playfair.stanford.edu as /pub/hastie/dann.ps.Z.
+(John et al., 1994) John, G. H.; Kohavi, R.; and Pfieger, K. 1994. Irrelevant features
+and the subset selection problem. In Cohen, W. and Hirsh, H., editors, Proceedings
+of the Eleventh International Conference on Machine Learning, Rutgers University,
+New Brunswick, NJ. Morgan Kaufmann. 121—129.
+(Kira and Rendell, 1992) Kira, K. and Rendell, L. A. 1992. A practical approach to
+feature selection. In Proceedings of the Ninth International Conference on Machine
+Learning, Aberdeen, Scotland. Morgan Kaufmann. 249—256.
+(Merz and Murphy, 1996) Merz, C. J. and Murphy, P. M. 1996. UCI repository of
+machine learning databases. [http://www.ics.uci.edu/ mlearn/MLRepository.html].
+(Mohri and Tanaka, 1994) Mohri, T. and Tanaka, H. 1994. An optimal weighting
+criterion of case indexing for both numeric and symbolic attributes. In Aha, D. W.,
+editor, Case-Based Reasoning: Papers from the 1994 Workshop. AAAI Press, Menlo
+Park, CA. Technical Report WS-94-0l.
+(MUC-5, 1994) Proceedings of the Fifth Message Understanding Conference (MUC-5).
+Morgan Kaufmann, San Mateo, CA.
+(Schaffer, 1994) Schaffer, C. 1994. A conservation law for generalization performance.
+In Cohen, W. and Hirsh, H., editors, Proceedings of the Eleventh International Conference 
+on Machine Learning, Rutgers University, New Brunswick, NJ. Morgan Kaufmann. 259—265.
+(Skalak, 1992) Skalak, D. B. 1992. Representing cases as knowledge sources that apply
+local similarity metrics. In Proceedings of the Fourteenth Annual Conference of the
+Cognitive Science Society, Bloomington, IN. Lawrence Erlbaum Associates. 352—330.
+(Stanfill and Waltz, 1986) Stanfill, C. and Waltz, D. 1986. Toward Memory-Based
+Reasoning. Communications of the ACM 29:1213—1228.
+(Wettschereck et al., 1997) Wettschereck, D.; Aha, D. W.; and Mohri, T. 1997. A
+review and empirical evaluation of feature weighting methods for a class of lazy
+learning algorithms. Artificial Intelligence Review Special Issue on Lazy Learning
+Algorithms.
+(Zheng, 1993) Zheng, Z. 1993. A benchmark for classifer learning. Technical Report
+474, Basser Department of Computer Science, The University of Sydney, N.S.W.
+Australia 2006.
+(Zwitter and Soklic, 1988) Zwitter, M. and Soklic, M. 1988. Lymphography domain,
+[http://www.ics.uci.edu/ mlearn/MLRepository.html]. Donated by I. Kononenko
+and B. Cestnik.

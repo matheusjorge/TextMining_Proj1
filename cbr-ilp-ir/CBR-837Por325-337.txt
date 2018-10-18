@@ -1,0 +1,74 @@
+Using Case-Based Reasoning to Focus
+Model-Based Diagnostic Problem Solving
+
+Luigi Portinale, Pietro Torasso, Carlo Ortalda, Antonio Giardino
+
+Dipartimento di Informatica - Universita’ di Torino
+G.so Svizzera 185 - 10149 Torino (Italy)
+
+
+Abstract. The aim of this paper is to present an approach to the integration 
+of Case-Based Reasoning with Model-Based Reasoning in diagnostic 
+problem solving. Such an integration is exploited by defining
+adaptation criteria on solutions retrieved by a case-based reasoner, in
+order to focus the model-based reasoner in the search for the solution
+of the current case and avoiding, as much as possible, the computation
+of the solution from scratch. Such adaptation criteria strictly rely on a
+formal theory of diagnosis that allows us to define different adaptation
+levels, relative to the trade-off between “accuracy of the solution” and
+“computational effort”. A simple example in the domain of car engine
+faults is presented and some important aspects are finally pointed out
+on the basis of our preliminary experiments.
+References
+
+1.	D.S. Aghassi. Evaluating case-based reasoning for heart failure diagnosis. Technical 
+report, Dept. of EECS, MIT, Cambridge, MA, 1990.
+2.	K.D. Ashley and E.L. Rissland. Compar and contrast, a test of expertise. In Proc.
+6th AAAI, pages 273—278, Seattle, 1987.
+3.	P.P. Bonissone and S. Dutta. Integrating case-based and rule-based reasoning: the
+possibilistic connection. In Proc. 6th Conf. on Uncertainty in Artificial Intelligence, 
+Cambridge, MA, 1990.
+4.	L. Console, L. Portinale, and D. Theseider Dupré. Focusing abductive diagnosis.
+In Proc. 11th Int. Conf. on Expert Systems and Their Applications (Conf. on 2nd
+Generation Expert Systems), pages 231—242, Avignon, 1991. Also in AI Commu-
+nications 4(2/3):88-97, 1991.
+5.	L. Console, L. Portinale, D. Theseider Dupré, and P. Torasso. Combining heuristic
+and causal reasoning in diagnostic problem solving. In J.M. David, J.P. Krivine,
+and R. Simmons, editors, Second Generation Expert Systems, pages 46,68. Springer
+Verlag, 1993.
+6.	L. Console and P. Torasso. A spectrum of logical definitions of model-based diagnosis. 
+Computational Intelligence, 7(3): 133—141, 1991.
+7.	J.M. David, J.P. Krivine, and R. Simmons (eds.). Second Generation Expert Systems. 
+Springer Verlag, 1993.
+8.	J. de Kleer. Focusing on probable diagnoses. In Proc. AAAI 91, pages 842—848,
+Anaheim, CA, 1991. Also in [11].
+9.	A. Goel. Integration of case-based reasoning and model-based reasoning for adaptive 
+design problem solving. Technical report, (PhD Diss.) Dept. of Comp. and
+Inf. Science, Ohio Univ., 1989.
+10.	K.J. Hammond. Case-Based Planning: Viewing Planning as a Memory Task. Academic Press, 1989.
+11.	W. Hamscher, L. Console, and J. de Kleer. Readings in Model-Based Diagnosis.
+Morgan Kaufmann, 1992.
+12.	Y. Jang. HYDI: a hybrid system with feedback for diagnosing multiple disorders.
+Technical report, MIT/LCS/TR-576, 1993.
+13.	E.K. Jones. Model-based case adaptation. In Proc. AAAI 92, pages 673—678, San
+Jose’, 1992.
+14.	J. Kolodner and R. Kolodner. Using experience in clinical problem solving: Introduction 
+and framework. IEEE Trans. on Systems, Man and Cybernetics,
+17(3):420—431, 1987.
+15.	J.L. Kolodner. Retrieval and Organization Strategies in Conceptual Memory: a
+Computer Model. Lawrence Erlbaum, 1984.
+16.	P. Koton. Using experience in learning and problem solving. Technical report,
+MIT/LCS/TR-441, 1989.
+17.	D. Macchion and D.P. Vo. A hybrid KBS for technical diagnosis learning and
+assistance. In Proc. EWCBR 93, pages 307—312, Kaiserslautern, 1993.
+18.	G. Pews and S. Wess. Combining case-based and model-based approaches for diagnostic 
+applications in technical domains. In Proc. EWCBR 93, pages 325—328,
+Kaiserslautern, 1993.
+19.	E.L. Rissland and D.B. Skalak. Combining case-based and rule-based reasoning:
+a heuristic approach. In Proc. 11th IJ CA I, pages 524—530, Detroit, 1989.
+20.	P. Torasso and L. Console. Diagnostic Problem Solving: Combining Heuristic, Approximate 
+and Causal Reasoning. Van Nostrand Reinhold, 1989.
+21.	P. Torasso, L. Portinale, L. Console, and M. Casassa Mont. Approximate reasoning 
+in a system combining prototypical knowledge with case-based reasoning. In
+L.A. Zadeh and J. Kacprzyk, editors, Fuzzy Logic for the Management of Uncertainty. 
+John Wiley & Sons, 1992.

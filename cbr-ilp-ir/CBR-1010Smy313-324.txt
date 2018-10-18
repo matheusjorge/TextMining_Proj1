@@ -1,0 +1,70 @@
+Experiments On Adaptation-Guided Retrieval
+In Case-Based Design
+
+Barry Smyth1 and Mark T. Keane2
+
+1 Dublin Laboratory, Trinity College, Dublin 2, IRELAND
+(E-mail: barry.smyth@hdl.ie)
+2 Department of Computer Science, Trinity College, Dublin 2, IRELAND
+
+Abstract. Case-based reasoning (CBR) has been applied with some success to
+complex planning and design tasks. In such systems, the best case is retrieved and
+adapted to solve a particular target problem. Often, the best case is that which can
+be most easily adapted to the target problem (as the overhead in adaptation is
+generally very high). Standard CBR systems use semantic-similarity to retrieve
+cases, on the assumption that the most similar case is the easiest case to adapt.
+However, this assumption can be shown to be flawed. In this paper, we report a
+novel retrieval method, called adaptation-guided retrieval, that is sensitive to the
+ease-of-adaptation of cases. In the context of a CBR system for software-design,
+called Déjà Vu, we show through a series of experiments that adaptation-guided
+retrieval is more accurate than standard retrieval techniques, that it scales well to
+large case-bases and that it results in more efficient overall problem-solving
+performance. The implications of this method and these results are discussed.
+
+
+6 References
+
+1.	Kolodner, J. (1989). Judging Which is the “Best” Case for a Case-Based
+Reasoner. Proceedings of the Case-Based Reasoning Workshop, Florida,
+U.S.A.
+
+2.	Goel, A. (1989) Integration of Case-Based Reasoning and Model-Based
+Reasoning for Adaptive Design Problem Solving. Ph.D. Thesis. Ohio State
+University, USA.
+
+3.	Birnbaum, L., Collins, G., Brand, M., Freed, M., Krulwich, B., Pryor, L.
+(1989) A Model-Based Approach to the Construction of Adaptive Case-Based
+Planning Systems. Proceedings of the Case-Based Reasoning Workshop,
+Florida, USA.
+
+4.	Fox, S. & Leake D. (1994) Using Introspective Reasoning to Guide Index
+Refinement. Proceedings of the Sixteenth international Conference of the
+Cognitive Science Conference, (pp. 324 - 329)
+
+5.	Leake, D. (1992) Constructive Similarity Assessment: Using Stored Cases
+to Define New Situations. Proceedings of the Fourteenth International
+Conference of the Cognitive Science Conference, (pp. 313 - 318)
+
+6.	Smyth, B., & Keane, M. (1994). Retrieving Adaptable Cases: The Role of
+Adaptation Knowledge in case Retrieval. Topics in Case-Based Reasoning,
+Springer Verlag (pp. 209-220).
+
+7.	Cain, T., Pazzani, M. J., and Silverstein, G. (1991) Using Domain
+Knowledge to Influence Similarity Judgements. Proceedings of the Case-Based 
+Reasoning Workshop, (pp. 191-198). Washington D.C., U.S.A.
+
+8.	Veloso, M. (1992) Learning by Analogical Reasoning in General Problem
+Solving. Ph.D. Thesis (CMU-CS-92-174). Carnegie Mellon University,
+Pittsburgh, USA.
+
+9.	Smyth, B., & Cunningham, P. (1992). Déjà Vu: A Hierarchical Case-Based
+Reasoning System for Software Design. Proceedings of the 10th European
+Conference on Artificial Intelligence, (pp. 587 - 589). Vienna, Austria
+
+10.	Hammond, K. J. (1989). Planning from Memory. New York: Academic
+Press.
+
+11.	Francis, A.G., & Ram, A. (1993) Computational Models of the Utility
+Problem and their Application to a Utility Analysis of Case-based
+Reasoning. Proceedings of the Workshop on Knowledge Compilation and
+Speed-Up Learning.

@@ -1,0 +1,83 @@
+Using Case-Based Reasoning for
+Reusing Software Knowledge
+
+Carsten Tautz and Klaus-Dieter Aithoff
+
+
+Fraunhofer Institute for Experimental Software Engineering
+Sauerwiesen 6, D-6766l Kaiserslautern, Germany
+E-mail: {tautz, althoff}@iese.fhg.de
+
+
+Abstract. Reuse of software knowledge is a principle for improving
+productivity and reliability of software development. To achieve this, reuse must
+be done systematically. This means that processes for retrieving, reusing,
+revising, and retaining have to be defined. At the same time organizational issues
+(such as the establishment of a separate organizational unit responsible for
+organizational learning) must be considered. In this paper we compare software
+knowledge reuse models to the CBR cycle of Aamodt and Plaza [1] and show
+that the approaches are very similar. We suggest to extend the CBR cycle by
+including organizational issues explicitly and conclude that CBR is a promising
+technology for realizing software knowledge reuse if our suggested
+organizational extensions are considered.
+7 References
+
+[1]	Agnar Aamodt and Enric Plaza. Case-based reasoning: Foundational issues,
+methodological variations, and system approaches. AICOM, 7(1):39—59, March
+1994.
+
+[2]	K.-D. Althoff, E. Auriol, R. Barletta, and M. Manago. A Review of Industrial
+Case-Based Reasoning Tools. Al Intelligence. Oxford (UK), 1995.
+
+[3]	Klaus-Dieter Althoff. Evaluating case-based reasoning systems: The Inreca
+case study. Postdoctoral thesis, University of Kaiserslautern, July 1996. (submitted).
+
+[4]	Klaus-Dieter Althoff and Agnar Aamodt. Relating case-based problem solving
+and learning methods to task and domain characteristics: Towards an analytic
+framework. AICOM, 9(3): 109—116, September 1996.
+
+[5] Klaus-Dieter Althoff and Brigitte Bartsch-Spörl. Decision support for case-based 
+applications. Wirtschaftsinformatik, 38(1): 8—16, February 1996.
+[6]	Klaus-Dieter Aithoff and Wolfgang Wilke. Potential uses of case-based reasoning 
+in experienced based construction of software systems and business process
+support. In R. Bergmann and W. Wilke, editors, Proceedings of the 5th German
+Workshop on Case-Based Reasoning, LSA-97-01E, pages 3 1—38. Centre for
+Learning Systems and Applications, University of Kaiserslautern, March 1997.
+
+[7]	Brigitte Bartsch-Spörl, Klaus-Dieter Althoff, and Alexandre Meissonnier.
+Learning from and reasoning about case-based reasoning systems. In Proceedings 
+of the 4th German Conference on Knowledge-Based Systems (XPS97),
+March 1997.
+
+[8]	Victor R. Basili, Gianluigi Caldiera, and H. Dieter Rombach. Experience Factory. 
+In John J. Marciniak, editor, Encyclopedia of Software Engineering,
+volume 1, pages 469—476. John Wiley & Sons, 1994.
+
+[9]	Victor R. Basili and H. Dieter Rombach. Support for comprehensive reuse.
+IEEE Software Engineering Journal, 6(5):303—3 16, September 1991.
+
+[10]	R. Bergmann and U. Eisenecker. Case-based reasoning for supporting reuse of
+object-oriented software: A case study (in German). In M. M. Richter and
+F. Maurer, editors, Expert Systems 95, pages 152—169. infix Verlag, 1996.
+
+[11] 	C. Fernández-Chamiso, P. A. Gozales-Cálero, M. Gómez-Albarrán, and
+L. Hernández-Yanez. Supporting object reuse through case-based reasoning. In
+I. Smith and B. Faltings, editors, Advances in Case-Based Reasoning, pages
+135—149. Springer-Verlag, 1996.
+[12]	Janet Kolodner. Case-Based Reasoning. Morgan Kaufmann, 1993.
+[13]	Eduardo Ostertag, James Hendler, Rubén Prieto-Díaz, and Christine Braun.
+Computing similarity in a reuse library system: An Al-based approach. ACM
+Transactions on Software Engineering and Methodology, 1(3):205—228, July
+1992.
+[14]	Rubén Prieto-Díaz and Peter Freeman. Classifying software for reusability.
+IEEE Software, 4(l):6—16, January 1987.
+[15]	H. Dieter Rombach. New institute for applied software engineering research.
+Software Process Newsletter, pages 12—14, Fall 1996. No. 7.
+[16]	Wilhelm Schäfer, Rubén Prieto-Díaz, and Masao Matsumoto. Software Reusability. 
+Ellis Horwood, 1994.
+[17] 	Carsten Tautz and Klaus-Dieter Althoff. Using case-based reasoning for reusing 
+software knowledge. Technical Report IESE-Report No. 004.97/E, Fraunhofer 
+Institute for Experimental Software Engineering, Kaiserslautern
+(Germany), 1997.
+[18]	Mansour Zand and Mansur Samadzadeh. Software reuse: Current status and
+trends. Journal of Systems and Software, 30(3): 167—170, September 1995.

@@ -1,0 +1,129 @@
+Reexamining the Cluster Hypothesis:
+Scatter/Gather on Retrieval Results \Lambda
+
+Marti A. Hearst and Jan O. Pedersen
+Xerox Palo Alto Research Center
+3333 Coyote Hill Rd
+Palo Alto, CA 94304
+hearst,pedersen@parc.xerox.com
+
+Abstract
+We present Scatter/Gather, a cluster­based document brows­ing 
+method, as an alternative to ranked titles for the orga­nization 
+and viewing of retrieval results. We systematically
+evaluate Scatter/Gather in this context and find significant
+improvements over similarity search ranking alone. This
+result provides evidence validating the cluster hypothesis
+which states that relevant documents tend to be more sim­ilar 
+to each other than to non­relevant documents. We de­scribe a
+system employing Scatter/Gather and demonstrate
+that users are able to use this system close to its full poten­tial.
+
+
+References
+[1] Matthew Chalmers and Paul Chitson. Bead: Explo­ration 
+in information visualization. In Proceedings of
+the 15th Annual International ACM/SIGIR Confer­ence, pages 330--337, Copenhagen, Denmark, 1992.
+[2] A. Courtney, W. Janssen, D. Severson, M. Spreitzer,
+and F. Wymor.
+Inter­Language Unification, release 1.5. Xerox PARC,
+1994. ftp://ftp.parc.xerox.com/pub/ilu/ilu.html.
+[3] W.B. Croft. A model of cluster searching based on
+classification. Information Systems, 5:189--195, 1980.
+[4] D. R. Cutting, D. R. Karger, J. O. Pedersen, and J. W.
+Tukey. Scatter/gather: A cluster­based approach to
+browsing large document collections. In Proc. 15th An­nual 
+Int'l ACM SIGIR Conference on R&D in IR, June
+1992. Also available as Xerox PARC technical report
+SSL­92­02.
+[5] Douglass R. Cutting, David Karger, and Jan Peder­sen. 
+Constant interaction­time Scatter/Gather brows­ing 
+of very large document collections. In Proceedings
+of the 16th Annual International ACM/SIGIR Confer­ence, 
+pages 126--135, Pittsburgh, PA, 1993.
+[6] Douglass R. Cutting, Jan O. Pedersen, and Per­
+Kristian Halvorsen. An object­oriented architecture for
+text retrieval. In Conference Proceedings of RIAO'91,
+Intelligent Text and Image Handling, Barcelona, Spain,
+pages 285--298, April 1991. Also available as Xerox
+PARC technical report SSL­90­83.
+[7] Richard H. Fowler, Wendy A. L. Fowler, and Bradley A.
+Wilson. Integrating query, thesaurus, and documents
+through a common visual representation. In Proceedings
+of the 14th Annual International ACM/SIGIR Conference, pages 142--151, Chicago, 1991.
+[8] A. Griffiths, H.C. Luckhurst, and P. Willett. Using
+inter­document similarity information in document re­trieval 
+systems. Journal of the American Society for
+Information Science, 37:3--11, 1986.
+[9] Donna Harman, editor. Proceedings of the Third Text
+Retrieval Conference TREC­3. National Institute of
+Standards and Technology Special Publication 500­225,
+1995.
+[10] Marti Hearst, Jan Pedersen, Peter Pirolli, Hinrich
+Sch¨uetze, Gregory Grefenstette, and David Hull. Four
+TREC­4 Tracks: the Xerox site report. In Donna Har­man, 
+editor, Proceedings of the Fourth Text Retrieval
+Conference TREC­4. National Institute of Standards
+and Technology Special Publication, 1996. (to appear).
+[11] Marti A. Hearst, , David Karger, and Jan O. Peder­
+sen. Scatter/gather as a tool for the navigation of re­trieval 
+results. In Robin Burke, editor, Working Notes
+of the AAAI Fall Symposium on AI Applications in
+Knowledge Navigation and Retrieval, Cambridge, MA,
+November 1995. AAAI.
+[12] Marti A. Hearst. Tilebars: Visualization of term distri­bution 
+information in full text information access. In
+Proceedings of the ACM SIGCHI Conference on Human
+Factors in Computing Systems, Denver, CO, May 1995.
+ACM.
+[13] N. Jardine and C.J. van Rijsbergen. The use of hierar­chical 
+clustering in information retrieval. Information
+Storage and Retrieval, 7:217--240, 1971.
+[14] Robert R. Korfhage. To see or not to see -- is that
+the query? In Proceedings of the 14th Annual In­ternational 
+ACM/SIGIR Conference, pages 134--141, Chicago, 1991.
+[15] Ray R. Larson. Experiments in automatic library of
+congress classification. Journal of the American Society
+for Information Science, 43(2):130--148, 1992.
+[16] Don Libes. expect: Curing those uncontrollable fits
+of interaction. In Proceedings of the Summer 1990
+USENIX Conference, Anaheim, CA, June 1990.
+[17] John Ousterhout. An X11 toolkit based on the Tcl
+language. In Proceedings of the Winter 1991 USENIX
+Conference, pages 105--115, Dallas, TX, 1991.
+[18] Peter Pirolli, Patricia Schank, Marti A. Hearst, and
+Christine Diehl. Scatter/gather browsing communi­cates 
+the topic structure of a very large text collection.
+In Proceedings of the ACM SIGCHI Conference on Hu­man 
+Factors in Computing Systems, Vancouver, WA,
+May 1996. ACM.
+[19] G. Salton. Cluster search strategies and the optimiza­tion 
+of retrieval effectiveness. In G. Salton, editor, The
+SMART Retrieval System, pages 223--242. Prentice­
+Hall, Englewood Cliffs, N.J., 1971.
+[20] Gerard Salton. Automatic text processing: the transfor­mation, 
+analysis, and retrieval of information by com­puter. Addison­Wesley, Reading, MA, 1989.
+[21] Anselm Spoerri. InfoCrystal: A visual tool for informa­tion 
+retrieval & management. In Proceedings of Infor­mation 
+Knowledge and Management '93, Washington,
+D.C., Nov 1993.
+[22] R. H. Thompson and B. W. Croft. Support for browsing
+in an intelligent text retrieval system. International
+Journal of Man [sic] ­Machine Studies, 30(6):639--668,
+1989.
+[23] C.J. van Rijsbergen. Information Retrieval. Butter­
+worths, London, second edition, 1979.
+[24] Ellen M. Voorhees. The cluster hypothesis revisited. In
+Proceedings of ACM/SIGIR, pages 188--196, 1985.
+[25] Ellen M. Voorhees, Narenda K. Gupta, and Ben
+Johnson­Laird. The collection fusion problem. In
+Donna Harman, editor, Proceedings of the Third Text
+Retrieval Conference TREC­3, pages 95--104. National
+Institute of Standards and Technology Special Publica­tion 500­225, 1995.
+[26] P. Willett. Recent trends in hierarchical document clus­tering: 
+A critical review. Information Processing & Management, 24(5):577--597, 1988.
+[27] S. Worona. Query clustering in a large document space.
+In G. Salton, editor, The SMART Retrieval System,
+pages 298--310. Prentice­Hall, Englewood Cliffs, N.J.,
+1971.
+

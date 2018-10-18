@@ -1,0 +1,57 @@
+Surfing the Digital Wave
+
+Generating Personalised TV Listings
+using Collaborative, Case-Based Recommendation
+
+
+Barry Smyth & Paul Cotter
+
+Department of Computer Science
+University College Dublin
+Belfield, Dublin 4, Ireland
+{Barry.Smyth, Paul.Cotter}@ucd.ie
+
+
+
+Abstract. In the future digital TV will offer an unprecedented level of
+programme choice. We are told that this will lead to dramatic increases in
+viewer satisfaction as all viewing tastes are catered for all of the time. However,
+the reality may be somewhat different. We have not yet developed the tools to
+deal with this increased level of choice (for example, conventional TV guides
+will be virtually useless), and viewers will face a significant and frustrating
+information overload problem. This paper describes a solution in the form of
+the PTV system. PTV employs user profiling and information filtering
+techniques to generate web-based TV viewing guides that are personalised for
+the viewing preferences of individual users. The paper explains how PTV
+constructs graded user profiles to drive a hybrid recommendation technique,
+combining case-based and collaborative information filtering methods. The
+results of an extensive empirical study to evaluate the quality of PTV’s case-based 
+and collaborative filtering strategies are also described.
+References
+
+1.	Balabanovic M., Shoham Y.: FAB: Content-Based Collaborative Recommender.
+Communications of the ACM, 40(3) (1997) 66-72
+2.	Baudisch, P.: Recommending TV Programs: How far can we get at zero effort. In:
+Proceedings of the AAAI-98 Workshop on Recommender Systems, Wisconsin, USA,
+(1998) 16-19
+3.	Bilisus, D. & Pazzani, M. J.: Learning collaborative Information Filters. In: Proceedings of
+the International Conference on Machine Learning, Wisconsin, USA, (1998)
+4.	Goldberg D., Nichols D., Old B. M., Terry D.: Using Collaborative Filtering to Weave an
+Information Tapestry. Communications of the ACM, 35(12) (1992) 61-70
+5.	Hammond, K. J., Burke, R., and Schmitt, K.: A Case-Based Approach to Knowledge
+Navigation. In: (Leake, D.B, ed.) Case-Based Reasoning Experiences Lessons and Future
+Directions, MIT Press, (1996) 125-136
+6.	Jennings, A. & Higuchi, H.: A user model neural network for a personal news service. User
+Modeling and User-Adapted Information, 3(1) (1993).l-25
+7.	Kay J.: Vive la Difference! Individualised Interaction with Users. In: Proceedings IJCAI
+‘95, Montréal, Canada, (1995). 978-984
+8.	Konstan J. A., Miller B. N., Maltz D., Herlocker J. L., Gordan L. R., Riedl J.: Grouplens;
+Applying Collaborative Filtering to Usenet News. Communications of the ACM, 40(3)
+(1997) 77-87
+9.	Maltz D., Ehrlich K.: Pointing the Way: Active Collaborative Filtering. In: Proceedings of
+the ACM Conference on Human Factors in Computing Systems (CHI ‘95) ACM Press, New
+York, N.Y., (1995). 202-209
+l0.	Shardanand, U. & Maes, P.: Social Information Filtering: Algorithms for Automating ‘Word
+of Mouth’. In: Proceedings of the Conference on Human Factors in Computing Systems
+(CHI95), ACM Press, New York, N.Y., (1995). 210-217
+11.	Watson, I., Applying Case-Based Reasoning: Techniques for Enterprise Systems, Morgan-Kaufmann, (1997)

@@ -1,0 +1,71 @@
+Combining Statistical and Relational Methods
+for Learning in Hypertext Domains
+
+Seán Slattery and Mark Craven
+
+School of Computer Science,
+Carnegie Mellon University
+Pittsburgh, PA 15213-3891, USA
+e-mail: <firstname>.<lastname>@cs.cmu.edu
+
+
+
+Abstract. We present a new approach to learning hypertext classifiers
+that combines a statistical text-learning method with a relational rule
+learner. This approach is well suited to learning in hypertext domains
+because its statistical component allows it to characterize text in terms
+of word frequencies, whereas its relational component is able to describe
+how neighboring documents are related to each other by hyperlinks that
+connect them. We evaluate our approach by applying it to tasks that involve 
+learning definitions for (i) classes of pages, (ii) particular relations
+that exist between pairs of pages, and (iii) locating a particular class of
+information in the internal structure of pages. Our experiments demonstrate 
+that this new approach is able to learn more accurate classifiers
+than either of its constituent methods alone.
+References
+
+1.	W. W. Cohen. Fast effective rule induction. In Proc. of the 12th International
+Conference on Machine Learning. Morgan Kaufmann, 1995.
+2.	W. W. Cohen. Learning to classify English text with ILP methods. In L. De
+Raedt, editor, Advances in Inductive Logic Programming. IOS Press, 1995.
+3.	M. Craven, D. DiPasquo, D. Freitag, A. McCallum, T. Mitchell, K. Nigam, and
+S. Slattery. Learning to extract symbolic knowledge from the World Wide Web.
+In Proc. of the 15th National Conference on Artificial Intelligence, Madison, WI,
+1998. AAAI Press.
+4.	M. Craven, S. Slattery, and K. Nigam. First-order learning for Web mining.
+In Proc. of the 10th European Conference on Machine Learning, pages 250—255,
+Chemnitz, Germany, 1998. Springer-Verlag.
+5.	D. DiPasquo. Using HTML formatting to aid in natural language processing on the
+World Wide Web, 1998. Senior thesis, Computer Science Department, Carnegie
+Mellon University.
+6.	P. Domingos and M. Pazzani. On the optimality of the simple Bayesian classifier
+under zero-one loss. Machine Learning, 29:103—130, 1997.
+7.	S. Dzeroski and I. Bratko. Handling noise in inductive logic programming. In
+Proc. of the 2nd International Workshop on Inductive Logic Programming, pages
+109—125, Tokyo, Japan, 1992.
+8.	A. Ehrenfeucht, D. Haussler, M. Kearns, and L. Valiant. A general lower bound
+on the number of examples needed for learning. Information and Computation,
+82(3):247—251, 1989.
+9.	B. Kijsirikul, M. Numao, and M. Shimura. Discrimination-based constructive induction 
+of logic programs. In Proc. of the 10th National Conference on Artificial
+Intelligence, pages 44—49, San Jose, CA, 1992. AAAI Press.
+10.	D. D. Lewis and M. Ringuette. A comparison of two learning algorithms for text
+categorization. In Proc. of the 3rd Annual Symposium on Document Analysis and
+Information Retrieval, pages 81—93, 1994.
+11.	D. D. Lewis, R. E. Schapire, J. P. Callan, and R. Papka. Training algorithms for
+linear classifiers. In Proc. of the 19th Annual International ACM-SIGIR Conference
+on Research and Development in Information Retrieval, pages 298—306. Hartung-Gorre Verlag, 1996.
+12.	T. Mitchell. Machine Learning. McGraw Hill, 1997.
+13.	I. Moulinier, G. Raskinis, and J.-G. Ganascia. Text categorization: a symbolic
+approach. In Proc. of the 6th Annual Symposium on Document Analysis and Information 
+Retrieval, 1996.
+14.	J. R. Quinlan and R. M. Cameron-Jones. FOIL: A midterm report. In Proc. of
+the 5th European Conference on Machine Learning, pages 3—20, Vienna, Austria,
+1993. Springer-Verlag.
+15.	B. Richards and R. Mooney. Learning relations by pathfinding. In Proc. of the
+10th National Conference on Artificial Intelligence, pages 50-55, San Jose, CA,
+1992. AAAI Press.
+16.	C. J. van Rijsbergen. Information Retrieval, chapter 7. Butterworths, 1979.
+17.	Y. Yang and J. Pedersen. A comparative study on feature set selection in text
+categorization. In Proc. of the 14th International Conference on Machine Learning,
+pages 412—420, Nashville, TN, 1997. Morgan Kaufmann.

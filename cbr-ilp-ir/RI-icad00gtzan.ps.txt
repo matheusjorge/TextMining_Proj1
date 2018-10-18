@@ -1,0 +1,44 @@
+Experiments in computer­assisted annotation of audio
+
+George Tzanetakis
+Computer Science Dept.
+Princeton University
+35 Olden St.
+Princeton, NJ 08544 USA
++1 609 258 4951
+gtzan@cs.princeton.edu
+Perry R. Cook
+Computer Science and Music Dept.
+Princeton University
+35 Olden St.
+Princeton, NJ 08544 USA
++1 609 258 4951
+prc@cs.princeton.edu
+
+ABSTRACT
+Advances in digital storage technology and the wide use of digital audio compression standards like MPEG have made possible
+the creation of large archives of audio material. In order to work efficiently with these large archives much more structure
+than what is currently available is needed. The creation of the necessary text indices is difficult to fully automate. However,
+significant amounts of user time can be saved by having the computer assist the user during the annotation process.
+In this paper, we describe a prototype audio browsing tool that was used to perform user experiments in semi­automatic audio
+segmentation annotation. In addition to the typical sound­editor functionality the system can automatically suggest time lines
+that the user can edit and annotate. We examine the effect that this automatically suggested segmentation has on the user
+decisions as well as timing information about segmentation and annotation. Finally we discuss thumbnailing and semantic
+labeling of annotated audio.
+
+REFERENCES
+1 C. van Rijsbergen, Information retrieval, Butterworths, London, 2nd edition, 1979.
+2 J. Foote, ``An overview of audio information retrieval,'' ACM Multimedia Systems, vol. 7, pp. 2--10, 1999.
+3 A. Hauptmann and M. Witbrock, ``Informedia: News­on­demand multimedia information acquisition and retrieval,''
+in Intelligent Multimedia Information Retrieval, chapter 10, pp. 215--240. MIT Press, Cambridge, Mass., 1997,
+http://www.cs.cmu.edu/afs/cs/user/alex/www/.
+4 E. Wold, T. Blum, D. Keislar, and J. Wheaton, ``Content­based classification, search and retrieval of audio,'' IEEE Multimedia,
+ vol. 3, no. 2, pp. 27--36, 1996.
+5 E. Wold, T. Blum, D. Keislar, and J. Wheaton, ``A content­aware sound browser,'' in Proc. 1999 ICMC, 1999, pp. 457--459.
+6 G. Tzanetakis and P. Cook, ``Multifeature audio segmentation for browsing and annotation,'' in Proc.1999 IEEE Workshop
+on Applications of Signal Processing to Audio and Acoustics, WASPAA99, New Paltz, NY, 1999.
+7 S. Wake and Asahi.T, ``Sound retrieval with intuitive verbal expressions,'' in Proceeding of International Conference on
+Auditory Display, Glaskow, 1997, ICAD.
+8 G. Tzanetakis and P. Cook, ``A framework for audio analysis based on classification and temporal segmentation,'' in Proc.25th
+Euromicro Conference. Workshop on Music Technology and Audio Processing, Milan, Italy, 1999, IEEE Computer Society.
+

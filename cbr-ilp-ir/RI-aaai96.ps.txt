@@ -1,0 +1,72 @@
+Automatically Generating Extraction Patterns from Untagged Text
+
+Ellen Riloff
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+riloff@cs.utah.edu
+
+Many corpus­based natural language processing sys­tems 
+rely on text corpora that have been manually
+annotated with syntactic or semantic tags. In partic­ular, 
+all previous dictionary construction systems for
+information extraction have used an annotated train­ing 
+corpus or some form of annotated input. We have
+developed a system called AutoSlog­TS that creates
+dictionaries of extraction patterns using only untagged
+text. AutoSlog­TS is based on the AutoSlog system,
+which generated extraction patterns using annotated
+text and a set of heuristic rules. By adapting Au­toSlog 
+and combining it with statistical techniques, we
+eliminated its dependency on tagged text. In experi­ments 
+with the MUC­4 terrorism domain, AutoSlog­
+TS created a dictionary of extraction patterns that
+performed comparably to a dictionary created by Au­toSlog, 
+using only preclassified texts as input.
+
+
+References
+Cardie, C. 1993. A Case­Based Approach to Knowledge
+Acquisition for Domain­Specific Sentence Analysis. In
+Proceedings of the Eleventh National Conference on Arti­ficial 
+Intelligence, 798--803. AAAI Press/The MIT Press.
+Francis, W., and Kucera, H. 1982. Frequency Analysis of
+English Usage. Boston, MA: Houghton Mifflin.
+Hastings, P., and Lytinen, S. 1994. The Ups and Downs
+of Lexical Acquisition. In Proceedings of the Twelfth
+National Conference on Artificial Intelligence, 754--759.
+AAAI Press/The MIT Press.
+Huffman, S. 1996. Learning information extraction pat­terns 
+from examples. In Wermter, S.; Riloff, E.; and
+Scheler, G., eds., Connectionist, Statistical, and Symbolic
+Approaches to Learning for Natural Language Processing.
+Springer­Verlag, Berlin.
+Kim, J., and Moldovan, D. 1993. Acquisition of Semantic
+Patterns for Information Extraction from Corpora. In
+Proceedings of the Ninth IEEE Conference on Artificial
+Intelligence for Applications, 171--176. Los Alamitos, CA:
+IEEE Computer Society Press.
+Lehnert, W. 1991. Symbolic/Subsymbolic Sentence Anal­ysis: 
+Exploiting the Best of Two Worlds. In Barnden, J.,
+and Pollack, J., eds., Advances in Connectionist and Neural 
+Computation Theory, Vol. 1. Ablex Publishers, Nor­wood, NJ. 135--164.
+Marcus, M.; Santorini, B.; and Marcinkiewicz, M. 1993.
+Building a Large Annotated Corpus of English: The Penn
+Treebank. Computational Linguistics 19(2):313--330.
+MUC­4 Proceedings. 1992. Proceedings of the Fourth
+Message Understanding Conference (MUC­4). San Ma­teo, CA: Morgan Kaufmann.
+Riloff, E., and Shoen, J. 1995. Automatically Acquiring
+Conceptual Patterns Without an Annotated Corpus. In
+Proceedings of the Third Workshop on Very Large Cor­pora, 148--161.
+Riloff, E. 1993. Automatically Constructing a Dictio­
+nary for Information Extraction Tasks. In Proceedings
+of the Eleventh National Conference on Artificial 
+Intelli­gence, 811--816. AAAI Press/The MIT Press.
+Riloff, E. 1996. An Empirical Study of Automated Dic­tionary 
+Construction for Information Extraction in Three
+Domains. Artificial Intelligence. Vol. 85. Forthcoming.
+Soderland, S.; Fisher, D.; Aseltine, J.; and Lehnert, W.
+1995. CRYSTAL: Inducing a conceptual dictionary. In
+Proceedings of the Fourteenth International Joint Confer­ence 
+on Artificial Intelligence, 1314--1319.
+

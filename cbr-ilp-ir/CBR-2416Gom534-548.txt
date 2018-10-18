@@ -1,0 +1,56 @@
+Using CBR
+for Automation of Software Design Patterns
+
+Paulo Games, Francisco C. Pereira, Paulo Paiva, Nuno Seco, Paulo Carreiro,
+José L. Ferreira, and Carlos Bento
+
+CISUC - Centro de Informática e Sistemas da Universidade de Coimbra.
+Departamento de Engenharia Informática, Polo II, Universidade de Coimbra. 3030 Coimbra
+{pgomes, camara, zeluis, bento}@dei.uc.pt,
+{paiva, nseco, carreiro}@student.dei.uc.pt,
+http://rebuilder.dei.uc.pt
+
+
+
+Abstract. Software design patterns are used in software engineering as a way
+to improve and maintain software systems. Patterns are abstract solutions to
+problem categories, and they describe why, how, and when can a pattern be applied. 
+Their description is based on natural language, which makes the automation 
+of design patterns a difficult task. In this paper we present an approach for
+automation of design pattern application. We focus on the selection of what
+pattern to apply, and where to apply it. We follow a Case-Based Reasoning approach, 
+providing a complete framework for pattern application. In our approach 
+cases describe situations for application of patterns.
+References
+
+1.	Gamma, E., et al., Design Patterns: Elements of Reusable Object-Oriented Software. 1995,
+Reading: Addison-Wesley. 395.
+2.	Bär, H., et al., The FAMOOS object-oriented reengineering handbook, . 1999, Forschungszentrum 
+Informatik, Software Composition Group, University of Berne: Karlsruhe.
+3.	Cinnéide, M. and P. Nixon. A Methodology for the Automated Introduction of Design
+Patterns. in IEEE International Conference on Software Maintenance. 1999. Oxford, England: IEEE.
+4.	Eden, A., J. Gil, and A. Yehudai, Automating the Application of Design Patterns. Journal
+of Object Oriented Programming, 1997(May).
+5.	Tokuda, L. and D. Batory. Automated Software Evolution via Design Patterns. in 3rd
+International Symposium on Applied Corporate Computing. 1995. Monterrey, Mexico.
+6.	Kolodner, J., Case-Based Reasoning. 1993: Morgan Kaufman.
+7.	Maher, M.L., M. Balachandran, and D. Zhang, Case-Based Reasoning in Design. 1995:
+Lawrence Erlbaum Associates.
+8.	Aamodt, A. and E. Plaza, Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches. AI Communications, 1994. 7(1): p. 39-59.
+9.	Rumbaugh, J., I. Jacobson, and G. Booch, The Unified Modeling Language Reference
+Manual. 1998, Reading, MA: Addison-Wesley.
+10.	Miller, G., et al., Introduction to WordNet: an on-line lexical database. International Journal 
+of Lexicography, 1990. 3(4): p. 235 - 244.
+11.	Games, P., et al. Case Retrieval of Software Designs using WordNet. in European Conference 
+on Artificial Intelligence (ECAI’02). 2002. Lyon, France: IOS Press, Amsterdam.
+12.	Gomes, P., et al. Supporting Creativity in Software Design. in AISB’02 Symposium “AI and
+Creativity in Arts and Science”. 2002. London, UK.
+13.	Gomes, P., et al. Using Analogical Reasoning to Promote Creativity in Software Reuse. m
+International Conference on Case-Based Reasoning (ICCBR’01) Workshop on Creative
+Systems: Approaches to Creativity in Artificial Intelligence and Cognitive Science. 2001.
+Vancouver, Canada: Technical Report of the Navy Center for Applied Research in Artificial 
+Intelligence (NCARAI) of the Naval Research Laboratory (NRL).
+14.	Guéhéneuc, Y.-G. and N. Jussien. Using Explanations for Design Patterns Identification.
+in IJCAI’01 Workshop on Modelling and Solving Problems with Constraints. 2001. Seattle,
+WA, USA.

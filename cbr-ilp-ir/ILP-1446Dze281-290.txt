@@ -1,0 +1,56 @@
+Detecting Traffic Problems with ILP
+
+Saso Dzeroski1, Nico Jacobs2, Martin Molina3, Carlos Moure3,
+Stephen Muggleton4, Wim Van Laer2
+
+1 J. Stefan Institute, Jamova 39, SI-1000 LiubUana, Slovenia
+2 K.U.Leuven, Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+3 Universidad Politecnica de Madrid, E-28660 Boadilla del Monte, Madrid, Spain
+4 Department of Computer Science, University of York, York, YO1 5DD, UK
+
+
+
+Abstract. Expert systems for decision support have recently been successfully 
+introduced in road transport management. These systems include knowledge
+ on traffic problem detection and alleviation. The paper
+describes experiments in automated acquisition of knowledge on traffic
+problem detection. The task is to detect road sections where a problem
+has occured (critical sections) from sensor data. It is necessary to use
+inductive logic programming (ILP) for this purpose as relational background 
+knowledge on the road network is essential. In this paper, we
+apply three state-of-the art ILP systems to learn how to detect traffic
+problems and compare their performance to the performance of a propositional 
+learning system on the same problem.
+References
+1.	Barcelo, J., Ferrer J.L., and Montero, L. (1989). AIMSUN: Advanced Interactive
+Microscopic Simulator for Urban Networks. Vol I: System Description, and Vol II:
+User’s Manual. Departamento de Estadistica e Investigacion Operativa, Facultad
+de Informatica, Universidad Politecmca de Cataluna, Barcelona, Spain.
+2.	Blockeel, H., and De Raedt, L. (1997). Lookahead and discretization in ILP. In Proc.
+7th Intl. Workshop on Inductive Logic Programming, pages 77—84, Springer, Berlin.
+3.	Clark, P. and Boswell, R. (1991). Rule induction with CN2: Some recent improvements. 
+In Proc. Fifth European Working Session on Learning, pages 151—163.
+Springer, Berlin.
+4.	Guena, J., Ambrosino, G., and Boero M. (1992). A general knowledge-based architecture 
+for traffic control: The KITS approach. In Proc. Intl. Conf. on Artificial
+Intelligence Applications in Thansportation Engineering. San Buenaventura, CA.
+5.	Cuena, J., Hernandez, J., and Molina, M. (1995). Knowledge-based models for adaptive 
+traffic management systems. Thansportation Research: Part C, 3(5): 311-337.
+6.	De Raedt, L. (1997). Logical settings for learning. Artificial Intelligence.
+7.	De Raedt, L., and Dehaspe, L. (1997). Clausal discovery. Machine Learning, 26:
+99—146.
+8.	De Raedt, L., and Van Laer, V. (1995). Inductive constraint logic. Proc. Sixth International 
+Workshop on Algorithmic Learning Theory, pp. 80-94. Berlin: Springer.
+9.	Deeter, D.L., and Ritchie, S.G. (1993). A prototype real-time expert system for surface 
+street traffic management and control. In Proc. 3rd Intl. Conf. on Applications
+of Advanced Technologies in Thansportation Engineering, Seattle, WA.
+10.	Dzeroski, S., Jacobs, N., Molina, M., Moure, C. (1998). ILP experiments in detecting 
+traffic problems. In Proc. Eleventh European Conference on Machine Learning.
+Springer, Berlin. To appear.
+11.	Muggleton, S. (1992). Inverse entailment and PROGOL. New Generation Computing 13: 245—286.
+12.	Quinlan, J.R. (1993) C4.5: Programs for Machine Learning. Morgan Kaufmann,
+San Mateo, CA.
+13.	Roberts, S., Van Laer, W., Jacobs, N., Muggleton, S., Broughton, J. (1998) A
+comparison of ILP and popositional systems on propositional traffic data. In Proc.
+Eighth International Conference on Inductive Logic Programming. Springer, Berlin.
+This volume.

@@ -1,0 +1,71 @@
+Supporting Reusability in a System Design
+Environment by Case-Based Reasoning Techniques 
+
+Herbert Praehofer and Josef Kerschbaummayr
+
+Johannes Kepler University Linz
+Department of Systems Theory and Information Technology
+A-4040 Linz, Austria
+{hp | kj}@cast.uni-linz.ac.at
+
+
+
+Abstract. CASA (computer aided systems architecting) is a methodology and
+tool to support the design of complex technical systems. It combines approaches
+from systems and requirement engineering and AI. System design in CASA is
+requirement-driven and works by a hierarchical stepwise top-down refinement
+of designs and a hierarchical decision making process. One important task in
+CASA deals with reusability of existing design artifacts and is supported by
+case-based reasoning techniques. Based on given structural specifications and
+formal requirements, a search procedure finds the best inexact match in a design
+base and computes an estimated degree of fulfillment for requirements. The approach 
+employs efficient graph matching and indexing scheme for case retrieval
+and structural similarities and has adapted usual similarity measures to compute
+degree of fulfillment of requirements. It has been show by different example
+projects that the developed methods can be of great practical assistance for a designer.
+References
+1.	Börner, K. (Ed.): Modules for Design Support, FABEL-Report 35, GMD, St. Augustin
+(1995)
+2.	Flemming, U.: Case-based Design in the SEED System, Automation and Construction,
+(1994)
+3.	Gebhardt, F.: Methods and systems for case retrieval exploiting the case structure, FABEL-Report 
+39, GMD, St. Augustin, Germany (1995)
+4.	Goel, A. K.: Integration of case-based and model-based reasoning for adaptive problem
+solving, PhD Thesis, The Ohio State University (1989)
+5.	Hua, K., Falting, B., Smith, I.: CADRE: case-based geometric design, Artificial Intelligence 
+in Engineering 10 (1996)171-183.
+6.	Kettner, H., Schmidt, J., Greim, H.R.: Guidelines for a systematic manufacturing system
+planning, Hanser Verlag (1984) (in German)
+7.	Kolodner, J.: Case-Based Reasoning, Morgan Kaufmann (1993)
+8.	Maher, M.L., de Silva Garza, G. Developing CaseBased Reasoning for Structural Design,
+IEEE Expert. Vol. 11(1996)
+9.	Mesarovic, M.D., Macko, D., Takahara, Y.: Theory of Hierarchical, Multilevel, Systems,
+Academic Press, New York (1970)
+10.	Messmer, B.T.: Efficient Graph Matching Algorithms for Preprocessed Model Graphs,
+Dissertation, University Bern, Switzerland (1996)
+11.	Messmer, B.T., Bunke, H.: A network based approach to exact and inexact graph matching, 
+Institut fur Informatik und angewandte Mathematik, University Bern, Switzerland
+(1993)
+12.	Mittelmann, R., Kogler, M.: CASA-TE: Representation of Requirements, Technical Report 
+154-97, Johannes Kepler University, Dept of Systems Theory and Information Technology, 
+Linz, Austria (1997) (in German)
+13.	Praehofer, H.: Reusability in CASA, Technical Report 144-96, Johannes Kepler University, 
+Dept of Systems Theory and Information Technology, Linz, Austria, (1997) (in German)
+14.	Praehofer, H. and Kerschbaummayr, J.: Concepts for Reusability in CASA, Technical
+Report 160-97, Johannes Kepler University, Dept. Systems Theory, Linz, Austria (1997)
+(in German)
+15.	Reich, Y.: The Development of Bridger: A Methodological Study of Research on Machine
+Learning in Design, Artificial Intelligence in Engineering, 8 (1993) 217-231
+16.	Schaffer, C.: CASA — Computer Aided Systems Architecting, Technical Report 141-96,
+Johannes Kepler University, Dept of Systems Theory and Information Technology, Linz,
+Austria (1997) (in German).
+17.	Schaffer, C.: Computer Aided System Architecting (CASA): Requirement-Driven Design
+of Multi-Disciplinary Systems, PhD Thesis, Johannes Kepler University, Linz, Austria
+(1999) (in German).
+18.	Sycara, K. Guttal, R., Koning, J., Narasimhan, S., Navinchandra, D.: CADET: A Case-based 
+Synthesis Tool for Engineering Design, International Joumal of Expert Systems,
+Vol. 4 (1992)
+19.	VoB A. (Ed.): Similarity concepts and retrieval methods, FABEL-Report 13, GMD, St.
+Augustin, Germany (1994)
+20.	Wolverton, M., Hayes-Roth, B.: Finding analogues for innovative design, Techn. report
+KSL 95-32, Knowledge System Laboratory, Stanford University, CA (1995)

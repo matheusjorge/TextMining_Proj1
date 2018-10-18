@@ -1,0 +1,67 @@
+Using a Case Base of Surfaces to Speed-Up
+Reinforcement Learning
+
+Chris Drummond
+
+Department of Computer Science, University of Ottawa
+Ottawa, Ontario, Canada, KiN 6N5
+cdrummon@csi.uottawa.ca
+
+
+Abstract. This paper demonstrates the exploitation of certain vision
+processing techniques to index into a case base of surfaces. The surfaces 
+are the result of reinforcement learning and represent the optimum
+choice of actions to achieve some goal from anywhere in the state space.
+This paper shows how strong features that occur in the interaction of
+the system with its environment can be detected early in the learning
+process. Such features allow the system to identify when an identical, or
+very similar, task has been solved previously and to retrieve the relevant
+surface. This results in an orders of magnitude increase in learning rate.
+References
+
+1.	Agnar Aamodt and Enric Plaza (1994) Case-Based Reasoning: Foundational Issues, 
+Methodological Variations, and System Approaches. AICom - Artificial Intelligence 
+Communications V. 7 No. 1 pp 39-37
+2.	Aha, D. W., and Salzberg, S. L. (1993). Learning to catch: Applying nearest neighbor 
+algorithms to dynamic control tasks. Proc. Fourth International Workshop on
+Artificial Intelligence and Statistics. pp 363-368
+3.	C. H. Chin and C. R. Dyer (1986) Model-based recognition in Robot Vision, Computing 
+surveys V. 18 No 1 pp 67-108
+4.	Kristian 3. Hammond (1990) Case-Based Planning: A Framework for Planning
+from Experience. The Journal of Cognitive Science V. 14 no. 3
+5.	Jean-Yves Herve and Rajeev Sharma And Peter Cucka (1991) The Geometry of
+Visual Coordination. Proc. Ninth National Conf. on Artificial Intelligence pp 732-
+737
+6.	Frederic Leymarie and Martin D. Levine. (1993) Tracking Deformable Objects in
+the Plane Using an Active Contour Model. IEEE Trans. Pattern Analysis And
+Machine Intelligence V. 15 No. 6 pp 617-634
+7.	R. A. McCallum, (1995). Instance-based utile distinctions for reinforcement learning. 
+Proc. Twelfth International Conf. on Machine Learning. pp 387-395
+8.	R. A. McCallum (1995). Instance-based state identification for reinforcement learning.
+ Advances in Neural Information Processing Systems 7. pp 377-384
+9.	Staphane Mallat and Sifen Zhong (1992). Characteriration of Signals from Multiscale 
+Edges. IEEE Trans. Pattern Analysis And Machine Intelligence V. 14 No. 7
+pp 710-732
+10.	David Marr (1982) Vision : a computational investigation into the human representation 
+and processing of visual information. W.H. Freeman
+11.	A. W. Moore and C. G. Atkeson (1993) Prioritized Sweeping: Reinforcement Learning 
+with Less Data and Less Real Time. Machine Learning, V. 13 pp 103-130
+12.	Jing Peng (1995) Efficient Memory-Based Dynamic Programming. Proc. Twelfth
+International Conf. of Machine Learning pp 438-446
+13.	John W. Sheppard and Steven L. Salzberg (1996) A teaching strategy for memory-based 
+control. To appear in Al Review, special issue on Lazy Learning.
+14.	P. Soeteas and P. Faa and A. Hanson (1992) Computational strategies for object
+recognition. Computing surveys V. 24 No. 1 pp 5-61
+15.	R.S. Sutton (1988) Learning to Predict by the Methods of Temporal Differences.
+Machine Learning V. 3 pp 9-44
+16.	R.S. Sutton (1990) Integrated architectures for learning, planning, and reacting
+based on approximating dynamic programming. Proc. Seventh International Conf.
+on Machine Learning pp 2 16-224
+17.	P. Tadepalli and D. Ok (1996) Scaling up Average Reward Reinforcement Learning
+by Approximating the Domain Models and the Value Function. Proc. Thirteenth
+International Conf. of Machine Learning pp 471-479
+18.	Manuela M. Veloso and Jaime C. Carbonell (1993) Derivational Analogy in
+PRODIGY: Automating Case Acquisition, storage and Utilization. Machine Learning 
+V. 10 No. 3 pp 249-278
+19.	Christopher J.C.H. Watkins and Peter Dayan (1992) Technical Note:Q-Learning
+Machine Learning V. 8 No 3-4 pp 279-292

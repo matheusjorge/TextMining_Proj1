@@ -1,0 +1,69 @@
+DOGMA: A GA-Based Relational Learner
+
+Jukka Hekanaho
+
+Turku Centre for Computer Science
+and
+Abo Akademi University
+Department of Computer Science
+Lemminkäisenkatu 14 A, SF-20520 Turku, Finland
+hekanaho@abo.fi
+
+
+
+Abstract. We describe a GA-based concept learning/theory revision
+system DOGMA and discuss how it can be applied to relational learning.
+The search for better theories in DOGMA is guided by a novel fitness
+function that combines the minimal description length and information
+gain measures. To show the efficacy of the system we compare it to other
+learners in two relational domains.
+References
+
+1.	S. Augier, G. Venturini, and Y. Kodratoff. Learning first order logic rules with
+a genetic algorithm. In Proc. of the 1st International Conference on Knowledge
+Discovery and Data Mining, pages 21—26, Montreal, Canada, 1995. AAAI Press.
+2.	H. Blockeel and L. De Raedt. Top-down induction of logical decision trees. Technical 
+Report OW 247, Dept. of Computer Science, K.U.Leuven, January 1997.
+3.	K. A. De Jong, W. M. Spears, and F. D. Gordon. Using genetic algorithms for
+concept learning. Machine Learning, 13:161—188, 1993.
+4.	L. De Raedt and L. Dehaspe. Clausal Discovery. Machine Learning, 26:99—146,
+1997.
+5.	T. G. Dietterich, R. H. Lathrop, and T. Lozano-Pèrez. Solving the multiple-instance 
+problem with axis-parallel rectangles. Artificial Intelligence, 89(1-2):31—
+71, 1997.
+6.	S. Dzeroski. Handling imperfect data in inductive logic programming. In Proc.
+of the 4th Scandinavian Conference on Artificial Intelligence, pages 111—125. lOS
+Press, 1993.
+7.	A. Giordana and F. Neri. Search-intensive concept induction. Evolutionary Computation, 
+3(4):375—416, 1995.
+8.	A. Giordana, F. Neri, L. Saitta, and M. Botta. Integrating multiple learning startegies 
+in first order logics. Machine Learning, 27:209—240, 1997.
+9.	D. P. Greene and S. F. Smith. Competition-based induction of decision models
+from examples. Machine Learning, 13:229-257, 1993.
+10.	J. Hekanaho. Background knowledge in GA-based concept learning. In Proc. of
+the 18th International Conference on Machine Learning, pages 234—242, 1996.
+11.	J. Hekanaho. GA-based rule enhancement concept learning. In Proc. of the 3rd
+International Conference on Knowledge Discovery and Data Mining, pages 183—
+186, Newport Beach, CA, 1997. AAAI Press.
+12.	J. Hekanaho. DOGMA: A GA-Based Relational Learner. Tech-
+nical Report 168, TUCS Technical Report series, March 1998.
+URL:http://www.tucs.fi/publications/techreports/.
+13.	C. Z. Janikow. A knowledge-intensive genetic algorithm for supervised learning.
+Machine Learning, 13:189—228, 1993.
+14.	R. Kohavi, G. John, R. Long, D. Manley, and K. Pfieger. MLC++: A machine
+learning library in C++. In Tools with Artificial Intelligence, pages 740—743. IEEE
+Computer Society Press, 1994. URL: http://www.sgi.com/Technology/mlc/.
+15.	R. S. Michalski. A theory and methodology of inductive learning. In R. S. Michalski, 
+J. C. Carbonell, and T. M. Mitchell, editors, Machine Learning: An Artificial
+Intelligence Approach, volume I, pages 83—134, Palo Alto, CA, 1983. Tioga Press.
+16.	S. Muggleton, M. Bain, J. Hayes-Michie, and D. Michie. Experimental comparison
+of human and machine learning formalisms. In Proc. of the 6th International
+Workshop on Machine Learning, pages 113—118. Morgan Kaufmann, 1989.
+17.	J. R. Quinlan. Learning logical definitions from relations. Machine Learning,
+5:239—266, 1990.
+18.	J. R. Quinlan. MDL and categorical theories (continued). In Proc. of the 12th
+International Conference on Machine Learning, pages 464—470, Tahoe City, CA,
+1995. Morgan Kaufmann.
+19.	J. Rissanen. Stochastic Complexity in Statistical Inquiry. World Scientific, River
+Edge, NJ, 1989.
+20.	C. Schaffer. Overfitting avoidance as bias. Machine Learning, 10:153—178, 1993.

@@ -1,0 +1,73 @@
+Adaptation Through Interpolation for Time-Critical
+Case-Based Reasoning
+
+N.Chatterjee and J.A.Campbell
+
+Department of Computer Science
+University College London
+London WC1E 6BT
+U.K.
+email: {nchatter, jac}@uk.ac.ucl.cs
+
+
+
+Abstract. The paper introduces and examines the relevance of the notion of
+"interpolation" between case features, to facilitate fast adaptation of existing
+cases to a current situation. When this situation is time-critical there is not enough
+time for exhaustive comparison of various aspects of all the stored cases, so it
+may not be possible to retrieve a high-quality match for a current problem within
+a specified time-limit. Viewing imperfect adaptation as a process of interpolation
+(or a set of possible processes with different qualities of interpolation) then gives
+a robust and novel perspective for time-critical reasoning, as well as being
+equally relevant for case-based reasoning (CBR) in general. Although
+interpolation-like adaptation techniques have been used in some existing CBR
+systems, they have not previously been treated explicitly from this perspective.
+References
+
+1.	Allen J.F. : Towards General Theory of Actions and Time. Artificial Intelligence, Vol 23,
+No. 2, 1984, pp 123- 154.
+
+2.	Barletta R. and Mark W. : Explanation-based Indexing of Cases. Proc. 7-th National
+Conference on Artificial Intelligence. Saint Paul, Minnesota August 2 1-26, 1988, pp 541-
+546.
+3.	Campbell J.A. : Assessing the Quality of Knowledge-Based Systems: Lessons from the
+EQUUS Project. Heuristics 3, 1991, pp 9-17.
+4.	Chatterjee N. and Campbell J.A. : A Caching Scheme for Time-Critical and Case-Based
+Reasoning. Proc. EXPERSYS-92, IITT-international, F-93460 Goumay sur Marne,
+France, pp 477-482.
+5.	Chatterjee N. and Campbell J.A. : A Caching Scheme for Time-Critical Knowledge-based
+Computations. Proc. Sixth International Conference on Industrial and Engineering Applications 
+of Artificial Intelligence and Expert Systems, Gordon and Breach Science Publishers SA., 1993, pp 61- 70.
+6.	Conte S.D. and de Boor C. : Elementary Numerical Analysis : An Algorithmic Approach,
+McGraw Hill, 1972.
+7.	Converse T., Hammond K. and Marks M. : Leaming Modifications Rules from Expectation 
+Failure. Proc. Case-Based Reasoning Workshop DARPA, Florida, May 31 - June 2.
+1989, pp 110-114.
+
+8.	Dodhiawala R., Sridharan N.S., Raulefs P. and Pickering C. : Real-Time AI Systems : A
+Definition and An Architecture, Proc. IJCAI-89, Morgan Kaufmann, San Mateo, California, 1989, pp256-261.
+
+9.	Hammond K.J. : Explaining and Repairing Plans that Fail. IJCAI-87, Milan, Italy, August
+23-28,	1987, pp 109-114.
+
+10.	Hammond K., Converse T. and Marks M . Learning from Opportunities. Storing and
+Re-using Execution Time Optimizations Proc AAAI-88, Morgan Kaufmann, 1988, pp
+536-540.
+
+11.	Hinrichs T.R. and Kolodner J.L. : The Roles of Adaptation in Case-Based Design. Proc.
+DARPA Case-Based Reasoning Workshop, Morgan Kaufmann 1991, pp 121-132.
+12.	Kobayashi S. and Nakamura K. : Knowledge Compilation and Refinement for Fault Diagnosis. 
+IEEE EXPERT, October 1991, pp 39-46.
+
+13.	Kolodner J.L : "An Introduction to Case-Based Reasoning", Artificial Intelligence Review,
+vol. 6, No. 1, 1992, pp 3-34.
+
+14.	Sycara K. : Using Case-Based Reasoning for Plan Adaptation and Repair. Proc. Case-Based 
+Reasoning Workshop DARPA, May 10-13, 1988 , Clearwater beach, Florida, pp
+425-434.
+
+15.	Wolstencroft J. : Restructuring, Reminding and Repair: What’s Missing from Models of
+Analogy?, AI Communications, vol. 2, 1989, pp 58-7 1.
+
+16.	Zadeh L.A. : A Theory in Approximate Reasoning in Machine Intelligence 9, eds J.E.
+Hayes, D. Michie and L.I. Mikulich. New York, Halstead Press pp 149-194, 1979.

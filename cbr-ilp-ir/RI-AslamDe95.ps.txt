@@ -1,0 +1,119 @@
+Specification and Simulation of Statistical Query Algorithms
+for Eficiency and Noise Tolerance
+
+Javed A. Aslam # Scott E. Decatur +
+Aiken Computation Laboratory
+Harvard University
+Cambridge, MA 02138
+
+Abstract
+A recent innovation in computational learning theory is
+the statistical query (SQ) model. The advantage of specify­ing 
+learning algorithms in this model is that SQ algorithms
+can be simulated in the PAC model, both in the absence and
+in the presence of noise. However, simulations of SQ algo­rithms 
+in the PAC model have non­optimal time and sample
+complexities. In this paper, we introduce a new method for
+specifying statistical query algorithms based on a type of
+relative error and provide simulations in the noise­free and
+noise­tolerant PAC models which yield eficient algorithms.
+Requests for estimates of statistics in this new model take
+the form: ``Return an estimate of the statistic within a 1±µ
+factor, or return `#', promising that the statistic is less than
+#.'' In addition to showing that this is a very natural lan­
+guage for specifying learning algorithms, we also show that
+this new specification is polynomially equivalent to standard
+SQ, and thus, known learnability and hardness results for
+statistical query learning are preserved.
+We then give highly eficient PAC simulations of relative
+error SQ algorithms. We show that the learning algorithms
+obtained by simulating eficient relative error SQ algorithms
+in both the absence of noise and in the presence of mali­cious 
+noise have roughly optimal sample complexity. We
+also show that the simulation of eficient relative error SQ
+algorithms in the presence of classification noise yield learn­ing 
+algorithms at least as eficient as those obtained through
+standard methods, and in some cases improved, roughly op­timal 
+results are achieved. The sample complexities for all
+of these simulations are based on the d# metric which is a
+type of relative error metric useful for quantities which are
+small or even zero. We show that uniform convergence with
+respect to the d# metric yields ``uniform convergence'' with
+respect to (µ, #) accuracy.
+Finally, while we show that many specific learning al­gorithms 
+can be written as highly eficient relative error SQ
+algorithms, we also show, in fact, that all SQ algorithms can
+be written eficiently by proving general upper bounds on the
+complexity of (µ, #) queries as a function of the accuracy
+parameter #. As a consequence of this result, we give gen­eral 
+upper bounds on the complexity of learning algorithms
+achieved through the use of relative error SQ algorithms and
+the simulations described above.
+
+
+References
+[1] Javed Aslam and Scott Decatur. General bounds on
+statistical query learning and PAC learning with noise
+via hypothesis boosting. In Proceedings of the 34 th An­nual 
+Symposium on Foundations of Computer Science,
+pages 282--291, November 1993. To appear in Informa­tion and Computation.
+[2] Javed Aslam and Scott Decatur. A general lower bound
+on the sample complexity of PAC learning in the pres­ence 
+of classification noise. In preparation, 1994.
+[3] Avrim Blum, Merrick Furst, Je#ery Jackson, Michael
+Kearns, Yishay Mansour, and Steven Rudich. Weakly
+learning DNF and characterizing statistical query learn­ing 
+using Fourier analysis. In Proceedings of the 26 th
+Annual ACM Symposium on the Theory of Computing,
+May 1994.
+[4] Anselm Blumer, Andrzej Ehrenfeucht, David Haus­sler, 
+and Manfred K. Warmuth. Learnability and the
+Vapnik­Chervonenkis dimension. Journal of the ACM,
+36(4):929--865, 1989.
+[5] Scott Decatur. Statistical queries and faulty PAC or­
+acles. In Proceedings of the Sixth Annual ACM Work­
+shop on Computational Learning Theory, pages 262--
+268. ACM Press, July 1993.
+[6] Scott Decatur. Learning in hybrid noise environments
+using statistical queries. To appear in Proccedings of the
+Fifth International Workshop on Artificial Intelligence
+and Statistics, January 1995.
+[7] Scott Decatur and Rosario Gennaro. On learning from
+noisy and incomplete examples. In Proceedings of the
+Eigth Annual ACM Workshop on Computational Learn­
+ing Theory. ACM Press, July 1995.
+[8] Andrzej Ehrenfeucht, David Haussler, Michael Kearns,
+and Leslie Valiant. A general lower bound on the num­ber 
+of examples needed for learning. Information and
+Computation, 82(3):247--251, September 1989.
+[9] Yoav Freund. Boosting a weak learning algorithm by
+majority. In Proceedings of the Third Annual Work­shop 
+on Computational Learning Theory, pages 202--
+216. Morgan Kaufmann, 1990.
+[10] Yoav Freund. An improved boosting algorithm and
+its implications on learning complexity. In Proceedings
+of the Fifth Annual ACM Workshop on Computational
+Learning Theory, pages 391--398. ACM Press, 1992.
+[11] David Haussler. Decision theoretic generalizations of
+the PAC model for neural net and other learning ap­plications. 
+Information and Computation, 100:78--150,
+1992.
+[12] Michael Kearns. E#cient noise­tolerant learning from
+statistical queries. In Proceedings of the 25 th Annual
+ACM Symposium on the Theory of Computing, pages
+392--401, San Diego, 1993.
+[13] Michael Kearns and Ming Li. Learning in the presence
+of malicious errors. In Proceedings of the 20 th Annual
+ACM Symposium on Theory of Computing, Chicago,
+Illinois, May 1988.
+[14] Philip D. Laird. Learning from Good and Bad Data.
+Kluwer international series in engineering and computer
+science. Kluwer Academic Publishers, Boston, 1988.
+[15] D. Pollard. Rates of uniform almost­sure convergence
+for empirical processes indexed by unbounded classes of
+functions. Manuscript, 1986.
+[16] Robert Schapire. The strength of weak learnability. Ma­chine 
+Learning, 5(2):197--226, 1990.
+[17] Leslie Valiant. A theory of the learnable. Communica­tions 
+of the ACM, 27(11):1134--1142, November 1984.
+

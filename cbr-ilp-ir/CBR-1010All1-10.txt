@@ -1,0 +1,34 @@
+Integration of Case Based Retrieval with a Relational
+Database System in Aircraft Technical Support
+
+Jonathan RC Allen1, David WR Patterson, Maurice D Mulvenna and John G Hughes
+
+Northern Ireland Knowledge Engineering Laboratory
+Faculty of Informatics, University of Ulster at Jordanstown Newtownabbey
+Northern Ireland, UK, BT37 0QB
+
+
+
+Abstract. Case-Based Reasoning (CBR) is suited to problem solving in
+domains where there are recurring problems. This paper describes the
+development of a CBR system for use in such a domain, the Technical
+Support department of an aircraft manufacturing company. The system uses
+three types of indexing: knowledge-guided induction, inductive indexing
+and nearest neighbour matching. The resultant system integrates case based
+retrieval with a relational database system to provide a rich environment to
+help manage the life cycle of a technical support query. In early tests with
+the system, staff can discern if a new query is a recurring problem and has
+been solved before or if it is a completely new unsolved technical query.
+References
+
+1.	Barletta R. An Introduction to Case-Based Reasoning, Al Expert 8, 1991.
+2.	Harmon, P. Case-Based Reasoning 2, Intelligent Software Strategies, 7(11), 1991.
+3.	Kriegsman, M., & Barletta, R. Building a Case-Based Help Application, IEEE
+Expert, 8(6), 1993.
+4.	Harmon, P. Case-Based Reasoning 3, Intelligent Software Strategies, 8(1), 1992.
+5.	Forsyth, R. Expert Systems: Principles and Case Studies, ed. Forsyth R, Chapman
+and Hall Ltd, (1989).
+6.	Michalski, R., Carbonnel, J., & Mitchell, T. Machine Learning: An Artificial
+Intelligence Approach, Tioga Publishing Corp, Palo alto, CA, 1983.
+7.	Magaldi, R.V., Maitaining Aeroplanes in Time-Constrained Operational Situations
+Using Case-Based Reasoning, EWCBR 1994 Chantilly, France.

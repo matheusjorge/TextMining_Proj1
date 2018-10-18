@@ -1,0 +1,59 @@
+Fault Management in Computer Networks Using
+Case-Based Reasoning: DUMBO System
+
+Cristina Meichiors and Liane M. R. Tarouco
+
+PPGC, Universidade Federal do Rio Grande do Sul
+Av. Bento Gonçalves, 9500. Bloco IV. Porto Alegre, Brazil
+cristina@inf.ufrgs.br, liane@penta.ufrgs.br
+
+
+
+Abstract. Nowadays, the complexity involved in computer network fault
+management demands a great amount of information about the involved
+technologies and their associated problems. Besides, Trouble Ticket Systems
+have been used to store the occurred problems, actuating as an historical
+memory of the network. Thus, a correct approach to consolidate the network
+historic memory is the development of an expert system that takes in account
+the knowledge accumulated in the Trouble Ticket Systems to propose
+solutions for an average problem. This work presents a system that uses Case-Based 
+Reasoning paradigm applied to a Trouble Ticket System to suggest
+solutions for a new problem occurred. This system aims to aid diagnosis and
+resolution stages of network management problems. Typical problems of this
+domain, the proposed solution and results reached with the developed
+prototype are described.
+References
+
+1.	Aamodt, A., Plaza, E.: Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches. Al Communications, Vol.7(1) (1994) 39-59
+2.	Brandau, R., Lemmon, A., Lafond, C.: Experience with Extended Episodes: Cases with
+Complex Temporal Structure In: Bareiss, E. R. (ed.): Proceedings DARPA Workshop on
+Case-Based Reasoning. Morgan Kaufmann, San Francisco (1991)
+3.	Cisco Systems, Inc: Internetwork Troubleshooting Guide. 1997. Reference available in
+http://www.cisco.com/univercd/cc/t d/doc/cisintwk/itg_vl/index.htm.
+4.	Dreo, G., Valta, R.: Using master tickets as a storage for problem-solving expertise. In:
+Sethi, A., Raynaud, Y., Faure-Vincent, F. (eds.) Proceedings of Integrated Network
+Management IV Chapman & Hall, London (1995) 328-340
+5.	Goyal, S.: Knowledge technologies for evolving networks. In: Krishnan, I.,
+Zimmer, W. (eds.): Proceedings of Integrated Network Management II. Elsevier Science,
+Amsterdam (1991)
+6.	Hunt, C.: TCP/IP Network Administration. 2nd edn. O’Reilly, Sebastopol (1998)
+7.	Kolodner, J.: Case-Based Reasoning. Morgan Kaufmann, San Mateo (1993)
+8.	Lewis, L.: A Case-Based Reasoning Approach to the Management of Faults in
+Communications Networks. Conference on Computer Communications. IEEE, San
+Francisco, Vol 3 (1993) 1422-1429
+9.	Lewis, L.: Managing Computer Networks: A Case-Based Reasoning Approach. Artech
+House, Norwood (1995)
+10.	Melchiors, C.: Raciocínio Baseado em Casos Aplicado ao Gerenciamento de Faihas
+em Redes de Computadores. Master of Science Thesis PGCC/UFRGS (1999). In
+evaluation stage.
+11.	Miller, M.: Troubleshooting TCP/IP. M&T Books, New York (1996)
+12.	Simoudis, E.: Using Case-Based Retrieval for Customer Technical Support. IEEE Expert,
+Vol.7(5) (1992) 7-12
+13.	Stefik, M.: Introduction to Knowledge Systems. Morgan Kaufmann, San Francisco (1995)
+14.	Tarouco, L. et al.: Urn ambiente para gerenciamento integrado e cooperativo. In:
+Proceedings of Workshop sobre Administração e Integração de Sistemas. UFC, Fortaleza
+(1996) 235-246
+15. Udupa, D.: Network Management Systems Essentials. McGraw-Hill, New York (1996)
+16.	Watson, I.: Applying Case-Based Reasoning: Techniques for Enterprise Systems. Morgan
+Kaufmann, San Francisco (1997)

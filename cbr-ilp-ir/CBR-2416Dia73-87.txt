@@ -1,0 +1,58 @@
+Poetry Generation in COLIBRI
+
+Belén Diaz-Agudo, Pablo Gervás, and Pedro A. González-Calero
+
+Dep. Sistemas Informáticos y Programación
+Universidad Complutense de Madrid, Spain
+{belend, pgervas, pedro}@sip.ucm.es
+
+
+
+Abstract. CBROnto is an ontology that incorporates common Case-Based 
+Reasoning (CBR) terminology and serves as a domain-independ-
+ent framework to design CBR applications. It is the core of COLIBRI,
+an environment to assist during the design of knowledge intensive CBR
+systems that combine cases with various knowledge types and reasoning
+methods. CBROnto captures knowledge about CBR tasks and methods,
+and aims to unify case specific and general domain knowledge representational 
+needs. CBROnto specifies a modelling framework to describe
+reusable CBR Problem Solving Methods based on the CBR tasks they
+solve. This paper describes CBROnto’s main ideas and exemplifies them
+with an application to generate Spanish poetry versions of texts provided
+by the user.
+References
+
+1.	A. Aamodt and E. Plaza. Case-based reasoning: Foundational issues, methodological 
+variations, and system approaches. AI Communications, 7(1), 1994.
+2.	B. Díaz-Agudo and P. A. González-Calero. An architecture for knowledge intensive
+CBR systems. In E. Blanzieri and L. Portinale, editors, Advances in Case-Based
+Reasoning — (EWCBR ‘00). Springer-Verlag, Berlin Heidelberg New York, 2000.
+3.	B. Díaz-Agudo and P. A. González-Calero. Classification based retrieval using
+formal concept analysis. In Procs. of the (ICCBR 2001). Springer-Verlag, 2001.
+4.	B. Díaz-Agudo and P. A. González-Calero. A declarative similarity framework for
+knowledge intensive CBR. In Procs. of the (ICCBR 2001). Springer-Verlag, 2001.
+5.	B. Díaz-Agudo and P. A. González-Calero. CBROnto: a task/method ontology for
+CBR. In CBR Track (FLAIRS) accepted to be published. 2002.
+6.	P. Gervás. Wasp: Evaluation of different strategies for the automatic generation of
+spanish verse. In Proceedings of the AISB-00 Symposium on Creative & Cultural
+Aspects of AI, pages 93—100, 2000.
+7.	P. Gervás. An expert system for the composition of formal Spanish poetry. Journal
+of Knowledge-Based Systems, 14(3—4):181—188, 2001.
+8.	P. A. González-Calero, M. Gómez-Albarrán, and B. Díaz-Agudo. A substitution-based 
+adaptation model. In Challenges for Case-Based Reasoning - Proc. of the
+ICCBR ‘99 Workshops. University of Kaiserslautern, 1999.
+9.	D. B. Leake, A. Kinley, and D. C. Wilson. Acquiring case adaptation knowledge: A
+hybrid approach. In Proceedings of the thirteenth National Conference on Artificial
+Intelligence, pages 684—689, Menlo Park, CA, 1996. AAAI Press.
+10.	R. Mac Gregor and R. Bates. The loom knowledge representation language. ISI
+Reprint Series ISI/RS-87-188, University of Southern California, 1987.
+11.	J. McDermott. Preliminary steps towards a taxonomy of problem-solving methods. 
+In S. Marcus, editor, Automating Knowledge Acquisition for Knowledge-Based
+Systems. Kluwer Academic Publishers, Boston, 1988.
+12.	T. Schreiber, B. J. Wielinga, J. M. Akkermans, W. V. de Velde, and R. de Hoog.
+CommonKADS: A comprehensive methodology for KBS development. IEEE Ex-
+pert, 9(6), 1994.
+ 13. L. Steels. Components of expertise. AI Magazine, 11(2):29—49, 1990.
+14.	G. Van Heijst, A. Schreiber, and B. Wielinga. Using explicit ontologies in knowledge 
+based systems development. International Journal of Human and Computer
+Studies, 46(2/3), 1997.

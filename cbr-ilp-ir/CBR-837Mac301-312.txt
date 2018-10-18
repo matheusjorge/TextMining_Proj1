@@ -1,0 +1,61 @@
+A Hybrid Knowledge-Based System for
+Technical Diagnosis Learning and Assistance
+
+David J. Macchion and Dinh P. Vo
+
+Laboratoire ARAMIIHS
+Matra Marconi Space
+ZI du Palays
+31, Rue des Cosmonautes
+31077 Toulouse Cedex, France
+macchion@music.matra-espace.fr
+
+
+Abstract. This paper sets out the design of a fault diagnosis system combining Model-Based, 
+Case-Based and Rule-Based Reasoning techniques. Within the Model-Based
+layer, domain concepts are organized in hierarchies; different aspects of the system to be
+diagnosed are presented in a technical model; the Model-Based inference engine consists
+of basic principles operating on the technical model. Within the Case-Based layer,
+Model-Based or instructor processed resolutions are stored in a memory of past incident
+cases; indexes of various influences and more or less constraining viewpoints are invoked
+by the Case-Based inference engine in order to retrieve relevant cases quickly;
+explanations and adaptation mles are then used to make case description match and adapt
+case resolution. Within the Rule-Based layer, situation rules synthesizing incident
+description and validation rules supporting diagnosis assessment are triggered by the
+Rule-Based inference engine to solve well-tried, frequent or trivial problems. Integrating
+these knowledge layers into a unified model enhances the scope of the resultant
+knowledge base. Combining these reasoning modes into a coherent control strategy
+improves the efficiency of the target Knowledge-Based System.
+References
+
+1.	A. Aamodt, «A Knowledge-Intensive, Integrated Approach to
+Problem Solving and Sustained Leaming», Ph.D. Dissertation,
+Trondheim, 1991.
+2.	K. Althoff & S.Wess, «Case-Based Knowledge Acquisition,
+Learning and Problem Solving For Diagnostic Real World Tasks»,
+Proceedings of EKAW, Mai 1991.
+3.	U. Arronategni & F. Mieulet, «Le langage LOIR: objets, règles et
+actions pour la modèlisation», Ph.D. Dissertation, Toulouse, 1992.
+4.	R. Bareiss, «Exemplar-based knowledge acquisition : A Unified
+Approach to Concept Representation, Classification, and
+Leaming», Academic Press, 1989.
+5.	R. Davis, «Diagnostic Reasoning Based on Structure and
+Behavior», Artificial Intelligence 24, pp.347-410, 1984.
+6.	A. Goel, «Integrating Case-Based and Model-Based Reasoning : A
+Computational Model of Design Problem Solving», AI
+MAGAZINE, pp. 50-53, Summer 1992.
+7	A.Golding & P.S.Rosenbloom, «Improving Rule-Based Systems
+through Case-Based Reasoning», Proceedings of the AAAI
+Conference, pp. 22-27, 1991.
+8.	T. Gruber, «The Acquisition of Strategic Knowledge», Academic
+Press Inc, 1989.
+9.	A. Keuneke, «Machine Understanding of Devices : Causal
+Explanation of Diagnostic Conclusions», Ph.D. Dissertation, Ohio
+State University, 1989.
+10.	P. Koton, «Using Experience in Leaming and Problem Solving»,
+Technical Report, Massachussetts Institute of Technology, 1988.
+11.	L. Portinale, «Using Case-Based Reasoning to Focus Model-Based
+Diagnostic Problem Solving», pp. 335-340, EWCBR’ 93.
+12.	E. Rissland & D. Skalak, «Combining Case-Based Reasoning and
+Rule-Based Reasoning : A Heuristic Approach», IJCAI-89, Vol 1,
+pp. 20-25, August 1989.

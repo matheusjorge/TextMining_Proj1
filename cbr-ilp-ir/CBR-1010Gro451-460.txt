@@ -1,0 +1,68 @@
+Integrating Case Based Reasoning and Tabu Search
+for Solving Optimisation Problems
+
+Stephan Grolimund	Jean-Gabriel Ganascia
+
+Université Pierre et Marie Curie - Paris VI
+LAFORIA - IBP - CNRS
+4, place Jussieu, BP 169
+F-75252 Paris Cedex 5, France
+E-mail: {grolimund, ganascia}@laforia.ibp.fr
+
+Abstract
+
+Tabu search is an established heuristic optimisation technique for problems where
+exact algorithms are not available. It belongs to the same family as simulated
+annealing or genetic algorithms. It extends the basic iterative improvement scheme by
+adding control learning. A technique of this kind, intensification, captures experience
+established on a frequency-based analysis of past search. Experience is reused while
+the same optimisation process is going on in order to guide search to better solutions.
+In this paper, we introduce a case-based reasoning approach for control learning in
+tabu search. Search experience concerns operator selection and is represented by cases.
+The aim of case reuse is to improve conflict resolution. While the proposed method is
+domain independent, we present its application to the NP-hard uncapacitated facility
+location problem. Experimental results show that adding our approach to a basic tabu
+search optimisation significantly improves solution quality on the evaluated
+benchmark problems. It reduces the gap to the optimal solution by a factor of nearly 2.
+
+References
+[1]	Battiti R., Teechiolli G., The Reactive Tabu Search, ORSA Journal on
+Computing 6, 1994, p. 126-40
+[2]	Beasley J.E., OR-Library: Distributing Test Problems by Electronic Mail, Journal
+of the Operations Research Society 41, 1990, p. 1069-72
+[3]	Beasley J.E., Lagrangien heuristics for location problems, European Journal of
+Operational Research 65, 1993, p. 383-99
+[4]	Bunke H., Messmer B., Similarity Measures for Structured Representations, First
+European Workshop on Case-Based Reasoning, 1993
+[5]     Bisson G., Learning in FOL with a Similarity Measure, AAA!, 1992, p. 82-7
+[6]	Crainic T., Gendreau M., Soriano P., Toulouse M., A tabu search procedure for
+multicommodity location/allocation with balancing requirements, Annals of
+Operations Research 42 (1-4), 1993, p. 359-83
+[7]	Glover F., Tabu Search - Part 1, ORSA J. on Computing 1 (3), 1989, p. 190-206
+[8] 	Glover F., Tabu Search - Part 2, ORSA J. on Computing 2 (1), 1990, p. 4-32
+[9]	Grolimund S., Ganascia J.G., A Case-Based Reasoning Approach to Knowledge
+Transfer in Tabu Search, Tech. Rep. 94/06, University Paris 6, Laforia - IBP,
+France, 1994
+[10]	Grolimund 5, Ganascia J.G., Case Based Reasoning and Tabu Search for the
+Single Machine Scheduling Problem: First Results, Tech. Rep., University Paris
+6, Laforia - IBP, 1995
+[11]	Hammond K., CHEF: A model of case-based planning, AAAI, 1986
+[12]	Hansen P., Pedrosa E., Ribeiro C., Location and sizing of offshore platforms for
+oil exploration, European Journal of Operational Research 58, 1992, p. 202-14
+[13] 	Kolodner J., Case-Based Reasoning, Morgan Kaufmann, 1993
+[14]	Michalski R.S., A Theory and Methodology of Inductive Learning, in: Machine
+Learning: An Artificial Intelligence Approach, Tioga, Palo Alto, 1983
+[15] 	Minoux M., Mathematical Programming, Morgan Kaufmann, 1989
+[16]	Minton S., Learning Search Control Knowledge: An Explanation-Based
+Approach, Kiuwer Academic Press, Boston, 1989
+[17] 	Mirchandani P., Francis R. (eds.), Discrete Location Theory, Wiley, 1990
+[18] 	Mitchell T., Learning and problem solving, IJCAI, 1983, p. 1140-51
+[19]	Reeves C., Modern Heuristic Techniques for Combinatorial Problems,
+Blackwell, 1993
+[20] 	Ruby D., Kibler D., Learning Episodes for Optimization, ICML, 1992, p. 279-84
+[21] 	Sycara K., Miyashita K., Case-based acquisition of User Preferences for Solution
+Improvement in Ill-Structured Domains, AAAI, 1994, p. 44-9
+[22]	Veloso M., Learning by analogical reasoning in general problem solving, Ph.D.
+thesis, Carnegie Mellon University, Pittsburgh, 1992
+[23]	Woodruff D., Proposal for Chunking and Tabu Search, Tech. Rep., University of
+California Davis, Dec. 1994

@@ -1,0 +1,63 @@
+A Method for Predicting Solutions in
+Case-Based Problem Solving
+
+Eyke Hüllermeier
+
+Institut de Recherche en Informatique de Toulouse
+Université Paul Sabatier
+eyke@irit.fr
+
+
+
+Abstract. In order to predict the solution to a new problem we proceed
+from the “similar problem—similar solution” assumption underlying case-based 
+reasoning. The concept of a similarity hypothesis is introduced as
+a formal model of this meta-heuristic. It allows for realizing a constraint-based 
+inference scheme which derives a prediction in the form of a set
+of possible candidates. We propose an algorithm for learning a suitable
+similarity hypothesis from a sequence of observations. Basing the inference 
+process on hypotheses thus defined yields (set-valued) predictions
+that cover the true solution with high probability. Our method is meant
+to support the overall (case-based) problem solving process by bringing
+a promising set of possible solutions into focus.
+References
+
+1.	A. Aamodt and E. Plaza. Case-based reasoning: Foundational issues, methodological 
+variations, and system approaches. Al Communications, 7(1):39—59, 1994.
+2.	D. W. Aha, editor. Lazy Learning. Kiuwer Academic Pubi., 1997.
+3.	D. W. Aha, D. Kibler, and M. K. Albert. Instance-based learning algorithms.
+Machine Learning, 6(1):37—66, 1991.
+4.	B. V. Dasarathy, editor. Nearest Neighbor (NN) Norms: NN Pattern Classification
+Techniques. IEEE Computer Society Press, Los Alamitos, California, 1991.
+5.	D. Dubois, F. Esteva, P. Carcia, L. Godo, R. Lopez de Mantaras, and H. Prade.
+Fuzzy set modelling in case-based reasoning. Int. J. Intelligent Systems, 13:345—
+373, 1998.
+6.	F. Esteva, P. Garcia, L. Godo, and R. Rodriguez. A modal account of similarity-based 
+reasoning. Int. J. Approximate Reasoning, 16:235—260, 1997.
+7.	B. Faltings. Probabilistic indexing for case-based prediction. Proceedings ICCBR-
+97, pages 611-622. Springer-Verlag, 1997.
+8.	E. Hüllermeier. Similarity-based inference as constraint-based reasoning: Learning
+similarity hypotheses. Technical Report 64, Department of Economics, University
+of Paderborn, September 1999.
+9.	E. Hüllermeier. Toward a probabilistic formalization of case-based inference. In
+Proc. IJCAI-99, pages 248—253, Stockholm, Sweden, July/August 1999.
+10.	D. Kibler and D. W. Aba. Instance-based prediction of real-valued attributes.
+Computational Intelligence, 5:51--57, 1989.
+11.	C. .J. Klir and M. J. Wierman. Uncertainty-Based Information. Physica-Verlag,
+Heidelberg, 1998.
+12.	J. L. Kolodner. Case-based Reasoning. Morgan Kaufmann, San Mateo, 1993.
+13.	T. M. Michell. Version spaces: A candidate elimination approach to rule learning.
+In Proceedings IJCAI-77, pages 305—310, 1977.
+14.	E. Plaza, E. Esteva, P. Garcia, L. Godo, and R. Lopez de Mantaras. A logical
+approach to case-based reasoning using fuzzy similarity relations. Journal of Information 
+Sciences, 106:105—122, 1998.
+15.	C. Reiser and H. Kaindl. Case-based reasoning for multi-step problems and its
+integration with heuristic search. Proc. EWCBR-94, pages 113—125, 1994.
+16.	R. Short and K. Fukunaga. The optimal distance measure for nearest neighbor
+classification. IEEE Transactions on Information Theory, 27:622—627, 1981.
+17.	B. Smyth and P. Cunningham. The utility problem analysed. Proc. EWCBR-96,
+pages 392—399. Springer-Verlag, 1996.
+18.	B. Smyth and E. McKenna. Building compact competent case-bases.
+Proc. ICCBR-99, pages 329—342, 1999.
+19.	S. Smyth and T. Keane. Remembering to forget. Proc. IJCAI-95, pages 377—382,
+1995.

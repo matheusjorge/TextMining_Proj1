@@ -1,0 +1,89 @@
+Merge Strategies for Multiple Case Plan Replay *
+
+Manuela M. Veloso
+
+Computer Science Department, Carnegie Mellon University
+Pittsburgh, PA 15213-3891, U.S.A.
+mmv@cs.cmu.edu, http://www.cs.cmu.edu/~mmv
+
+
+Abstract. Planning by analogical reasoning is a learning method that consists
+of the storage, retrieval, and replay of planning episodes. Planning performance
+improves with the accumulation and reuse of a library of planning cases. Retrieval
+is driven by domain-dependent similarity metrics based on planning goals and
+scenarios. In complex situations with multiple goals, retrieval may find multiple
+past planning cases that are jointly similar to the new planning situation. This
+paper presents the issues and implications involved in the replay of multiple
+planning cases, as opposed to a single one. Multiple case plan replay involves the
+adaptation and merging of the annotated derivations of the planning cases. Several
+merge strategies for replay are introduced that can process with various forms of
+eagerness the differences between the past and new situations and the annotated
+justifications at the planning cases. In particular, we introduce an effective merging
+strategy that considers plan step choices especially appropriate for the interleaving
+of planning and plan execution. We illustrate and discuss the effectiveness of the
+merging strategies in specific domains.
+References
+
+[Alexander and Tsatsoulis, 1991] Perry Alexander and Costas Tsatsoulis. Using sub-cases for
+skeletal planning and partial case reuse. International Journal of Expert Systems Research and
+Applications, 4-2:221—247, 1991.
+[Barrett and Weld, 1994] Anthony Barrett and Daniel S. Weld. Partial-order planning: Evaluating 
+possible efficiency gains. Artificial Intelligence, 67:71—112, 1994.
+[Carbonell, 1986] Jaime G. Carbonell. Derivational analogy: A theory of reconstructive problem
+solving and expertise acquisition. In R. S. Michaiski, J. G. Carbonell, and T. M. Mitchell,
+editors, Machine Learning, An Artificial Intelligence Approach, Volume II, pages 371—392.
+Morgan Kaufman, 1986.
+[Fikes and Nilsson, 1971] Richard E. Fikes arid Nils J. Nilsson. Strips: A new approach to the
+application of theorem proving to problem solving. Artificial Intelligence, 2:189—208, 1971.
+[Haigh and Veloso, 1995] Karen Zita Haigh arid Manuela M. Veloso. Route planning by analogy. 
+In Case-Based Reasoning Research and Development, Proceedings of ICCBR-95, pages
+169—180. Springer-Verlag, October 1995.
+[Haigh et al., 1997] Karen Z. Haigh, Jonathan Shewchuk, and Manuela M. Veloso. Exploring
+geometry in arialogical route planning. To appear in Journal of Experimental and Theoretical
+Artificial Intelligence, 1997.
+[Hammond, 1986] Kristian J. Hammond. Case-based Planning: An integrated Theory of Planning, 
+Learning and Memory. PhD thesis, Yale University, 1986.
+[Hanks and Weld, 1995] Steve Hanks and Dan S. Weld. A domain-independent algorithm for
+plan adaptation. Journal of Artificial Intelligence Research, 2:319—360,1995.
+[Ihrig and Kambhampati, 1994] Laurie Ihrig and Subbarao Kambhampati. Derivational replay
+for partial-order planning. In Proceedings of the Twelfth National Conference on Artificial
+Intelligence, pages 992—997, 1994.
+[Kambhampati and Hendler, 1992] Subbarao Kambhampati and James A. Hendler. A validation
+based theory of plan modification and reuse. Artificial Intelligence, 55(2-3): 193—258, 1992.
+[Kettler et al, 1994] B. P. Kettler, J. A. Hendler, A. W. Andersen, and M. P. Evett. Massively
+parallel support for case-based planning. IEEE Expert, 2:8—14, 1994.
+[López and Plaza, 1993] B. López and E. Plaza. Case-based planning for medical diagnosis. In
+J. Romorowski and Z. W. Ras, editors, Methodologies for Intelligent Systems (Proceedings of
+ISMIS’93). Springer Verlag, 1993.
+[Minton et al, 1989] Steven Minton, Craig A. Knoblock, Dan R. Kuokka, Yolanda Gil,
+Robert L. Joseph, and Jaime G. Carbonell. PRODIGY 2.0: The manual and tutorial. Technical 
+Report CMU-CS-89-146, School of Computer Science, Carnegie Mellon University, 1989.
+[Muñoz-Avila et al., 1994] Héctor Muñoz-Avila, Juergen Paulokat, and Stefan Wess. Controlling 
+a nonlinear hierarchical planner using case-based reasoning. In Proceedings of the 1994
+European Workshop on Case-BasedReasoning, November 1994.
+[Pryor and Collins, 1992] Louise Pryor and Gregg Collins. Cassandra: Planning for contingencies. 
+Technical report, The Institute for the Learning Sciences, Northwestern University, 1992.
+[Ram and Francis, 1996] Ashwin Ram and Anthony G. Francis. Multi-plan retrieval and adaptation 
+in an experience-based agent. In David B. Leake, editor, Case-Based Reasoning: experiences, 
+lessons, and future directions, pages 167—184. AAAI Press/The MIT Press, 1996.
+[Redmond, 1990] Michael Redmond. Distributed cases for case-based reasoning; Facilitafing
+the use of multiple cases. In Proceedings of the Eighth National Conference on Artificial
+Intelligence, pages 304—309, Cambridge, MA, 1990. AAAI Press/The MIT Press.
+[Smyth and Keane, 1995] Barry Smyth and MArk T. Keane. Experiments on adaptation-guided
+retrieval in case-based design. In M. Veloso and Agnar Aamodt, editors, Case-Based Reasoning
+Research and Development, pages 313—324. Springer Verlag, October 1995.
+[Stone and Veloso, 1996] Peter Stone and Manuela M. Veloso. User-guided interleaving of planning 
+and execution. In New Directions in Al Planning, pages 103—112. lOS Press, 1996.
+[Veloso and Blythe, 1994] Manuela M. Veloso and Jim Blythe. Linkability: Examining causal
+link commitments in partial-order planning. In Proceedings of the Second International Conference 
+on AI Planning Systems, pages 170—175, June 1994.
+[Veloso and Stone, 1995] Manuela M. Veloso and Peter Stone. FLECS: Planning with a flexible
+commitment strategy. Journal of Artificial Intelligence Research, 3:25—52, 1995.
+[Veloso et al., 1995] Manuela M. Veloso, Jaime Carbonell, M. Alicia Pérez, Daniel Borrajo,
+Eugene Fink, and Jim Blythe. Integrating planning and learning: The PRODIGY architecture.
+Journal of Experimental and TheoreticalArtificial Intelligence, 7(1):8 1—120, 1995.
+[Veloso, 1994] Manuela M. Veloso. Planning and Learning by Analogical Reasoning. Springer
+Verlag, December 1994.
+[Wang and Veloso, 1994] Xuemei Wang and Manuela M. Veloso. Learning planning knowledge
+by observation and practice. In Proceedings of the ARPA Planning Workshop, pages 285—294,
+Tucson, AZ, February 1994.

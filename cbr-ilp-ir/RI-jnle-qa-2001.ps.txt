@@ -1,0 +1,64 @@
+Analyses for Elucidating Current Question
+Answering Technology
+
+Marc Light
+The MITRE Corporation,
+202 Burlington Rd.,Bedford, MA 01730, light@mitre.org
+Gideon S. Mann
+Department of Computer Science, Johns Hopkins University,
+Baltimore, MD 21218, gsm@cs.jhu.edu
+Ellen Rilo#
+School of Computing, University of Utah,
+Salt Lake City, UT 84112, rilo#@cs.utah.edu
+Eric Breck
+Department of Computer Science, Cornell University,
+4161 Upson Hall, Ithaca, NY 14853, ebreck@cs.cornell.edu
+(Received 19 September 2001 )
+
+Abstract
+In this paper, we take a detailed look at the performance of components of an idealized
+question answering system on two different tasks: the TREC Question Answering task
+and a set of reading comprehension exams. We carry out three types of analysis: inherent
+properties of the data, feature analysis, and performance bounds. Based on these analyses
+we explain some of the performance results of the current generation of Q/A systems
+and make predictions on future work. In particular, we present four findings: (1) Q/A
+system performance is correlated with answer repetition, (2) relative overlap scores are
+more effective than absolute overlap scores, (3) equivalence classes on scoring functions
+can be used to quantify performance bounds, and (4) perfect answer typing still leaves a
+great deal of ambiguity for a Q/A system because sentences often contain several items
+of the same type.
+
+References
+E.J. Breck, J.D. Burger, L. Ferro, L. Hirschman, D. House, M. Light, and I. Mani. 2000.
+How to Evaluate your Question Answering System Every Day and Still Get Real Work
+Done. In Proceedings of the Second Conference on Language Resources and Evaluation
+(LREC­2000).
+E. Charniak, Y. Altun, R. de Salvo Braz, B. Garrett, M. Kosmala, T. Moscovich, L. Pang,
+C. Pyo, Y. Sun, W. Wy, Z. Yang, S. Zeller, and L. Zorn. 2000. Reading Comprehen­
+sion Programs in a Statistical­Language­Processing Class. In ANLP/NAACL Workshop
+on Reading Comprehension Tests as Evaluation for Computer­Based Language Under­
+standing Systems.
+R. Flesch. 1943. Marks of Readable Writing. Ph.D. thesis.
+S.M. Harabagiu, M.A. Pasca, and S.J. Maiorano. 2000. Experiments with Open­Domain
+textual Question Answering. In Proceedings of the Eighteenth International Conference
+on Computational Linguistics (COLING 2000).
+L. Hirschman, M. Light, E. Breck, and J. Burger. 1999. Deep Read: A Reading Com­prehension 
+System. In Proceedings of the 37th Annual Meeting of the Association for
+Computational Linguistics.
+H.T. Ng, L.H. Teo, and J.L.P. Kwan. 2000. A Machine Learning Approach to Answering
+Questions for Reading Comprehension Tests. In Proceedings of EMNLP/VLC­2000 at
+ACL­2000.
+E. Rilo# and M. Thelen. 2000. A Rule­based Question Answering System for Reading
+Comprehension Tests. In ANLP/NAACL Workshop on Reading Comprehension Tests
+as Evaluation for Computer­Based Language Understanding Systems.
+TREC­8 Proceedings. 1999. Proceedings of the Eighth Text Retrieval Conference (TREC8).
+National Institute of Standards and Technology, Special Publication 500­246, Gaithers­
+burg, MD.
+TREC­9 Proceedings. 2000. Proceedings of the Ninth Text Retrieval Conference (forth­
+coming). National Institute of Standards and Technology, Special Publication 500­XXX,
+Gaithersburg, MD.
+W. Wang, Auer J., R. Parasuraman, I. Zubarev, D. Brandyberry, and M.P. Harper. 2000.
+A Question Answering System Developed as a Project in a Natural Language Processing
+Course. In ANLP/NAACL Workshop on Reading Comprehension Tests as Evaluation
+for Computer­Based Language Understanding Systems.
+

@@ -1,0 +1,82 @@
+ITR: A Case-Based Travel Advisory System
+
+Francesco Ricci, Bora Arsian, Nader Mirzadeh, and Adriano Venturini
+
+eCommerce and Tourism Research Laboratory
+ITC-irst
+via Sommarive 18
+38050 Povo, Italy
+{ricci,arslan,mirzadeh,venturi}@itc.it
+
+
+
+Abstract. This paper presents a web based recommender system aimed
+at supporting a user in information filtering and product bundling. The
+system enables the selection of travel locations, activities and attractions,
+and supports the bundling of a personalized travel plan. A travel plan is
+composed in a mixed initiative way: the user poses queries and the recommender 
+exploits an innovative technology that helps the user, when
+needed, to reformulate the query. Travel plans are stored in a memory
+of cases, which is exploited for ranking travel items extracted from catalogues. 
+A new ‘collaborative’ approach is introduced, where user past
+behavior similarity is replaced with session (travel plan) similarity.
+References
+
+[1]	D. Aha and L. Breslow. Refining conversational case libraries. In Case-Based
+Reasoning Research and Development, Proceedings of the 2nd International Conference 
+on Case-Based Reasoning (ICCBR-97,), pages 267—278. Springer, 1997.
+[2]	P. K. Ankomah, J. L. Crompton, and D. Baker. Influence of cognitive distance in
+vacation choice. Annals of Tourism Research, 23(1):138—150, 1996.
+[3]	R. Burke. Knowledge-based recommender systems. In J. E. Daily, A. Kent, and
+H. Lancour, editors, Encyclopedia of Library and Information Science, volume 69.
+Marcel Dekker, 2000.
+[4]	J. J. Daniels and E. L. Rissland. What you saw is what you want: Using cases to
+seed information retrieval. In ICCBR, pages 325—336, 1997.
+[5]	J. Delgado and R. Davidson. Knowledge bases and user profiling in travel and
+hospitality recommender systems. In Proceedings of the ENTER 2002 Conference,
+pages 1—16, Innsbruck, Austria, January 22-25 2002. Springer Verlag.
+[6]	D. R. Fesenmaier and J. Jeng. Assessing structure in the pleasure trip planning
+process. Tourism Analysis, 5:13—17, 2000.
+[7]	D. Florescu, A. Levy, and A. Mendelzon. Database techniques for the world-wide
+web:a survey. SIGMOD Record, 27(3) :59—74, 1998.
+[8]	T. Gaasterland, P. Godfrey, and J. Minker. An overview of cooperative answering.
+Journal of Intelligent Information Systems, 1(2):123—157, 1992.
+[9]	M. H. Göker and C. A. Thomson. Personalized conversational case-based recommendation. 
+In Advances in case-based reasoning: 5th European workshop,
+EWCBR-2000, Trento, Italy, September 6—9, 2000: proceedings, pages 99-111.
+Springer, 2000.
+[10]	K. Grabler and A. Zins. Vacation trip decision styles as basis for an automated
+recommendation system: Lessons from observational studies. In Proceedings of
+the ENTER 2002 Conference, Innsbruck, Austria, January 22-25 2002. Springer
+Verlag.
+[11]	Y.-H. Hwang, U. Gretzel, and D. R. Fesenmaier. Behavioral foundations for
+human-centric travel decision-aid systems. In Proceedings of the ENTER 2002
+Conference, Innsbruck, Austria, January 22-25 2002. Springer Verlag.
+[12]	N. Kassem and the Enterprise Team. Designing Enterprise Applications with the
+Java TM 2 Platform, Enterprise Edition. Addison-Wesley, 2000.
+[13]	M. Lenz. Imtas - intelligent multimedia travel agent system. In Information
+and Communication Technologies in Tourism (Proceedings of ENTER-96), pages
+11—17. Springer, 1996.
+[14]	L. Moutinho. Consumer behavior in tourism. European Journal of Marketing,
+21:2—44, 1987.
+[15]	F. Ricci, N. Mirzadeh, and A. Venturini. Intelligent query managment in a mediator 
+architecture. In IEEE International Symposium “Intelligent Systems’, Sunny
+Day, Bulgaria, September 10-12 2002.
+[16]	F. Ricci, N. Mirzadeh, A. Venturini, and H. Werthner. Case-based reasoning and
+legacy data reuse for web-based recommendation architectures. In Proceedings
+of the Third International Conference on Information Integration and Web-based
+Applications & Services, pages 229—241, Linz, Austria, September 10-12 2001.
+[17]	B. Sarwar, G. Karypis, J. Konstan, and J. Riedl. Item-based collaborative filtering
+recommendation algorithms. In Proceedings of WWW10 Conference, pages 285--
+295, Hong Kong, May 1-5 2001. ACM.
+[18]	B. Smyth and M. T. Keane. Design a la deja vu: Reducing the adaptation overhead. 
+In Case-Based Reasoning: Experiences, Lessons, and Future Directions.
+AAAI Press/MIT Press, 1996.
+[19]	A. Stahl and R. Bergman. Applying recursive cbr for the customization of structured 
+products in an electronic shop. In Advances in case-based reasoning: 5th
+European workshop, EWCBR-2000, Trento, Italy, September 6—9, 2000: proceedings, 
+pages 297—308. Springer, 2000.
+[20]	G. Wiederhold. Mediators in the architecture of future information systems. IEEE
+Computer, 25(3):38—49, 1992.
+[21]	D. R. Wilson and T. R. Martinez. Improved heterogeneous distance functions.
+Journal of Artificial Intelligence Research, 11:1—34, 1997.

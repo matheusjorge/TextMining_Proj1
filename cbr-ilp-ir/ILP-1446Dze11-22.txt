@@ -1,0 +1,51 @@
+Relational Reinforcement Learning
+
+Saso Dzeroski1, Luc De Raedt2, Hendrik Blockeel2
+
+1 J. Stefan Institute, Jamova 39, SI-1000 Ljubljana, Slovenia
+2 K.U.Leuven, Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+
+
+Abstract. Relational reinforcement learning is presented, a learning
+technique that combines reinforcement learning with relational learning 
+or inductive logic programming. Due to the use of a more expressive
+representation language to represent states, actions and Q-functions, relational 
+reinforcement learning can be potentially applied to a new range
+of learning tasks. One such task that we investigate is planning in the
+block’s world, where it is assumed that the effects of the actions are unknown 
+to the agent and the agent has to learn a policy. Within this simple
+domain we show that relational reinforcement learning solves some existing 
+problems with reinforcement learning. In particular, relational reinforcement 
+learning allows to employ structural representations, to make
+abstraction of specific goals pursued and to exploit the results of previous
+learning phases when addressing new (more complex) situations.
+References
+
+1.	Blockeel, H., and De Raedt, L. (1997) Experiments with Top-down Induction of
+Logical Decision Trees. Artificial Intelligence. Forthcoming.
+2.	Borrajo, D., and Veloso, M. (1997) Lazy incremental learning of control knowledge
+for efficiently obtaining quality plans. AI Review, 11(1-5): 371—405.
+3.	Breiman, L., Friedman, J. H., Olshen, R. A., and Stone, C. J. (1984) Classification
+and Regression Trees. Wadsworth, Belmont.
+4.	Blockeel, H., and De Raedt, L. (1997) Lookahead and discretization in ILP. In Proc.
+7th Intl. Workshop on Inductive Logic Programming, pages 77—84, Springer, Berlin.
+5.	Chapman, D., and Kaelbling, L. (1991) Input generalization in delayed reinforcement 
+learning: An algorithm and performance comparisons. In Proc. 12th Intl. Joint
+Conf. on Artificial Intelligence, Morgan Kaufmann, San Mateo, CA.
+6.	De Raedt, L., and Blockeel, H. (1997) Using logical decision trees for clustering. In
+Proc. 7th Intl. Workshop on Inductive Logic Programming, pages 133—141, Springer,
+Berlin.
+7.	Fikes, R.E., and Nilsson, N.J. (1971) STRIPS: A new approach to the application
+of theorem proving. Artificial Intelligence, 2(3/4): 189—208.
+8.	Kaelbling, L., Littman, M., and Moore, A. (1996) Reinforcement learning: A survey.
+Journal of Artificial Intelligence Research, 4: 237—285.
+9.	Kramer, 5. (1996) Structural regression trees. In Proc. 13th Natl. Conf. on Artificial
+Intelligence. AAAI Press, Menlo Park, CA.
+10.	Lavrac, N. and Dzeroski, S. (1994) Inductive Logic Programming: Techniques and
+Applications. Ellis Horwood, Chichester.
+11.	Mitchell, T. (1997) Machine Learning. McGraw-Hill, New York.
+12.	Muggleton, S., and De Raedt, L. (1994) Inductive logic programming: Theory and
+methods. Journal of Logic Programming 19/20: 629—679.
+13.	Tesauro, G. (1995) Temporal difference learning and TD-GAMMON. Communications 
+of the ACM, 38(3): 58—68.
+14.	Watkins, C., and Dayan, P. (1992) Q-learning. Machine Learning, 8: 279-292.

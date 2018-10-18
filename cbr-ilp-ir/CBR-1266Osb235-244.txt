@@ -1,0 +1,49 @@
+Similarity Metrics: A Formal Unification of
+Cardinal and Non-Cardinal Similarity Measures
+
+Hugh Osborne and Derek Bridge
+
+University of York
+U.K.
+
+
+Abstract. In [9] we introduced a formal framework for constructing
+ordinal similarity measures, and suggested how this might also be applied
+to cardinal measures. In this paper we will place this approach in a more
+general framework, called similarity metrics. In this framework, ordinal
+similarity metrics (where comparison returns a boolean value) can be
+combined with cardinal metrics (returning a numeric value) and, indeed,
+with metrics returning values of other types, to produce new metrics.
+References
+
+1.	A. Aamodt and E. Plaza. Case based reasoning: Foundational issues, methodological 
+variations and system approaches. Al Communications, 7(1):39—59, 1994.
+2.	K.D. Ashley and E.L. Rissland. A case-based approach to modeling legal expertise.
+IEEE Expert, 3(3):70—77, 1988.
+3.	G. Birkhoff. Lattice Theory. American Mathematical Society, 1967.
+4.	M. Fréchet. Sur quelques points du calcul fonctionel. Rendiconti del Circolo
+Matematico di Palermo, 22:1—74, 1906.
+5.	T.R. Hinrichs. Problem Solving in Open Worlds: A Case Study in Design.
+Lawrence Erlbaum, 1992.
+6.	K.P. Jantke. Nonstandard concepts of similarity in case-based reasoning. In H.H.
+Bock, W. Lenski, and M.M. Richter, editors, Proceedings der Jahrestagung der
+Gesellschaft für Klassifikation, Information Systems and Data Analysis: Prospects,
+Foundations, Applications, pages 29—44. Springer Verlag, 1994.
+7.	J.L. Kolodner. Case Based Reasoning. Morgan Kaufmann, 1993.
+8.	P. Koton. Reasoning about evidence in causal explanations. In Proceedings of
+AAAI-88, pages 256—261, 1988.
+9.	Hugh Osborne and Derek Bridge. A case base similarity framework. In Ian
+Smith and Boi Faltings, editors, Advances in Case-Eased Reasoning, Proceedings
+of EWCBR’96, pages 309—323, 1996.
+10.	Hugh Osborne and Derek Bridge. Similarity metrics: A formal approach to case
+base retrieval using general similarity metrics. Technical report, Department of
+Computer Science, University of York, 1997. In preparation.
+11.	E. Plaza. Cases as terms: A feature term approach to the structured representation 
+of cases. In Proceedings of the First International Conference on Case-Based
+Reasoning. Springer Verlag, 1995.
+12.	E. Plaza. On the importance of similitude: An entropy-based assessment. In Ian
+Smith and Boi Faltings, editors, Advances in Case-Eased Reasoning, Proceedings
+of EWCBR’96, pages 324—338, 1996.
+13.	M.M. Richter. Classification and learning of similarity measures. In Proceedings
+der Jahrestagung der Gesellschaft für Klassifikation, Studies in Classification, Data
+Analysis and Knowledge Organisation. Springer Verlag, 1992.

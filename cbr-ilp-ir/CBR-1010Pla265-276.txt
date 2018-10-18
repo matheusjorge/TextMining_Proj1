@@ -1,0 +1,70 @@
+Cases as terms:
+A feature term approach to the structured
+representation of cases
+
+Enric Plaza*
+Institut d’Investigació en Intel.ligència Artificial, CSIC
+Campus de la Universitat Autònoma de Barcelona
+08193 Bellaterra, Catalunya, Spain
+Email: enric@iiia.csic.es
+URL: http://www.iiia.csic.es
+
+1 Motivation
+
+In our research work, we have come to represent cases as complex, structured data
+structures that we will formally described as feature terms (see [Arcos] for a description of
+the NOOS language for CBR and multistrategy leaming). The advantage of using
+structured representations are twofold. Firstly, it offers a natural way to describe composite
+objects that if described by attribute-value representations cause some problems like dealing
+with irrelevant attributes, not-applicable values, etc (and this leads to problems when
+comparing similitude among cases in this descriptions). Secondly. structured-
+representation cases offer the capability of treating subparts of cases also as full-fledged
+cases: they can be stored, and retrieved and used to solve (sub)problems of new cases;
+also, a case may be solved using (subparts ot) multiple cases retneved from the system’s
+memory. We will present here a formalization of structured (sometimes called object-centered) 
+representations as feature terms and we will present how can we assess similarity
+between feature terms (cases) and determine the preferred (most similar) case from a set of
+cases.
+References
+[Aït-Kaci] H Aït-Kaci, A Podelski (1992), Towards a meaning of LIFE. PRL Research
+Report #11, Digital Research Laboratory (available at doc-server@prl.dec.com sending
+a message with subject line help).
+
+[Arcos] Arcos, J. L., and Plaza, E. (1993), A Reflective Architecture for Integrated
+Memory-based Learning and Reasoning, In S. Wess, K.D. Althoff, M.M. Richter (Eds.),
+Topics in Case-Based Reasoning. Lecture Notes in Artificial Intelligence, 837, p. 289-300.
+Springer Verlag: Berlin.
+
+[Armengol] Armengol, E. and Plaza, E. (1994b), Integrating Induction in a Case-based
+Reasoner. Proceedings of the Second European Workshop on Case-based Reasoning.
+Chantilly (France). pp. 243-251.
+
+[Börner] Bomer, K (1994), Structural similarity as a guidance in case-based design. In S
+Wess, K D Althoff, M M Richter (Eds.) Topics in Case-Based Reasoning, Lecture Notes
+in Artificial Intelligence. Vol. 837, p.197-208. Springer-Verlag 1994.
+[Bunke] Bunke, H and Messmer, B T (1994), Similarity measures for structured
+representations. In S Wess, K D Althoff, M M Richter (Eds.) Topics in Case-Based
+Reasoning, p. 106-118. Lecture Notes in Artificial Intelligence 837, Springer Verlag.
+
+[Carpenter] Carpenter. B (1992). The Logic of Typed Feature Structures. Cambridge
+Tracts in Theoretical Computer Science. Cambridge University Press, Cambridge, UK.
+[deRaedt] deRaedt, L (1992), Interactive Theory Revision. Academic Press: London.
+[Kettler] B P Kettler, J A Hendler, W A Anderson, M P Evett (1994), Massively parallel
+support for case-based planning. IEEE Expert, p. 8-14, Fed. 1994.
+
+[Jantke] K P Jantke (1993), Nonstandard concepts of similarity in case-based reasoning.
+Proceedings of the 17th Annual Conference of the “Gesellllschaft für Klassifikation e. V. “.
+Kaiserslautern, March 1993. Springer Verlag.
+
+[López] B. López, E. Plaza (1991), Case-based Learning of Strategic Knowledge. Lecture
+Notes in Artificial Intelligence 482. Springer-Verlag.1991, pp. 398-411.
+[Plaza] Plaza, E., Arcos, J.L. (1994), Integration of learning into a knowledge modelling
+framework. Lecture Notes in Artificial Intelligence, Vol. 867. Springer-Verlag 1994, pp.
+355-373. Available online at URL “http://www.iiia.csic.es/People/enric/EKAW-
+94_ToC.html”
+
+[Plotkin] Gordon D Plotkin, A note on inductive generalization. In B. Meltzer and D
+Michie (Eds.), Machine Intelligence 5, p. 153-163. Elsevier 1970.
+
+[Russell] Russell, S. (1990), The Use of Knowledge in Analogy and Induction. Morgan
+Kaufmann.

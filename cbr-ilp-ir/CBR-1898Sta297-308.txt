@@ -1,0 +1,58 @@
+Applying Recursive CBR for the Customization
+of Structured Products in an Electronic Shop
+
+Armin Stahl and Ralph Bergmann
+
+
+Centre for Learning Systems and Applications (LSA), University of Kaiserslautern
+PO-Box 3049, D-67653 Kaiserslautern, Germany
+{stahl , bergmann}@informatik.uni-ki.de
+
+
+
+
+Abstract. When applying CBR for Electronic Commerce. the adaptation 
+capabilities of CBR can be used for product customization. Most
+adaptation techniques suffer from the problem that they require a large
+knowledge acquisition effort which leads to problems in the rapidly changing 
+U-Commerce scenario. In this paper we present a new approach to
+adaptation that is particularly suited to Electronic Commerce applications. 
+It assumes that products can be structured hierarchically into
+sub-components. Adaptation is achieved by incrementally replacing unsuitable 
+sub-components through recursively applying CI3R to find best-matching 
+alternative sub-components. The presented approach avoids
+huge portions of the knowledge acquisition effort and is prototypically
+implemented as an extension of the CBR-Works tool.
+References
+
+1.	R. Bergmann, S. Breen, M. Göker, M. Manago, and S. Wess. Developing Industrial
+Case-Based Reasoning Applications: The INRECA Methodology. State-of-the-Art-Survey, 
+LNAI 1612. Springer Verlag, 1999.
+2.	R. Bergmann and A. Stahl. Similarity measures for object-oriented case representations. 
+In B. Smyth and P. Gunningham, editors, Case-Based Reasoning Research
+and Development, volume 1488 of LNAI, pages 25—36. Springer, 1998.
+3.	R. Bergmann, W. Wilke, I. Volirath, and S. Wess. Integrating general knowledge
+with object-oriented case representation and reasoning. In 4th German Workshop:
+Case-Based Reasoning - System Development and Evaluation 1996, 1996.
+4.	R. Burke. The wasabi personal shopper: A case-based recommender system. In
+11th International Conference on Innovative Applications of Artificial Intelligence,
+1999.
+5.	R. Cunis, A. Günther, and H. Strecker, editors. Das PLAKON-Buch. Number 266
+in Informatik-Fachberichte. Springer, Berlin, 1991.
+6.	B. D. Netten and R. A. Vingerhoeds. Incremental adaptation for conceptual design 
+in EADOCS. In European Conference on Artificial Intelligence (ECAI’98)
+Workshop on Adaptation in Case-Based Reasoning, 1996.
+7.	K. Pfitzner Fallbasiertes Konfigurieren technischer Systeme. Dissertation, Universität 
+Hamburg, 1993.
+8.	S. Schmitt and R. Bergmann. Product customization in an electronic commerce
+environment using adaptation operators. In 7th German Workshop on Case-Based
+Reasoning, 1999.
+9.	I. Watson and S. Perera. Context guided retrieval. In David B. Leake and Enric
+Plaza, editors, Case-Based Reasoning Research and Development, volume 1266 of
+Lecture Notes in Artificial Intelligence, pages 359—370. Springer, July 1997. International 
+Conference on Case-Based Reasoning ICCBR-97.
+10.	W. Wilke. Knowledge Management for Intelligent Sales Support in Electronic
+Commerce. DISKI 213. Infix Verlag, 1999.
+11.	W. Wilke and R. Bergmann. Techniques and knowledge used for adaptation during 
+case-based problem solving. In 11th International Conference on Industrial
+and Engineering Applications of Artificial Intelligence and Expert Systems IEA-98, 1998.

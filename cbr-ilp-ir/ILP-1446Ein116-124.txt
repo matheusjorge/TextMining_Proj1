@@ -1,0 +1,56 @@
+Induction of Constraint Grammar-Rules Using
+Progol
+
+Martin Eineborg1 and Nikolaj Lindberg2
+
+1 Telia Research AB,
+Spoken Language Processing,
+SE-123 86 Farsta, Sweden,
+Martin.E.Eineborg@telia.se
+2 Centre for Speech Technology,
+Royal Institute of Technology,
+SE-100 44 Stockholm, Sweden,
+nikolaj@speech.kth.se
+
+
+
+
+Abstract. The paper reports a pilot study aiming at inducing rules for
+disambiguating words with different possible part of speech readings in
+unrestricted Swedish text. The rules, which are inspired by Constraint
+Grammar, are learnt using the Progol inductive logic programming system. 
+The training data is sampled from the part of speech tagged one
+million word Stockholm-Umeå Corpus. The results show that the induction 
+of disambiguation rules using Progol is a realistic way of learning
+rules of good quality with a minimum of manual effort. When tested on
+unseen data, 97% of the words retain the correct reading after tagging
+leaving an ambiguity of 1.15 readings per word.
+References
+
+1.	Eric Brill. Some advances in transformation-based part of speech tagging. In
+Proceedings of the Twelfth National Conference on Artificial Intelligence (AAAI-
+94), Seattle, Wa., 1994.
+2.	James Cussens. Part of speech tagging using Progol. In Proceedings of the 7th
+International Workshop on Inductive Logic Programming (ILP-97), pages 93—108,
+1997.
+3.	Eva Ejerhed, Gunnel Källgren, Wennstedt Ola, and Magnus Aström. The Linguistic 
+Annotation System of the Stockholm- Umeå Project. Department of General
+Linguistics, University of Umeå, 1992.
+4.	Fred Karisson, Atro Voutilainen, Julia Heikkilä, and Arto Anttila, editors. Constraint 
+Grammar: A language-independent system for parsing unrestricted text.
+Mouton de Gruyter, Berlin and New York, 1995.
+5.	Oliver Manson. QTAG—A portable probabilistic tagger. Corpus Research, The
+University of Birmingham, U.K., 1997.
+6.	Stephen Muggleton. Inverse entainment and Progol. New Generation Computing
+Journal, 13:245—286, 1995.
+7.	Daniel Ridings. SUC and the Brill tagger. Technical Report GU-ISS-98-1, Department 
+of Swedish, Göteborg University, 1998.
+8.	Christer Samuelsson, Pasi Tapanainen, and Atro Voutilainen. Inducing Constraint
+Grammars. In Miclet Laurent and de la Higuera Colin, editors, Grammatical
+Inference: Learning Syntax from Sentences, pages 146—155. Springer Verlag, 1996.
+9.	Christer Samuelsson and Atro Voutilainen. Comparing a linguistic and a stochastic
+tagger. In Proceedings of the 35th Annual Meeting of the Association for Computational 
+Linguistics and 8th Conference of the European Chapter of the Association
+for Computational Linguistics (A CL -EA CL ‘97), pages 246—253, 1997.
+10.	Pasi Tapanainen. The Constraint Grammar Parser CG-2. Department of General
+Linguistics, University of Helsinki, 1996.

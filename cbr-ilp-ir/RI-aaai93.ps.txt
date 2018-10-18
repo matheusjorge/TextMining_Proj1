@@ -1,0 +1,79 @@
+Automatically Constructing a Dictionary for Information
+Extraction Tasks
+
+Ellen Riloff
+Department of Computer Science
+University of Massachusetts
+Amherst, MA 01003
+riloff@cs.umass.edu
+Proceedings of the Eleventh National Conference on Artificial Intelligence, 1993, AAAI Press / MIT Press, pages 811--816.
+
+Abstract
+Knowledge­based natural language processing systems have
+achieved good success with certain tasks but they are of­
+ten criticized because they depend on a domain­ specific
+dictionary that requires a great deal of manual knowledge
+engineering. This knowledge engineering bottleneck makes
+knowledge­based NLP systems impractical for real ­world
+applications because they cannot be easily scaled up or ported
+to new domains. In response to this problem, we devel­
+oped a system called AutoSlog that automatically builds a
+domain ­specific dictionary of concepts for extracting infor­mation 
+from text. Using AutoSlog, we constructed a dictio­nary 
+for the domain of terrorist event descriptions in only 5
+person­hours. We then compared the AutoSlog dictionary
+with a hand­crafted dictionary that was built by two highly
+skilled graduate students and required approximately 1500
+person­hours of effort. We evaluated the two dictionaries
+using two blind test sets of 100 texts each. Overall, the
+AutoSlog dictionary achieved 98% of the performance of
+the hand­crafted dictionary. On the first test set, the Auto­
+Slog dictionary obtained 96.3% of the performance of the
+hand­crafted dictionary. On the second test set, the over­all 
+scores were virtually indistinguishable with the AutoSlog
+dictionary achieving 99.7% of the performance of the hand­crafted 
+dictionary.
+
+
+
+References
+Carbonell, J. G. 1979. Towards a Self­Extending Parser. In
+Proceedings of the 17th Meeting of the Association for Compu­tational Linguistics. 3--7.
+Cardie, C. 1992. Learning to Disambiguate Relative Pronouns.
+In Proceedings of the Tenth National Conference on Artificial
+Intelligence. 38--43.
+DeJong, G. and Mooney, R. 1986. Explanation­Based Learning:
+An Alternative View. Machine Learning 1:145--176.
+Fisher, D. H. 1987. Knowledge Acquisition Via Incremental
+Conceptual Clustering. Machine Learning 2:139--172.
+Francis, W. and Kucera, H. 1982. Frequency Analysis of English
+Usage. Houghton Mifflin, Boston, MA.
+Granger, R. H. 1977. FOUL­UP: A Program that Figures Out
+Meanings of Words from Context. In Proceedings of the Fifth
+International Joint Conference on Artificial Intelligence. 172--
+178.
+Jacobs, P. and Zernik, U. 1988. Acquiring Lexical Knowledge
+from Text: A Case Study. In Proceedingsof the Seventh National
+Conference on Artificial Intelligence. 739--744.
+Lehnert, W. 1990. Symbolic/Subsymbolic Sentence Analysis:
+Exploiting the Best of Two Worlds. In Barnden, J. and Pollack,
+J., editors 1990, Advances in Connectionist and Neural Compu­tation 
+Theory, Vol. 1. Ablex Publishers, Norwood, NJ. 135--164.
+Lehnert, W.; Cardie, C.; Fisher, D.; McCarthy, J.; Riloff, E.; and
+Soderland, S. 1992a. University of Massachusetts: Description
+of the CIRCUS System as Used for MUC­4. In Proceedings of the
+Fourth MessageUnderstandingConference(MUC­4). 282--288.
+Lehnert, W.; Cardie, C.; Fisher, D.; McCarthy, J.; Riloff, E.; and
+Soderland, S. 1992b. University of Massachusetts: MUC­4 Test
+Results and Analysis. In Proceedings of the Fourth Message
+Understanding Conference (MUC­4). 151--158.
+Lehnert, W. G. and Sundheim, B. 1991. A Performance Evalua­tion 
+of Text Analysis Technologies. AI Magazine 12(3):81--94.
+Marcus, M.; Santorini, B.; and Marcinkiewicz, M. Building a
+Large Annotated Corpus of English: The Penn Treebank. Com­putational 
+Linguistics. Forthcoming.
+Mitchell, T. M.; Keller, R.; and Kedar­Cabelli, S. 1986.
+Explanation­Based Generalization: A Unifying View. Machine
+Learning 1:47--80.
+Proceedings of the Fourth Message Understanding Conference
+(MUC­4). 1992. Morgan Kaufmann, San Mateo, CA.

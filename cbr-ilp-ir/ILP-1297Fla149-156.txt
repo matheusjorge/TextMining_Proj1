@@ -1,0 +1,41 @@
+Normal Forms for Inductive Logic Programming
+
+Peter A. Flach
+Infolab, Tilburg University
+POBox 90153, 5000 LE Tilburg, the Netherlands
+email Peter.Flach@kub.nl
+
+Abstract. In this paper we study induction of unrestricted clausal theories
+from interpretations. First, we show that in the propositional case induction
+from complete evidence can be seen as an equivalence-preserving
+transformation from DNF to CNF. From this we conclude that induction is
+essentially a process of determining what is false in the domain of discourse.
+We then proceed by investigating dual normal forms for evidence and
+hypotheses in predicate logic. We define evidence normal form (ENE), which
+is Skolemised existential DNF under a Consistent Naming Assumption.
+Because ENF is incomplete, in the sense that it does not have the expressive
+power of clausal logic, ENF evidence requires the identification of Skolem
+terms. The approach is partly implemented in the PRIMUS system.
+References
+D. Angluin, M. Frazier & L. Pitt. Learning conjunctions of Horn clauses. Machine
+Learning, 9(2/3):147—164, 1992.
+N.H. Bshouty. Exact learning via the monotone theory. Proc. IEEE Symp. on
+Foundations of Computer Science, pp.302—3 11 . 1993.
+P. Clark & T. Niblett. The CN2 induction algorithm. Machine Learning, 3(4):261—283,
+1989.
+R. Dechter & J. Pearl. Structure identification in relational data. Artificial Intelligence,
+58:237—270, 1992.
+L. De Raedt. Induction in logic. Proc. 3d Multistrategy Learning Workshop, pp.29—38.
+1996.
+L. De Raedt & L. Dehaspe. Clausal discovery. Machine Learning, 26(2/3):99—146,
+1997.
+L. De Raedt & W. Van Laer. Inductive Constraint Logic. Proc. 6th Workshop on
+Algorithmic Learning Theory, pp.80—94. Springer, 1995.
+L. De Raedt. N. Lavrac & S. Dzeroski. Multiple predicate learning. Proc. 13th Int. Joint
+Conf on Artificial Intelligence, pp.1037—1042. Morgan Kaufmann, 1993.
+A. Friedman. Fundamentals of Logic Design and Switching Theory. Computer Science
+Press, 1986.
+R. Khardon & D. Roth. Reasoning with models. Technical Report TR-1-94, Center for
+Research in Computing Technologies, Harvard University, 1994.
+H. Kautz, M. Kearns & B. Selman. Horn approximations of empirical data. Artificial
+Intelligence, 74:129—145, 1995.

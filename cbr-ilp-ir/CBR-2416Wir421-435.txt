@@ -1,0 +1,68 @@
+Learning to Adapt for Case-Based Design*
+
+Nirmalie Wiratunga1, Susan Craw1, and Ray Rowe2
+
+1School of Computing,
+The Robert Gordon University,
+Aberdeen AB25 1HG, Scotland, UK
+{nw | s.craw}@scms.rgu.ac.uk
+2 AstraZeneca
+Macclesfield, Cheshire SK1O 2NA, England, UK
+
+
+
+
+Abstract. Design is a complex open-ended task and it is unreasonable to expect a
+case-base to contain representatives of all possible designs. Therefore, adaptation
+is a desirable capability for case-based design systems, but acquiring adaptation
+knowledge can involve significant effort. In this paper adaptation knowledge is
+induced separately for different criteria associated with the retrieved solution, using 
+knowledge sources implicit in the case-base. This provides a committee of
+learners and their combined advice is better able to satisfy design constraints and
+compatibility requirements compared to a single learner. The main emphasis of the
+paper is to evaluate the impact of specific-to-general and general-to-specific learning 
+on adaptation knowledge acquired by committee members. For this purpose
+we conduct experiments on a real tablet formulation problem which is tackled as
+a decomposable design task. Evaluation results suggest that adaptation achieves
+significant gains compared to a retrieve-only CBR system, but shows that both
+learning biases can be beneficial for different decomposed sub-tasks.
+References
+
+1.	Bandini, S., Manzoni, S.: CBR adaptation for chemical formulation. In Proc 4th Int Conf on
+CBR, pages 634—647, 2001. Springer.
+2.	Craw, S., Wiratunga, N., Rowe, R.: Case-based design for tablet formulation. In Proc 4th
+European Workshop on CBR, pages 358—369, 1998. Springer.
+3.	Dietterich, T.G.: Ensemble methods in machine learning. In 1st Int Workshop on Multiple
+Classifier Systems, pages 1—15, 2000. Springer.
+4.	Domingos, P.: Unifying instance-based and rule-based induction. ML, 24:141—168, 1996.
+5.	Freund, Y, Schapire, R.: Experiments with a new boosting algorithm. In Proc 13th Int Conf
+on Machine Learning, pages 148—156, 1996.
+6.	Hanney, K., Keane, M.T.: The adaptation knowledge bottleneck: How to ease it by learning
+from cases. In Proc of the 2nd Int Conf on CBR, pages 359—370, 1997. Springer.
+7.	Jarmulak, J., Craw, S., Rowe, R.: Genetic algorithms to optimise CBR retrieval. In Proc 5th
+European Workshop on CBR, pages 137—149, 2000. Springer.
+8.	Jarmulak, J., Craw, S., Rowe, R.: Using case-base data to learn adaptation knowledge for
+design. In Proc 17th IJCAI, pages 1011—1016, 2001. Morgan Kaufmann.
+9.	McSherry, D.: An adaptation heuristic for case-based estimation. In Proc 4th European
+Workshop on CBR, pages 184-195, 1998. Springer.
+10.	McSherry, D.: Minimising dialog length in interactive case-based reasoning. In Proc 17th
+IJCAI, pages 993—998, 2001. Morgan Kaufmann.
+11.	Netten, B.D., Vingerhoeds, R.A.: Incremental adaptation for conceptual design in EADOCS.
+In ECAI Workshop on Adaptation in CBR, 1996.
+12.	Quinlan, J.R.: Induction of decision trees. Machine Learning, 1:81—106, 1986.
+13.	Quinlan, J.R.: Bagging, boosting, and C4.5. In Proc 13th National Conf on AI, pages 725—730,
+1996.
+14.	Smyth, B., Cunningham, P.: Déjà Vu: A hierarchical case-based reasoning system for software
+design. In Proc ECAI92, pages 587—589, 1992. Wiley.
+15.	Smyth, B., Cunningham, P.: Complexity of adaptation in real-world case-based reasoning
+systems. In Proc 6th Irish Conf on Al & Cognitive Science, Ireland, 1993.
+16.	Smyth, B., Keane, M.T.: Adaptation-guided retrieval: Questioning the similarity assumption.
+Artificial Intelligence, 102:249—293, 1998.
+17.	Stahl, A., Bergmann, R.: Applying recursive CBR to the customisation of structured products
+in an electronic shop. In Proc 5th European Workshop on CBR, pages 297—308, 2000.
+Springer.
+18.	Wettschereck, D., Aha, D.W. (eds.): In Proc ECML-97 Workshop on Case-Based Learn-
+ing: Beyond Classification of Feature Vectors, 1997. http://nathan.gmd.de/persons/dietrich.
+wettschereck/ecml97-wkshp/ecml97ws2.ps.
+19.	Wilke, W., Vollrath, I., Althoff, K.D., Bergmann, R.: A framework for learning adaptation
+knowledge based on knowledge light approaches. In 5th German Workshop on CBR, 1997.

@@ -1,0 +1,38 @@
+A New Design and Implementation of Progol
+by Bottom-Up Computation
+
+Hiroshi FUJITA1, Naoki YAGI2, Tomonobu OZAKI2 and
+Koichi FURUKAWA2
+
+1 Kyushu University, Kasuga, Fukuoka 816, JAPAN
+2 Keio University, Fujisawa, Kanagawa 252, JAPAN
+
+
+
+
+Abstract. This paper describes a parallel version of Progol based on
+MGTP which is a theorem prover employing bottom-up inference suitable 
+for parallel implementation. Hypothesis formation in Progol, which
+is performed by top-down computation with Prolog in the sequential implementation, 
+will be performed more efficiently by bottom-up compu-
+tation with MGTP in the new implementation. For the Progol’s general-to-specific 
+search for hypotheses though the subsumption lattice, we
+developed a new way of calculating a heuristic function for the A*-like
+algorithm, which was also implemented with MGTP. Since MGTP already has 
+very efficient parallel implementations on parallel inference
+machines, an efficient implementation of parallel-Progol will readily be
+realized as well.
+References
+
+[BR91]	Beeri, C. and Ramakrishnan, R.: On the Power of Magic. J. Logic Programming, 
+Vol.10, (1991) 255—299
+[FH91]	Fujita, H. and Hasegawa, R.: A Model Generation Theorem Prover in KL1
+Using a Ramified-Stack Algorithm. Proc. of the 8th ICLP, (1991) 535—548
+[MB88]	Manthey, R. and Bry, F.: SATCHMO: A theorem prover implemented in
+Prolog. Proc. of the 9th CADE, (1988) 415—434
+[Mug95]	Muggleton, S.: Inverse Entailment and Progol. New Generation Computing,
+Vol.13, (1995) 245—286
+[UC9O] Ueda, K. and Chikayama, T.: Design of the kernel language for the parallel
+inference machine. The Computer Journal, 33(6) (1990) 494—500
+[Yag96]	Yagi, N.: On the Construction of parallel ILP Model. Master’s thesis, Keio
+University, (1996)

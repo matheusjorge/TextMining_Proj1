@@ -1,0 +1,45 @@
+On the Effectiveness of Evaluating Retrieval Systems
+in the Absence of Relevance Judgments #
+
+Javed A. Aslam
+Department of Computer Science
+Dartmouth College
+jaa@cs.dartmouth.edu
+Robert Savell
+Department of Computer Science
+Dartmouth College
+rsavell@cs.dartmouth.edu
+
+ABSTRACT
+Soboro#, Nicholas and Cahan recently proposed a method
+for evaluating the performance of retrieval systems without
+relevance judgments. They demonstrated that the system
+evaluations produced by their methodology are correlated
+with actual evaluations using relevance judgments in the
+TREC competition. In this work, we propose an explana­tion 
+for this phenomenon. We devise a simple measure for
+quantifying the similarity of retrieval systems by assessing
+the similarity of their retrieved results. Then, given a collec­tion 
+of retrieval systems and their retrieved results, we use
+this measure to assess the average similarity of a system to
+the other systems in the collection. We demonstrate that
+evaluating retrieval systems according to average similarity
+yields results quite similar to the methodology proposed by
+Soboro# et al., and we further demonstrate that these two
+techniques are in fact highly correlated. Thus, the tech­niques 
+are effectively evaluating and ranking retrieval sys­tems 
+by ``popularity'' as opposed to ``performance.''
+
+
+
+5. REFERENCES
+[1] G. V. Cormack, C. R. Palmer, and C. L. A. Clarke.
+Eficient construction of large test collections. In
+Proceedings of the 21th Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval, 1998.
+[2] I. Soboro#, C. Nicholas, and P. Cahan. Ranking
+retrieval systems without relevance judgments. In
+Proceedings of the 24th Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval, 2001.

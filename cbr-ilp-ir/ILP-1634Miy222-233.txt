@@ -1,0 +1,70 @@
+Discovering New Knowledge from Graph Data
+Using Inductive Logic Programming
+
+Tetsuhiro Miyahara1, Takayoshi Shoudai2, Tomoyuki Uchida1,
+Tetsuji Kuboyama3, Kenichi Takahashi1, and Hiroaki Ueda1
+
+1 Faculty of Information Sciences,
+Hiroshima City University, Hiroshima 731-3194, Japan
+{miyahara@its, uchida@cs, takahasi@its, ueda@its}.hiroshima-cu.ac.jp
+2 Department of Informatics, Kyushu University 39, Kasuga 816-8580, Japan
+shoudai@i.kyushu-u.ac.jp
+3 Center for Collaborative Research, University of Tokyo, Tokyo 153-0041, Japan
+kuboyama@ccr.u-tokyo.ac.jp
+
+
+
+
+Abstract. We present a method for discovering new knowledge from
+structural data which are represented by graphs in the framework of
+inductive logic programming. A graph, or network, is widely used for
+representing relations between various data and expressing a small and
+easily understandable hypothesis. Formal Graph System (FGS) is a kind
+of logic programming system which directly deals with graphs just like
+first order terms. By employing refutably inductive inference algorithms
+and graph algorithmic techniques, we are developing a knowledge discovery 
+system KD-FGS, which acquires knowledge directly from graph
+data by using FGS as a knowledge representation language.
+In this paper we develop a logical foundation of our knowledge discovery
+system. A term tree is a pattern which consists of variables and tree-like 
+structures. We give a polynomial-time algorithm for finding a unifier
+of a term tree and a tree in order to make consistency checks efficiently.
+Moreover we give experimental results on some graph theoretical notions
+with the system. The experiments show that the system is useful for
+finding new knowledge.
+References
+
+1.	T. R. Amoth, P. Cull, and P. Tadepalli. Exact learning of tree patterns from
+queries and counterexamples. Proc. COLT-98, ACM Press, pages 175—186, 1998.
+2.	S. Arikawa, T. Shinohara, and A. Yamamoto. Learning elementary formal systems.
+Theoretical Computer Science, 95:97—113, 1992.
+3.	H. Arimura, H. Ishizaka, and T. Shinohara. Learning unions of tree patterns using
+queries. Proc. ALT-95, Springer- Verlag, LNAI 997, pages 66—79, 1995.
+4.	S. Dzeroski, N. Jacobs, M. Molina, C. Moure, S. Muggleton, and W. V. Laer.
+Detecting traffic problems with ILP. Proc. ILP-98, Springer- Verlag, LNAI 1446,
+pages 281—290, 1998.
+5.	A. Habel and H.-J. Kreowski. May we introduce to you: hyperedge replacement.
+Proc. 3rd Graph-Grammars and Their Application to Computer Science, Springer-
+Verlag, LNCS 291, pages 15—26, 1987.
+6.	D. Janssens and G. Rozenberg. On the structure of node-label-controlled graph
+languages. Information Sciences, 20:191—216, 1980.
+7.	S. Matsumoto, Y. Hayashi, and T. Shoudai. Polynomial time inductive inference
+of regular term tree languages from positive dat. Proc. ALT-97, Springer- Verlag,
+LNAI 1316, pages 212—227, 1997.
+8.	T. Miyahara, T. Uchida, T. Kuboyama, T. Yamamoto, K. Takahashi, and H. Ueda.
+KD-FGS: a knowledge discovery system from graph data using formal graph system. 
+Proc. PAKDD-99, Springer- Verlag, LNAI 1574, (to appear), 1999.
+9.	Y. Mukouchi and S. Arikawa. Towards a mathematical theory of machine discovery
+from facts. Theoretical Computer Science, 137:53—84, 1995.
+10.	S. Reyner. An analysis of a good algorithm for the subtree problem. SIAM Journal
+on Computing, 6(4):730—732, 1977.
+11.	T. Uchida, T. Miyahara, and Y. Nakamura. Formal graph systems and node-label
+controlled graph grammars. Proc. 4th Inst. Syst. Control and Inf. Eng., pages
+105—106, 1997.
+12.	T. Uchida, T. Shoudai, and S. Miyano. Parallel algorithm for refutation tree
+problem on formal graph systems. IEICE Trans. Inf. Syst., E78-D(2):99—112,
+1995.
+13.	J. T.-L. Wang, K. Zhang, K. Jeong, and D. Shasha. A system for approximate tree
+matching. IEEE Trans. on Knowledge and Data Engineering, 6(4):559—571, 1994.
+14.	A. Yamamoto. Procedural semantics and negative information of elementary formal 
+system. Journal of Logic Programming, 13:89—98, 1992.

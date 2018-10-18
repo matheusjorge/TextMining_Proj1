@@ -1,0 +1,47 @@
+Integrating Rule Induction and Case-Based Reasoning
+to Enhance Problem Solving
+
+Aijun An, Nick Cercone and Christine Chan
+
+University of Regina, Regina, Saskatchewan, Canada S4S 0A2
+
+
+Abstract. We present a new method that integrates rule induction and
+case-based reasoning. The method is new in two aspects. First, it applies
+a novel feature weighting function for assessing similarities between cases.
+By using this weighting function, optimal case retrieval is achieved in that
+the most relevant cases can be retrieved from the case base. Second, the
+method handles both classification and numeric prediction tasks under a
+mixed paradigm of rule-based and case-based reasoning. Before problem
+solving, rule induction is performed to induce a set of decision rules from
+a set of training data. The rules are then employed to determine some
+parameters in the new weighting function. The induced rules are also
+used to detect possible noise in the training set so that noisy cases are not
+used in case-based reasoning. For classification tasks, rules are applied to
+make decisions; if there is a conflict between matched rules, case-based
+reasoning is performed. The method was implemented in ELEM2-CBR, a
+learning and problem solving system. We demonstrate the performance
+of ELEM2-CBR by comparing it with other methods on a number of
+designed and real-world problems.
+References
+
+1.	Althoff, K., Wess, S. and Traphoner, R. 1995. “INRECA - A Seamless Integration
+of Induction and Case-Based Reasoning for Decision Support Tasks”. Proceedings of
+the 8th Workshop of the German Special Interest Group on Machine Learning.
+2.	An, A. 1997. Integrated Analysis Tools for Enhanced Problem Solving. Ph.D. Thesis,
+Dept. of Computer Science, University of Regina, Regina, Canada. To appear.
+3.	Cooper, W.S. 1973. “On Selecting a Measure of Retrieval Effectiveness.” Journal of
+the American Society for Information Science. Vol.24, pp.87-100.
+4.	Creecy, R.H., Masand, B.M., Smith, S.J. and Waltz, D.L. 1992. “Trading MIPS and
+Memory for Knowledge Engineering”. Communications of the ACM, 35, pp.48-64.
+5.	Domingos, P. 1995. “Rule Induction and Instance-Based Learning: A Unified Approach.” 
+IJCAI-95. Montreal, Canada. pp.1226-1232.
+6.	Quinlan, J.R. 1993. C4.5: Programs for Machine Learning. Morgan Kaufmann Publishers. 
+San Mateo, CA.
+7.	Robertson, S.E. and Sparck Jones, K. 1976. “Relevance Weighting of Search Terms”.
+Journal of the American Society for Information Science. Vol.27. pp.129-146.
+8.	Robertson, S.E. 1977. “The Probability Ranking Principle in IR”. Journal of Documentation. 
+Vol.33, No.4, pp.294-304.
+9.	Zhang, J. 1990. “A Method That Combines Inductive Learning with Exemplar-Based 
+Learning”, Proceedings of the 2nd International IEEE Conference on Tools
+for Artificial Intelligence, Herndon, VA. pp.31-37.

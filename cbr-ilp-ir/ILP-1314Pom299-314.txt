@@ -1,0 +1,65 @@
+Efficient Proof Encoding
+
+Uros Pompe
+
+University of Ljubljana,
+Faculty of Computer and Information Science,
+Trzaska 25, SI-lOOl Ljubljana, Slovenia
+tel: +386-61-1768 386
+fax: +386-61-1768 386
+e-mail: uros.pompe@fri.uni-lj.si
+
+
+Abstract. This paper proposes a method of storing the proofs of the
+learning examples in an efficient manner. FOIL-like top down learners
+usually store the computed answers of a partially induced clause as a
+set of ground substitutions. The need for the re-computation of the root
+part of the SLDNF-tree is reduced that way, but the approach is space-inefficient
+ when the literals in the clause are nondeterminate. We introduce a 
+weak syntactic language bias that does not practically restrict the
+hypothesis space. Further more, we present a proof encoding scheme, using 
+a mesh-like data structure, that exploits the properties of this bias
+to store the computed answers efficiently. We show that such encoding
+grows at most linearly with respect to the clause length. The result is
+not influenced by the presence of nondeterminism in the background
+knowledge.
+References
+
+1.	W. W. Cohen. Learnability of restricted logic programs. In S. Muggleton, editor,
+Proceedings of The Third International Workshop on Inductive Logic Programming
+ILP’93, pages 41—71, Bled, Slovenia, Apr. 1993.
+2.	W. W. Cohen. Pac-learning a restricted class of recursive logic programs. In
+S. Muggleton, editor, Proceedings of The Third International Workshop on Inductive 
+Logic Programming ILP’93, pages 73—86, Bled, Slovenia, Apr. 1993.
+3.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are pac-learnable. In
+S. Wrobel, editor, Proceedings of the Fourth International Workshop on Inductive
+Logic Programming, Bad Honnef/Bonn, Germany, Sept. 1994.
+4.	B. Dolsak and S. Muggleton. The application of inductive logic programming to
+finite elements mesh design. In S. Muggleton, editor, Inductive Logic Programming.
+Academic Press, 1992.
+5.	S. Dzeroski. Handling noise in inductive logic programming. Master’s thesis, University 
+of Ljubljana, Faculty of electrical engineering and computer science, Ljubljana, Slovenia, 1991.
+6.	M. J. Kearns and U. V. Vazirani. An Introduction to Computational Learning
+Theory. MIT Press, Cambridge, Massachusetts, 1994.
+7.	J.-U. Kietz. Some lower bounds for the computational complexity of inductive logic
+programming. In Proceedings of Sixth European Conference on Machine Learning,
+pages 115—123, Berlin, Germany, 1993. Springer Verlag.
+8.	M. Kovacic. Stochastic inductive logic programming. PhD thesis, University of
+Ljubljana, Faculty of electrical engineering and computer science, Ljubljana, Slovenia, 1995.
+9.	J. W. Lloyd. Foundations of Logic Programming. Springer Verlag, Berlin, Germany, 
+second edition, 1987.
+10.	S. Muggleton. Inductive Logic Programming. Academic Press, London, England,
+1992.
+11.	U. Pompe. Restricting the hypothesis space, guiding the search, and handling of
+redundant information in inductive logic programming. Master’s thesis, University
+of Ljubljana, Faculty of Computer and Information Science, Ljubljana, Slovenia,
+May 1996.
+12.	U. Pompe and I. Kononenko. Linear space induction in first order logic with relief.
+In R. Kruse, ft. Viertl, and G. Della Riccia, editors, CISM Lecture notes, (to appear). 
+Springer Verlag, Udine, Italy, Sept. 1994. Presented at: International School
+for the Synthesis of Expert Knowledge.
+13.	U. Pompe, M. Kovacic, and I. Kononenko. Sfoil: Stochastic approach to inductive
+logic programming. In Proceedings of the Second Electrotechnical and Computer
+Science Conference ERK’93, pages 189-192, Portoroz, Slovenia, Sept. 1993.
+14.	J. R. Quinlan. Learning logical definitions from relations. Machine Learning,
+5:239—266, 1990.

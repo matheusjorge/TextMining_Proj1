@@ -1,0 +1,56 @@
+Some Properties of Inverse Resolution
+in Normal Logic Programs
+
+Chiaki Sakama
+
+Department of Computer and Communication Sciences
+Wakayama University
+Sakaedani, Wakayama 640 8510, Japan
+sakama@sys.wakayama-u.ac.jp
+http://www.sys.wakayama-u.ac.jp/~sakama
+
+
+Abstract. This paper studies the properties of inverse resolution in normal 
+logic programs. The V-operators are known as operations for inductive 
+generalization in definite logic programs. In the presence of negation
+as failure in a program, however, the V-operators do not work as generalization 
+operations in general and often make a consistent program
+inconsistent. Moreover, they may destroy the syntactic structure of logic
+programs such as acyclicity and local stratification. On the procedural
+side, unrestricted application of the V-operators may lose answers computed 
+in the original program and make queries flounder. We provide
+sufficient conditions for the V-operators to avoid these problems.
+References
+
+1.	K. R. Apt, H. A. Blair, and A. Walker. Towards a theory of declarative knowledge.
+In:	Foundations of Deductive Databases and Logic Programming (J. Minker ed.),
+Morgan Kaufmann, pp. 89—148, 1988.
+2.	K. R. Apt and M. Bezem. Acyclic programs. New Generation Computing 9:335—363,
+1991.
+3.	M. Bain and S. Muggleton. Non-monotonic learning. In: [14], pp. 145—161.
+4.	M. Bain. Experiments in non-monotonic first-order induction. In: [14], pp. 423—436.
+5.	R. B. Banerji. Learning theoretical terms. In: [14], pp. 93—112.
+6.	C. Baral and M. Gelfond. Logic programming and knowledge representation. Journal 
+of Logic Programming 19/20:73—148, 1994.
+7.	K. L. Clark. Negation as failure. In: H. Gallaire and J. Minker (eds.), Logic and
+Data Bases, Plenum Press, pp. 119—140, 1978.
+8.	M. Gelfond and V. Lifschitz. The stable model semantics for logic programming. In:
+Proc. 5th Int’l Conf. and Symp. on Logic Programming, MIT Press, pp. 1070—1080,
+1988.
+9.	J. W. Lloyd. Foundations of logic programming (2nd edition), Springer-Verlag,
+1987.
+10.	S. Muggleton. Duce, an oracle based approach to constructive induction. In: Proc.
+IJCA I-8 7, Morgan Kaufmann, pp. 287—292, 1987.
+11.	S. Muggleton. Inverting the resolution principle. In: Machine Intelligence, vol. 12,
+Oxford University Press, pp. 93—103, 1991.
+12.	S. Muggleton. Inductive Logic Programming. In [14], pp. 3—27, 1992.
+13.	S. Muggleton and W. Buntine. Machine invention of first-order predicate by in-
+verting resolution. In: [14], pp. 261—280.
+14.	S. Muggleton (ed.). Inductive Logic Programming, Academic Press, 1992.
+15.	T. C. Przymusinski. On the declarative semantics of deductive databases and
+logic programs. In: J. Minker (ed.), Foundations of Deductive Databases and Logic
+Programming, Morgan Kaufmann, pp. 193—216, 1988.
+16.	C. Rouveirol. Extension of inversion of resolution applied to theory completion.
+In: [14], pp. 63—92.
+17.	K. Taylor. Inverse resolution of normal clauses. In: Proc. ILP-93, J. Stefan Institute, 
+pp. 165—177, 1993.

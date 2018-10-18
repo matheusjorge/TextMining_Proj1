@@ -1,0 +1,122 @@
+A Method for Open­Vocabulary Speech­Driven Text Retrieval
+
+Atsushi Fujii #
+University of Library and
+Information Science
+1­2 Kasuga, Tsukuba
+305­8550, Japan
+fujii@ulis.ac.jp
+Katunobu Itou
+National Institute of
+Advanced Industrial
+Science and Technology
+1­1­1 Chuuou Daini Umezono
+Tsukuba, 305­8568, Japan
+itou@ni.aist.go.jp
+Tetsuya Ishikawa
+University of Library and
+Information Science
+1­2 Kasuga, Tsukuba
+305­8550, Japan
+ishikawa@ulis.ac.jp
+
+Abstract
+While recent retrieval techniques do not
+limit the number of index terms, out­ of­
+vocabulary (OOV) words are crucial in
+speech recognition. Aiming at retrieving
+information with spoken queries, we fill
+the gap between speech recognition and
+text retrieval in terms of the vocabulary
+size. Given a spoken query, we gener­ate a transcription and detect OOV words
+through speech recognition. We then cor­respond detected OOV words to terms in­
+dexed in a target collection to complete the
+transcription, and search the collection for
+documents relevant to the completed tran­scription. We show the effectiveness of
+our method by way of experiments.
+
+
+
+
+
+References
+Lalit. R. Bahl, Frederick Jelinek, and Robert L. Mercer.
+1983. A maximum likelihood approach to continu­ous speech recognition. IEEE Transactions on Pattern
+Analysis and Machine Intelligence, 5(2):179--190.
+J. Barnett, S. Anderson, J. Broglio, M. Singh, R. Hud­son, and S. W. Kuo. 1997. Experiments in spoken
+queries for document retrieval. In Proceedings of Eu­rospeech97, pages 1323--1326.
+Fabio Crestani. 2000. Word recognition errors and rele­vance 
+feedback in spoken query processing. In Pro­ceedings of the Fourth International Conference on
+Flexible Query Answering Systems, pages 267--281.
+Atsushi Fujii, Katunobu Itou, and Tetsuya Ishikawa.
+2002. Speech­driven text retrieval: Using target IR
+collections for statistical language model adaptation
+in speech recognition. In Anni R. Coden, Eric W.
+Brown, and Savitha Srinivasan, editors, Information
+Retrieval Techniques for Speech Applications (LNCS
+2273), pages 94--104. Springer.
+John S. Garofolo, Ellen M. Voorhees, Vincent M. Stan­ford, 
+and Karen Sparck Jones. 1997. TREC­6 1997
+spoken document retrieval track overview and results.
+In Proceedings of the 6th Text REtrieval Conference,
+pages 83--91.
+K. Itou, M. Yamamoto, K. Takeda, T. Takezawa, T. Mat­suoka, 
+T. Kobayashi, K. Shikano, and S. Itahashi.
+1998. The design of the newspaper­based Japanese
+large vocabulary continuous speech recognition cor­pus. 
+In Proceedings of the 5th International Confer­ence on 
+Spoken Language Processing, pages 3261--
+3264.
+Katunobu Itou, Mikio Yamamoto, Kazuya Takeda,
+Toshiyuki Takezawa, Tatsuo Matsuoka, Tetsunori
+Kobayashi, and Kiyohiro Shikano. 1999. JNAS:
+Japanese speech corpus for large vocabulary contin­uous 
+speech recognition research. Journal of Acoustic
+Society of Japan, 20(3):199--206.
+Katunobu Itou, Atsushi Fujii, and Tetsuya Ishikawa.
+2001. Language modeling for multi­domain speech­
+driven text retrieval. In IEEE Automatic Speech
+Recognition and Understanding Workshop.
+Pierre Jourlin, Sue E. Johnson, Karen Sp˜ arck Jones, and
+Philip C. Woodland. 2000. Spoken document representations 
+for probabilistic retrieval. Speech Commu­nication, 32:21--36.
+T. Kawahara, A. Lee, T. Kobayashi, K. Takeda, N. Mine­matsu, 
+S. Sagayama, K. Itou, A. Ito, M. Yamamoto,
+A. Yamada, T. Utsuro, and K. Shikano. 2000. Free-software 
+toolkit for Japanese large vocabulary contin­uous 
+speech recognition. In Proceedings of the 6th In­ternational 
+Conference on Spoken Language Process­
+ing, pages 476--479.
+Julian Kupiec, Don Kimber, and Vijay Balasubrama­
+nian. 1994. Speech­based retrieval using semantic
+co­occurrence filtering. In Proceedings of the ARPA
+Human Language Technology Workshop, pages 373--
+377.
+K.L. Kwok and M. Chan. 1998. Improving two­stage ad­
+hoc retrieval for short queries. In Proceedings of the
+21st Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+pages 250--256.
+Douglas B. Paul and Janet M. Baker. 1992. The de­
+sign for the Wall Street Journal­based CSR corpus. In
+Proceedings of DARPA Speech & Natural Language
+Workshop, pages 357--362.
+S.E. Robertson and S. Walker. 1994. Some simple
+effective approximations to the 2­poisson model for
+probabilistic weighted retrieval. In Proceedings of the
+17th Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+pages 232--241.
+Herman J. M. Steeneken and David A. van Leeuwen.
+1995. Multi­lingual assessment of speaker in­
+dependent large vocabulary speech­recognition sys­tems: 
+The SQALE­project. In Proceedings of Eu­rospeech95, pages 1271--1274.
+Martin Wechsler, Eugen Munteanu, and Peter Sch˜ auble.
+1998. New techniques for open­vocabulary spoken
+document retrieval. In Proceedings of the 21st Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages 20--
+27.
+Steve Young. 1996. A review of large­vocabulary
+continuous­speech recognition. IEEE Signal Process­ing 
+Magazine, pages 45--57, September.

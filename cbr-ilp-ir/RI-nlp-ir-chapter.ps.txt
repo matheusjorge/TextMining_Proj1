@@ -1,0 +1,134 @@
+EXTRACTION­BASED TEXT CATEGORIZATION: GENERATING
+DOMAIN­SPECIFIC ROLE RELATIONSHIPS AUTOMATICALLY
+
+ELLEN RILOFF AND JEFFREY LORENZEN
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+friloff,jlorenzg@cs.utah.edu
+In Natural Language Information Retrieval, forthcoming from Kluwer Academic Publishers.
+
+Abstract. In previous work, we developed several algorithms that use in­formation 
+extraction techniques to achieve high­precision text categoriza­tion. 
+The relevancy signatures algorithm classifies texts using extraction
+patterns, and the augmented relevancy signatures algorithm classifies texts
+using extraction patterns and semantic features associated with role fillers
+(Riloff and Lehnert, 1994). These algorithms relied on hand­coded training
+data, including annotated texts and a semantic dictionary. In this chapter,
+we describe two advances that significantly improve the practicality of our
+approach. First, we explain how the extraction patterns can be generated
+automatically using only preclassified texts as input. Second, we present
+the word­augmented relevancy signatures algorithm that uses lexical items
+to represent domain­specific role relationships instead of semantic features.
+Using these techniques, we can automatically build text categorization sys­tems 
+that benefit from domain­specific natural language processing.
+Natural language processing and information retrieval evolved as sepa­rate 
+research areas. To a large extent, the difference between them revolves
+around the amount of knowledge that is used. Natural language processing
+(NLP) techniques rely on syntactic and semantic knowledge that is often
+manually encoded for a particular topic. Information retrieval (IR) techniques 
+typically use general methods for processing large volumes of text
+based on statistical word models. These two paradigms reflect a tug­of­war
+between the benefits of domain knowledge and the costs and constraints
+associated with it.
+Our goal has been to bridge this gap by developing methods to acquire
+domain knowledge for NLP automatically. Our work focuses on a natural
+language processing task called information extraction (IE), which aims
+to extract domain­specific information from text. Recent advances in this
+area have made it possible to build IE systems with minimal knowledge
+engineering. For the last few years, we have been using information ex­traction 
+techniques to build text categorization systems that benefit from
+natural language processing while requiring little or no manual knowledge
+engineering.
+In previous work, we demonstrated that information extraction tech­niques 
+could be used to achieve high­precision text categorization in some
+domains. We used relevancy signatures to classify texts on the basis of
+linguistically­motivated extraction patterns, and augmented relevancy sig­natures 
+to classify texts using extraction patterns and semantic features
+associated with role fillers (Riloff and Lehnert, 1994). Both of these al­gorithms 
+performed better than a comparable word­based algorithm in
+terrorism and joint venture domains (Riloff, 1994). Much of the domain
+knowledge needed for these algorithms could be acquired automatically,
+but there were still significant knowledge­engineering bottlenecks lurking
+underneath. A manually annotated training corpus was required to gener­ate 
+the extraction patterns, and a dictionary of words tagged with semantic
+features was needed for the augmented relevancy signatures.
+In this article, we describe two advances that significantly improve the
+practicality of our approach. First, we explain how the extraction patterns
+can be generated automatically using a system called AutoSlog­TS, without
+the need for an annotated training corpus. Second, we present a variation of
+the augmented relevancy signatures algorithm that does not rely on seman­tic 
+features. The new version uses only lexical items to represent role fillers,
+which are extracted automatically from the training corpus. Together with
+AutoSlog­TS, the word­augmented relevancy signatures represent domain­
+specific role relationships that are generated automatically without any
+manual knowledge engineering.
+In the first section, we describe the extraction patterns used by our
+natural language processing system and describe two previous text rep­resentations 
+based on these extraction patterns, relevancy signatures and
+augmented relevancy signatures. In the second section, we discuss our dic­tionary 
+construction system, AutoSlog­TS, that can generate extraction
+patterns automatically. The only input to the system is a set of ``preclassi­fied'' 
+texts associated with the domain. In the third section, we present the
+new word­augmented relevancy signatures representation and algorithm.
+Finally, we present experiments comparing the different text representa­tions 
+on four categorization tasks related to terrorism. In all cases, the
+signature representations performed better than individual words and the
+word­augmented signatures performed comparably to the augmented rele­vancy 
+signatures with semantic features.
+
+
+References
+Borko, H. and Bernick, M. 1963. Automatic Document Classification. J. ACM 10(2):151--
+162.
+Fuhr, N.; Hartmann, S.; Lustig, G.; Schwantner, M.; and Tzeras, Konstadinos 1991.
+AIR/X ­ A Rule­Based Multistage Indexing System for Large Subject Fields. In
+Proceedings of RIAO 91. 606--623.
+Goodman, M. 1991. Prism: A Case­Based Telex Classifier. In Proceedings of the Second
+Annual Conference on Innovative Applications of Artificial Intelligence. AAAI Press.
+25--37.
+Hayes, Philip J. and Weinstein, Steven P. 1991. Construe­TIS: A System for Content­
+Based Indexing of a Database of News Stories. In Proceedings of the Second Annual
+Conference on Innovative Applications of Artificial Intelligence. AAAI Press. 49--64.
+Hoyle, W. 1973. Automatic Indexing and Generation of Classification Systems by Algo­rithm. 
+Information Storage and Retrieval 9(4):233--242.
+Huffman, S. 1996. Learning information extraction patterns from examples. In Wermter,
+Stefan; Riloff, Ellen; and Scheler, Gabriele, editors 1996, Connectionist, Statistical,
+and Symbolic Approaches to Learning for Natural Language Processing. Springer­
+Verlag, Berlin. 246--260.
+Kim, J. and Moldovan, D. 1993. Acquisition of Semantic Patterns for Information Ex­traction 
+from Corpora. In Proceedings of the Ninth IEEE Conference on Artificial
+Intelligence for Applications, Los Alamitos, CA. IEEE Computer Society Press. 171--
+176.
+Lehnert, W. 1991. Symbolic/Subsymbolic Sentence Analysis: Exploiting the Best of Two
+Worlds. In Barnden, J. and Pollack, J., editors 1991, Advances in Connectionist and
+Neural Computation Theory, Vol. 1. Ablex Publishers, Norwood, NJ. 135--164.
+Maron, M. 1961. Automatic Indexing: An Experimental Inquiry. J. ACM 8:404--417.
+MUC­3 Proceedings, 1991. Proceedings of the Third Message Understanding Conference
+(MUC­3). Morgan Kaufmann, San Mateo, CA.
+MUC­4 Proceedings, 1992. Proceedings of the Fourth Message Understanding Conference
+(MUC­4). Morgan Kaufmann, San Mateo, CA.
+MUC­5 Proceedings, 1993. Proceedings of the Fifth Message Understanding Conference
+(MUC­5). Morgan Kaufmann, San Francisco, CA.
+Riloff, E. and Lehnert, W. 1994. Information Extraction as a Basis for High­Precision
+Text Classification. ACM Transactions on Information Systems 12(3):296--333.
+Riloff, E. 1994. Information Extraction as a Basis for Portable Text Classification Sys­tems. 
+Ph.D. Dissertation, CMPSCI Technical Report 95­04, Department of Computer
+Science, University of Massachusetts, Amherst, MA.
+Riloff, E. 1995. Little Words Can Make a Big Difference for Text Classification. In
+Proceedings of the 18th Annual International ACM SIGIR Conference on Research
+and Development in Information Retrieval. 130--136.
+Riloff, E. 1996a. An Empirical Study of Automated Dictionary Construction for Infor­mation 
+Extraction in Three Domains. Artificial Intelligence 85:101--134.
+Riloff, E. 1996b. Automatically Generating Extraction Patterns from Untagged Text.
+In Proceedings of the Thirteenth National Conference on Artificial Intelligence. The
+AAAI Press/MIT Press. 1044--1049.
+Salton, G., editor 1971. The SMART Retrieval System: Experiments in Automatic Doc­ument 
+Processing. Prentice Hall, Englewood Cliffs, NJ.
+Soderland, S.; Fisher, D.; Aseltine, J.; and Lehnert, W. 1995. CRYSTAL: Inducing a con­ceptual 
+dictionary. In Proceedings of the Fourteenth International Joint Conference
+on Artificial Intelligence. 1314--1319.
+Stanfill, C. and Waltz, D. 1986. Toward Memory­Based Reasoning. Communications of
+the ACM 29(12):1213--1228.
+Turtle, Howard and Croft, W. Bruce 1991. Efficient Probabilistic Inference for Text
+Retrieval. In Proceedings of RIAO 91. 644--661.

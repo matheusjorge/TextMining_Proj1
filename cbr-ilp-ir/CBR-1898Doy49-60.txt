@@ -1,0 +1,62 @@
+A Dynamic Approach to Reducing Dialog
+in On-Line Decision Guides
+
+Michelle Doyle and Pádraig Cunningham
+
+Department of Computer Science, Trinity College Dublin
+Dublin 2, Ireland.
+{Michelle.Doyle,Padraig.Cunningham}@cs.tcd.ie
+
+
+
+Abstract. Online decision guides typically ask too many questions of
+the user, as they make no attempt to focus the questions. We describe
+some approaches to minimising the questions asked of a user in an
+online query situation. Questions are asked in an order that reflects
+their ability to narrow down the set of cases. Thus time to reach an
+answer is decreased. This has the dual benefit of taking some of the
+monotony out of online queries, and also of decreasing the amount of
+network request-response cycles. Most importantly, question order is
+decided at run time, and therefore adapts to the user. This approach is in
+the spirit of lazy leaming with induction delayed to run-time, allowing
+adaptation to the emerging details of the situation. We evaluate a few
+different approaches to the question selection task, and compare the
+best approach (one based on ideas from retrieval in CBR) to a
+commercial online decision guide.
+References
+
+1.	Aha D., Bankert R. (1995) A Comparative Evaluation of Sequential Feature
+Selection Algorithms, in proceedings of Al & Statistics Workshop 1995.
+2.	Bishop C. M. (1995) Neural Networks for Pattern Recognition, Oxford
+University Press, Oxford, 1995.
+3.	Cunningham P., Smyth B. (1994) A Comparison of model-based and incremental
+case-based approaches to electronic fault diagnosis, in proceedings of the Case-
+Based Reasoning Workshop, AAAI-1994.
+4.	Cunningham P., Carney, J. (2000) Diversity versus Quality in Class fication
+Ensembles based on Feature Selection, to be presented at European Conference
+on Machine Learning, Barcelona Spain, June 2000.
+5.	Dash M., Liu H., Yao J. (1997) Dimensionality Reduction for Unsupervised Data,
+in proceedings of IEEE International Conference on Tools with AI (TAI-97), pp.
+532-539.
+6.	Dash M., Liu H. (1999) Handling Large Unsupervised Data via Dimensional ity
+Reduction, in proceedings of SIGMOD Data Mining and Knowledge Discovery
+Workshop, (DMDK), Philadelphia, USA, May 1999.
+7.	Devaney M., Ram, A. (1997) Efficient Feature Selection in Conceptual
+Clustering, in proceedings of the 14th International Conference on Machine
+Learning, Nashville, 1997.
+8.	Doyle M., Cunningham P. (2000) A Dynamic Approach to Reducing Dialog in
+On-Line Decision Guides, (extended version of this paper) Trinity College
+Dublin Computer Science Technical Report TCD-CS-2000-14,
+http://www.cs.tcd.ie/.
+9.	Everitt B.S. (1993) Cluster Analysis, 3rd Ed., Edward Arnold.
+10.	Fast J. D. (1970) Entropy: the significance of the concept of entropy and its
+applications in science and technology, chapter 2: The Statistical Significance of
+the Entropy Concept. Philips Technical Library, Eindhoven.
+11.	Fisher D. H. (1987) Knowledge Acquisition via incremental conceptual
+clustering, in Machine Learning, Vol. 2., pp.139-172.
+12.	Kaufman L., Rousseeuw P. (1990) Finding Groups in Data: An Introduction to
+Cluster Analysis, Wiley, New York.
+13.	Quinlan J. R. (1993) C4.5: Programs for Machine Learning, Morgan Kaufmann.
+14.	Smyth B., Cunningham P. (1994) A Comparison of Incremental Case-Based
+Reasoning and Inductive Learning, in proceedings of the 2nd European Workshop
+on Case-Based Reasoning, Chantilly, France, November 1994.

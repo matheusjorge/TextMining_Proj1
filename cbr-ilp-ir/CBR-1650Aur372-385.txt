@@ -1,0 +1,50 @@
+Integrating Case-Based Reasoning and Hypermedia
+Documentation: An Application for the Diagnosis of a
+Welding Robot at Odense Steel Shipyard
+
+Eric Auriol1, Richard M. Crowder2, Rob MacKendrick3, Roger Rowe4 and Thomas
+Knudsen5
+
+1 AcknoSoft, 15 rue Soufflot, 75 005 Paris, France, auriol@ibpc.fr
+2 Department of Electrical Engineering, University of Southampton, Southampton, UK,
+SO17 1BJ, rmc1@soton.ac.uk
+2 Parallel Applications	Centre, Chilworth, Southampton, SO167NS, UK,
+rmk@pac.soton.ac.uk
+4 MultiCosm Ltd, Chilworth, Southampton, SO167NS, UK, R.Rowe@multicosm.com
+5 Odense Steel Shipyard Ltd, P0 Box 176, DK 5100 Odense C, Denmark, tdk@oss.dk
+
+
+
+Abstract. Reliable and effective maintenance support is a vital consideration
+for the management within today’s manufacturing environment. This paper discusses 
+the development a maintenance system for the world largest robot
+welding facility. The developed system combines a case-based reasoning approach 
+for diagnosis with context information, as electronic on-line manuals,
+linked using open hypermedia technology. The work discussed in this paper
+delivers not only a maintenance system for the robot stations under consideration, 
+but also a design framework for developing maintenance systems for other
+similar applications.
+9 References
+
+1.	Aamodt A. & Plaza B., "Case-based reasoning: Foundational issues, methodological variations, 
+and system approaches”. AI Communications 7, Vol. 1, 1994.
+2.	Quinlan J. R., “Learning Efficient Classification Procedures and their Application to Chess
+End Games”, in Machine Learning 1: an Artificial Intelligence Approach, Michalski R.S.,
+Carbonell J.G. & Mitchell T.M. (eds.), Morgan Kaufmann, Redwood City CA, 1983.
+3.	Manago M. & Auriol E., “Application of Inductive Learning and Case-Based Reasoning for
+Troubleshooting Industrial Machines”, in Machine Learning and Data Mining — Methods
+and Applications, Michalski R.S., Bratko, I. & Kubat, M. (eds.), John Wiley & Sons, 1998.
+4.	Lenz M., Auriol B. & Manago M., “Diagnosis and Decision Support”, in Case-Based Reasoning 
+Technology — From Foundations to Applications, Lenz M., Bartsch-Spörl B., Burk-
+hard H.-D. & Wess S. (eds.), Springer, 1998.
+5.	Bergmann R., Breen S., Göker M., Manago M. & Wess S. (eds.), “Developing Industrial
+Case Based Reasoning Applications - The INRECA Methodology”, Springer, 1999 (to appear).
+6.	Malcolm K, Poltrock S. & Schuler D., “Industrial Strength Hypermedia: Requirements for a
+Large Engineering Enterprise”. Proceedings of Hypertext’91, December 1991.
+7.	Crowder R. M., Hall W., Heath I., Bernard R. & Gaskall D., “A Hypermedia Maintenance
+Information System”. IEE Computing and Control Engineering Journal, 7(3), 1996, 109-
+13.
+8.	Greenough R. & Fakun D., “An innovative information system to support team based
+maintenance”. 3rd International Conference: Managing Innovative Manufacturing, Nottingham UK, July 1998.
+9.	Further information on MicroCosm can be found at http://www.multicosm.com/
+l0. Further information on Kate can be found at http://www.acknosoft.com/

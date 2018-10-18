@@ -1,0 +1,65 @@
+Selecting and Comparing Multiple Cases to Maximise
+Result Quality after Adaptation in Case-Based Adaptive
+Scheduling
+
+Steve Scott, Hugh Osborne, and Ron Simpson
+
+School of Computing and Mathematics, University of Huddersfield
+Queensgate, Huddersfield, HDI 3DH, UK,
+{s.scott,h.r.osborne.r.s.simpson}@hud.ac.uk
+
+
+
+Abstract. Recent Case-Based Reasoning research has begun to refocus
+attention on the problem of automatic adaptation of the retrieved case to
+give a fuller solution to the new problem. Such work has highlighted
+problems with the usefulness of similarity assessment of cases where
+adaptation is involved. As a response to this, methods of case selection
+are evolving that take adaptation into account. This current work looks
+more closely at the relationship between selection and adaptation. It
+considers experimental evidence considering adaptation of multiple
+cases for one problem. It argues that selection of the best case after
+adaptation will often make more efficient use of case knowledge than
+any attempt to pre-select a single case for adaptation.
+References
+
+1.	Bergmann, R., Wilke, W., “Towards a New Formal Model of Transformational Adaptation
+in Case-Based Reasoning”, in Proceedings of ECAI98, Prade (Ed.) Wiley & Sons, 1998
+2.	Bergmann, R., Stahl, A., “Similarity Measures for Object Oriented Case Representations”
+in Advances in Case-Based Reasoning, Proceedings of the third European Workshop on
+Case-Based Reasoning, Lecture Notes in Artificial Intelligence, Springer Verlag 1996
+3.	Cunningham, P., Smyth, B., “On the use of CBR in Optimisation Problems such as the
+TSP”, in Case-Based Reasoning Research and Development, Veloso, Aamodt (eds.),
+Lecture Notes in Artificial Intelligence, Springer Verlag 1995
+4.	Hanney, K., Keane, M. T., “Ease it by Learning from Cases”, in Case-Based Reasoning
+Research and Development, Lecture Notes in Artificial Intelligence, Springer Verlag 1997
+5.	Janetko, D., Wess, S., Melis, E., “Goal Driven Similarity Assessment”, Technical Report
+SR-92-05, Universität des Saarlandes, Saarbrücken, Germany, 1992
+6.	Kontkanen, P., Myllymäki, P., Silander, T., Tirri, H., “On Bayesian Case Matching”, in
+Advances in Case-Based Reasoning, Smyth & Cunningham (eds.), Lecture Notes in
+Artificial Intelligence, Springer Verlag 1998
+7.	Osborne, H. R., Bridge, D., “Similarity Metrics: A Formal Unification of Cardinal and
+Non-Cardinal Similarity Measures”, in Case-Based Reasoning Research and
+Development, Lecture Notes in Artificial Intelligence, Springer Verlag 1997
+8.	Richter, M. M., “Classification and Learning of similarity Measures” in Proceedings der
+Jahrestangung der Gesellschaft fur Klassifikation, Opiz, Lausen Klar (ed.) Studies in
+Classification, Data Analysis and Knowledge Organisation, Springer Verlag, 1992
+9.	Smyth, B., Keane, M. T., “Adaptation Guided Retrieval: questioning the similarity
+assumption in reasoning”, in Artificial Intelligence, Volume 102, pp 249-293, 1998
+10.	Scott, S. “Separating Constraint Dimensions in a Scheduling Problem to Reduce Search
+Space”, In Proceedings of ECAI98, Prade (Ed.) Wiley & Sons, 1998
+11.	Scott, S., Simpson, R. M. “Case-Bases Incorporating Scheduling Constraint Dimensions:
+Experiences in Nurse Rostering”, In Advances in Case-Based Reasoning, Smyth &
+Cunningham (eds.), Lecture Notes in Artificial Intelligence, Springer Verlag 1998
+12.	Scott, S., Osborne, H., Simpson, R., “Assessing Case Value in Case-Based Reasoning with
+Adaptation”, In Proceedings of the World Multiconference on Systems, Cybernetics and
+Informatics, IIS, 1999
+13.	Scott, S., Osborne, H., Simpson, R., “The Case Selection Problem in Case-Based
+Reasoning - Making the best use of Case Knowledge for Adaptive Scheduling”, under
+consideration.
+14.	Sushil, J. L., Li, G., “Augmenting Genetic Algorithms with Memory to Solve Travelling
+Salesman Problems”, Proceedings of the Joint Conference on Information Sciences, Duke
+University, 1997
+15.	Watson, I., “Applying Case-Based Reasoning”, Morgan Kaufmann, 1997
+16.	Dietterich, T. G., “Machine Learning: Four Current Directions” in AI Magazine. 18 (4),
+97-136,	1997

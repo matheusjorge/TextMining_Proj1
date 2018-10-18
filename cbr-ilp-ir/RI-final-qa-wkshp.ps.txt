@@ -1,0 +1,72 @@
+Looking Under the Hood: Tools for Diagnosing Your Question
+Answering Engine 1
+
+Eric Breck + , Marc Light + , Gideon S. Mann # , Ellen Riloff # ,
+Brianne Brown # , Pranav Anand # , Mats Rooth # , Michael Thelen #
++ The MITRE Corporation, 202 Burlington Rd.,Bedford, MA 01730, {ebreck,light}@mitre.org
+# Department of Computer Science, Johns Hopkins University, Baltimore, MD 21218, gsm@cs.jhu.edu
+# School of Computing, University of Utah, Salt Lake City, UT 84112, {riloff,thelenm}@cs.utah.edu
+# Bryn Mawr College, Bryn Mawr, PA 19010, bbrown@brynmawr.edu
+# Department of Mathematics, Harvard University, Cambridge, MA 02138, anand@fas.harvard.edu
+# Department of Linguistics, Cornell University, Ithaca, NY 14853, mr249@cornell.edu
+
+Abstract
+In this paper we analyze two question
+answering tasks : the TREC­8 ques­tion answering 
+task and a set of reading
+comprehension exams. First, we show
+that Q/A systems perform better when
+there are multiple answer opportunities
+per question. Next, we analyze com­mon 
+approaches to two subproblems:
+term overlap for answer sentence iden­tification, 
+and answer typing for short
+answer extraction. We present general
+tools for analyzing the strengths and
+limitations of techniques for these sub­-problems. 
+Our results quantify the limi­tations 
+of both term overlap and answer
+typing to distinguish between compet­ing answer candidates.
+
+
+References
+E.J. Breck, J.D. Burger, L. Ferro, L. Hirschman, D. House,
+M. Light, and I. Mani. 2000. How to Evaluate your
+Question Answering System Every Day and Still Get
+Real Work Done. In Proceedings of the Second Con­ference 
+on Language Resources and Evaluation (LREC­
+2000).
+E. Charniak, Y. Altun, R. de Salvo Braz, B. Garrett, M. Kos­
+mala, T. Moscovich, L. Pang, C. Pyo, Y. Sun, W. Wy,
+Z. Yang, S. Zeller, and L. Zorn. 2000. Reading Compre­hension 
+Programs in a Statistical­Language­Processing
+Class. In ANLP/NAACL Workshop on Reading Com­prehension 
+Tests as Evaluation for Computer­Based Lan­guage Understanding Systems.
+L. Hirschman, M. Light, E. Breck, and J. Burger. 1999.
+Deep Read: A Reading Comprehension System. In Pro­ceedings 
+of the 37th Annual Meeting of the Association
+for Computational Linguistics.
+H.T. Ng, L.H. Teo, and J.L.P. Kwan. 2000. A Machine
+Learning Approach to Answering Questions for Reading
+Comprehension Tests. In Proceedings of EMNLP/VLC­
+2000 at ACL­2000.
+E. Riloff and M. Thelen. 2000. A Rule­based Question
+Answering System for Reading Comprehension Tests.
+In ANLP/NAACL Workshop on Reading Comprehension
+Tests as Evaluation for Computer­Based Language Un­derstanding 
+Systems.
+TREC­8 Proceedings. 1999. Proceedings of the Eighth
+Text Retrieval Conference (TREC8). National Institute of
+Standards and Technology, Special Publication 500­246,
+Gaithersburg, MD.
+TREC­9 Proceedings. 2000. Proceedings of the Ninth Text
+Retrieval Conference (forthcoming). National Institute
+of Standards and Technology, Special Publication 500­
+XXX, Gaithersburg, MD.
+W. Wang, Auer J., R. Parasuraman, I. Zubarev, D. Brandy­
+berry, and M.P. Harper. 2000. A Question Answering
+System Developed as a Project in a Natural Language
+Processing Course. In ANLP/NAACLWorkshop on Read­
+ing Comprehension Tests as Evaluation for Computer­
+Based Language Understanding Systems.
+

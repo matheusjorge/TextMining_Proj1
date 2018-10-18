@@ -1,0 +1,90 @@
+Inducing Information Extraction Systems for New Languages
+via Cross­Language Projection
+
+Ellen Riloff
+School of Computing
+University of Utah
+Salt Lake City, UT 84112
+riloff@cs.utah.edu
+Charles Schafer and David Yarowsky
+Department of Computer Science
+Johns Hopkins University
+Baltimore, MD 21218
+{cschafer,yarowsky}@cs.jhu.edu
+
+Abstract
+Information extraction (IE) systems are costly to
+build because they require development texts, pars­ing 
+tools, and specialized dictionaries for each ap­plication 
+domain and each natural language that
+needs to be processed. We present a novel
+method for rapidly creating IE systems for new lan­guages
+ by exploiting existing IE systems via cross­
+language projection. Given an IE system for a
+source language (e.g., English), we can transfer its
+annotations to corresponding texts in a target lan­guage 
+(e.g., French) and learn information extrac­
+tion rules for the new language automatically. In
+this paper, we explore several ways of realizing both
+the transfer and learning processes using off­-the-shelf 
+machine translation systems, induced word
+alignment, attribute projection, and transformation­
+based learning. We present a variety of experiments
+that show how an English IE system for a plane
+crash domain can be leveraged to automatically cre­ate 
+ French IE system for the same domain.
+
+
+
+References
+J. Atserias, S. Climent, X. Farreres, G. Rigau and H. Rodriguez.
+1997. Combining multiple methods for the automatic con­struction 
+of multilingual WordNets. In Proceedings of the
+International Conference on Recent Advances in Natural
+Language Processing.
+E. Brill. 1995. Transformation­based error­driven learning and
+natural language processing: A case study in part of speech
+tagging. Computational Linguistics, 21(4):543--565.
+M. E. Califf. 1998. Relational learning techniques for natural
+language information extraction. Ph.D. thesis, Tech. Rept.
+AI98­276, Artificial Intelligence Laboratory, The University
+of Texas at Austin.
+S. Cucerzan and D. Yarowsky. 2000. Language independent
+minimally supervised induction of lexical probabilities. In
+Proceedings of ACL­2000, pages 270­277.
+D. Freitag. 1998. Toward general­purpose learning for in­
+formation extraction. In Proceedings of COLING­ACL'98,
+pages 404­408.
+J. Kim and D. Moldovan. 1993. Acquisition of semantic pat­terns 
+for information extraction from corpora. In Proceed­ings 
+of the Ninth IEEE Conference on Artificial Intelligence
+for Applications, pages 171--176.
+G. Ngai and R. Florian. 2001. Transformation­based learning
+in the fast lane. In Proceedings of NAACL, pages 40­47.
+F. J. Och and H. Ney. 2000. Improved statistical alignment
+models. In Proceedings of the 38th Annual Meeting of the
+Association for Computational Linguistics, pages 440--447.
+E. Riloff. 1993. Automatically Constructing a dictionary for
+information extraction tasks. In Proceedings of the Eleventh
+National Conference on Artificial Intelligence, pages 811--
+816.
+E. Riloff. 1996b. Automatically generating extraction patterns
+from untagged text. In Proceedings of the Thirteenth Na­tional 
+Conference on Artificial Intelligence, pages 1044--
+1049. AAAI Press/MIT Press.
+E. Riloff and R. Jones. 1999. Learning dictionaries for infor­mation 
+extraction by multi­level bootstrapping. In Proceed­ings 
+of the Sixteenth National Conference on Artificial Intel­ligence, 
+pages 474--479.
+S. Soderland, D. Fisher, J. Aseltine, and W. Lehnert. 1995.
+CRYSTAL: Inducing a conceptual dictionary. In Proceed­ings 
+of the Fourteenth International Joint Conference on Ar­tificial 
+Intelligence, pages 1314--1319.
+R. Yangarber, R. Grishman, P. Tapanainen, and S. Huttunen.
+2000. Automatic acquisiton of domain knowledge for infor­mation 
+extraction. In Proceedings of COLING­2000, pages
+940­946.
+Yarowsky, D., G. Ngai and R. Wicentowski. 2001. Inducing
+multilingual text analysis tools via robust projection across
+aligned corpora. In Proceedings of HLT­01, pages 161--168.
+

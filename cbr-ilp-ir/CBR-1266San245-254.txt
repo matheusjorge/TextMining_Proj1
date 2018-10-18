@@ -1,0 +1,88 @@
+The Case for Graph-Structured Representations*
+
+Kathryn E. Sanders1 and Brian P. Kettler2 and James A. Hendler3
+
+1 Computing and Information Services, Brown University, Providence, RI 02912,
+Kathryn_Sanders@brown.edu
+2 ISX Corporation, 2000 N. 15th St., Suite 1000, Arlington, VA 22201,
+bkettler@isx.com
+3 Dept. of Computer Science, University of Maryland, College Park, MD 20742,
+hendler@cs.umd.edu
+
+
+Abstract. Case-based reasoning involves reasoning from cases: specific
+pieces of experience, the reasoner’s or another’s, that can be used to
+solve problems. We use the term “graph-structured” for representations
+that (1) are capable of expressing the relations between any two objects
+in a case, (2) allow the set of relations used to vary from case to case
+and (3) allow the set of possible relations to be expanded as necessary
+to describe new cases. Such representations can be implemented as, for
+example, semantic networks or lists of concrete propositions in some
+logic.
+We believe that graph-structured representations offer significant advantages, 
+and thus we are investigating ways to implement such representations 
+efficiently. We make a “case-based argument” using examples from
+two systems, CHIRON and CAPER, to show how a graph-structured representation 
+supports two different kinds of case-based planning in two
+different domains. We discuss the costs associated with graph-structured
+representations and describe an approach to reducing those costs, implemented
+in CAPER.
+References
+
+1.	R. Alterman. Adaptive planning. Cognitive Science, 12:393—421, 1988.
+2.	W. A. Andersen, J. A. Hendler, M. P. Evett, and B. P. Kettler. Massively parallel
+matching of knowledge structures. In H. Kitano and J. Hendler, editors, Massively
+Parallel Artificial Intelligence, pages 52—73. AAAI Press/The MIT Press, Menlo
+Park, California, 1994.
+3.	K. D. Ashley. Modelling legal argument: reasoning with cases and hypotheticals.
+Technical Report 88-01, University of Massachusetts, Amherst, Department of
+Computer and Information Science, 1988. (PhD Thesis).
+4.	K. D. Ashley. Modelling legal argument: reasoning with cases and hypotheticals.
+MIT Press, 1991.
+5.	N. J. Belkin and W. B. Croft. Retrieval techniques. Annual Review of Information
+Science and Technology, 22:109—145, 1987.
+6.	L. K. Branting. Integrating rules and precedents for classification and explanation:
+automating legal analysis. Technical Report AI90-146, Artificial Intelligence Laboratory, 
+Department of Computer Sciences, University of Texas at Austin, 1990.
+(PhD Thesis).
+7.	B. Cuthill and R. McCartney. Issue spotting in legal cases. In Proceedings of the
+Fourth International Conference on Artificial Intelligence and Law, Amsterdam
+pages 245—253, 1993.
+8.	E. Domeshek. What Abby cares about. In Proceedings of the Workshop on Case-Based 
+Reasoning, pages 13—24, 1991.
+9.	M. P. Evett, J. A. Hendler, and L. Spector. Parallel knowledge representation on
+the Connection Machine. Journal of Parallel and Distributed Computing, 22:168—184, 1994.
+10.	B. Falkenhainer, K. D. Forbus, and D. Gentner. The structure-mapping engine:
+Algorithm and examples. Artificial Intelligence, 41:1—63, 1990.
+11.	M. R. Garey and D. S. Johnson. Computers and intractability. W. H. Freeman
+and Company, New York, 1979.
+12.	K. J. Hammond. Case-based planning: A framework for planning from experience.
+Cognitive Science, 14:384—443, 1990.
+13.	K. J. Holyoak and P. R. Thagard. Analogical mapping by constraint satisfaction.
+Cognitive Science, pages 295—355, 1989.
+14.	S. Kambhampati and J. A. Hendler. A validation-structure-based theory of plan
+modification and reuse. Artificial Intelligence, 55:193—258, 1992.
+15.	B. P. Kettler. Case-based Planning with a High Performance Parallel Memory.
+Doctoral dissertation, University of Maryland at College Park, Dept. of Computer
+Science, November 1995. Technical Report CS-TR-3561.
+16.	B. P. Kettler, J. A. Hendler, W. A. Andersen, and M. P. Evett. Massively parallel
+support for case-based planning. IEEE Expert, pages 8—14, Feb. 1994.
+17.	J. L. Kolodner. Case-Based Reasoning. Morgan Kaufmann Publishers, San Mateo,
+California, 1993.
+18.	J. L. Kolodner and R. Thau. Design and implementation of a case memory. Technical 
+Report RL88-1, Thinking Machines Corporation, Cambridge, Mass., Aug.
+1988.
+19.	R. McCartney. Episodic cases and real-time performance in a case-based planning
+system. Expert Systems with Applications, 6:9—22, 1993.
+20.	R. McCartney and K. E. Sanders. The case for cases: a call for purity in case-based
+reasoning. In Proceedings of the AAAI Symposium on Case-based Reasoning, pages
+12—16,	1990.
+21.	N. J. Nilsson. Principles of Artificial Intelligence. Morgan Kaufman, San Mateo,
+California, 1980.
+22.	K. E. Sanders. Chiron: planning in an open-textured domain. Technical Report
+94-38,	Computer Science Department, Brown University, 1994. (PhD Thesis).
+23.	K. Stoffel, M. G. Taylor, and J. A. Hendler. Efficient management for very large
+ontologies. In Pifteenth National Conference on Artificial Intelligence (AAAI 97),
+page (submitted), 1997.
+24.	P. R. Thagard, K. J. Holyoak, C. Nelson, and D. Gochfeld. Analog retrieval by
+constraint satisfaction. Artificial Intelligence, 46:259—310, 1990.

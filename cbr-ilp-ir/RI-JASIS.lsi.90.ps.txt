@@ -1,0 +1,106 @@
+Indexing by Latent Semantic Analysis
+
+Scott Deerwester
+Graduate Library School
+University of Chicago
+Chicago, IL 60637
+Susan T. Dumais
+George W. Furnas
+Thomas K. Landauer
+Bell Communications Research
+435 South St.
+Morristown, NJ 07960
+Richard Harshman
+University of Western Ontario
+London, Ontario Canada
+
+ABSTRACT
+A new method for automatic indexing and retrieval is described. The approach is to take
+advantage of implicit higher­order structure in the association of terms with documents ("semantic
+structure") in order to improve the detection of relevant documents on the basis of terms found in
+queries. The particular technique used is singular­value decomposition, in which a large term by
+document matrix is decomposed into a set of ca 100 orthogonal factors from which the original
+matrix can be approximated by linear combination. Documents are represented by ca 100 item
+vectors of factor weights. Queries are represented as pseudo­document vectors formed from
+weighted combinations of terms, and documents with supra­threshold cosine values are returned.
+Initial tests find this completely automatic method for retrieval to be promising.
+
+REFERENCES
+1. Furnas, G.W., Landauer, T.K., Gomez, L.M., and Dumais, S.T. Statistical semantics:
+Analysis of the potential performance of key­word information systems. Bell System
+Technical Journal, 1983, 62(6), 1753­1806.
+2. Tarr, D. and Borko, H. Factors influencing inter­indexer consistency. In Proceedings of the
+ASIS 37th Annual Meeting, Vol. 11, 1974, 50­55.
+3. Fidel, R. Individual variability in online searching behavior. In C.A. Parkhurst (Ed.).
+ASIS'85: Proceedings of the ASIS 48th Annual Meeting, Vol. 22, October 20­24, 1985, 69­
+72.
+4. Liley, O. Evaluation of the subject catalog. American Documentation, 1954, 5(2), 41­60.
+5. Bates, M.J. Subject access in online catalogs: A design model. JASIS, 1986, 37 (6), 357­376.
+6. Sparck Jones, K. A statistical interpretation of term specificity and its applications in
+retrieval. Journal of Documentation, 1972, 28(1), 11­21.
+7. Gomez, L. M. and Lochbaum, C. C. People can retrieve more objects with enriched key­
+word vocabularies. But is there a human performance cost? In Proceedings of Interact 84,
+London, England, September 1984.
+8. Furnas, G.W. Experience with an adaptive indexing scheme. In Human Factors in
+Computer Systems, CHI'85 Proceedings. San Francisco, Ca., April 15­18, 1985.
+9. van Rijsbergen, C.J. A theoretical basis for the use of co­occurrence data in information
+retrieval. Journal of Documentation, 1977, 33(2), 106­119.
+10. Carroll, J.D. and Arabie, P. Multidimensional scaling. In M.R. Rosenzweig and L.W. Porter
+(Eds.). Annual Review of Psychology, 1980, 31, 607­649.
+11. Sparck Jones, K. Automatic Keyword Classification for Information Retrieval, Buttersworth,
+London, 1971.
+12. Salton, G. Automatic Information Organization and Retrieval. McGraw Hill, 1968.
+13. Jardin, N. and van Rijsbergen, C.J. The use of hierarchic clustering in information retrieval.
+Information Storage and Retrieval, 1971, 7, 217­240.
+14. Baker, F.B. Information retrieval based on latent class analysis. Journal of the ACM, 1962,
+9, 512­521.
+15. Atherton, P. and Borko, H. A test of factor­analytically derived automated classification
+methods. AIP rept AIP­DRP 65­1, Jan. 1965.
+16. Borko, H and Bernick, M.D. Automatic document classification. Journal of the ACM, April
+1963, 10(3), 151­162.
+17. Ossorio, P.G. Classification space: A multivariate procedure for automatic document
+indexing and retrieval. Multivariate Behavioral Research, October 1966, 479­524.
+18. Salton, G. and McGill, M.J. Introduction to Modern Information Retrieval. McGraw­Hill,
+1983.
+19. Voorhees, E. The cluster hypothesis revisited. SIGIR, 1985, 188­196.
+20. Koll, M. An approach to concept­based information retrieval. ACM SIGIR Forum, XIII32­
+50, 1979.
+21. Raghavan, V. and Wong, S. A critical analysis of vector space model for information
+retrieval. JASIS, 1986, 37(5), 279­288.
+22. Coombs, C.H. A Theory of Data. New York: Wiley, 1964.
+23. Heiser, W.J. Unfolding Analysis of Proximity Data. Leiden, The Netherlands: Reprodienst
+Psychologie RUL, 1981.
+24. Desarbo, W.S., and Carroll, J.D. Three­way metric unfolding via alternating weighted least
+squares. Psychometrika, 1985, 50(3), 275­300.
+25. Harshman, R.A. Foundations of the PARAFAC procedure: Models and conditions for an
+"explanatory" multi­modal factor analysis. UCLA Work Papers Phonetics, 1970, 16, 86pp.
+26. Harshman, R.A. and Lundy, M.E. The PARAFAC model for three­way factor analysis and
+multi­dimensional scaling. In H.G. Law, C.W. Snyder, Jr., J.A. Hattie, and R.P. McDonald
+(Eds.). Research Methods for Multimode Data Analysis, Praeger, 1984a.
+27. Carroll, J.D. and Chang, J.J. Analysis of individual differences in multidimensional scaling
+via an N­way generalization of "Eckart­Young" decomposition. Psychometrika, 1970, 35,
+283­319.
+28. Kruskal, J.B. Factor analysis and principal components: Bilinear methods. In H. Kruskal and
+J.M. Tanur (Eds.). International Encyclopedia of Statistics, New York: Free Press, 1978.
+29. Furnas, G.W. Objects and their features: The metric representation of two­class data. Ph.D.
+Dissertation. Stanford University, 1980.
+30. Forsythe, G.E., Malcolm, M.A., and Moler, C.B. Computer Methods for Mathematical
+Computations (Chapter 9: Least squares and the singular value decomposition). Englewood
+Cliffs, NJ: Prentice Hall, 1977.
+31. Harshman, R.A. and Lundy, M.E. Data preprocessing and the extended PARAFAC model.
+In H.G. Law, C.W. Snyder, Jr., J.A. Hattie, and R.P. McDonald (Eds.). Research Methods for
+Multimode Data Analysis, Praeger, 1984b.
+32. Jones, W.P. and Furnas, G.W. Pictures of relevance. JASIS, 1987, 38(6), 420­442.
+33. Golub, G.H., Luk, F.T., and Overton, M.L. A block Lanczos method for computing the
+singular values and corresponding singular vectors of a matrix. ACM Transactions on
+Mathematical Software, 1981, 7(2), 149­169.
+34. Cullum, J., Willoughby, R.A., and Lake, M. A Lanczos algorithm for computing singular
+values and vectors of large matrices. SIAM J. Sci. Stat. Comput., 1983, 4(2), 197­215.
+35. Lesk, M.E. and Salton, G. Relevance assessments and retrieval system evaluation.
+Information Storage and Retrieval, 1969, 4(4), 343­359.
+36. Amsler, R. Machine­readable dictionaries. In Annual Review of Information Science and
+Technology (ARIST), Vol. 19, 1984, 161­209.
+37. Choueka, Y. and Lusignan, S. Disambiguation by short contexts. Computers and the
+Humanities, 1985, 19, 147­157.
+38. Lesk, M.E. How to tell a pine cone from an ice cream cone. In Proceedings of ACM
+SIGDOC Conference, Toronto, Ont., June, 1986.

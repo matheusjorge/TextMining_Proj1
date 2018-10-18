@@ -1,0 +1,359 @@
+SCAN YOUR LIFE:
+Integrating OCR into your Personal Haystack!
+
+Adam Holt
+Electrical Engineering and Computer Science
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+Abstract
+I built a self-serve OCR station where anybody can scan in documents at high-speed
+{ a public yet private ATM that accepts document deposits of a wider assortment
+than just checks. Depending on whether you scan a business card, an article or your
+entireling cabinet, CPU-intensive recognition continues after you leave the station,
+and you are emailed options for secure web pickup. Users of MIT's Haystack personal
+repositories can even do \1-click" merging of oine literary artifacts into their online
+lives.
+The paperless pipe dream may never happen, but cheap digital optics and a mundane 
+40-year old technology (OCR) are converging to change the game. The mindless
+convenience of my $6000 kiosk suggests OCR will become a regulated munition* in
+the coming intellectual property and privacy wars. As OCR proliferates into cheap
+PDA's, neither publisher nor individual may ever again rely on humanity's oldest
+form of copy protection: paper.
+
+
+
+Bibliography
+[1] Newsgroups useful for comparison shopping and debugging:
+comp.periphs.scanners, alt.comp.periphs.scanner, comp.ai.doc-analysis.ocr
+and comp.text.pdf.
+[2] Acrobat Capture API Reference. WWW documentation. 
+(only the 2.0 API is available as of this writing)
+http://partners.adobe.com/asn/developer/technotes.html.
+[3] Adobe Capture Mailing List and Archives. WWW resource. (popular and priceless) 
+http://www.pdfzone.org/cgi-bin/wilma.cgi/capture.
+[4] An As-Yet-Unnamed OCR Project. (open source OCR project that has officially
+'fallen into a coma') http://starship.python.net/crew/amk/ocr/.
+[5] CD Dimensions Inc. (excellent high-end Scanner Comparison Table)
+http://www.cddimensions.com/document scanner/.
+[6] ContentGuard: the catalyst for the revolution in eContent. (Microsoft / Xerox
+content-lock spino
+) http://www.contentguard.com.
+[7] Create Adobe PDF Online. (rst three conversions are free)
+http://createpdf.adobe.com.
+[8] demOCRacy Accounts Policy. http://demOCRacy.lcs.mit.edu/policy.html.
+[9] demOCRacy's Manual. http://demOCRacy.lcs.mit.edu/manual.
+[10] Designing Better Systems Based on Business, Policy and Social Goals. (MIT
+class) http://ecitizen.mit.edu/seminar1.htm and http://ecitizen.mit.edu/ecap.
+[11] Fujitsu 3093DG Scanner Manuals. (Included with scanner purchase. Ourselves,
+we keep them right next to our scanner).
+[12] Fujitsu Scanners: Workgroup, Departmental and Production.
+http://www.fcpa.com/product/scn/scn cat.html.
+[13] GetRight. (Windows downloading tool) http://www.getright.com.
+[14] HP CapShare - handheld electronic copier for portable computing. (A promising
+infocapture appliance) http://www.capshare.hp.com.
+[15] HP Digital Sender. (SMTP/email-based Workgroup Scanner)
+http://www.digitalsender.hp.com.
+[16] InstallShield. (Windows packaging and downloading tool)
+http://www.installshield.com.
+[17] Integrating Paper into Lotus notes Applications Using WebArchive and the HP
+9100C Digital Sender. WWW publication. (Visions of a Paperless Office, p2),
+http://www.pandi.hp.com/pandi/pdf/digitalsender intpaper.pdf.
+[18] LASON: The Information Management Company. (International professional
+scanning service, whose liaison Peter Berry at the Needham, Massachusetts
+branch was very helpful) http://www.lason.com.
+[19] MIT Theses Online. (WWW publications which use PDF) http://thesis.mit.edu
+(joined the Networked Digital Library of Theses and Dissertations in March
+2000, http://www.theses.org).
+[20] National Federation of the Blind: (Ray) Kurzweil Honored. WWW publication. 
+(Kurzweil's Reading Machine was called the most signicant advance since
+Braille in the 19th century) http://www.nfb.org/bm000311.htm.
+[21] PDF Accessibility Information and Resources. WWW publication. (Adobe an-
+nounced its intentions to make PDF more accessible to the disabled on April
+18, 2000) http://access.adobe.com/information.html.
+[22] PDFzone.com: The online authority for Acrobat, PDF and Document
+Management Professionals. WWW resource. (Excellent PDF Resources)
+http://www.pdfzone.com.
+[23] Perceptics' License Plate Reader. Product description.
+http://www.perceptics.com/lpr/lpr.htm.
+[24] Pixid.com's Whiteboard Photo Software. WWW publication. 
+(take notes with your digital camera, reviewed at)
+http://www.dcresource.com/specials/WhiteBoardPhoto/.
+[25] Planet PDF. WWW resource. (Up-to-date PDF News)
+http://www.planetpdf.com.
+[26] RPM. WWW documentation. (Linux packaging and downloading tool)
+http://www.rpm.org.
+[27] Samba. (Windows-Unix disk-sharing utility) http://www.samba.org.
+[28] Scansoft Inc. (The king of consumer OCR, a Xerox a∆liate, has now acquired
+its onetime chief competitor Caere) http://www.scansoft.com.
+[29] ScanSoft SDK version 5.0. WWW documentation.
+http://www.scansoft.com/products/sssdk/.
+[30] The MIT Sailing Homepage. (their sailing manual, OCR'd using demOCRacy,
+should be posted soon at) http://www.mit.edu/~mit-sailing.
+[31] U.S. Constitution, Article I, 1787. (limits duration of copyrights and patents)
+http://www.law.cornell.edu/constitution/constitution.articlei.html.
+[32] Copyright Act of 1976 [ Title 17, United States Code ], 1976.
+http://www.twsu.edu/library/specialcollections/c1.html.
+[33] Public Domain OCR Resources, 1999. http://documents.cfar.umd.edu/ocr/.
+[34] Adobe Acrobat Capture 3.0 Documentation, 2000. (introductory guide and
+manual available in PDF form on the software package's CD, available from)
+http://www.adobe.com/products/acrcapture/main.html.
+[35] haystacker, 2000. (demOCRacy's auto-downloader)
+http://demOCRacy.lcs.mit.edu/haystacker.html.
+[36] Martin Garbus interview, 2000. WWW publication. (argues for
+modernizing fair use rights based on First Amendment principles)
+http://www.feedmag.com/re/re340 master.html.
+[37] Welcome to demOCRacy!, 2000. (Haystack's secure account server for OCR,
+and documentation) http://demOCRacy.lcs.mit.edu.
+[38] MIT Technology Day (The Future of Atoms in an Age of Bits), June 3, 2000.
+(Overview:) http://web.mit.edu/newso∆ce/tt/2000/may17/techday.html,
+(Agenda:) http://web.mit.edu/alum/reunions/techday.html.
+[39] PDF and Publishing, May, 1997. WWW pub-
+lication. (competitors dispute PDF interoperability)
+http://www.seyboldseminars.com/Events/ny97/ShowUpdates/PS160002.HTM.
+[40] Iris Pen FAQ, Web page dated August 19, 1999. WWW publication. 
+(IDC Study on redundant typing and paper dependency)
+http://www.ausmedia.com.au/irispenfaq.htm#10.
+[41] ACM. Production of Digitized Copies (Policy), December 18, 1998. (ACM
+policy for authors' own web sites [section 5.3] and OCR'ing [section 5.4])
+http://www.acm.org/pubs/copyright policy/#Distributions.
+[42] Patrick Ames. Beyond Paper: The O∆cial Guide to Adobe Acrobat. ISBN/ASIN
+1568300506 (publisher/year unknown).
+[43] Ross Anderson. Why Cryptosystems Fail. ACM 1st Conference - Computer 
+and Communications Security '93, pages 215{227, November, 1993.
+http://www.cl.cam.ac.uk/users/rja14/wcf.html.
+[44] Wesley L. Austin. A Thoughtful and Practical Analysis of Database Protection
+under Copyright Law, and a Critique of Sui Generis Protection. Journal Technology 
+Law & Policy, 3(1), 1997. WWW publication. (the common practice of
+typing in phone directories discussed at) http://journal.law.u
+.edu/~techlaw/3-
+1/austin.html#ENIIb.
+[45] Author unknown. Denitions of Adhesion Contracts. WWW publication.
+http://www.waukesha.tec.wi.us/busocc/law/adhes.html.
+[46] Author unknown. The O∆ce of the Future. Business Week, June 30, 1975. no.
+2387: 48-70. (predicted imminent paperless o∆ces).
+[47] Author unknown. (Business Section lead article). Boston Globe, page B1, March
+9, 2000.
+[48] Author withheld. Digital Millenium Copyright (DMCA) Information, 2000.
+WWW publication. (links discussing the 1998 U.S. anti-circumvention law)
+http://www.tuxers.net/dmca/.
+[49] Author withheld. Online Photo Sharing is the Next Hot In-
+ternet Application, September 20, 1999. http://www.infotrends-
+rgi.com/press/1999092089476.html.
+[50] Tom W. Bell. Fair Use Vs. Fared Use: The Impact of Automated Rights
+Management on Copyright's Fair Use Doctrine. North Carolina Law Review,
+76:557, 1998. http://www.tomwbell.com/writings/FullFared.html.
+[51] Sven Birkerts. The Gutenberg Elegies: The Fate of Reading in the Electronic
+Age. Ballantine Books, New York, 1994. (the bible of paper loyalists).
+[52] Business Week Editorial Board. How to foil internet pirates. Business Week, August 14, 2000. WWW publication. 
+(argues against the DMCA anti-circumvention clause)
+http://www.businessweek.com/premium/00 33/b3694187.htm.
+[53] Kevin Lee Bowman. Privacy And The Internet: What Is The Electronic 
+Communications Privacy Act (ECPA), 1996. WWW publication.
+http://www.people.virginia.edu/~klb6q/infopaper/ECPA.html.
+[54] Anne Wells Branscomb. Who Owns Information? From Privacy to Public
+Access. HarperCollins, New York, 1994.
+[55] John Seely Brown and Paul Duguid. The Social Life of Information. Harvard 
+Business School Press, Boston, Massachusetts, 2000. (is reviewed at)
+http://www.salon.com/tech/books/2000/03/09/social information/.
+[56] Doreen Carvajal. Evolving Market for E-Titles: Racing to Convert Books
+to Bytes. The New York Times, December 9, 1999. WWW publication.
+http://www.nytimes.com/library/tech/99/12/biztech/articles/09book.html.
+[57] Chris DiBona, Sam Ockman & Mark Stone (Edited by). Open Sources: Voices
+from the Open Source Revolution. O'Reilly & Associates, Sebastopol, California,
+1999.
+[58] Julie E. Cohen. Unfair Use: Call it the Digital Millennium
+Censorship Act. The New Republic, May 23, 2000. WWW
+publication. (argues that the DMCA violates the First Amendment)
+http://www.thenewrepublic.com/online/cohen052300.html.
+[59] The OpenSSL Core and Development Team. OpenSSL, based on
+SSLeay. WWW documentation. (full-featured commercial-grade SSL toolkit)
+http://www.openssl.org.
+[60] Dr. Barbara Simons, President of the Association for Computing Machinery.
+(UCITA Opposition Statements, including letters to legislators), 1999 and 2000.
+http://www.acm.org/usacm/copyright/.
+[61] Ralf S. Engelschall. mod SSL, 2000. WWW documentation.
+(better-documented derivative of the Apache SSL secure web server)
+http://www.modssl.org.
+[62] Eytan Adar, David Karger and Lynn Andrea Stein. Haystack: Per-User 
+Information Environments. ACM 1999 Conference on Infor-
+mation and Knowledge Management, pages 413{422, May 17, 1999.
+http://haystack.lcs.mit.edu/papers/.
+[63] Patrick Feng. When Social Meets Technical: Ethics and the Design of Social 
+Technologies. Conference on Freedom and Privacy 2000, pages 295{
+301, April, 2000. (discusses Toronto's Highway 407, which uses OCR)
+http://www.cfp2000.org/papers/feng.pdf.
+[64] Fred F. Ross, Nick Zellinger (Illustrator), Judy French (Editor). OCR With
+a Smile: An Operator's Guide to Optical Character Recognition. House of
+Scanning, LLC, Englewood, Colorado, 1998. http://www.hosc.net.
+[65] Government Accountability Project (GAP). Survival Tips for Whistleblowing.
+WWW publication. (based on the book: The Whistleblower's Survival Guide,
+Courage without Martyrdom) http://www.whistleblower.org/www/Tips.htm.
+[66] Simson Garnkel. Database Nation: The Death of Privacy in the 21st Century.
+O'Reilly & Associates, Sebastopol, California, 2000.
+[67] Mike Godwin. Is Stephen King's New eBook Riding the DMCA Bullet? 
+LawNewsNetwork.com, March 31, 2000. WWW publication.
+http://www.lawnewsnetwork.com/stories/A20129-2000Mar30.html.
+[68] Dan Greenwood. esig-law: Electronic Signature Area, 1999. WWW
+publication. (analyzes legality issues of paper, faxes, email, web pages)
+http://www.civics.com/old-site/esig-law.htm.
+[69] Lisa Guernsey. Scan the Headlines? No, Just the Bar Codes.
+The New York Times, May 4, 2000. WWW publication.
+http://www.nytimes.com/library/tech/00/05/circuits/articles/04bar.html.
+[70] Katie Hafner and Matthew Lyon. Where Wizards Stay Up Late: The Origins
+of the Internet. Simon & Schuster, New York, 1996.
+[71] Marci A. Hamilton. Copyright Duration Extension and the Dark Heart of
+Copyright. Cardozo Arts & Entertainment Law Journal, 14(3):655, 1996.
+http://www.public.asu.edu/~dkarjala/commentary/hamilton-art.html.
+[72] Harold Abelson (and associates). MIT 6.805/STS085: Ethics and Law
+on the Electronic Frontier. MIT/Harvard Class and WWW publications.
+http://mit.edu/6.805.
+[73] Welcome to Haystack! - Personal information retrieval. WWW publications.
+http://haystack.lcs.mit.edu.
+[74] Caere/ScanSoft Inc. High Performance Centralized OCR (including 
+at bottom) Simple ROI Analysis of Manual Data Entry 
+vs. A Centralized OCR Server. WWW publication.
+http://www.caere.com/products/productionocr/white paper.asp.
+[75] Irene M. Kunii, Geo
+rey Smith and Neil Gross. Fuji: Beyond
+lm. Business Week, November 22, 1999. WWW publication.
+http://www.businessweek.com/1999/99 47/b3656012.htm.
+[76] John Haley and Mike Glover of Viking Software Services, Inc. A Guide to
+Evaluating Data Entry Systems (a White Paper), 1994. WWW publication.
+http://www.vikingsoft.com/vdewp.htm.
+[77] John Haley and Mike Glover of Viking Software Services, Inc. The Importance of
+(...) Precision Data Entry to Document Imaging, a White Paper, 1994. WWW
+publication. http://www.vikingsoft.com/wp1.htm#accuracyissues.
+[78] V.H. Carr Jr. Technology Adoption and Di
+usion, 1999. WWW publication.
+http://tlc.nlm.nih.gov/resources/publications/sourcebook/adoptiondi
+usion.html.
+[79] Richard N. Katz and Associates. Dancing with the Devil: Information Technology 
+and the New Competition in Higher Education. Jossey-Bass, San Francisco,
+California, 1999.
+[80] Young Wook Kim. Law and cyberspace { liability of online 
+service providers in 1996, 1997. WWW publication.
+http://wings.bu
+alo.edu/law/Complaw/CompLawPapers/kim.html.
+[81] Brad King. Tuning Up Digital Copyright Law. WIRED, May 16, 2000. WWW
+publication. http://www.wired.com/news/business/0,1367,36323,00.html.
+[82] Ray Kurzweil. The Age of Spiritual Machines : When Computers Exceed Human 
+Intelligence. Viking Press, New York, 1999. (Kurzweil pioneered voice
+recognition and OCR).
+[83] Adam Laurie and Ben Laurie. Apache-SSL, 2000. (Crypto-secured web server)
+http://www.apache-ssl.org.
+[84] Lawrence Lessig. Code: And Other Laws of Cyberspace. Perseus Books, New
+York, 1999.
+[85] Lawrence Lessig. In Search of Skeptics: We need to be willing to think about
+the e
+ects of regulation on the process of innovation. The Standard, April
+17, 2000. WWW publication. (addresses failures of intellectual property law)
+http://www.thestandard.com/article/display/0,1151,14103,00.html.
+[86] (Stanford Libraries). Copyright & Fair Use: Frequently Asked Questions.
+WWW publication. (When is copying allowed by fair use provisions of the
+law?) http://fairuse.stanford.edu/library/faq.html.
+[87] (Stanford Libraries). Copyright & Fair Use: Multimedia. WWW publication.
+http://fairuse.stanford.edu/multimed/.
+[88] Jessica Litman. The Exclusive Right to Read. Cardozo Arts & Entertainment
+Law Journal, 13(1):29, 1994. http://www.msen.com/~litman/read.htm.
+[89] Omid E. Kia (maintained by). O.C.R. Frequently Asked Questions, 1997.
+WWW publication. http://www.cfar.umd.edu/~kia/ocr-faq.html.
+[90] Mark Stek, John Perry Barlow, Lawrence Lessig and Charles C.
+Mann. Life, Liberty, and the Pursuit of Copyright? The Atlantic 
+Monthly, September, 1998. WWW publication. (serial interviews)
+http://www.theatlantic.com/unbound/forum/copyright/stek1.htm.
+[91] Tony McKinley. Paper to Web: How to Make Information Instantly Accessible.
+Adobe Press, Indianapolis, Indiana, 1997. (In
+uential PDF/OCR book that is
+now available online for free) http://www.paper-to-web.com/id206.htm.
+[92] Melissa Weisshaus, Jay Fenlason, Thomas Bushnell, n/BSG, Amy Gorin. Introduction 
+to Tar, and Manual, April 24, 1997. WWW documentation. (pkzip-likele packager) 
+http://www.gnu.org/software/tar/tar.html.
+[93] Michael Froomkin, Professor of Law at the University of Miami. WWW 
+resource. (Publications of a leading thinker in Internet Law, includes his upcoming
+paper 'The Death of Privacy?') http://www.law.miami.edu/~froomkin/.
+[94] Stephanie Miles. Palm extends hand to Adobe document technology. CNET
+News, February 8, 2000. WWW publication. http://news.cnet.com/news/0-
+1006-200-1545280.html.
+[95] Ryoichi Mori and Masaji Kawahara. Superdistribution: The Concept
+and the Architecture. The Transactions of the IEICE; VOL.E 73,
+NO.7, Special Issue on Cryptography and Information Security, July, 1990.
+http://www.virtualschool.edu/mon/ElectronicProperty/MoriSuperdist.html.
+[96] Nicholas Negroponte. Being Digital. Vintage Books, New York, 1995.
+[97] Theodor Holm Nelson. Transcopyright: Pre-Permission for Virtual 
+Republishing / Dealing with the Dilemma of Digital Copyright. 
+Educom Review, 32(1), January/February 1997. WWW
+publications. http://www.sfc.keio.ac.jp/~ted/TPUB/transcopy.html or
+http://www.educause.edu/pub/er/review/reviewArticles/32132.html.
+[98] Nicole Ko
+ey. Digital Cameras: High Demand, No Prots. Forbes, May
+5, 2000. WWW publication. (cites InfoTrends Research Group study)
+http://www.forbes.com/tool/html/00/may/0505/mu4.htm.
+[99] Teun Nijssen. Cryptoscan.org, 1998. WWW publication. (How
+to OCR source code) http://www.pgpi.org/pgpi/project/scanning/ and
+http://www.cryptoscan.org.
+[100] Donald A. Norman. The Design of Everyday Things. Doubleday,
+New York, 1990. (bible of user-centered design, for reviews see)
+http://www.peterme.com/edgewise/top10.html.
+[101] J.M. Nyce and P. Kahn (Edited by). From Memex to Hypertext: Vannevar Bush
+and The Mind's Machine. Academic Press, San Diego, California, 1991/92.
+(`Memex as an Image of Potentiality Revisited' by Linda C Smith discusses how
+Memex is misunderstood and misappropriated, see also `As We Will Think' by
+Theodor Nelson).
+[102] oedipal enterprises, Gregory J. Rosmaita. Blindness-Related Resources
+on the Web and Beyond. WWW publication. (blind users often 
+depend on the lynx browser for text and html screenreading)
+http://www.hicom.net/~oedipus/blind.html.
+[103] Cem Kaner (Law O∆ce of). Bad Software: What To Do When Software Fails.
+WWW publication. http://www.badsoftware.com.
+[104] Winston Tabb (Associate Librarian of Congress). ALA Brieng, January
+12, 2000. WWW publication. (discusses their increasing use of OCR)
+http://lcweb.loc.gov/library/alamw00.html.
+[105] IEEE-USA Board of Directors. Opposing Adoption of the Uniform Computer
+Information Transactions Act (UCITA) By the States, February, 2000. WWW
+publication. http://www.ieeeusa.org/forum/POSITIONS/ucita.html.
+[106] Walter J. Ong. Orality & Literacy: The Technologizing of the Word.
+Methuen/Routledge, London, 1982. (argues that humanity's very way of thinking 
+changes as media technologies change).
+[107] Steve Outing. The Business Case for Digitizing Oldest Archives.
+Editor & Publisher, October 27, 1999. WWW publication.
+http://www.editorandpublisher.com/ephome/news/newshtm/stop/st102799.htm.
+[108] Ragica. PDF: introductory/historical notes (all you need to crack it), 1997.
+WWW publication. http://www.instinct.org/fravia/ragica1.htm.
+[109] Ronald Rivest and Adi Shamir. PayWord and MicroMint: Two Simple Micropayment
+ Schemes. CryptoBytes, (RSA Laboratories, Spring 1996), 7{11, 2(1),
+May 7, 1996. (also in Proceedings of 1996 International Workshop on Security
+Protocols) http://theory.lcs.mit.edu/~rivest/RivestShamir-mpay.ps.
+[110] M.J. Rose. IPublish Praised, But Will URead? WIRED, May 24, 2000. WWW
+publication. http://www.wired.com/news/business/0,1367,36548,00.html.
+[111] Jerome H. Saltzer. MIT/LCS Library 2000. (personal communication with
+director of project, for related info see http://ltt-www.lcs.mit.edu/ltt-www/ ).
+[112] Pamela Samuelson. Intellectual Property And The Digital Economy: Why The
+Anti-Circumvention Regulations Need To Be Revised. Berkeley Technology Law
+Journal, 14(2):519, 1999. http://www.sims.berkeley.edu/~pam/papers.html or
+http://www.law.berkeley.edu/journals/btlj/articles/14 2/Samuelson/html/reader.html.
+[113] Pamela Samuelson. Privacy as Intellectual Property? Stanford Law Review,
+draft, forthcoming 2000. http://www.sims.berkeley.edu/~pam/papers.html.
+[114] Glenn Sanders and Wade Roush. Cracking the Bullet: Hackers Decrypt PDF
+Version of Stephen King eBook, an eBookNet Special Report. March 23, 2000.
+WWW publication. http://www.ebooknet.com/printerVersion.jsp?id=1671.
+[115] Andrew L. Shapiro. How the Internet is Putting Individuals in Charge and
+Changing the World We Know. Perseus Books, New York, 1999.
+[116] Carl Shapiro and Hal R. Varian. Information Rules: A Strategic Guide to
+the Network Economy. Harvard Business School Press, Boston, Massachusetts,
+November, 1998.
+[117] Richard M. Smith. Advanced web programming. (Internet Security and Privacy
+Expert) http://www.tiac.net/users/smiths/.
+[118] Richard Stallman. The Right to Read. Communications of
+the ACM, 40(2), 1997. (provocative and entertaining allegory)
+http://www.gnu.org/philosophy/right-to-read.html.
+[119] Mark Stek. Trusted Systems. Scientic American, 1997. WWW publication.
+http://www.sciam.com/0397issue/0397stek.html.
+[120] Dan Verton. CIA tackles records nightmare. April 20, 2000. WWW publication.
+http://www.cnn.com/2000/TECH/computing/04/20/cia.nightmare.idg/.
+[121] Stephen Wildstrom. Mac Hits Another Home Run. Business Week, February
+28, 2000. WWW publication. (MacOS X promises to deliver PDF later in 2000)
+http://www.businessweek.com/2000/00 09/c3670091.htm.
+[122] G. Pascal Zachary. Endless Frontier: Vannevar Bush, Engineer of the American
+Century. Simon & Schuster, New York, 1997. (Memex cited throughout).
+[123] (SNARF's developer) Zachary Beane. Downloader Comparison Table. WWW
+publication. http://www.xach.com/snarf/comparison-table.php3.

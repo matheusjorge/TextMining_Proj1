@@ -1,0 +1,108 @@
+Evaluating Database Selection Techniques: A Testbed and
+Experiment
+
+James C. French Allison L. Powell 
+Department of Computer Science
+University of Virginia
+Charlottesville, VA
+ffrench---alp4gg@cs.virginia.edu
+Charles L. Viles y
+School of Information and Library Science
+University of North Carolina, Chapel Hill
+Chapel Hill, NC
+viles@ils.unc.edu
+Travis Emmitt Kevin J. Prey
+Department of Computer Science
+University of Virginia
+Charlottesville, VA
+fte3d---kjp4fg@cs.virginia.edu
+
+Abstract We describe a testbed for database selection
+techniques and an experiment conducted using this testbed.
+The testbed is a decomposition of the TREC/TIPSTER
+data that allows analysis of the data along multiple dimen­sions, 
+including collection­based and temporal­based anal­ysis. 
+We characterize the subcollections in this testbed in
+terms of number of documents, queries against which the
+documents have been evaluated for relevance, and distribu­tion 
+of relevant documents. We then present initial results
+from a study conducted using this testbed that examines
+the effectiveness of the gGlOSS approach to database selection. 
+The databases from our testbed were ranked us­ing 
+the gGlOSS techniques and compared to the gGlOSS
+Ideal(l) baseline and a baseline derived from TREC rele­vance 
+judgements. We have examined the degree to which
+several gGlOSS estimate functions approximate these base­lines. 
+Our initial results confirm that the gGlOSS estima­tors 
+are excellent predictors of the Ideal(l) ranks but that
+the Ideal(l) ranks do not estimate relevance­based ranks
+well.
+
+
+References
+[1] Nicholas J. Belkin, Paul Kantor, Edward A. Fox, and J. A.
+Shaw. Combining the Evidence of Multiple Query Represen­tations 
+for Informa tion Retrieval. Information Processing
+and Management, 31(4):431--448, 1995.
+[2] Chris Buckley. SMART version 11.0, 1992.
+ftp://ftp.cs.cornell.edu/pub/smart.
+[3] James P. Callan, Zhihong Lu, and W. Bruce Croft. Search­
+ing Distributed Collections with Inference Networks. In Pro­ceedings 
+of the 18th International Conference on Research
+and Development in Information Retrieval, pages 21--29,
+Seattle, WA, 1995.
+[4] Edward A. Fox, M. Prabhakar Koushik, Joseph Shaw, Rus­sell 
+M odlin, and Durgesh Rao. Combining Evidence from
+Multiple Searches. In The First Text Retrieval Conference
+(TREC­1), pages 319--328, Gaithersburg, MD, November
+1992.
+[5] James C. French and Charles L. Viles. Ensuring Retrieval
+Effectiveness in Distributed Digital Libraries. Journal of
+Visual Communication and Image Representation, 7(1):61--
+73, 1996.
+[6] Luis Gravano and Hector Garcia­Molina. Generalizing
+GlOSS to Vector­Space Databases and Broker Hierarchies.
+In Proceedings of the 21st International Conference on Very
+Large Databases (VLDB), Zurich, Switzerland, 1995.
+[7] Luis Gravano, Hector Garcia­Molina, and Anthony Tomasic.
+The Effectiveness of GlOSS for the Text Database Discovery
+Problem. In SIGMOD94, pages 126--137, Minneapolis, MN,
+May 1994.
+[8] Donna Harman. Overview of the Fourth Text Retrieval Con­ference 
+(TREC­4). In Proceedings of the Fourth Text Re­trieval Conference 
+(TREC­4), Gaithersburg, MD, 1996.
+[9] Alistair Moffat and Justin Zobel. Information Retrieval Sys­tems 
+for Large Document Collections. In Proceedings of the
+Third Text Retrieval Conference (TREC­3), pages 85--94,
+Gaithersburg, MD, 1995.
+[10] Charles L. Viles and James C. French. TREC4 Experiments
+Using Drift. In Proceedings of the Fourth Text Retrieval
+Conference (TREC­4), Gaithersburg, MD, 1996.
+[11] Charles L. Viles and James C. French. Dissemination of
+Collection Wide Information in a Distributed Information
+Retrieval System. In Proceedings of the 18th International
+Conference on Research and Development in Information
+Retrieval, pages 12--20, Seattle, WA, July 1995.
+[12] Charles L. Viles and James C. French. On the Update
+of Term Weights in Dynamic Information Retrieval Systems. 
+In Proceedings of the 4th International Conference on
+Knowledge and Information Management, pages 167--174,
+Baltimore, MD, November 1995.
+[13] Ellen Vorhees. The TREC­5 Database Merging Track. In
+Proceedings of the Fifth Text Retrieval Conference (TREC­
+5), Gaithersburg, MD, November 1996.
+[14] Ellen Vorhees, Narendra K. Gupta, and Ben Johnson­Laird.
+Learning Collection Fusion Strategies. In Proceedings of the
+18th International Conference on Research and Development 
+in Information Retrieval, pages 172--179, Seattle, WA,
+1995.
+[15] Ellen Vorhees, Narendra K. Gupta, and Ben Johnson­Laird.
+The Collection Fusion Problem. In Proceedings of the
+Third Text Retrieval Conference (TREC­3), pages 95--104,
+Gaithersburg, MD, 1995.
+[16] Nikolaus Walczuch, Norbert Fuhr, Michael Pollman, and
+Birgit Sievers. Routing and Ad­hoc Retrieval with the
+TREC­3 Collection in a Loosely Federated Environment.  
+In The Third Text REtrieval Conference (TREC­3), pages
+135--144, Gaithersburg, MD, November 1994.
+

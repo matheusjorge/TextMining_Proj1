@@ -1,0 +1,44 @@
+Case-based Diagnosis of Multiple Faults
+
+Ralph Deters
+Universität der Bundeswehr Munchen
+Institut für Technische Informatik
+85577 Neubiberg, F.R.Germany
+E-mail: deters@infomiatik.unibw-muenchen.de
+
+
+Abstract:
+In order to maintain complex technical systems e.g. a telecommunication network, a rapid and
+precise recognition of faults and critical situations is required. But the large number of different
+components, the high degree of interdependencies among the components and the permanent
+changes in these systems make the diagnosis of faults and critical situations difficult.
+Case-based Reasoning (CBR) seems particularly well suited for such a diagnosis. The ability to
+reuse old experiences by adapting them to current needs offers a possibility to handle the large
+number of diagnoses as well as the changes in the systems. However, the large number of
+components results in the problem of diagnosing multiple independent faults which leads to
+serious difficulties in retrieval and adaptation.
+This paper focuses on the specific problems of diagnosing multiple independent faults. An
+incremental retrieval and adaptation approach based on an hypothesis and test strategy is
+introduced which is able to cope with data of multiple overlapping problems. At the end of this
+paper is given a report about the experiences in using the described algorithm for handling
+multiple faults in telecommunication networks.
+
+References
+[Kol93] J. Kolodner: Case-Based Reasoning, Morgan Kaufmann, 1993
+[Rie89] C. K. Riesbeck: Inside Case-based Reasoning, Erlbaum, 1989
+[Cun94] P. Cunningham: A Comparison of Model-Based and Incremental Case-Based 
+Approaches to Electronic Fault Diagnosis, AAAI’94 Workshop on CBR. 1994
+[Det94] R. Deters: CBR for Maintenance of Telecommunication Networks,
+EWCBR-94, 1994
+[Det95] R. Deters: Multidimensional Structuring of a Case-Memory, CBR-Workshop
+at XPS-95, 1995
+[Rie93] M. Riese: Model-Based Diagnosis of Communication Protocols, Doctoral
+Thesis No. 1173, Swiss Federal Institute of Technology Lausanne, 1993
+[Kle93] J. de Kleer: Characterising Diagnoses, AAAI-90, MIT-Press 1990
+[Ngu89] T. A. Nguyen: Diagnosing Multiple Faults in Digital Systems, The Fifth
+Conference on Artificial Intelligence Applications
+[Rei87] R. Reiter: A theory of diagnosis from first principles”, Artificial Intelligence
+32, 1987
+[Zit93] R. Zito-Wolf: A Framework and a Analysis of Current Proposals for the
+Case-Based Organisation and Representation of Procedural Knowledge, Eleventh
+National Conference on Artificial Intelligence

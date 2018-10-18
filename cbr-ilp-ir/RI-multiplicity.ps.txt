@@ -1,0 +1,169 @@
+Learning Functions Represented as Multiplicity
+Automata \Lambda
+
+Amos Beimel y Francesco Bergadano z Nader H. Bshouty x
+Eyal Kushilevitz -- Stefano Varricchio k
+April 23, 1998
+
+Abstract
+We study the learnability of multiplicity automata in Angluin's exact learning
+model, and we investigate its applications. Our starting point is a known theorem
+from automata theory relating the number of states in a minimal multiplicity automa­ton 
+for a function to the rank of its Hankel matrix. With this theorem in hand we
+present a new simple algorithm for learning multiplicity automata with improved time
+and query complexity, and we prove the learnability of various concept classes. These
+include (among others):
+ffl The class of disjoint DNF, and more generally satisfy­O(1) DNF.
+ffl The class of polynomials over finite fields.
+ffl The class of bounded­degree polynomials over infinite fields.
+ffl The class of XOR of terms.
+ffl Certain classes of boxes in high dimensions.
+In addition, we obtain the best query complexity for several classes known to be learn­able 
+by other methods such as decision trees and polynomials over GF(2).
+While multiplicity automata are shown to be useful to prove the learnability of
+some subclasses of DNF formulae and various other classes, we study the limitations
+of this method. We prove that this method cannot be used to resolve the learnability
+of some other open problems such as the learnability of general DNF formulae or even
+k­term DNF for k = !(log n) or satisfy­s DNF formulae for s = !(1). These results are
+proven by exhibiting functions in the above classes that require multiplicity automata
+with super­polynomial number of states.
+
+References
+[1] H. Aizenstein and L. Pitt. Exact learning of read­twice DNF formulas. In Proc. of the
+32nd Annu. IEEE Symp. on Foundations of Computer Science, pages 170--179, 1991.
+[2] H. Aizenstein and L. Pitt. Exact learning of read­k disjoint DNF and not­so­disjoint
+DNF. In Proc. of 5th Annu. ACM Workshop on Comput. Learning Theory, pages 71--76,
+1992.
+[3] D. Angluin. Learning k­term DNF formulas using queries and counterexamples. Tech­nical 
+Report YALEU/DCS/RR­559, Department of Computer Science, Yale University,
+1987.
+[4] D. Angluin. Learning regular sets from queries and counterexamples. Information and
+Computation, 75:87--106, 1987.
+[5] D. Angluin. Queries and concept learning. Machine Learning, 2(4):319--342, 1988.
+[6] D. Angluin, L. Hellerstein, and M. Karpinski. Learning read­once formulas with queries.
+J. of the ACM, 40:185--210, 1993.
+[7] P. Auer. On­line learning of rectangles in noisy environments. In Proc. of 6th Annu.
+ACM Conf. on Comput. Learning Theory, pages 253--261, 1993.
+[8] A. Beimel, F. Bergadano, N. H. Bshouty, E. Kushilevitz, and S. Varricchio. On the
+applications of multiplicity automata in learning. In Proc. of the 37th Annu. IEEE
+Symp. on Foundations of Computer Science, pages 349--358, 1996.
+[9] A. Beimel and E. Kushilevitz. Learning boxes in high dimension. In S. Ben­David,
+editor, 3rd European Conf. on Computational Learning Theory (EuroCOLT '97), volume
+1208 of Lecture Notes in Artificial Intelligence, pages 3--15. Springer, 1997. Journal
+version to appear in Algorithmica.
+[10] M. Ben­Or and P. Tiwari. A deterministic algorithm for sparse multivariate polynomial
+interpolation. In Proc. of the 20th Annu. ACM Symp. on the Theory of Computing,
+pages 301--309, 1988.
+[11] F. Bergadano, D. Catalano, and S. Varricchio. Learning sat­k­DNF formulas from mem­bership 
+queries. In Proc. of the 28th Annu. ACM Symp. on the Theory of Computing,
+pages 126--130, 1996.
+[12] F. Bergadano and S. Varricchio. Learning behaviors of automata from multiplicity and
+equivalence queries. In Proc. of 2nd Italian Conf. on Algorithms and Complexity, volume
+778 of Lecture Notes in Computer Science, pages 54--62, 1994. Journal version: SIAM
+Journal on Computing, 25(6):1268--1280, 1996.
+[13] F. Bergadano and S. Varricchio. Learning behaviors of automata from shortest coun­
+terexamples. In EuroCOLT '95, volume 904 of Lecture Notes in Artificial Intelligence,
+pages 380--391, 1996.
+[14] J. Berstel and C. Reutenauer. Rational Series and Their Languages, volume 12 of
+EATCS monograph on Theoretical Computer Science. Springer­Verlag, 1988.
+[15] A. Blum, R. Khardon, E. Kushilevitz, L. Pitt, and D. Roth. On learning read­k­satisfy­j
+DNF. In Proc. of 7th Annu. ACM Conf. on Comput. Learning Theory, pages 110--117,
+1994.
+[16] A. Blum and S. Rudich. Fast learning of k­term DNF formulas with queries. J. of
+Computer and System Sciences, 51(3):367--373, 1995.
+[17] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone. Classification and Regression
+Trees. Wadsworth International Group, 1984.
+[18] N. H. Bshouty. Exact learning via the monotone theory. In Proc. of the 34th Annu.
+IEEE Symp. on Foundations of Computer Science, pages 302--311, 1993. Journal version:
+Information and Computation, 123(1):146--153, 1995.
+[19] N. H. Bshouty. A note on learning multivariate polynomials under the uniform distri­bution. 
+In Proc. of 8th Annu. ACM Conf. on Comput. Learning Theory, pages 79--82,
+1995.
+[20] N. H. Bshouty. Simple learning algorithms using divide and conquer. In Proc. of 8th
+Annu. ACM Conf. on Comput. Learning Theory, pages 447--453, 1995. Journal version:
+Computational Complexity, 6:174--194,1997.
+[21] N. H. Bshouty and Y. Mansour. Simple learning algorithms for decision trees and
+multivariate polynomials. In Proc. of the 36th Annu. IEEE Symp. on Foundations of
+Computer Science, pages 304--311, 1995.
+[22] N. H. Bshouty, C. Tamon, and D. K. Wilson. Learning matrix functions over rings. In
+Proc. of 3rd EuroCOLT, 1997.
+[23] J. W. Carlyle and A. Paz. Realization by stochastic finite automaton. J. of Computer
+and System Sciences, 5:26--40, 1971.
+[24] Z. Chen and W. Maass. On­line learning of rectangles. In Proc. of 5th Annu. ACM
+Workshop on Comput. Learning Theory, 1992.
+[25] M. Clausen, A. Dress, J. Grabmeier, and M. Karpinski. On zero­testing and inter­polation 
+of k­sparse multivariate polynomials over finite fields. Theoretical Computer Science, 84(2):151--164, 1991.
+[26] T. H. Cormen, C. E. Leiserson, and R. L. Rivest. Introduction to algorithms. MIT Press
+and McGraw­Hill Book Company, 1990.
+[27] S. Eilenberg. Automata, Languages and Machines, volume A. Academic Press, 1974.
+[28] M. Fliess. Matrices de Hankel. J. Math. Pures Appl., 53:197--222, 1974. Erratum in
+vol. 54.
+[29] P. W. Goldberg, S. A. Goldman, and H. D. Mathias. Learning unions of boxes with
+membership and equivalence queries. In Proc. of 7th Annu. ACM Conf. on Comput.
+Learning Theory, 1994.
+[30] D. Y. Grigoriev, M. Karpinski, and M. F. Singer. Fast parallel algorithms for sparse
+multivariate polynomial interpolation over finite fields. SIAM Journal on Computing,
+19(6):1059--1063, 1990.
+[31] T. R. Hancock. Learning 2¯ DNF formulas and k¯ decision trees. In Proc. of 4th Annu.
+ACM Workshop on Comput. Learning Theory, pages 199--209, 1991.
+[32] M. A. Huang and A. J. Rao. Interpolation of sparse multivariate polynomials over large
+finite fields with applications. In Proc. of the 7th Annu. ACM­SIAM Symp. on Discrete
+Algorithms, pages 508--517, 1996.
+[33] J. C. Jackson. An efficient membership­query algorithm for learning DNF with respect
+to the uniform distribution. J. of Computer and System Sciences, 55(3):414--440, 1997.
+[34] M. J. Kearns and L. G. Valiant. Cryptographic limitations on learning boolean formula
+and finite automata. Journal of the ACM, 41(1):67--95, 1994.
+[35] M. J. Kearns and U. V. Vazirani. An Introduction to Computational Learning Theory.
+MIT press, 1994.
+[36] M. Kharitonov. Cryptographic hardness of distribution­specific learning. In Proc. of
+the 25th Annu. ACM Symp. on the Theory of Computing, pages 372--381, 1993.
+[37] D. E. Knuth. The Art of Computer Programming, Volume 2: Seminumerical Algorithms.
+Addison­Wesley, third edition, 1998.
+[38] E. Kushilevitz. A simple algorithm for learning O(log n)­term DNF. In Proc. of 9th
+Annu. ACM Conf. on Comput. Learning Theory, pages 266--269, 1996. Journal version:
+Inform. Process. Lett., 61(6):289--292, 1997.
+[39] E. Kushilevitz and Y. Mansour. Learning decision trees using the Fourier spectrum.
+SIAM J. on Computing, 22(6):1331--1348, 1993.
+[40] E. Kushilevitz and N. Nisan. Communication Complexity. Cambridge university Press,
+1997.
+[41] K. Lang. Random DFA's can be approximately learned from sparse uniform examples.
+In Proc. of 5th Annu. ACM Workshop on Comput. Learning Theory, pages 45--52, 1992.
+[42] T. Lengauer. VLSI theory. In J. van Leeuwen, editor, Handbook of Theoretical Computer
+Science, volume A, chapter 16, pages 835--868. Elsevier and The MIT press, 1990.
+[43] W. Maass and G. Tur'an. On the complexity of learning from counterexamples. In Proc.
+of the 30th Annu. IEEE Symp. on Foundations of Computer Science, pages 262--273,
+1989.
+[44] W. Maass and G. Tur'an. Algorithms and lower bounds for on­line learning of geometrical
+concepts. Machine Learning, 14:251 -- 269, 1994.
+[45] W. Maass and M. K. Warmuth. Efficient learning with virtual threshold gates. Infor­mation 
+and Computation, 141(1):66--83, 1998.
+[46] H. Ohnishi, H. Seki, and T. Kasami. A polynomial time learning algorithm for recogniz­able 
+series. IEICE Transactions on Information and Systems, E77­D(10)(5):1077--1085,
+1994.
+[47] K. Pillaipakkamnatt and V. Raghavan. Read­twice DNF formulas are properly learn­
+able. Information and Computation, 122(2):236--267, 1995.
+[48] J. R. Quinlan. Induction of decision trees. Machine Learning, 1:81--106, 1986.
+[49] J. R. Quinlan. C4.5: Programs for machine learning. Morgan Kaufmann, 1993.
+[50] R. L. Rivest and R. E. Schapire. Inference of finite automata using homing sequences.
+Information and Computation, 103:299--347, 1993.
+[51] R. M. Roth and G. M. Benedek. Interpolation and approximation of sparse multivariate
+polynomials over GF (2). SIAM Journal on Computing, 20(2):291--314, 1991.
+[52] R. E. Schapire and L. M. Sellie. Learning sparse multivariate polynomials over a field
+with queries and counterexamples. J. of Computer and System Sciences, 52(2):201--213,
+1996.
+[53] J. T. Schwartz. Fast probabilistic algorithms for verification of polynomial identities.
+J. of the ACM, 27:701--717, 1980.
+[54] M. P. Sh¨utzenberger. On the definition of a familiy of automata. Information and
+Control, 4:245--270, 1961.
+[55] B. A. Trakhtenbrot and Y. M. Barzdin. Finite Automata: Behavior and Synthesis.
+North­Holland, 1973.
+[56] L. G. Valiant. A theory of the learnable. Communications of the ACM, 27(11):1134--
+1142, 1984.
+[57] L. G. Valiant. Learning disjunctions of conjunctions. In Proc. of the International Joint
+Conf. of Artificial Intelligence, pages 560--566, 1985.
+[58] R. E. Zippel. Probabilistic algorithms for sparse polynomials. In Proc. of the Interna­tional 
+Symp. on Symbolic and Algebraic Manipulation (EUROSAM '79), volume 72 of
+Lecture Notes in Computer Science, pages 216--226. Springer­Verlag, 1979.
+[59] R. E. Zippel. Interpolating polynomials from their values. J. of Symbolic Comp., 9:375--
+403, 1990.
+[60] R. E. Zippel. Efficient Polynomial Computation. Kluwer Academic Publishers, 1993.

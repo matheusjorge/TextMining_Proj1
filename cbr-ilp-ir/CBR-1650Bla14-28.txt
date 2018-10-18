@@ -1,0 +1,98 @@
+Probability Based Metrics for Nearest Neighbor
+Classification and Case-Based Reasoning
+
+Enrico Blanzieri and Francesco Ricci*
+
+Istituto per la Ricerca Scientifica e Teenologica (ITC-IRST)
+38050 Povo (TN)
+Italy
+blanzier@irst.itc.it - ricci@sodalia.it
+
+
+
+
+Abstract. This paper is focused on a class of metrics for the Nearest
+Neighbor classifier, whose definition is based on statistics computed on
+the case base. We show that these metrics basically rely on a probability 
+estimation phase. In particular, we reconsider a metric proposed
+in the 80’s by Short and Fukunaga, we extend its definition to an input 
+space that includes categorical features and we evaluate empirically
+its performance. Moreover, we present a novel probability based metric,
+called Minimum Risk Metric (MRM), i.e. a metric for classification tasks
+that exploits estimates of the posterior probabilities. MRM is optimal,
+in the sense that it optimizes the finite misclassification risk, whereas
+the Short and Fukunaga Metric minimizes the difference between finite
+risk and asymptotic risk. An experimental comparison of MRM with the
+Short and Fukunaga Metric, the Value Difference Metric, and Euclidean—Hamming m
+etrics on benchmark datasets shows that MRM outperforms
+the other metrics. MRM performs comparably to the Bayes Classifier
+based on the same probability estimates. The results suggest that MRM
+can be useful in case-based applications where the retrieval of a nearest
+neighbor is required.
+References
+
+1.	D. W. Aha and R. L. Goldstone. Learning attribute relevance in context in
+instance-based learning algorithms. In Proceedings of the Twelfth Annual Conference 
+of the Cognitive Science Society, pages 141—148, Cambridge, MA, 1990.
+Lawrence Earlbaum.
+2.	D. W. Aha and R. L. Goldstone. Concept learning and flexible weighting. In
+Proceedings of the Fourteenth Annual Conference of the Cognitive Science Society,
+pages 534—539, Bloomington, IN, 1992. Lawrence Earlbaum.
+3.	P. Avesani, A. Perini, and F. Ricci. Interactive case-based planning for forest fire
+management. Applied Artificial Intelligence, 1999. To appear.
+4.	R. Bellazzi, S. Montani, and L. Portinale. Retrieval in a prototype-based case
+library: A case study in diabetes therapy revision. In European Workshop on Case
+Based Reasoning, 1998.
+5.	E. Blanzieri, M. Bucciarelli, and P. Peretti. Modeling human communication. In
+First European Workshop on Cognitive Modeling, Berlin, 1996.
+6.	C. Cardie and N. Howe. Improving minority class prediction using case-specific feature 
+weight. In Proceedings of the Fourteenth International Conference on Machine
+Learning, pages 57—65. Morgan Kaufmann Publishers, 1997.
+7.	M. Cazzani. Metriche di similaritá eterogenee per il problema di recupero nei
+sistemi di ragionamento basato su casi: studio sperimentale. Master’s thesis, Univ.
+of Milano, 1998.
+8.	S. Cost and S. Salzberg. A weighted nearest neighbor algorithm for learning with
+symbolic features. Machine Learning, 10:57—78, 1993.
+9.	T. M. Cover and P. E. Hart. Nearest neighbor pattern classification. IEEE Transaction 
+on Information Theory, 13:21—27, 1967.
+10.	R. H. Creecy, B. M. Masand, S. J. Smith, and D. L. Waltz. Trading MIPS and
+memory for knowledge engineering. Communication of ACM, 35:48—64, 1992.
+11.	P. Domingos and M. J. Pazzani. On the optimality of the simple bayesian classifier
+under zero-one loss. Machine Learning, 29:103—130, 1997.
+12.	J. H. Friedman. Flexible metric nearest neighbour classification. Technical
+report, Stanford University, 1994. Available by anonymous FTP from play-fair.stanford.edu.
+13.	T. Hastie and R. Tibshirani. Discriminant adaptive nearest neighbour classification. 
+In U.M.Fayad and R.Uthurusamy, editors, KDD-95: Proceedings First International 
+Conference on Knowledge Discovery and Data Mining, 1995.
+14.	P. Kontkanen, P. Myllymäki, T. Silander, and H. Tirri. Bayes optimal instace-based 
+learning. Lecture Notes in Computer Science, 1398:77—88, 1998.
+15.	P. Kontkanen, P. Myllymäki, T. Silander, and H. Tirri. On Bayesian case matching.
+Lecture Notes in Computer Science, 1488:13—24, 1998.
+16.	C. J. Merz and P. M. Murphy. UCI Repository of Machine Learning Databases.
+University of California, Department of Information and Computer Science, Irvine,
+CA, 1996.
+17.	T. M. Mitchell. Machine Learning. McGraw-Hill, 1997.
+18.	J. P. Myles and D. J. Hand. The multi-class metric problem in nearest neighbour
+discrimination rules. Pattern Recognition, 23(11): 1291—1297, 1990.
+19.	F. Ricci and P. Avesani. Learning a local similarity metric for case-based reasoning. 
+In International Conference on Case-Based Reasoning (ICCBR-95), Sesimbra,
+Portugal, Oct. 23-26, 1995.
+20.	F. Ricci and P. Avesani. Data compression and local metrics for nearest neighbor
+classification. IEEE Transactions on Pattern Analysis and Machine Intelligence,
+1999. To appear.
+21.	D. W. Scott. Multivariate Density Estimation: Theory , Practice, and Visualization. 
+John Wiley, New York, 1992.
+22.	R. D. Short and K. Fukunaga. A new nearest neighbour distance measure. In
+Proceedings of the 5th IEEE International Conference on Patter Recognition, pages
+81—86, Miami beach, FL, 1980.
+23.	R. D. Short and K. Fukunaga. The optimal distance measure for nearest neighbour
+classification. IEEE Transactions on Information Theory, 27:622—627, 1981.
+24.	C. Stanfill and D. Waltz. Toward memory-based reasoning. Communication of
+ACM, 29:1213—1229, 1986.
+25.	D. Wettschereck and T. G. Dietterich. An experimental comparison of the nearest
+neighbor and nearest hyperrectangle algorithms. Machine Learning, 19:5—28, 1995.
+26.	D. Wettschereck, T. Mohri, and D. W. Aha. A review and empirical comparison
+of feature weighting methods for a class of lazy learning algorithms. AI Review
+Journal, 11:273—314, 1997.
+27.	D. R. Wilson and T. R. Martinez. Improved heterogeneous distance functions.
+Journal of Artificial Intelligence Research, 11:1—34, 1997.

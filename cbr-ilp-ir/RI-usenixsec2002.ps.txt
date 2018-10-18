@@ -1,0 +1,105 @@
+Infranet: Circumventing Web Censorship and Surveillance
+
+Nick Feamster, Magdalena Balazinska, Greg Harfst, Hari Balakrishnan, David Karger
+MIT Laboratory for Computer Science
+ffeamster, mbalazin, gch, hari, kargerg@lcs.mit.edu
+http://nms.lcs.mit.edu/projects/infranet
+
+Abstract
+An increasing number of countries and companies rou­tinely 
+block or monitor access to parts of the Internet.
+To counteract these measures, we propose Infranet, a sys­tem 
+that enables clients to surreptitiously retrieve sensitive
+content via cooperating Web servers distributed across the
+global Internet. These Infranet servers provide clients access 
+to censored sites while continuing to host normal un­censored 
+content. Infranet uses a tunnel protocol that pro­vides 
+a covert communication channel between its clients
+and servers, modulated over standard HTTP transactions
+that resemble innocuous Web browsing. In the upstream
+direction, Infranet clients send covert messages to Infranet
+servers by associating meaning to the sequence of HTTP
+requests being made. In the downstream direction, Infranet
+servers return content by hiding censored data in uncen­sored 
+images using steganographic techniques. We describe
+the design, a prototype implementation, security properties,
+and performance of Infranet. Our security analysis shows
+that Infranet can successfully circumvent several sophisti­cated 
+censoring techniques.
+
+References
+[1] M. Adler and B. Maggs. Protocols for asymmetric communication
+channels. In Proceedings of 39th IEEE Symposium on Foundations
+of Computer Science (FOCS), Palo Alto, CA, 1998.
+[2] Anonymizer. http://www.anonymizer.com/.
+[3] I. Clarke, O. Sandbert, B. Wiley, and T. Hong. Freenet: A distributed
+anonymous information storage and retrieval system. In Proceedings
+of the Workshop on Design Issues in Anonymity and Unobservability,
+Berkeley, CA, July 2000.
+[4] R. Dingledine, M. Freedman, and D. Molnar. The Free Haven
+Project: Distributed anonymous storage service. In Proceedings of
+the Workshop on Design Issues in Anonymity and Unobservability,
+Berkeley, CA, July 2000.
+[5] gzip. http://www.gzip.org/.
+[6] F. Hartung and B. Girod. Digital watermarking of raw and com­pressed 
+video. In Proc. European EOS/SPIE Symposium on Ad­vanced 
+Imaging and Network Technologies, pages 205--213, Berlin,
+Germany, October 1996.
+[7] A. Hintz. Fingerprinting websites using traffic analysis. In Workshop
+on Privacy Enhancing Technologies, San Francisco, CA, April 2002.
+[8] IRCache. http://www.ircache.net/.
+[9] B.W. Lampson. A note on the confinement problem. Communica­tions 
+of the ACM, 16(10):613--615, October 1973.
+[10] J. Lee. Companies compete to provide Saudi Internet veil, Novem­ber 
+19, 2001. http://www.nytimes.com/2001/11/19/
+technology/19SAUD.html.
+[11] D. Martin and A. Schulman. Deanonymizing users of the SafeWeb
+anonymizing service. In Proc. 11th USENIX Security Symposium,
+San Francisco, CA, August 2002.
+[12] P. Meller. Europe moving toward ban on Internet hate speech,
+November 10, 2001. http://www.nytimes.com/2001/11/
+10/technology/10CYBE.html.
+[13] A. J. Menezes. Elliptic Curve Public Key Cryptosystems. Kluwer
+Academic Publishers, Boston, MA, 1993.
+[14] Nielsen Netratings' Top 25. http://pm.netratings.com/
+nnpm/owa/NRpublicreports.toppropertiesweekly,
+November 25, 2001.
+[15] OpenSSL. http://www.openssl.org/.
+[16] Outguess. http://www.outguess.org/.
+[17] N. Provos. Defending against statistical steganalysis. In Proc. 10th
+USENIX Security Symposium, Washington, D.C., August 2001.
+[18] M. Reiter and A. Rubin. Crowds: Anonymity for web trans­actions. 
+ACM Transactions on Information and System Security
+(TISSEC), 1:66--92, November 1998. http://www.research.
+att.com/projects/crowds/.
+[19] SafeWeb. http://www.safeweb.com/.
+[20] L. J. Schulman and D. Zuckerman. Asymptotically good codes cor­recting 
+insertions, deletions, and transpositions. In Symposium on
+Discrete Algorithms, pages 669--674, 1997.
+[21] Squid Web Proxy Cache. http://www.squid­cache.org/.
+[22] L. Stein et al. Writing Apache Modules with Perl and C: The Apache
+API and mod perl. O'Reilly and Associates, Sebastopol, CA, March
+1999.
+[23] Stunnel---universal SSL wrapper. http://www.stunnel.
+org/.
+[24] Zero­Knowledge Systems. Freedom WebSecure. http://www.
+freedom.net/products/websecure/.
+[25] P. Syverson, M. Reed, and D. Goldschlag. Onion routing access
+configurations. In DARPA Information Survivability Conference and
+Exposition, pages 34--40, Hilton Head Island, SC, January 2000.
+http://www.onion­router.net.
+[26] The Cult of the Dead Cow (cDc). Peekabooty. http://
+www­peek­a­booty.org.
+[27] Triangle Boy. http://fugu.safeweb.com/sjws/
+solutions/triangle_boy.html.
+[28] Voice of America. http://www.voa.gov/.
+[29] M. Waldman and D. Mazi‘eres. Tangler: A censorship­resistant pub­lishing 
+system based on document entanglements. In Proceedings of
+the 8th ACM Conference on Computer and Communications Secu­rity, 
+Philadelphia, PA, November 2001.
+[30] M. Waldman, A. Rubin, and L. Cranor. Publius: A robust, tamper­
+evident, censorship­resistant, web publishing system. In Proc. 9th
+USENIX Security Symposium, pages 59--72, Denver, CO, August
+2000.
+[31] I. H. Witten, R. M. Neal, and J. G. Cleary. Arithmetic coding for data
+compression. Communications of the ACM, 30(6):520--540, Febru­ary 1987.

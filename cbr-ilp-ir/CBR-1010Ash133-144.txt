@@ -1,0 +1,58 @@
+Reasoning with Reasons in
+Case-Based Comparisons
+
+Kevin D. Ashley and Bruce M. McLaren
+University of Pittsburgh, Pittsburgh, Pennsylvania 15260
+
+Abstract. In this work, we are interested in how rational decision makers reason
+with and about reasons in a domain, practical ethics, where they appear to reason
+about reasons symbolically in terms of both abstract moral principles and case
+comparisons. The challenge for reasoners, human and artificial, is to use abstract
+knowledge of reasons and principles to inform decisions about the salience of
+similarities and differences among cases while still accounting for a case's or
+problems specific contextual circumstances. TRUTH-TELLER is a program we
+have developed and tested that compares pairs of cases presenting ethical
+dilemmas about whether to tell the truth. The programs methods for reasoning
+about reasons help it to make context sensitive assessments of the salience of
+similarities and differences.
+
+References
+Aleven, V. and Ashley, K.D. (1994). An Instructional Environment for Practicing
+Argumentation Skills; In the Proceedings of AAAI-94, pages 485-492.
+Ashley, K.D. (1990). Modeling Legal Argument: Reasoning with Cases and
+Hypotheticals. MIT Press, Cambridge. Based on PhD. Dissertation.
+Ashley, K.D. and McLaren, B.M. (1994). A CBR Knowledge Representation for
+Practical Ethics; In Proceedings, 2d EWCBR.
+Bareiss, E. R. (1989). Exemplar-Based Knowledge Acquisition - A Unified Approach to
+Concept Representation, Classification, and Learning. Academic Press, San Diego,
+CA, 1989. Based on PhD dissertation, 1988.
+Bok, 5. (1989). Lying: Moral Choice in Public and Private Life. Random House, Inc.
+Vintage Books, New York.
+Branting, K. L. (1991). Building Explanations From Rules and Structured Cases. In the
+Journal of Man-Machine Studies. 34, 797-837.
+Edelson, D. C. (1992). When Should A Cheetah Remind You of a Bat? Reminding in
+Case-Based Teaching. In Proceedings of AAAI-92, 667-672. San Jose, CA.
+Gilligan, C. (1982). In a Different Voice. Harvard University Press.
+Hammond, K. (1989) Case-Based Planning -- Viewing Planning as a Memory Task. San
+Diego, CA: Academic Press.
+Jonsen A. R. and Toulmin 5. (1988). The Abuse of Casuistry: A History of Moral
+Reasoning. University of CA Press, Berkeley.
+Kass, A. M., Leake, D., and Owens, C. C. (1986). Swale: A Program that Explains. In
+Schank, R. C. (ed.), Explanation Patterns: Understanding Mechanically and
+Creatively. Lawrence Erlbaum Associates, Hillsdale, NJ.
+Kolodner, J. (1993) Case-Based Reasoning Morgan Kaufmann Publishers, Inc., San
+Mateo, CA.
+Koton, P. (1988) Using Experience in Learning and Problem Solving. PhD thesis, MIT.
+MacGregor R. and Burstein, M. H. (1991). Using a Description Classifier to Enhance
+Knowledge Representation. In IEEE Expert 6(3), pages 41-46.
+Rissland, E. L. and Skalak, D. B. (1991). CABARET: Rule Interpretation in a Hybrid
+Architecture. In the Journal of Man-Machine Studies. 34, pages 8 39-887.
+Rissland, E. L., Skalak, D. B., and Friedman, M. T. (1993). BankXX: A Program to
+Generate Argument through Case-Based Search. In Fourth International Conference
+on AI and Law, Vrie Universiteit, Amsterdam.
+Strong, C. (1988). Justification in Ethics. In Baruch A. Brody, ed., Moral Theory and
+Moral Judgments in Medical Ethics, pp. 193-211. Kiuwer, Dordrecht.
+Sycara, E. P. (1987). Resolving Adversarial Conflicts: An Approach Integrating Case-Based 
+and Analytic Methods Georgia Inst.Tech., Tech. Rep.GIT-ICS-87/26. Atlanta.
+Veloso, M. V. (1992). Learning by Analogical Reasoning in General Problem Solving.
+PhD thesis, Carnegie Mellon University. Technical Report No. CMU-CS-92-174.

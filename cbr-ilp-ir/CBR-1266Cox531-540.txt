@@ -1,0 +1,68 @@
+Supporting Combined Human and Machine Planning:
+An Interface for Planning by Analogical Reasoning
+
+Michael T. Cox and Manuela M. Veloso
+Computer Science Department. Carnegie Mellon University
+Pittsburgh, PA 15213-3891
+{mcox;mmv}@cs.cmu.edu
+
+
+Abstract. Realistic and complex planning situations require a mixed-initiative planning
+framework in which human and automated planners interact to mutually construct a
+desired plan. Ideally, this joint cooperation has the potential of achieving better plans than
+either the human or the machine can create alone. Human planners often take a case-based
+approach to planning, relying on their past experience and planning by retrieving and
+adapting past planning cases. Planning by analogical reasoning in which generative and
+case-based planning are combined, as in Prodigy/Analogy, provides a suitable framework
+to study this mixed-initiative integration. However, having a human user engaged in this
+planning loop creates a variety of new research questions. The challenges we found creating 
+a mixed-initiative planning system fall into three categories: planning paradigms differ
+in human and machine planning; visualization of the plan and planning process is a complex, 
+but necessary task; and human users range across a spectrum of experience, both
+with respect to the planning domaln and the underlying planning technology. This paper
+presents our approach to these three problems when designing an interface to incorporate
+a human into the process of planning by analogical reasoning with Prodigy/Analogy. The
+interface allows the user to follow both generative and case-based planning, it supports
+visualization of both plan and the planning rationale, and it addresses the variance in the
+experience of the user by allowing the user to control the presentation of information.
+
+
+References
+1.	Blythe, J. & Veloso, M. M. (in press). Analogical Replay for Efficient Conditional
+Planning. To appear in the Proceedings of the Fourteenth National Conference on
+Artificial Intelligence. Menlo Park, CA: AAAI Press.
+2.	Blythe, J., Veloso, M. M., & de Souza, L. (1997). The Pmdigy user interface (Tech.
+Rep. No. CMU-CS-97- 114). Carnegie Mellon University, Computer Science Dept.
+3.	Carbonell, J. G. (1986). Derivational analogy: A theory of reconstructive problem
+solving and expertise acquisition. In R. Michalski, J. Carbonell & T. Mitchell (Eds.),
+Machine learning: An artificial intelligence approach, VoL 2 (pp. 37 1-392). San
+Mateo, CA: Morgan Kaufmann.
+4.	Cox, M. T., & Veloso, M. M. (1997). Controlling for unexpected goals when planning
+in a mixed-initiative setting. Submitted.
+5.	Ferguson, G., Allen, J. F., & Miller, B. (1996). TRAINS-95: Towards a mixed-initiative 
+planning assistant. In Proceedings of the Third International Conference on AI
+Planning Systems (AIPS-96), Edinburgh, Scotland, May 29-31, 1996.
+6.	Fink, E., & Veloso, M. M. (1996). Formalizing the Prodigy planning algorithm. In M.
+Gahllab & A. Milani (Eds.), New Directions in AI Planning (pp. 261-271). Amsterdam: IOS Press
+7.	Hammond, K. J. (1989). Case-based planning: Viewing planning as a memory task.
+Vol. 1. of Perspectives in artificial intelligence. San Diego, CA: Academic Press.
+8.	Kolodner, J. L. (1993). Case-based reasoning. San Mateo, CA: Morgan Kaufmann.
+9.	Oates, T. & Cohen, P. R. (1994). Toward a plan steering agent: Experiments with
+schedule maintenance. In Proceedings of the Second International Conference on
+Planning Systems (AIPS-94) (pp. 134-139). Menlo Park, CA: AAAI Press.
+10.	Riesbeck, C. K., & Schank, R. C. (1989). Inside case-based reasoning (pp. 1-24).
+Hillsdale, NJ: Lawrence Erlbaum Associates.
+11.	Seifert, C. M., Hammond, K. J., Johnson, H. M., Converse, T. M., McDougal, T. F., &
+Vanderstoep, S. W. (1994). Case-based learning: Predictive features in indexing.
+Machine Learning, 16, 37-56.
+12.	Veloso, M. (1994). Planning and learning by analogical reasoning. Springer-Verlag.
+13.	Veloso, M. (1997). Merge strategies for multiple case plan replay. This volume.
+14.	Veloso, M., & Carbonell, I. G. (1993). Towards scaling up machine learning: A case
+study with derivational analogy in PRODIGY (pp. 233-272). In S. Minton (Ed.),
+Machine learning methods for planning. Morgan Kaufmann.
+15.	Veloso, M., Carbonell, J. G., Perez, A., Borrajo, D., Fink, E., & Blythe, J. (1995). Integrating 
+planning and learning: The PRODIGY architecture. Journal of Theoretical and
+Experimental Artificial Intelligence, 7(1), 81-120.
+16.	Veloso, M. M, Mulvehill, A., & Cox, M. T. (in press). Rationale-supported mixed-initiative 
+case-based planning. To appear in Proceedings of the Ninth Annual Conference
+on Innovative Applications of Artificial Intelligence. Menlo, Park, CA: AAAI Press.

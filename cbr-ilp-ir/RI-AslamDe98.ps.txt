@@ -1,0 +1,76 @@
+General Bounds on Statistical Query Learning
+and PAC Learning with Noise via Hypothesis Boosting
+
+Javed A. Aslam \Lambda
+Department of Computer Science
+Dartmouth College
+Hanover, NH 03755
+Scott E. Decatur y
+DIMACS Center
+Rutgers University
+Piscataway, NJ 08855
+
+Abstract
+We derive general bounds on the complexity of learning in the Statistical Query (SQ) model
+and in the PAC model with classification noise. We do so by considering the problem of boosting
+the accuracy of weak learning algorithms which fall within the SQ model. This new model was
+introduced by Kearns to provide a general framework for efficient PAC learning in the presence
+of classification noise.
+We first show a general scheme for boosting the accuracy of weak SQ learning algorithms,
+proving that weak SQ learning is equivalent to strong SQ learning. The boosting is efficient and
+is used to show our main result of the first general upper bounds on the complexity of strong
+SQ learning. Since all SQ algorithms can be simulated in the PAC model with classification
+noise, we also obtain general upper bounds on learning in the presence of classification noise for
+classes which can be learned in the SQ model.
+
+
+
+References
+Angluin, Dana. (1992). Computational learning theory: Survey and selected bibliography. In
+Proceedings of the 24 th Annual ACM Symposium on the Theory of Computing.
+Angluin, Dana and Philip Laird. (1988). Learning from noisy examples. Machine Learning,
+2(4):343--370.
+Anthony, Martin and Norman Biggs. (1992). Computational Learning Theory. Cambridge Tracts
+in Theoretical Computer Science (30). Cambridge University Press.
+Aslam, Javed and Scott Decatur. (1994). Improved noise­tolerant learning and generalized statis­tical 
+queries. Technical Report TR­17­94, Harvard University, July.
+Aslam, Javed and Scott Decatur. (1995). Specification and simulation of statistical query algo­rithms 
+for efficiency and noise tolerance. In Proceedings of the Eighth Annual ACM Workshop
+on Computational Learning Theory. ACM Press, July. Invited to a special issue of J Comp Sys
+Sci.
+Blumer, Anselm, Andrzej Ehrenfeucht, David Haussler, and Manfred K. Warmuth. (1989). Learn­ability 
+and the Vapnik­Chervonenkis dimension. Journal of the ACM, 36(4):929--865.
+Drucker, Harris, Robert Schapire, and Patrice Simard. (1992). Improving performance in neural
+networks using a boosting algorithm. In Advances in Neural Information Processing Systems.
+Morgan Kaufmann.
+Feller, William. (1968). An Introduction to Probability Theory and Its Applications, volume 1.
+John Wiley & Sons, third edition.
+Freund, Yoav. (1990). Boosting a weak learning algorithm by majority. In Proceedings of the Third
+Annual Workshop on Computational Learning Theory, pages 202--216. Morgan Kaufmann.
+Freund, Yoav. (1992). An improved boosting algorithm and its implications on learning complexity.
+In Proceedings of the Fifth Annual ACM Workshop on Computational Learning Theory, pages
+391--398. ACM Press.
+Goldman, Sally A., Michael J. Kearns, and Robert E. Schapire. (1990). On the sample complexity
+of weak learning. In Proceedings of the Third Annual Workshop on Computational Learning
+Theory, pages 217--231. Morgan Kaufmann.
+Graham, Ronald, Donald Knuth, and Oren Patashnik. (1994). Concrete Mathematics: A Founda­tion 
+for Computer Science. Addison­Wesley, second edition.
+Helmbold, David, Robert Sloan, and Manfred K. Warmuth. (1992). Learning integer lattices.
+SIAM Journal on Computing, 21(2):240--266.
+Kearns, Michael. (1993). Efficient noise­tolerant learning from statistical queries. In Proceedings
+of the 25 th Annual ACM Symposium on the Theory of Computing, pages 392--401, San Diego.
+Laird, Philip D. (1988). Learning from Good and Bad Data. Kluwer international series in engi­neering 
+and computer science. Kluwer Academic Publishers, Boston.
+Sakakibara, Yasubumi. (1991). Algorithmic Learning of Formal Languages and Decision Trees.
+Ph.D. thesis, Tokyo Institute of Technology, October. (International Institute for Advanced
+Study of Social Information Science, Fujitsu Laboratories Ltd, Research Report IIAS­RR­91­
+22E).
+Sauer, N. (1972). On the density of families of sets. Journal of Combinatorial Theory Series A,
+13:145--147.
+Schapire, Robert. (1990). The strength of weak learnability. Machine Learning, 5(2):197--226.
+Schapire, Robert E. (1992). The Design and Analysis of Efficient Learning Algorithms. MIT Press,
+Cambridge, MA.
+Valiant, Leslie. (1984). A theory of the learnable. Communications of the ACM, 27(11):1134--1142,
+November.
+Vapnik, V.N. and A.Ya. Chervonenkis. (1971). On the uniform convergence of relative frequencies
+of events to their probabilities. Theor. Probability Appl., 16(2):264--280.

@@ -1,0 +1,56 @@
+PROFIL : a decision support tool for metallic
+sections design using a CBR approach
+
+Jean Luc WYBO, Fréderic GEFFRAYE, Aline RUSSELL
+Ecole des Mines de Paris - CEMEF/IAM
+
+B.P. 207 - 06904 Sophia Antipolis Cedex (France)
+
+
+Abstract
+
+This paper presents the PROFIL system, a Decision Support Tool for the Design of
+metallic sections production. The PROFIL system uses a Case-Based Reasoning approach
+for the selection of pertinent former designs.
+Production of metallic sections is done by a succession of forming operations. The design
+task is composed of two parts : selection and scheduling of operations and assessment of
+forming tools geometry.
+The PROFIL system also provides support to production technicians, to input process
+parameters and control measurements as part of cases, and to adjust settings during pre-production trials.
+Selection of cases is made by following two orthogonal points of view, on similarity and
+quality of produced parts. Similarity is based on selection of relevant dimensions of the
+section, while quality is based on selection of potential defects. Each dimension or defect
+is associated to an evaluation function which uses a fuzzy logic approach. To improve
+ergonomy, relevant cases are displayed in a two-dimension space : similitude/quality.
+Implementation of the system has been done on a computer workstation, using a
+commercial DBMS, in order to cope with industrial requirements.
+The PROFIL system is operational in the industrial site and provides support to designers
+and process technicians.
+References
+
+[Cauzenille 85] Cauzenille-Marmeche E., Mathieu J., Weil-Barais A. “Raisonnement
+analogique et résolution de problèmes” l’année psychologique, (1985), 85, pp. 49-72
+[Darpa 89] “Case-Based Reasoning” in Proceedings of the DARPA Workshop on
+Case-Based Reasoning, Machine Learning Program Plan, DARPA ed., Pensacola
+Beach Florida, 1989
+[Geffraye 94] Geffraye F. “Aide à la conception d’outillage : apport de la simulation et
+du raisonnement par cas. Application à l’étirage de profilés métalliques” Thése de
+doctorat, Ecole des Mines de Paris, 1994
+[Levine 89] Levine P., Pomerol J.C. “Systèmes Interactifs d’Aide à la Décision et
+Systèmes experts” Traité des nouvelles technologies, Hermés ed., Paris 1989
+[Maurice-Demourioux 93] Maurice-Demourioux M., Lâasri B., Levallet C., Pinson
+S. “Le raisonnement à partir de cas : panorama et modélisation dynamique” in
+Séminaire Raisonnement à partir de cas, LAFORIA, Institut Blaise Pascal, Paris
+1993
+[Rougegrez 94] Rougegrez S. “Prédiction de processus à partir de comportements
+observés : le système REBECAS” Thése de doctorat, Université Paris VI, 1994
+[Schank 82] Schank R. “Dynamic memory : a theory of reminding and learning in
+computers and people” Cambridge University Press, 1982
+[Slade 91] Slade S. “Case-Based Reasoning : A Research Paradigm”, AI Magazine,
+1991, pp. 42-55
+[Trousse 93] Trousse B., Visser W. “Use of Case-Based Reasoning techniques for
+intelligent computer-aided design systems” in 1993 IEEE International Conference on
+Systems, Man and Cybernetics, IEEE, pp. 513-518
+[Visser 93] Visser W., Trousse B. “Reuse of designs : desesperately seeking an
+interdisciplinary cognitive approach” in Proccedings of IJCAI’93 Workshop on Reuse
+of designs, an Interdisciplinary approach, Chambéry, France, 1993

@@ -1,0 +1,144 @@
+Towards a Unified Theory of Adaptation
+in Case-Based Reasoning
+
+Béatrice Fuchs1, Jean Lieber2, Alain Mille3 and Amedeo Napoli2
+
+1 Université Lyon III, IAE, équipe Modeme
+15 Quai Claude Bernard, 69239 LYON cedex 02
+2 LORIA — UMR 7503, BP 239 — 54506 Vandoeuvre-lès-Nancy Cedex
+3 LISA-CPE, 43 Bd du 11 Novembre 1918, 69616 Villeurbanne Cedex
+Email: fuchs@univ—lyon3.fr, lieber@loria.fr
+am@cpe.fr, napoli@loria.fr
+
+
+
+Abstract. Case-based reasoning exploits memorized problem solving episodes,
+called cases, in order to solve a new problem. Adaptation is a complex and crucial
+step of case-based reasoning which is generally studied in the restricted framework 
+of an application domain. This article proposes a first analysis of case adaptation 
+independently from a specific application domain. It proposes to combine
+the retrieval and adaptation steps in a unique planning process that builds an ordered 
+sequence of operations starting from an initial state (the stated problem)
+and leading to a final state (the problem once solved). Thus, the issue of case
+adaptation can be addressed by studying the issue of plan adaptation. Finally, it is
+shown how case retrieval and case adaptation can be related thanks to reformulations 
+and similarity paths.
+References
+
+[Bergmann and Wilke, 1995] R. Bergmann and W. Wilke. Building and Refining Abstract Planning 
+Cases by Change of Representation Language. Journal of Artificial Intelligence Research,
+3:53—118, 1995.
+[Bergmann and Wilke, 1996] R. Bergmann and W. Wilke. PARIS : Flexible Plan Adaptation by
+Abstraction and Refinement. In A. Voß, R. Bergmann, and B. Bartsch-Spörl, editors, Workshop
+on Adaptation in Case-Based Reasoning, ECAI-96, Budapest, Hungary, August 1996.
+[Branting and Aha, 1995] L. K. Branting and D. W. Aha. Stratified Case-Based Reasoning:
+Reusing Hierarchical Problem Solving Episodes. In Proceedings of the 14th International
+Joint Conference on Artificial Intelligence (IJCAI’95), Montréal, volume 1, pages 384—390,
+August 1995.
+[Carbonell, 1986] J. G. Carbonell. Derivational analogy: A Theory of Reconstructive Problem
+Solving and Expertise Acquisition. In Machine Learning, volume 2, chapter 14, pages 371—
+392. Springer-Verlag, 1986.
+[Charniak and McDermott, 1985] E. Charniak and D.V. McDermott. Introduction to Artificial
+Intelligence. Addison Wesley, Reading, Massachusetts, 1985.
+[Chiron and Mille, 1997] B. Chiron and A. Mille. Aide à la conception d’environnements de
+supervision par réutilisation de l’expérience. In JICAA’97, ROSCOFF, 20-22 Mai 1997, pages
+181—187, 1997.
+[Fuchs et al., 1995] B. Fuchs, A. Mille, and B. Chiron. Operator decision aiding by adaptation of
+supervision strategies. In Lecture Notes in Artificial Intelligence vol 1010, First International
+Conference on Case-Based Reasoning, ICCBR’95, pages 23—32, Sesimbra, Portugal, 1995.
+Springer-Verlag, Berlin, Germany.
+[Hammond, 1989] Kristian Hammond. Case-based planning: viewing planning as a memory
+task. Academic Press, San Diego, 1989.
+[Hanks and Weld, 1995] 5. Hanks and D.S. Weld. A Domain-Independent Algorithm for Plan
+Adaptation. Journal ofArtificial Intelligence Research, 2:3191—360, 1995.
+[Herbeaux and Mille, 1998] O. Herbeaux and A. Mille. ACCELERE : un système d’aide à la
+conception de caoutchouc cellulaire exploitant la réutilisation de l’expérience. Journal Européen 
+des Systèmes Automatisés, 1998. Soumis au Journal Européen des Systèmes Automatisés, 
+disponible comme rapport de recherche.
+[Hua et al., 1994] K. Hua, I. Smith, and B. Faltings. Integrated Case-Based Building Design.
+In S. Wess, K.-D. Althoff, and M.M. Richter, editors, Topics in Case-Based Reasoning — First
+European Workshop (EWCBR’93), Kaiserslautern, Lecture Notes in Artificial Intelligence 837,
+pages 458—469. Springer Verlag, Berlin, 1994.
+[Hua et al., 1996] K. Hua, B. Faltings, and I. Smith. CADRE: case-based geometric design.
+Artificial Intelligence in Engineering, 10:171—183, 1996.
+[Ihrig and Kambhampati, 1997] L.H. Ihrig and S. Kambhampati. Storing and Indexing Plan
+Derivation through Explanation-based Analysis of Retrieval Failures. Journal of Artificial Intelligence 
+Research, 7:161—198, 1997.
+[Koehler, 1996] J. Kuehier. Planning from Second Principles. Artificial Intelligence, 87:145—
+186, 1996.
+[Kumar and Raphael, 1997] B. Kumar and B. Raphael. Cadrem: A case based system for conceptual 
+structural design. Engineering with Computers, 13(3):153—164, 1997.
+[Laird et al., 1987] J.E. Laird, A. Newell, and P.S. Rosenbloom. SOAR: An Architecture for
+General Intelligence. AI Magazine, 33(1): 1—64, 1987.
+[Leake et al., 1995] D. B. Leake, A. Kinley, and D. Wilson. Learning to Improve Case Adaptation 
+by Introspective Reasoning and CBR. In M. Veloso and A. Aamodt, editors, Case-Based
+Reasoning Research an Development. Proceedings of the First International Conference on
+Case-Based Reasoning - ICCBR-95, pages 229—240, Sesimbra, Portugal, 23—26 octobre 1995.
+Lecture Notes in Artificial Intelligence, volume 1010, Springer Verlag, Berlin.
+[Leake et al., 1996] D. B. Leake, A. Kinley, and D. Wilson. Acquiring case adaptation knowledge: 
+A hybrid approach. In Proceedings of the 14th National Conference on Artificial Intelligence, 
+Menlo Park, CA, pages 684-689. AAAI Press, Menlo Park, CA, 1996.
+[Leake et al., 1997a] D. B. Leake, A. Kinley, and D. Wilson. A Case Study of Case-Based CBR.
+In D. B. Leake and B. Plaza, editors, Case-Based Reasoning Research and Development —
+Second International Conference, ICCBR ‘97, Providence, RI, USA, Lecture Notes in Artificial
+Intelligence 1266, pages 37 1—382. Springer Verlag, Berlin, 1997.
+[Leake et al., 1997b] D. B. Leake, A. Kinley, and D. Wilson. Case-based similarity assessment:
+Estimating adaptability from experience. In Proceedings of the Fourteenth National Conference
+on Artificial Intelligence. AAAI Press, Menlo Park, CA, 1997.
+[Leake et al., 1997c] D. B. Leake, A. Kinley, and D. Wilson. Learning to integrate multiple
+knowledge sources for case-based reasoning. In Proceedings of the 15th International Joint
+Conference on Artificial Intelligence. Morgan Kaufmann, 1997.
+[Leake, 1993] D. B. Leake. Learning adaptation strategies by introspective reasoning about
+memory search. In AAA 193 Workshop on Case-Based Reasoning, pages 57—63, 1993.
+[Leake, 1995] D. B. Leake. Representing self-knowledge for introspection about memory
+search. In Proceedings of the AAAI Spring Symposium on Representing Mental States and
+Mechanisms, 1995.
+[Lieber and Napoli, 1996] J. Lieber and A. Napoli. Using Classification in Case-Based Planning.
+In W. Wahister, editor, Proceedings of the 12th European Conference on Artificial Intelligence
+(ECAI’96), Budapest, Hungary, pages 132—136. John Wiley & Sons, Ltd., 1996.
+[Lieber and Napoli, 1998] J. Lieber and A. Napoli. Correct and Complete Retrieval for Case-Based 
+Problem-Solving. In H. Prade, editor, Proceedings of the 13th European Conference on
+Artificial Intelligence (ECAI-98), Brighton, United Kingdom, pages 68—72, 1998.
+[Melis et al., 1998] E. Melis, J. Lieber, and A. Napoli. Reformulation in Case-Based Reasoning.
+In B. Smyth and P. Cunningham, editors, Fourth European Workshop on Case-Based Reasoning, 
+EWCBR-98, Lecture Notes in Artificial Intelligence 1488, pages 172—183. Springer, 1998.
+[Melis, 1995] E. Melis. A model of analogy-driven proof-plan construction. In Proceedings of
+the 14th International Joint Conference on Artificial Intelligence (IJCAI’95), pages 182—189,
+MontréaI, 1995.
+[Mille et al., 1995] A. Mille, J.-L. Di-Martino, and A. Michel. Adaptation : the key-point in
+Case Based Reasoning. A case study : Digester Programming Helping, 1995. presented at
+the Workshop on practical developments strategies for industrial strength Case Based Reasoning 
+applications, 16th International Conference on Artificial Intelligence, IJCAI’95, Montreal,
+Canada.
+[Mille et al., 1996] A. Mille, B. Fuchs, and O. Herbeaux. A unifying framework for Adaptation
+in Case-Based Reasoning. In A. Voß, editor, Proceedings of the ECAI’96 Workshop: Adaptation
+in Case-Based Reasoning, pages 22—28, 1996.
+[Mille et al., 1999] A. Mille, B. Fuchs, and B. Chiron. Le raisonnement fondé sur 1’expérience :
+un nouveau paradigme en supervision industrielle? à paraître dans la Revue d’Intelligence
+Artificielle, 1999.
+[Newell, 1980] A. Newell. Reasoning, Problem Solving, and Decision Processes: The Problem
+Space as a Fundamental Category. In R. Nickerson, editor, Attention and Performances VIII,
+pages 693—7 18. Lawrence Erlbaum Associates, Hillsdale, NJ, 1980.
+[Polya, 1957] G. Polya. How to Solve it. Doubleday Anchor Books, New York, NY, 1957.
+[Purvis and Pu, 1995] L. Purvis and P. Pu. Adaptation Using Constraint Satisfaction Techniques.
+In M. Veloso and A. Aamodt, editors, Case-Based Reasoning Research And Development. Pro-
+ceedings Of The First International Conference On Case-Based Reasoning - ICCBR-95, pages
+289—300, Sesimbra, Portugal, 23—26 Octobre 1995. Lecture Notes In Artificial Intelligence,
+Volume 1010, Springer Verlag, Berlin.
+[Smith et al., 1995] I. Smith, C. Lottaz, and B. Faltings. Spatial composition using case : Idiom. 
+In Manuela Veloso and Agnar Aamodt, editors, Case-Based Reasoning Reasearch And
+Development, Iccbr’95, pages 88—97, Sesimbra (Portugal), Octobre 1995.
+[Smith et al., 1996] I. Smith, R. Stalker, and C. Lottaz. Interactive case-based spatial composition. 1996.
+[Smyth and Keane, 1996] B. Smyth and M. I. Keane. Using adaptation knowledge to retrieve
+and adapt design cases. Knowledge-Based Systems, 9(2):127—1 35, 1996.
+[Smyth, 1996] B. Smyth. Case-Based Design. PhD thesis, Trinity College, University of Dublin,
+1996.
+[Veloso, 1994] M. M. Veloso. Planning and Learning by Analogical Reasoning. LNAI 886.
+Springer Verlag, Berlin, 1994.
+[Voß, 1996a] A. Voß, editor. Proceedings of the ECAI’96 Workshop. Adaptation in Case-Based
+Reasoning, 1996.
+[Voß, 1996b] A. Voß. Structural Adaptation with TOPO. In A. Voß, R. Bergmann, and
+B. Bartsch-Spörl, editors, Workshop on Adaptation in Case-Based Reasoning, ECAI-96, Budapest, 
+Hungary, August 1996.
+[Voß, 1996c] Angi Voß. How to solve complex problems with cases. Engineering applications
+of artificial intelligence, 9(4):377—384, 1996.

@@ -1,0 +1,65 @@
+A Knowledge Level Model
+of Knowledge-Based Reasoning
+
+	Eva Armengol	Enric Plaza
+
+Institut d’Investigació en Itelligència Artificial , C.S.I.C.
+Camí de Santa Bàrbara, 17300 Blanes, Catalunya, Spain.
+(plaza | eva}@ceab.es
+
+
+Abstract. We propose to analyze CBR systems at knowledge level following the
+Components of Expertise methodology. This methodology has been used for
+design and construction of KBS applications. We have applied it to analyze
+learning methods of existing systems at knowledge level. As example we
+develop the knowledge level analysis of CHEF. Then a common task structure
+of CBR systems is explained. We claim that this sort of analysis can be a first
+step to integrate different learning methods into case-based reasoning systems.
+References
+
+1.	A. Aamodt: A knowledge-intensive, integrated approach to problem solving
+and sustained learning. Ph. D. Dissertation. University of Trondheim (1991)
+2.	J. L. Arcos, E. Plaza: A reflective architecture for integrated memory-based
+learning and reasoning. European Workshop on Case-based Reasoning EWCBR’93
+(1994).
+
+
+3.	E. Armengol, E. Plaza: Analyzing case-based reasoning at the knowledge level.
+Research Report IIIA 93/14 (1993)
+
+
+4.	R. Bareiss: Exemplar-based knowledge acquisition. A unified approach to concept
+representation, classification and learning. Perspectives in Artificial Intelligence.
+Volume 2. Academic Press Inc. 1989.
+
+
+5.	T.G. Dietterich: Learning at the knowledge level. Machine Learning 3, 287-354
+(1986)
+
+
+6.	K.J. Hammond: Case-based planning. Viewing planning as a memory task.
+Perspectives in Artificial Intelligence. Volume 1. Academic Press, Inc. 1989.
+
+
+7.	P. Koton: Reasoning about evidence in causal explanations. Proceedings of the
+CBR Workshop (DARPA). (1988),
+
+
+8.	W.J. Long, S. Naimi, M.G. Criscitiello, and R. Jayes: Using a physiological model
+for prediction of therapy effects in heart disease. In: Proceedings of the Computers
+in Cardiology Conference, IEEE, October.(1986)
+
+
+9.	A. Newell: The knowledge level. Artificial Intelligence 18, 87-127 (1982).
+
+
+10.	L. Steels: Reusability and configuration of applications by non-programmers.
+VUB AI-Lab Research Report (1992)
+
+11.	W. Van de Velde: Issues in knowledge level modelling. J. M. David, J. P. Krivine
+and R. Simmons (Eds.) Second Generation Expert Systems. Springer Verlag
+Berlin.
+
+
+12.	B. Wielinga, A. Schreiber, J. Breuker: KADS: A modelling approach to
+knowledge engineering. Knowledge Acquisition 4(1) (1992)

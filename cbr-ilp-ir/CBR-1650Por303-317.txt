@@ -1,0 +1,69 @@
+Speed-Up, Quality and Competence
+in Multi-modal Case-Based Reasoning
+
+Luigi Portinale1, Pietro Torasso2, Paolo Tavano2
+
+1 Dipartimento di Scienze e Tecnologie Avanzate
+Universita’ del Piemonte Orientale “A. Avogadro” - Alessandria (ITALY)
+2 Dipartimento di Informatica
+Universita’ di Torino - Torino (ITALY)
+
+
+
+
+Abstract. The paper discusses the different aspects concerning performance 
+arising in multi-modal systems combining Case-Based Reasoning
+and Model-Based Reasoning for diagnostic problem solving. In particular, 
+we examine the relation among speed-up of problems solving, competence 
+of the system and quality of produced solutions. Because of the
+well-know utility problem, there is no general strategy for improving all
+these parameters at the same time, so the trade-off among such parameters 
+must he carefully analyzed. We have developed a case memory
+management strategy which allows the interleaving of learning of new
+cases with forgetting phases, where useless and potentially dangerous
+cases are identified and removed. This strategy, combined with a suitable 
+tuning on the precision required for the retrieval of cases (in terms
+of estimated adaptation cost), provides an effective mechanism for taking
+under control the utility problem. Experimental analysis performed on a
+real-world domain shows in fact that improvements over both speed-up
+and competence can be obtained, without compromising in a significant
+way the quality of solutions.
+References
+
+1.	D. Aha and J. Daniels (eds.). Proc. AAAI Workshop on CBR Integrations. AAAI
+Press, 1998.
+2.	L. Console, L. Portinale, D. Theseider Dupré, and P. Torasso. Combining heuristic
+and causal reasoning in diagnostic problem solving. In J.M. David, J.P. Krivine,
+and R. Simmons, editors, Second Generation Expert Systems, pages 46,68. Springer
+Verlag, 1993.
+3.	L. Console and P. Torasso. A spectrum of logical definitions of model-based diagnosis. 
+Computational Intelligence, 7(3): 133—141, 1991.
+4.	B. Freuder (ed.). AAAI Spring Symposium on Multi-modal Reasoning. AAAI
+Press, 1998.
+5.	A.G. Francis and A. Ram. The utility problem in case-based reasoning. Technical
+Report ER-93-08, Georgia Tech, 1993.
+6.	5. Minton. Learning effective search control knowledge: an EBL approach. Technical 
+Report CMU-CS-88-133, Dept. of Computer Science, Carnagie-Mellon Univ.,
+1988.
+7.	L. Portinale and P. Torasso. ADAPtER: an integrated diagnostic system combining
+case-based and abductive reasoning. In Proc. 1st ICCBR, LNAI 1010, pages 277—
+288. Springer Verlag, 1995.
+8.	L. Portinale and P. Torasso. On the usefulness of re-using diagnostic solutions. In
+Proc. 12th European Conf. on AI - ECAI 96, pages 137—14 1, Budapest, 1996.
+9.	L. Portinale and P. Torasso. Performance issues in ADAPtER a combined CBR-
+MBR diagnostic architecture. In Proc. AAAI Spring Sympos. on Multi-Modal
+Reasoning, pages 47—52, AAAI Press, Stanford, 1998.
+10.	L. Portinale, P. Torasso, and D. Magro. Selecting most adaptable diagnostic solutions 
+through Pivoting-Based Retrieval. In Proc. 2nd ICCBR, LNAI 1266, pages
+393—402. Springer Verlag, 1997.
+11.	L. Portinale, P. Torasso, and P. Tavano. Dynamic case memory management. In
+Proc. ECAI 98, pages 73—78, Brighton, 1998.
+12.	B. Smyth and P. Cunningham. The utility problem analysed: a case-based reasoning 
+perspective. In LNAI 1168, pages 392—399. Springer Verlag, 1996.
+13.	B. Smyth and M.T. Keane. Remembering to forget. In Proc. 14th IJCAI, pages
+377—382,	Montreal, 1995.
+14.	B. Smyth and E. McKenna. Modeling the competence of case-bases. In Proc. 4th
+EWCBR, LNAI 1488, pages 208—220. Springer Verlag, 1998.
+15.	M. van Someren, J. Surma, and P. Torasso. A utility-based approach to learning in
+a mixed case-based and model-based reasoning architecture. In Proc. 2nd ICCBR,
+LNAI 1266, pages 477—488. Springer Verlag, 1997.

@@ -1,0 +1,93 @@
+Case-Based Reasoning for Expertise Relocation
+in Support of Rural Health Workers
+in Developing Countries
+
+Elisha T. O. Opiyo
+
+Faculty of Information Sciences, Moi University, P.O. Box 3900,
+Eldoret, Kenya.
+
+Current address: Department of Computing Mathematics, University of
+Wales College of Cardiff, P.O. Box 916, Cardiff CF2 4YN, United
+Kingdom.
+e-mail: elisha.t.o.opiyo@cm.cf.ac.uk
+
+Abstract
+
+Developing countries still suffer lack of adequate skilled medical health personnel and poor
+infrastructure. Expert systems have been identified as potential tools in addressing some
+aspects of these problems. In particular, most of the earlier researchers investigated the
+possibility of incorporating diagnostic-support applications in the medical work place. They
+did so by using expert systems that were built around representations such as production rules,
+frames, scripts and semantic networks. In this paper, a report on a different approach is given.
+A MEdical Reference SYstem(MERSY) is proposed. The basis of the design of MERSY is the
+case-based reasoning paradigm with some underlying domain model. This system therefore
+gets around the limitations of traditional expert systems that are related to knowledge
+representation and acquisition. The work also a emphasizes a high level of physical
+portability, hence the relocation of expertise. It is an on-going research.
+6 References
+
+[Barr & Feigenbaum 82] Avron Barr, Edward Feigenbaum (Editors), The Handbook
+of Artificial Intelligence, Volume II, Heuristech Press, 1982.
+
+[DARPA 89] DARPA, Case-Based Reasoning from DARPA: Machine Learning
+Program Plan, in Proceedings of a Workshop on Case-Based Reasoning, Morgan
+Kaufmann Publishers, Inc., 1989.
+
+[Doukidis 94] Doukidis G., I., Cornford T., Forster D., Medical Expert Systems for
+Developing Countries: Evaluation in Practice, in Jay Liebowitz (Editor), Expert
+Systems With Applications, Vol. 7, No. 2, pp. 22 1-233, 1994.
+
+[Forster 92] Dayo Forster, Expert Systems in Health for Developing coun fries:
+Practice, problems and potential, International Development Research Centre, 1992.
+
+[Georgin 95] E.Georgin, F.Bordin, J.R. McDonald, Using prototypes in case based
+diagnosis of steam turbines, in IEE Case Based Reasoning:prospects for
+applications, Digest No: 1995/047,1995.
+
+[Hammond 89] Kristian J. Hammond, Case-Based Planning: Viewing Planning as a
+memory task, Academic Press, Inc., 1989.
+
+[Kathleen & Howard 90] Kathleen K., Howard B., Medical AI systems as
+appropriate technology for developing countries, in The Knowledge Engineering
+Review, No.5:4,1990,251-263.
+
+[Kolodner 93] Janet Kolodner, Case-Based Reasoning, Morgan Kaufmann
+Publishers, 1993.
+
+[Magaldi 94] R.V.Magaldi, CBR for troubleshooting aircraft on the flightline, in IEE
+Case Based Reasoning:prospects for applications, Digest No: 1994/057, 1994.
+
+[Maguire 95] P. Maguire, V. Shankaraman, R. Szegfue, L. Moriss, Application of
+Case-Based Reasoning (CBR) to Software Reuse, in I.Watson, F.Marir & S.Perera
+(Editors), Proceedings of the First United Kingdom Case-Based Reasoning
+Workshop, The British Computer Society, 1995.
+
+[Moore 94] C.J.Moore, M.S.Lehane, C.J.Price, Case Based Reasoning for decision
+support in engineering design, in IEE Case Based Reasoning:prospects for
+applications, Digest No: 1994/057,1994.
+[Price & Pegler 95] C.J.Price, I.S. Pegler, Wayland:Efficiency improvements in
+aluminium die casting, in lEE Case Based Reasoning.prospects for applications,
+Digest No: 1995/047,1995.
+
+[Schank 82] Roger C. Schank, Dynamic memory: a theory of reminding and learning
+in computers and people, Cambridge University Press, 1982.
+
+[Slade 91] Stephen Slade, Case-Based Reasoning: A Research Paradigm, in AI
+Magazine 0738-4602/91.
+
+[Sloman 85] Aaron Sloman, Why we need many knowledge representation
+formalisms, in M. A. Bramer (Editor), Research and Development in Expert Systems,
+Cambridge University Press, 1985.
+
+[Waterman 86] Donald A., Waterman, A guide to expert systems, Addison-Wesley
+Publishing Company, 1986.
+
+[Watson 94] Ian Watson, Case-Based Reasoning: A Review, in Knowledge
+Engineering Review, Vol. 9, No. 4, 1994.
+
+[World Bank 93] World Bank, World Development Report 1993:Investing in Health,
+Oxford University Press, 1993.
+
+World Bank 94] World Bank, World Development Report 1994. Infrastructure for
+development, Oxford University Press, 1994.

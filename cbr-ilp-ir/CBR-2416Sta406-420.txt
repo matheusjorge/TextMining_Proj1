@@ -1,0 +1,63 @@
+Defining Similarity Measures:
+Top-Down vs. Bottom-Up
+
+Armin Stahl
+
+University of Kaiserslautern, Computer Science Department
+Artificial Intelligence - Knowledge-Based Systems Group
+67653 Kaiserslautern, Germany
+stahl@informatik.uni-ki.de
+
+
+
+Abstract. Defining similarity measures is a crucial task when developing 
+CBR applications. Particularly, when employing utility-based similarity 
+measures rather than pure distance-based measures one is confronted 
+with a difficult knowledge engineering task. In this paper we
+point out some problems of the state-of-the-art procedure to defining
+similarity measures. To overcome these problems we propose an alternative 
+strategy to acquire the necessary domain knowledge based on a Machine 
+Learning approach. To show the feasibility of this strategy several
+application scenarios are discussed and some results of an experimental
+evaluation for one of these scenarios are presented.
+References
+
+1.	R. Bergmann, M. Michael Richter, S. Schmitt, A. Stahl, and I. Volirath. Utility-oriented 
+matching: A new research direction for Case-Based Reasoning. In Professionelles 
+Wissensmanagement: Erfahrungen und Visionen. Proceedings of the 1st
+Conference on Professional Knowledge Management. Shaker, 2001.
+2.	A. Bonzano, P. Cunningham, and B. Smyth. Using introspective learning to improve 
+retrieval in CBR: A case study in air traffic control. In Proceedings of the
+2nd International Conference on Case-Based Reasoning. Springer, 1997.
+3.	K. Branting. Acquiring customer preferences from return-set selections. In Proceedings 
+of the 4th International Conference on Case-Based Reasoning. Springer,
+2001.
+4.	Pedro Domingos. The role of occam’s razor in knowledge discovery. Data Mining
+and Knowledge Discovery, 3(4):409—425, 1999.
+5.	A. Goker. Capturing information need by learning user context. In Working Notes
+of the Workshop on Learning about Users, 16th International Joint Conference in
+Artificial Intelligence, 1999.
+6.	J. Jarmulak, S. Craw, and R. Rowe. Genetic algorithms to optimise CBR retrieval.
+In Proceedings of the 5th European Workshop on Case-Based Reasoning. Springer,
+2000.
+7.	D. Leake, A. Kinley, and D. Wilson. Linking adaptation and similarity learning.
+In Proceedings of the 18th Annual Conference of the Cognitive Science Society.
+Hillsdale, NJ: Lawrence Erlbaum, 1996.
+8.	D. Leake and D. Wilson. Remembering why to remember: Performance-guided
+case-base maintenance. In Proceedings of the 5th European Workshop on Case-Based 
+Reasoning: Advances in Case-Based Reasoning. Springer, 2000.
+9.	T. Reinartz, I. Iglezakis, and T. Roth-Berhofer. On quality measures for case
+base maintenance. In Proceedings of the 5th European Workshop on Case-Based
+Reasoning: Advances in Case-Based Reasoning. Springer, 2000.
+10.	B. Smyth and M. T. Keane. Retrieving adaptable cases: The role of adaptation
+knowledge in case retrieval. In Proceedings of the 1st European Workshop on Case-Based 
+Reasoning. Springer, 1993.
+11.	B. Smyth and E. McKenna. Modelling the competence of case-bases. In Proceedings
+of the 4th European Workshop on Case-Based Reasoning. Springer, 1998.
+12.	A. Stahl. Learning feature weights from case order feedback. In Proceedings of the
+4th International Conference on Case-Based Reasoning. Springer, 2001.
+13.	Dietrich Wettschereck and David W. Aha. Weighting features. In Proceeding of
+the 1st International Conference on Case-Based Reasoning. Springer Verlag, 1995.
+14.	Z. Zhang and Q. Yang. Dynamic refiniement of feature weights using quantitative
+introspective learning. In Proceedings of the 16th International Joint Conference
+on Artificial Intelligence, 1999.

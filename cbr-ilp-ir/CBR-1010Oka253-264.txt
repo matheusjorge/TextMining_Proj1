@@ -1,0 +1,80 @@
+An Average-Case Analysis of
+k-Nearest Neighbor Classifier
+
+Seishi Okamoto and Ken Satoh
+
+Fujitsu Laboratories Limited
+1015 Kamikodanaka, Nakahara-ku, Kawasaki 211, Japan
+E-Mail: {seishi, ksatoh}@flab.fujitsu.co.jp
+
+
+Abstract. In this paper, we perform an average-case analysis of k-nearest 
+neighbor classifier (k-NNC) for a subclass of Boolean threshold
+functions. Our average-case analysis is based on the formal computation 
+for the predictive accuracy of the classifier under the assumption of
+noise-free Boolean features and a uniform instance distribution. The predictive 
+accuracy is represented as a function of the number of features,
+the threshold, the number of training instances, and the number of nearest 
+neighbors. We also present the predictive behavior of the classifier
+by systematically varying the values of the parameters of the accuracy
+function. We plot the behavior of the classifier by varying the value of
+k, and then we observe that the performance of the classifier improves
+as k increases, then reaches a maximum before starting to deteriorate.
+We further investigate the relationship between the number of training
+instances and the optimal value of k We then observe that optimum k
+increases gradually as the number of training instances increases.
+References
+
+1.	Aha, D. W. Incremental Instance-Based Learning of Independent and Graded Concept 
+Descriptions. Proceedings of the Sixth International Workshop on Machine
+Learning, 387—391, 1989.
+2.	Aha, D. W. and Kibler, D. Noise-Tolerant Instance-Based Learning Algorithms.
+Proceedings of the Eleventh International Joint Conference on Artificial Intelligence
+(IJCAI’89), 794—799, 1989.
+3.	Aha, D. W., Kibler, D. and Albert, M. K. Instance-Based Learning Algorithms.
+Machine Learning, 6, 37—66, 1991.
+4.	Albert, M. K. and Aha, D. W. Analyses of Instance-Based Learning Algorithms.
+Proceedings of the Ninth National Conference on Artificial Intelligence (AAAI’91),
+553—558, 1991.
+5.	Bailey, T. and Jain, A. A Note on Distance-weighted K-Nearest Neighbor Rules.
+IEEE Transactions on Systems, Man, and Cybernetics, 8(4), 311—313, 1978.
+6.	Cardie, C. Using Decision Trees to Improve Case-Based Learning. Proceedings of
+the Tenth International Conference on Machine Learning, 25—32, 1993.
+7.	Cost, S. and Salzberg, S. A Weighted Nearest Neighbor Algorithm for Learning with
+Symbolic Features. Machine Learning, 10, 57—78, 1993.
+8.	Cover, T. M. and Hart, P. E. Nearest Neighbor Pattern Classification. IEEE Transactions 
+on Information Theory, 13(1), 21—27, 1967.
+9.	Cover, T. M. and Hart, P. E. Estimation by the Nearest Neighbor Rule. IEEE
+Transactions on Information Theory, 14(1), 50—55, 1968.
+10.	Dudani, S. A. The Distance-Weighted k-Nearest-Neighbor Rule. IEEE Transactions 
+on Systems, Man, and Cybernetics, 6(4), 325—327, 1976.
+11.	Hirschberg, D. S. and Pazzani, M. J. Average-Case Analysis of learning k-CNF
+concept. Proceedings of the Ninth International Conference on Machine Learning,
+206—211, 1992.
+12.	Kelly, Jr. J. D. and Davis, L. A Hybrid Genetic Algorithm for Classification. Proceedings 
+of the Twelfth International Joint Conference on Artificial Intelligence (IJCAI’91), 645—650, 1991.
+13.	Langley, P., Iba, W., and Thompson, K. An Analysis of Bayesian Classifiers. Proceedings 
+of the Tenth National Conference on Artificial Intelligence (AAAI’92), 223—228, 1992.
+14.	Langley, P. and Iba, W. Average-Case Analysis of a Nearest Neighbor Algorithm.
+Proceedings of the Thirteenth International Joint Conference on Artificial Intelligence
+(IJCAI’93), 889—894, 1993.
+15.	Murphy, P. M. and Pazzani, M. J. 1D2-of-3: Constructive Induction of M-o f-N
+Concepts for Discriminators in Decision Trees. Proceedings of the Eighth International
+Workshop on Machine Learning, 183—187, 1991.
+16.	Okamoto, S. and Satoh, K. A Mathematical Predictive Accuracy for the Nearest 
+Neighbor Classifier. Proceedings of Second European Workshop on Case-Based
+Reasoning (EWCBR’94), 347—355, 1994.
+17.	Pazzani, M. J. and Sarrentt, W. A Framework for Average Case Analysis of Conjunctive 
+Learning Algorithms. Machine Learning, 9, 349—372, 1992.
+18.	Pitt, L. and Valiant, L. G. Computational Limitations on Learning from Examples.
+the Association for Computing Machinery, 35(4), 965—984, 1988.
+19.	Rachlin, J., Kasif, S., Salzberg, S., and Aha, D. W. Toward a Better Understanding 
+of Memory-Based Reasoning Systems. Proceedings of the Eleventh International
+Conference on Machine Learning, 242—250, 1994.
+20.	Satoh, K. and Okamoto, S. Toward PAC-Learning of Weights from Qualitative
+Distance Information. Proceedings of AAAI’94 Workshop on CBR, 128—132, 1994.
+21.	Skalak, D. B. Prototype and Feature Selection by Sampling and Random Mutation
+Hill Climbing Algorithms. Proceedings of the Eleventh International Conference on
+Machine Learning, 293—301, 1994.
+22.	Stanfill, C. and Waltz, D. L. Toward Memory-Based Reasoning. Communication
+of the Association for Computing Machinery, 29(12), 1213—1228, 1986.

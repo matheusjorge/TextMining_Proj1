@@ -1,0 +1,84 @@
+Efficient Reliable Communication
+over Partially Authenticated Networks
+
+Amos Beimel
+Computer Science Department
+Ben Gurion University, Beer Sheva 84105, Israel.
+beimel@cs.bgu.ac.il
+Lior Malka
+Computer Science Department
+Ben Gurion University, Beer Sheva 84105, Israel.
+liorma@cs.bgu.ac.il
+
+ABSTRACT
+Reliable communication between parties in a network is a basic
+requirement for executing any protocol. Dolev [4] and Dolev et
+al. [5] showed that reliable communication is possible if and only
+if the communication network is sufficiently connected. Beimel
+and Franklin [1] showed that the connectivity requirement can be
+relaxed if some pairs of parties share authentication keys. That is,
+costly communication links can be replaced by authentication keys.
+In this work, we continue this line of research. We consider the
+scenario where there is a specific sender and a specific receiver.
+In this case, the protocol of [1] has n O(n) rounds even if there is
+a single Byzantine processor. We present a more efficient proto­col 
+with round complexity of (n=t) O(t) , where n is the number of
+processors in the network and t is an upper bound on the number
+of Byzantine processors in the network. Specifically, our protocol
+is polynomial when the number of Byzantine processors is O(1),
+and for every t its round complexity is bounded by 2 O(n) . The
+same improvements hold for reliable and private communication.
+The improved protocol is obtained by analyzing the properties of a
+``communication and authentication graph'' that characterizes reliable 
+communication.
+
+
+7. REFERENCES
+[1] A. Beimel and M. Franklin. Reliable communication over
+partially authenticated networks. Theoretical Computer
+Science, 220:185--210, 1999.
+[2] Y. Desmedt and Y. Wang. Secure communication in
+multi­cast channels: The answer to Franklin and Wright's
+question. J. of Cryptology, 14(2):121--135, 2001.
+[3] Y. Desmedt and Y. Wang. Perfectly secure message
+transmission revisited. In L. Knudsen, editor, Advances in
+Cryptology -- EUROCRYPT 2002, Lecture Notes in
+Computer Science, pages 502--517. Springer­Verlag, 2002.
+[4] D. Dolev. The Byzantine generals strike again. J. of
+Algorithms, 3:14--30, 1982.
+[5] D. Dolev, C. Dwork, O. Waarts, and M. Yung. Perfectly
+secure message transmission. J. of the ACM, 40(1):17--47,
+1993.
+[6] C. Dwork, D. Peleg, N. Pippenger, and E. Upfal. Fault
+tolerance in networks of bounded degree. SIAM J. on
+Computing, 17(5):975--988, 1988.
+[7] S. Even. Graph Algorithms. Computer Science press, 1979.
+[8] M. J. Fischer, N. A. Lynch, and M. Merritt. Easy
+impossibility proofs for distributed consensus problems.
+Distributed Computing, 1(1):26--39, 1986.
+[9] M. Franklin and R. N. Wright. Secure communication in
+minimal connectivity models. J. of Cryptology, 13(1):9--30,
+2000.
+[10] M. Franklin and M. Yung. Secure hyper­graphs: privacy
+from partial broadcast. In Proc. of the 25th Annu. ACM
+Symp. on the Theory of Computing, pages 36--44, 1993.
+[11] O. Goldreich, S. Goldwasser, and N. Linial. Fault­tolerant
+computation in the full information model. In Proc. of the
+32nd Annu. IEEE Symp. on Foundations of Computer
+Science, pages 447--457, 1991.
+[12] N. A. Lynch. Distributed Algorithms. Morgan Kaufman
+Publishers, 1997.
+[13] T. Rabin and M. Ben­Or. Verifiable secret sharing and
+multi­party protocols with honest majority. In Proc. of the
+21st Annu. ACM Symp. on the Theory of Computing, pages
+73--85, 1989.
+[14] H. M. Sayeed and H. Abu­Amara. Efficient perfectly secure
+message transmission in synchronous networks. Information
+and Computation, 126:53--61, 1996.
+[15] G. J. Simmons. A survey of information authentication. In
+G. J. Simmons, editor, Contemporary Cryptology, The
+Science of Information Integrity, pages 441--497. IEEE Press,
+1992.
+[16] E. Upfal. Tolerating a linear number of faults in networks of
+bounded degree. Information and Computation,
+115(2):312--320, 1994.

@@ -1,0 +1,60 @@
+PAC Analyses of a ‘Similarity Learning’ IBL
+Algorithm
+
+A.D. Griffiths and D.G. Bridge
+
+Department of Computer Science, University of York, York YO1 5DD, UK
+Email: {tony|dgb}@minster.york.ac.uk
+
+
+
+Abstract. VS-CBR [14] is a simple instance-based learning algorithm
+that adjusts a weighted similarity measure as well as collecting cases.
+This paper presents a ‘PAC’ analysis of VS-CBR, motivated by the
+PAC learning framework, which demonstrates two main ideas relevant
+to the study of instance-based learners. Firstly, the hypothesis spaces of
+a learner on different target concepts can be compared to predict the
+difficulty of the target concepts for the learner. Secondly, it is helpful to
+consider the ‘constituent parts’ of an instance-based learner: to explore
+separately how many examples are needed to infer a good similarity
+measure and how many examples are needed for the case base. Applying
+these approaches, we show that VS-CBR learns quickly if most of the
+variables in the representation are irrelevant to the target concept and
+more slowly if there are more relevant variables. The paper relates this
+overall behaviour to the behaviour of the constituent parts of VS-CBR.
+
+References
+
+1.	D. W. Aha. Tolerating noisy, irrelevant and novel attributes in instance-based learning algorithms. 
+International Journal of Man-Machine Studies, 36:267—287, 1992.
+2.	D. W. Aha, D. Kibler, and M. K. Albert. Instance-based learning algorithms. Machine Learning, 
+6:37—66, 1991.
+3.	M. Anthony and N. Biggs. Computational Learning Theory. Cambridge University Press,
+1992.
+4.	A. Blumer, A. Ehrenfeucht, D. Haussler, and M. K. Warmuth. Learnability and the Vapnik-Chervonenkis 
+dimension. Journal of the ACM, 36(4):929—965, Oct 1989.
+5.	J. P. Callan, T. E. Fawcett, and E. L. Rissland. CABOT: An adaptive approach to case-based
+search. In Proceedings of IJCAI-91, pp 803—808, Morgan Kaufmann, 1991.
+6.	C. Globig, K. P. Jantke, S. Lange, and Y. Sakakibara. On case-based learnability of languages.
+New Generation Computing, 15(1), 1997.
+7.	A. D. Griffiths. Inductive Generalisation in Case-Based Reasoning Systems. PhD thesis,
+Published as Technical Report YCST-97-02, Department of Computer Science, University of 
+York, York VOl 5DD, UK, 1997.
+8.	K. P. Jantke. Case-based learning in inductive inference. In Proceedings of COLT92, pp 218-
+223.	ACM Press, 1992.
+9.	P. Langley and W. Iba. Average-case analysis of a nearest neighbour algorithm. In R Bajcsy,
+editor, Proceedings of IJCAI-93, pp 889—894. Morgan Kaufmann, 1993.
+10.	T. M. Mitchell. Generalisation as search. Artificial Intelligence, 18(2):203—226, 1982. 
+11.	K. Satob and S. Okamoto. Towards PAC-learning of weights from qualitative distance information. 
+In D W Aba, editor, Case-based reasoning: Papers from the 1994 AAAI Workshop,
+Technical Report WS-94-01. AAAI Press, 1994.
+12.	C. Stanfill and D. L. Waltz. Towards memory-based reasoning. Communications of the ACM, 
+29(12):1213—1228, 1986.
+13.	L. G. Valiant. Deductive learning. Philosophical Transactions of the Royal Philosophical
+Society of London A, 312:441—446, 1984.
+14.	S. Wess and C. Globig. Case-based and symbolic classification - A case study. In S Wess, K-D
+Althoff, and M M Richter, editors, Topics in CBR: Selected Papers from EWCBR93, LNCS -
+837, pp 77—91. Springer-Verlag, 1994.
+15.	D. Wettschereck, D. W. Aha, and T. Mohri. A review and comparative evaluation of feature
+weighting methods for lazy learning algorithms. Technical Report AIC-95-012, Navy Center for
+Applied Research in Al, Naval Research Laboratory, Washington, DC 20375-5337, USA, 1995.

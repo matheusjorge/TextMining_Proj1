@@ -1,0 +1,120 @@
+A Note on Two Simple Transformations for
+Improving the Efficiency of an ILP System
+
+Vitor Santos Costa1, Ashwin Srinivasan2, and Rui Camacho3
+
+1 COPPE/Sistemas, UFRJ, Brazil and LIACC, Universidade do Porto, Portugal
+2 Oxford University Comp. Lab., Wolfson Bldg., Parks Rd, Oxford, UK
+3 LIACC and FEUP, Universidade do Porto, Portugal
+
+
+Abstract. Inductive Logic Programming (JLP) systems have had noteworthy 
+successes in extracting comprehensible and accurate models for
+data drawn from a number of scientific and engineering domains. These
+results suggest that ILP methods could enhance the model-construction
+capabilities of software tools being developed for the emerging discipline
+of “knowledge discovery from databases.” One significant concern in the
+use of JLP for this purpose is that of efficiency. The performance of modern 
+ILP systems is principally affected by two issues: (1) they often have
+to search through very large numbers of possible rules (usually in the
+form of definite clauses); (2) they have to score each rule on the data
+(usually in the form of ground facts) to estimate “goodness” . Stochastic
+and greedy approaches have been proposed to alleviate the complexity
+arising from each of these issues. While these techniques can result in
+order-of-magnitude improvements in the worst-case search complexity of
+an ILP system, they do so at the expense of exactness. As this may be
+unacceptable in some situations, we examine two methods that result in
+admissible transformations of clauses examined in a search. While the
+methods do not alter the size of the search space (that is, the number 
+of clauses examined), they can alleviate the theorem-proving effort
+required to estimate goodness. The first transformation simply involves
+eliminating literals using a weak test for redundancy. The second involves
+partitioning the set of literals within a clause into groups that can be
+executed independently of each other. The efficacy of these transformations 
+are evaluated empirically on a number of well-known LLP datasets.
+The results suggest that for problems that require the use of highly 
+non-determinate predicates, the transformations can provide significant gains
+as the complexity of clauses sought increases.
+References
+
+[1]	R. Benigni. (Q)SAR prediction of chemical carcinogenicity and the biological side
+of the structure activity relationship. In Proceedings of The Eighth International
+Workshop on QSARs in the Environmental Sciences, 1998. Held in Baltimore,
+May 16-20, 1998.
+[2]	I. Bratko and M.Grobelnik. Inductive learning applied to program construction
+and verification. In Third International Workshop on Inductive Logic Programming, 
+pages 279—292, 1993. Available as Technical Report IJS-DP-6707, J. Stefan
+Inst., Ljubljana, Slovenia.
+[3]	M. Codish, M. Bruynooghe, M. G. de la Banda, and M. Hermenegildo. Exploiting
+goal independence in the analysis of logic programs. Journal of Logic Programming, 
+32(3), 1997.
+[4]	J. Cussens. Part-of-Speech Tagging Using Progol. In S. Dzeroski and N. Lavrac,
+editors, Proceedings of the Seventh International Workshop on ILP, volume 1297
+of LNAI, pages 93—108. Springer, 1997.
+[5]	A.K. Debnath, R.L Lopez de Compadre, G. Debnath, A.J. Schusterman, and
+C. Hansch. Structure-Activity Relationship of Mutagenic Aromatic and Heteroaromatic 
+Nitro compounds. Correlation with molecular orbital energies and
+hydrophobicity. Journal of Medicinal Chemistry, 34(2):786 — 797, 1991.
+[6]	L. Dehaspe, H. Toivonen, and R.D. King. Finding frequent substructures in chemical 
+compounds. In Proceedings of the Fourth International Conference on Knowledge 
+Discovery and Data Mining (KDD-98), pages 30—36. AAAI Press, 1998.
+[7]	B. Dolsak and S. Muggleton. The application of Inductive Logic Programming to
+finite element mesh design. In S. Muggleton, editor, Inductive Logic Programming,
+pages 453—472. Academic Press, London, 1992.
+[8]	S. Dzeroski, L. Dehaspe, B. Ruck, and W. Walley. Classification of river water
+quality data using machine learning. In Proceedings of the Fifth International
+Conference on the Development and Application of Computer Techniques Environmental 
+Studies, 1994.
+[9]	C. Feng. Inducing temporal fault dignostic rules from a qualitative model. In
+S. Muggleton, editor, Inductive Logic Programming, pages 473—486. Academic
+Press, London, 1992.
+[10]	R.D. King, S.H. Muggleton, A. Srinivasan, and M.J.E. Sternberg. Structure-activity 
+relationships derived by machine learning: The use of atoms and their
+bond connectivities to predict mutagenicity by inductive logic programming. Proc.
+of the National Academy of Sciences, 93:438—442, 1996.
+[11]	R.D. King, S.H. Muggleton, and M.J.E. Sternberg. Drug design by machine learning: 
+The use of inductive logic programming to model the structure-activity relationships 
+of trimethoprim analogues binding to dihydrofolate reductase. Proc. of
+the National Academy of Sciences, 89(23):11322—11326, 1992.
+[12]	D. E. Knuth. An Empirical Study of FORTRAN Programs. Software—Practice
+and Experience, 1:105—133, 1971.
+[13]	D. B. Loveman. Program improvement by source-to-source transformation.
+JACM, 24(1):121—145, 1977.
+[14]	S. Muggleton. Inductive Logic Programming: derivations, successes and shortcomings. 
+SIGART Bulletin, 5(1):5—11, 1994.
+[15]	S. Muggleton. Inverse Entailment and Progol. New Gen. Comput., 13:245—286,
+1995.
+[16]	S. Muggleton, R. King, and M. Sternberg. Predicting protein secondary structure
+using inductive logic programming. Protein Engineering, 5:647—657, 1992.
+[17]	S.H. Muggleton and C. Feng. Efficient induction of logic programs. In Proceedings
+of the First Conference on Algorithmic Learning Theory, Tokyo, 1990. Ohmsha.
+[18]	S. Nienhuys-Cheng and R. de Wolf. Foundations of Inductive Logic Programming.
+Springer, Berlin, 1997.
+[19]	J.R. Quinlan. Learning logical definitions from relations. Machine Learning,
+5:239—266, 1990.
+[20]	M. Sebag and C. Rouveirol. Tractable Induction and Classification in First-Order
+Logic via Stochastic Matching. In Proceedings of the Fifteenth International Conference 
+on Artificial Intelligence (IJCAI-97). Morgan Kaufmann, Los Angeles,
+CA, 1997.
+[21]	A. Srinivasan. A study of two probabilistic methods for searching large spaces
+with ILP. Data Mining and Knowledge Discovery (under review), 1999.
+[22]	A. Srinivasan. A study of two sampling methods for analysing large datasets with
+ILP. Data Mining and Knowledge Discovery, 3(1):95—123, 1999.
+[23]	A. Srinivasan and R.D. King. Carcinogenesis predictions using ILP. In N. Lavrac
+and S. Dzeroski, editors, Proceedings of the Seventh International Workshop on Inductive 
+Logic Programming (ILP97), volume 1297 of LNAI, pages 273—287, Berlin,
+1997. Springer. A version also in Intelligent Data Analysis in Medicine, Kluwer.
+[24]	A. Srinivasan, R.D. King, and D.W. Bristol. An assessment of submissions made to
+the Predictive Toxicology Evaluation Challenge. In Proceedings of the Sixteenth International 
+Conference on Artificial Intelligence (IJCAI-99). Morgan Kaufmann,
+Los Angeles, CA, 1999.
+[25]	A. Srinivasan, R.D. King, S.H. Muggleton, and M.J.E. Sternberg. The Predictive
+Toxicology Evaluation Challenge. In Proceedings of the Fifteenth International
+Conference on Artificial Intelligence (IJCAI-97). Morgan Kaufmann, Los Angeles,
+CA, 1997.
+[26]	A. Srinivasan, S.H. Muggleton, R.D. King, and M.J.E. Sternberg. Theories for
+mutagenicity: a study of first-order and feature based induction. Artificial Intelligence, 
+85:277—299, 1996.
+[27]	J. Zelle and R. Mooney. Learning semantic grammars with constructive inductive 
+logic programming. In Proceedings of the Eleventh National Conference on
+Artificial Intelligence, pages 817—822. Morgan Kaufmann, 1993.

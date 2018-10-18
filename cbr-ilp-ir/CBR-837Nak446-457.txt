@@ -1,0 +1,109 @@
+CASE-DELIVERER: Making Cases
+Relevant to the Task at Hand
+
+Kumiyo Nakakoji
+
+Department of Computer Science and Institute of Cognitive Science
+University of Colorado
+Campus Box 430
+Boulder, Colorado 80309-0430; and
+
+Software Engineering Laboratory
+Software Research Associates, Inc., Tokyo, Japan
+
+E-mail: kumiyo@cs.colorado.edu
+
+
+
+Abstract. Designers are limited in exploiting a catalog knowledge base of
+design cases because they may be unable to articulate what they are looking for,
+or may be unaware that potentially useful catalog examples exist. KID
+(Knowing-In-Design), a domain-oriented, knowledge-based design environment 
+for kitchen floor plan design, integrates the use of the catalog-base with its
+design tools. The information given through KIDSPECIFICATION (for specifying
+a design requirement) and KIDCONSTRUCTION (for graphically constructing a
+floor plan) provides representations of the designers’ task at hand, and recorded
+design rationale in its argnmentation-base is used to infer the relevance of
+catalog examples to the task at hand. The CASE-DELIVERER component orders
+catalog examples according to the partial specification, and the
+CATALOGEXPLORER subsystem allows designers to explore further the catalog
+space in terms of the task at hand. The study and assessment of the
+mechanisms have revealed that delivered cases helped designers reframe both a
+problem and a solution, and have encouraged designers to articulate a new
+portion of design knowledge, which addresses the knowledge acquisition
+problem.
+
+
+References
+1.	N. Bonnardel. Expertise Transfer, Knowledge Elivitation, and Delayed Recall in
+a Design Context. Behaviour and Information Technology 12, 5 (1993),
+304-314.
+
+2.	J. Conklin, M. Begeman. gIBIS: A Hypertext Tool for Exploratory Policy Discussion. 
+Transactions of Office Information Systems 6, 4 (October 1988),
+303-33 1.
+
+3.	Computer Science and Technology Board. The National Challenge in Computer
+Science and Technology. National Academy Press, Washington, D.C., 1988.
+
+4.	G. Fischer, A.C. Lemke, R. McCall, A. Morch. Making Argumentation Serve
+Design. Human Computer Interaction 6, 3-4 (1991), 393-419.
+
+5.	G. Fischer, K. Nakakoji, J. Ostwald, G. Stahl, T. Sumner. Embedding
+Computer-Based Critics in the Contexts of Design. Human Factors in Computing Systems, 
+INTERCHI’93 Conference Proceedings, ACM, 1993, pp. 157-164.
+
+6.	G. Fischer, S. Henninger, K. Nakakoji. DART: Integrating Information Delivery
+and Access Mechanisms. Unpublished Manuscript.
+
+7.	G. Fischer, R. McCall, A. Morch. Design Environments for Constructive and
+Argumentative Design. Human Factors in Computing Systems, CHI’89 Con-
+ference Proceedings (Austin, TX), ACM, New or , May, 1989, pp. 269-275.
+
+8.	G. Fischer, K. Nakakoji. Empowering Designers with Integrated Design Environments. 
+In J. Gero (Ed.), Artificial Intelligence in Design ‘91, Butterworth-Heinemann Ltd, 
+Oxford, England, 1991, pp. 19 1-209.
+
+9.	A. Girgensohn. End-User Modifiability in Knowledge-Based Design
+Environments. Department of Computer Science, University of Colorado,
+Boulder, CO, 1992. Also available as TechReport CU-CS-595-92.
+
+10.	J.L. Kolodner. Improving Human Decision Making through Case-Based Decision 
+Aiding. AI Magazine 12, 2 (Summer 1991), 52-68.
+
+11.	J.L. Kolodner. Case-Based Reasoning. Morgan-Kaufman Publishers, Inc., San
+Mateo, CA, 1993.
+
+12.	K. Nakakoji. Increasing Shared Understanding of a Design Task Between
+Designers and Design Environments: The Role of a Specification Component.
+Ph.D. Thesis, De p artment of Computer Science, University of Colorado,
+Boulder, CO, 1993. Also available as TechReport CU-CS-65 1-93.
+
+13.	K. Nakakoji, G. Fischer. Knowledge Delivery: Facilitating Human-Computer
+Collaboration in Integrated Design Environments. Working Notes of the AAAI
+Fall Symposium Workshop on Human-Computer Collaboration: Recon-
+cilingTheory, Synthesizing Practice, AAAI, Raleigh, NC, October, 1993, pp.
+63-68.
+
+14.	R. Oppermann. Adaptively Supported Adaptability. Sixth European Conference
+on Cognitive Ergonomics, Human-Computer Interaction: Tasks and Organization 
+(Balatonfuered, Hungary), September, 1992, pp. 255-270.
+
+15.	P.F. Patel-Schneider. Small Can Be Beautiful in Knowledge Representation. AI
+Technical Report 37, Schiumberger Palo Alto Research, October, 1984.
+
+16.	M. Polanyi. The Tacit Dimension. Doubleday, Garden City, NY, 1966.
+
+17.	L.M. Reder, F.E. Ritter. What Determines Initial Feeling of Knowing?
+Familiarity With Question Terms, Not With the Answer. Journal of Experimental 
+Psychology: Learning, Memory, and Cognition 18, 3 (1992).
+
+18.	H.W.J. Rittel, M.M. Webber. Planning Problems are Wicked Problems. In
+N. Cross (Ed.), Developments in Design Methodology, John Wiley & Sons, New
+York, 1984, pp. 135-144.
+
+19.	H.A. Simon. The Sciences of the Artificial. The MIT Press, Cambridge, MA,
+1981.
+
+20.	L.A. Suchman. Plans and Situated Actions. Cambridge University Press,
+Cambridge, UK, 1987.

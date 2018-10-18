@@ -1,0 +1,93 @@
+A Case-Based Approach to Image Recognition
+
+Alessandro Micarelli1, Alessandro Neri2, and Giuseppe Sansonetti1
+
+1 Dipartimento di Informatica e Automazione, Università degli Studi “Roma Tre”
+Via della Vasca Navale, 79, 1-00146 Roma, Italia
+{micarel ,gsansone}@dia.uniroma3.it
+2 Dipartimento di Ingegneria Elettronica, Università degli Studi “Roma Tre”
+Via della Vasca Navale, 84, I-00146 Roma, Italia
+neri@ele.uniroma3.it
+
+
+
+Abstract. In this paper we present a case-based approach to the recognition 
+of digital images. The architecture we propose is based on the
+“wavelet transform” that has been used for the representation, in the
+form of old cases, of images already known to the system. The paper
+also presents our report on a case study in the field of “mobile robots” .
+The described system is capable of analyzing maps obtained from the
+sensors of a robot, and classifing them as one of the possible “objects”
+present in the environment in which the robot navigates. The first results 
+we have obtained are encouraging and support the choice of the
+case-based approach to image recognition using the wavelet transform as
+a tool for image representation and analysis.
+References
+
+1.	Androutsos, D. A., Plataniotis, K. N. and Venetsanopulos, A. N.: Directional
+Detail Histogram for Content Based Image Retrieval DSP97 13th Int. Conf. On
+Digital Signal Processing, Proc. July 2-4, 1997, Santorini, pp. 225-228.
+2.	Bandemer, H. and Nather, W.: Fuzzy Data Analysis, Kluwer Academic Publishers,
+1992.
+3.	Cox, I. 3. and Willfong, C. T.: Autonomous Robot Vehicles, Springer-Verlag, 1990.
+4.	Elfes, A.: Occupancy Grids: A Stochastic Spatial Representation for Active Robot
+Perception. In: Iyengar, S. S., and A. Elfes (eds.) Autonomous Mobile Robots:
+Perception, Mapping, and Navigation, IEEE Computer Society Press, 1991, pp.
+60-71.
+5.	Ficet-Cauchard, V., Porquet, C. and Revenu, M.: An Interactive Case-Based Reasoning 
+System for the Development of Image Processing Applications. In: B. Smyth
+and P. Cunningham (eds.) Advances in Case-Based Reasoning, Proc of EWCBR-
+98, Lecture Notes In Artificial Intelligence, 1488, Springer, 1998, pp. 437-447.
+6.	Grimnes, M. and Aamodt, A.: A Two Layer Case-Based Reasoning Architecture
+for Medical Image Understanding. In: I. Smith and B. Faltings (eds.) Advances
+in Case-Based Reasoning, Proc of EWCBR-96, Lecture Notes In Artificial Intelligence, 
+1168, Springer, 1996, pp. 164-178.
+7.	Henkind, S. J. and Harrison, M. C.: An Analysis of Four Uncertainty Calculi.
+IEEE Transactions on Systems, Man, and Cybernetics, 18(5), 1988, pp.700-714.
+8.	Hsu, Y. N. and Arsenault, H. H.: Optical Pattern Recognition Using Circular
+Hermonic Expansion. Applied Optics, 21, November 1982, pp. 4016-4019.
+9.	Jacovitti, G. and Neri, A.: Multiscale Image Features Analysis with Circular Harmonic 
+wavelets. In: Wavelets Applications In Signal and Image Processing III,
+Proc. of SPIE 2569, July 1995, pp. 363-372.
+10.	Jacovitti, C., Manca, A. and Neri, A.: Hypercomplete Circular Harmonic Pyramids. 
+In: Wavelets Applications In Signal and Image Processing IV, Proc. of SPIE
+2825, August 1996, pp. 352-363.
+11.	Jacovitti, G. and Neri, A.: Content based Image Classification with Circular Harmonic 
+Wavelets. In: Hybrid Image and Signal Processing VI, Proc. of SPIE 3389,
+1998.
+12.	Jacovitti, G. and Neri, A.: Multiscale Circular Harmonic wavelets: a Tool for
+Optimum Scale-Orientation Independent Pattern Recognition. In: Wavelets Applications 
+V, Proc. of SPIE 3391, 1998.
+13.	Klir, G. J., and T. A. Folger.: Fuzzy Sets, Uncertainty and Information, Prentice
+Hall, 1988.
+14.	Leonard, J. J. and Durrant-White, H. F.: Directed Sonar Sensing for Mobile Robot
+Navigation, Kluwer Academic Publishers, 1992.
+15.	Martens, J. B.: Local Orientation Analysis in Images by Means of the Hermite
+Transform. IEEE Transactions On Image Proc., 6(8), July 1997, pp. 1103-1116.
+16.	Micarelli, A. and Sciarrone, F.: A Case-Based System for Adaptive Hypermedia
+Navigation. In: I. Smith and B. Faltings (eds.) Advances in Case-Based Reasoning, 
+Proc. of EWCBR-96, Lecture Notes in Artificial Intelligence, 1168, Springer-Verlag, Berlin, 1996, pp. 266-279.
+17.	Micarelli, A., Sciarrone, F., Ambrosini, L. and Cirillo, V.: “A Case-Based Approach
+to User Modeling”. In: B. Smyth and P. Cunningham (eds.) Advances in Case-Based 
+Reasoning, Proc. of EWCBR-98, Lecture Notes in Artificial Intelligence,
+1488, Springer-Verlag, Berlin, 1998, pp. 310-321.
+18.	Michel, S., Karoubi, B., Bigun, J. and Corsini, S.: Orientation Radiograms for
+Indexing and Identification in Image Databases. Signal Processing VIII, Proc. of
+EUSIPCO, Trieste, Italy, 10-13 Sept. 1996, pp. 1693-1696.
+19.	Oriolo, C., Ulivi, G. and Vendittelli, M.: Motion Planning with Uncertainty:
+Navigation on Fuzzy Maps. Proc. .4th IFAC Symposium on Robot Control,
+(SY.RO.CO.94), 1, Capri, 1994, pp. 71-78.
+20.	Oriolo, C., Ulivi, G. and Vendittelli, M.: On-Line Map Building and Navigation
+for Autonomous Mobile Robots. Proc. 1995 IEEE Int. Conference on Robotics and
+Automation, Nagoya, Japan, 1995, pp. 2900-2906.
+21.	Polaroid Corporation Ultrasonic Ranging System, 1987.
+22.	Ravichandran, C., and Trivedi, M. M.: Circular-Mellin Features for Texture Segmentation. 
+IEEE Transactions on Image Processing, 4(12), December 1995, pp.
+1629-1640.
+23.	Sheng, Y. and Arsenault, H. H.: Object Detection from a Real Scene using the Correlation 
+Peak Coordinates of Multiple Circular Harmonic Filters. Applied Optics,
+28(2), January 1989, p. 245.
+24.	Simoncelli, E. P.: A Rotation Invariant Pattern Signature. Proc. of the IEEE Int.
+Conf. On Image Proc. ICIP 96, Lausanne, Switzerland, September 16-19, 1996.
+25.	Zimmermann, H.-J.: Fuzzy Set Theory and Its Applications, Kiuwer Academic
+Publishers, 1991.

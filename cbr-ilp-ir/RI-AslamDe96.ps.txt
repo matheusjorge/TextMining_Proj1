@@ -1,0 +1,52 @@
+On the Sample Complexity of Noise­Tolerant Learning
+
+Javed A. Aslam #
+Department of Computer Science
+Dartmouth College
+Hanover, NH 03755
+Scott E. Decatur +
+Laboratory for Computer Science
+Massachusetts Institute of Technology
+Cambridge, MA 02139
+
+Abstract
+In this paper, we further characterize the complexity of noise­tolerant learning in the PAC
+model. Specifically, we show a general lower bound
+of# # log(1/#)
+#(1-2#) 2 # on the number of examples
+required for PAC learning in the presence of classification noise. Combined with a result of
+Simon, we e#ectively show that the sample complexity of PAC learning in the presence of
+classification noise
+is# # VC(F)
+#(1-2#) 2 + log(1/#)
+#(1-2#) 2 # . Furthermore, we demonstrate the optimality of the
+general lower bound by providing a noise­tolerant learning algorithm for the class of symmetric
+Boolean functions which uses a sample size within a constant factor of this bound. Finally, we
+note that our general lower bound compares favorably with various general upper bounds for
+PAC learning in the presence of classification noise.
+
+References
+[1] Dana Angluin and Philip Laird. Learning from noisy examples. Machine Learning, 2(4):343--370, 1988.
+[2] Dana Angluin and Leslie G. Valiant. Fast probabilistic algorithms for Hamiltonian circuits and match­
+ings. Journal of Computer and System Sciences, 18(2):155--193, April 1979.
+[3] Javed Aslam and Scott Decatur. General bounds on statistical query learning and PAC learning with
+noise via hypothesis boosting. In Proceedings of the 34 th Annual Symposium on Foundations of Com­puter 
+Science, pages 282--291, November 1993.
+[4] Anselm Blumer, Andrzej Ehrenfeucht, David Haussler, and Manfred K. Warmuth. Learnability and the
+Vapnik­Chervonenkis dimension. Journal of the ACM, 36(4):929--865, 1989.
+[5] Herman Cherno#. A measure of the asymptotic e#ciency for tests of a hypothesis based on the sum of
+observations. Ann. Math. Statist., 23:493--507, 1952.
+[6] Andrzej Ehrenfeucht, David Haussler, Michael Kearns, and Leslie Valiant. A general lower bound on
+the number of examples needed for learning. Information and Computation, 82(3):247--251, September
+1989.
+[7] Wassily Hoe#ding. Probability inequalities for sums of bounded random variables. J. Amer. Statist.
+Assoc., 58:13--30, 1963.
+[8] Philip D. Laird. Learning from Good and Bad Data. Kluwer international series in engineering and
+computer science. Kluwer Academic Publishers, Boston, 1988.
+[9] Hans Ulrich Simon. General bounds on the number of examples needed for learning probabilistic
+concepts. In Proceedings of the Sixth Annual ACM Workshop on Computational Learning Theory,
+pages 402--411. ACM Press, 1993.
+[10] M. Talagrand. Sharper bounds for empirical processes. To appear in Annals of Probability and Its
+Applications.
+[11] Leslie Valiant. A theory of the learnable. Communications of the ACM, 27(11):1134--1142, November
+1984.

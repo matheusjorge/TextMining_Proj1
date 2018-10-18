@@ -1,0 +1,47 @@
+Probabilistic Indexing for Case-Based Prediction
+
+Boi Faltings
+
+Artificial Intelligence Laboratory (LIA)
+Computer Science Department (DI)
+Swiss Federal Institute of Technology (EPFL)
+IN-Ecublens, 1015 Lausanne, Switzerland
+
+
+Abstract. The main assumption underlying case-based reasoning is that
+a problem with similar features as an earlier one is likely to have the same
+solution. However, this assumption has never been formally justified, and
+one can easily find practical situations where it is not true.
+We use probablity theory to show that even if this fundamental assumption 
+can be wrong for particular instances, it is guaranteed to be correct
+on the average, and this no matter what the probability distributions
+involved are. We define the concept of a match weight as a well-justified
+measure of similarity. We show how it is often possible to effectively compute 
+a lower bound on match weight. We report on the performance of
+such bounds when used as a similarity measure in a simple example.
+References
+
+1.	R.H. Creecy, B.M. Masand, S.J. Smith, D.L.Waltz: “Trading MIPS and
+Memory for Knowledge Engineering,” Communications of the ACM 35(8), August
+1992
+2.	D. Heckerman: “Probabilistic Similarity Networks,” MIT Press, 1990
+3.	S. Kasif, S. Salzberg, D. Waltz, J. Rachlin, D. Aha: “Towards a Framework
+for Memory-Based Reasoning,” NEGI Technical Report 95-132, December 1995
+4.	P. Myllymäki, H. Tirri: “Massively Parralel Case-Based Reasoning with Probabilistic 
+Similarity Metrics,” Proceedings of the 1st European Workshop on Case-based
+Reasoning, Lecture Notes in Artificial Intelligence 837, pp. 145-154, Springer Verlag,
+1993
+5.	S. Okamoto, K. Satoh: “An Average-Case Analysis of k-Nearest Neighbor Classifier,
+” Proceedings of the 1st International Confernce on Case-based Reasoning,
+Lecture Notes in Artificial Intelligence 1010, pp. 253-264, Springer Verlag, 1995
+6.	S. Olmsted: “On representing and solving decision problems,” Ph.D. Thesis, Department 
+of Engineering - Economic Systems, Stanford University, 1983
+7.	J. Pearl: “Probabilistic Reasoning in Intelligent Systems,” Morgan-Kaufmann,
+1988
+8.	E. Plaza, R. L6pez de Mántaras, E. Armengol: “On the Importance of Similitude: 
+An Entropy-Based Assessment,” Proceedings of the 3rd European Workshop
+on Case-based Reasoning, Lecture Notes in Computer Science 1168, pp. 324-338,
+Springer Verlag, 1996
+9.	M.M. Richter: “On the Notion of Similarity in Case-Based Reasoning,” in G. della
+Riccia et al (eds.): Mathematical and Statistical Methods in Artificial Intelligence,
+Springer Verlag 1995, pp. 171-184

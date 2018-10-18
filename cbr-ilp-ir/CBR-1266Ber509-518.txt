@@ -1,0 +1,71 @@
+Using Software Process Modeling for Building a
+Case-Based Reasoning Methodology:
+Basic Approach and Case Study
+
+Ralph Bergmann, Wolfgang Wilke, Jürgen Schumacher
+
+University of Kaiserslautern
+Centre for Learning Systems and Applications (LSA)
+P0-Box 3049, D-67653 Kaisersiantern, Germany
+{bergmann, wilke, jschuma}@informatik.uni-kl.de
+
+
+
+Abstract. Building a methodology for developing and maintaining CBR
+applications is an important goal currently addressed by CBR researchers
+and practitioners. Since GBR application development is a special kind
+of software development, building a CBR methodology can certainly be
+viewed as a software engineering research and development activity. This
+paper presents a perspective of how software process modeling, which is
+a recent approach in software engineering, can be used for building a
+case-based reasoning methodology. Further we describe a case study to
+show the applicability of the proposed concepts.
+References
+
+1.	A. Aamodt and E. Plaza. Case-Based Reasoning: Foundational Issues, Methodological 
+Variations and System Approaches. AI Com., 7(1):39—39, March 1994.
+2.	K.-D. Althoff, S. Wess, K.-H. Weis, E. Auriol, R. Bergmann, H. Holz, R. Johnston,
+M. Manago, C. Meissonnier, A.and Priebisch, Traphöner R., and Wilke W. An
+evaluation of the final integrated system. Technical report, Esprit Project INRECA
+Deliverable D6, 1995.
+3.	K.-D. Althoff and W. Wilke. Potential uses of case-based reasoning in the
+experience-based construction of software systems. In R. Bergmann and W. Wilke,
+editors, Proceedings of the 5th German Workshop in Case-Based Reasoning. Centre
+for Learning Systems and Applications, University of Kaiserslautern, 1997.
+4.	B. Bartsch-Spörl. How to introduce case-based reasoning in customer support.
+Technical report, Esprit Project APPLICUS Deliverable D3, 1996.
+5.	B. Bartsch-Spörl. Towards a methodology for how to make cbr systems work in
+practice. In H.-D. Burkhard and M. Lenz, editors, Proceedings of the 4th German 
+Workshop on Case-Based Reasoning - System Development and Evaluation,
+Informatik-Bericht No. 55. Humboldt Universität Berlin, 1996.
+6.	R. Bergmann, W. Wilke, K.-D. Althoff, S. Breen, and R. Johnston. Ingredients for
+developing a case-based reasoning methodology. In R. Bergmann and W. Wilke,
+editors, Proceedings of the 5th German Workshop in Case-Based Reasoning. Centre
+for Learning Systems and Applications, University of Kaiserslautern, 1997.
+7.	O. Curet and M. Jackson. Towards a methodology for case-based systems. In Expert 
+Systems’96. Proceedings of the 16th annual workshop of the British Computer
+Society, 1996.
+8.	B. Dellen, F. Maurer, J. Münch, and M. Verlage. Enriching software process
+support by knowledge-based techniques. Technical report, SFB 501 Internal Report
+No. 0/96, 1996.
+9.	R. Johnston, S. Breen, and M. Manago. Methodology for developing cbr applications. 
+Technical report, Esprit Project INRECA Deliverable D30, 1996.
+10.	H. Kitano, H. Shimazu, and A. Shibata. Case-method: A methodology for building 
+large-scale case-based systems. In Proceedings of the National Conference on
+Artificial Intelligence, Washington D.C. AAAI, 1993.
+11.	L. Lewis. Managing computer networks: A case-based reasoning approach. Artech
+House Publishers, London, 1995.
+12.	F. Maurer. Modeling the knowledge engineering process. Technical report, Bericht
+1/96 of the SFB 501. University of Kaiserslautern, 1996.
+13.	Basili V. R., Caldiera G., and Rombach H. D. The experience factory. In J. 3.
+Marciiak, editor, Encyclopedia of Software Engineering, volume 1, pages 469—476.
+Wiley, New York, 1994.
+14.	H. D. Rombach and M. Verlage. Directions in software process research. Advances
+in Computers, 41:1—61, 1995.
+15.	M. Shaw. Prospects for an engineering discipline of software. IEEE Software 7,
+pages 15—24, 1990.
+16.	S. WeB. Fallbasiertes Problemlösen in wissensbasierten Systemen zur Entscheidun 
+gsunterstützung und Diagnostik. PhD thesis, Universität Kaiserslautern, 1995.
+17.	Workflow Management Coalition. The workflow management coalition specification. 
+June 1996. Doc. WFMC-TC-101 1, http://www.aiai.ed.ac.uk/WfMC/DOCS/
+glossary/glossary.html.

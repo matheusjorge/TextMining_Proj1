@@ -1,0 +1,124 @@
+Secret Sharing with Public Reconstruction
+
+Amos Beimel is with the Division of Engineering and Applied Sci­ences, 
+Harvard University, 40 Oxford st., Cambridge, MA 02138.
+Email: beimel@deas.harvard.edu. This work was done while the au­
+thor was a Ph.D. student at the Department of Computer Science of
+the Technion.
+Benny Chor is with the Department of Computer Science, Technion,
+Haifa 32000, Israel. Email: benny@cs.technion.ac.il.
+
+Abstract--- All known constructions of information theo­retic 
+t­out­of­n secret sharing schemes require secure, private
+communication channels among the parties for the reconstruction 
+of the secret. In this work we investigate the cost
+of performing the reconstruction over public communication
+channels. A naive implementation of this task distributes
+2n \Gamma 2 one times pads to each party. This results in shares
+whose size is 2n \Gamma 1 times the secret size. We present three
+implementations of such schemes that are substantially more
+efficient:
+ffl A scheme enabling multiple reconstructions of the se­cret 
+by different subsets of parties, with factor O(n=t)
+increase in the shares' size.
+ffl A one­time scheme, enabling a single reconstruction of
+the secret, with O(log(n=t)) increase in the shares' size.
+ffl A one­time scheme, enabling a single reconstruction by
+a set of size exactly t, with factor O(1) increase in the
+shares' size.
+We prove that the first implementation is optimal (up to
+constant factors) by showing a tight \Omega\Gamma n=t) lower bound for
+the increase in the shares' size.
+
+References
+[1] G. R. Blakley, ``Safeguarding cryptographic keys,'' in Proc.
+AFIPS 1979 NCC, vol. 48, June 1979, pp. 313--317.
+[2] A. Shamir, ``How to share a secret,'' Communications of the
+ACM, vol. 22, pp. 612--613, 1979.
+[3] R. J. McEliece and D. V. Sarwate, ``On sharing secrets and
+Reed­Solomon codes,'' Communications of the ACM, vol. 24,
+pp. 583--584, September 1981.
+[4] E. D. Karnin, J. W. Greene, and M. E. Hellman, ``On secret
+sharing systems,'' IEEE Trans. on Information Theory, vol. 29,
+no. 1, pp. 35--41, 1983.
+[5] S. C. Kothari, ``Generalized linear threshold scheme,'' in
+Advances in Cryptology ­ CRYPTO '84, G. R. Blakley and
+D. Chaum, Eds. 1985, vol. 196 of Lecture Notes in Computer
+Science, pp. 231--241, Springer­Verlag.
+[6] J. Benaloh, ``Secret sharing homomorphisms: Keeping shares
+of a secret secret,'' in Advances in Cryptology ­ CRYPTO '86,
+A. M. Odlyzko, Ed. 1987, vol. 263 of Lecture Notes in Computer
+Science, pp. 251--260, Springer­Verlag.
+[7] G. J. Simmons, ``An introduction to shared secret and/or shared
+control and their application,'' in Contemporary Cryptology, The
+Science of Information Integrity, G. J. Simmons, Ed., pp. 441--
+497. IEEE Press, 1992.
+[8] U. M. Maurer, ``Secret Key Agreement by Public Discussion
+from Common Information,'' IEEE Trans. on Information The­
+ory, vol. 39, no. 3, pp. 733--742, 1993.
+[9] R. Ahlswede and I. Csisz'ar, ``Common randomness in informa­tion 
+theory and cryptography -- part I: Secret sharing,'' IEEE
+Trans. on Information Theory, vol. 39, no. 4, pp. 1121--1132,
+1993.
+[10] C. Blundo, A. De Santis, A. Herzberg, S. Kutten, U. Vaccaro,
+and M. Yung, ``Perfectly­secure key distribution for dynamic
+conferences,'' in Advances in Cryptology ­ CRYPTO '92, E. F.
+Brickell, Ed. 1993, vol. 740 of Lecture Notes in Computer Sci­ence, 
+pp. 471--486, Springer­Verlag.
+[11] A. Beimel and B. Chor, ``Communication in key distribution
+schemes,'' IEEE Trans. on Information Theory, vol. 42, no. 1,
+pp. 19--28, 1996.
+[12] C. Blundo and A. Cresti, ``Space requirement for broadcast
+encryption,'' in Advances in Cryptology ­ EuroCRYPT '94,
+A. De Santis, Ed. 1995, vol. 950 of Lecture Notes in Computer
+Science, pp. 287--298, Springer­Verlag.
+[13] W. Diffie and M. E. Hellman, ``New directions in cryptography,''
+IEEE Trans. on Information Theory, vol. 22, no. 6, pp. 644--654,
+1976.
+[14] S. Goldwasser and S. Micali, ``Probabilistic encryption,'' J. of
+Computer and System Sciences, vol. 28, no. 21, pp. 270--299,
+1984.
+[15] B. Blakley, G. R. Blakley, A. H. Chan, and J. Massey, ``Thresh­
+old schemes with disenrollment,'' in Advances in Cryptology ­
+CRYPTO '92, E. F. Brickell, Ed. 1993, vol. 740 of Lecture Notes
+in Computer Science, pp. 540--548, Springer­Verlag.
+[16] C. Blundo, A. Cresti, A. De Santis, and U. Vaccaro, ``Fully dy­
+namic secret sharing schemes,'' Theoretical Computer Science,
+vol. 165, no. 2, pp. 407--440, 1996.
+[17] T. Rabin and M. Ben­Or, ``Verifiable secret sharing and multi­party 
+protocols with honest majority,'' in Proc. of the 21st Annu.
+ACM Symp. on the Theory of Computing, 1989, pp. 73--85.
+[18] T. Rabin, ``Robust sharing of secrets when the dealer is honest
+or faulty,'' J. of the ACM, vol. 41, no. 6, pp. 1089--1109, 1994.
+[19] E. F. Brickell and D. R. Stinson, ``Some improved bounds on
+the information rate of perfect secret sharing schemes,'' J. of
+Cryptology, vol. 5, no. 3, pp. 153--166, 1992.
+[20] R. M. Capocelli, A. De Santis, L. Gargano, and U. Vaccaro, ``On
+the size of shares for secret sharing schemes,'' J. of Cryptology,
+vol. 6, no. 3, pp. 157--168, 1993.
+[21] R. Blom, ``An optimal class of symmetric key generation sys­tems,
+'' in Advances in Cryptology -- EuroCRYPT '84, T. Beth,
+N. Cot, and I. Ingemarsson, Eds. 1985, vol. 209 of Lecture Notes
+in Computer Science, pp. 335--338, Springer­Verlag.
+[22] G. R. Blakley and C. Meadows, ``The security of ramp schemes,''
+in Advances in Cryptology ­ CRYPTO '84, G. R. Blakley and
+D. Chaum, Eds. 1985, vol. 196 of Lecture Notes in Computer
+Science, pp. 242--268, Springer­Verlag.
+[23] M. K. Franklin and M. Yung, ``Communication complexity of
+secure computation,'' in Proc. of the 24th Annu. ACM Symp.
+on the Theory of Computing, 1992, pp. 699--710.
+[24] M. Ito, A. Saito, and T. Nishizeki, ``Secret sharing schemes real­
+izing general access structure,'' in Proc. IEEE Global Telecom­
+munication Conf., Globecom 87, 1987, pp. 99--102, Journal ver­sion: 
+``Multiple assignment scheme for sharing secret''. J. of
+Cryptology, vol. 6, no. 1, pp. 15--20, 1993.
+[25] J. Benaloh and J. Leichter, ``Generalized secret sharing and
+monotone functions,'' in Advances in Cryptology ­ CRYPTO
+'88, S. Goldwasser, Ed. 1990, vol. 403 of Lecture Notes in Com­puter 
+Science, pp. 27--35, Springer­Verlag.
+[26] G. J. Simmons, W. Jackson, and K. M. Martin, ``The geometry
+of shared secret schemes,'' Bulletin of the ICA, vol. 1, pp. 71--88,
+1991.
+[27] T. M. Cover and J. A. Thomas, Elements of Information The­ory, 
+John Wiley & Sons, 1991.
+

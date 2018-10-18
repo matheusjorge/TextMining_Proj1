@@ -1,0 +1,58 @@
+Using Case Data to Improve on Rule-based
+Function Approximation
+
+Nitin Indurkhya1 and Sholom M. Weiss2
+
+1 Department of Computer Science, University of Sydney
+Sydney, NSW 2006, AUSTRALIA
+2 Department of Computer Science, Rutgers University
+New Brunswick, New Jersey 08903, USA
+
+
+Abstract. The regression problem is to approximate a function from
+sample values. Decision trees and decision rules achieve this task by
+finding regions with constant function values. While recursive partitioning 
+methods are strong in dynamic feature selection and in explanatory
+capabilities, an essential weakness of these methods is the approximation
+of a region by a constant value. We propose a new method that relies
+on searching for similar cases to boost performance. The new method
+preserves the strengths of the partitioning schemes while compensating
+for the weaknesses that are introduced with constant-value regions. Our
+method relies on searching for the most relevant cases using a rule-based
+system, and then using these cases for determining the function value.
+Experimental results demonstrate that the new method can often yield
+superior regression performance.
+References
+
+[Breiman et al., 1984] Breiman, L.; Friedman, J.; Qishen, R.; and Stone, C. 1984.
+Classification and Regression Tress. Monterrey, Ca.: Wadsworth.
+[Breiman, 1993] Breiman, L. 1993. Stacked regression. Technical report, U. of CA.
+Berkeley.
+[Efron, 1988] Efron, B. 1988. Computer-intensive methods in statistical regression.
+SIAM Review 30(3):421—449.
+[Friedman & Stuetzle, 1981] Friedman, J., and Stuetzle, W. 1981. Projection pursuit
+regression. J. Amer. Stat. Assoc. 76:817—823.
+[Friedman, 1991] Friedman, J. 1991. Multivariate adaptive regression splines. Annals
+of Statistics 19(1):1—141.
+[LeBlanc & Tibshirani, 1993] LeBlanc, M., and Tibshirani, R. 1993. Combining estimates 
+in regression and classification. Technical report, Department of Statistics, U.
+of Toronto.
+[McClelland & Rumelhart, 1988] McClelland, J., and Rumelhart, D. 1988. Explorations 
+in Parallel Distributed Processing. Cambridge, Ma.: MIT Press.
+[Quinlan, 1993] Quinlan, J. 1993. Combining instance-based and model-based learning. 
+In International Conference on Machine Learning, 236—243.
+[Scheffe, 1959] Scheffe, H. 1959. The Analysis of Variance. New York: Wiley.
+[Ting, 1994] Ting, K. 1994. The problem of small disjuncts: Its remedy in decision
+trees. In Proceedings of the 10th Canadian Conference on Artificial Intelligence,
+91—97.
+[Weiss & Indurkhya, 1991] Weiss, S., and Indurkhya, N. 1991. Reduced complexity
+rule induction. In Proceedings of IJCAI-91, 678—684.
+[Weiss & Indurkhya, 1993] Weiss, S., and Indurkhya, N. 1993. Rule-based regression.
+In Proceedings of the 13th International Joint Conference on Artificial Intelligence,
+1072—1078.
+[Weiss & Indurkhya, 1994] Weiss, S., and Indurkhya, N. 1994. Decision tree pruning:
+Biased or optimal? In Proceedings of AAAI-94, 626—632.
+[Widmer, 1993] Widmer, G. 1993. Combining knowledge-based and instance-based
+learning to exploit qualitative knowledge. Informatica 17:371—385.
+[Wolpert, 1992] Wolpert, D. 1992. On overfitting avoidance as bias. Technical Report
+SFI TR 92-03-5001, The Sante Fe Institute.

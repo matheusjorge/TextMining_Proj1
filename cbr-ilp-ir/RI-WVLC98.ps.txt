@@ -1,0 +1,91 @@
+An Empirical Approach to Conceptual Case Frame Acquisition
+
+Ellen Riloff and Mark Schmelzenbach
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+riloff@cs.utah.edu, schmelze@cs.utah.edu
+
+Abstract
+Conceptual natural language processing systems
+usually rely on case frame instantiation to recog­nize 
+events and role objects in text. But generat­ing 
+a good set of case frames for a domain is time­
+consuming, tedious, and prone to errors of omission.
+We have developed a corpus­based algorithm for
+acquiring conceptual case frames empirically from
+unannotated text. Our algorithm builds on previ­ous 
+research on corpus­based methods for acquiring
+extraction patterns and semantic lexicons. Given
+extraction patterns and a semantic lexicon for a do­main, 
+our algorithm learns semantic preferences for
+each extraction pattern and merges the syntacti­cally 
+compatible patterns to produce multi­slot case
+frames with selectional restrictions. The case frames
+generate more cohesive output and produce fewer
+false hits than the original extraction patterns. Our
+system requires only preclassified training texts and
+a few hours of manual review to filter the dictionar­ies, 
+demonstrating that conceptual case frames can
+be acquired from unannotated text without special
+training resources.
+
+
+References
+M. E. Califf and R. J. Mooney. 1997. Relational Learn­ing 
+of Pattern­Match Rules for Information Extrac­tion. 
+In Proceedings of the ACL Workshop on Natural
+Language Learning, pages 9--15.
+S. Huffman. 1996. Learning information extraction pat­terns 
+from examples. In Stefan Wermter, Ellen Riloff,
+and Gabriele Scheler, editors, Connectionist, Statisti­cal, 
+and Symbolic Approaches to Learning for Natural
+Language Processing, pages 246--260. Springer­Verlag,
+Berlin.
+J. Kim and D. Moldovan. 1993. Acquisition of Semantic
+Patterns for Information Extraction from Corpora. In
+Proceedings of the Ninth IEEE Conference on Artifi­cial 
+Intelligence for Applications, pages 171--176, Los
+Alamitos, CA. IEEE Computer Society Press.
+W. Lehnert, C. Cardie, D. Fisher, J. McCarthy,
+E. Riloff, and S. Soderland. 1992a. University of Mas­sachusetts: 
+Description of the CIRCUS System as
+Used for MUC­4. In Proceedings of the Fourth Mes­sage 
+Understanding Conference (MUC­4), pages 282--
+288, San Mateo, CA. Morgan Kaufmann.
+W. Lehnert, C. Cardie, D. Fisher, J. McCarthy,
+E. Riloff, and S. Soderland. 1992b. University of 
+Mas­sachusetts: MUC­4 Test Results and Analysis. In 
+Pro­ceedings of the Fourth Message Understanding 
+Confer­ence (MUC­4), pages 151--158, San Mateo, CA. 
+Mor­gan Kaufmann.
+D. B. Lenat, M. Prakash, and M. Shepherd. 1986. CYC:
+Using Common Sense Knowledge to Overcome 
+Brit­tleness and Knowledge­Acquisition Bottlenecks. AI
+Magazine, 6:65--85.
+G. Miller. 1990. Wordnet: An On­line Lexical Database.
+International Journal of Lexicography, 3(4).
+MUC­4 Proceedings. 1992. Proceedings of the Fourth
+Message Understanding Conference (MUC­4). 
+Mor­gan Kaufmann, San Mateo, CA.
+E. Riloff and J. Shepherd. 1997. A Corpus­Based 
+Approach for Building Semantic Lexicons. In 
+Proceed­ings of the Second Conference on Empirical Methods
+in Natural Language Processing, pages 117--124.
+E. Riloff. 1993. Automatically Constructing a 
+Dictio­nary for Information Extraction Tasks. In 
+Proceed­ings of the Eleventh National Conference on Artificial
+Intelligence, pages 811--816. AAAI Press/The MIT
+Press.
+E. Riloff. 1996a. An Empirical Study of Automated
+Dictionary Construction for Information Extraction in
+Three Domains. Artificial Intelligence, 85:101--134.
+E. Riloff. 1996b. Automatically Generating Extraction
+Patterns from Untagged Text. In Proceedings of the
+Thirteenth National Conference on Artificial 
+Intelli­gence, pages 1044--1049. The AAAI Press/MIT Press.
+S. Soderland, D. Fisher, J. Aseltine, and W. Lehnert.
+1995. CRYSTAL: Inducing a conceptual dictionary.
+In Proceedings of the Fourteenth International Joint
+Conference on Artificial Intelligence, pages 1314--
+1319.

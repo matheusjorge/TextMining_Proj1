@@ -1,0 +1,29 @@
+Problem Solving with “The Incredible Machine”*
+An Experiment in Case-Based Reasoning
+
+Mebmet H. Göker, M.Sc.Eng., M.Sc.	Prof. Dr.-Ing. Herbert Birkhofer
+Technische Hochschule Darmstadt
+Maschinenelemente und Konstruktionslehre
+Magdalenenstr. 4, D-64289 Darmstadt, Germany
+{goker, birkhofer}@muk.maschinenbau.th-darmstadt.de
+
+1 Motivation and Goals
+In order to analyze the development, influence and application of experience during
+problem solving and to draw conclusions for the development of Case-Based
+Reasoning systems [Ko93, RiSch89] we observed and videotaped test persons while
+they were solving simple design problems with the computer program “The
+Incredible Machine”*. The video and audio recordings were protocolled and analyzed.
+
+6 Literature
+GöBi95 M.Göker, H.Birkhofer, “Problemlösen mit ‘The Incredible Machine’, Ein
+Experiment zum Falbasierten Schließen”, in Proceedings, Case-Based
+Reasoning Workshop at the 3rd. German Expert Systems Conference,
+Kaiserslautern 28.2-1.3.1995, B.Bartsch-Spörl, D. Janetzko, S.Wess eds.,
+Lemende Systeme und Anwendungen, Fachbereich Informatik,
+Universität Kaiserslautern LSA-95-02.
+
+Ko93 J.Kolodner, ,,Case Based Reasoning”, Morgan Kaufmann Publishers Inc,
+San Mateo, 1993
+
+RiSch89	C.Riesbeck, R. Schank, “Inside Case-based Reasoning”, Lawrence
+Erlbaum Associates, Publishers, Hillsdale 1989

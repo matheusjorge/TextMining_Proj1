@@ -1,0 +1,61 @@
+Diversity-Conscious Retrieval
+
+David McSherry
+
+School of Information and Software Engineering, University
+of Ulster, Coleraine BT52 1SA, Northern Ireland
+dmg.mcsherry@ulst.ac.uk
+
+
+
+Abstract. There is growing awareness of the need for recommender systems to
+offer a more diverse choice of alternatives than is possible by simply retrieving
+the cases that are most similar to a target query. Recent research has shown that
+major gains in recommendation diversity can often be achieved at the expense
+of relatively small reductions in similarity. However, there are many domains
+in which it may not be acceptable to sacrifice similarity in the interest of
+diversity. To address this problem, we examine the conditions in which
+similarity can be increased without loss of diversity and present a new
+approach to retrieval which is designed to deliver such similarity-preserving
+increases in diversity when possible. We also present a more widely applicable
+approach to increasing diversity in which the requirement that similarity is
+fully preserved is relaxed to allow some loss of similarity, provided it is strictly
+controlled.
+References
+
+1.	Bergmann, R., Breen, S., Göker, M., Manago, M. Wess, S.: Developing Industrial Case-Based 
+Reasoning Applications: The INRECA Methodology. Springer-Verlag, Berlin
+Heidelberg New York (1999)
+2.	Hammond, K.J., Burke, R. Schmitt, K.: A Case-Based Approach to Knowledge
+Navigation. In: Leake, D.B. (ed.): Case-Based Reasoning: Experiences, Lessons &
+Future Directions. AAAI Press/MIT Press, Menlo Park, CA (1996) 125-136
+3.	Wilke, W., Lenz, M., Wess, S.: Intelligent Sales Support with CBR. In: Lenz, M.,
+Bartsch-Spörl, B., Burkhard, H.-D., Wess, S. (eds.): Case-Based Reasoning
+Technology,. Springer-Verlag, Berlin Heidelberg (1998) 91-113
+4.	Bradley, K., Smyth, B.: Improving Recommendation Diversity. Proceedings of the
+Twelfth Irish Conference on Artificial Intelligence and Cognitive Science, Maynooth,
+Ireland (2001) 85-94
+5.	McSherry, D.: Increasing Recommendation Diversity Without Loss of Similarity.
+Proceedings of the 6th UK Workshop on Case-Based Reasoning (2001)23-31
+6.	Shimazu, H.: ExpertClerk: Navigating Shoppers’ Buying Process with the Combination
+of Asking and Proposing. Proceedings of the Seventeenth International Joint Conference
+on Artificial Intelligence. International Joint Conferences on Artificial Intelligence
+(2001) 1443-1448
+7.	Smyth, B., Cotter, P.: A Personalised TV Listings Service for the Digital TV Age.
+Knowledge-Based Systems 13 (2000) 53-59
+8.	Smyth, B., McClave, P.: Similarity vs. Diversity. In: Aha, D.W., Watson, I. (eds.):
+Case-Based Reasoning Research and Development. LNAI, Vol. 2080. Springer-Verlag,
+Berlin Heidelberg (2001) 347-361
+9.	Branting, L.K.: Acquiring Customer Preferences from Return-Set Selections. In: Aha,
+D.W., Watson, I. (eds.): Case-Based Reasoning Research and Development. LNAI, Vol.
+2080. Springer-Verlag, Berlin Heidelberg New York (2001) 59-73
+10.	Burke, R.: Ranking Algorithms for Costly Similarity Measures. In: Aha, D.W., Watson,
+I. (eds.): Case-Based Reasoning Research and Development. LNAI, Vol. 2080. Springer-
+Verlag, Berlin Heidelberg New York (2001)105-117
+11.	Ferguson, A., Bridge, D.: Partial Orders and Indifference Relations: Being Purposefully
+Vague in Case-Based Retrieval. In: Blanzieri, E., Portinale, L. (eds.): Advances in Case-Based 
+Reasoning. LNAI, Vol. 1898. Springer-Verlag, Berlin Heidelberg New York
+(2000) 74-85
+12.	McSherry, D.: The Inseparability Problem in Interactive Case-Based Reasoning. In:
+Bramer, M., Coenen F., Preece, A. (eds.): Research and Development in Intelligent
+Systems XVIII. Springer-Verlag, London (2001)109-122

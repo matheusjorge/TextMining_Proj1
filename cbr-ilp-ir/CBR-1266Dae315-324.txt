@@ -1,0 +1,98 @@
+How Case-Based Reasoning and Cooperative
+Query Answering Techniques Support RICAD?
+
+Jirapun Daengdej and Dickson Lukose
+
+Department of Mathematics, Statistics and Computing Science
+The University of New England
+Armidale, NSW 2351, Australia
+E-mail: {jirapun, lukose}@neumann.une.edu.au
+
+
+Abstract. Many Case-Based Reasoning (CBR) systems are built using
+the conventional database systems as their case memory. Even though
+these Database Management Systems (DBMSs) provide a large number
+of advantages, CBR systems developers face one major draw back. That
+is, partial-match retrieval is not supported by most of the conventional
+DBMSs. To overcome this limitation, we investigated contemporary research 
+in CBR and Cooperative Query Answering (CQA). Our finding
+indicates that there are a number of issues in CQA that can be solved by
+applying some of the innovative techniques developed by the CBR community, 
+on the other hand, the CQA provide a number of new features
+which enable easy development of CBR systems. The main contribution
+of this paper is in explicating how CBR can benefit from the CQA research, 
+and how CQA techniques can enhance the CBR systems. Fürther,
+it describes the CQA features in RICAD (Risk Cost Advisor, our experimental 
+CBR system), and how these features enhance its performance.
+References
+
+1.	Aamodt, A. and Plaza, B. Case-Based Reasoning: Foundational Issues, Methodological 
+Variations, and System Approaches, AICom-Artificial Intelligence Communications, Vol. 7, No. 1,1994.
+2.	Bosc, P. and Pivert, 0. Some Approaches for Relational Database Flexible Querying, 
+Journal of Intelligent Information Systems, 1:323-354, 1992.
+3.	Chu, W. W., Merzbacher, M. A., and Berkovich, L. The Design and Implemention
+of CoBase, In Proceedings of ACM SICMOD’93, Washington D. C., 1993.
+4.	Chu, W. W., Yang, H., and Chow, C. A Cooperative Database System (CoBase)
+for Query Relaxation, In Proceedings of the Third International Conference on
+Artificial Intelligence Planning Systems. Edinburgh, May 1996.
+5.	Daengdej, J., Lukose, D., Tsni, E., Beinat, P., and Prophet, L. Dynamically Creating 
+Indices for 2 Million Cases: A Real World Problem. In Proceedings of the Second
+European Workshop in Case-Based Reasoning, Switzerland, Springer Verlag, 1996.
+6.	Daengdej, J., Lukose, D., Tsui, E., Beinat, P., and Prophet, L. Combining Case-Based 
+Reasoning and Statistical Method for Proposing Solution in RICAD, In
+Proceedings of Knowledge-Based Computer System (KBCS-96), Mumbai, 1996.
+7.	Daengdej, J. and Lukose, D. Identifying Similarity Between Cases Using Values of
+Their Solutions, In Proceedings of the International Conference on Applied Informatics 
+(IASTED), Austria, 1997.
+8. 	Gaasterland, T., Godfrey, P., and Minker, J. Relaxation as a Platform for Cooperative 
+Answering, Journal of Intelligent Information Systems, Vol. 1, No. 3/4,
+293-321, December 1992.
+9.	Gaasterland, T. Restricting Query Relaxation Through User Constraints, International 
+Conference on Cooperative and Intelligent Information Systems, Rotterdam,
+The Netherlands, May 1993.
+10. 	Han, J., Fu, Y., and Ng, R. T. Cooperative Query Answering Using Multiple Layered 
+Database, In Proceedings of the 2nd International Conference on Cooperative
+Information Systems (COOPIS’94), Toronta, Cannada, 1994.
+11.	Han, J., Huang, Y., Cercone, N., and Fu, Y. Intelligent Query Answering by Knowledge 
+Discovery Techniques, IEEE Transactions on Knowledge and Data Engineering, Vol. 8, No. 3, pp. 373-390, 1996.
+12.	Hanney, K., Keane, M. T., Smyth, B. and Cunningham, P. What Kind of Adaptation 
+do CBR Systems Need?: A Review of Current Practice, In Aha D. and Ram
+A. (Eds.) Adaptation of Knowledge for Reuse: Proceedings of the 1995 AAAI Fall
+Symposium, Technical Report FS-95-02. Menlo Park, CA: AAAI Press. 1995.
+13.	Hanney, K. and Keane, M. T. Learning Adaptation Rules from Case-Base, In Proceedings 
+of the Second European Workshop in Case-Based Reasoning, Switzerland,
+Springer Verlag, 1996.
+14.	Jones, E. K., and Roydhouse, A. Iterative Design of Case Retrieval Systems, In
+Aha, D. W. (eds.), In Proceedings of AAAI Workshop on Case-Based Reasoning,
+AAAI Press, 1994.
+15.	Jurisica, I. How to Retrieve Relevant Information?, In Proceedings of the AAAI
+Fall Symposium Series on Relevance, New Orleans, Louisiana, 1994.
+16.	Kolodner, J., Case-Based Reasoning, Morgan Kanfmann, 1993.
+17.	Kolodner, J., Making the Implicit Explicit: Clarifying the Principles of Case-Based
+Reasoning, Case-Based Reasoning: Experiences, Lessons, and Future Directions,
+David B. Leake, editor. AAAI Press/MIT Press, Menlo Park, CA, 1996.
+18.	Kolodner, J. and Leake, D. B. A Tutorial Introduction to Case-Based Reasoning, 
+Case-Based Reasoning: E periences, Lessons, and Future Directions, David B.
+Leake, editor. AAAI Press/MIT Press, Menlo Park, CA, 1996.
+19.	Leake, D. B. CBR in Context: The Present and Future. Case-Based Reasoning: 
+Experiences, Lessons, and Future Directions, David B. Leake, editor. AAAI
+Press/MIT Press, Menlo Park, CA, 1996.
+20.	Leake, D. B., Kinley, A., and Wilson, D. Linking Adaptation and Similarity Learning, 
+In Proceedings of the 18th Annual Conference of the Cognitive Science Society,
+1996.
+21.	Mark, W., Simoudis, B., and Hinkle, D. Case-Based Reasoning: Expectations
+and Results, Case-Based Reasoning: Experiences, Lessons, and Future Directions,
+David B. Leake, editor. AAAI Press/MIT Press, Menlo Park, CA, 1996.
+22.	Minock, M. J. and Chu, W. W. Explanation for Cooperative Information Systems,
+In Proceedings of 9th International Symposium on Methodologies for Intelligent
+Systems, June 1996.
+23.	Rissland, E. L., Skalak, D. B., and Friedman, M. T. Evaluating BankXX: Heuristic
+Harvesting of Information for Case-Based Argument, In Aha, D. W. (eds.), In
+Proceedings of AAAI Workshop on Case-Based Reasoning, AAAI Press, 1994.
+24.	Shimazu, H., Kitano, H., and Shibata, A. Retrieving Cases from Relational
+Databases: Another Stride Towards Corporate-Wide Case-Base Systems, International 
+Joint Conference in Artificial Intelligence, Morgan Kaufmann, 1993.
+25.	Sowa, J. Conceptual Structures: Information Processing in Mind and Machine,
+Addison Wesley, Reading, Mass., USA, 1984.
+26.	Watson, I. The Case for Case-Based Reasoning. Available on the World Wide Web
+at http://146.87.176.38/ai-cbr/Papers/ita01.htm.

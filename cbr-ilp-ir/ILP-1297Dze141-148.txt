@@ -1,0 +1,31 @@
+Induction of Slovene Nominal Paradigms
+
+Saso Dzeroski and Tomaz Erjavec
+
+Department of Intelligent Systems, Jozef Stefan Institute
+Jamova 39, SI 1000 Ljubljana, Slovenia
+
+
+Abstract. The paper presents results of using FOIDL, an inductive logic
+programming system, to learn the inflectional paradigms of Slovene nouns.
+FOIDL learns first-order decision lists, defined as ordered list of clauses; it
+has been previously tested on the problem of inducing rules for forming
+the past tense of English verbs. Slovene, unlike English, has rich inflectional 
+morphology, and the paper reports the result of applying FOIDL
+over a large lexicon of Slovene word-forms to induce rules for the synthesis 
+and analysis of the full inflectional paradigms of Slovene nouns.
+References
+
+1.	T. Erjavec, N. Ide, V. Petkevic, and J. Véronis. MULTEXT-East: Multilingual text
+tools and corpora for Central and Eastern European languages. In Proceedings of
+the First TELRI European Seminar: Language Resources for Language Technology,
+pages 87—98, 1996.
+2.	P. Kiparsky. “Elsewhere” in phonology. In Steven R. Anderson, editor, Festschrift
+for Morris Halle, pages 93—106. Holt, Rinehart and Winston, New York, 1973.
+3.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, Chichester, 1994.
+4.	R.J. Mooney and M.-E. Califf. Induction of first-order decision lists: Results on
+learning the past tense of English verbs. Journal of Artificial Intelligence Research,
+(3):1—24, 1995.
+5.	J.R. Quinlan. Learning logical definitions from relations. Machine Learning, 5(3):
+239—266, 1990.

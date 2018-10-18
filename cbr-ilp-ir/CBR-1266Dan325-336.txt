@@ -1,0 +1,51 @@
+What You Saw Is What You Want: Using Cases to
+Seed Information Retrieval *
+
+Jody J. Daniels and Edwina L. Rissland
+
+Department of Computer Science
+University of Massachusetts
+Amherst, MA 01003 USA
+
+
+
+Abstract. This paper presents a hybrid case-based reasoning (CBR)
+and information retrieval (IR) system, called SPIRE, that both retrieves
+documents from a full-text document corpus and from within individual 
+documents, and locates passages likely to contain information about
+important problem-solving features of cases. SPIRE uses two case-bases,
+one containing past precedents, and one containing excerpts from past
+case texts. Both are used by SPIRE to automatically generate queries,
+which are then run by the INQUERY full-text retrieval engine on a large
+text collection in the case of document retrieval and on individual text
+documents for passage retrieval.
+References
+
+[Ash90]	Kevin D. Ashley. Modeling Legal Argument: Reasoning with Gases and Hypotheticals. 
+M.I.T. Press, Cambridge, MA, 1990.
+[CCH92]	James P. Callan, W. Bruce Croft, and Stephen M. Harding. The INQUERY
+Retrieval System. In A. M. Tjoa and I. Ramos, editors, Database and Expert
+Systems Applications: Proceedings of the International Conference in Valen.
+cia, Spain, pages 78—83, Valencia, Spain, 1992. Springer Verlag, NY.
+[Coo68]	William S. Cooper. Expected Search Length: A Single Measure of Retrieval
+Effectiveness Based on the Weak Ordering Action of Retrieval Systems.
+American Documentation, 19:30—41, 1968.
+[Dan97] Jody J. Daniels. Retreival of Passages for Information Reduction. PhD thesis, 
+University of Massachusetts, Amherst, Amherst, MA, May 1997.
+[DR95]	Jody J. Daniels and Edwina L. Rissland. A Case-Based Approach to Intelligent 
+Information Retrieval. In Proceedings of the 18th Annual International
+ACM/SIGIR Conference on Research and Development in Information Retrieval, 
+pages 238—245, Seattle, WA, July 1995. ACM.
+[Kol93] Janet L. Kolodner. Case-Based Reasoning. Morgan Kaufmann, 1993.
+[Kwo96]	K. L. Kwok. A New Method of Weighting Query Terms for Ad-Hoc Retrieval.
+In Proceedings of the 19th Annual International ACM/SICIR Conference on
+Research and Development in Information Retrieval, pages 187—195, Zurich,
+Switzerland, August 1996. ACM.
+[RD95]	Edwina L. Rissland and Jody J. Daniels. Using CBR to Drive IR. In Proceedings, 
+14th International Joint Conference on Artificial Intelligence, pages
+400—407, Montreal, Canada, August 1995. AAAI.
+[RD96]	Edwina L. Rissland and Jody J. Daniels. The Synergistic Application of CBR.
+to IR. Artificial Intelligence Review, 10:441—475, 1996.
+[RSF96]	Edwina L. Rissland, D. B. Skalak, and M. Timur Friedman. BankXX: Supporting 
+Legal Arguments through Heuristic Retrieval. Artificial Intelligence
+Review, 10(1-71), 1996.

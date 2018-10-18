@@ -1,0 +1,74 @@
+A Logical Representation for Relevance Criteria*
+
+Kevin D. Ashley and Vincent Aleven
+
+University of Pittsburgh
+Intelligent Systems Program,
+Learning Research and Development Center, and
+School of Law,
+Pittsburgh, Pennsylvania 15260
+
+
+Abstract. As CBR system designers confront the problem of building programs 
+that can explain their results, a logical representation of relevance
+concepts will be useful. Our application, tutoring students to reason with
+cases, necessitated adopting a declarative, logical representation of case-based 
+relevance concepts. Representing relevance criteria in first-order logic
+with LOOM has turned out not to be prohibitively expensive computationally 
+and has had considerable advantages: it facilitates the use of multiple,
+changing relevance criteria involving complex relationships among cases, we
+have made some progress in enabling a program to explain aspects of its relevance 
+criteria by example, and even students are beginning to express their
+own queries in a simplified version of the language for CATO, our tutoring
+program, to interpret.
+References
+
+[ Aleven and Ashley, 1992] Vincent Aleven and Kevin D. Ashley. Automated Generation
+of Examples for a Tutorial in Case-Based Argumentation. In C. Frasson, G. Gauthier,
+and G.I. McCalla, editors, Proceedings of the Second International Conference on Intelligent 
+Tutoring Systems, pages 576—584, Montreal, 1992.
+[Aleven and Ashley, 1994] Vincent Aleven and Kevin D. Ashley. An Instructional Environment 
+for Practidng Argumentation Skills. 1994. To appear in Proceedings AAAI-94.
+[Ashley and Aleven, 1992] Kevin D. Ashley and Vincent Aleven. Generating Dialectical
+Examples Automatically. In Proceedings AAAI—92. July 1992. San Jose, CA.
+[Ashley and Rissland, 1988] Kevin D. Ashley and Edwina L. Rissland. Waiting on
+Weighting: A Symbolic Least Commitment Approach. In Proceedings AAAI—88. August 1988. St. Paul.
+[Ashley, 1990] Kevin D. Ashley. Modeling Legal Argument: Reasoning with Cases and
+Hypotheticals. MIT Press, Cambridge, 1990. Based on Ashley’s 1987 PhD. Dissertation,
+University of Massachusetts, COINS Technical Report No. 88—01.
+[Ashley, 1993] Kevin D. Ashley. Case-Based Reasoning and its Implications for Legal
+Expert Systems. Artificial Intelligence and Law, 1(2), 1993.
+[ Barr and Feigenbaum, 1981] Avron Barr and Edward Feigenbaum, editors. Logic, volume 
+1. William Kaufmann, Los Altos, CA, 1981.
+[Branting, 1991] L. Karl Branting. Building Explanations from Rules and Structured
+Cases. International Journal of Man-Machine Studies, 34(6):797—837, 1991.
+[Gardner, 1987] A. vdL. Gardner. An Artificial Intelligence Approach to Legal Reasoning.
+MIT Press, Cambridge, 1987.
+[Golding and Rosenbloom, 1991] Andrew R. Golding and Paul S. Rosenbloom. Improving
+Rule-Based Systems through Case-Based Reasoning. In Proceedings AAAI—91, pages
+22—27. July 1991. Anaheim, CA.
+[Kass et al., 1986] A. M. Kass, D. Leake, and C. C. Owens. Swale: A Program that Explains. 
+In Roger C. Schanck, editor, Explanation Patterns: Understanding Mechanically
+and Creatively. Lawrence Erlbaum Associates, Hillsdale, NJ, 1986.
+[Koton, 1988] Phyllis Koton. Using Experience in Learning and Problem Solving. PhD
+thesis, MIT, 1988.
+[MacGregor, 1991] Robert MacGregor. The Evolving Technology of Classification-Based
+Knowledge Representation Systems. In John F. Sowa, editor, Principles of Semantic
+Networks: Explorations in the Representation of Knowledge, pages 385—400. Morgan
+Kaufmann, San Mateo, CA, 1991.
+[Mitchell et al., 1991] Tom M. Mitchell, John Allen, Prasad Chalasani, John Cheng, Oren
+Etzioni, Marc Ringuette, and Jeffrey C. Schllmmer. Theo: A Framework for Self-
+Improving Systems. In Kurt VanLehn, editor, Architectures for Intelligence, pages 323—
+355. Lawrence Erlbaum Associates, Hillsdale, NJ, 1991.
+[Rissland and Skalak, 1991] Edwina L. Rissland and David B. Skalak. CABARET: Statutory 
+Interpretation in a Hybrid Architecture. International Journal of Man-Machine
+Studies, 34(6):839—887, 1991.
+[Sergot et al., 1986] M. J. Sergot, F. Sadri, R. A. Kowalski, F. Kriwaczek, P. Hammond,
+and H. T. Cory. The British Nationality Act as a Logic Program. Communications of
+the ACM, 29(5):370—386, May 1986.
+[Sycara, 1987] Katia Sycara. Resolving Adversarial Conflicts: An Approach Integrating
+Case-Based and Analytic Methods. PhD thesis, Georgia Institute of Technology, 1987.
+School of Information and Computer Science, Technical Report No. 87-26.
+[Veloso, 1992] Manuela M. Veloso. Learning by Analogical Reasoning in General Problem
+Solving. PhD thesis, Carnegie Mellon University, 1992. Technical Report No. CMU-CS-
+92-174.

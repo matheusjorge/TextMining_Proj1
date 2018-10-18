@@ -1,0 +1,67 @@
+Integrated Case-Based Building Design
+
+Kefeng Hua, Ian Smith and Boi Faltings
+
+Artificial Intelligence Laboratory
+Swiss Federal Institute of Technology
+1015 Lausanne, Switzerland
+
+
+Summary
+
+A building design task can be viewed according to many different abstractions. For example,
+an architect views a building as a collection of spaces with particular properties, while a civil
+engineer might consider it to be a structure made up of load-bearing elements. In order to produce
+a workable design, it is important to be able to combine these different viewpoints. Difficulties
+associated with combining viewpoints lead to what we term the integration problem. The case-based 
+design (CBD) methodology presented in this paper provides an opportunity to model the
+intentions of several professions and trades using cases of previous good designs. Therefore,
+CBD provides pre-formulated solutions to integration problems. We describe a prototype design
+system, CADRE, which applies CBD to several examples of building design.
+References
+
+1.	Alexander, C. “Notes on the synthesis of form” Harvard University Press, Cambridge,
+Mass, 1964
+2.	Birnbaum, L. And Collins, G. “Remindings and engineering design themes: a case study
+in indexing vocabulary”Proceedings of workshop on case-basedreasoning. 1989, pp47-5l.
+3.	Cagan, J. And Agogino, A.M. “Dimensional variable expansion — a formal approach to
+innovative design” Research in engineering design, Springer-Verlag New York Inc., 1991,
+vol. 3, pp75-85
+4.	Mario Campi - Franco Pessina “Architects”, Rizzoli International Publications, New
+York, 1987
+5.	B. Dave, G. Schmitt, B. Faltings, I. Smith “Case based design in architecture”, Third International 
+Conference On Artificial Intelligence In Design Lausanne, Switzerland, August
+1994.
+6.	Balachandran, M., Gero, J. “Role of prototypes in integrated expert systems and CAD
+systems” International conference on artificial intelligence in engineering, Boston, 1990
+7.	Faltings, B. “Case-based representation of architectural design knowledge” Computational
+Intelligence 2, North-Holland, 1991
+8.	A. K. Goel, J. L. Kolodner: “Towards a Case-based Tool for Aiding Conceptual Design
+Problem Solving” DARPA Case-based Reasoning Workshop, 1991, pp. 109-120
+9.	Hammond, KJ. “On functionality motivated vocabularies: an apologia” Proceedings of
+workshop on case-based reasoning. 1989, pp52-56
+10.	Hinrichs, T. R. and Kolodner, J. L. “The Roles of Adaptation in Case-based Design” in:
+DARPA Case-based Reasoning Workshop, Butterworth, 1991. pp.121—132
+11.	Hua, K., Smith, I., Faltings, B., Shi, S. And Schmitt, G. “Adaptation of spatial design
+cases” in: Artificial intelligence in design’92. Kiuwer Academic Publishers, 1992, pp55 9-
+575
+12.	Hua, Kefeng and Faltings, Bol “Exploring case-based design: CADRE” Artificial Intel-
+ligence for engineering design, analysis and manufacturing, 7(2):135-144, 1993.
+13.	Kolodner, J. L. “Case-based reasoning”, Morgan Kaufmann, 1993, 668p.
+14.	Krishnaiah, P. And Kanal, L. “Handbook on statistics” North-Holland, Amsterdam, vol.
+2, 1982
+15.	M. L. Maher, D. M. Zhang: “Case-based Reasoning in Design” Artificial Intelligence in
+Design, Butterworth Heinemann l99l,pp. 137-150
+16.	Myers, L., Pohl, 3., and Chapman, A. “The ICADS expert design advisor: concepts and
+directions” in: Artificial intelligence in design ‘91, J.S. Gero (ed.), Butterworth 1991. pp.
+897-920
+17.	Owens, C. “Plan transformations as abstract indices.” Proceedings of workshop on case-based 
+reasoning. 1989, pp62-65.
+18.	Saund, E. “Configurations of shape primitives specified by dimensionality-reduction
+through energy minimization” IEEE spring symposium on physical and biological approaches 
+to computational vision, Stanford, March 1988
+19.	Schank, R. “Reminding and memory” chapter 2 in: Dynamic memory - a theory of
+reminding and learning in computers and people, Cambridge University Press, 1982
+20.	Schmitt, G. “IBDE, VIKA, ARCHPLAN: architectures for design knowledge representation, 
+acquisition and application” in H. Yoshikawa, T. Holden (Eds.): Intelligent CAD ii,
+North Holland, 1990

@@ -1,0 +1,71 @@
+Learning Phonetic Rules in a Speech
+Recognition System
+
+Zoltán Alexin1, János Csirik2, Tibor Gyimóthy3,
+Mark Jelasity3 and László Tóth3
+
+1 Department of Applied Informatics, J6zsef Attila University
+
+Árpád tér 2, H-6720 Szeged, Hungary
+Phone: (36) +(62) 454293, Fax: (36) +(62) 312292
+e-mail: alexin@inf.u-szeged.hu
+
+2 Department of Computer Science, József Attila University
+
+Árpád tér 2, H-6720 Szeged, Hungary
+Phone: (36) +(62) 454370, Fax: (36) +(62) 312292
+e-mail: csirik@inf.u-szeged.hu
+
+3 Research Group on Artificial Intelligence
+Hungarian Academy of Sciences,
+Aradi vértanuk tere 1, H-6720 Szeged, Hungary
+Phone: (36) +(62) 454139, Fax: (36) +(62) 312508
+e-mail: gyimi, jelasity, tothl@inf.u-szeged.hu
+
+
+Abstract. Current speech recognition systems can be categorized into
+two broad classes; the knowledge-based approach and the stochastic one.
+In this paper we present a rule-based method for the recognition of Hungarian 
+vowels. A spectrogram model was used as a front-end module
+and some acoustic features were extracted (e.g. locations, intensities and
+shapes of local maxima) from spectrograms by using a genetic algorithm
+method. On the basis of these features we developed a rule set for the
+recognition of isolated Hungarian vowels. These rules represented by Prolog 
+clauses were refined by the IMPUT Inductive Logic Programming
+method.
+References
+
+1.	Alexin, Z., Gyim6thy, T., Boström, H.: Integrating Algorithmic Debugging and
+Unfolding Transformation in an Interactive Learner in Proceedings of the 12th
+European Conference on Artificial Intelligence ECAI-96 ed. Wolfgang Wahlster,
+Budapest, Hungary (1996) 403—407 John Wiley & Son’s Ltd. (1996)
+2.	Bolla, Kálmán: Magyar fonetikai atlasz, A szegmentálás hangszerkezet elemei
+Nemzeti Tankönyvkiadó Rt Budapest (1995) in Hungarian
+3.	Cooke, M. (eds.): Visual Representations of Speech Signals, Wiley, 1993
+4.	Fohr, D., Haton, J., Laprie, Y.: Knowledge-Based Techniques in Acoustic-Phonetic
+Decoding of Speech: Interest and Limitations, International Journal on Pattern
+Recognition and Artificial Intelligence Vol. 8, No. 1, (1994) 133—153
+5.	Huebener, K., Carson-Berndsen, J.: Phoneme Recognition Using Acoustic Events,
+Verbmobil Technical Report No. 15, June 1994
+6.	Jelasity, M., Dombi, J.: GAS, an Approach on Modeling Species in Genetic Algorithms. 
+Proceedings of the EA’95 (1995)
+7.	Kókai, G., Alexin, Z., Kocsis, F.: The IDT System and its Application for Learning
+Prolog Programs. Proc. of the Sixth International Conference on Artificial Intelligence 
+and Information Control Systems of Robots (AIICSR-94) Smolenice Castle
+Slovakia September 12-16. (1994) 315—320
+8.	Lamel, L. F.: A knowledge-based system for stop consonant identification based on
+speech spectrogram reading, Computer Speech and Language (1993) 2, 169—191
+9.	Lavrac, N., Dzeroski, S.: Inductive Logic Programming: Techniques and Applications 
+Ellis Horwood, (1994)
+10.	Mammachandran, R. P., Mammone, R. J. (eds.): Modern Methods of Speech Processing, 
+Kluwer Academic, 1995
+11.	Mercier, G. et al.: Recognition of speaker-dependent continuous speech with KEAL,
+IEE Proceedings Vol. 136, Pt.1, No.2, April (1989)
+12.	Muggleton, S., De Raedt, L.: Inductive Logic Programming: Theory and methods,
+Journal of Logic Programming 19 (20) (1994) 629—679
+13.	Rabiner, L. R., Schafer, R. W.: Digital Processing of Speech Signals Prentice Hall
+(1978)
+14.	Waibel, A., Lee, K. (eds.): Readings in Speech Recognition, Morgan Kaufmann
+(1990)
+15.	Zue, V. W.: The Use of Speech Knowledge in Automatic Speech Recognition, Proc.
+IEEE, Vol. 73, No. 11, (1985) 1602—1615

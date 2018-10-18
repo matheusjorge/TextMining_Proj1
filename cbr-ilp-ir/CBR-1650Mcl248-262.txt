@@ -1,0 +1,69 @@
+Case Representation, Acquisition, and Retrieval
+in SIROCCO
+
+Bruce McLaren and Kevin Ashley
+
+University of Pittsburgh
+Intelligent Systems Program
+3939 O’Hara Street
+Pittsburgh, PA 15260
+bmclaren+@pitt.edu, ashley+@pitt.edu
+
+
+
+Abstract. As part of our investigation of how abstract principles are
+operationalized to facilitate their application to specific fact situations, we
+have begun to develop and experiment with SIROCCO (System for
+Intelligent Retrieval of Operationalized Cases and COdes), a CBR retrieval
+and analysis system applied to the domain of engineering ethics. SIROCCO
+is intended to retrieve decided engineering ethics cases and previously
+applied ethics codes to assist engineers and students in analyzing new cases.
+Here we describe a limited but expressive language designed to represent a
+wide range of ethics cases in SIROCCO, a world-wide web tool developed to
+perform case acquisition and support a measure of consistency in
+representation, and an experiment to validate the initial phase of
+SIROCCO’s retrieval algorithm and test its sensitivity to small variations in
+case description.
+References
+
+Aleven, V. (1997). Teaching Case-Based Argumentation Through a Model and Examples.
+Ph.D. Dissertation, University of Pittsburgh.
+Ashley, K. D. and McLaren, B. M. (1995). Reasoning with Reasons in Case-Based
+Comparisons. In the Proceedings of the First International Conference on Case-Based
+Reasoning (ICCBR-95). Pp, 133-144. Lecture Notes in Artificial Intelligence 1010.
+Springer Verlag. Heidelberg, Germany.
+Branting, L. K. (1990) Integrating Rules and Precedents for Classification and
+Explanation: Automating Legal Analysis. Ph.D. Dissertation. U. Texas at Austin AI
+Lab. AI 90-146.
+Branting, L. K. (1994). A Computational Model of Ratio Decidendi. Artificial Intelligence
+and Law 2:1-31. Kiuwer Academic Publishers. Printed in the Netherlands.
+Bruninghaus, S., and Ashley, K. D. (1997) Using Machine Learning to Assign Indices to
+Legal Cases. In the Proceedings of the Second International Conference on Case-Based
+Reasoning (ICCBR-97). Pp. 303-314. Lecture Notes in Artificial Intelligence 1266.
+Springer Verlag. Heidelberg, Germany.
+Cheng, C. H., Holsapple, C. W. and Lee, A. (1996). Citation-Based Journal Rankings for
+Al Research: A Business Perspective.. AI Magazine, Vol. 17, No. 2.
+Daniels, J. and E. Rissland. (1997) Finding Legally Relevant Passages in Case Opinions.
+In the Proceedings of the Sixth International Conference on AI and Law (ICAIL-97). Pp.
+39-46. ACM Press: New York.
+Forbus, K. D., Gentuer, D. and Law, K. (1994). MAC/FAC: A Model of Similarity-based
+Retrieval. Cognitive Science 19, Pp. 141-205.
+Jonsen A. R. and Toulmin 5. (1988). The Abuse of Casuistry: A History of Moral
+Reasoning. University of CA Press, Berkeley.
+Lewis, D. D., Schapire, R. E., Callan, J. P., and Papka, R. (1996). Training Algorithms for
+Linear Text Classifiers. In the Proceedings of the 19th Annual International ACM-SIGIR
+Conference on Research and Development in Information Retrieval. Zurich.
+McLaren, B. M. and Ashley, K. D. (1998). Exploring the Dialectic Between Abstract Rules
+and Concrete Facts: Operationalizing Principles and Cases in Engineering Ethics. In the
+Proceedings From the Fourth European Workshop on Case-Based Reasoning. Pp, 37-51.
+Lecture Notes in Artificial Intelligence 1488. Springer Verlag. Heidelberg, Germany.
+Mostow, J. (1983). Machine transformation of advice into a heuristic search procedure. In
+Machine Learning, vol. 1.
+NSPE (1958-1997). Opinions of the Board of Ethical Review, Vol. I - VII and NSPE Ethics
+Reference Guide. Published by National Society of Professional Engineers, Alexandria,
+Virginia.
+Rissland, E. L., Skalak, D. B., and Friedman, M. T. (1996). BankXX: Supporting Legal
+Arguments through Heuristic Retrieval. AI and Law 4:1-71. Kluwer, Dordrecht.
+Thagard, P., Holyoak, K., Nelson, G., and Gochfeld, (1990). Analog Retrieval by
+Constraint Satisfaction, Artificial Intelligence 46, Pp. 259-310.
+van Rijsbergen, C. J. (1979). Information Retrieval. Butterworths, London, second edition

@@ -1,0 +1,73 @@
+Inductive Logic Program Synthesis
+with DIALOGS
+
+
+
+Pierre Flener
+
+Department of Computer Engineering and Information Sdence
+Faculty of Engineering, Bilkent University, 06533 Bilkent, Ankara, Turkey
+Email: pf@cs.bilkent.edu.tr Voice: +90/312/266-4000 ext. 1450
+
+
+Abstract. DIALOGS (Dialogue-based Inductive and Abductive LOGic
+program Synthesizer) is a schema-guided synthesizer of recursive logic
+programs; it takes the initiative and queries a (possibly computationally
+naive) specifier for evidence in her/his conceptual language. The specifier
+must know the answers to such simple queries, because otherwise s/he
+wouldn’t even feel the need for the synthesized program. DIALOGS can be
+used by any learner (including itself) that detects, or merely conjectures,
+the necessity of invention of a new predicate. Due to its foundation on a
+powerful codification of a “recursion-theory” (by means of the template
+and constraints of a divide-and-conquer schema), DIALOGS needs very
+little evidence and is very fast.
+References
+
+1.	Angluin, D.: Queries and concept learning. Machine Learning 2(4):319—342, 1988.
+2.	Bergadano, F., Gunetti, D.: Learning clauses by tracing derivations. In S. Wrobel
+(ed), Proc. of ILP’94, pp. 11—29. GMD-Studien Nr. 237, Sankt Augustin, 1994.
+3.	Biermann, A.W.: Dealing with search. In A.W. Biermann, G. Guiho, and Y. Kodratoff 
+(eds), Automatic Program Construction Techniques, pp. 375—392. Macmillan, 1984.
+4.	Boström, H., Idestam-Almquist, P.: Specialization of logic programs by pruning
+SLD-trees. In S. Wrobel (ed), Proc. of ILP’94, pp. 31—48. GMD-Studien Nr. 237,
+Sankt Augustin, 1994.
+5.	Cohen, W.C.: Compiling prior knowledge into an explicit bias. In Proc. of ICML’92,
+pages 102—110. Morgan Kaufmann, 1992.
+6.	De Raedt, L., Bruynooghe, M.: Belief updating from integrity constraints and
+queries. Artificial Intelligence 53(2-3):291—307, February 1992.
+7.	De Raedt, L., Bruynooghe, M.: Interactive concept learning and constructive induction 
+by analogy. Machine Learning 8:107—150, 1992.
+8.	Erdem, E.: An MSG Method for Inductive Logic Program Synthesis. Senior Project
+Final Report, Bilkent University, Ankara (Turkey), May 1996.
+9.	Flener, P.: Logic Program Synthesis from Incomplete Information. Kluwer, 1995.
+10.	Flener, P.: Predicate Invention in Inductive Program Synthesis. TR BU-CEIS-9509,
+Bilkent University, Ankara (Turkey), 1995. Submitted.
+11.	Flener, P.: Synthesis of Logic Algorithm Schemata. TR BU-CEIS-96xx, Bilkent
+University, Ankara (Turkey), 1996. Update of TR BU-CEIS-9502. In preparation.
+12.	Flener, P., Deville, Y.: Logic program synthesis from incomplete specifications.
+Journal of Symbolic Computation 15(5—6):775—805, May/June 1993.
+13.	Flener, P., Popelínsky, L.: On the use of inductive reasoning in program synthesis.
+In L. Fribourg and F. Turini (eds), Proc. of META/LOPSTR’94. LNCS 883:69-87,
+Springer-Verlag, 1994.
+14.	Flener, P., Deville, Y.: Logic Program Transformation through Generalization
+Schemata. TR BU-CEIS-96yy, Bilkent University, Ankara (Turkey), 1996. In
+preparation. Extended abstract in M. Proietti (ed), Proc. of LOPSTR ‘95. LNCS
+1048:171—173, Springer-Verlag, 1996.
+15.	Hamfelt, A., Fischer-Nilsson, J.: Inductive metalogic programming. In S. Wrobel
+(ed), Proc. of ILP’94, pp. 85—96. GMD-Studien Nr. 237, Sankt Augustin, 1994.
+Kietz, J.U., Wrobel, S.: Controlling the complexity of learning in logic through
+syntactic and task-oriented models. In S. Muggleton (ed), Inductive Logic Programming, 
+pp. 335-359. Volume APIC-38, Academic Press, 1992.
+17.	Lapointe, S., Ling, C., Matwin, S.: Constructive inductive logic programming. In S.
+Muggleton (ed), Proc. of ILP’93, pp. 255—264. TR IJS-DP-6707, J. Stefan Institute,
+LiubUana (Slovenia), 1993.
+18.	Muggleton, S., Buntinne, W.: Machine invention of first-order predicates by inverting
+resolution. In Proc. of ICML ‘88, pages 339-352. Morgan Kaufmann, 1988.
+19.	Plotkinn, G.D.: A note on inductive generalization. In B. Meltzer and D. Michie
+(eds), Machine Intelligence 5:153—163. Edinburgh University Press, 1970.
+20.	Stahl, I.: Predicate invention in ILP: An overview. TR 1993/06, Fakultät Informatik, 
+Universität Stuttgart (Germany), 1993.
+21.	Sterling, L.S., Kirschenbaum, M.: Applying techniques to skeletons. In J.-M.
+Jacquet (ed), Constructing Logic Programs, pp. 127—140. John Wiley, 1993.
+22.	Tinkham, N.L.: Induction of Schemata for Program Synthesis. Ph.D. Thesis, Duke
+University, Durham (NC, USA), 1990.

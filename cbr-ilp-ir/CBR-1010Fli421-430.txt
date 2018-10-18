@@ -1,0 +1,54 @@
+On the Automatic Generation of Case Libraries
+by Chunking Chess Games
+
+Stephen Flinter and Mark T. Keane
+
+Trinity College Dublin
+
+
+Abstract. As a research topic computer game playing has contributed
+problems to AI that manifest exponential growth in the problem space.
+For the most part, in games such as chess and checkers these problems
+have been surmounted with enormous computing power on brute-force
+search methods using massive databases. It remains to be seen whether
+such techniques will extend to other games such as go and shogi. One
+suggestion is that these games and even chess might benefit from a
+knowledge-based treatment but such approaches have met with limited
+success. The problem, as ever from such approaches, is the characterisation 
+of the knowledge to be used by the system. This paper deals with
+the TAL system, which employs case-based reasoning techniques for chess
+playing. In the paper, rather than focus on playing, we concentrate on
+the automatic generation of suitable case knowledge using a chunking
+technique on a corpus of grandmaster games.
+References
+
+1.	Lawrence Birnbaum, Gregg Coffins, Michael Freed, and Bruce Krulwich. Model-based 
+diagnosis of planning failures. In Proceedings of the Eighth National Conference 
+on Artificial Intelligence, pages 318—323. American Association of Artificial
+Intelligence, AAAI Press/MIT Press, 1990.
+2.	M. M. Botvinnik. Three positions. International Computer Chess Association
+Journal, 16(2):71—75, June 1993.
+3.	William G. Chase and Herbert A. Simon. Perception in chess. Cognitive Psychology, 
+4:55—81, 1973.
+4.	Gregg Collins, Lawrence Birnbaum, Bruce Krulwich, and Michael Freed. A model-based 
+approach to learning from planning failures. In Notes of the 1991 AAAI
+Workshop on Model-Based Reasoning. AAAI, 1991.
+5.	Gregg Collins, Lawrence Birnbaum, Bruce Krulwich, and Michael Freed. Model-based 
+integration of planning and learning. SIGART Bulletin, 2(4):56—60, 1991.
+6.	A. D. de Groot. Thought and Choice in Chess. The Hague: Mouton, 1965.
+7.	Dennis H. Holding. The Psychology of Chess Skill. Lawrence Earlbaum Associates,
+1985.
+8.	Yaakov Kerner. Case-based evaluation in computer chess. In Proceedings of the
+European Workshop of Case-Based Reasoning. Springer-Verlag, 1994.
+9.	John Laird, Allen Newell, and Paul Rosenbloom. The SOAR Papers. MIT Press,
+1993.
+10.	Robert Levinson and John Amenta. Morph, an experience-based adaptive chess
+system. International Computer Chess Association Journal, 16(1):51—53, March
+1993.
+11.	Alan Newell and Herbert Simon. Human Problem Solving. Prentice Hall, 1972.
+12.	Barney Pell. METAGAME: A new challenge for games and learning. In Jaap
+van den Herik and Victor Allis, editors, Heuristic Programming in Artificial Intelligence 
+3, Ellis Horwood Series in Artificial Intelligence, pages 237—251. Ellis
+Horwood Limited, 1992.
+13.	Herbert A. Simon and Michael Barenfeld. Information-processing analysis of perceptual 
+processes in problem solving. Psychological Review, 76(5):473—483, 1969.

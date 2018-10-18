@@ -1,0 +1,67 @@
+Spatial composition using cases : IDIOM
+
+Ian Smith, Claudio Lottaz and Boi Faltings
+
+AT Lab (LIA - DI)
+Federal Institute of Technology (EPFL)
+CH-1015 Lausanne
+
+
+Abstract. This paper describes a system called IDIOM (Interactive Design 
+using Intelligent Objects and Models) that was developed in order
+to study model-based case combination and adaptation in design. Intelligent 
+objects are defined to be parts of cases that are interpreted
+at run-time by domain models and through user interaction. Incremental 
+parameterization and dimensionality reduction ensures that design
+solutions are proposed quickly and reliably. An implementation in the
+domain of spatial composition for building designs demonstrates several
+aspects of the approach.
+References
+
+1.	Bahktari S. and Bartsch-Spörl B. “Our perspective on using CBR in design problem
+solving” 1st European Workshop on CBR, Kaiserslautern, 1993
+2.	Bakhtari S. et al, “EWCBR93 : Contributions of FABEL” Fabel Report No. 17,
+GMD, Sankt Augustin, 1993
+3.	B. Dave, G. Schmitt, B. Faltings and I. Smith “Case-based design in architecture”
+Artificial Intelligence in Design ‘94 1994
+4.	Faltings, B. “Arc-consistency for continuous variables”, Artificial Intelligence, 65,
+1994, pp 363-376.
+5.	Fleming U., “Case-based design in the SEED System”, 1st Computing Congress,
+American Society of Civil Engineers, Washington, 1994
+6.	Flemming, U., R. Coyne, T. Glavin and M. Rychener, “A Generative Expert System
+for the Design of Building Layouts”, AI in Engineering: Design, Elsevier 1988 pp
+445-464.
+7.	Giretti, A., Spalazzi, L. and Lemma, M. “A.S.A. An interactive assistant to architectural 
+design” Artificial Intelligence in Design ‘94, Kluwer, 1994, pp 93-108.
+8.	Goel, A.K. and Chandrasekaran, B. “Use of device models in adaptation of design
+cases” DARPA CBR Workshop, 1989, pp100-109.
+9.	Goel, A.K. and Kolodner, J.L. “Towards a case-based tool for aiding conceptual
+design problem solving” DARPA CBR Workshop, 1991, pp109-120.
+10.	Hinrichs, T. R. and Kolodner, J. L. “The Roles of Adaptation in Case-based Design” 
+in: DARPA Case-based Reasoning Workshop, 1991, pp.121—132
+11.	Hinrichs, T. R. “Problem solving in open worlds” Lawrence Erlbaum, 1992
+12.	Hua, K. “Case-based design of geometric structures” Thesis No 1270, Swiss Federal
+Institute of Technology, Lausanne, 1994.
+13.	Hua K., Smith, I., Faltings, B., Shih, S., and Schmitt, G., “Adaptation of Spatial
+Design Cases” Artificial Intelligence in Design ‘92, Kluwer, Dordrecht, NL, 1992
+14.	Hua K., Smith, I. and Faltings, B. “Integrated case-based building design” Topics
+in case-based reasoning, Lecture Notes in AI, 837, Springer-Verlag, 1994, pp436-445.
+15.	Keane, M.T. “Analogical asides on case-based reasoning” Topics in case-based
+reasoning, Lecture Notes in AI, 837, Springer-Verlag, 1994, pp21-32.
+16.	Kolodner, J., Case-based reasoning, Morgan Kaufmann, San Mateo CA, 1993
+17.	Maher, M.L. and Zhang, D.M. “Case-based reasoning in design” Artificial Intelligence 
+in Design, Butterworth-Heinemann, 1991, pp 137-150.
+18.	Navinchandra, D. “Case based reasoning in CYCLOPS” DARPA Case-Based Reasoning 
+Workshop, 1988, pp286-291.
+19.	Schmitt, G., “Design reasoning with cases and intelligent objects” International
+Association of Bridge and Structural Engineering, Report 68, 1993 pp 77-87
+20.	Smyth, B and Keane, M.T. “Retrieving adaptable cases” Lecture Notes in AI, 837,
+Springer-Verlag, 1994, pp209-220.
+21.	Sycara, K.P. and Navinchandra, D. “Influences: A thematic abstraction for creative
+use of multiple cases” DARPA CBR Workshop, 1991, pp133-144.
+22.	Tommelein, I.D. “SightPlan - An expert system for designing construction site
+layouts”, PhD Thesis, Stanford University, 1989.
+23.	Voss, A. “The need for knowledge acquisition in case-based reasoning - some experiences 
+from an architectural domain”, 11th ECAI, John Wiley, 1994, pp463-467.
+24.	Zhang, D.M. and Maher, M.L. “Using CBR for the synthesis of structural systems”
+Inter. Assoc. for Bridge and Structural Engineering, Report 68, 1993, pp143-152.

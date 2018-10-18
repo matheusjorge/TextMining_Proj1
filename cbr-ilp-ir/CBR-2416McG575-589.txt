@@ -1,0 +1,72 @@
+Comparison-Based Recommendation*
+
+Lorraine Mc Ginty1 and Barry Smyth1,2
+
+1 Smart Media Institute, University College Dublin, Dublin 4, Ireland.
+Lorraine.McGinty@ucd.ie
+2 ChangingWorlds Ltd., South County Business Park, Dublin 18, Ireland.
+Barry.Srnyth@ChangingWorlds.com
+
+
+
+
+Abstract. Recommender systems combine user profiling and filtering
+techniques to provide more pro-active and personal information retrieval
+systems, and have been gaining in popularity as a way of overcoming the
+ubiquitous information overload problem. Many recommender systems
+operate as interactive systems that seek feedback from the end-user as
+part of the recommendation process to revise the user’s query. In this
+paper we examine different forms of feedback that have been used in the
+past and focus on a low-cost preference-based feedback model, which to
+date has been very much under utilised. In particular we describe and
+evaluate a novel comparison-based recommendation framework which is
+designed to utilise preference-based feedback. Specifically, we present results 
+that highlight the benefits of a number of new query revision strategies 
+and evidence to suggest that the popular more-like-this strategy may
+be flawed.
+References
+
+1.	D.W. Aha, L.A. Breslow, and H. Muñoz-Avila. Conversational case-based reasoning. 
+Applied Intelligence, 14:9—32, 2000.
+2.	M. Balabanovic and Y. Shoham. FAB: Content-Based Collaborative Recommender. 
+Communications of the ACM, 40(3):66—72, 1997.
+3.	K. Bradley and B. Smyth. Improving Recommendation Diversity. In
+D. O’Donoghue, editor, Proceedings of the Twelfth National Conference in Artificial 
+Intelligence and Cognitive Science (AICS-01), pages 75—84, 2001. Maynooth,
+Ireland.
+4.	D. Bridge. Product Recommendation Systems: A New Direction. In D. Aha and
+I. Watson, editors, Workshop on CBR in Electronic Commerce at The International
+Conference on Case-Based Reasoning (ICCBR-01), 2001. Vancouver, Canada.
+5.	R. Burke, K. Hammond, and B.C. Young. The FindMe Approach to Assisted
+Browsing. Journal of IEEE Expert, 12(4):32—40, 1997.
+6.	M. Doyle and P. Cunningham. A Dynamic Approach to Reducing Dialog in On-Line 
+Decision Guides. In E. Blanzieri and L. Portinale, editors, Proceedings of the
+Fifth European Workshop on Case-Based Reasoning, EWCBR-2000, pages 49—60.
+Springer, 2000. Trento, Italy.
+7.	M. Goker and C. Thompson. Personalized Conversational Case-based Recommendation. 
+In E. Blanzieri and L. Portinale, editors, Advances in Case-Based Reasoning: 
+Proceedings of the Fifth European Workshop on Case-based Reasoning, pages
+99-111. Springer-Verlag, 2000.
+8.	A. Kohlmaier, S. Schmitt, and R. Bergmann. Evaluation of a Similarity-based Approach 
+to Customer-adaptive Electronic Sales Dialogs. In S. Weibelzahl, D. Chin,
+and G. Weber, editors, Empirical Evaluation of Adaptive Systems. Proceedings of
+the workshop held at the 8th International Conference on User Modelling, pages
+40—50, 2001. Sonthofen, Germany.
+9.	L. McGinty and B. Smyth. Collaborative Case-Based Reasoning: Applications in
+Personalised Route Planning. In D. Aha and I. Watson, editors, Proceedings of the
+International Conference on Case-Based Reasoning (ICCBR-01), pages 362—376.
+Springer-Verlag, 2001. Vancouver, Canada.
+10.	J.R. Quinlan. Induction of decision trees. Journal of Machine Learning, 1:81—106,
+1986.
+11.	H. Shimazu. ExpertClerk : Navigating Shoppers’ Buying Process with the Combination 
+of Asking and Proposing. In Bernhard Nebel, editor, Proceedings of the Seventeenth 
+International Joint Conference on Artificial Intelligence (IJCAI-2001),
+pages Volume 2, pages 1443—1448. Morgan Kaufmann, 2001. Seattle, Washington.
+12.	B. Smyth and P. Cotter. A Personalized TV Listings Service for the Digital TV
+Age. Journal of Knowledge-Based Systems, 13(2-3) :53—59, 2000.
+13.	B. Smyth and P. Cunningham. A Comparison of Incremental Case-Based Reasoning 
+and Inductive Learning. In Proceedings of the Second European Workshop on
+Case-Based Reasoning, EWCBR-94. Springer, 1994. Chantilly, France.
+14.	B. Smyth and P. McClave. Similarity v’s Diversity. In D. Aha and I. Watson, editors, 
+Proceedings of the International Conference on Case-Based Reasoning, pages
+347—361. Springer, 2001.

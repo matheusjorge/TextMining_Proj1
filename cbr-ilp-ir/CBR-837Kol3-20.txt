@@ -1,0 +1,51 @@
+Understanding Creativity: A Case-Based
+Approach
+
+Janet L. Kolodner
+
+College of Computing
+Georgia Institute of Technology
+Atlanta, Georgia 30332-0280
+(404) 894-3285
+jlk@cc.gatech.edu
+
+
+
+Abstract. Dissatisfaction with existing standard case-based reasoning
+(CBR) systems has prompted us to investigate how we can make these
+systems more creative and, more broadly, what would it mean for them to
+be more creative. This paper discusses three research goals: understanding 
+creative processes better, investigating the role of cases and CBR
+in creative problem solving, and understanding the framework that supports 
+this more interesting kind of case-based reasoning. In addition, it
+discusses methodological issues in the study of creativity and, in particular, 
+the use of CBR as a research paradigm for exploring creativity.
+References
+
+1.	Boden, M. 1992. The Creative Mind: Myths and Mechanisms. New York, NY: Basic
+Books.
+2.	Kolodner, J.L. 1993. Case-Based Reasoning. Morgan-Kaufman Publishers, Inc.,
+San Mateo, CA.
+3.	Kolodner, J.L. and Penberthy, T.L. 1990, A Case-Based Approach to Creativity in
+Problem Solving. Proceedings of the Twelfth Annual Conference of the Cognitive
+Science Society, Cambridge, MA. August.
+4.	Kolodner, J.L. and Wills, L.M. 1993a. Case-Based Creative Design, AAAI Spring
+Symposiom on Al and Creativity. Stanford, CA. Reprinted in AISB Quarterly,
+Autumn, 1993, No. 85. pp. 50-57.
+5.	Kolodner, J.L. and Wills, L.M. 1993b. Paying Attention to the Right Thing: Issues
+of Focos in Case-Based Creative Design. AAAI Case-Based Reasoning Workshop.
+Washington, D.C., pp. 19-25.
+6.	Navinchandra, D. 1991. Exploration and Innovation in Design: Towards a Computational 
+Model. New York: Springer-Verlag.
+7.	Prabbakar, S. and Goel, A. 1992. Performance-Driven Creativity in Design: Constraint 
+Discovery, Model Revision, and Case Composition. In Proceedings of the
+Second International Conference on Computational Models of Creative Design.
+Heron Island, Australia.
+8.	Shinn, H. 1988. The role of mapping in analogical transfer. In Proceedings of the
+Tenth Annual Conference of the Cognitive Science Society. Northvale, NJ: ErIbaum.
+9.	Wills, L.M. and Kolodner, J.L. 1994a. Towards More Creative Case-Based Design
+Systems, to appear in the Twelfth National Conference on Artificial Intelligence
+(AAAI-94). Seattle, WA.
+10.	Wills, L.M. and Kolodner, J.L. 1994b. Explaining Serendipitous Recognition in
+Design, to appear in The Sixteenth Annual Conference of the Cognitive Science
+Society. Atlanta, GA.

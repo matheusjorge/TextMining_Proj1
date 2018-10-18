@@ -1,0 +1,50 @@
+Activating Case-Based Reasoning with Active
+Databases
+
+Sheng Li and Qiang Yang
+
+School of Computing Science, Simon Fraser University
+Burnaby, BC Canada, V5A 1S6
+
+
+
+Abstract. Many of today’s CBR systems are passive in nature: they
+require human users to activate them manually and to provide information 
+about the incoming problem explicitly. In this paper, we present an
+integrated system that combines CBR system with an active database
+system. Active databases, with the support of active rules, can perform
+event detecting, condition monitoring, and event handling (action execution) 
+in an automatic manner. The combined ActiveCBR system consists
+of two layers. In the lower layer, the active database is rule-driven; in the
+higher layer, the result of action execution of active rules is transformed
+into feature-value pairs required by the CBR subsystem. The layered
+architecture separates case-based reasoning from complicated rule-based
+reasoning, and improves the traditional passive CBR system with the
+active property. This paper shows how to construct ActiveCBR system
+and provides an analysis of the resulting system architecture.
+References
+
+1.	A. Aamodt and B. Plaza. Foundational issues, methodological variations, and
+system approaches. Artificial Intelligence Communications, 7(1):39—59,1993.
+2.	A. Biliris. The performance of three database storage structures for managing large
+objects. In ACM SIGMOD Conference on the Management of Data, San Diego, CA, 1992.
+3.	S. Ceri, P. Fraternali, S. Paraboschi, and L. Branca. Active rule management in
+Chimera. In Active Database Systems - Triggers and Rules For Advanced Database
+Processing, pages 151—76. Morgan Kaufman, 1996.
+4.	O. Diaz and A. Jaime. EXACT: an extensible approach to active object-oriented
+databases. VLDB Journal, 6(4):282—295, 1997.
+5.	O. Diaz, A. Jaime, N. W. Paton, and G. Qaimari. Supporting dynamic displays
+using active rules. ACM SIGMOD Record, 23(1):21—26, 1994.
+6.	D. Centner. Structure mapping: a theoretical framework for analogy. Cognitive
+Science, 7:155—70, 1983.
+7.	J. L. Kolodner. Case-Based Reasoning. Morgan Kaufmann Publisers, Inc., 1993.
+8.	D. B. Leake, A. Kinley, and D. Wilson. Learning to improve case adaptation
+by introspective reasoning and CBR. In Proceedings of the First International
+Conference on Case-Based Reasoning. Springer-Verlag, 1995.
+9.	K. Owens and S. Adams. Oracle 7 triggers: Mutating tables? Database Programming 
+and Design, 7(10):31—49, 1994.
+10.	J. Quinlan. Induction of decision trees. Machine Learning, 1:81—106, 1986.
+11.	Y. Shoham. An overview of agent-oriented programming. In J. M. Bradshaw,
+editor, Software Agents, pages 271—90. AAAI Press, 1997.
+12.	I. Watson and F. Marir. Case-based reasoning: A review. The Knowledge Engineering 
+Review, 9(4):355—81, 1994.

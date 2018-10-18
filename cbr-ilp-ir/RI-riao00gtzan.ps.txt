@@ -1,0 +1,45 @@
+Multimedia structuring using trees
+
+George Tzanetakis & Luc Julia
+Computer-Human Interaction Center (CHIC!)
+SRI International
+333 Ravenswood Avenue
+Menlo Park, CA 94025
+gtzan@cs.princeton.edu julia@speech.sri.com
+
+Abstract
+Traditionally work on multimedia structuring has been centered on the creation of indices and their use for
+searching. Although searching is important there are many cases where the user just wants to browse through
+the data to find something interesting without having any particular search goal. Multimedia data exhibits
+hierarchical structure that can be exploited for more natural user interaction with the content.
+In order to handle the large amounts of multimedia data more structure than what is currently available is
+required. In this paper, we have focused on structuring multimedia data using trees to describe both temporal
+and categorical relations. The pervasive use of trees to express hierarchies facilitates browsing, profiling, and
+authoring. Our main target application is the implementation of a personalized TV-guide. The constraints
+imposed by this application caused the development of a new simple compact graphical user interface for tree
+browsing.
+
+References
+Arons, B. SpeechSkimmer: A system of interactively skimming recorded speech. ACM Transactions
+Computer Human Interaction, 1997, 4, (pp. 3--38).
+Bulterman, D., Hardman, L. (1995) Multimedia authoring tools: state of the art and research
+challenges in Computer Science today: recent trends & developments edited by Jan Van Leeuwen,
+Springer Verlag, Lecture notes in Computer Science.
+Cheyer, A., and Julia (1998), L. MVIEWS: Multimodal tools for the video analyst, In Proceedings of
+UIST 98 (pp. 55-62) ACM, San Fransisco.
+Chiu, P., and Wilcox (1998), L. A dynamic grouping technique for ink and audio notes. In
+Proceedings of UIST 98 (pp. 195-202) ACM, San Fransisco.
+Harman, D., Bulterman, D and van Rossum, G (1993) The Amsterdam hypermedia model: extending
+hypertext to support real multimedia, Hypermedia Journal 5(1), (pp. 47-69)
+Johnson, B., Shneiderman, B. (1991) TreeMaps: A space filling approach to the visualization of
+hierarchical information structures. In Proceedings of the 2 nd International IEEE Visualization
+Conference (pp 91-128) San Diego, Oct 1991.
+Martin, D., Cheyer, A. and Moran, D.(1999) The open agent architecture: A framework for building
+distributed software systems. Applied Artificial Intelligence 13(1-2) (pp.91-128).
+Tzanetakis, G. and Cook P. (2000) MARSYAS: A framework for audio analysis. To appear in:
+Organised Sound, Cambridge University Press.
+Rivlin,Z.et al (2000) MAESTRO: Conductor of multimedia analysis technologies, Communications
+of the ACM,43(2), (pp. 57-74).
+Virage (2000): http://www.virage.com
+WebTV (2000): http://www.webtv.com
+

@@ -1,0 +1,85 @@
+Top-down Induct ion of Logic Programs from
+Incomplete Samples *
+
+Nobuhiro Inuzuka1, Masakage Kamo2, Naohiro Ishii1,
+Hirohisa Seki1 and Hidenori Itoh1
+
+1 Department of Intelligence and Computer Science, Nagoya Institute of Technology
+Gokiso-cho, Showa-ku, Nagoya 466, Japan
+E-mail: {inuzuka,ishii,seki,itoh}@ics.nitech.ac.jp
+2 Aishin Seiki Co.,Ltd., Asahi-cho, Kariya-shi, Aichi 448, Japan
+E-Mail: mkamo@rd.aisin.co.jp
+
+
+
+Abstract. We propose an ILP system FOIL-I, which induces logic programs 
+by a top-down method from incomplete samples. An incomplete
+sample is constituted by some of positive examples and negative examples 
+on a finite domain. FOIL-I has an evaluation function to estimate 
+candidate definitions, the function which is composition of an
+information-based function and an encoding complexity measure. FOILI 
+uses a best-first search using the evaluation function to make use of
+suspicious but necessary candidates. Other particular points include a
+treatment for recursive definitions and removal of redundant clauses.
+Randomly selected incomplete samples are tested with FOIL-I, Quinlan’s 
+FOIL and Muggleton’s Progol. Compared with others FOIL-I can
+induce target relations in many cases from small incomplete samples.
+References
+
+[ALLM94a]	D.W. Aha, S. Lapointe, C.X. Ling, and S. Matwm. Inverting implication
+with small training sets. In F. Bergadano and L. De Raedt, editors, Proceedings 
+of the 7th European Conference on Machine Learning, volume 784
+of Lecture Notes in Artificial Intelligence, pages 31—48. Springer-Verlag,
+1994.
+[ALLM94b]	D.W. Aha, S. Lapointe, C.X. , and S. Matwin. Learning recursive relations 
+with randomly selected small training sets. In W.W. Cohen and
+H. Hirsh, editors, Proceedings of the 11th International Conference on Machine 
+Learning, pages 12—18. Morgan Kaufmann, 1994.
+[AP93]		K.M. Ali and M.J. Pazzani. Hydra: A noise-tolerant relational concept
+learning algorithm. In R. Bajcsy, editor, Proceedings of the 13th International 
+Joint Conference on Artificial Intelligence, pages 1064—1071. Morgan
+Kaufmann, 1993.
+[BP91]		C.A. Brunk and M.J. Pazzani. An investigation of noise-tolerant relational
+concept learning algorithms. In L. Birnbaum and G. Collins, editors, Proceedings 
+of the 8th International Workshop on Machine Learning, pages
+389—393. Morgan Kaufmann, 1991.
+[Coh95]		W. Cohen. Learning to classify english text with ILP method. In
+L. De Raedt, editor, Proceedings of the 5th International Workshop on Inductive 
+Logic Programming, Scientific report, pages 3—24. Department of
+Computer Science, Katholieke Universiteit Leuven, 1995.
+[DB92]		S. Dzeroski and I. Bratko. Handling noise in inductive logic programming.
+In S. Muggleton, editor, Proceedings of the 2nd International Workshop on
+Inductive Logic Programming, Report ICOT TM-1182, 1992.
+[DBJ94]		B. Dolsak, I. Bratko, and A. Jezernik. Finite element mesh design: An engineering 
+domain for ILP application. In S. Wrobel, editor, Proceedings
+of the 4th International Workshop on Inductive Logic Programming, volume 
+237 of GMD-Studien, pages 305—320. Gesellschaft für Mathematik und
+Datenverarbeitung MBH, 1994.
+[DM91]		B. Dolsak and S. Muggleton. The application of ILP to finite element
+mesh design. In S. Muggleton, editor, Proceedings of the 1st International
+Workshop on Inductive Logic Programming, pages 225—242, 1991.
+[Dze95]		S. Dzeroski. Learning first-order clausal theories in the presence of noise.
+In A. Aamodt and J. Komorowski, editors, Proceedings of the 5th Scandinavian 
+Conference on Artificial Intelligence, pages 51—60. IOS, Amsterdam, 1995.
+[Für93]		J. Fürnkranz. Avoiding noise fitting in a FOIL-like learning algorithm.
+In F. Bergadano, L. De Raedt, S. Matwin, and S. Muggleton, editors, Proceedings 
+of the IJCAI-93 Workshop on Inductive Logic Programming, pages
+14—23. Morgan Kaufmann, 1993.
+[HS92]		D. Hume and C. Sammut. Applying inductive logic programming in reactive 
+environments. In S. Muggleton, editor, Inductive Logic Programming,
+pages 539-549. Academic Press, 1992.
+[MF92]		S. Muggleton and C. Feng. Efficient induction in logic programs. In
+S. Muggleton, editor, Inductive Logic Programming, pages 281—298. Academic Press, 1992.
+[MN95]		C. R. Mofizur and M. Numao. Top-down induction of recursive programs
+from small number of sparse examples. In L. De Raedt, editor, Proceedings
+of the 5th International Workshop on Inductive Logic Programming, Scientific 
+report, pages 161—180. Department of Computer Science, Katholieke
+Universiteit Leuven, 1995.
+[Mug95]		Stephen Muggleton. Inverse entailment and progol. New Generation Computing,
+ 3+4:245—286, 1995.
+[QCJ93] 	J.R. Quinlan and R.M. Cameron-Jones. FOIL: A midterm report. In
+P.	Brazdil, editor, Proceedings of the 6th European Conference on Machine
+Learning, volume 667 of Lecture Notes in Artificial Intelligence, pages 3—20.
+Springer-Verlag, 1993.
+[Qui90]		J.R. Quinlan. Learning logical definitions from relations. Machine 
+Learning, 5:239—266, 1990.

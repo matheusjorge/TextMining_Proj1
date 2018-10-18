@@ -1,0 +1,240 @@
+INFORMATION EXTRACTION AS A BASIS FOR PORTABLE
+TEXT CLASSIFICATION SYSTEMS
+
+ELLEN M. RILOFF
+University of Massachusetts Amherst
+Department of Computer Science
+ABSTRACT
+Knowledge­based natural language processing systems have achieved good success with many
+tasks, but they often require many person­months of effort to build an appropriate knowledge
+base. As a result, they are not portable across domains. This knowledge­engineering bottleneck
+must be addressed before knowledge­based systems will be practical for real­world applications.
+This dissertation addresses the knowledge­engineering bottleneck for a natural language processing
+task called ``information extraction''. A system called AutoSlog is presented which automatically
+constructs dictionaries for information extraction, given an appropriate training corpus. In the
+domain of terrorism, AutoSlog created a dictionary using a training corpus and five person­hours
+of effort that achieved 98% of the performance of a hand­crafted dictionary that took approximately
+1500 person­hours to build.
+This dissertation also describes three algorithms that use information extraction to support
+high­precision text classification. As more information becomes available on­line, intelligent
+information retrieval will be crucial in order to navigate the information highway efficiently
+and effectively. The approach presented here represents a compromise between keyword­based
+techniques and in­depth natural language processing. The text classification algorithms classify
+texts with high accuracy by using an underlying information extraction system to represent
+linguistic phrases and contexts. Experiments in the terrorism domain suggest that increasing the
+amount of linguistic context can improve performance. Both AutoSlog and the text classification
+algorithms are evaluated in three domains: terrorism, joint ventures, and microelectronics. An
+important aspect of this dissertation is that AutoSlog and the text classification systems can be
+easily ported across domains.
+
+
+BIBLIOGRAPHY
+[ Ashley, 1990 ] Ashley, K. Modelling Legal Argument: Reasoning with Cases and Hypotheticals.
+The MIT Press, Cambridge, MA, 1990.
+[ Belkin and Croft, 1992 ] Belkin, Nicholas and Croft, W. Bruce. Information Filtering and Infor­
+mation Retrieval: Two Sides of the Same Coin? Communications of the ACM, 35(12):29--38,
+1992.
+[ Borko and Bernick, 1963 ] Borko, H. and Bernick, M. Automatic Document Classification. J.
+ACM, 10(2):151--162, 1963.
+[ Buckley et al., 1994 ] Buckley, Chris, Salton, Gerard, and Allan, James. The Effect of Adding
+Relevance Information in a Relevance Feedback Environment. In Proceedings, SIGIR 1994,
+pages 292--300, 1994.
+[ CACM, 1992 ] Communications of the ACM, December 1992.
+[ Callan et al., 1992 ] Callan, J. P., Croft, W. B., and Harding, S. M. The INQUERY Retrieval
+System. In Proceedings of the Third International Conference on Database and Expert
+Systems Applications, pages 78--83, 1992.
+[ Carbonell, 1979a ] Carbonell, J. G. Subjective Understanding: Computer Models of Belief Sys­tems. 
+PhD thesis, Research Report 150, Computer Science Department, Yale University,
+1979.
+[ Carbonell, 1979b ] Carbonell, J. G. Towards a Self­Extending Parser. In Proceedings of the 17th
+Meeting of the Association for Computational Linguistics, pages 3--7, 1979.
+[ Cardie, 1993 ] Cardie, C. A Case­Based Approach to Knowledge Acquisition for Domain­Specific
+Sentence Analysis. In Proceedings of the Eleventh National Conference on Artificial Intelli­gence, 
+pages 798--803. AAAI Press/The MIT Press, 1993.
+[ Church, 1989 ] Church, K. A Stochastic Parts Program and Noun Phrase Parser for Unrestricted
+Text. In Proceedings of the Second Conference on Applied Natural Language Processing,
+1989.
+[ Croft et al., 1991 ] Croft, W. B., Turtle, H. R., and Lewis, D. D. The Use of Phrases and
+Structured Queries in Information Retrieval. In Proceedings, SIGIR 1991, pages 32--45,
+1991.
+[ Crouch and Yang, 1992 ] Crouch, Carolyn J. and Yang, Bokyung. Experiments in Automatic
+Statistical Thesaurus Construction. In Proceedings, SIGIR 1992, pages 77--88, 1992.
+[ Crouch, 1988 ] Crouch, Carolyn J. A Cluster­Based Approach to Thesaurus Construction. In
+Proceedings of the Eleventh International Conference on Research and Development in
+Information Retrieval, pages 309--320, 1988.
+[ Cullingford, 1978 ] Cullingford, R. E. Script Application: Computer Understanding of Newspaper
+Stories. PhD thesis, Research Report 116, Computer Science Department, Yale University,
+1978.
+[ DeJong and Mooney, 1986 ] DeJong, Gerald and Mooney, R. Explanation­Based Learning: An
+Alternative View. Machine Learning, 1:145--176, 1986.
+[ DeJong, 1982 ] DeJong, Gerald. An Overview of the FRUMP System. In Lehnert, W. and Ringle,
+M., editors, Strategies for Natural Language Processing, pages 149--177. Lawrence Erlbaum
+Associates, 1982.
+[ Dillon, 1983 ] Dillon, M. FASIT: A Fully Automatic Syntactically Based Indexing System. Journal
+of the American Society for Information Science, 34(2):99--108, 1983.
+[ Dolan et al., 1993 ] Dolan, William, Vanderwende, Lucy, and Richardson, Stephen D. Automat­ically 
+Deriving Structured Knowledge Bases from On­Line Dictionaries. In Proceedings of
+the First Conference of the Pacific Association for Computational Linguistics, pages 5--14,
+1993.
+[ Fagan, 1989 ] Fagan, J. The Effectiveness of a Nonsyntactic Approach to Automatic Phrase
+Indexing for Document Retrieval. Journal of the American Society for Information Science,
+40(2):115--132, 1989.
+[ Fikes et al., 1972 ] Fikes, R. E., Hart, P. E., and Nilsson, N. J. Learning and Executing General­
+ized Robot Plans. Artificial Intelligence, 3:251--288, 1972.
+[ Fisher, 1987 ] Fisher, D. H. Knowledge Acquisition Via Incremental Conceptual Clustering.
+Machine Learning, 2:139--172, 1987.
+[ Foltz and Dumais, 1992 ] Foltz, Peter W. and Dumais, Susan T. Personalized Information De­livery: 
+An Analysis of Information Filtering Methods. Communications of the ACM,
+35(12):51--60, 1992.
+[ Frakes and Baeza­Yates, 1992 ] Frakes, William B. and Baeza­Yates, Ricardo, editors. Informa­tion 
+Retrieval: Data Structures and Algorithms. Prentice Hall, Englewood Cliffs, NJ, 1992.
+[ Francis and Kucera, 1982 ] Francis, W. and Kucera, H. Frequency Analysis of English Usage.
+Houghton Mifflin, Boston, MA, 1982.
+[ Fuhr et al., 1991 ] Fuhr, N., Hartmann, S., Lustig, G., Schwantner, M., and Tzeras, Konstadinos.
+AIR/X ­ A Rule­Based Multistage Indexing System for Large Subject Fields. In Proceedings
+of RIAO 91, pages 606--623, 1991.
+[ Goodman, 1991 ] Goodman, M. Prism: A Case­Based Telex Classifier. In Proceedings of the
+Second Annual Conference on Innovative Applications of Artificial Intelligence, pages 25--37.
+AAAI Press, 1991.
+[ Granger, 1977 ] Granger, R. H. FOUL­UP: A Program that Figures Out Meanings of Words
+from Context. In Proceedings of the Fifth International Joint Conference on Artificial
+Intelligence, pages 172--178, 1977.
+[ Haines and Croft, 1993 ] Haines, David and Croft, Bruce. Relevance Feedback and Inference
+Networks. Computer science technical report 93­31, University of Massachusetts, Amherst,
+MA, 1993.
+[ Hammond, 1986 ] Hammond, K. CHEF: A Model of Case­Based Planning. In Proceedings of
+the Fifth National Conference on Artificial Intelligence, pages 267--271. Morgan Kaufmann,
+1986.
+[ Harman, 1992a ] Harman, D. The DARPA Tipster Project. SIGIR Forum, 26(2):26--28, 1992.
+[ Harman, 1992b ] Harman, Donna. Relevance Feedback and Other Query Modification Techniques.
+In Information Retrieval: Data Structures and Algorithms, chapter 11, pages 241--263.
+Prentice Hall, 1992.
+[ Harman, 1993 ] Harman, D., editor. The First Text REtrieval Conference (TREC1). National
+Institute of Standards and Technology Special Publication 200­207, Gaithersburg, MD, 1993.
+[ Harman, 1994 ] Harman, D., editor. The Second Text REtrieval Conference (TREC2). National
+Institute of Standards and Technology Special Publication 500­215, Gaithersburg, MD, 1994.
+[ Hayes and Weinstein, 1991 ] Hayes, Philip J. and Weinstein, Steven P. Construe­TIS: A System
+for Content­Based Indexing of a Database of News Stories. In Proceedings of the Second
+Annual Conference on Innovative Applications of Artificial Intelligence, pages 49--64. AAAI
+Press, 1991.
+[ Hobbs et al., 1992 ] Hobbs, Jerry R., Appelt, Douglas, Tyson, Mabry, Bear, John, and Israel,
+David. SRI International: Description of the FASTUS System Used for MUC­4. In
+Proceedings of the Fourth Message Understanding Conference (MUC­4), pages 268--275,
+San Mateo, CA, 1992. Morgan Kaufmann.
+[ Hoyle, 1973 ] Hoyle, W. Automatic Indexing and Generation of Classification Systems by Algo­rithm. 
+Information Storage and Retrieval, 9(4):233--242, 1973.
+[ Iwanska et al., 1991 ] Iwanska, Lucja, Appelt, Douglas, Ayuso, Damaris, Dahlgren, Kathy,
+Glover Stalls, Bonnie, Grishman, Ralph, Krupka, George, Montgomery, Christine, and
+Riloff, Ellen. Computational Aspects of Discourse in the Context of MUC­3. In Proceedings
+of the Third Message Understanding Conference (MUC­3), pages 256--282, San Mateo, CA,
+1991. Morgan Kaufmann.
+[ Jacobs and Zernik, 1988 ] Jacobs, P. and Zernik, U. Acquiring Lexical Knowledge from Text: A
+Case Study. In Proceedings of the Seventh National Conference on Artificial Intelligence,
+pages 739--744, 1988.
+[ Jacobs et al., 1991 ] Jacobs, Paul S., Krupka, George R., and Rau, Lisa F. Lexico­Semantic
+Pattern Matching as a Companion to Parsing in Text Understanding. In Proceedings of the
+Fourth DARPA Speech and Natural Language Workshop, pages 337--342. Morgan Kaufmann,
+1991.
+[ Kim and Moldovan, 1993 ] Kim, J. and Moldovan, D. Acquisition of Semantic Patterns for
+Information Extraction from Corpora. In Proceedings of the Ninth IEEE Conference on
+Artificial Intelligence for Applications, pages 171--176, Los Alamitos, CA, 1993. IEEE
+Computer Society Press.
+[ Kolodner and Simpson, 1989 ] Kolodner, J. and Simpson, R. The MEDIATOR: Analysis of an
+Early Case­Based Problem Solver. Cognitive Science, 13(4):507--549, 1989.
+[ Krovetz and Croft, 1989 ] Krovetz, R. and Croft, W. B. Word Sense Disambiguation Using
+Machine­Readable Dictionaries. In Proceedings, SIGIR 1989, 1989.
+[ Lehnert and Sundheim, 1991 ] Lehnert, W. G. and Sundheim, B. A Performance Evaluation of
+Text Analysis Technologies. AI Magazine, 12(3):81--94, 1991.
+[ Lehnert et al., 1992a ] Lehnert, W., Cardie, C., Fisher, D., McCarthy, J., Riloff, E., and Soder­
+land, S. University of Massachusetts: Description of the CIRCUS System as Used for
+MUC­4. In Proceedings of the Fourth Message Understanding Conference (MUC­4), pages
+282--288, San Mateo, CA, 1992. Morgan Kaufmann.
+[ Lehnert et al., 1992b ] Lehnert, W., Cardie, C., Fisher, D., McCarthy, J., Riloff, E., and Soder­
+land, S. University of Massachusetts: MUC­4 Test Results and Analysis. In Proceedings of
+the Fourth Message Understanding Conference (MUC­4), pages 151--158, San Mateo, CA,
+1992. Morgan Kaufmann.
+[ Lehnert et al., 1993a ] Lehnert, W., McCarthy, J., Soderland, S., Riloff, E., Cardie, C., Peterson,
+J., Feng, F., Dolan, C., and Goldman, S. UMass/Hughes: Description of the CIRCUS
+System as Used for MUC­5. In Proceedings of the Fifth Message Understanding Conference
+(MUC­5), pages 277--291, San Francisco, CA, 1993. Morgan Kaufmann.
+[ Lehnert et al., 1993b ] Lehnert, W., McCarthy, J., Soderland, S., Riloff, E., Cardie, C., Peterson,
+J., Feng, F., Dolan, C., and Goldman, S. UMass/Hughes: Description of the CIRCUS
+System Used for TIPSTER Text Extraction. In Proceedings of the TIPSTER Text Program
+(Phase I), pages 241--256, San Francisco, CA, 1993. Morgan Kaufmann.
+[ Lehnert, 1991 ] Lehnert, W. Symbolic/Subsymbolic Sentence Analysis: Exploiting the Best of
+Two Worlds. In Barnden, J. and Pollack, J., editors, Advances in Connectionist and Neural
+Computation Theory, Vol. 1, pages 135--164. Ablex Publishers, Norwood, NJ, 1991.
+[ Lewis, 1992 ] Lewis, David Dolan. Representation and Learning in Information Retrieval. PhD
+thesis, Computer Science Department, University of Massachusetts, Amherst, MA 01003.
+Technical Report 91­93., 1992.
+[ Liddy et al., 1993 ] Liddy, Elizabeth D., Paik, Woojin, and Yu, S. Edmund. Document Filtering
+Using Semantic Information from a Machine Readable Dictionary. In Proceedings of the
+Workshop on Very Large Corpora: Academic and Industrial Perspectives, pages 20--29, 1993.
+[ Marcus et al., 1993 ] Marcus, M., Santorini, B., and Marcinkiewicz, M. Building a Large Anno­
+tated Corpus of English: The Penn Treebank. Computational Linguistics, 19(2):313--330,
+1993.
+[ Maron, 1961 ] Maron, M. Automatic Indexing: An Experimental Inquiry. J. ACM, 8:404--417,
+1961.
+[ Masand et al., 1992 ] Masand, Brij, Linoff, Gordon, and Waltz, David. Classifying News Stories
+Using Memory Based Reasoning. In Proceedings, SIGIR 1992, pages 59--65, 1992.
+[ Mauldin, 1989 ] Mauldin, M. Information Retrieval by Text Skimming. PhD thesis, School of
+Computer Science, Carnegie Mellon University, 1989.
+[ Mauldin, 1991 ] Mauldin, M. Retrieval Performance in FERRET: A Conceptual Information
+Retrieval System. In Proceedings, SIGIR 1991, pages 347--355, 1991.
+[ Mitchell et al., 1986 ] Mitchell, T. M., Keller, R., and Kedar­Cabelli, S. Explanation­Based
+Generalization: A Unifying View. Machine Learning, 1:47--80, 1986.
+[ Montemagni and Vanderwende, 1992 ] Montemagni, S. and Vanderwende, L. Structural Patterns
+vs. String Patterns for Extracting Semantic Information from Dictionaries. In Proceedings
+of the Fourteenth International Conference on Computational Linguistics (COLING­92),
+pages 546--552, 1992.
+[ MUC­3 Proceedings, 1991 ] Proceedings of the Third Message Understanding Conference (MUC­
+3), San Mateo, CA, 1991. Morgan Kaufmann.
+[ MUC­4 Proceedings, 1992 ] Proceedings of the Fourth Message Understanding Conference (MUC­
+4), San Mateo, CA, 1992. Morgan Kaufmann.
+[ MUC­5 Proceedings, 1993 ] Proceedings of the Fifth Message Understanding Conference (MUC­5),
+San Francisco, CA, 1993. Morgan Kaufmann.
+[ Quinlan, 1986 ] Quinlan, J. R. Induction of Decision Trees. Machine Learning, 1:80--106, 1986.
+[ Rau and Jacobs, 1991 ] Rau, Lisa F. and Jacobs, Paul S. Creating Segmented Databases From
+Free Text for Text Retrieval. In Proceedings, SIGIR 1991, pages 337--346, 1991.
+[ Riesbeck, 1978 ] Riesbeck, C. An Expectation­Driven Production System for Natural Language
+Understanding. In Waterman, D. A. and Hayes­Roth, F., editors, Pattern­directed Inference
+Systems. Academic Press, 1978.
+[ Riloff and Lehnert, 1992 ] Riloff, E. and Lehnert, W. Classifying Texts Using Relevancy Signa­tures. 
+In Proceedings of the Tenth National Conference on Artificial Intelligence, pages
+329--334. AAAI Press/The MIT Press, 1992.
+[ Riloff and Lehnert, 1993 ] Riloff, E. and Lehnert, W. Automated Dictionary Construction for In­formation 
+Extraction from Text. In Proceedings of the Ninth IEEE Conference on Artificial
+Intelligence for Applications, pages 93--99, Los Alamitos, CA, 1993. IEEE Computer Society
+Press.
+[ Riloff and Lehnert, 1994 ] Riloff, E. and Lehnert, W. Information Extraction as a Basis for High­
+Precision Text Classification. ACM Transactions on Information Systems, 12(3):296--333,
+July 1994.
+[ Riloff, 1993a ] Riloff, E. Automatically Constructing a Dictionary for Information Extraction
+Tasks. In Proceedings of the Eleventh National Conference on Artificial Intelligence, pages
+811--816. AAAI Press/The MIT Press, 1993.
+[ Riloff, 1993b ] Riloff, E. Using Cases to Represent Context for Text Classification. In Proceed­ings 
+of the Second International Conference on Information and Knowledge Management
+(CIKM­93), pages 105--113, New York, NY, 1993. ACM Press.
+[ Ruge et al., 1991 ] Ruge, Gerda, Schwarz, Christoph, and Warner, Amy J. Effectiveness and
+Efficiency in Natural Language Processing for Large Amounts of Text. Journal of the
+American Society for Information Science, 42(6):450--456, 1991.
+[ Salton, 1971 ] Salton, G., editor. The SMART Retrieval System: Experiments in Automatic
+Document Processing. Prentice Hall, Englewood Cliffs, NJ, 1971.
+[ Salton, 1989 ] Salton, G. Automatic Text Processing: The Transformation, Analysis, and Re­
+trieval of Information by Computer. Addison­Wesley, Reading, MA, 1989.
+[ Schank, 1975 ] Schank, Roger C. Conceptual Information Processing, chapter 3, pages 22--82.
+North Holland Publishers, 1975.
+[ Stanfill and Waltz, 1986 ] Stanfill, C. and Waltz, D. Toward Memory­Based Reasoning. Commu­nications 
+of the ACM, 29(12):1213--1228, 1986.
+[ Strzalkowski, 1993 ] Strzalkowski, Tomek. Robust Text Processing in Automated Information
+Retrieval. In Proceedings of the Workshop on Very Large Corpora: Academic and Industrial
+Perspectives, pages 9--19, 1993.
+[ Tipster Proceedings, 1993 ] Proceedings of the TIPSTER Text Program (Phase I), San Francisco,
+CA, 1993. Morgan Kaufmann.
+[ Turtle and Croft, 1991 ] Turtle, Howard and Croft, W. Bruce. Efficient Probabilistic Inference for
+Text Retrieval. In Proceedings of RIAO 91, pages 644--661, 1991.
+[ Utgoff, 1988 ] Utgoff, P. ID5: An Incremental ID3. In Proceedings of the Fifth International
+Conference on Machine Learning, pages 107--120, 1988.
+[ Weischedel et al., 1993 ] Weischedel, R., Meteer, M., Schwartz, R., Ramshaw, L., and Palmucci, J.
+Coping with Ambiguity and Unknown Words through Probabilistic Models. Computational
+Linguistics, 19(2):359--382, 1993.

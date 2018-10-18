@@ -1,0 +1,78 @@
+Evaluating a Multi-modal Reasoning System in
+Diabetes Care
+
+Stefania Montani1, Riccardo Bellazzi1, Luigi Portinale2, and Mario Stefanelli1
+
+1 Dipartimento di Informatica e Sistemistica
+Università di Pavia, Pavia (Italy)
+2 Dipartimento di Scienze e Tecnologie Avanzate,
+Università del Piemonte Orientale “A. Avogadro”, Alessandria, (Italy)
+
+
+
+Abstract. In the context of Insulin Dependent Diabetes Mellitus care,
+we developed a decision support system that relies on a tight integration
+of Case Based Reasoning and Rule Based Reasoning methodologies. In
+this paper, we aim at presenting the evaluation strategy we have defined
+to test the system accuracy, safety and reliability, and the first results
+obtained both on simulated and on real patients data. Reliability was
+positively judged by a group of expert diabetologists; an increase in the
+performances of the system is foreseen as new knowledge will be acquired,
+through its usage in clinical practice.
+References
+
+1.	The Diabetes Control and Complication Trial Research Group. The effect of intensive 
+treatment of diabetes on the development and progression of long-term
+complications in insulin-dependent diabetes mellitus. The New England Journal of
+Medicine 329 (1993) 977—986.
+2.	Aha, D. W., Munoz-Avila, H. (eds.): Proc. AAAI 99 Workshop on Exploring Synergies 
+of Knowledge Management and CBR (1999).
+3.	Schmidt, S., Volirath, I. (eds.): Proc. ICCBR 99 Workshop on Challanges for case-Based 
+reasoning (1999).
+4.	Bellazzi, R., Montani, S., Portinale, L., Riva, A.: Integrating Rule-Based and Case-Based 
+Decision Making in Diabetic Patient Management. In: Proceedings of IC-
+CBR ‘99, Monastery Seeon, Munich, Germany (1999).
+5.	Montani, S., Bellazzi, R.: Integrating Case Based and Rule Based Reasoning in a
+Decision Support System: Evaluation with Simulated Patients. JAMIA Symposium
+supplement (1999) 887—891.
+6.	Russell, S., Norvig, P.: Artificial Intelligence, a modern approach. Prentice Hall
+(1995).
+7.	Bellazzi, R., Cohelli, C., Comez, E. and Stefanelli, M.: The T-IDDM Project:
+Telematic management of Insulin Dependent Diabetes Mellitus. In Bracale M. and
+Denoth F. (eds.): Health Telematics 95 (1995) 271—276.
+8.	Bellazzi, R., Montani, S., Portinale, L.: Retrieval in a Prototype-Based Case Library: 
+a Case Study in Diabetes Therapy Revision. In: Proceedings of EWCBR
+‘98, Dublin, Ireland (1998).
+9.	Montani, S., Bellazzi, R., Portinale, L., d’Annunzio, G., Fiocchi, S., Stefanelli, M.:
+Diabetic Patients Management Exploiting Case-Based Reasoning Techniques.
+Computer Methods and Programs in Biomedicine (to appear).
+10.	Kononenko, I.: Inductive and Bayesian learning in medical diagnosis. Applied Artificial 
+Intelligence 7 (1993) 317—337.
+11.	Zelic, I., Kononenko, I., Lavrac, N., Vuga, V.: Induction of decision trees and
+Bayesian classification applied to diagnosis of sport injuries. In: Proceedings of
+IDAMAP ‘97 workshop, IJCAI 97, Nagoya (1997) 61—67.
+12.	Montani, S., Bellazzi, R., Portinale, L., Fiocchi, S., Stefanelli, M.: A case-based
+retrieval system for diabetic patients therapy. In: Proceedings of IDAMAP ‘98
+workshop, ECAI 98, Brighton (1998) 64—70.
+13.	Wilson, D. R., Martinez, T. R.: Improved heterogeneous distance functions. Journal
+of Artificial Intelligence Research 6 (1997) 1—34.
+14.	Portinale, L., Torasso, P., Magro, D.: Selecting most adaptable diagnostic solutions
+through Pivoting-Based Retrieval. In LNAI 1266, Springer Verlag (1997) 393—402.
+15.	Larizza, C., Bellazzi, R., Riva, a.: Temporal abstractions for diabetic patients management. 
+In LNAI 1211, Springer Verlag (1997) 319—330.
+16.	Cobelli, C., Nucci, C., Del Prato, S.: A physiological simulation model in type I
+Diabetes. Diabetes nutrition and Metabolism 11 (1998) 78.
+17.	Montani, S., et al.: Demonstration Phase and Demonstration of the Extensions Final 
+Report. T-IDDM Deliverable 11.1, http://alm.unipv.it/projects/tiddm (1999).
+18.	Shortliffe, E. H.: Clinical decision-support systems. In: Shortliffe, E. H., Perreault,
+L. E., Wiederhold, G., Fagan, L. M. (eds.): Medical Informatics, Addison-Wesley
+(1990).
+19.	Upton, G. J. C.: The analysis of cross-tabulated data. Wiley, New York (1978).
+20.	Montani, S., et al.: Protocol-based reasoning in diabetic patient management. International 
+Journal of Medical Informatics 53 (1999) 61—77.
+21.	Schlichtkrull, J., Munck, 0., Jerslid, M.: The M-value, an index of blood glucose
+control in diabetics. Acta Med. Scand. 177 (1965) 95—102.
+22.	Heatefield, H. A., Wyatt, J.: Philosophies for the design and development of clinical
+decision-support systems. Methods of Information in Medicine 32 (1993) 1—8.
+23.	Musen, M.: Architectures for architects. Methods of Information in Medicine 32
+(1993) 12—13.

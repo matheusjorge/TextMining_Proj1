@@ -1,0 +1,51 @@
+Part-of-Speech Tagging Using Progol
+
+James Cussens
+
+Oxford University Computing Laboratory
+Wolfson Building, Parks Road
+Oxford OX1 3QD, UK
+Tel: +44 1865 283520 Fax: +44 1865 273839
+james.cussens@comlab.ox.ac.uk
+
+
+Abstract. A system for ‘tagging’ words with their part-of-speech (POS)
+tags is constructed. The system has two components: a lexicon containing 
+the set of possible POS tags for a given word, and rules which use
+a word’s context to eliminate possible tags for a word. The Inductive
+Logic Programming (ILP) system Progol is used to induce these rules
+in the form of definite clauses. The final theory contained 885 clauses.
+For background knowledge, Progol uses a simple grammar, where the
+tags are terminals and predicates such as nounp (noun phrase) are non-terminais. 
+Progol was altered to allow the caching of information about
+clauses generated during the induction process which greatly increased
+efficiency. The system achieved a per-word accuracy of 96.4% on known
+words drawn from sentences without quotation marks. This is on a par
+with other tagging systems induced from the same data [5, 2, 4] which
+all have accuracies in the range 96—97%. The per-sentence accuracy was
+49.5%.
+References
+
+1.	Steven Abney. Part-of-speech tagging and partial parsing. In Ken Church, Steve
+Young, and Gerrit Bloothooft, editors, Corpus-Based Methods in Language and
+Speech. Kiuwer, Dordrecht, 1996.
+2.	Eric Brill. Some advances in transformation-based part of speech tagging. In
+AAAI94, 1994.
+3.	J. Cussens. Part-of-speech disambiguation using ILP. Technical Report PRG-TR
+25-96,	Oxford University Computing Laboratory, 1996.
+4.	Doug Cutting, Julian Kupiec, Jan Pedersen, and Penelope Sibun. A practical part-of-speech 
+tagger. In Third Conference on Applied Natural Linguistic Processing
+(ANLP-92), pages 133—140, 1992.
+5.	W. Daelemans, J. Zavrel, P. Berck, and S. Gillis. MBT: A memory-based part of
+speech tagger-generator. In Proceedings of the Fourth Workshop on Very Large
+Corpora,, pages 14—27, Copenhagen, 1996.
+6.	S. Muggleton. Inverse entailment and Progol. New Generation Computing Journal,
+13:245—286, 1995.
+7.	Lawrence R. Rabiner. A tutorial on hidden Markov models and selected applications
+in speech recognition. Proceedings of the IEEE, 77(2):257—285, February 1989.
+8.	Christer Samuelsson, Pasi Tapanainen, and Atro Voutilainen. Inducing constraint
+grammars. In Laurent Miclet and Colin de ha Higuera, editors, Grammatical Inference: 
+Learning Syntax from Sentences, volume 1147 of Lecture Notes in Artificial
+Intelligence, pages 146—155. Springer, 1996.
+9.	Pasi Tapanainen and Atro Voutilainen. Tagging accurately - Don’t guess if you
+know. In Proc. ANLP94, 1994.

@@ -1,0 +1,76 @@
+Managing Complex Knowledge in Natural
+Sciences
+
+Noël Conruyt, David Grosser
+
+IREMIA, Institut de REcherche en Mathématiques et Informatique Appliquées
+University of La Réunion
+15, av. René Cassin — 97715 Saint-Denis, Messag. Cedex 9, France
+{Conruyt, Grosser}@univ-reunion.fr
+
+
+
+Abstract. In many fields dependant upon complex observation, the
+structuring, depiction and treatment of knowledge can be of great
+complexity. For example in Systematics, the scientific discipline that
+investigates bio-diversity, the descriptions of specimens are often highly
+structured (composite objects, taxonomic attributes), noisy (erroneous or
+unknown data), and polymorphous (variable or imprecise data). In this
+paper, we present IKBS, an Iterative Knowledge Base System for dealing
+with such complex phenomena. The originality of this system is to
+implement the scientific method in biology: experimenting (learning rules
+from examples) and testing (identifying new individuals, improving the
+initial model and descriptions). This methodology is applied in the
+following ways in IKBS: 1 - Knowledge is acquired through a descriptive
+model that suits the semantic demand of experts. 2 - Knowledge is processed
+with an algorithm derived from C4.5 in order to take into account structured
+knowledge introduced in the previous descriptive model of the domain. 3 -
+Knowledge is refined through the use of an iterative process to evaluate the
+robustness of the descriptive model and descriptions. The IKBS system is
+presented here as a life science application facilitating the identification of
+coral specimens of the family Pocilloporidæ.
+References
+
+1.	Aamodt A., Plaza E., Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches, AI Communications 7(1): 39-59, 1994.
+2.	Allkin R., Handling taxonomic descriptions by computer, In; Allkin R. and Bisby F.A.
+(eds.), Databases in Systematics. Systematics Association London, Academic Press,
+26: 263-278, 1984.
+3.	Althoff K. D., Auriol E., Barletta R., Manago M., A review of Industrial Case-Based
+Reasoning Tools, AI Intelligence, Oxford, 1995.
+4.	Conruyt N., Grosser D., Faure G. Ingénierie des connaissances en Sciences de la vie:
+application à la systématique des coraux des Mascareignes. Journées Ingénierie des
+Connaissances et Apprentissage Automatique (JICAA’97), Roscoff, pages 539-566,
+1997.
+5.	Dallwitz M.J., Paine T.A., Zurcher E.J., User’s guide to the DELTA System. A general
+system for processing taxonomic descriptions, Canberra: CSIRO, Div. Entomol., 4th
+ed., 1993.
+6.	Diederich J.R., Milton J., Creating domain specific metadata for scientific data and
+knowledge bases, IEEE Trans., Knowledge Data Engineering 3(4): 421-434, 1991.
+7.	Faure G., Recherche sur les peuplements de scléractiniaires des récifs coralliens des
+Mascareignes. Thèse es sciences, Univ Aix-Marseille II, 1982.
+8.	Fayyad U., Piatetsky-Shapiro G., Padhraic S., From Data Mining to Knowledge
+Discovery in Databases, AI magazine, 17(3): 37-54, Fall 1996.
+9.	Kodratoff Y. L’extraction de connaissances à partir des données. Journées Ingénierie des
+Connaissances et Apprentissage Automatique (JICAA’97), Roscoff, pages 539-566,
+1997.
+10.	Lebbe J., Systématique et informatique. Systématique et biodiversité, Bourgoin T. (Ed),
+Biosystema, 13:71-79, Paris, 1995.
+11.	Le Renard J., Conruyt N. On the representation of observational data used for
+classification and identification of natural objects. IFCS’93, Lecture notes in Artificial
+Intelligence, Springer-Verlag, pages 308-315, 1994.
+1 2.Manago M., Conruyt N. Using Information Technology to Solve Real World Problems,
+Lecture Notes in Computer Science subseries, 622: 22-37, Springer Verlag, 1992.
+13.	Manago M., Althoff K.D., Auriol E., Traphoner R., Wess S., Conruyt N., Maurer F.,
+Induction and reasoning from cases, First European workshop on case-based reasoning
+(EWCBR-93), MM Richter, S Wess, KD Althoff and F Maurer (Eds.), Springer Verlag,
+(2), 1993.
+14.	Mingers J. Expert Systems — Rule induction with statistical data. Journal of the
+operational research society. 38(1): 39-47, 1987.
+15. 	Pankhurst R.J., Practical taxonomic computing. Cambridge Univ. Press, Cambridge,
+1991.
+16.	Popper K.R., La logique de la découverte scientifique. Payot (Eds.) Press, Paris, 1973.
+17.	Quinlan J.R., C4.5: Programs for Machine Learning, Morgan Kaufmann, Los Altos,
+CA, 1993.
+18.	Veron J.E.N., Pichon M., Scleractinia of eastern australia, vol. 1, Part I, Australian
+Institute of Marine Science Monograph Series, 1976.

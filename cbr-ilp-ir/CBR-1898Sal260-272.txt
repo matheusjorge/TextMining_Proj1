@@ -1,0 +1,65 @@
+A New Approach for the Incremental
+Development of Adaptation Functions for CBR
+
+Abdus Salam Khan and Achim Hoffmann
+
+Artificial Intelligence Laboratory
+School of Computer Science and Engineering
+The University of New South Wales, Sydney 2052, Australia
+{askhan,achim}@cse.unsw.edu.au
+
+
+
+Abstract. This paper introduces a new approach to building complex
+adaptation functions for case-based reasoning systems.
+We present an incremental method which allows a domain expert to refine 
+the existing adaptation function during use of the system. We lend
+ideas from Ripple-Down Rules, a proven method for the very effective
+and efficient acquisition of classification knowledge during the use of a
+knowledge-based system. In our approach the expert is only required to
+provide explanations of why, for a given problem, a certain adaptation
+step should be taken. Incrementally a complex adaptation function as
+a systematic composition of many simple adaptation functions is developed. 
+This approach is effective with respect to both, the development
+of highly tailored and complex adaptation functions for CBR as well as
+the provision of an intuitive and feasible approach for the expert.
+The approach has been implemented in our CBR system MIKAS, for the
+design of menus according to dietary requirements.
+While our approach showed very good results in MIKAS, it represents
+also a promising technique for many other CBR applications.
+References
+
+1.	R. Bergmann, S. Breen, E. Fayol, M. Goker, M. Manago, S. Schmitt, J. Schumacher, 
+A. Stahl, S. Wess, and W. Wilke. Collecting experience on the systematic
+development of CBR applications using the INRECA methodology. In Proceedings
+of the European Workshop on Case-Based Reasoning, EWCBR98, 1998.
+2.	Paul Compton, Glen Edwards, Byeong Kang, Leslie Lazarus, Ron Malor, Phil
+Preston, and Ashwin Srinivasan. Ripple down rules: Thrning knowledge acquisition
+into knowledge maintenance. Artificial Intelligence in Medicine, 4:463—475, 1992.
+3.	Paul Compton, Byeong Kang, Phil Preston, and Mary Mulholland. Knowledge
+acquisition without knowledge analysis. In Proceedings of the European Knowledge
+Acquisition Workshop, pages 277—299. Springer-Verlag, 1993.
+4.	K. Hanney and M. T. Keane. When do you need adaptation?: A review of current
+practice. In AAAI-95 Fall Symposium on Adaptation in Knowledge Reuse, Boston,
+U.S.A., 1995.
+5.	Beyong Kang and Paul Compton. A maintenance approach to case-based reasoning. 
+In J. P. Haton, K. Keane, and M. Manago, editors, Advances in Case-Based
+Reasoning, pages 226—239. Springer-Verlag, 1995.
+6.	A. S. Khan and A. Hoffmann. Incremental acquisition of retrieval knowledge for
+case-based reasoning. In Proceedings of the Fourth Australian Knowledge Acquisition 
+Workshop, pages 72—86, Sydney, Australia, December 5-6 1999. University of
+New South Wales.
+7.	D. B. Leake. Combining rules and cases to learn case adaptation. In Proceedings
+of the Seventeenth Annual Conference of the Cognitive Science, pages 84—89, 1995.
+8.	D. B. Leake. Case-Based Reasoning: Experiences, Lessons, and Future Directions.
+Menlo Park: AAAI Press, 1996.
+9.	W. Wilke and R. Bergmann. Techniques and knowledge used for adaptation during 
+case-based problem solving. In (AIPS’98) Workshop on Integrating Planning,
+Scheduling and Execution in dynamic and uncertain Environment. AAAI press,
+1996.
+10.	W. Wilke and R. Bergmann. Techniques and knowledge used for adaptation during
+case-based problem solving. In 11th International Conference on Industrial and
+Engineering Applications of Artificial Intelligence and Expert System, 1998.
+11.	W. Wilke, 1. Volirath, K. Althoff, and R. Bergmann. A framework for learning 
+adaptation knowledge based on knowledge light approaches. In 5th German
+Workshop on Case-Based Reasoning (GWCBR‘97), 1997.

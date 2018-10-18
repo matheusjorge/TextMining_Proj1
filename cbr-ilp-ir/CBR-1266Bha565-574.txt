@@ -1,0 +1,46 @@
+An Analogical Theory of Creativity in Design
+
+Sambasiva R. Bhatta1 and Ashok K. Goel2
+
+1 NYNEX Science & Technology, 500 Westchester Ave., White Plains, NY 10604.
+2 College of Computing, Georgia Institute of Technology, Atlanta, GA 30332-0280.
+
+
+Abstract. Creative design often involves large. complex modifications
+to the design topology. Making these modifications typically requires
+transfer of design configurations from different designs to the new problem. 
+We describe an analogical theory of creative design called model-based 
+analogy (MBA). In this theory, case-specific structure-behavior-function 
+(SBF) models of past designs enable abstraction of generic
+telelogical mechanisms (GTMs) at storage time. The goal of adapting
+a specific design to address a new design problem leads to the retrieval
+of a relevant GTM and its instantiation in the context of the case-specific
+SBF model at transfer time. Thus GTMs learned from past designs mediate 
+the transfer of abstract design configurations to a new problem.
+References
+
+Bhatta. S., Goel, A.: From design experiences to generic mechanisms: Model-based
+learning in analogical design. AI EDAM 10 (1996) 131—136
+Falkenhainer, B., Forbus, K., Gentner, D.: The structure-mapping engine: Algorithm
+and examples. Artificial Intelligence 41 (1989) 1—63
+Goel, A.: A model-based approach to case adaptation. In Proc. of the Thirteenth
+Annual Conf. of the Cog. Sci. Soc. (1991a) 143—148
+Goel, A.: Model revision: A theory of incremental model learning. In Proc. of the Eighth
+Intl. Conf. on Machine Learning (1991b) 605—609
+Gomes, P., Bento, C., Gago, P., Costa, E.: Towards a case-based model for creative
+design. In Proc. of 12th European Conf. on AI (1996)
+Hammond, P. H.: Feedback Theory and Its Applications. (1958) The English Univ.
+Press Ltd., London, UK.
+Hanney, K., Keane, M.: Learning adaptation rules from a case base. In Proc. of Third
+European Workshop on Case-Based Reasoning (1996)
+Kedar-Cabelli, S. T.: Purpose-directed analogy. In Proc. of 7th Annual Conf. of the
+Cog. Sci. Soc. (1983) 150—159
+Leake, D.: Combining rules and cases to learn case adaptation. In Proc. of 17th Annual
+Conf. of the Cog. Sci. Soc. (1995)
+Qian. L., Gero, J. S.: A design support system using analogy. In J.S. Cero. editor, Proc.
+of the Second International Conference on AI in Design (1992) 795—813
+Smyth, B., Cunningham, P.: Deja vu: A hierarchical case-based reasoning system for
+software design. In Proc. of 10th European Conf. on AI (1992)
+Wills, L., Kolodner, J.: Towards more creative case-based design systems. In Case-Based 
+Reasoning: Experiences. Lessons. and Future Directions. D. Leake (Ed.),
+(1996) 81—91. AAAI/MIT Press

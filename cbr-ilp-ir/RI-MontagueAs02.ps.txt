@@ -1,0 +1,173 @@
+Condorcet Fusion for Improved Retrieval #
+
+Mark Montague
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+montague@cs.dartmouth.edu
+Javed A. Aslam
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+jaa@cs.dartmouth.edu
+
+ABSTRACT
+We present a new algorithm for improving retrieval results
+by combining document ranking functions: Condorcet­fuse.
+Beginning with one of the two major classes of voting proce­dures 
+from Social Choice Theory, the Condorcet procedure,
+we apply a graph­theoretic analysis that yields a sorting­
+based algorithm that is elegant, efficient, and effective. The
+algorithm performs very well on TREC data, often outper­forming 
+existing metasearch algorithms whether or not rel­evance 
+scores and training data is available. Condorcet­fuse
+significantly outperforms Borda­fuse, the analogous repre­sentative 
+from the other major class of voting algorithms.
+
+
+
+REFERENCES
+[1] J. A. Aslam and M. Montague. Models for
+metasearch. In Croft et al. [7], pages 276--284.
+[2] B. T. Bartell. Optimizing Ranking Functions: A
+Connectionist Approach to Adaptive Information
+Retrieval. PhD thesis, University of California, San
+Diego, 1994.
+[3] B. T. Bartell, G. W. Cottrell, and R. K. Belew.
+Automatic combination of multiple ranked retrieval
+systems. In W. B. Croft and C. van Rijsbergen,
+editors, SIGIR'94, Proceedings of the 17th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages
+173--181, Dublin, Ireland, July 1994. Springer­Verlag,
+London.
+[4] N. Belkin, P. Kantor, C. Cool, and R. Quatrain.
+Combining evidence for information retrieval. In
+Harman [15], pages 35--43.
+[5] N. Craswell, D. Hawking, and P. Thistlewaite.
+Merging results from isolated search engines. In
+Proceedings of the Tenth Australasian Database
+Conference, Aukland, New Zealand, Jan. 1999.
+Springer­Verlag.
+[6] W. B. Croft. Combining approaches to information
+retrieval. In W. B. Croft, editor, Advances in
+Information Retrieval: Recent Research from the
+Center for Intelligent Information Retrieval, The
+Kluwer International Series on Information Retrieval,
+chapter 1. Kluwer Academic Publishers, 2000.
+[7] W. B. Croft, D. J. Harper, D. H. Kraft, and J. Zobel,
+editors. SIGIR'01, Proceedings of the 24th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval, New
+Orleans, Louisiana, USA, Sept. 2001. ACM Press,
+New York.
+[8] J. C. de Borda. M’emoire sur les ’elections au scrutin.
+In Histoire de l'Academie Royale des Sciences. Paris,
+1781.
+[9] M. de Condorcet. Essai sur l'application de l'analyse ‘a
+la probabilit’e des decisions rendues ‘a la pluralit’e des
+voix, 1785.
+[10] H. L. Fisher and D. R. Elchesen. Effectiveness of
+combining title words and index terms in machine
+retrieval searches. Nature, 238:109--110, July 1972.
+[11] E. Fox, P. Ingwersen, and R. Fidel, editors. SIGIR'95,
+Proceedings of the 18th Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval, Seattle, Washington, July 1995.
+ACM Press, New York.
+[12] E. A. Fox, M. P. Koushik, J. Shaw, R. Modlin, and
+D. Rao. Combining evidence from multiple searches.
+In D. Harman, editor, The First Text REtrieval
+Conference (TREC­1), pages 319--328, Gaithersburg,
+MD, USA, Mar. 1993. U.S. Government Printing
+O#ce, Washington D.C.
+[13] E. A. Fox and J. A. Shaw. Combination of multiple
+searches. In Harman [15], pages 243--249.
+[14] K. L. Fox, O. Frieder, M. Knepper, and E. Snowberg.
+SENTINEL: A multiple engine information retrieval
+and visualization system. Journal of the ASIS, 50(7),
+May 1999.
+[15] D. Harman, editor. The Second Text REtrieval
+Conference (TREC­2), Gaithersburg, MD, USA, Mar.
+1994. U.S. Government Printing Office, Washington
+D.C.
+[16] D. A. Hull, J. O. Pedersen, and H. Sch˜utze. Method
+combination for document filtering. In H.­P. Frei,
+D. Harman, P. Sch˜auble, and R. Wilkinson, editors,
+SIGIR'96, Proceedings of the 19th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages
+279--287, Zurich, Switzerland, Aug. 1996. ACM Press,
+New York.
+[17] J. S. Kelly. Social Choice Theory: An Introduction.
+Springer­Verlag, 1988.
+[18] J. H. Lee. Combining multiple evidence from different
+properties of weighting schemes. In Fox et al. [11],
+pages 180--188.
+[19] J. H. Lee. Analyses of multiple evidence combination.
+In N. J. Belkin, A. D. Narasimhalu, and P. Willett,
+editors, SIGIR'97, Proceedings of the 20th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages
+267--275, Philadelphia, Pennsylvania, USA, July 1997.
+ACM Press, New York.
+[20] M. Montague and J. A. Aslam. Metasearch
+consistency. In Croft et al. [7], pages 386--387.
+[21] H. Moulin. Axioms of Cooperative Decision Making.
+Cambridge University Press, 1988.
+[22] K. B. Ng. An Investigation of the Conditions for
+E#ective Data Fusion in Information Retrieval. PhD
+thesis, School of Communication, Information, and
+Library Studies, Rutgers University, 1998.
+[23] K. B. Ng and P. B. Kantor. An investigation of the
+preconditions for e#ective data fusion in IR: A pilot
+study. In Proceedings of the 61th Annual Meeting of
+the American Society for Information Science, 1998.
+[24] K. B. Ng, D. Loewenstern, C. Basu, H. Hirsh, and
+P. B. Kantor. Data fusion of machine­learning
+methods for the TREC5 routing task (and other
+work). In Voorhees and Harman [35], pages 477--487.
+[25] W. H. Riker. Liberalism Against Populism. Waveland
+Press, 1982.
+[26] E. W. Selberg. Towards Comprehensive Web Search.
+PhD thesis, University of Washington, 1999.
+[27] J. A. Shaw and E. A. Fox. Combination of multiple
+searches. In D. Harman, editor, Overview of the Third
+Text REtrieval Conference (TREC­3), pages 105--108,
+Gaithersburg, MD, USA, Apr. 1995. U.S. Government
+Printing O#ce, Washington D.C.
+[28] B. Shu and S. Kak. A neural network­based intelligent
+metasearch engine. Information Sciences, 120:1--11,
+1999.
+[29] P. Thompson. A combination of expert opinion
+approach to probabilistic information retrieval, part 1:
+the conceptual model. Information Processing and
+Management, 26(3):371--382, 1990.
+[30] P. Thompson. A combination of expert opinion
+approach to probabilistic information retrieval, part 2:
+mathematical treatment of CEO model 3. Information
+Processing and Management, 26(3):383--394, 1990.
+[31] C. C. Vogt. Adaptive Combination of Evidence for
+Information Retrieval. PhD thesis, University of
+California, San Diego, 1999.
+[32] C. C. Vogt. How much more is better? Characterizing
+the e#ects of adding more IR systems to a
+combination. In Content­Based Multimedia
+Information Access (RIAO), pages 457--475, Paris,
+France, Apr. 2000.
+[33] C. C. Vogt and G. W. Cottrell. Fusion via a linear
+combination of scores. Information Retrieval,
+1(3):151--173, Oct. 1999.
+[34] C. C. Vogt, G. W. Cottrell, R. K. Belew, and B. T.
+Bartell. Using relevance to train a linear mixture of
+experts. In Voorhees and Harman [35], pages 503--515.
+[35] E. Voorhees and D. Harman, editors. The Fifth Text
+REtrieval Conference (TREC­5), Gaithersburg, MD,
+USA, 1997. U.S. Government Printing O#ce,
+Washington D.C.
+[36] E. M. Voorhees, N. K. Gupta, and B. Johnson­Laird.
+Learning collection fusion strategies. In Fox et al. [11],
+pages 172--179.
+

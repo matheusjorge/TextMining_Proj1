@@ -1,0 +1,102 @@
+A Fuzzy Case Retrieval Approach Based on SQL
+for Implementing Electronic Catalogs
+
+Luigi Portinale and Stefania Montani
+
+Dipartimento di Informatica
+Università del Piemonte Orientale “Amedeo Avogadro”
+Spalto Marengo 33 - 15100 Alessandria (ITALY)
+{portinal, stefania}@unipmn.it
+
+
+
+Abstract. Providing a flexible and efficient way of consulting a catalog
+in e-commerce applications is of primary importance in order to guarantee 
+the customer with a set of products actually related to his/her interests. 
+ost electronic catalogs exploit standard database techniques both
+for storage and retrieval of product information. However, a naive application 
+of ordinary databases may produce unsatisfactory results, since
+standard query tools are not able to retrieve information (i.e. products)
+that only partially match the user/customer specification. The use of
+CBR may alleviate some of the above problems, because of the ability
+of a CBR system of retrieving products having characteristics similar
+to the ones specified by the user. While the majority of the approaches
+is based on k-NN retrieval techniques, in the present paper we propose
+fuzzy-based retrieval as a natural way for implementing flexible search on
+electronic catalogs. Since the exploitation of standard DBMS technology
+is of paramount importance for deploying any E-commerce application,
+we also propose to use a fuzzy extension to SQL for retrieving a set of
+products that the customer specifies using precise as well as vague or imprecise 
+features. The proposed implementation is based on a client/server
+web-based architecture working on top of a relational standard DBMS. A
+specific example concerning an on-line wine shop is used to demonstrate
+the capabilities of the approach.
+References
+
+1.	A. Aamodt and E. Plaza. Case-based reasoning: Foundational issues, methodological 
+variations and system approaches. AI Communications, 7(1):39—59, 1994.
+2.	S Aguzzoli, P. Avesani, and P. Massa. Compositional recommender systems using
+Case-Based Reasoning approach. Technical Report 0111-25, IRST-ITC, Trento
+(Italy), 2001. Also in Electr. Proc. of ACM SIGIR Workshop on Recommender
+Systems (www.cs.orst.edu/ herlock/rsw200l).
+3.	P. Bosc and O. Pivert. Fuzzy queries in conventional databases. In L. Zadeh
+and J. Kacprzyk, editors, Fuzzy Logic for the Management of Uncertainty, pages
+645—672. John Wiley, 1992.
+4.	P. Bosc and O. Pivert. SQLf: a relational database language for fuzzy querying.
+IEEE Transactions on Fuzzy Systems, 3(1), 1995.
+5.	H-D. Burkhard. Extending some concepts of CBR: foundations of case retrieval
+nets. In M. Lenz, B. Bartsch-Spoerl, H-D. Burkhard, and S. Wess, editors, Case
+Based reasoning Technology: from Foundations to Applications, pages 17—50. LNAI
+1400, Springer, 1998.
+6.	H-D. Burkhard and M.M. Richter. On the notion of similarity in Case-Based
+Reasoning and Fuzzy theory. In S.K.Pal, T.S. Dillon, and D.S. Yeung, editors,
+Soft Computing in Case Based Reasoning, pages 29—46. Springer, 2000.
+7.	P. Cunningham, R. Bergmann, S. Scmitt, R. Traphoener, S. Breen, and B. Smyth.
+WEBSELL: Intelligent sales assistants for the World Wide Web. Technical Report
+TCD-CS-2000-42, Trinity College Dublin, 2000.
+8.	H. Deitel, P. Deitel, and T. Nieto. E-business and E-commerce: How to Program.
+Prentice Hall, 2001.
+9.	B.K. Hansen. Whether prediction using CBR and fuzzy set theory. Master Thesis,
+Dalhousie University, 2000. http: //www.cs.dal.ca/~ bjarne/thesis.pdf.
+10.	M. Jaczynski and B. Trousse. Fuzzy logic for the retrieval step of a case-based
+reasoner. In 2nd European Workshop on Case-Based Reasoning - EWCBR94,
+pages 313—320, Chantilly, France, 1994.
+11.	J. Kacprzyck and A. Ziolowski. Database queries with fuzzy linguistic quantifiers.
+IEEE Transactions on Systems, Man and Cybernetics, 16(3), 1986.
+12.	H. Kitano and H Shimazu. The experience-sharing architecute: a case study in
+corporate-wide case-based software quality control. In D.B. Leake, editor, Case
+Based Reasoning: Experiences, Lessons and Future Directions. AAAI Press, 1996.
+13.	C.T. Liu and C.S. George Lee. Neural Fuzzy Systems. Prentice Hall, 1996.
+14.	L. Portinale and A. Verrua. Exploiting Fuzzy-SQL in Case-Based Reasoning. In
+Proc. FLAIRS ‘01, Key West, FL, 2001.
+15.	S. Schmitt and R. Bergmann. Applying Case-Based Reasoning technology for
+product selection and customization in electronic commerce environments. In Proc.
+12th Intl. Bled Electronic Commerce Conference, Bled, Slovenia, 1999.
+16.	J. Schumacher and R. Bergmann. An efficient approach to similarity-based retrieval
+on top of relational databases. In E. Blanzieri and L. Portinale, editors, Proc. 5th
+EWCBR, pages 273—284, Trento, 2000. Lecture Notes in Artificial Intelligence 1898.
+17.	M. Schumacher and T. Roth-Berghofer. Architectures for integration of CBR
+systems with databases for e-commerce. In Proc. 7th German Workshop on CBR
+(GWCBR’99), 1999.
+18.	H. Shimazu, H. Kitano, and A. Shibata. Retrieving cases from relational databases:
+another strike toward corporate-wide case-based systems. In Proc. 19th Intern.
+Joint Conference on Artificial Intelligence (IJCAI’93), pages 909—914, 1993.
+19.	A. Stahl and R. Bergmann. Applying recursive CBR for the customization of
+structured products in an electronic shop. In E. Blanzieri and L. Portinale, editors,
+Proc. 5th European Workshop on CBR, Trento, 2000. Lecture Notes in Artificial
+Intelligence 1898.
+20.	I. Vollrath, W. Wilke, and R. Bergmann. Intelligent electronic catalogs for sales
+support. In Advances in Soft Computing - Engineering Design and Manufacturing.
+Springer, 1999.
+21.	R. Weber-Lee, R. Barcia, and S. Khator. Case-based reasoning for cash flow forecasting 
+using fuzzy retrieval. In Proc. First International Conference on Case-Based Reasoning - 
+ICCBR95, pages 510—519, Sesimbra, Portugal, 1995.
+22.	S. Weibelzahl, R. Bergmann, and G. Weber. Towards an empirical evaluation of
+CBR approaches for product recommendation in electronic shops. In Proc. 8th
+German Workshop on CBR, 2000.
+23.	W. Wilke, M. Lenz, and S. Wess. Intelligent sales support with CBR. In M. Lenz,
+B. Bartsch-Spoerl, H-D. Burkhard, and S. Wess, editors, Case Based reasoning
+Technology: from Foundations to Applications, pages 91—113. LNAI 1400, Springer,
+1998.
+24.	X. Wu. Fuzzy interpretation of discretized intervals. IEEE Transactions on Fuzzy
+Systems, 7(6):753—759, 1999.

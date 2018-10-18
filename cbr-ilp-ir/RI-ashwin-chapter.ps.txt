@@ -1,0 +1,140 @@
+Information Extraction as a Stepping Stone toward
+Story Understanding
+
+Ellen Riloff
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+riloff@cs.utah.edu
+
+Historically, story understanding systems have depended on a great deal of hand­crafted knowl­edge. 
+Natural language understanding systems that use conceptual knowledge structures [SA77,
+Cul78, Wil78, Car79, Leh81, Kol83] typically rely on enormous amounts of manual knowledge
+engineering. While much of the work on conceptual knowledge structures has been hailed as pi­oneering 
+research in cognitive modeling and narrative understanding, from a practical perspective
+it has also been viewed with skepticism because of the underlying knowledge engineering bottle­neck. 
+The thought of building a large­scale conceptual natural language processing (NLP) system
+that can understand open­ended text is daunting even to the most ardent enthusiasts. So must we
+grit our collective teeth and assume that story understanding will be limited to prototype systems
+in the foreseeable future? Or will conceptual natural language processing ultimately depend on a
+massive, broad­scale manual knowledge engineering effort, such as CYC [LPS86]?
+Perhaps the answer lies in the current trends of information extraction research. Information
+extraction (IE) is a form of natural language processing in which certain types of information must
+be recognized and extracted from text. Although IE systems are typically designed for a single do­main, 
+there is a great deal of interest in building systems that are easily portable to new domains.
+Many researchers are developing methods to acquire the necessary domain­specific knowledge
+automatically. The goal is not necessarily to produce a general­purpose information extraction
+system, but to create tools that would allow users to build customized information extraction sys­tems 
+quickly.
+If the IE researchers are ultimately successful, we could imagine being able to create, quite
+literally, an IE system ``du jour'' that is tailored to our interests on any given day. Another possible
+future scenario is to assemble a large suite of IE systems, each being a specialist in extracting
+information pertaining to its own area of expertise. Collectively, the suite of systems could support
+conceptual natural language understanding capabilities, if not for every subject then at least for a
+wide variety of subjects.
+On the surface, information extraction might appear to be fundamentally different from story
+understanding. And there are some important differences between these tasks. But we will argue
+that the challenges and difficulties underlying them are largely the same. A corollary of this view
+is that automated knowledge acquisition techniques developed for information extraction are likely
+to be applicable to story understanding as well. In this chapter, we will explain how research in
+information extraction may be a significant stepping stone toward progress in story understanding.
+We will discuss emerging trends in the information extraction community, draw parallels between
+the two types of natural language understanding, and describe recent research in automated case
+frame generation for information extraction.
+
+
+References
+[AB95] Chinatsu Aone and Scott William Bennett. Applying Machine Learning to Anaphora
+Resolution. In Working Notes of the IJCAI­95 Workshop on New Approaches to Learn­
+ing for Natural Language Processing, pages 151--157, 1995.
+[Car79] J. G. Carbonell. Subjective Understanding: Computer Models of Belief Systems. PhD
+thesis, Tech. Rept. 150, Department of Computer Science, Yale University, New Haven,
+CT, 1979.
+[Car93] C. Cardie. A Case­Based Approach to Knowledge Acquisition for Domain­-Specific
+Sentence Analysis. In Proceedings of the Eleventh National Conference on Artificial
+Intelligence, pages 798--803. AAAI Press/The MIT Press, 1993.
+[Cul78] R. E. Cullingford. Script Application: Computer Understanding of Newspaper Stories.
+PhD thesis, Tech. Rept. 116, Department of Computer Science, Yale University, New
+Haven, CT, 1978.
+[DeJ82] Gerald DeJong. An Overview of the FRUMP System. In W. Lehnert and M. Ringle, ed­
+itors, Strategies for Natural Language Processing, pages 149--177. Lawrence Erlbaum
+Associates, 1982.
+[DGCN91] Charles P. Dolan, Seth R. Goldman, Thomas V. Cuda, and Alan M. Nakamura. Hughes
+Trainable Text Skimmer: Description of the TTS System as Used for MUC­3. In Pro­
+ceedings of the Third Message Understanding Conference (MUC­3), pages 155--162,
+San Mateo, CA, 1991. Morgan Kaufmann.
+[DLW + 91] Kathleen Dahlgren, Carol Lord, Hajime Wada, Joyce McDowell, and Edward P. Sta­bler 
+Jr. ITP: Description of the Interpretext System as Used for MUC­3. In Proceedings
+of the Third Message Understanding Conference (MUC­3), pages 163--170, San Mateo,
+CA, 1991. Morgan Kaufmann.
+[GSM91] Ralph Grishman, John Sterling, and Catherine Macleod. New York University: De­scription 
+of the Proteus System as Used for MUC­3. In Proceedings of the Third
+Message Understanding Conference (MUC­3), pages 183--190, San Mateo, CA, 1991.
+Morgan Kaufmann.
+[HL94] P. Hastings and S. Lytinen. The Ups and Downs of Lexical Acquisition. In Proceedings
+of the Twelfth National Conference on Artificial Intelligence, pages 754--759. AAAI
+Press/The MIT Press, 1994.
+[Huf95] Scott B. Huffman. Learning information extraction patterns from examples. In Working
+Notes of the IJCAI­95 Workshop on New Approaches to Learning for Natural Language
+Processing, pages 127--134, 1995.
+[Huf96] S. Huffman. Learning information extraction patterns from examples. In Stefan
+Wermter, Ellen Riloff, and Gabriele Scheler, editors, Connectionist, Statistical, and
+Symbolic Approaches to Learning for Natural Language Processing, pages 246--260.
+Springer­Verlag, Berlin, 1996. 22
+[KM93] J. Kim and D. Moldovan. Acquisition of Semantic Patterns for Information Extraction
+from Corpora. In Proceedings of the Ninth IEEE Conference on Artificial Intelligence
+for Applications, pages 171--176, Los Alamitos, CA, 1993. IEEE Computer Society
+Press.
+[Kol83] J. Kolodner. Maintaining Organization in a Dynamic Long­Term Memory. Cognitive
+Science, 7:243--280, 1983.
+[LCF + 91a] W. Lehnert, C. Cardie, D. Fisher, E. Riloff, and R. Williams. University of Mas­sachusetts: 
+Description of the CIRCUS System as Used for MUC­3. In Proceedings of
+the Third Message Understanding Conference (MUC­3), pages 223--233, San Mateo,
+CA, 1991. Morgan Kaufmann.
+[LCF + 91b] W. Lehnert, C. Cardie, D. Fisher, E. Riloff, and R. Williams. University of Mas­sachusetts: 
+MUC­3 Test Results and Analysis. In Proceedings of the Third Message
+Understanding Conference (MUC­3), pages 116--119, San Mateo, CA, 1991. Morgan
+Kaufmann.
+[Leh81] W. G. Lehnert. Plot Units and Narrative Summarization. Cognitive Science, 5(4):293--
+331, 1981.
+[Leh91] W. Lehnert. Symbolic/Subsymbolic Sentence Analysis: Exploiting the Best of Two
+Worlds. In J. Barnden and J. Pollack, editors, Advances in Connectionist and Neural
+Computation Theory, Vol. 1, pages 135--164. Ablex Publishers, Norwood, NJ, 1991.
+[LPS86] D. B. Lenat, M. Prakash, and M. Shepherd. CYC: Using Common Sense Knowledge to
+Overcome Brittleness and Knowledge­Acquisition Bottlenecks. AI Magazine, 6:65--85,
+1986.
+[ML95] Joseph F. McCarthy and Wendy G. Lehnert. Using Decision Trees for Coreference Res­olution. 
+In Proceedings of the Fourteenth International Joint Conference on Artificial
+Intelligence, pages 1050--1055, 1995.
+[MSBS91] Christine A. Montgomery, Bonnie Glover Stalls, Robert S. Belvin, and Robert E.
+Stumberger. Language Systems, Inc.: Description of the DBG System as Used for
+MUC­3. In Proceedings of the Third Message Understanding Conference (MUC­3),
+pages 171--177, San Mateo, CA, 1991. Morgan Kaufmann.
+[MUC91] MUC­3 Proceedings. Proceedings of the Third Message Understanding Conference
+(MUC­3). Morgan Kaufmann, San Mateo, CA, 1991.
+[MUC92] MUC­4 Proceedings. Proceedings of the Fourth Message Understanding Conference
+(MUC­4). Morgan Kaufmann, San Mateo, CA, 1992.
+[MUC93] MUC­5 Proceedings. Proceedings of the Fifth Message Understanding Conference
+(MUC­5). Morgan Kaufmann, San Francisco, CA, 1993.
+[Ril93] E. Riloff. Automatically Constructing a Dictionary for Information Extraction Tasks.
+In Proceedings of the Eleventh National Conference on Artificial Intelligence, pages
+811--816. AAAI Press/The MIT Press, 1993.
+[Ril96a] E. Riloff. An Empirical Study of Automated Dictionary Construction for Information
+Extraction in Three Domains. Artificial Intelligence, 85:101--134, 1996.
+[Ril96b] E. Riloff. Automatically Generating Extraction Patterns from Untagged Text. In Pro­ceedings 
+of the Thirteenth National Conference on Artificial Intelligence, pages 1044--
+1049. The AAAI Press/MIT Press, 1996.
+[RL94] E. Riloff and W. Lehnert. Information Extraction as a Basis for High­Precision Text
+Classification. ACM Transactions on Information Systems, 12(3):296--333, July 1994.
+[RS95] E. Riloff and J. Shoen. Automatically Acquiring Conceptual Patterns Without an An­notated 
+Corpus. In Proceedings of the Third Workshop on Very Large Corpora, pages
+148--161, 1995.
+[SA77] R. Schank and R. Abelson. Scripts, Plans, Goals and Understanding. Lawrence Erl­baum 
+Associates, Hillsdale, New Jersey, 1977.
+[SFAL95] S. Soderland, D. Fisher, J. Aseltine, and W. Lehnert. CRYSTAL: Inducing a concep­tual 
+dictionary. In Proceedings of the Fourteenth International Joint Conference on
+Artificial Intelligence, pages 1314--1319, 1995.
+[SL94] S. Soderland and W. Lehnert. Wrap­Up: A trainable discourse module for information
+extraction. Journal of Artificial Intelligence Research (JAIR), 2:131--158, 1994.
+[Wil78] R. Wilensky. Understanding goal­based stories. PhD thesis, Tech. Rept. 140, Depart­ment 
+of Computer Science, Yale University, New Haven, CT, 1978.

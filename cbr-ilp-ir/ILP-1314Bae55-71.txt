@@ -1,0 +1,52 @@
+Analysis and Prediction of Piano Performances
+Using Inductive Logic Programming
+
+Erika Van Baelen and Luc De Raedt
+
+Department of Computer Science, Katholieke Universiteit Leuven
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+Email: Luc.DeRaedt@cs.kuleuven.ac.be
+
+
+Abstract. Starting from the work of Matthew Dovey on analysing Rachmarinoff’s 
+piano performances using inductive logic programming, we
+show how to apply the clausal discovery engine Claudien to induce theodes 
+for predicting MIDI files from the musical analysis of a score.
+This extends Dovey’s work in several directions: MIDI-encodings are used
+instead of the older Ampico, a richer musical analysis within LaRue’s
+SHMRG-model is applied, a much finer qualitative analysis of features
+is learned (making it nearly quantitative), and predictions are made.
+The application is not only relevant as yet another inductive logic programming 
+benchmark, but also as a demonstration of the need for multiple 
+predicate learning, sequence prediction and number handling in
+inductive logic programming. Furthermore, the results presented here
+can be considered the first original application of the clausal discovery
+engine Claudien.
+References
+
+1.	D. Cope. Experiments in Music Intelligence, In Proceedings of the International
+Computer Music Conference, Computer Musk Association, 1987.
+2.	L. De Raedt and M. Bruynooghe. A theory of clausal discovery. In Proceedings of
+the 13th International Joint Conference on Artificial Intelligence, pages 1058—1083.
+Morgan Kaufmann, 1993.
+3.	L. De Raedt and W. Van Laer. Inductive constraint logic. In Proceedings of the 5th
+Workshop on Algorithmic Learning Theory, Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1995.
+4.	L. De Raedt, N. Lavrac, and S. Dzeroski. Multiple predicate learning. In Proceedings 
+of the 13th International Joint Conference on Artificial Intelligence, pages
+1037—1042. Morgan Kaufmann, 1993.
+5.	L. De Raedt and L. Dehaspe. Clausal Discovery, Technical Report, Dept. of Computer 
+Science K.U.Leuven, 1995, Submitted to Machine Learning.
+8.	M.J. Dovey. Analysis of Rachmaninoff’s Piano Performances using Inductive Logic
+Programming, Oxford University Computing Lab, 1995. An extended abstract was
+published in Proceedings of the 8th European. Conference on Machine Learning, Lecture 
+Notes in Artificial Intelligence, Springer Verlag, 1995.
+7.	J. LaRue, Guidelines for Style Analysis, W.W.Norton and Co., 1970.
+8.	F. Lerdahl and R. Jackendorff. A generative theory of tonal music. MIT Press, 1983.
+9.	S. Muggleton. Inverse entailment and progol. New Generation Computing, 13, 1995.
+10.	E. Narmour. Beyond Schenkerism: the need for alternatives in music analysis.
+Chicago University Press, 1983.
+11.	E. Van Baelen. Analyse van piano-uitvoeringen met behulp van inductie (in Dutch).
+Master’s Thesis, Dept. of Computer Science, K.U.Leuven, 1996.
+12.	G. Widmer. The synergy of music theory and artificial intelligence: learning multilevel 
+expressive interpretation. In Proceedings of the 11th AAAI, 1994.

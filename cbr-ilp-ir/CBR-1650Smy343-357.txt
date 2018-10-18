@@ -1,0 +1,62 @@
+Footprint-Based Retrieval
+
+Barry Smyth & Elizabeth McKenna
+
+Department of Computer Science
+University College Dublin
+Belfield, Dublin 4, IRELAND
+
+Barry. Smyth@ucd.ie
+Elizabeth.McKenna@ucd.ie
+
+
+
+Abstract. The success of a case-based reasoning system depends critically on
+the performance of the retrieval algorithm used and, specifically, on its
+efficiency, competence, and quality characteristics. In this paper we describe a
+novel retrieval technique that is guided by a model of case competence and that,
+as a result, benefits from superior efficiency, competence and quality features.
+References
+
+1.	Aha, D.W., Kibler, D., and Albert, M.K.: Instance-Based Learning Algorithms. Machine
+Learning 6 (1991) 37-66.
+2.	Brown, M.G.: An Underlying Memory Model to Support Case Retrieval. In: Topics in
+Case-Based Reasoning. Lecture Notes in Artificial Intelligence, Vol. 837. Springer-
+Verlag, Berlin Heidelberg New York (1994) 132-143.
+3.	Dasarathy, B.V.: Nearest Neighbor Norms: NN Pattern Classification Techniques. IEEE
+Press, Los Alamitos, California (1991)
+4.	Hart, P.E.: The Condensed Nearest Neighbor Rule. IEEE Transactions on Information
+Theory, 14(1967) 515-516.
+5.	Leake, D.B., Kinley, A., and Wilson, D.: Case-Based Similarity Asessment: Estimating
+Adaptability from Experience. In: Proceedings of the l4th National Conference on
+Artificial Intelligence. AAAI Press (1997)
+6.	Lenz, M.: Applying Case Retrieval Nets to Diagnostic Tasks in Technical Domains. In:
+Smith, I. & Faltings, B. (eds.): Advances in Case-Based Reasoning. Lecture Notes in
+Artificial Intelligence, Vol. 1168. Springer-Verlag, Berlin Heidelberg New York (1996)
+219-233
+7.	Lieber, J.: A Criterion of Comparison between two Case-Bases. In: Haton, J-P., Keane,
+M., and Manago, M. (eds.): Advances in Case-Based Reasoning. Lecture Notes in
+Artificial Intelligence, Vol. 984. Springer-Verlag, Berlin Heidelberg New York (1994) 87-
+100
+8.	Minton, S.: Qualitative Results Concerning the Utility of Explanation-Based Learning,
+Artificial Intelligence, 42(2,3) (1990) 363-391
+9.	Schaaf, J. W.: Fish and Shrink: A Next Step Towards Efficient Case Retrieval in Large-
+Scale Case-Bases. In: Smith, I. & Faltings, B. (eds.): Advances in Case-Based Reasoning.
+Lecture Notes in Artificial Intelligence, Vol. 1168. Springer-Verlag, Berlin Heidelberg
+New York (1996) 362-376
+10.	Smyth, B. and Keane. M. T.: Adaptation-Guided Retrieval: Questioning the Similarity
+Assumption in Reasoning. Artificial Intelligence 102 (1998) 249-293
+11.	Smyth, B. & Keane, M.T.: Remembering to Forget: A Competence Preserving Deletion
+Policy for Case-Based Reasoning Systems. In: Proceedings of the 14th International Joint
+Conference on Artificial Intelligence. Morgan-Kaufmann. (1995) 377-382
+12.	Smyth, B. & McKenna, E.: Modelling the Competence of Case-Bases. In: Smyth, B. &
+Cunningham, P. (eds.): .): Advances in Case-Based Reasoning. Lecture Notes in Artificial
+Intelligence, Vol. 1488. Springer-Verlag, Berlin Heidelberg New York (1998). 208-220
+13.	Veloso, M. Flexible Strategy Learning: Analogical Replay of Problem Solving Episodes.
+Proceedings of the 12th National Conference on Artificial Intelligence (1994) 595-600.
+14.	Wess, S., Althoff, K-D., Derwand, G.: Using k-d Trees to Improve the Retrieval Step in
+Case-Based Reasoning. In: Topics in Case-Based Reasoning. Lecture Notes in Artificial
+Intelligence, Vol. 837. Springer-Verlag, Berlin Heidelberg New York (1994) 167— 181
+15.	Wolverton, M., and Hayes-Roth, B.: Retrieving Semantically Distant Analogies with
+Knowledge-Directed Spreading Activation. In: Proceedings of the 12th National
+Conference on Artificial Intelligence, (1994) 56-61.

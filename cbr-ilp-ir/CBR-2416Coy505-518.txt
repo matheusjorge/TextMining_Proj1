@@ -1,0 +1,54 @@
+A Case-Based Personal Travel Assistant
+for Elaborating User Requirements and Assessing Offers
+
+Lorcan Coyle, Pádraig Cunningham, and Conor Hayes
+
+Department of Computer Science
+Trinity College Dublin
+{Lorcan.Coyle, Padraig.Cunningham, Conor.Hayes}@cs.tcd.ie
+
+
+Abstract. This paper describes a case-based approach to user profiling in a Personal 
+Travel Assistant (based on the 1998 FIPA Travel Scenario). The approach 
+is novel in that the user profile is made up of a set of cases capturing
+previous interactions rather than as a single composite case. This has the advantage 
+that the profile is always up-to-date and also allows for the borrowing of
+cases from similar users when coverage is poor. Profile data is retrieved from a
+database in an XML format and loaded into a case-retrieval net in memory.
+This case-retrieval net is then used to support the two key tasks of requirements
+elaboration and ranking offers.
+References
+
+1.	Aha, D. W. (1997). Editorial on Lazy Learning. Artificial Intelligence Review, 11, 7-10.
+2.	Bergenti, F. & Poggi, A.. LEAP: A FIPA Platform for Handheld and Mobile Devices. In
+Proc. Eighth International Workshop on Agent Theories, Architectures, and Languages
+(ATAL-2001), Seatle, CA, 2001.
+3.	Bradley, K., Rafter, R. & Smyth B. (2000) Case-Based User Profiling for Content
+Personalisation. In Proceedings of the International Conference on Adaptive Hypermedia
+and Adaptive Web-based Systems, (AH2000), Trento, Italy.
+4.	Foundation for Intelligent Physical Agents — ACL Message Structure Specification (Document 
+No. XC00061E).
+5.	Foundation for Intelligent Physical Agents - Personal Travel Assistance Specification
+(Document No. XC00080). Carried forward from FIPA 1997 Specification 4 V1.0.
+6.	Hayes, C. & Cunningham, P. (1999) Shaping a CBR View with XML. Third International
+Conference on Case-Based Reasoning. ICCBR-99 Seeon Monastery, Germany, pp.468-
+481
+7.	Hayes, C., Cunningham, P., & Doyle, M.. Distributed CBR using XML. In Proceedings of
+the KI-98 Workshop on Intelligent Systems and Electronic Commerce, number LSA-98-
+03E. University of Kaiserslauten Computer Science Department, 1998.
+8.	Lenz, M., Auriol, E. & Manago, M. (1998) Diagnosis and Decision Support. In M.
+Bartsch-Sporl, H. D. B., and Wess, S., eds., Case-Based Reasoning Technology: From
+Foundations to Applications, volume 1400 of Lecture Notes in Computer Science.
+Springer-Verlag.
+9.	Smyth, B. & Cotter, P., (1999) Surfing the Digital Wave: Generating Personalised TV
+Listings using Collaborative, Case-Based Recommendation, in Proceedings of 3rd International 
+Conference on Case-Based Reasoning eds K-D. Althoff, R. Bergmann, L. K.
+Branting, Lecture Notes in Artificial Intelligence 1650, V pp561-571, Springer Verlag.
+10.	Smyth, B. & McClave, P. (2001) “Similarity vs. Diversity”, Proceedings of the 4th International 
+Conference on Case-Based Reasoning. Vancouver, Canada.
+11.	Waszkiewicz, P., Cunningham, P. & Byrne, C., (1999) Case-based User Profiling in a
+Personal Travel Assistant, User Modeling: Proceedings of the 7th International Conference,
+UM99, Judy Kay, (ed).pp. 323-325, Springer-Wien-New York.
+12.	Watson, I. & Gardingen, D. (1999). A Distributed Case-Based Reasoning Application for
+Engineering Sales Support. In, Proc. 16th Int. Joint Conf. on Artificial Intelligence (IJCAI-
+99), Vol. 1: pp. 600-605. Morgan Kaufmann Publishers Inc. ISBN 1-55860-613-0

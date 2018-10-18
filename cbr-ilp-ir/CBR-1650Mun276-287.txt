@@ -1,0 +1,83 @@
+A Case Retention Policy Based on Detrimental
+Retrieval
+
+Héctor Muñoz-Avila
+
+Department of Computer Science
+University of Maryland
+College Park, MD 20742-3255
+munoz@cs.umd.edu
+(301) 405-2684 | FAX: 405-6707
+
+
+
+
+Abstract. This paper presents a policy to retain new cases based on
+retrieval benefits for case-based planning (CBP). After each case-based
+problem solving episode, an analysis of the adaptation effort is made to
+evaluate the guidance provided by the retrieved cases. If the guidance is
+determined to be detrimental, the obtained solution is retain as a new
+case in the case base. Otherwise, if the retrieval is beneficial, the case base
+remains unchanged. We will observe that the notion of adaptable cases is
+not adequate to address the competence of a case base in the context of
+CBP. Instead, we claim that the notion of detrimental retrieval is more
+adequate. We compare our retain policy against two policies in the CBP
+literature and claim that our policy to retain cases based on the benefits
+is more effective. Our claim is supported by empirical validation.
+
+References
+Aamodt, A. & Plaza, E. (1994). Case-based reasoning: Foundation issues, methodological 
+variations and system approaches. AI-Communications, 7(l):pp 39—
+59.
+Bergmann, R., Muñoz-Avila, H., Veloso, M., Melis, E. (1998). Case-based reasoning 
+applied to planning tasks. In M. Lenz, B. Bartsch-Spoerl, H.-D.
+Burkhard, & S. Wess (Eds.) Case-Based Reasoning Technology: From Foundations 
+to Applications. Berlin: Springer.
+Ihrig, L. & Kambhampati, S. (1996). Design and implementation of a replay
+framework based on a partial order planner. In Weld, D., editor, Proceedings
+of AAAI-96. 105 Press.
+Ihrig, L., & Kambhampati, 5. (1994). Derivational replay for partial-order planning. 
+Proceedings of AAAI-94, AAAI Press.
+Kitano, H. & Shimazu, H. (1996). The experience-sharing architecture: a case
+study on corporate-wide case-based software quality control. In Case-Based
+Reasoning: Experience, Lessons, & Future Directions, Leake, D. B. (Editor).
+MA: AAAI Press / MIT Press.
+Leake, D.B., & Wilson, D.C. (1998). Categorizing case-base maintenance: dimensions 
+and directions. preprint.
+M. Lenz, B., Bartsch-Spoerl, H.-D. Burkhard, & S. Wess (Eds.). (1998). Case-Based 
+Reasoning Technology: From Foundations to Applications. Berlin: Springe
+Marcovitch, S., & Scott, P.D. (1993). Information Filtering: selection Mechanisms 
+in learning systems. Machine Learning, 10.
+McAllester, D. & Rosenblitt, D. (1991). Systematic nonlinear planning. Proceedings 
+of AAAI-91, AAAI Press.
+Muñoz-Avila, H. (1998). Integrating Twofold Case Retrieval and Complete Decision 
+Replay in CAPlan/CbC. PhD Thesis. University of Kaiserslautern,
+Germany.
+Muñoz-Avila, H. & Hüllen, J. (1995). Feature weighting by explaining case-based 
+planning episodes. In Third European Workshop (EWCBR-96), number 1168 in LNAI. Springer.
+Muñoz-Avila, H. & Weberskirch, F. (1996a). A specification of the domain
+of process planning: Properties, problems and solutions. Technical Report
+LSA-96-1OE, Center for Learning Systems and Applications, University of
+Kaiserslautern, Germany.
+Muñoz-Avila, H. & Weberskirch, F. (1996b). Planning for manufacturing work-pieces 
+by storing, indexing and replaying planning decisions. In Proc. of the
+3nd International Conference on AI Planning Systems (AIPS-96). AAAI-
+Press.
+Kirsti, R., & Qiang, Y., (1997). Maintaining Unstructured Case Bases, in Case-Based 
+Reasoning Research and Development, In Leake D., B., and Plaza E.,
+(Eds). Proceedings of the International Conference on Case Based Reasoning,
+Springer.
+Smyth, B., & Keane, M.T., (1995). Remembering to forget: A competence-preserving 
+case deletion policy for case-based reasoning systems. In: Proceedings 
+of the International Joint Conference on Artificial Intelligence.
+Smyth, B., & Keane, M.T., (1998). Adaptation-guided retrieval: Questioning
+the similarity assumption in Reasoning. Artificial Intelligence, 102.
+Veloso, M. (1994). Planning and learning by analogical reasoning. Number 886
+in Lecture Notes in Artificial Intelligence. Springer.
+Veloso, M. & Carbonell, J. (1993). Derivational analogy in prodigy: Automating
+case acquisition, storage, and utilization. Machine Learning, 10.
+Watson, I., (1997). Applying Case-Based Reasoning: Techniques for Enterprise
+Systems. Morgan Kaufmann Publishers.
+Weberskirch, F. (1995). Combining SNLP-like planning and dependency-maintenance.
+Technical Report LSA-95-10E, Centre for Learning Systems and Applications, 
+University of Kaiserslautern, Germany.

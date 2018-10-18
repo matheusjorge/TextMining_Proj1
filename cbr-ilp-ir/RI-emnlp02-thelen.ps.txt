@@ -1,0 +1,98 @@
+A Bootstrapping Method for Learning Semantic Lexicons using
+
+Extraction Pattern Contexts
+Michael Thelen and Ellen Rilo#
+School of Computing
+University of Utah
+Salt Lake City, UT 84112 USA
+{thelenm,rilo#}@cs.utah.edu
+
+Abstract
+This paper describes a bootstrapping al­gorithm called Basilisk that learns high­
+quality semantic lexicons for multiple cate­gories. Basilisk begins with an unannotated
+corpus and seed words for each semantic
+category, which are then bootstrapped to
+learn new words for each category. Basilisk
+hypothesizes the semantic class of a word
+based on collective information over a large
+body of extraction pattern contexts. We
+evaluate Basilisk on six semantic categories.
+The semantic lexicons produced by Basilisk
+have higher precision than those produced
+by previous techniques, with several cate­gories showing substantial improvement.
+
+
+References
+Chinatsu Aone and Scott William Bennett. 1996. Ap­plying machine learning to anaphora resolution. In
+Connectionist, Statistical, and Symbolic Approaches to
+Learning for Natural Language Understanding, pages
+302--314. Springer­Verlag, Berlin.
+E. Brill and P. Resnik. 1994. A Transformation­
+based Approach to Prepositional Phrase Attachment
+Disambiguation. In Proceedings of the Fifteenth In­
+ternational Conference on Computational Linguistics
+(COLING­94).
+S. Caraballo. 1999. Automatic Acquisition of a
+Hypernym­Labeled Noun Hierarchy from Text. In
+Proceedings of the 37th Annual Meeting of the Associ­ation for Computational Linguistics, pages 120--126.
+M. Collins and Y. Singer. 1999. Unsupervised Models
+for Named Entity Classification. In Proceedings of the
+Joint SIGDAT Conference on Empirical Me thods in
+Natural Language Processing and Very Large Corpora
+(EMNLP/VLC­99).
+S. Cucerzan and D. Yarowsky. 1999. Language Inde­pendent Named Entity Recognition Combining Morph
+ological and Contextual Evidence. In Proceedings of
+the Joint SIGDAT Conference on Empirical Methods
+in Natural Language Processing and Very Large Cor­pora (EMNLP/VLC­99).
+W. Gale, K. Church, and David Yarowsky. 1992. A
+method for disambiguating word senses in a large cor­pus. Computers and the Humanities, 26:415--439.
+Niyu Ge, John Hale, and Eugene Charniak. 1998. A 
+statistical approach to anaphora resolution. In Proceed­
+ings of the Sixth Workshop on Very Large Corpora.
+M. Hearst. 1992. Automatic Acquisition of Hy­ponyms 
+from Large Text Corpora. In Proceedings of
+the Fourteenth International Conference on Computa­tional 
+Linguistics (COLING­92).
+Lynette Hirschman, Marc Light, Eric Breck, and John D.
+Burger. 1999. Deep Read: A reading comprehension
+system. In Proceedings of the 37th Annual Meeting of
+the Association for Computational Linguistics.
+M. Marcus, B. Santorini, and M. Marcinkiewicz. 1993.
+Building a Large Annotated Corpus of English:
+The Penn Treebank. Computational Linguistics,
+19(2):313--330.
+George Miller. 1990. Wordnet: An on­line lexical
+database. In International Journal of Lexicography.
+Dan Moldovan, Sanda Harabagiu, Marius Pa›sca, Rada
+Mihalcea, Richard Goodrum, Roxana G “ irju, and
+Vasile Rus. 1999. Lasso: A tool for surfing the an­swer 
+net. In Proceedings of the Eighth Text REtrieval
+Conference (TREC­8).
+MUC­4 Proceedings. 1992. Proceedings of the Fourth
+Message Understanding Conference (MUC­4). Mor­gan 
+Kaufmann, San Mateo, CA.
+E. Rilo# and R. Jones. 1999. Learning Dictionaries for
+Information Extraction by Multi­Level Bootstrapping.
+In Proceedings of the Sixteenth National Conference on
+Artificial Intelligence.
+E. Rilo# and M. Schmelzenbach. 1998. An Empirical
+Approach to Conceptual Case Frame Acquisition. In
+Proceedings of the Sixth Workshop on Very Large Cor­pora, pages 49--56.
+E. Rilo# and J. Shepherd. 1997. A Corpus­Based Ap­proach 
+for Building Semantic Lexicons. In Proceed­
+ings of the Second Conference on Empirical Methods
+in Natural Language Processing, pages 117--124.
+E. Rilo#. 1996. Automatically Generating Extraction
+Patterns from Untagged Text. In Proceedings of the
+Thirteenth National Conference on Artificial Intelli­gence, 
+pages 1044--1049. The AAAI Press/MIT Press.
+B. Roark and E. Charniak. 1998. Noun­phrase Co­-occurrence 
+Statistics for Semi­automatic Semantic
+Lexicon Construction. In Proceedings of the 36th An­nual 
+Meeting of the Association for Computational
+Linguistics, pages 1110--1116.
+Stephen Soderland, David Fisher, Jonathan Aseltine,
+and Wendy Lehnert. 1995. CRYSTAL: Inducing a
+conceptual dictionary. In Proceedings of the Four­teenth 
+International Joint Conference on Artificial In­telligence, pages 1314--1319.
+

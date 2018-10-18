@@ -1,0 +1,104 @@
+Restructuring Chain Datalog Programs
+(Preliminary Report)
+
+
+Anke Rieger
+
+FB Informatik LS 8, University of Dortmund
+D-44221 Dortmund, Germany
+rieger@ls8.informatik.uni-dortmund.de
+
+
+Abstract. The goal of knowledge compilation and program optimization 
+is to transform programs in order to speed up their evaluation.
+In machine learning, two major approaches to speed-up learning exist:
+Those which interwine the learning and the optimization process and
+those which clearly separate them. We follow the latter line of thought
+and present a new restructuring method for chain Datalog programs
+which have been learned by ILP algorithms. During the restructuring
+process, rules for new, intermediate concepts are introduced which are
+used to modify the original program. We proof that this transformation
+does not change the coverage of a given set of learned target concepts.
+We show the details of the implemented algorithm which has been successfully 
+applied to a real-world robot navigation domain. Finally, we
+show that the restructuring method yields a program which can be evaluated 
+faster than the original one. This speed up is achieved by program
+decompositions.
+References
+
+1.	K. R. Apt and M. H. van Emden. Contributions to the theory of logic programming. 
+Journal of the Association for Computing Machinery, 29:841—862, 1982.
+2.	A. Bossi and N. Cocco. Basic transformation operations which preserve computed
+answer substitutions of logic programs. Journal of Logic Programming, 16:47—87,
+1993.
+3.	A. Bossi and S. Etalle. More on unfold/fold transformations of normal programs:
+Preservation of Fitting’s semantics. In L. Fribourg and F. Turini, editors, Logical
+Program Synthesis and Transformation - Meta-Programming in Logic, pages 311—
+331.	Springer-Verlag, 1994.
+4.	H. Boström. Eliminating redundancy in explanation-based learning. In
+D. Sleeman and P. Edwards, editors, Proc. of the Ninth International Workshop
+on Machine Learning, pages 37—42, 1992.
+5.	M. Bruynooghe, L. De Raedt, and D. De Schreye. Explanation-based program
+transformation. In Proc. of the Eleventh International Joint Conference on Artificial 
+Intelligence (IJCAI ‘89), pages 407—412. Morgan Kaufmann, 1989.
+6.	G. DeJong and R. Mooney. Explanation-based learning: An alternative view. Machine 
+Learning, 2(1):145—176, 1986.
+7.	G. Dong and S. Ginsburg. On the decomposition of Datalog program mappings.
+Theoretical Computer Science, 75:143—177, 1990.
+8.	G. Dong and S. Ginsburg. On decompositions of chain Datalog programs into p
+(left-)linear 1-rule components. Journal of Logic Programming, 23:203-236, 1995.
+9.	V. Klngspor, K. Morik, and A. Rieger. Learning concepts from sensor data of a
+mobile robot. Machine Learning, 23:305—332, 1996.
+10.	M. Lubbe. Data-driven learning of syntactical constraints on the hypothesis space
+for model-based learning. Technical Report 15, University of Dortmund, FB Informatik 
+LS 8, Dortmund, Germany, 1995. in German.
+11.	T.M. Mitchell, R.M. Keller, and S.T. Kedar-Cabelli. Explanation-based generalization: 
+A unifying view. Machine Learning, 1:47—80, 1986.
+12.	K. Morik, St. Wrobel, J. U. Kietz, and W. Emde. Knowledge Acquisition and
+Machine Learning: Theory, Methods, and Applications. Addison Wesley, 1993.
+13.	S. Muggleton. Inverse entailment and Progol. New Generation Computing Journal, 
+13:245—286, 1995.
+14.	S. Muggleton and W. Buntine. Machine invention of first-order predicates by inverting 
+resolution. In S. Muggleton, editor, Inductive Logic Programming, pages
+261—278. Academic Press, 1992.
+15.	S. Muggleton and C. Feng. Efficient induction of logic programs. In S. Muggleton,
+editor, Inductive Logic Programming, chapter 13, pages 281—298. Academic Press,
+1992.
+16.	J. F. Naughton and R. Ramakrishnan. Bottom-up evaluation of logic programs.
+In 3. L. Lassez and G. Plotkin, editors, Computational Logic, Essays in the Honor
+of Alan Robinson, pages 640—700. MIT Press, 1991.
+17.	M. Proietti and A. Pettorossi. Unfolding - definition - folding. In Proc. of the
+3rd International Symp. on Programming Languages Implementation and Logic
+Programming (PLILP 91), number 528 in Lecture Notes in Computer Science,
+pages 347—358. Spinger Verlag, 1991.
+18.	A. Rieger. MP: An efficient method for calculating the minimum Herbrand model
+of chain Datalog programs. In W. Wahlster, editor, Proc. of the Twelveth European
+Conference on Artificial Intelligence, 1996. to appear.
+19.	A. Rieger. Optimizing chain Datalog programs and their inference procedures.
+Technical
+Report 20, University of Dortmund, FB Informatik LS 8, Dortmund, Germany,
+1996. ftp://ftp-ai.informatik.uni-dortmund.de/pub/Reports/report20.ps.Z.
+20.	C. Rouveirol. Extensions of inversion of resolution applied to theory completion.
+In Inductive Logic Programming, pages 63—92. Academic Press, 1992.
+21.	H. Seki. Unfold/fold transformation of stratified programs. In Proc. of the 6th
+International Conference on Logic Programming, pages 554—568. MIT Press, 1989.
+22.	H. Seki. Unfold/fold transformations of stratified programs. Theoretical Computer
+Science, 86:107—139, 1991.
+23.	E. Sommer. FEEDER: An approach to theory restructuring. In N. Lavrac and St.
+Wrobel, editors, Proc. of the European Conference on Machine Learning (ECML-
+95), pages 356—359. Springer-Verlag, 1995.
+24.	E. Sommer. Theory Restructuring. PhD thesis, University of Dortmund, 1996.
+25.	H. Tamaki and T. Sato. Unfold/fold transformation of logic programs. In
+S. Tarniund, editor, Proc. of the Second Internatinal Conference on Logic Programming, 
+pages 127—138, 1984.
+26.	J. D. Uilman and A. van Gelder. Parallel complexity of logical query programs.
+Algorithmica, 3:5—42, 1988.
+27.	M. H. van Emden and R. A. Kowalski. The semantics of predicate logic as programming 
+language. Journal of the Association for Computing Machinery, 23:733—
+742, 1976.
+28.	R. Wirth. Completing logic programs by inverse resolution. In K. Morik, editor,
+Proc. Fourth European Workong Session on Learning (EWSL), pages 239—250.
+Morgan Kaufmann, 1989.
+29.	R. Wirth. Constraints for predicate invention. In S. Muggleton, editor, Inductive
+Logic Programming, pages 299-317. Academic Press, 1992.
+30.	S. Wrobel. Concept Formation and Knowledge Revision. Kluwer Academic Publishers, 1994.

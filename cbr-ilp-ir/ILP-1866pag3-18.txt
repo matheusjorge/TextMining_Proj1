@@ -1,0 +1,134 @@
+ILP: Just Do It
+
+David Page
+
+Dept. of Biostatistics and Medical Informatics
+and Dept. of Computer Sciences
+University of Wisconsin
+1300 University Ave., Rm 5795 Medical Sciences
+Madison, WI 53706
+U.S.A.
+page@biostat.wisc.edu
+
+
+
+Abstract. Inductive logic programming (ILP) is built on a foundation
+laid by research in other areas of computational logic. But in spite of this
+strong foundation, at 10 years of age ILP now faces a number of new 
+challenges brought on by exciting application opportunities. The purpose of
+this paper is to interest researchers from other areas of computational
+logic in contributing their special skill sets to help JLP meet these 
+challenges. The paper presents five future research directions for LLP and
+points to initial approaches or results where they exist. It is hoped that
+the paper will motivate researchers from throughout computational logic
+to invest some time into “doing” ILP.
+References
+
+[1]	D. Becker, T. Sterling, D. Savarese, E. Dorband, U. Ranawake, and C. Packer.
+Beowuif: A parallel workstation for scientific computation. In Proceedings of the
+1995 International Conference on Parallel Processing (ICPP), pages 11—14, 1995.
+[2]	M. Botta, A. Giordana, L. Saiita, and M. Sebag. Relational learning: Hard 
+problems and phase transitions. 2000.
+[3]	M. Craven and J. Kumlien. Constructing biological knowledge bases by 
+extracting information from text sources. In Proceedings of the Seventh International
+Conference on Intelligent Systems for Molecular Biology, Heidelberg, Germany,
+1999. AAAI Press.
+[4]	M. Craven and S. Slattery. Combining statistical and relational methods for 
+learning in hypertext domains. In Proceedings of the Eighth International Conference
+on Inductive Logic Programming (ILP-98), pages 38—52. Springer Verlag, 1998.
+[5]	J. Cussens. Loglinear models for first-order probabilistic reasoning. In 
+Proceedings of the 15th Conference on Uncertainty in Artificial Intelligence. Stockholm,
+Sweden, 1999.
+[6]	S. Dzeroski. Inductive logic programming and knowledge discovery in databases.
+In U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and R. Uthurusamy, editors, 
+Advances in Knowledge Discovery and Data Mining. 1996.
+[7]	p. Finn, S. Muggleton, D. Page, and A. Srinivasan. Discovery of pharmacophores
+using Inductive Logic Programming. Machine Learning, 30:241—270, 1998.
+[8]	N. Friedman, L. Getoor, D. Koller, and A. Pfeffer. Learning probabilistic relational
+models. In Proceedings of the 16th International Joint Conference on Artificial
+Intelligence. Stockholm, Sweden, 1999.
+[9]	N. Friedman, D. Koller, and A. Pfeffer. Structured representation of complex
+stochastic systems. In Proceedings of the 15th National Conference on Artificial
+Intelligence. AAAI Press, 1999.
+[10]	A. M. Frisch and C. D. Page. Building theories into instantiation. In Proceedings
+of the Fourteenth International Joint Conference on Artificial Intelligence (IJCAI-
+95), 1995.
+[11]	A. Giordana and L. Saitta. Phase transitions in learning with fol languages.
+Technical Report 97, 1998.
+[12]	G. Gottlob. Subsumption and implication. Information Processing Letters,
+24(2):109—111, 1987.
+[13]	J. Graham, D. Page, and A. Wild. Parallel inductive logic programming. In
+Proceedings of the Systems, Man, and Cybernetics Conference (SMC-2000), page
+To appear. IEEE, 2000.
+[14]	D. Heckerman. A tutorial on learning with bayesian networks. Microsoft Technical
+Report MSR-TR-95-06, 1995.
+[15] D. Heckerman, E. Horvitz, and B. Nathwani. Toward normative expert systems:
+Part i the pathfinder project. Methods of Information in Medicine, 31:90—105,
+1992.
+[16]	R. King, S. Muggleton, R. Lewis, and M. Sternberg. Drug design by machine
+learning: The use of inductive logic programming to model the structure-activity
+relationships of trimethoprim analogues binding to dihydrofolate reductase. 
+Proceedings of the National Academy of Sciences, 89(23):11322—11326, 1992.
+[17]	R. King, S. Muggleton, A. Srinivasan, and M. Sternberg. Structure-activity 
+relationships derived by machine learning: the use of atoms and their bond 
+connectives to predict mutagenicity by inductive logic programming. Proceedings of the
+National Academy of Sciences, 93:438—442, 1996.
+[18]	C. Lee. A completeness theorem and a computer program for finding theorems
+derivable from given axioms. PhD thesis, University of California, Berkeley, 1967.
+[19]	T. Leung, M. Burl, and P. Perona. Probabilistic affine invariants for recognition.
+In Proceedings IEEE Conference on Computer Vision and Pattern Recognition,
+1998.
+[20]	T. Leung and J. Malik. Detecting, localizing and grouping repeated scene elements
+from images. IEEE Transactions on Pattern Analysis and Machine Intelligence,
+page To appear, 2000.
+[21]	M. Litzkow, M. Livny, and M. Mutka. Condor—a hunter of idle workstations. In
+Proceedings of the International Conference on Distributed Computing Systems,
+pages 104—111, 1988.
+[22]	J. Marcinkowski and L. Pachoiski. Undecidability of the horn-clause implication
+problem. In Proceedings of the 33rd IEEE Annual Symposium on Foundations of
+Computer Science, pages 354—362. IEEE, 1992.
+[23] 	T.M. Mitchell. The need for biases in learning generalizations. Technical Report
+CBM-TR-117, Department of Computer Science, Rutgers University, 1980.
+[24] 	T.M. Mitchell. Generalisation as search. Artificial Intelligence, 18:203—226, 1982.
+[25] 	S. Muggleton. Predicate invention and utilization. Journal of Experimental and
+Theoretical Artificial Intelligence, 6(1): 127—130, 1994.
+[26]	S. Muggleton. Inverse entailment and Progol. New Generation Computing,
+13:245—286, 1995.
+[27]	S. Muggleton. Learning stochastic logic programs. In Proceedings of the AAAI2000
+Workshop on Learning Statistical Models from Relational Data. AAAI, 2000.
+[28]	S. Muggleton and W. Buntine. Machine invention of first-order predicates by
+inverting resolution. In Proceedings of the Fifth International Conference on 
+Machine Learning, pages 339—352. Kaufmann, 1988.
+[29]	S. Muggleton, R. King, and M. Sternberg. Protein secondary structure prediction
+using logic-based machine learning. Protein Engineering, 5(7):647—657, 1992.
+[30] L. Ngo and P. Haddawy. Probabilistic logic programming and bayesian networks.
+Algorithms, Concurrency, and Knowledge: LNCS 1023, pages 286—300, 1995.
+[31]	L. Ngo and P. Haddawy. Answering queries from context-sensitive probabilistic
+knowledge bases. Theoretical Computer Science, 171:147—177, 1997.
+[32]	M. Sebag and C. Rouveirol. Tractable induction and classification in fol. In
+Proceedings of the 15th International Joint Conference on Artificial Intelligence,
+pages 888—892. Nagoya, Japan, 1997.
+[33]	B. Selman, H. Kautz, and B. Cohen. Noise strategies for improving local search.
+In Proceedings of the Twelfth National Conference on Artificial Intelligence. AAAI
+Press, 1994.
+[34]	B. Selman, H. Levesque, and D. Mitchell. A new method for solving hard 
+satisfiability problems. In Proceedings of the Tenth National Conference on Artificial
+Intelligence, pages 440—446. AAAI Press, 1992.
+[35]	A. Srinivasan and R.C. Camacho. Numerical reasoning with an ILP system 
+capable of lazy evaluation and customised search. Journal of Logic Programming,
+40:185—214, 1999.
+[36]	A. Srinivasan, S. Muggleton, R. King, and M. Sternberg. Theories for 
+mutagenicity: a study of first-order and feature based induction. Artificial Intelligence,
+85(1,2):277—299, 1996.
+[37]	M. Thrcotte, S. Muggleton, and M. Sternberg. Application of inductive logic
+programming to discover rules governing the three-dimensional topology of protein
+structures. In Proceedings of the Eighth International Conference on Inductive
+Logic Programming (ILP-98), pages 53—64. Springer Verlag, 1998.
+[38]	Y. Wang and D. Skillicorn. Parallel inductive logic for data mining.
+http://www.cs.queensu.ca/home/skill/papers.html#datamining, 2000.
+[39]	R. Wirth and P. O’Rorke. Constraints on predicate invention. In Proceedings of
+the 8th International Workshop on Machine Learning, pages 457—461. Kaufmann,
+1991.
+[40]	J. Zelle and R. Mooney. Learning semantic grammars with constructive 
+inductive logic programming. In Proceedings of the Eleventh National Conference on
+Artificial Intelligence, pages 817—822, San Mateo, CA, 1993. Morgan Kaufmann.

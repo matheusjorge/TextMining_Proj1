@@ -1,0 +1,97 @@
+Representing Temporal Knowledge
+for Case-Based Prediction
+
+Martha Dørum Jære1, Agnar Aamodt2, and Pål Skalle3
+
+1Borak S.L., Ronda de Poniente N4, Tres Cantos, CP 28760, Madrid, Spain
+2Artificial Intelligence Research Institute, IIIA, Spanish Council for Scientific Research, CSIC,
+08193 Bellaterra, Barcelona, Spain.
+3Department of Petroleum Technology, Norwegian University of Science and Technology,
+NO-7491, Trondheim, Norway.
+
+
+
+Abstract. Cases are descriptions of situations limited in time and space. The
+research reported here introduces a method for representation and reasoning
+with time-dependent situations, or temporal cases, within a knowledge-intensive
+ CBR framework. Most current CBR methods deal with snapshot
+cases, descriptions of a world state at a single time stamp. In many time-dependent 
+situations, value sets at particular time points are less important than
+the value changes over some interval of time. Our focus is on prediction
+problems for avoiding faulty situations. Based on a well-established theory of
+temporal intervals, we have developed a method for representing temporal
+cases inside the knowledge-intensive CBR system Creek. The paper presents
+the theoretical foundation of the method, the representation formalism and basic
+reasoning algorithms, and an example applied to the prediction of unwanted
+events in oil well drilling.
+References
+
+1.	Agnar Aamodt, Enric Plaza: “Case-based reasoning: Foundation issues,
+methodological variation, and system approaches”, AICOM, Vol. 7, no. 1 (Mar.
+1994) 39-59.2.
+2.	Agnar Aamodt: Explanation — driven-case-based reasoning. Topics in case-based
+reasoning, edited by S. Wess et al., Springer Verlag (1994) 274-288.
+3.	Agnar Aamodt, Helge A. Sandtorv, Ole M. Winnem: Combining Case Based Reasoning 
+and Data Mining - A way of revealing and reusing RAMS experience. In
+Lydersen, Hansen, Sandtorv (eds.), Safety and Reliability; Proceedings of ESREL
+‘98, Trondheim, June 16-19, 1998. Balkena, Rotterdam, 1998. pp 1345-1351.
+4.	James F. Allen: Maintaining Knowledge about Temporal Intervals. Communications 
+of the ACM 26, 11, 832-843. The University of Rochester. Nov. 1983.
+5.	Ralph Bergmann, Hector Muñoz-Avila, Manuela Veloso and Erica Melis: CBR
+applied to planning. In Case-Based Reasoning Technology; From Foundations to
+Applications, (chapter 7), pages 169--200. 1998.
+6.	Branting, L.K., Hastings, J.D.: An empirical evaluation of model-based case
+matching and adaptation. Proceedings of the Workshop on Case-Based Reasoning,
+AAAI-94. Seattle, Washington, July 1994.
+7.	Christian Freksa: Temporal reasoning based on semi-intervals. In Artificial
+Intelligence 54 (1992) pp 199-227. 1992.
+8.	Bjarne K. Hansen: Weather Prediction Using Case-Based Reasoning and Fuzzy
+Set Theory, Master of Computer Science Thesis, Technical University of Nova
+Scotia, Halifax, Nova Scotia, Canada. 2000
+9.	Inrock Drilling Fluids: IDF Training Manual, Chapter Six - Drilling Problems,
+Rev2 1989.
+10.	Michel Jaczynski: A Framework for the Management of Past Experiences with
+Time-Extended Situations. In ACM Conference of Information and Knowledge
+Management (CIKM’97), Las Vegas, November 1997. INRIA Sophia-Antipolis,
+France. 1997.
+11.	Jardine, McCann and Barber: An Advanced system for the early detection of
+Sticking pipe. Sedco Forex Schlumberger ADC/SPE 23915. 1992.
+12.	Martha Dorum Jære: Time sequences in case-based reasoning. Master of
+Computer Science Thesis, Norwegian University of Science and Technology,
+Trondheim, Norway, 2001.
+13.	K. M. Kahn and A. G. Gorry: Mechanizing temporal knowledge. Artificial
+Intelligence 9,2 (1977). pp 87-108.
+14.	E.T. Keravnou: Modeling medical concepts as time-objects. In M. Stefanelli and J.
+Watts, eds., Lecture Notes in Artificial Intelligence, vol. 934. Springer, 1995, pp.
+67-90.
+15.	Ellen Lippe: Learning support by reasoning with structured cases. M.Sc. Thesis,
+Norwegian University of Science and Technology, Trondheim, Norway, 2001.
+16.	Joaquim Melendez, Josep Lluis de la Rosa, Daniel Macaya, Joan Colomer: Case
+Based Approach for generation of recipes in Batch Process Control. Institut
+d’Infor-matica i Aplicacions -Universitat de Girona, Spain. 1999.
+17.	Joaquim Melendez, Daniel Macaya, Joan Colomer: Case Based Reasoning Methodology 
+for Supervision, eXiT Group IliA & LEA-SICA, Univeristat de Girona,
+Spain. 2000.
+18.	S. Rougegrez. Similarity evaluation between observed behaviors for the prediction
+of processes. In Topics in Case-Based Reasoning, vol 873 of Lecture Notes in
+Artificial Intelligence, pp 155-166. Springer 1994.
+19.	Katarina Sachse: Domain model of drilling fluid problems. (Diploma thesis)
+Department of Petroleum Engineering, Norwegian University of Science and
+Technology. Dec. 2000.
+20.	Rainer Schmidt, Bernard Pollwein, Lothar Gierl: Medical multiparametric time
+course prognoses applied to kidney function assessments. In International Journal
+of Medical Informatics 53 (1999), pp 253-263.
+21.	Yuval Shahar: Timing is everything: Temporal Reasoning and Temporal Data
+Mainte-nance Medicine. In W Horn et al. (Eds.): AIMDM’99, LNAI 1620, pp3O-
+46, 1999. Springer Verlag.
+22.	PM Skalle, Agnar Aamodt and Jostein Sveen: Case-based reasoning - a method for
+gaining experience and giving advise on how to avoid and how to free stuck drill
+strings. Proceedings of IADC Middle East Drilling Conference, Dubai, Nov. 1998.
+23.	Paal Skalle, Josein Sveen and Agnar Aamodt: Improved Efficiency of Oil Well
+drill-ing through Case Based Reasoning. Proceedings of PRICAI 2000, The Sixth
+Pacific Rim International Conference on Artificial Intelligence, Melbourne
+August-September 2000. Lecture Notes in Artificial Intelligence, Springer Verlag,
+2000. pp 7 13-723.
+24.	Statoil, Boreavdeling, Stavanger, Mud logging data, Gullfax, 1994.
+25.	Luis Vila: A survey of temporal reasoning in artificial intelligence. AI
+Communications, Volume 7, Number 1, March 1994, pp 4-28.

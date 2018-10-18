@@ -1,0 +1,78 @@
+Remembering Why to Remember:
+Performance-Guided Case-Base Maintenance *
+
+David B. Leake and David C. Wilson
+
+
+Computer Science Department, Indiana University
+Lindley Hall 215, Bloomington, IN 47405, U.S.A.
+{leake , davwils}@cs.indiana.edu
+
+
+
+
+Abstract. An important focus of recent CBR research is on how to
+develop strategies for achieving compact, competent case-bases, as a
+way to improve the performance of CBR systems. However, compactness 
+and competence are not always good predictors of performance,
+especially when problem distributions are non-uniform. Consequently,
+this paper argues for developing methods that tie case-base maintenance
+more directly to performance concerns. The paper begins by examining
+the relationship between competence and performance, discussing the
+goals and constraints that should guide addition and deletion of cases. It
+next illustrates the importance of augmenting competence-hased criteria 
+with quantitative performance-hased considerations, and proposes a
+strategy for closely reflecting adaptation performance effects when compressing 
+a case-base. It then presents empirical studies examining the
+performance tradeoffs of current methods and the benefits of applying
+fine-grained performance-based criteria to case-base compression, showing 
+that performance-based methods may be especially important for
+task domains with non-uniform problem distributions.
+
+
+References
+ Chomsky, N. 1965. Aspects of the Theory of Syntax. Cambridge, MA.: MIT
+Press.
+Doyle, M., and Cunningham, P. 1999. On balancing client-server load in intelligent 
+web-based applications involving dialog. Technical Report TCD-CS-
+1999-25, Trinity College Dublin.
+Francis, A., and Ram, A. 1993. Computational models of the utility problem
+and their application to a utility analysis of case-based reasoning. In In Proceedings 
+of the Workshop on Knowledge Compilation and Speed- Up Learning.
+Hart, P. E. 1968. The condensed nearest neighbor rule. IEEE Transactions on
+Information Theory 14:515—516.
+Leake, D., and Wilson, D. 1998. Case-base maintenance: Dimensions and
+directions. In Cunningham, P.; Smyth, B.; and Keane, M., eds., Proceedings
+of the Fourth European Workshop on Case-Based Reasoning, 196—207. Berlin:
+Springer Verlag.
+Leake, D., and Wilson, D. 1999. When experience is wrong: Examining CBR
+for changing tasks and environments, In Proceedings of the Third International
+Conference on Case-Based Reasoning, 218—232. Berlin: Springer Verlag.
+Portinale, L.; Torasso, P.; and Tavano, P. 1998. Proceedings of the thirteenth
+european conference on artificial intelligence. In Dynamic Case Memory Management, 
+73—77. Chichester: Wiley.
+Portinale, L.; Torasso, P.; and Tavano, P. 1999. Speed-up, quality, and competence 
+in multi-modal reasoning. In Proceedings of the Third International
+Conference on Case-Based Reasoning, 303--317. Berlin: Springer Verlag.
+Smyth, B., and Cunningham, P. 1996. The utility problem analysed: A case-based 
+reasoning perspective, In Proceedings of the Third European Workshop
+on Case-Based Reasoning, 392—399. Berlin: Springer Verlag.
+Smyth, B., and Keane, M. 1995. Remembering to forget: A competence-preserving 
+case deletion policy for case-based reasoning systems. In Proceedings
+of the Thirteenth International Joint Conference on Artificial Intelligence, 377—
+382. Montreal: IJCAJ.
+Smyth, B., and Keane, M. 1998. Adaptation-guided retrieval: Questioning the
+similarity assumption in reasoning. Artificial Intelligence 102(2) :249—293.
+Smyth, B., and McKenna, E. 1999a. Building compact competent case-bases.
+In Proceedings of the Third International Conference on Case-Based Reasoning.
+Berlin: Springer Verlag.
+Smyth, B., and McKenna, E. 1999b. Footprint-based retrieval, In Proceedings of
+the Third International Conference on Case-Based Reasoning. Berlin: Springer
+Verlag.
+van Someren, M.; Surma, J.; and Torasso, P. 1997. A utility-based approach
+to learning in a mixed case-based and model-based reasoning architecture. In
+Proceedings of the Second International Conference on Case-Based Reasoning,
+477-488. Berlin: Springer Verlag.
+Zbu, J., and Yang, Q. 1999. Remembering to add: Competence-preserving
+case-addition policies for case base maintenance, In Proceedings of the Fifteenth
+International Joint Conference on Artificial Intelligence. Morgan Kaufmann.

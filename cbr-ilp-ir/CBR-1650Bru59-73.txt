@@ -1,0 +1,60 @@
+Bootstrapping Case Base Development with Annotated
+Case Summaries *
+
+Stefanie Brüninghaus and Kevin D. Ashley
+
+University of Pittsburgh
+Learning Research and Development Center, Intelligent Systems Program, and School of Law
+3939 O’Hara Street, Pittsburgh, PA 15260
+steffi+@pitt.edu, ashley+@pitt.edu
+
+
+
+Abstract. Since assigning indicies to textual cases is very time-consuming and
+can impede the development of CBR systems, methods to automate the task are
+desirable. In this paper, we present a machine learning approach that helps to boot-strap 
+the development of a larger case base from a small collection of marked-up
+case summaries. It uses the marked-up sentences as training examples to induce a
+classifier that labels incoming cases whether an indexing concept applies. We illustrate 
+how domain knowledge and linguistic information can be integrated with
+a machine learning algorithm to improve performance. The paper presents experimental 
+results which indicate the usefulness of learning from sentences and adding
+a thesaurus. We also consider the chances and limitations of leveraging the learned
+classifiers for full-text documents.
+
+References
+Aha, D., Kibler, D., and Goldstone, R. 1991. Instance-based Learning Algorithms.
+Machine Learning 6:37—66.
+Aha, D., Maney, T., and Breslow, L. 1998. Supporting Conversational Case-Based
+Reasoning in an Integrated Reasoning Framework. In Proceedings of the AAAI-98
+Workshop on Case-Based Reasoning Integrations.
+Aleven, V. 1997. Teaching Case-Based Argumentation through a Model and Examples.
+Ph.D. Dissertation, University of Pittsburgh.
+Ashley, K., and Aleven, V. 1997. Reasoning Symbolically about Partially Matched
+Cases. In Proceedings of the 15th International Joint Conference on Artificial Intelligence.
+Ashley, K., and Brüninghaus, S. 1998. Developing Mapping and Evaluation Techniques 
+for Textual CBR. In Proceedings of the AAAI-98 Workshop on Textual Case-Based Reasoning.
+Baudin, C., and Waterman, S. 1998. From Text to Cases: Machine Aided Text Categorization 
+for Capturing Business Reengineering Cases. In Proceedings of the AAAI-98
+Workshop on Textual Case-Based Reasoning.
+Branting, K. 1991. Building Explanations from Rules and Structured Cases. International 
+Journal on Man-Machine Studies 34(6).
+Brüninghaus, S., and Ashley, K. 1997. Using Machine Learning for Assigning Indices
+to Textual Cases. In Proceedings of the 2nd International Conference on Case-Based
+Reasoning.
+Burke, R., Hammond, K., Kulykin, V., Lytinen, S., Tomuro, N. and Schoenberg, S.
+1997. Question-Answering from Frequently-Asked Question Files: Experiences with
+the FAQ-Finder System. AI Magazine 18(1).
+Daniels, J., and Rissland, E. 1997. What you saw is what you want: Using cases to seed
+information retrieval. In Proceedings of the 2nd International Conference on Case-Based 
+Reasoning.
+Lenz, M. 1998. Defining Knowledge Layers for Textual Case-Based Reasoning. In
+Proceedings of the 4th European Workshop on Case-Based Reasoning.
+Mitchell, T. 1997. Machine Learning. Mc Graw Hill.
+Quinlan, R. 1993. C4.5: Programs for Machine Learning. Morgan Kaufman.
+Racine, K., and Yang, Q. 1997. Maintaining Unstructured Case Bases. In Proceedings
+of the 2nd International Conference on Case-Based Reasoning.
+Rissland, E., Skalak, D., and Friedman, T. 1993. Case Retrieval Through Multiple Indexing 
+and Heuristic Search. In Proceedings of the 13th InternationalJoint Conference
+on Artificial Intelligence.
+Statski, W. 1985. West’s Legal Thesaurus and Dictionary. West Publishing.

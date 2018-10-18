@@ -1,0 +1,49 @@
+Similarity Guided Learning of the Case Description
+and Improvement of the System Performance
+in an Image Classification System
+
+Petra Perner, Horst Perner, and Bernd Muller
+
+Institute of Computer Vision and Applied Computer Sciences
+Arno-Nitzsche-Str. 45, 04277 Leipzig
+ibaiperner@aol.com, http://www.ibai-research.de
+
+
+
+Abstract. The development of an automatic image classification system is a
+hard problem since such a system must imitate the visual strategy of a human
+expert when interpreting the particular image. Usually it is not easy to make this
+strategy explicit. Rather than describing the visual strategy and the image
+features human are able to judge the similarity between the objects. This
+judgement can be the basis for a guideline of the development process. This
+guideline can help the developer to understand what kind of case
+description/features are necessary for a sufficient system performance and can
+give an idea what system performance can be achieved. In the paper we
+describe a novel strategy which can support a developer in building image
+classification systems. The development process as well as the elicitation of the
+case description is similarity-guided. Based on the similarity between the
+objects the system developer can provide new image features and improve the
+system performance until a system performance is reached that fits to the
+experts understanding about the relationship among the different objects.
+References
+
+1.	K. Conrad, R.-L. Humbel, M. Meurer, Y. Shoenfeld, E. M. Tan, eds., Autoantigens and
+Autoantibodies: Diagnostic Tools and Clues to Understanding Autoimmunity (Pabst
+Science Publisher, Lengerich, Berlin, Riga, Rom, Wien, Zagreb, 2000).
+2.	P. Perner, H. Perner, and B. Müller, Mining Knowledge for Hep-2 Cell Image
+Classification, Journal Artificial Intelligence in Medicine 2002, (to appear)
+3.	P. Perner, Texture Classification based on the Random Sets and its Application to Hep-2
+Cells, IEEE Proc. International Conference on Patter Recognition, ICPR’2002, to appear
+4.	D. Aha and R.L. Goldstone, Concept learning and flexible weighting, In Proc. of the
+Fourteenth Annual Conference of Cognitive Science Society, Bloomington, IN: Lawrence
+Erlbaum 1992, pp. 534-539.
+5.	D.W. Aha, T. Maney, and L.A. Breslow, Supporting Dialogue Inferencing 
+Conversational Case-Based Reasoning, In: B. Smyth and P. Cunnigham (Eds.), Advances
+in Case-Based Reasoning, Springer Verlag, lnai1488, p. 262-272, 1998.
+6.	D. McSherry, Interactive Case-Based Reasoning in Sequential Diagnosis, Applied
+Intelligence 14 (2001), 65-76
+7.	G. Cao, S. Shiu, and X. Wang, A Fuzzy-Rough Approach for Case Base Maintenance, In:
+D. Aha and I Watson (Eds.), Case-Based Reasoning Research and Development, Springer
+Verlag, lnai 2080, pp. 118-130, 2001
+8.	S. Craw, J. Jarmulak, and R. Rowe. Maintaining Retrieval Knowledge in a Case-Based
+Reasoning System, Computational Intelligence, vol. 17, No. 2, 2001, pp. 346-363.

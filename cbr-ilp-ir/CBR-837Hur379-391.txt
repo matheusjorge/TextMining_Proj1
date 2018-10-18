@@ -1,0 +1,53 @@
+A priori Selection of Mesh Densities for
+Adaptive Finite Element Analysis, using a
+Case-Based Reasoning Approach
+
+Neil Hurley
+
+
+Hitachi Dublin Laboratory, O’Reilly Institute, Trinity College, Dublin 2, Ireland.
+
+
+
+Abstract. This paper describes the application of case-based reasoning
+(CBR) techniques to a complex domain, namely, mesh specification for
+finite element analysis. The case-base provides a high-level store of information 
+extracted through CPU-intensive numerical error analysis of
+previously solved problems, making it available for mesh specification
+before the simulation of new similar problems. Using this information,
+a near-to-optimum mesh is specified as input to the simulation engine,
+avoiding time-consuming computation during simulation. The paper describes 
+the system, case representation, organisation and retrieval, and
+compares the CBR approach with the more usual rule-based approaches
+to this application domain.
+References
+
+1.	A. E. Andrews: Progress and Challenges in the Application of Artificial Intelligence
+to Computational Fluid Dynamics. AIAA Journal, 26 (1988) 40—45
+2.	P.L. Baehmann, S.L. Wittchen, M.S. Shephard, K.R. Grice, M.A. Yerry: Robust,
+Geometrically Based, Automatic Two- Dimensional Mesh Generation. inter. J . Num.
+Meths.Eng. 24 (1987) 1043—1078
+3.	J.F. Dannenhoffer, J.R. Baron: A hybrid expert system for complex CFD problems.
+AIAA Paper 87-1111, Proceedings of AIAA 8th Comput. Fluid Dyn. Conf. (1987)
+99
+4.	B. Dolsak, S. Muggleton: The Application of Inductive Logic Programming to
+Finite—Element Mesh Design. In : S. Muggleton (ed), Inductive Logic Programming,
+Academic Press (1992) 453—472
+5.	E. Kang, K. Haghighi: A knowledge-based a-priori approach to Mesh Generation in
+Thermal Problems. Inter. J. Num. Meths. Eiig. 35 (1992) 915—937
+6.	J. Kohodner: Retrieving Events from a Case Memory: A parallel Implementation.
+In: J. Kolodner (ed.): Proceedings of the Case-Based Reasoning Workshop. Morgan
+Kaufmann (1988) 233—249
+7.	P. Koton: Evaluating Case-Based Problem Solving. In: J. Kolodner (eds.): Proceedings 
+of the Case-Based Reasoning Workshop. Morgan Kaufmann (1989) 173—175
+8.	C.G. Macedo, Jr., J.C. Diaz, R.E. Ewing: A Knowledge-based System for the Determination 
+of Activity Indicators for Self-Adaptive Grid Methods. In : E.N. Houstis et
+al (eds.), Intelligent Mathematical Software Systems, North Holland (1990) 133—141
+9.	E. Rank, I. Babuska: An Expert System for the Optimal Mesh Design in the hp-Version 
+of the Finite Element Method. Inter. J. Num. Meths. Eng. 24 (1987) 2087—
+2107
+10.	R. C. Schank: Dynamic Memory. Cambridge: Cambridge University Press.
+11.	W.W. Tworzydlo, J.T. Oden: Towards an automated environment in computational 
+mechanics. Coinp. Meths. Appl. Mech. Eng. 104 (1993) 87—143
+12.	O.C. Zienkiewicz, K. Morgan: Finite Elements and Approximations. Wiley & Sons,
+(1983)

@@ -1,0 +1,119 @@
+Breaking the O(n 1=(2k 1)
+) Barrier for
+Information­Theoretic Private Information Retrieval 
+
+Amos Beimel y Yuval Ishai z Eyal Kushilevitz x Jean­Franc›ois Raymond {
+
+Abstract
+Private Information Retrieval (PIR) protocols allow a
+user to retrieve a data item from a database while hid­ing 
+the identity of the item being retrieved. Specifically, in
+information­theoretic, k­server PIR protocols the database
+is replicated among k servers, and each server learns noth­ing 
+about the item the user retrieves. The cost of such
+protocols is measured by the communication complexity
+of retrieving one out of n bits of data. For any fixed k,
+the complexity of the best protocols prior to our work was
+O(n 1
+2k 1 ) (Ambainis, 1997). Since then several methods
+were developed in an attempt to beat this bound, but all
+these methods yielded the same asymptotic bound.
+In this work, this barrier is finally broken and the com­plexity 
+of information­theoretic k­server PIR is improved to
+n O( log log k
+k log k ) . The new PIR protocols can also be used to
+construct k­query binary locally decodable codes of length
+exp(n O( log log k
+k log k
+) ), compared to exp(n
+1
+k 1 ) in previous con­structions. 
+The improvements presented in this paper apply
+even for small values of k: the PIR protocols are more ef­ficient 
+than previous ones for every k  3, and the locally
+decodable codes are shorter for every k  4.
+
+
+
+References
+[1] A. Ambainis. Upper bound on the communication complexity of
+private information retrieval. In 24th ICALP, LNCS 1256, pp. 401--
+407, 1997.
+[2] L. Babai, P. G. Kimmel, and S. V. Lokam. Simultaneous messages
+vs. communication. In STACS '95, LNCS 999, pp. 361--372, 1995.
+[3] D. Beaver and J. Feigenbaum. Hiding instances in multioracle
+queries. In STACS '90, vol. 415 of LNCS, pp. 37--48, 1990.
+[4] D. Beaver, J. Feigenbaum, J. Kilian, and P. Rogaway. Locally ran­dom 
+reductions: Improvements and applications. J. of Cryptology,
+10(1):17--36, 1997.
+[5] A. Beimel and Y. Ishai. Information­theoretic private information
+retrieval: A unified construction. In 28th ICALP, vol. 2076 of LNCS,
+pp. 912--926, 2001.
+[6] A. Beimel, Y. Ishai, and T. Malkin. Reducing the servers' compu­tation 
+in private information retrieval: PIR with preprocessing. In
+CRYPTO 2000, vol. 1880 of LNCS, pp. 56--74, 2000.
+[7] A. Beimel and Y. Stahl. Robust information­theoretic private infor­mation 
+retrieval. 3rd Conf. on Security in Commun. Networks, 2002.
+[8] C. Cachin, S. Micali, and M. Stadler. Computationally private in­
+formation retrieval with polylogarithmic communication. In EURO­
+CRYPT '99, vol. 1592 of LNCS, pp. 402--414, 1999.
+[9] R. Canetti, Y. Ishai, R. Kumar, M. K. Reiter, R. Rubinfeld, and R. N.
+Wright. Selective private function evaluation with applications to
+private statistics. In 20th PODC, pp. 293 -- 304, 2001.
+[10] B. Chor and N. Gilboa. Computationally private information re­trieval. 
+In 29th STOC, pp. 304--313, 1997.
+[11] B. Chor, O. Goldreich, E. Kushilevitz, and M. Sudan. Private infor­mation 
+retrieval. J. of the ACM, 45:965--981, 1998.
+[12] A. Deshpande, R. Jain, T Kavita, V. Lokam, and J. Radhakrishnan.
+Better lower bounds for locally decodable codes. In 16th CCC, pp.
+184--193, 2002.
+[13] G. Di­Crescenzo, Y. Ishai, and R. Ostrovsky. Universal service­
+providers for private information retrieval. J. of Cryptology,
+14(1):37--74, 2001.
+[14] G. Di­Crescenzo, T. Malkin, and R. Ostrovsky. Single­database pri­vate 
+information retrieval implies oblivious transfer. In EUROCRYPT
+2000, vol. 1807 of LNCS, pp. 122--138, 2000.
+[15] J. Feigenbaum, Y. Ishai, T. Malkin, K. Nissim, M. J. Strauss, and
+R. N. Wright. Secure multiparty computation of approximations. In
+28th ICALP, vol. 2076 of LNCS, pp. 927--938, 2001.
+[16] Y. Gertner, S. Goldwasser, and T. Malkin. A random server model for
+private information retrieval. In RANDOM '98, vol. 1518 of LNCS,
+pp. 200--217, 1998.
+[17] Y. Gertner, Y. Ishai, E. Kushilevitz, and T. Malkin. Protecting data
+privacy in private information retrieval schemes. JCSS, 60(3):592--
+629, 2000.
+[18] O. Goldreich. Personal communication, 2000.
+[19] O. Goldreich, H. Karloff, L. Schulman, and L. Trevisan. Lower
+bounds for linear locally decodable codes and PIR. In 16th CCC,
+pp. 175 -- 183, 2002.
+[20] Y. Ishai and E. Kushilevitz. Improved upper bounds on information
+theoretic private information retrieval. 31st STOC, pp. 79 -- 88, 1999.
+[21] T. Itoh. Efficient private information retrieval. IEICE Trans. Fund.
+of Electronics, Commun. and Comp. Sci., E82­A(1):11--20, 1999.
+[22] T. Itoh. On lower bounds for the communication complexity of pri­vate 
+information retrieval. IEICE Trans. Fund. of Electronics, Com­mun. 
+and Comp. Sci., E84­A(1):157--164, 2001.
+[23] J. Katz and L. Trevisan. On the efficiency of local decoding proce­dures 
+for error­correcting codes. In 32nd STOC, pp. 80--86, 2000.
+[24] A. Kiayias and M. Yung. Secure games with polynomial expressions.
+In 28th ICALP, vol. 2076 of LNCS, pp. 939--950, 2001.
+[25] E. Kushilevitz and R. Ostrovsky. Replication is not needed: Sin­gle 
+database, computationally­private information retrieval. In 38th
+FOCS, pp. 364--373, 1997.
+[26] E. Kushilevitz and R. Ostrovsky. One­way trapdoor permutations
+are sufficient for single­database computationally­-private informa­tion 
+retrieval. In EUROCRYPT 2000, LNCS 1807, pp. 104--121,
+2000.
+[27] E. Mann. Private access to distributed information. Master's thesis,
+Technion, 1998.
+[28] M. Naor and K. Nissim. Communication preserving protocols for
+secure function evaluation. In 33th STOC, 2001.
+[29] M. Naor and B. Pinkas. Oblivious transfer and polynomial evalua­tion. 
+In 31st STOC, pp. 245--254, 1999.
+[30] R. Ostrovsky and V. Shoup. Private information storage. In 29th
+STOC, pp. 294--303, 1997.
+[31] J. F. Raymond. Private information retrieval: Improved upper bound,
+extension and applications. Master's thesis, McGill University, 2000.
+[32] J. P. Stern. A new and efficient all­or­nothing disclosure of secrets
+protocol. In ASIACRYPT '98, vol. 1514 of LNCS, pp. 357--371, 1998.
+

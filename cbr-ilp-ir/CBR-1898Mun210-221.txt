@@ -1,0 +1,83 @@
+Integrating Conversational Case Retrieval
+with Generative Planning
+
+Héctor Muñoz-Avila1’2, David W. Aha2, Leonard A. Breslow2,
+Dana S. Nau1, and Rosina Weber3
+
+1 Department of Computer Science, University of Maryland
+
+College Park, MD 20742-3255
+{lastname}@cs.umd.edu
+2 Navy Center for Applied Research in Al, Naval Research Laboratory (Code 5510)
+
+Washington, DC 20375
+{lastname}@aic.nrl.navy.mil
+
+3 Department of Computer Science, University of Wyoming,
+
+Laramie, WY 82071
+
+
+
+Abstract. Some problem-solving tasks are amenable to integrated case
+retrieval and generative planning techniques. This is certainly true for
+some decision support tasks, in which a user controls the problem-solving
+process but cannot provide a complete domain theory. Unfortunately,
+existing integrations are either non-interactive or require a complete domain 
+theory and/or complete world state to produce acceptable plans,
+preventing them from being easily used in these situations. We describe
+a novel integrated algorithm, named SiN, that is interactive aud does
+not require a complete domain theory or complete world state. SiN users
+leverage a conversational case retriever to focus both partial world state
+acquisition and plan generation. We highlight the benefits of SiN (e.g.,
+quadratically fewer cases needed) in an experimental study using a new
+travel planning domain.
+References
+
+1.	Aha, D. W., & Breslow, L. A. (1997). Refining conversational case libraries. Proceedings 
+of the Second International Conference on CBR (pp. 267—278). Providence, RI: Springer.
+2.	Avesani, P., Perini, A., & Ricci, F. (1998). The twofold integration of CBR in decision 
+support systems. In D. W. Aha & J. J. Daniels (Eds.), Case-Based Reasoning
+Integrations: Papers from the 1998 Workshop (Technical Report WS-98-15). Menlo
+Park, CA: AAAI Press.
+3.	Bergmann R. & Wilke W. (1995). Building and refining abstract planning cases
+by change of representation language. Journal of Artificial Intelligence Research,
+3, 53—118.
+4.	Carrick, C., Yang, Q., Abi-Zeid, I., & Lamontagne, L. (1999). Activating CBR
+systems through autonomous information gathering. Proceedings of the Third International 
+Conference on Case-Based Reasoning (pp. 74—88). Munich, Germany:
+Springer.
+5.	Golding, A., & Rosenhloom, P. 5. (1991). Improving rule-based systems through
+case-based reasoning. In Proceedings of the Ninth National Conference on Artificial
+Intelligence (pp. 22—27). Anaheim, CA: AAAI Press.
+6.	Hammond, K. (1989). Case-based planning: Viewing planning as a memory task.
+Boston, MA: Academic Press.
+7.	Leake, D., Kinley, A., & Wilson, D. (1997). A Case Study of Case-Based CBR.
+Proceedings of the Second International Conference on Case-Based Reasoning (pp.
+371—382). Providence, RI: Springer.
+8.	Mitchell, S. W. (1997). A hybrid architecture for real-time mixed-initiative planning 
+and control. Proceedings of the Ninth Conference on Innovative Applications
+of Al (pp. 1032—1037). Providence, RI: AAAI Press.
+9.	Muñoz-Avila, H., McFarlane, D., Aha, D. W., Ballas, J., Breslow, L. A., & Nau, D.
+(1999). Using guidelines to constrain interactive case-based H TN planning. Proceedings 
+of the Third International Conference on Case-Based Reasoning (pp. 288—302).
+Munich, Germany: Springer.
+10.	Muñoz-Avila, H., Weberskirch, F., & Roth-Berghofer, T. (1997). On the relation
+between the context of a feature and the domain theory in case-based planning.
+Proceedings of the Second International Conference on Case-Based Reasoning (pp.
+337-348). Providence, RI: Springer.
+11.	Nau, D., Cao, Y., Lotem, A., & Muñoz-Avila, H. (1999). SHOP: Simple hierarchical
+ordered planner. Proceedings of the Sixteenth International Joint Conference on
+Artificial Intelligence (pp. 968—973). Stockholm: AAAI Press.
+12.	Veloso, M. M., & Carbonell, J. G. (1993). Derivational analogy in PRODIGY:
+Automating case acquisition, storage, and utilization, Machine Learning, 10, 249—
+278.
+13.	Veloso, M., Mulvehill, A. M., & Cox, M. T. (1997). Rationale-supported mixed-initiative 
+case-based planning. Proceedings of the Ninth Conference on Innovative
+Applications of Artificial Intelligence (pp. 1072—1077). Providence, RI: AAAI Press.
+14.	Weber, R., Aha, D. W., Muñoz-Avila, H., & Breslow, L. A. (2000). Active delivery
+for lessons learned systems. To appear in Fifth European Workshop on Case-Based
+Reasoning. Trento, Italy: Springer.
+15.	Wilkins, D. F. (1998). Using the SIPE-2 planning system: A manualfor Version 5.0
+(Working Document). Menlo Park, CA: Stanford Research International, Artificial
+Intelligence Center.

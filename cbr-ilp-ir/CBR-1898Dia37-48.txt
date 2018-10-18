@@ -1,0 +1,54 @@
+An Architecture for
+Knowledge Intensive CBR Systems*
+
+Belén Díaz-Agudo and Pedro A. González-Calero
+
+Dep. Sistemas Informáticos y Programaci6n
+Universidad Complutense de Madrid, Spain
+{belend, pedro}@sip.ucm.es
+
+
+
+Abstract. In this paper we describe a domain independent architecture
+to help in the design of knowledge intensive CBR systems. It is based on
+the knowledge incorporation from a library of application-independent
+ontologies and the use of an ontology with the common CBR terminology
+that guides the case representation and allows the description of flexible,
+generic and homogeneous CBR processes based on classification.
+References
+
+1.	Ashley K. & Aleven V., 1993: “A logical representation for relevance criteria”, in
+Topics in CBR (Wess S., Aithoff K. & Richter M., eds.), Springer-Verlag.
+2.	Aarts R. J., 1998: “A CBR Architecture for Project Knowledge Management”, in
+Advances in CBR (Smyth B. & Cunningham P., eds.), Springer-Verlag.
+3.	Brachman R. J., McGuinness D. L., Patel-Schneider P. F., Resnick L. A., & Borgida
+A. 1991: “Living with CLASSIC: When and How to Use a KL-ONE-Like Lan-
+guage” . In Principles of Semantic Networks. Morgan Kaufmann Puhlishers.
+4.	Cehhardt F., VoB A., Gräther W., Schmidt-Belz B., 1997: Reasoning with Complex
+Cases. Kluwer Academic Puhlishers.
+5.	Gómez-Albarran M., González-Calero P. A., Díaz-Agudo B. & Fernndez-Conde C.,
+1999: “Modelling the CBR Life Cycle Using Description Logics”, in Procs. of the
+3rd International Conference on Case-Based Reasoning (ICCBR’99). K.-D. Althoff,
+R.Bergmann & L. K. Branting (Eds.).
+6.	Górnez-Pérez A., 1998: “Knowledge Sharing and Reuse” . The handbook on Applied
+Expert Systems. By Liebowitz. ED CRC Press. 1998.
+7.	González-Calero P. A., Gómez-Albarran M., & Díaz-Agudo B., 1999: “Applying
+DLs for Retrieval in Case-Based Reasoning”, in Procs. of the 1999 Description
+Logics Workshop (DL’99).
+8.	Gruber, T. “A translation Approach to portable ontology specifications” . Knowl-
+edge Acquisition. Vol, 5. 1993.
+9.	Mac Gregor, R., 1991: “The evolving technology of classification-based knowledge
+representation systems”, in Principles of Semantic Networks: Explorations in the
+Representation of Knowledge (J. Sowa, ed.),
+10.	Napoli A., Lieber J., & Courien R., 1996: “Classification-Based Problem Solving
+in CBR”, in Advances in CBR (Smith I. & Faltings B., eds.), Springer-Verlag.
+11.	Ozturk P. & A.Aarnodt, 1998: “A Context Model for Knowledge-Intensive Case-Based 
+Reasoning “, International Journal of Human-Computer Studies. Vol.48,3.
+12.	Plaza E., 1995: “Cases as Terms: A feature term approach to the structured representation 
+of cases” . In Procs. ICCBR-95.
+13.	Pinto H. S., Górnez-Pérez A. & Martins J. P., 1999: “ Some Issues on Ontology
+Integration”,in IJCAI-99, Workshop on Ontologies and Problem-Solving Methods:
+Lessons Learned and Future Trends.
+14.	Salotti S. & Ventos V., 1998: “Study and Formalization of a CBR System using
+a Description Logic”, in Advances in CBR (Smyth B. & Cunningham P., eds.),
+Springer-Verlag.

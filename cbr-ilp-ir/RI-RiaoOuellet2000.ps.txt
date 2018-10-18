@@ -1,0 +1,64 @@
+Discovering Internet Resources to Enrich a Structured
+Personal Information Space
+
+Michèle Ouellet
+Stelvio Inc.,
+430 Ste­Hélène, #604, Montréal,
+H2Y 2K7 Québec, Canada,
+mouellet@stelvio.com
+Jan Gecsei, Jian­Yun Nie
+Dépt d'I.R.O., Université de Montréal
+CP. 6128, succ. Centre­ville, Montréal
+H3C 3J7 Québec, Canada
+{gecsei, nie}@iro.umontreal.ca
+
+Abstract
+The Internet is a tremendous resource where one can find documents to enrich a personal information space. The
+question is: how can one find relevant documents and how can these be organized into an information space? In
+this paper, we describe a prototype which aims to provide the user with assistance in these two tasks. Our
+approach assumes the existence of an initial concept structure set up by the user. This structure may contain only
+rudimentary descriptions for each concept. The system's task is to find relevant documents from the Internet and
+to insert them in the appropriate places in the concept structure.
+
+
+Bibliography
+Card, S.K. (1996). Visualizing Retrieved Information: A Survey, IEEE Computer Graphics and
+Applications, 16(2), 63­67.
+Chandler, D. (1995). Semiotics for Beginners, http://www.aber.ac.uk/dgc/semiotic.html
+Chen, C. (1998). Generalized Similarity Analysis and Pathfinder Network Scaling, Interacting with
+Computers, 10(2), 107­128.
+Conklin, J. (1987). Hypertext: An Introduction and Survey, IEEE Computer, 20(9), 17­41.
+LTSA (1998). Learning Technology System Architecture Specification version 4.00,
+http://www.edutool.com/ltsa/04/index.html
+Frick, A., Sander, G. and Wang, K. (1999). Simulating Graphs as Physical Systems, Dr. Dobb's
+Journal, 302, 58­64.
+Gaines, B. and Shaw, M. (1995). Concept Maps as HyperMedia Components,
+http://ksi.cpsc.ucalgary.ca/articles/ConceptMaps
+Guha, R.V. and Lenat, J. (1990). Cyc: A Mid­Term Report, AI Magazine, 11(3), 32­59.
+Hawking, D., Craswell, N., Thistlewaite, P. and Harman, D. (1999). Results and challenges in Web
+search evaluation, in Proceedings of the Eighth International World Wide Web Conference(pp.
+1321­1330), North Holland.
+Hearst, M.A. (1997). Text Data Mining ­ Issues, Techniques and the Relationship to Information
+Access, in UW/MS Workshop on Data Mining, http://www.sims.berkeley.edu/~hearst/talks/dm­
+talk
+Helm, D.J., D'Amore, R.J., Yan, P.­F. (1996). MITRE Information Discovery System, in
+Proceedings of WebNet96, http://aace.virginia.edu/aace/conf/WebNet/html/201.htm
+Huang, M.L., Eades, P. and Wang, J. (1998). On­Line, Animated Vizualisation of Huge Graphs
+Using a Modified Spring Algorithm, Journal of Visual Languages and Computing 9, 623­645.
+Luke, S. and Hendler, J. (1997). Web Agents That Work, IEEE Multimedia, 4(3), 76­80.
+Oard, D.W. and Marchinioni, G. (1996). A Conceptual Framework for Text Filtering, University of
+Maryland CS­TR­3643, 32 p.
+Pazzani, M.J., Muramatsu, J. and Billsus, J. (1996). Syskill and Webert: Identifying Interesting Web
+Sites, in Proceedings of the Thirteenth National Conference on Artificial Intelligence and the
+Eighth Innovative Applications of Artificial Intelligence Conference (pp. 54­61), AAAI
+Press/MIT Press, Menlo Park, http://www.ics.uci.edu/~pazzani/RTF/AAAI.html
+Salton, G. and McGill, M. (1983). An Introduction to Modern Information Retrieval, New York,
+McGraw­Hill.
+Salton, G., Allan, J. and Buckley, C. (1993). Approaches to Passage Retrieval in Full Text
+Information Systems, in Proceedings SIGIR­93 (pp. 49­58), Association for Computing
+Machinery, New York.
+Schatz, B., Mischo, W.H., Cole, T.W., Hardin, J.B., Bishop, A.P. and Chen, H. (1996). Federating
+Diverse Collections of Scientific Literature, IEEE Computer, 29(5), 28­36.
+Srinivasdan, P. (1992). Thesaurus Construction, in Information Retrieval ­ Data Structures and
+Algorithms (pp. 161­176), W.B. Frakes and R. Baeza­Yates (Eds.), Englewood Cliffs, Prentice
+Hall, 1992, 504p.

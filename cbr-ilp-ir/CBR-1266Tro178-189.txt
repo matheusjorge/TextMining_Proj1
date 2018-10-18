@@ -1,0 +1,31 @@
+An Engineering Approach for Troubleshooting Case Bases
+
+James R. Trott, Boeing Commercial Airplane Group,jtrott@atc.boeing.com
+Dr. Bing Leng, Inference Corporation, bing.leng@inference.com
+
+Abstract
+Troubleshooting is a common application of case base technology. Often in these cases, the
+goal is to capture the approaches of troubleshooting experts and put these troubleshooting best
+practices in the hands of lesser experienced analysts. Effective knowledge capture is the
+primary bottleneck to creating a good troubleshooting case base. We used the KADS
+knowledge modeling methodology to guide the knowledge acquisition to create such a case
+base. KADS helped us to validate the logic of the entire case base before writing one case and
+to implement it more quickly than normal and with no errors. This paper illustrates our
+experience in the use of KADS to help build case bases effectively.
+
+7.	References
+	Gardner97 Building Cognitive Frameworks for Object-Oriented Systems. Gardner, Rush,
+et.al, SIGS Books, Inc., New York, NY, 1997.
+	Gardner96 A Cognitive Basis for Object-Oriented Analysis. Proceedings of Object World
+96.
+	Mager82 Troubleshooting the Troubleshooting Course. Robert F. Mager. Lake Publishing
+Co:Belmont, CA, 1982. ISBN 0-8224-9370-5
+	Rothkopf96 Models as Aids to Thought. Michael H. Rothkop. In Interfaces, Volume 26,
+Number 6. The Institute for Operations Research and the Management Sciences.
+	Scott9l A Practical Guide to Knowledge Acquisition. Scott, Clayton, and Gibson.
+Addison-Wesley, 1991. ISBN 0-201-14597-9
+	Trott95 Knowledge Modeling to Capture, Analyze, and Transfer Expert Thinking. Trott,
+Norwood, & Murphy. Proceedings of the 1995 Best Practices in Training, American
+Society for Training and Development.
+	Tansley93 Knowledge-Based Systems Analysis and Design: A KADS Developer’s
+Handbook Tansley & Hayball. rentice Hall, 1993. SBN 0-13-515479-0

@@ -1,0 +1,34 @@
+CLIR using a Probabilistic Translation Model based on Web
+Documents
+
+Jian­Yun Nie
+Laboratoire RALI,
+Département d'Informatique et Recherche opérationnelle,
+Université de Montréal
+C.P. 6128, succursale Centre­ville
+Montréal, Québec, H3C 3J7 Canada
+nie@iro.umontreal.ca
+
+In this report, we describe the approach we used in TREC­8 Cross­Language IR (CLIR)
+track. The approach is based on probabilistic translation models estimated from two
+parallel training corpora: one established manually, and the other built automatically
+with the documents mined from the Web. We describe the principle of model building,
+the mining of parallel texts, as well as some preliminary evaluations.
+
+References
+[Brown93] P. F. Brown, S. A. D. Pietra, V. D. J. Pietra, and R. L. Mercer, The mathematics of
+machine translation: Parameter estimation. Computational Linguistics, vol. 19, pp. 263­312
+(1993).
+[Gale93] W. A. Gale, K.W. Church, A program for aligning sentences in bilingual corpora,
+Computational Linguistics, 19 :1, 75­102 (1993).
+[Franz98] M. Franz, J.S. McCarley, S. Roukos, Ad hoc and multilingual information retrieval at
+IBM, The Seventh Text Retrieval Conference (TREC­7), NIST SP 500­242, pp. 157­168 (1998)
+[Nie98] J.Y. Nie, TREC­7 CLIR using a probabilistic translation model, The Seventh Text Retrieval
+Conference (TREC­7), NIST SP 500­242, pp. 547­553 (1998).
+[Nie99] J.Y. Nie, P. Isabelle, M. Simard, R. Durand, Cross­language information retrieval based on
+parallel texts and automatic mining of parallel texts from the Web, ACM­SIGIR conference,
+Berkeley, CA, pp. 74­81(1999).
+[Simard92] M. Simard, G. Foster, P. Isabelle, Using Cognates to Align Sentences in Parallel
+Corpora, Proceedings of the 4th International Conference on Theoretical and Methodological
+Issues in Machine Translation, Montreal (1992).
+

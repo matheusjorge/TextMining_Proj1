@@ -1,0 +1,61 @@
+A Unified CBR Architecture for Robot
+Navigation
+
+Susan Eileen Fox
+
+Mathematics/Computer Science Department, Macalester College
+1600 Grand Avenue, Saint Paul, MN 55105
+fox@macalester.edu
+http://www.macalester.edu/~fox
+
+
+Abstract. A delivery robot navigating in the real world and contending
+with multiple goals and priorities benefits from combining deliberative
+and reactive planning. Deliberative planners anticipate and optimize actions, 
+and manage multiple goals at once. Reactive planners respond flexibly 
+and moment-to-moment to a changing world, based on incomplete
+and flawed knowledge. This project proposes using case-based reasoning 
+to fully integrate high-level and low-level planning techniques, along
+with other reasoning tasks of the system. The resulting robot allows
+case selection to mediate between methods. In addition, the robot learns
+by recording new reactive behaviors, storing new plans it creates, and
+introspective learning of retrieval features.
+References
+
+1.	P. Agre and D. Chapman. Pengi: An implementation of a theory of activity.
+In Proceedings of the Sixth Annual National Conference on Artificial Intelligence,
+Seattle, WA, July 1987. AAAI.
+2.	R. Brooks. Intelligence without representation. In Proceedings of the Workshop on
+the Foundations of Artificial Intelligence, Cambridge, MA, 1987. MIT.
+3.	R. J. Firby. Adaptive Execution in Complex Dynamic Worlds. PhD thesis, Yale
+University, Computer Science Department, 1989. Technical Report 672.
+4.	S. Fox. Introspective Reasoning for Case-Based Planning. PhD thesis, Indiana
+University, Computer Science Department, 1995. IUCS: Technical Report 462.
+5.	S. Fox. A new model of reflective introspective learning. In Proceedings of the
+Eleventh International Florida Artificial Intelligence Research Symposium Conference, 1998.
+6.	S. Fox and D. Leake. Learning to refine indexing by introspective reasoning. In
+Proceedings of the First International Conference on Case-Based Reasoning, Sesimbra, 
+Portugal, October 1995.
+7.	A. Goel, T. Callantine, M. Shankar, and B. Chandrasekaran. Representation,
+organization, and use of topographic models of physical spaces for route planning.
+In Proceedings of the Seventh IEEE Conference on AI Applications, pages 308—314.
+IEEE Computer Society Press, 1991.
+8.	K. Haigh and M. Veloso. Planning, execution and learning in a robotic agent. In
+The Fourth International Conference on Artificial Intelligence Planning Systems
+1998 (AIPS’98), pages 120—127, Pittsburgh, Pennsylvania, June 1998.
+9.	L. Meeden. Towards Planning: Incremental Investigations into Adaptive Robot
+Control. PhD thesis, Indiana University, Computer Science Department, 1994.
+10.	R. Murphy, K. Hughes, and E. Noll. An explicit path planner to facilitate reactive
+control and terrian preferences. In 1996 IEEE International Conference on Robotics
+and Automation, volume 3, pages 2067—2072, Minneapolis, MN, April 1996.
+11.	N. J. Nilsson. Shakey the robot. Technical Report 323, AI Center, SRI International, 
+Menlo Park, CA, 1984.
+12.	R. Oehlmann and P. Edwards. Introspection planning: Representing metacognitive
+experience. In Proceedings of the 1995 AAAI Spring Symposium on Representing
+Mental States and Mechanisms, Stanford, CA, March 1995. AAAI. In press.
+13.	A. Ram and A. Francis. Multi-plan Retrieval and Adaptation in an Experience-based 
+Agent, chapter 10. AAAI Press, Menlo Park, CA, 1996.
+14.	A. Ram and J. Santamaria. Multistrategy learning in reactive control systems for
+autonomous robotic navigation. Informatica, 17(4) :347—369, 1993.
+15.	E. D. Sacerdoti. A structure for plans and behavior. Technical Report 109, SRI
+Artificial Intelligence Center, 1975.

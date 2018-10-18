@@ -1,0 +1,86 @@
+Relational Distance-Based Clustering
+
+Mathias Kirsten* and Stefan Wrobel*
+
+German National Research Center for Information Technology,
+SET.KI,
+Schloﬂ Birlinghoven,
+D-53757 Sankt Augustin,
+email: {mathias.kirsten,stefan.wrobel}@gmd.de
+
+
+
+Abstract. Work on first-order clustering has primarily been focused
+on the task of conceptual clustering, i.e., forming clusters with symbolic 
+generalizations in the given representation language. By contrast,
+for propositional representations, experience has shown that simple algorithms 
+based exclusively on distance measures can often outperform
+their concept-based counterparts. In this paper, we therefore build on
+recent advances in the area of first-order distance metrics and present
+RDBC, a bottom-up agglomerative clustering algorithm for first-order
+representations that relies on distance information only and features a
+novel parameter-free pruning measure for selecting the final clustering
+from the cluster tree. The algorithm can empirically be shown to produce 
+good clusterings (on the mutagenesis domain) that, when used for
+subsequent prediction tasks, improve on previous clustering results and
+approach the accuracies of dedicated predictive learners.
+References
+
+1.	G. Bisson. Conceptual clustering in a first order logic representation. In Proc.
+European Conference on Artificial Intelligence (ECAI-92), 1992.
+2.	G. Bisson. Learning in fol with a similarity measure. In AAAI-92 Proc. Tenth
+Natl. Conference on Artif. Intelligence, 1992.
+3.	H. Blockeel and L. De Raedt. Using logical decision trees for clustering. In
+N. Lavrac and S. Dzeroski, editors, Inductive Logic Programming (Proc. 7th Int.
+Workshop ILP-97), pages 133 ó 140, Berlin/New York, 1997. Springer Verlag.
+4.	U. Bohnebeck, T. Horvath, and S. Wrobel. Term comparisons in first-order similarity 
+measures. In D. Page, editor, Proc. 8th Int. Workshop on Inductive Logic
+Programming (ILP98), Madison, WI, USA, July 1998. to appear.
+5.	U. Bohnebeck, W. S‰lter, 0. Herzog, M. Wischnewsky, and D. Blohm. An Approach 
+to mRNA Signalstructure Detection through Knowledge Discovery. In Proceedings 
+of GCBí97, pages 125ó126, 1997.
+6.	R. M. Cameron-Jones and J. R. Quinlan. Efficient top-down induction of logic
+programs. SIGART Bulletin, 5(1):33 ó 42, 1994.
+7.	L. De Raedt, editor. Advances in ILP: Proc. Fifth Int. Workshop on Inductive
+Logic Programming (ILP-95). 105 Press, Amsterdam, 1996. To appear.
+8.	L. De Raedt and L. De Haspe. Clausal discovery. Machine Learning, 26:99ff., 1997.
+9.	W. Dillon and M. Goldstein. Multivariate analysis, pages 157ó208. John Wiley &
+Sons, Inc., 1984.
+10.	W. Emde. Inductive learning of characteristic concept descriptions. In S. Wrobel, 
+editor, Proc. Fourth International Workshop on Inductive Logic Programming
+(ILP-94), 53754 Sankt Augustin, Germany, 1994. GMD. GMD-Studien Nr. 237. .
+11.	W. Emde. Inductive learning of characteristic concept descriptions from small
+sets of classified examples. In F. Bergadano and L. D. Raedt, editors, Machine
+Learning: ECML-94, European Conference on Machine Learning, Catania, Italy,
+April 1994, Proceedings, pages 103 ó 121, Berlin, New York, 1994. Springer-Verlag.
+Also as Arbeitspapiere der GMD No. 821. .
+12.	W. Emde and D. Wettschereck. Relational instance based learning. In L. Saitta,
+editor, Machine Learning - Proceedings 13th International Conference on Machine
+Learning, pages 122 ó 130. Morgan Kaufmann Publishers, 1996. .
+13.	A. Hutchinson. Metrics on Terms and Clauses. In M. Someren and G. Widmer, editors, 
+Machine Learning: ECML-97 (Proc. Ninth European Conference on Machine
+Learning), volume 1224 of LNAI, pages 138ó145. Springer Verlag, 1997.
+14.	S. Muggleton. Inverse entailment and Progol. In K. Furukawa, D. Michie, and
+S. Muggleton, editors, Machine Intelligence 14, pages 133 ó 188. Oxford Univ.
+Press, Oxford, 1995.
+15.	S.-H. Nienhuys-Cheng. Distance Between Herbrand Interpretations: A Measure
+for Approximations to a Target Concept. In N. Lavrac and S. Dzeroski, editors,
+Inductive Logic Programming (Proc. 7th Int. Workshop ILP-97), volume 1297 of
+LNAI, pages 213ó226. Springer Verlag, 1997.
+16.	M. Sebag. Distance induction in first order logic. In N. Lavrac and S. Dzeroski,
+editors, Inductive Logic Programming (Proc. 7th Int. Workshop ILP-97), LNAI,
+pages 264 ó 272, Berlin/New York, 1997. Springer Verlag.
+17.	A. Srinivasan, S. Muggleton, and R. King. Comparing the use of background
+knowledge by inductive logic programming systems. In Proceedings of the 5th
+International Workshop on Inductive Logic Programming, 1995.
+18.	A. Srinivasan, S. Muggleton, R. King, and M. Sternberg. Mutagenesis: Ilp experiments 
+in a non-determinate biological domain. In S. Wrobel, editor, Proc.
+Fourth Int. Workshop on Inductive Logic Programming (ILP-94), pages 217 ó 232,
+SchloB Birlinghoven, 53754 Sankt Augustin, Germany, 1994. GMD (German Natl.
+Research Center for Computer Science). Order from teuber@gmd.de.
+19.	A. Srinivasan, S. Muggleton, M. Sternberg, and R. King. Theories for mutagenicity:
+a study in first-order and feature-based induction. Artificial Intelligence, 85:277 ó
+299, 1996.
+20.	K. Thompson and P. Langley. Incremental concept formation with composite
+objects. In Proc. of the Sixth Int. Workshop on Machine Learning, pages 371 ó
+374, San Mateo, CA, 1989. Morgan Kaufman.

@@ -1,0 +1,99 @@
+Stochastic Propositionalization of
+Non-determinate Background Knowledge
+
+Stefan Kramer1, Bernhard Pfahringer1, and Christoph Helma2
+
+1 Austrian Research Institute for Artificial Intelligence,
+Schottengasse 3, A-1010 Vienna, Austria
+{stefan,bernhard}@ai.univie.ac.at
+2 Institute for Tumor Biology - Cancer Research
+University of Vienna,
+Borschkegasse 8a, A-1090 Vienna, Austria
+Christoph.Helma@univie.ac.at
+
+
+
+Abstract. Both propositional and relational learning algorithms require
+a good representation to perform well in practice. Usually such a representation 
+is either engineered manually by domain experts or derived
+automatically by means of so-called constructive induction. Inductive
+Logic Programming (ILP) algorithms put a somewhat less burden on the
+data engineering effort as they allow for a structured, relational representation 
+of background knowledge. In chemical and engineering domains,
+a common representational device for graph-like structures are so-called
+non-determinate relations. Manually engineered features in such domains
+typically test for or count occurrences of specific substructures having
+specific properties. However, representations containing non-determinate
+relations pose a serious efficiency problem for most standard ILP algorithms. 
+Therefore, we have devised a stochastic algorithm to automatically 
+derive features from non-determinate background knowledge. The
+algorithm conducts a top-down search for first-order clauses, where each
+clause represents a binary feature. These features are used instead of
+the non-determinate relations in a subsequent induction step. In contrast 
+to comparable algorithms search is not class-blind and there are
+no arbitrary size restrictions imposed on candidate clauses. An empirical 
+investigation in three chemical domains supports the validity and
+usefulness of the proposed algorithm.
+References
+
+1.	H. Blockeel and L. DeRaedt. Top-down induction of logical decision trees. Technical
+Report CW 247, Katholieke Universiteit Leuven, Belgium, 1997.
+2.	A. Blum. Learning boolean functions in an infinite attribute space. Machine
+Learning, 9(4), 1992.
+3.	W.W. Cohen. Pac-learning nondeterminate clauses. In Proc. Twelfth National
+Conference on Artificial Intelligence (AAAI-94), 1994.
+4.	W.W. Cohen. Learning trees and rules with set-valued features. In Proceedings
+of the Thirteenth National Conference on Artificial Intelligence (AAAI-96), pages
+709—716, 1996.
+5.	D.J. Cook and L.B. Holder. Substructure discovery using minimum description
+length and background knowledge. Journal of Artificial Intelligence Research,
+1:231—255, 1994.
+6.	S. Dzeroski and B. Kompare, 1995. Personal Communication.
+7.	P. Geibel and F. Wysotzki. Relational learning with decision trees. In Proc. Twelfth
+European Conference on Artificial Intelligence (ECAI-96), pages 428—432, 1996.
+8.	A. Giordana, L. Saitta, and F. Zini. Learning disjunctive concepts by means of
+genetic algorithms. In Proceedings of the Eleventh International Conference on
+Machine Learning, pages 96—104, 1994.
+9.	R.D. King and A. Srinivasan. Prediction of rodent carcinogenicity bioassays from
+molecular structure using inductive logic programming. Environmental Health Perspectives, 1997.
+10.	M. Kovacic. MILP: a stochastic approach to Inductive Logic Programming. In
+Proceedings of the Fourth International Workshop on Inductive Logic Programming
+(ILP-94), GMD-Studien Nr. 237, pages 123—138, 1994.
+11.	N. Lavrac and S. Dzeroski. Inductive Logic Programming. Ellis Horwood, Chichester, UK, 1994.
+12.	S. Muggleton. Inverse Entailment and Progol. New Generation Computing, 13:245—
+286, 1995.
+13.	J.R. Quinlan. Learning logical definitions from relations. Machine Learning, 5:239—
+266, 1990.
+14.	J.R. Quinlan. C4.5: Programs for Machine Learning. Morgan Kaufmann, San
+Mateo, CA, 1993.
+15.	J.R. Quinlan. The minimum description length principle and categorical theories.
+In Proceedings of the Eleventh International Conference on Machine Learning, San
+Mateo, CA, 1994. Morgan Kaufmann.
+16.	J. Rissanen. Modeling by shortest data description. Automatica, 14:465—471, 1978.
+17.	M. Sebag and C. Rouveirol. Tractable induction and classification in first order
+logic via stochastic matching. In Proc. Fifteenth International Joint Conference on
+Artificial Intelligence (IJCAI-97), pages 888—893, San Mateo, CA, 1997. Morgan
+Kaufmann.
+18.	G. Silverstein and M.J. Pazzani. Relational clichés: Constraining constructive induction 
+during relational learning. In L.A. Birnbaum and G.C. Collins, editors, Machine 
+Learning: Proceedings of the Eighth International Workshop (ML91), pages
+203—207, San Mateo, CA, 1991. Morgan Kaufmann.
+19.	A. Srinivasan and R.D. King. Feature construction with Inductive Logic Programming: 
+a study of quantitative predictions of chemical activity aided by structural
+attributes. In Proceedings of the 6th International Workshop on Inductive Logic
+Programming (ILP-96), 1996.
+20.	A. Sriivasan, S. Muggleton, and R.D. King. Comparing the use of background
+knowledge by Inductive Logic Programming systems. In Proceedings of the 5th
+International Workshop on Inductive Logic Programming (ILP-95), pages 199-230.
+Katholieke Universiteit Leuven, 1995.
+21.	A. Srinivasan, S. Muggleton, R.D. King, and M. Sternberg. Mutagenesis: ILP
+experiments in a non-determinate biological domain. In Proceedings of the Fourth
+International Workshop on Inductive Logic Programming (ILP-94), GMD-Studien
+Nr. 237, pages 217—232, 1994.
+22.	P. Turney. Low size-complexity Inductive Logic Programming: the East-West challenge 
+considered as a problem in cost-sensitive classification. In Proceedings of the
+5th International Workshop on Inductive Logic Programming (ILP-95), pages 247—
+263.	Katholieke Universiteit Leuven, 1995.
+23.	J.D. Zucker and J.G. Ganascia. Representation changes for efficient learning in
+structural domains. In Proceedings of the Thirteenth International Conference on
+Machine Learning, pages 543—551, 1996.

@@ -1,0 +1,119 @@
+The All-or-Nothing Nature of
+Two-Party Secure Computation
+
+Amos Beimel y Tal Malkin z Silvio Micali x
+December 8, 1999
+
+Abstract
+A function f is computationally securely computable if two computationally-bounded
+parties, Alice, having a secret input x, and Bob, having a secret input y, can talk back
+and forth so that (even if one of them is malicious) (1) Bob learns essentially only
+f(x; y) while (2) Alice learns essentially nothing.
+We prove that, if any non-trivial function can be so computed, then so can every
+function. Consequently, the complexity assumptions su∆cient and/or required for
+computationally securely computing f are the same for every non-trivial function f .
+
+
+References
+[Blu82] M. Blum. Coin 
+ipping by phone. IEEE Spring COMPCOM, pages 133{137,
+1982.
+[BGW88] M. Ben-Or, S. Goldwasser, and A. Wigderson. Completeness theorems for
+noncryptographic fault-tolerant distributed computations. In Proc. of the 20th
+Symp. on Theory of Computing, pages 1{10, 1988.
+[BM82] M. Blum and S. Micali. How to generate cryptographically strong sequences
+of pseudo-random bits. SIAM J. on Computing, 13:850{864, 1984. Preliminary
+version in FOCS '82, 1982.
+[CCD88] D. Chaum, C. Crepeau, and I. Damgard. Multiparty unconditionally secure
+protocols. In Proc. of the 20th Symp. on Theory of Computing, pages 11{19,
+1988.
+19 [IL89] provides an explicit transformation mapping any protocol that securely computes OT in the
+bounded honest-but-curious model into a one-way function.
+20 An alternative proof of Claim 4 could be obtained by using the results of [GHY88] instead of [GMW87,
+Nao89].
+[CK88] C. Crepeau and J. Kilian. Achieving oblivious transfer using weakened security
+assumptions. In Proc. of the 29th IEEE Symp. on Foundations of Computer
+Science, pages 42{52, 1988.
+[CK89] B. Chor and E. Kushilevitz. A zero-one law for Boolean privacy. SIAM J. on
+Discrete Math., 4(1):36{47, 1991. Preliminary version in STOC '89, 1989.
+[Cle86] R. Cleve. Limits on the security of coin 
+ips when half the processors are faulty.
+In Proc. of the 18th ACM Symp. on the Theory of Computing, pages 364{369,
+1986.
+[Cre88] C. Crepeau. Equivalence between two 
+avors of oblivious transfers. In C. Pomer-
+ance, editor, Advances in Cryptology { CRYPTO '87, volume 293 of Lecture
+Notes in Computer Science, pages 350{354. Springer-Verlag, 1988.
+[DMR99] Y. Dodis, S. Micali, and P. Rogaway. Concurrent reducibility for information-
+theoretically secure computation. Manuscript, 1999.
+[EGL85] S. Even, O. Goldreich, and A. Lempel. A randomized protocol for signing contracts. 
+CACM, 28(6):637{647, 1985.
+[FMR84] M. J. Fischer, S. Micali, and C. Racko
+. A secure protocol for the oblivious
+transfer. Presented in EUROCRYPT '84, 1984. Printed version in J. of Cryptology, 9(3):191{195, 1996.
+[GHY88] Z. Galil, S. Haber, and M. Yung. Cryptographic computation: Secure fault-tolerant 
+protocols and the public-key model. In C. Pomerance, editor, Advances
+in Cryptology { CRYPTO '87, volume 293 of Lecture Notes in Computer Science,
+pages 135{155. Springer-Verlag, 1988.
+[GM82] S. Goldwasser and M. Micali. Probabilistic Encryption. In J. of Computer and
+System Sciences , 28(2):270{299, 1984. Preliminary version in STOC '82, 1982.
+[GMR85] S. Goldwasser, S. Micali, and C. Racko
+. The knowledge complexity of inter-
+active proof systems. SIAM J. on Computing, 18:186{208, 1989. Preliminary
+version in STOC '85, 1985.
+[GMW86] O. Goldreich, S. Micali, and A. Wigderson. Proofs that yield nothing but their
+validity, or all languages in NP have zero-knowledge proof systems. In J. of the
+ACM, 38(1):691{729, 1991. Preliminary version in FOCS '86, 1986.
+[GMW87] O. Goldreich, S. Micali, and A. Wigderson. How to play any mental game. In
+Proc. of the 19th Symp. on the Theory of Computing, pages 218{229, 1987.
+[Gol98] O. Goldreich. Secure multi-party computation (working draft). Available from
+http://www.wisdom.weizmann.ac.il/oded/foc.html, 1998.
+[GV87] O. Goldreich and R. Vainish. How to solve any protocol problem { an efficiency
+improvement. In C. Pomerance, editor, Advances in Cryptology { CRYPTO '87,
+volume 293 of Lecture Notes in Computer Science, pages 73{86. Springer-Verlag,
+1988.
+[Has90] J. Hastad. Pseudo-random generators under uniform assumptions. In. Proc. of
+the 22nd ACM Symp. on Theory of Computing, pages 395-404, 1990.
+[HILL99] J. Hastad, R. Impagliazzo, L. A. Levin, and M. Luby. Construction of a
+pseudo-random generator from any one-way function. SIAM J. on Computing,
+28(4):1364{1396, 1999. This is the journal version of [ILL89, Has90].
+[IL89] R. Impagliazzo and M. Luby. One-way functions are essential for complexity
+based cryptography. In Proc. of the 30th IEEE Symp. on Foundations of Computer 
+Science, pages 230{235, 1989.
+[ILL89] R. Impagliazzo, L. A. Levin, and M. Luby. Pseudo-random number generation
+from one-way functions. In Proc. of the 21st ACM Symp. on the Theory of
+Computing, pages 12{24, 1989.
+[IR89] R. Impagliazzo and S. Rudich. Limits on the provable consequences of one-way
+permutations. In Proc. of the 21st ACM Symp. on the Theory of Computing,
+pages 44{61, 1989.
+[Kil88] J. Kilian. Basing cryptography on oblivious transfer. In Proc. of the 20th ACM
+Symp. on the Theory of Computing, pages 20{31, 1988.
+[Kil90] J. Kilian. Uses of Randomness in Algorithms and Protocols. MIT Press, 1990.
+[Kil91] J. Kilian. A general completeness theorem for two-party games. In Proc. of the
+23th ACM Symp. on the Theory of Computing, pages 553{560, 1991.
+[Kil99] J. Kilian. (More) general completeness theorems for two-party games.
+Manuscript, 1999.
+[KKMO98] J. Kilian, E. Kushilevitz, S. Micali, and R. Ostrovsky. Reducibility and completeness 
+in private computations. SIAM J. on Computing, 1998. To appear.
+This is the journal version of [Kil91, KMO94].
+[KMO94] E. Kushilevitz, S. Micali, and R. Ostrovsky. Reducibility and completeness in
+multi-party private computations. In Proc. of the 35th IEEE Symp. on Founda-
+tions of Computer Science, pages 478{491, 1994.
+[Kus89] E. Kushilevitz. Privacy and communication complexity. SIAM J. on Discrete
+Mathematics, 5(2):273{284, 1992. Preliminary version in FOCS '89, 1989.
+[MR92] S. Micali and P. Rogaway. Secure computation. In J. Feigenbaum, editor, Advances 
+in Cryptology { CRYPTO '91, vol. 576 of Lecture Notes in Computer
+Science, pages 392{404. Springer-Verlag, 1992. An updated version presented
+at: Workshop on Multi-Party Secure Computation, Weizmann Inst., Israel, June
+1998.
+[Nao89] M. Naor. Bit commitment using pseudorandom generators. J. of Cryptology,
+4:151{158, 1991. Preliminary version in Advances in Cryptology { CRYPTO '89,
+1989.
+[Rab81] M. O. Rabin. How to exchange secrets by oblivious transfer. Technical Report
+TR-81, Harvard Aiken Computation Laboratory, 1981.
+[Yao82a] A. C. Yao. Protocols for secure computations. In Proc. of the 23th IEEE Symp.
+on Foundations of Computer Science, pages 160{164, 1982.
+[Yao82] A. C. Yao. Theory and application of trapdoor functions. In Proc. of the 23th
+IEEE Symp. on Foundations of Computer Science, pages 80{91, 1982.
+[Yao86] A. C. Yao. How to generate and exchange secrets. In Proc. of the 27th IEEE
+Symp. on Foundations of Computer Science, pages 162{167, 1986.

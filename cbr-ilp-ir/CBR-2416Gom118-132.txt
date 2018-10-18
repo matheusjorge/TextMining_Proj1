@@ -1,0 +1,74 @@
+Experiments on Case-Based Retrieval
+of Software Designs
+
+Paulo Gomes, Francisco C. Pereira, Paulo Paiva, Nuno Seco, Paulo Carreiro,
+José L. Ferreira, and Carlos Bento
+
+CISUC — Centro de Informática e Sistemas da Universidade de Coimbra.
+Departamento de	Engenharia Informática, Polo II, Universidade de Coimbra. 3030 Coimbra
+{pgomes, camara, zeluis, bento}@dei.uc.pt,
+{paiva, nseco, carreiro}@student.dei.uc.pt,
+http://rebuilder.dei.uc.pt
+
+
+
+Abstract. Software systems are becoming increasingly complex, demanding
+for more computational resources and better software development methodologies. 
+The software engineer and the CASE tool must work like a team. For this
+to happen, the CASE tool must be able to understand the user, and to provide
+new functionalities, such as flexible retrieval of old designs. We think that
+Case-Based Reasoning can provide a reasoning framework capable of meeting
+these demands. One important task that a CASE tool based on Case-Based Reasoning 
+can perform adequately, is the retrieval of relevant designs. These designs 
+can be stored in a case library, central to the software development company, 
+thus enabling knowledge sharing through out the company. In this paper
+we present an approach to case-based retrieval of software designs, and experimental 
+results achieved with this approach.
+References
+
+1.	Coulange, B., Software Reuse. 1997, London: Springer-Verlag.
+2.	Prieto-Diaz, R., Status Report: Software Reusability. IEEE Software, 1993(May).
+3.	Tautz, C. and K.-D. Aithoff. Using Case-Based Reasoning for Reusing Software Knowledge, 
+in International Conference on Case-Based Reasoning (ICCBR’97). 1997. Providence, RI, USA: Springer-Verlag.
+4.	Liao, S.Y., L.S. Cheung, and W.Y. Liu, An Object-Oriented System for the Reuse of Software 
+Design Items. Journal of Object-Oriented Programming, 1999. 11(8, January 1999):
+p. 22-28.
+5.	Prieto-Diaz, R., Implementing Faceted Classification for Software Reuse. Communications
+of the ACM, 1991(May).
+6.	Burton, B.A., et al., The Reusable Software Library. IEEE Software, 1987. 4(July 1987): p.
+25-32.
+7.	Basset, P.G., Frame-Based Software Engineering. IEEE Software, 1987(July): p. 9-16.
+8.	Aamodt, A. and E. Plaza, Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches. AI Communications, 1994. 7(1): p. 39-59.
+9.	Kolodner, J., Case-Based Reasoning. 1993: Morgan Kaufman.
+10.	Fouqué, G. and S. Matwin. Compositional Software reuse with Case-Based Reasoning. in
+9th Conference on Artificial Intelligence for Applications (CAIA’93). 1993. Orlando, FL,
+USA:	IEEE Computer Society Press.
+11.	Smyth, B. and P. Cunningham. Déjà Vu: A Hierarchical Case-Based Reasoning System for
+Software Design. in 10th European Conference on Artificial Intelligence (ECAI’92). 1992.
+Vienna, Austria: John Wiley & Sons.
+12.	González, P.A. and C. Fenández. A Knowledge-Based Approach to Support Software
+Reuse in Object-oriented Libraries, in 9th International Conference on Software Engineering 
+and Knowledge Engineering, SEKE’97. 1997. Madrid, Spain: Knowledge Systems Institute, Illinois.
+13.	Katalagarianos, P. and Y. Vassiliou, On the reuse of software: a case-based approach
+employing a repository. Automated Software Engineering, 1995. 2: p. 55-86.
+14.	Gomes, P., et al. Case Retrieval of Software Designs using WordNet. in European Conference 
+on Artificial Intelligence (ECAI’02). 2002. Lyon, France: IOS Press, Amsterdam.
+15.	Rumbaugh, J., I. Jacobson, and G. Booch, The Unified Modeling Language Reference
+Manual. 1998, Reading, MA: Addison-Wesley.
+16.	Miller, G., et al., Introduction to WordNet: an on-line lexical database. International Journal 
+of Lexicography, 1990. 3(4): p. 235 - 244.
+17.	Bergmann, R. and A. Stahl. Similarity Measures for Object-Oriented Case Representations. 
+in 4th European Conference on Case-Based Reasoning. 1998. Dublin, Ireland:
+Springer.
+18.	Voss, A., et al. Retrieval of Similar Layouts - About a very Hybrid Approach in FABEL. in
+Artificial Intelligence in Design, AID’94. 1994. Lausanne, Switzerland: Kluwer Academic
+Publishers, Netherlands.
+19.	Goel, A., S. Bhatta, and E. Stroulia, Kritik: An Early Case-Based Design System, in Issues
+and Applications of Case-Based Reasoning to Design, M.L. Maher and P. Pu, Editors.
+1997, Lawrence Erlbaum Associates.
+20.	Maher, M.L., Developing Case-Based Reasoning for Structural Design. IEEE Expert,
+1996. 11(3, June 1996).
+21.	Fenández-Chamizo, C., et al. Supporting Object Reuse through Case-Based Reasoning. in
+Third European Workshop on Case-Based Reasoning (EWCBR’96). 1996. Lausanne,
+Suisse: Springer-Verlag.

@@ -1,0 +1,117 @@
+Information Extraction as a Basis for
+High­Precision Text Classification 
+
+Ellen Riloff and Wendy Lehnert
+Department of Computer Science
+University of Massachusetts
+Amherst, MA 01003
+riloff@cs.umass.edu, lehnert@cs.umass.edu
+
+Abstract
+We describe an approach to text classification that represents a compromise be­
+tween traditional word­based techniques and in­depth natural language processing.
+Our approach uses a natural language processing task called information extraction
+as a basis for high­precision text classification. We present three algorithms that use
+varying amounts of extracted information to classify texts. The relevancy signatures
+algorithm uses linguistic phrases, the augmented relevancy signatures algorithm uses
+phrases and local context, and the case­based text classification algorithm uses larger
+pieces of context. Relevant phrases and contexts are acquired automatically using a
+training corpus. We evaluate the algorithms on the basis of two test sets from the
+MUC­4 corpus. All three algorithms achieved high precision on both test sets, with
+the augmented relevancy signatures algorithm and the case­based algorithm reaching
+100% precision with over 60% recall on one set. In addition, we compare the algorithms
+on a larger collection of 1700 texts and describe an automated method for empirically
+deriving appropriate threshold values. The results suggest that information extraction
+techniques can support high­precision text classification and, in general, using more
+extracted information improves performance. As a practical matter, we also explain
+how the text classification system can be easily ported across domains.
+
+
+References
+Ashley, K. 1990. Modelling Legal Argument: Reasoning with Cases and Hypotheticals. The
+MIT Press, Cambridge, MA.
+Belkin, Nicholas and Croft, W. Bruce 1992. Information Filtering and Information Re­
+trieval: Two Sides of the Same Coin? Communications of the ACM 35(12):29--38.
+Borko, H. and Bernick, M. 1963. Automatic Document Classification. J. ACM 10(2):151--
+162.
+Cardie, C. 1993. A Case­Based Approach to Knowledge Acquisition for Domain­Specific
+Sentence Analysis. In Proceedings of the Eleventh National Conference on Artificial Intel­ligence. 
+AAAI Press/The MIT Press. 798--803.
+Croft, W. B.; Turtle, H. R.; and Lewis, D. D. 1991. The Use of Phrases and Structured
+Queries in Information Retrieval. In Proceedings, SIGIR 1991. 32--45.
+Dillon, M. 1983. FASIT: A Fully Automatic Syntactically Based Indexing System. Journal
+of the American Society for Information Science 34(2):99--108.
+Fagan, J. 1989. The Effectiveness of a Nonsyntactic Approach to Automatic Phrase In­
+dexing for Document Retrieval. Journal of the American Society for Information Science
+40(2):115--132.
+Francis, W. and Kucera, H. 1982. Frequency Analysis of English Usage. Houghton Mifflin,
+Boston, MA.
+Goodman, M. 1991. Prism: A Case­Based Telex Classifier. In Proceedings of the Second
+Annual Conference on Innovative Applications of Artificial Intelligence. AAAI Press. 25--37.
+Hammond, K. 1986. CHEF: A Model of Case­Based Planning. In Proceedings of the Fifth
+National Conference on Artificial Intelligence. Morgan Kaufmann. 267--271.
+Harman, D., editor 1993. The First Text REtrieval Conference (TREC1). National Institute
+of Standards and Technology Special Publication 200­207, Gaithersburg, MD.
+Hayes, Philip J. and Weinstein, Steven P. 1991. Construe­TIS: A System for Content­Based
+Indexing of a Database of News Stories. In Proceedings of the Second Annual Conference
+on Innovative Applications of Artificial Intelligence. AAAI Press. 49--64.
+Hoyle, W. 1973. Automatic Indexing and Generation of Classification Systems by Algo­rithm. 
+Information Storage and Retrieval 9(4):233--242.
+Iwanska, Lucja; Appelt, Douglas; Ayuso, Damaris; Dahlgren, Kathy; Glover Stalls, Bonnie;
+Grishman, Ralph; Krupka, George; Montgomery, Christine; and Riloff, Ellen 1991. Compu­tational 
+Aspects of Discourse in the Context of MUC­3. In Proceedings of the Third Message
+Understanding Conference (MUC­3), San Mateo, CA. Morgan Kaufmann. 256--282.
+Kolodner, J. and Simpson, R. 1989. The MEDIATOR: Analysis of an Early Case­-Based
+Problem Solver. Cognitive Science 13(4):507--549.
+Krovetz, R. and Croft, W. B. 1989. Word Sense Disambiguation Using Machine­-Readable
+Dictionaries. In Proceedings, SIGIR 1989.
+Lehnert, W. G. and Sundheim, B. 1991. A Performance Evaluation of Text Analysis Tech­nologies. 
+AI Magazine 12(3):81--94.
+Lehnert, W.; Cardie, C.; Fisher, D.; McCarthy, J.; Riloff, E.; and Soderland, S. 1992.
+University of Massachusetts: Description of the CIRCUS System as Used for MUC­4. In
+Proceedings of the Fourth Message Understanding Conference (MUC­4), San Mateo, CA.
+Morgan Kaufmann. 282--288.
+Lehnert, W.; McCarthy, J.; Soderland, S.; Riloff, E.; Cardie, C.; Peterson, J.; Feng, F.;
+Dolan, C.; and Goldman, S. 1993. UMass/Hughes: Description of the CIRCUS System as
+Used for MUC­5. In Proceedings of the Fifth Message Understanding Conference (MUC­5),
+San Francisco, CA. Morgan Kaufmann. 277--291.
+Lehnert, W. 1991. Symbolic/Subsymbolic Sentence Analysis: Exploiting the Best of Two
+Worlds. In Barnden, J. and Pollack, J., editors 1991, Advances in Connectionist and Neural
+Computation Theory, Vol. 1. Ablex Publishers, Norwood, NJ. 135--164.
+Lewis, D. D.; Croft, W. B.; and Bhandaru, N. 1989. Language­Oriented Information
+Retrieval. International Journal of Intelligent Systems 4(3):285--318.
+Marcus, M.; Santorini, B.; and Marcinkiewicz, M. 1993. Building a Large Annotated Corpus
+of English: The Penn Treebank. Computational Linguistics 19(2):313--330.
+Maron, M. 1961. Automatic Indexing: An Experimental Inquiry. J. ACM 8:404--417.
+Mauldin, M. 1991. Retrieval Performance in FERRET: A Conceptual Information Retrieval
+System. In Proceedings, SIGIR 1991. 347--355.
+Proceedings of the Third Message Understanding Conference (MUC­3), San Mateo, CA.
+Morgan Kaufmann.
+Proceedings of the Fourth Message Understanding Conference (MUC­4), San Mateo, CA.
+Morgan Kaufmann.
+Proceedings of the Fifth Message Understanding Conference (MUC­5), San Francisco, CA.
+Morgan Kaufmann.
+Rau, Lisa F. and Jacobs, Paul S. 1991. Creating Segmented Databases From Free Text for
+Text Retrieval. In Proceedings, SIGIR 1991. 337--346.
+Riloff, E. and Lehnert, W. 1992. Classifying Texts Using Relevancy Signatures. In Pro­ceedings 
+of the Tenth National Conference on Artificial Intelligence. AAAI Press/The MIT
+Press. 329--334.
+Riloff, E. and Lehnert, W. 1993a. Automated Dictionary Construction for Information Ex­traction 
+from Text. In Proceedings of the Ninth IEEE Conference on Artificial Intelligence
+for Applications, Los Alamitos, CA. IEEE Computer Society Press. 93--99.
+Riloff, E. and Lehnert, W. G. 1993b. A Dictionary Construction Experiment with Domain
+Experts. In Proceedings of the TIPSTER Text Program (Phase I), San Francisco, CA.
+Morgan Kaufmann. 257--259.
+Riloff, E. 1993a. Automatically Constructing a Dictionary for Information Extraction
+Tasks. In Proceedings of the Eleventh National Conference on Artificial Intelligence. AAAI
+Press/The MIT Press. 811--816.
+Riloff, E. 1993b. Using Cases to Represent Context for Text Classification. In Proceedings of
+the Second International Conference on Information and Knowledge Management (CIKM­
+93), New York, NY. ACM Press. 105--113.
+Salton, G. 1989. Automatic Text Processing: The Transformation, Analysis, and Retrieval
+of Information by Computer. Addison­Wesley, Reading, MA.
+Turtle, Howard and Croft, W. Bruce 1991. Efficient Probabilistic Inference for Text Re­trieval. 
+In Proceedings of RIAO 91. 644--661.
+Weischedel, R.; Meteer, M.; Schwartz, R.; Ramshaw, L.; and Palmucci, J. 1993. Coping with
+Ambiguity and Unknown Words through Probabilistic Models. Computational Linguistics
+19(2):359--382.

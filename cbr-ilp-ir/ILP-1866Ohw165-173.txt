@@ -1,0 +1,51 @@
+Concurrent Execution of Optimal Hypothesis
+Search for Inverse Entailment
+
+Hayato Ohwada, Hiroyuki Nishiyama, and Fumio Mizoguchi
+
+Faculty of Sci. and Tech.,
+Science University of Tokyo
+Noda, Chiba, 278-8510, Japan
+{ohwada, nisiyama, mizo}@imc.sut.ac.jp
+
+
+
+Abstract. Inductive Logic Programming (ILP) allows first-order 
+learning and provides greater expressiveness than propositional learning. 
+However, due to its tradeoff, the learning speed may not be reasonable for
+datamining settings. To overcome this problem, this paper describes a
+distributed implementation of an ILP engine, allowing speeding up 
+optimal hypothesis searcb in inverse entailment according to the number
+of processors. In this implementation, load balancing is achieved by 
+contract net communication between the processors, resulting in a dynamic
+allocation of the hypothesis search task. This paper describes our 
+concurrent search algorithm, distributed implementation and experimental
+results for speeding up inverse entailment. An initial experiment was
+conducted to demonstrate the well-balanced task allocation.
+References
+
+[Blockeel99] Blockeel, H., De Raedt, L., Jacobs, N. and Demoen, B., Scaling Up 
+Inductive Logic Programming by Learning from Interpretations, Data Mining and
+Knowledge Discovery, Vol. 3, No. 1, pp. 59—94, 1999.
+[Chikayama97] Chikayama, T., KLIC User’s Manual, Institute for New Generation
+Computer Technology, 1997.
+[Fujita96] Fujita, H., Yagi, N., Ozaki, T., and Purukawa, K., A new design and 
+implementation of Progol by bottom-up computation, Proc. of the 6th International
+Workshop on ILP, pp. 163—174, 1996.
+[Muggleton89] Muggleton, S. H., Bain, M. B., Michie, D., An experimental 
+comparison of human and machine learning formalism. Proc. of the Sixth International
+Workshop on Machine Learning, 1989.
+[Matui98] Matsui, T., Inuzuka, N., Seki, H. and Itoh, H., Parallel Induction Algorithms
+for Large Samples, Proc. of the First International Conference on Discovery 
+Science, pp. 397—398, 1998.
+[Muggleton95] Muggleton, S., Inverse Entailment and Progol, New Generation 
+Computing, Vol. 13, Nos. 3,4, pp. 245—286, 1995.
+[Ohwada99] Ohwada, H. and Mizoguchi, F., Parallel Execution for Speeding Up 
+Inductive Logic Programming Systems, Proc. of the Second International Conference
+on Discovery Science, pp. 277-286, 1999.
+[Smith8O] Smith, R., The Contract Net Protocol: High-Level Communication and 
+Control in a Distributed Problem Solver, IEEE Transactions on Computers, Vol. C-29,
+No.12, 1980.
+[Srinivasan99] Srinivasan, A., A study of Two Sampling Methods for Analyzing Large
+Datasets with ILP, Data Mining and Knowledge Discovery, Vol. 3, No. 1, pp.
+95—123, 1999.

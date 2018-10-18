@@ -1,0 +1,40 @@
+A Bounded Search Space of Clausal Theories
+
+Herman Midelfart
+
+Department of Computer and Information Science,
+Norwegian University of Science and Technology,
+N-7491 TRONDHEIM,
+Norway,
+herman@idi.ntnu.no
+
+
+
+Abstract. In this paper the problem of induction of clausal theories
+through a search space consisting of theories is studied. We order the
+search space by an extension of O-subsumption for theories, and find a
+least generalization and a greatest specialization of theories. A most 
+specific theory is introduced, and we develop a refinement operator bounded
+by this theory.
+References
+
+1.	H. Arimura. Learning acydic first-order horn sentences from entailment. In Proc.
+of ALT-97, LNAI 1316, pp. 432—445. Springer-Verlag, 1997.
+2.	M. R. Grey and D. S. Johnson. Computers and Intractability - A Guide to Theory
+of NP-completeness. Freeman, 1997.
+3.	M. Krishna Rao and A. Satter. Learning from entailment of logic programs with
+local variables. Proc. of ALT-98, LNAI 1501, pp. 143—157. Springer-Verlag, 1998.
+4.	P. R. J. van der Laag and S.-H. Nienhuys-Cheng. Existence and nonexistence of
+complete refinement operators. In Proc. of ECML-94, LNAI 784, pp. 307—322.
+Springer-Verlag, 1994.
+5.	S. Muggleton. Inverse entailment and Progol. New Generation Computing,
+13(3/4):245—286, 1995.
+6.	S. Muggleton. Completing inverse entailment. In Proc. of ILP-98, LNAI 1446,
+pp. 245—249. Springer-Verlag, 1998.
+7.	S.-H. Nienhuys-Cheng and R. de Wolf. Foundations of Inductive Logic Programming. 
+LNAI 1228. Springer-Verlag, 1997.
+8.	G. D. Plotkin. Automatic Methods of Inductive Inference. PhD thesis, Edinburgh
+University, 1971.
+9.	J. C. Reynolds. Transformational systems and the algebraic structure of atomic
+formulas. In Machine Intelligence, vol. 5, pp. 135—151. Edinburgh University Press,
+1970.

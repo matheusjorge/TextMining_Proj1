@@ -1,0 +1,77 @@
+Systematic Predicate Invention in Inductive
+Logic Programming
+
+Lionel Martin and Christel Vrain
+
+LIFO - université d’Orléans
+BP 6759 - 45067 Orléans cedex 02 - France
+email: {martin,cv}@lifo.univ-orleans.fr
+
+
+Abstract. We propose in this paper a new approach for learning predicate 
+definitions from examples and from an initial theory. The particularity 
+of this approach consists in inventing both a new predicate symbol
+and a specification for this predicate at most steps of learning. The specifications 
+that are built are incomplete and imprecise, what is modelized
+by introducing the notion of o-interpretation. At the end of the learning
+task, some invented predicates are removed by unfolding techniques. The
+remaining predicates either enable to simplify the program, or are defined 
+by recursive programs. In the second case, the program could not
+have been learned without inventing these predicates.
+The method has been implemented in a system, called SPILP, which
+has been successfully tested for inventing predicates which simplify the
+learned programs as well as for inventing recursively defined predicates.
+Let us point out that the introduction of o-interpretations gives us a
+general framework for dealing with imprecise specifications and that
+SPILP can work, even when the target concepts are also incompletely
+defined by o-interpretations.
+References
+
+1.	Dietterich T.G., Lathrop R.H., Lozano-Perez T., 1996. Solving the Multiple-Instance 
+Problem with Axis-Parallel Rectangles. to be published in Artificial Intelligence Journal.
+2.	Kijsirikul B., Numao M. et al, 1992. Discrimination-based Constructive Induction
+of Logic Programs, Procs. of AAAI-92, San Jose, pp.44-49, 1992.
+3.	Lavrac N., Dzeroski 5., 1992. Inductive Learning of Relations from Noisy Examples.
+Inductive Logic programming. The A.P.I.C. Series Nº 38, S. Muggleton (Ed.),
+Academic Press, pp.495-516.
+4.	Lapointe S., Ling C., Matwin S., 1993. Constructive Inductive Logic Programming.
+Procs. of the Sixteenth International Joint Conference on Artificial Intelligence
+(IJCAI-93), pp. 1030-1036, 1993.
+5.	J. W. Lloyd. Foundations of Logic Programming. Springer VerLag, 1987.
+6.	Martin L., Vrain C., 1996. Induction of Constraint Logic Programs. Procs. of the
+Seventh International Whorkshop on Algorithmic Learning Theory, Lecture Notes
+in Artificial Intelligence
+7.	Muggleton S., 1987. Duce, an oracle based approach to constructive induction,
+Procs. of the Tenth International Joint Conference on Artificial Intelligence (IJCAI-
+87), Milan, pp. 287-292, 1987.
+8.	Muggleton S., 1988. A strategy for constructing new predicates in first order logic.
+Procs. of the 3rd European Working Session on Learning, Pitman, pp. 123-130,
+1988.
+9.	Muggleton S., Buntine W. (1988) Machine invention of first order predicates by
+inverting resolution. Procs. of the Fifth Internationnal Conference on Machine
+Learning, pp. 339-351, 1988.
+10.	Muggleton S., Feng C., 1992. Efficient Induction of Logic Programs”. Inductive
+Logic programming. The A.P.I.C. Series Nº 38, 5. Muggleton (Ed.), Academic
+Press. pp. 281-298.
+11.	Muggleton S., de Raedt L., 1994. Inductive Logic Programming: Theory and Methods. 
+Journal of Logic programming, vol. 19/20, May/July 94, pp. 629-680.
+12.	Plotkin G., 1970. A note on inductive generalization. Machine Intelligence, Vol. 5,
+Edinburgh University Press, Edinburgh.
+13.	Plotkin G., 1971. A further note on inductive generalization. Machine Intelligence,
+Vol. 6, Edinburgh University Press, Edinburgh.
+14.	Quinlan J.R., 1990. Learning Logical Definitions from Relations. Machine Learning
+Journal, Vol. 5, Kiuwer Academic Publishers, pp. 239-266.
+15.	de Raedt L., Lavrac N., Dzeroski S., 1993. Multiple Predicate Learning. Procs. of
+the Thirteen International Joint Conference on Artificial Intelligence, Chambéry,
+France, August 28 - September 3, 1993, Vol. 2, pp. 1037-1043.
+16.	Sommer E., 1994. Rulebase Stratification: an Approach to theory restructuring.
+Proceedings of the Fourth International Workshop on Inductive Logic Programming, 
+Germany, GMD-Studien Nr. 237.
+17.	Vrain C., Martin L., 1994. Inductive learning of normal clauses. Machine Learning:
+ECML-94, Lecture Notes in Artificial Intelligence 784, F. Bergadano, L. De Raedt
+(Eds.), Springer Verlag, pp. 435-438.
+18.	Wirth R., O’Rorke P., 1991. Constraints on predicate invention. Procs. of the
+Eighth International Workshop on Machin Learning, Evanston, pp. 457-461,
+Morgan-Kaufmann, 1991.
+19.	Wrobel S., 1994. Concept Formation and Knowledge Revision. Kluwer Academic
+Publishers, Netherlands.

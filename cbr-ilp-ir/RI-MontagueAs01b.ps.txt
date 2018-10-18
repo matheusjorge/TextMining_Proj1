@@ -1,0 +1,116 @@
+Relevance Score Normalization for Metasearch #
+
+Mark Montague
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+montague@cs.dartmouth.edu
+Javed A. Aslam
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+jaa@cs.dartmouth.edu
+
+ABSTRACT
+Given the ranked lists of documents returned by multiple
+search engines in response to a given query, the problem of
+metasearch is to combine these lists in a way which optimizes
+the performance of the combination. This problem can be
+naturally decomposed into three subproblems: (1) normaliz­ing 
+the relevance scores given by the input systems, (2) es­timating 
+relevance scores for unretrieved documents, and
+(3) combining the newly­acquired scores for each document into one, improved score.
+Research on the problem of metasearch has historically concentrated 
+on algorithms for combining (normalized) scores.
+In this paper, we show that the techniques used for normal­izing 
+relevance scores and estimating the relevance scores of
+unretrieved documents can have a significant effect on the
+overall performance of metasearch. We propose two new
+normalization/estimation techniques and demonstrate em­pirically 
+that the performance of well known metasearch al­gorithms 
+can be significantly improved through their use.
+
+
+REFERENCES
+[1] TREC 2, Gaithersburg, MD, USA, Mar. 1994. U.S.
+Government Printing Office, Washington D.C.
+[2] TREC 5, Gaithersburg, MD, USA, 1997. U.S.
+Government Printing Office, Washington D.C.
+[3] ACM SIGIR 2001, New Orleans, Louisiana, USA,
+2001. ACM Press, New York.
+[4] J. Aslam and M. Montague. Models for metasearch. In
+ACM SIGIR 2001 [3].
+[5] B. T. Bartell. Optimizing Ranking Functions: A
+Connectionist Approach to Adaptive Information
+Retrieval. PhD thesis, University of California, San
+Diego, 1994.
+[6] N. Belkin, P. Kantor, C. Cool, and R. Quatrain.
+Combining evidence for information retrieval. In
+TREC 2 [1], pages 35--43.
+[7] W. B. Croft. Combining approaches to information
+retrieval. In W. B. Croft, editor, Advances in
+Information Retrieval: Recent Research from the
+Center for Intelligent Information Retrieval,
+chapter 1. Kluwer, 2000.
+[8] E. A. Fox, M. P. Koushik, J. Shaw, , R. Modlin, and
+D. Rao. Combining evidence from multiple searches.
+In TREC 1, pages 319--328, Gaithersburg, MD, USA,
+Mar. 1993. U.S. Government Printing O#ce,
+Washington D.C.
+[9] E. A. Fox and J. A. Shaw. Combination of multiple
+searches. In TREC 2 [1], pages 243--249.
+[10] K. L. Fox, O. Frieder, M. Knepper, and E. Snowberg.
+SENTINEL: A multiple engine information retrieval
+and visualization system. Journal of the ASIS, 50(7),
+May 1999.
+[11] D. A. Hull, J. O. Pedersen, and H. Sch˜utze. Method
+combination for document filtering. In ACM SIGIR
+'96, pages 279--287, Zurich, Switzerland, 1996. ACM
+Press, New York.
+[12] J. H. Lee. Analyses of multiple evidence combination.
+In ACM SIGIR '97, pages 267--275, Philadelphia,
+Pennsylvania, USA, July 1997. ACM Press, New York.
+[13] R. Manmatha, T. Rath, and F. Feng. Modeling score
+distributions for combining the outputs of search
+engines. In ACM SIGIR 2001 [3].
+[14] M. Montague and J. Aslam. Metasearch consistency.
+In ACM SIGIR 2001 [3].
+[15] K. B. Ng. An Investigation of the Conditions for
+E#ective Data Fusion in Information Retrieval. PhD
+thesis, School of Communication, Information, and
+Library Studies, Rutgers University, 1998.
+[16] K. B. Ng and P. B. Kantor. An investigation of the
+preconditions for e#ective data fusion in ir: A pilot
+study. In Proceedings of the 61th Annual Meeting of
+the American Society for Information Science, 1998.
+[17] K. B. Ng, D. Loewenstern, C. Basu, H. Hirsh, and
+P. B. Kantor. Data fusion of machine­learning
+methods for the TREC5 routing task (and other
+work). In TREC 5 [2], pages 477--487.
+[18] Content­Based Multimedia Information Access
+(RIAO), Paris, France, Apr. 2000.
+[19] E. W. Selberg. Towards Comprehensive Web Search.
+PhD thesis, University of Washington, 1999.
+[20] J. A. Shaw and E. A. Fox. Combination of multiple
+searches. In TREC 3, pages 105--108, Gaithersburg,
+MD, USA, Apr. 1995. U.S. Government Printing
+O#ce, Washington D.C.
+[21] P. Thompson. A combination of expert opinion
+approach to probabilistic information retrieval, part 1:
+the conceptual model. Information Processing and
+Management, 26(3):371--382, 1990.
+[22] C. C. Vogt. Adaptive Combination of Evidence for
+Information Retrieval. PhD thesis, University of
+California, San Diego, 1999.
+[23] C. C. Vogt. How much more is better? Characterizing
+the e#ects of adding more IR systems to a
+combination. In RIAO [18], pages 457--475.
+[24] C. C. Vogt and G. W. Cottrell. Fusion via a linear
+combination of scores. Information Retrieval,
+1(3):151--173, Oct. 1999.
+[25] C. C. Vogt, G. W. Cottrell, R. K.Belew, and B. T.
+Bartell. Using relevance to train a linear mixture of
+experts. In TREC 5 [2], pages 503--515.
+

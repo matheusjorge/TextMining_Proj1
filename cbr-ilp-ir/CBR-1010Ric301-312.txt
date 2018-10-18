@@ -1,0 +1,87 @@
+Learning a Local Similarity Metric for
+Case-Based Reasoning
+
+Francesco Ricci and Paolo Avesani
+
+Istituto per la Ricerca Scientifica e Tecnologica
+38050 Povo (TN)
+Italy
+email: {ricci,avesani}@irst.itc.it
+
+
+Abstract. This paper presents a new class of local similarity metrics,
+called AASM, that are not symmetric and that can be adopted as the
+basic retrieval method in a CBR system. An anytime learning procedure 
+is also introduced that, starting from an initial set of stored cases,
+improves the retrieval accuracy by modifying the local definition of the
+metric. The learning procedure is a reinforcement learning algorithm and
+can be run as a black box since no particular setting is required. With
+the aid of classical test sets it is shown that AASM can improve in many
+cases the accuracy of both nearest neighbour methods and Salzberg’s
+NGE. Moreover, AASM can achieve significant data compression (10%)
+while maintainig the same accuracy as NN.
+References
+
+1.	D. W. Aha. Incremental, instance-based learning of independent and graded concept 
+description. In Proceedings of the Sixth International Workshop on Machine
+Learning, Ithaca, NY, 1989. Morgan Kaufmann.
+2.	D. W. Aha. A study of instance-based algorithms for supervised learning tasks:
+Mathematical, empirical and psycological evaluations. Technical Report TR-90-42,
+University of California, Irvine, 1990.
+3.	D. W. Aha. Case-based learning algorithms. In Proceedings of the 1991 DARPA
+Case-Based Reasoning Workshop Workshop 1991, pages 147—158. Morgan Kaufmann, 1991.
+4.	D. W. Aha and R. L. Goldstone. Learning attribute relevance in context in
+instance-based learning algorithms. In Proceedings of the Twelfth Annual Conference 
+of the Cognitive Science Society, pages 141—148, Cambridge, MA, 1990.
+Lawrence Earibaum.
+5.	D. W. Aha and R. L. Goldstone. Concept learning and flexible weighting. In
+Proceedings of the Fourteenth Annual Conference of the Cognitive Science Society,
+pages 534—539, Bloomington, IN, 1992. Lawrence Earlbaum.
+6.	K. D. Ashley. Assessing similarities among cases: a position paper. In Proceedings
+of a Workshop on Case-Based Reasoning, pages 72—76, Pensacola Beach, FL, 1989.
+Morgan Kaufmann.
+7.	P. Avesani, A. Perini, and F. Ricci. Combining CBR and constraint reasoning
+in planning forest fire fighting. In Proceedings of the first european workshop on
+Case-Based reasoning, pages 235—239, Kaiserslautern, 1993.
+8.	S. Cost and S. Salzberg. A weighted nearest neighbor algorithm for learning with
+symbolic features. Machine Learning, 10:57—78, 1993.
+9.	B. V. Dasarathy, editor. Nearest beighbour (NN) norms: NN pattern classification
+techniques. IEEE Computer Society Press, Los Alamitos, CA, 1991.
+10.	R. Detrano, A.Janosi, W. Steinbrunn, M. Pfisterer, K. Schmid, S. Sandhu,
+K. Guppy, S. Lee, and V. Froelicher. Rapid searches for comples patterns in biological 
+molecules. American Journal of Cardiology, 64:304—310, 1989.
+11.	P. Domingos. Rule induction and instance-based learning: a unified approach. In
+Proceedings of the Fourteenth International Conference on Artificial Intelligence,
+1995.
+12.	R. A. Fisher. The use of multiple measurements in taxonomic problems. Annals
+of Eugenics, 7:179—188, 1936.
+13.	T. Kohonen. The self-organizing map. Proceedings of the IEEE, 78(9):1464—1480,
+Sept. 1990.
+14.	M. M. Kokar and S. A. Reveliotis. Reinforcement learning: Architectures and algorithms. 
+International Journal of Intelligent Systems, 8:857—894, 1993.
+15.	D. G. Lowe. Similarity metric learning for a variable-kernel classifier. Neural
+Computation, 7:72—85, 1995.
+16.	P. M. Murphy and D. W. Aha. UCI Repository of Machine Learning Databases.
+University of California, Department of Information and Computer Science, Irvine,
+CA, 1994.
+17.	K. S. Narendra and M. A. Thathachar. Learning Automata. Prentice-Hall, 1989.
+18.	F. Ricci. Constraint reasoning with learning automata. International Journal of
+Intelligent Systems, 9(12):1059—1082, Dec. 1994.
+19.	F. Ricci and P. Avesani. Learning an asymmetric and anisotropic similarity metric
+for case-based reasoning. Technical report, IRST, Apr. 1995.
+20.	F. Ricci, S. Main, P. Marti, V. Normand, and P. Olmo. CHARADE: a platform
+for emergencies management systems. Technical Report 9404-07, IRST, 1994.
+21.	F. Ricci, A. Perini, and P. Avesani. Planning in a complex real domain. In proceedings 
+of the italian planning workshop, pages 55—60, Rome, 1993.
+22.	S. L. Salzberg. A nearest hyperrectangle learning method. Machine Learning,
+6:251—276, 1991.
+23.	D. B. Skalak. Representing cases as knowledge sources that apply local similarity
+metrics. In Proceedings of the Fourteenth Annual Conference of the Cognitive
+Science Society, pages 325—330, Bloomington, IN, 1992. Lawrence Earlbaum.
+24.	C. Stanfill and D. Waltz. Toward memory-based reasoning. Communication of
+ACM, 29:1213—1229, 1986.
+25.	S. Wess, K.-D. Althoff, and G. Derwand. Using k-d trees to improve the retrieval
+step in case-based reasoning. In Topics in Case-Based Reasoning, First European
+Workshop, EWCBR-93, pages 167—181, Berlin, 1993. Spinger-Verlag.
+26.	D. Wettschereck. A study of distance-based machine learning algorithms. PhD
+thesis, Oregon State University, 1994.

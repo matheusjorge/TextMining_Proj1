@@ -1,0 +1,131 @@
+Heterogeneous Web Data Extraction using Ontology
+Hicham Snoussi
+
+Centre de Recherche Informatique
+de Montréal
+550 rue Sherbrooke, suite 100,
+Montréal, Canada H3A 1B9
+hsnoussi@crim.ca
+Laurent Magnin
+Centre de Recherche Informatique
+de Montréal
+550 rue Sherbrooke, suite 100,
+Montréal, Canada H3A 1B9
+lmagnin@crim.ca
+Jian­Yun Nie
+Université de Montréal
+C.P. 6128, succ CENTRE­VILLE
+Montreal, H3C 3J7 Canada
+nie@iro.umontreal.ca
+
+ABSTRACT
+Multi­agent systems can be fully developed only
+when they have access to a large number of
+information sources. These latter are becoming more
+and more available on the Internet in form of web
+pages. This paper does not deal with the problem of
+information retrieval, but rather the extraction of data
+from HTML web pages in order to make them usable
+by autonomous agents. This problem is not trivial
+because of the heterogeneity of web pages. We
+describe our approach to facilitate the formalization,
+extraction and grouping of data from different
+sources. To do this, we developed a utility tool that
+assists us in generating a uniform description for each
+information source, using a descriptive domain
+ontology. Users and agents can query the extracted
+data using a standard querying interface. The ultimate
+goal of this tool is to provide useful information to
+autonomous agents.
+
+11. References
+[1] Arens, Y., Chee, C. Y., Hsu, C. N. and
+Knoblock, C. A., Retrieving and Integrating Data
+from Multiple Information Sources, International
+Journal of Intelligent and Cooperative Information
+Systems. Vol. 2, No. 2, 1993.
+[2] Atzeni, P., Mecca, G. and Merialdo, P., To
+Weave the Web ­ In Proceedings of the 23 rd
+International Conference on Very Large Databases
+(VLDB'97), 1997
+[3] Bezivin, J., LES NOUVELLES
+CONVERGENCES : OBJETS, COMPOSANTS,
+MODÈLES ET ONTOLOGIES, JICAA'97, Roscoff
+France, Mai 1997.
+[4] Commerce One, http://www.commerceone.com/
+[5] Document Object Model,http://www.w3.org/DOM/
+[6] Farquhar, A., Fikes, R., Pratt, W. and Rice, J.,
+Collaborative Ontology Construction for Information
+Integration. Knowledge Systems Laboratory,
+Department of Computer Science, Technical Report
+KSL­95­63, August 1995.
+[7] Gruber, T., Ontology definition, http://www­ksl­
+svc.stanford.edu:5915/doc/frame­editor/what­is­an­
+ontology.html
+[8] Gruber, T., Toward principles for the design of
+ontologies used for knowledge sharing, The
+International Workshop on Formal Ontology, March
+1993.
+[9] Hammer, J., Garcia­Molina, H., Cho, J., Aranha,
+R., and Crespo, A., Extracting Semistructured
+Information from the Web". In Proceedings of the
+Workshop on Management of Semistructured Data.
+Tucson, Arizona, May 1997.
+[10]Huck, G., Fankhauser, P., Aberer, K. and
+Neuhold, E.J., JEDI: Extracting and Synthesizing
+Information from the Web, Conference on
+Cooperative Information Systems CoopIS'98, New
+York, August, 1998, IEEE Computer Society Press.
+[11] Ishikawa, H., Kubota, K. and Kanemasa, Y.,
+XQL: A Query Language for XML Data, Query
+Languages'98 (QL'98) workshop, Boston,
+Massachussets, December 1998.
+[12]Knoblock, C. A., Minton, S., Ambite, J. L.,
+Ashish, N., Modi, P. J., Muslea, I., Philpot, A. G. and
+Tejada, S., Modeling Web Sources for Information
+Integration. Proceedings of the National Conference
+on Artificial Intelligence, Madison, 1998.
+[13]Magnin L., and Alikacem, E. H., GenA :
+Multiplatform Generic Agents, MaTa'99 First
+International Workshop on Mobile Agents for
+Telecommunication Applications, Ottawa, October
+1999.
+[14]Martin, D. L., Oohama, H., Moran, D. and
+Cheyer, A., Information Brokering in an Agent
+Architecture, Proceedings of the Second International
+Conference on the Practical Application of Intelligent
+Agents and Multi­Agent Technology, London, April
+1997.
+[15]Nodine, M., Fowler, J. and Perry, B., An
+Overview of Active Information Gathering in
+InfoSleuth, Technical Report, October 1998,
+http://www.mcc.com/projects/infosleuth/publications/TR98
+/INSL­114­98.ps
+[16]OUAHID, H and KARMOUCH, A., An XML­
+Based WEB Mining Agent, Proceeding of
+MATA'99, Ahmed KARMOUCH and Roger IMPEY
+edts., World Scientific, Ottawa, October 1999.
+[17]Raggett, D., HTML Tidy,
+http://www.w3.org/People/Raggett/tidy/
+[18]Sahuguet, A. and Azavant, F., Building light­
+weight wrappers for legacy Web data­sources using
+W4F, International Conference on Very Large
+Databases (VLDB), Edinburgh ­ Scotland -- UK,
+September 7 ­ 10 1999.
+[19]Sahuguet, A. and Azavant, F., Looking at the
+Web through XML glasses, Conference on
+Cooperative Information Systems CoopIS'99,
+Edinburgh Scotland, September 2­4 1999.
+[20]Schema for Oriented­Object XML,
+http://www.commerceone.com/xml/cbl/docs/
+[21]Staab, S. and Maedche, A., Axioms are objects,
+too--- ontology engineering beyond the modeling of
+concepts and relations. Technical Report 399, Institute
+AIFB, Univ. of Karl­sruhe, 2000.
+[22]Staab, S., Erdmann, M. and Maedche, A., An
+extensible approach for Modeling Ontologies in
+RDF(S), Submitted to the 12th International
+Workshop on Knowledge Engineering and
+Knowledge Management (EKAW'2000), Juan­les­
+Pins, French Riviera, October 2­6, 2000.
+[23]W3C, http://www.w3.org

@@ -1,0 +1,65 @@
+Massively Parallel Case-Based Reasoning with
+Probabilistic Similarity Metrics
+
+Petri Myllymäki and Henry Tirri
+
+University of Helsinki, Department of Computer Science*
+P.O.Box 26, FIN-00014 University of Helsinki, Finland
+email: Petri.Myllymaki@cs.Helsinki.FI, Henry.Tirri@cs.Helsinki.FI
+
+
+
+Abstract. We propose a probabilistic case-space metric for the case
+matching and case adaptation tasks. Central to our approach is a probability 
+propagation algorithm adopted from Bayesian reasoning systems,
+which allows our case-based reasoning system to perform theoretically
+sound probabilistic reasoning. The same probability propagation mechanism 
+actually offers a uniform solution to both the case matching and
+case adaptation problems. We also show how the algorithm can be implemented 
+as a connectionist network, where efficient massively parallel
+case retrieval is an inherent property of the system. We argue that using
+this kind of an approach, the difficult problem of case indexing can be
+completely avoided.
+References
+
+1.	G.E. Cooper, Probabilistic Inference using Belief Networks is NP-hard. Technical
+Report KSL-87-27, Stanford University, Stanford, CA, 1987.
+2.	DARPA, Proceedings of the Workshop on Case-Based Reasoning 1988-1991. Morgan Kaufmann, San Mateo, CA.
+3.	S. Geman and D. Geman, Stochastic relaxation, Gibbs distributions, and the
+Bayesian restoration of images. IEEE Trans. on Pattern Analysis and Machine
+Intelligence 6 (1984), 721—741.
+4.	H. Kitano and M. Yasunaga, Wafer Scale Integration for Massively Parallel
+Memory-Based Reasoning. Pp. 850 — 856 in: Proc. of the Tenth National Conference 
+on Artificial Intelligence (San Jose, July 1992) AAAI Press/MIT Press,
+Menlo Park, CA, 1992.
+5.	H. Kitano, Challenges of Massive Parallelism. Pp. 813—834 in: Proceedings of
+IJ CA I-93, the Thirteenth International Joint Conference on Artificial Intelligence
+(Chambéry, France, August 1993). Morgan Kaufmann, San Mateo, CA, 1993.
+6.	S. L. Lauritzen and D. J. Spiegelhalter, Local computations with probabilities on
+graphical structures and their application to expert systems. J. Royal Stat. Soc.,
+Ser. B 1989. Reprinted as pp. 415—448 in: Readings in Uncertain Reasoning (G.
+Shafer and J. Pearl, eds.). Morgan Kaufmann, San Mateo, CA, 1990.
+7.	P. Myllymäki, Bayesian Reasoning by Stochastic Neural Networks. Ph. Lic. Thesis,
+Report C-1993-67, Department of Computer Science, University of Helsinki, 1993.
+8.	P. Myllymäki and P. Orponen, Programming the Harmonium. Pp. 671—677 in:
+Proc. of the International Joint Conf. on Neural Networks (Singapore, Nov. 1991),
+Vol. 1. IEEE, New York, NY, 1991.
+9.	P. Myllymäki and H. Tirri, Bayesian Case-Based Reasoning with Neural Networks.
+Pp. 422—427 in: Proc. of the IEEE International Conf. on Neural Networks (San
+Francisco, March 1993), Vol. 1. IEEE, Piscataway, NJ, 1993.
+10.	P. Myllymäki and H. Tirri, Learning in neural networks with Bayesian prototypes.
+Pp. 60—64 in: Proceedings of SOUTHCON’94 (Orlando, March 1994).
+11.	R. Neapolitan, Probabilistic Reasoning in Expert Systems. Wiley Interscience, New
+York, NY, 1990.
+12.	P. Orponen, P. Floréen, P. Myllymäki, H. Tirri, A neural implementation of conceptual 
+hierarchies with Bayesian reasoning. Pp. 297—303 in: Proc. of the International
+Joint Conf. on Neural Networks (San Diego, CA, June 1990), Vol. 1. IEEE, New
+York, NY, 1990.
+13.	J. Pearl, Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference. 
+Morgan Kaufmann, San Mateo, CA, 1988.
+14.	DE. Rumelhart and J.L.McClelland (eds.),Parallel distributed processing: explorations 
+in the microstructures of cognition. Vol 1,2. MIT Press, Cambridge, MA,
+1986.
+15.	H. Tirri and P. Myllymäki, MDL learning of probabilistic neural networks for
+discrete problem domains. To be presented at the IEEE World Congress on Computational 
+Intelligence (Orlando, June 1994).

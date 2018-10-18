@@ -1,0 +1,73 @@
+A Multiple-Domain Evaluation of
+Stratified Case-Based Reasoning
+
+L. Karl Branting and Yi Tao
+Department of Computer Science
+University of Wyoming
+Laramie, WY, USA
+karl@uwyo.edu
+
+
+Abstract. Stratified case-based reasoning (SCBR) is a technique in which case
+abstractions are used to assist case retrieval, matching, and adaptation. Previous
+work has shown that SCBR can significantly decrease the computational
+expense required for retrieval, matching, and adaptation under a variety of
+different problem conditions. This paper extends this work to two new domains:
+a problem in combinatorial optimization, sorting by prefix reversal; and
+logistics planning. An empirical evaluation in the prefix-reversal problem
+showed that SCBR reduced search cost, but severely degraded solution quality.
+By contrast, in logistics planning, use of SCBR as an indexing mechanism led
+to faster solution times and permitted more problems to be solved than either
+hierarchical problem solving (by ALPINE) or ground level CBR (by SPA)
+alone. The primary factor responsible for the difference in SCBR’s performance
+in these two domains appeared to be that the optimal-case utility was low in the
+prefix-reversal task but high in logistics planning.
+References
+
+1.	F. Bacchus and Q. Yang, Downward Refinement and the Efficiency of Hierarchical
+Problem Solving, Artificial Intelligence, 7 1:43-100, 1996.
+2.	R. Bergmann and W. Wilke, On the Role of Abstraction in Case-Based Reasoning,
+Advances in Case-Based Reasoning, Third European Workshop, Springer Verlag,
+1996.
+3.	R. Bergmann and W. Wilke, Building and Refining Abstract Planning Cases by
+Change of Representation Language, Journal of Artificial Intelligence Research,
+3:53-118, 1996.
+4.	L. K. Branting & D. W. Aha, Stratified Case-Based Reasoning: Reusing Hierarchical 
+Problem Solving Episodes, Proceedings of the Fourteenth International Joint
+Conference on Artificial Intelligence (IJCAI-95), Montreal, Canada, August, pp. 20
+—25,	1995.
+5.	L. K. Branting, Stratified Case-Based Reasoning in Non-Refinable Abstraction Hierarchies, 
+Proceedings of the Second International Conference on Case-Based Reasoning, 
+Springer, pp. 5 19-530, JuLy 1997.
+6.	A. Caprara, Sorting by Reversals is difficult, Proceedings of the First Annual International 
+Conference on Computational Molecular Biology, pp. 75-83, January 1997.
+7.	J. G. Carbonell, C. A. Knoblock, and S. Minton. Prodigy: An integrated architecture for planning 
+and learning, In K. Vanlehn, editor, Architectures for Intelligence,
+Erlbaum, Hillsdale, NJ, 1990.
+8.	J. Christensen. A hierarchical planner that generates its own hierarchies. Proceedings 
+of the Eighth National Conference on Artificial Intelligence, pp. 1004-1009,
+AAAI Press:Boston, MA (1990).
+9.	W. H. Gates, Bounds for Sorting by Prefix Reversal, Discrete Mathematics, 27:47-
+57 (1979).
+10.	S. Hanks and D. S. Weld, A Domain-Independent Algorithm for Plan Adaptation,
+Journal of Artificial Intelligence Research 2:319-360, 1995.
+11.	R. Holte, C. Drummond, M. Perez, R. Zimmer, and A. MacDonald, Search With
+Abstractions: A Unifying Framework and New High-Performance Algorithm, Pro-
+ceedings of the Tenth Canadian Conference on Artificial Intelligence, Morgan
+Kaufmann, pp. 263-270 (1994).
+12. 	S. Kambhampti and J. Hendler, A Validation-Structure-Based Theory of Plan Modification, 
+Artificial Intelligence 55:193-258, 1992.
+13.	G.Klein and R. Calderwood, How do People Use Analogues to Make Decisions?,
+Proceedings of the DARPA Workshop on Case-Based Reasoning, Morgan Kaufman
+Publishers, Inc., 1988.
+14.	C. A. Knoblock, Automatically Generating Abstractions for Planning, Artificial
+Intelligence 68(2):243-302, 1994.
+15.	J. Setubal and J. Meidanis, Introduction to Computational Molecular Biology, PWS
+Publishing Co., 1997.
+16.	B. Smyth and P. Cunningham, Deja Vu: A Hierarchical Case-Based Reasoning System 
+for Software Design, Proceedings of the European Conference on AI, John Wiley,
+pp. 587-589 (1992)
+17.	B. Smyth and M. Keane, Adaptation-Guided Retrieval: Questioning the Similarity
+Assumption in Reasoning, Artificial Intelligence (in press) 1999.
+18.	Y. Tao, A Multiple-Domain Evaluation of Stratified Case-Based Reasoning, M.S.
+Thesis, Department of Computer Science, University of Wyoming, August, 1998.

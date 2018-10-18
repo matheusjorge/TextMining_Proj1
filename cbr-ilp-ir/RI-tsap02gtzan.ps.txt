@@ -1,0 +1,119 @@
+Musical Genre Classification of Audio Signals
+
+George Tzanetakis, Student Member, IEEE, and Perry Cook, Member, IEEE
+
+Abstract---Musical genres are categorical labels created by hu­mans 
+to characterize pieces of music. A musical genre is char­acterized 
+by the common characteristics shared by its members.
+These characteristics typically are related to the instrumentation,
+rhythmic structure, and harmonic content of the music. Genre hi­erarchies 
+are commonly used to structure the large collections of
+music available on the Web. Currently musical genre annotation
+is performed manually. Automatic musical genre classification can
+assist or replace the human user in this process and would be a valuable 
+addition to music information retrieval systems. In ad­dition, 
+automatic musical genre classification provides a framework 
+for developing and evaluating features for any type of con­tent­-based 
+analysis of musical signals.
+In this paper, the automatic classification of audio signals into
+an hierarchy of musical genres is explored. More specifically,
+three feature sets for representing timbral texture, rhythmic
+content and pitch content are proposed. The performance and
+relative importance of the proposed features is investigated by
+training statistical pattern recognition classifiers using real­world
+audio collections. Both whole file and real­time frame­-based
+classification schemes are described. Using the proposed feature
+sets, classification of 61% for ten musical genres is achieved. This
+result is comparable to results reported for human musical genre
+classification.
+
+
+REFERENCES
+[1] F. Pachet and D. Cazaly, ``A classification of musical genre,'' in Proc.
+RIAO Content­Based Multimedia Information Access Conf., Paris,
+France, Mar. 2000.
+[2] S. Davis and P. Mermelstein, ``Experiments in syllable­based recognition
+of continuous speech,'' IEEE Trans. Acoust., Speech, Signal Processing,
+vol. 28, pp. 357--366, Aug. 1980.
+[3] J. Saunders, ``Real time discrimination of broadcast speech/music,'' in
+Proc. Int. Conf. Acoustics, Speech, Signal Processing (ICASSP), 1996,
+pp. 993--996.
+[4] E. Scheirer and M. Slaney, ``Construction and evaluation of a robust
+multifeature speech/music discriminator,'' in Proc. Int. Conf. Acoustics,
+Speech, Signal Processing (ICASSP), 1997, pp. 1331--1334.
+[5] D. Kimber and L. Wilcox, ``Acoustic segmentation for audio browsers,''
+in Proc. Interface Conf., Sydney, Australia, July 1996.
+[6] T. Zhang and J. Kuo, ``Audio content analysis for online audiovisual data
+segmentation and classification,'' Trans. Speech Audio Processing, vol.
+9, pp. 441--457, May 2001.
+[7] A. L. Berenzweig and D. P. Ellis, ``Locating singing voice segments
+within musical signals,'' in Proc. Int. Workshop on Applications of Signal
+Processing to Audio and Acoustics (WASPAA) Mohonk, NY, 2001, pp.
+119--123.
+[8] E. Wold, T. Blum, D. Keislar, and J. Wheaton, ``Content­-based classifi­cation, 
+search, and retrieval of audio,'' IEEE Multimedia, vol. 3, no. 2,
+1996.
+[9] J. Foote, ``Content­based retrieval of music and audio,'' Multimed.
+Storage Archiv. Syst. II, pp. 138--147, 1997.
+[10] G. Li and A. Khokar, ``Content­based indexing and retrieval of audio
+data using wavelets,'' in Proc. Int. Conf. Multimedia Expo II, 2000, pp.
+885--888.
+[11] S. Li, ``Content­based classification and retrieval of audio using the
+nearest feature line method,'' IEEE Trans. Speech Audio Processing,
+vol. 8, pp. 619--625, Sept. 2000.
+[12] E. Scheirer, ``Tempo and beat analysis of acoustic musical signals,'' J.
+Acoust. Soc. Amer., vol. 103, no. 1, p. 588, 601, Jan. 1998.
+[13] M. Goto and Y. Muraoka, ``Music understanding at the beat level:
+Real­time beat tracking of audio signals,'' in Computational Auditory
+Scene Analysis, D. Rosenthal and H. Okuno, Eds. Mahwah, NJ:
+Lawrence Erlbaum, 1998, pp. 157--176.
+[14] J. Laroche, ``Estimating tempo, swing and beat locations in audio record­
+ings,'' in Proc. Int. Workshop on Applications of Signal Processing to
+Audio and Acoustics WASPAA, Mohonk, NY, 2001, pp. 135--139.
+[15] J. Seppänen, ``Quantum grid analysis of musical signals,'' in Proc. Int.
+Workshop on Applications of Signal Processing to Audio and Acoustics
+(WASPAA) Mohonk, NY, 2001, pp. 131--135.
+[16] J. Foote and S. Uchihashi, ``The beat spectrum: A new approach to
+rhythmic analysis,'' in Proc. Int. Conf. Multimedia Expo., 2001.
+[17] G. Tzanetakis, G. Essl, and P. Cook, ``Automatic musical genre classifi­cation 
+of audio signals,'' in Proc. Int. Symp. Music Information Retrieval
+(ISMIR), Oct. 2001.
+[18] L. Rabiner and B. H. Juang, Fundamentals of Speech Recogni­tion. Englewood Cliffs, NJ: Prentice­Hall, 1993.
+[19] B. Logan, ``Mel frequency cepstral coefficients for music modeling,'' in
+Proc. Int. Symp. Music Information Retrieval (ISMIR), 2000.
+[20] S. G. Mallat, A Wavelet Tour of Signal Processing. New York: Aca­demic, 1999.
+[21] I. Daubechies, ``Orthonormal bases of compactly supported wavelets,''
+Commun. Pure Appl. Math, vol. 41, pp. 909--996, 1988.
+[22] T. Tolonen and M. Karjalainen, ``A computationally efficient multip­itch 
+analysis model,'' IEEE Trans. Speech Audio Processing, vol. 8, pp.
+708--716, Nov. 2000.
+[23] G. Tzanetakis, G. Essl, and P. Cook, ``Audio analysis using the discrete
+wavelet transform,'' in Proc. Conf. Acoustics and Music Theory Appli­
+cations, Sept. 2001.
+[24] M. A. Bartsch and G. H. Wakefield, ``To catch a chorus: Using chroma­
+based representation for audio thumbnailing,'' in Proc. Int. Workshop on
+Applications of Signal Processing to Audio and Acoustics Mohonk,
+NY, 2001, pp. 15--19.
+[25] R. N. Shepard, ``Circularity in judgments of relative pitch,'' J. Acoust.
+Soc. Amer., vol. 35, pp. 2346--2353, 1964.
+[26] J. Pierce, ``Consonance and scales,'' in Music Cognition and Comput­erized 
+Sound, P. Cook, Ed. Cambridge, MA: MIT Press, 1999, pp.
+167--185.
+[27] J.­J. Aucouturier and M. Sandler, ``Segmentation of musical signals
+using hidden Markov models,'' in Proc. 110th Audio Engineering
+Society Convention, Amsterdam, The Netherlands, May 2001.
+[28] G. Tzanetakis and P. Cook, ``Multifeature audio segmentation for
+browsing and annotation,'' in Proc. Workshop Applications of Signal
+Processing to Audio and Acoustics (WASPAA), New Paltz, NY, 1999.
+[29] R. Duda, P. Hart, and D. Stork, Pattern Classification. New York:
+Wiley, 2000.
+[30] D. Perrot and R. Gjerdigen, ``Scanning the dial: An exploration of fac­
+tors in identification of musical style,'' in Proc. Soc. Music Perception
+Cognition, 1999, p. 88, (abstract).
+[31] D. Pye, ``Content­based methods for the management of digital music,''
+in Proc. Int. Conf Acoustics, Speech, Signal Processing (ICASSP), 2000.
+[32] G. Tzanetakis and P. Cook, ``Sound analysis using MPEG compressed
+audio,'' in Proc. Int. Conf. Acoustics, Speech, Signal Processing
+(ICASSP), Istanbul, Turkey, 2000.
+[33] , ``Marsyas: A framework for audio analysis,'' Organized Sound,
+vol. 4, no. 3, 2000.

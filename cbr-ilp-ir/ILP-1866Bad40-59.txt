@@ -1,0 +1,74 @@
+A Refinement Operator for Description Logics
+
+Liviu Badea1 and Shan-Hwei Nienhuys-Cheng2
+
+1 AI Lab, National Institute for Research and Development in Informatics
+8-10 Averescu Blvd., Bucharest, Romania.
+badea@ici.ro
+2 Erasmus University Rotterdam, 119-14, Post Box 1738
+3000 DR, Rotterdam, The Netherlands.
+cheng@few.eur.ni
+
+
+
+Abstract. While the problem of learning logic programs has been extensively 
+studied in ILP, the problem of learning in description logics (DLs)
+has been tackled mostly by empirical means. Learning in DLs is however 
+worthwhile, since both Horn logic and description logics are widely
+used knowledge representation formalisms, their expressive powers being
+incomparable (neither includes the other as a fragment). Unlike most approaches 
+to learning in description logics, which provide bottom-up (and
+typically overly specific) least generalizations of the examples, this paper 
+addresses learning in DLs using downward (and upward) refinement
+operators. Technically, we construct a complete and proper refinement
+operator for the ALER description logic (to avoid overfitting, we disallow 
+disjunctions from the target DL). Although no minimal refinement
+operators exist for ALER, we show that we can achieve minimality of
+all refinement steps, except the ones that introduce the I concept. We
+additionally prove that complete refinement operators for ALER cannot
+be locally finite and suggest how this problem can be overcome by an
+MDL search heuristic. We also discuss the influence of the Open World
+Assumption (typically made in DLs) on example coverage.
+References
+
+1.	Baader F., Küsters R. Least common subsumer computation w.r.t. cyclic ALN-
+terminologies. In Proc. Int. Workshop on Description Logics (DL’98), Trento, Italy.
+2.	Baader F., R. Küsters, R. Molitor. Computing Least Common Subsumers in Description 
+Logics with Existential Restrictions. Proc. IJCAI’99, pp. 96-101.
+3.	Badea Liviu, Stanciu Monica. Refinement Operators Can Be (Weakly) Perfect. Proc.
+ILP-99, LNAI 1631, Springer, 1999, pp. 21-32.
+4.	Badea Liviu. Perfect Refinement Operators Can Be Flexible. Proc. ECAI-2000.
+5.	Borgida A. On the relative Expressiveness of Description Logics and Predicate Logics. 
+Artificial Intelligence, Vol. 82, Number 1-2, pp. 353-367, 1996.
+6.	Buchheit M., F. Donini, A. Schaerf. Decidable reasoning in terminological knowledge
+representation systems. J. Artificial Intelligence Research, 1:109-138, 1993.
+7.	Cohen W.W., A. Borgida, H. Hirsh. Computing least common subsumers in description 
+logics. Proc. AAAI-92, San Jose, California, 1992.
+8.	Cohen W.W., H. Hirsh. Learning the CLASSIC description logic: Theoretical and
+experimental results. In Principles of Knowledge Representation and Reasoning: Proceedings 
+of the Fourth International Conference, pp. 121-133, 1994.
+9.	Donini F.M., M. Lenzerini, D. Nardi, W. Nutt. The complexity of concept languages.
+Information and Computation, 134:1-58, 1997.
+10.	Donini F.M., M. Lenzerini, D. Nardi, A. Schaerf AL-log: integrating datalog and
+description logics. Journal of Intelligent Information Systems, 10:227-252, 1998.
+11.	Donini F.M., M. Lenzerini, D. Nardi, A. Schaerf, W. Nutt. An epistemic operator
+for description logics. Artificial Intelligence, 100 (1-2), 225-274, 1998.
+12.	Kietz J.U., Morik K. A Polynomial Approach to the Constructive Induction of
+Structural Knowledge. Machine Learning, Vol. 14, pp. 193-217, 1994.
+13.	Kietz J.U. Some lower-bounds for the computational complexity of Inductive Logic
+Programming. Proc. ECML’93, LNAI 667, Springer, 1993.
+14.	Levy A., M.C. Rousset. CARIN: A Representation Language Combining Horn
+Rules and Description Logics. Proc. ECAI-96, Budapest, 1996.
+15.	Levy A., M.C. Rousset. The Limits on Combining Horn Rules with Description
+Logics. Proc. AAAI-96, Portland, 1996.
+16.	Muggleton S. Inverse entailment and Progol. New Generation Computing Journal,
+13:245-286, 1995.
+17.	van den Laag P., S.H. Nienhuys-Cheng. A Note on Ideal Refinement Operators in
+Inductive Logic Programming. Proceedings ILP-94, 247-260.
+18.	van den Laag P., S.H. Nienhuys-Cheng. Existence and Nonexistence of Complete
+Refinement Operators. ECML-94, 307-322.
+19.	Nienhuys-Cheng S.H., de Wolf R. Foundations of Inductive Logic Programming.
+LNAI 1228, Springer Verlag, 1997.
+20.	Nienhuys-Cheng S-H., W. Van Laer, J. Ramon, and L. De Raedt. Generalizing
+Refinement Operators to Learn Prenex Conjunctive Normal Forms. Proc. ILP-99,
+LNAI 1631, Springer, 1999, pp. 245-256.

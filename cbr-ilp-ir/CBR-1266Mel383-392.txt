@@ -1,0 +1,61 @@
+Solution-Relevant Abstractions Constrain
+Retrieval and Adaptation
+
+Erica Melis*
+
+Universität des Saarlandes, FB Informatik
+D-66041 Saarbrücken, Germany. melisc@cs.uni-sb.de
+
+
+
+Abstract. Two major problems in case-based reasoning are the efficient
+and justified retrieval of source cases and the adaptation of retrieved
+solutions to the conditions of the target. For analogical theorem proving
+by induction, we describe how a solution-relevant abstraction can restrict
+the retrieval of source cases and the mapping from the source problem to
+the target problem and how it can determine reformulations that further
+adapt the source solution.
+References
+
+1.	R. Bergmann and W. Wilke. On the role of abstraction in case-based reasoning.
+In B. Faltings and I. Smith, editors, Fourth European Workshop on Case-Based
+Reasoning (EWCBR-96), Lausanne, 1996.
+2.	K. Börner. Structural similarity as guidance in case-based design. In First European 
+Workshop on Case-Based Reasoning 1999, volume LNAI, Berlin, 1994.
+Springer Verlag.
+3.	A. Bundy, F. van Harmelen, J. Hesketh, and A. Smaill. Experiments with proof
+plans for induction. Journal of Automated Reasoning, 7:303—324, 1991.
+4.	T.R. Davis and S.J. Russell. A logical approach to reasoning by analogy. In
+Proceedings of the 10th International Joint Conference on Artificial Intelligence,
+pages 264—270, Milan Italy, 1987. Morgan Kaufmann.
+5.	D. Gentner. Structure mapping: A theoretical framework for analogy. Cognitive
+Science, 7(2):155—170, 1983.
+6.	M. Hesse. Models and Analogies in Science. Indiana: University of Notre Dame
+Press, Notre Dame, 1966.
+7.	K.J. Holyoak and P. Thagard. Analogical mapping by constraint satisfaction. Cognitive 
+Science, 13:295—355, 1989.
+8.	D. Hutter. Synthesis of induction orderings for existence proofs. In A. Bundy,
+editor, Proceedings of 12th International Conference on Automated Deduction
+(CADE-12), Lecture Notes in Artificial Intelligence 814, pages 29—41. Springer,
+1994.
+9.	Th. Kolbe and Gh. Walther. Reusing proofs. In Proceedings of 11th
+European Conference on Artificial Intelligence (ECAI-94), Amsterdam, 1994.
+http://kirmes.inferenzsysteme.informatik.th-darmstadt.de/kolbe/.
+10.	E. Melis. Analogy in CLAM. Technical Report DAI Research Paper No 766,
+University of Edinburgh, AI Dept, Dept. of Artificial Intelligence, Edinburgh, 1995.
+available from http://jswww.cs.uni-sb.de/~melis/.
+11.	E. Melis. A model of analogy-driven proof-plan construction. In Proceedings of
+the 14th International Joint Conference on Artificial Intelligence, pages 182—189,
+Montreal, 1995.
+12.	B. Smyth and M.T. Keane. Retrieving adaptable cases. In Topics in Case-Based
+Reasoning, pages 209—220, Berlin, 1994. Springer.
+13.	M.M. Veloso. Planning and Learning by Analogical Reasoning. Springer, Berlin,
+New York, 1994.
+14.	A. Villafiorita and F. Giunchiglia. Inductive theorem proving via abstraction. In
+Proceedings of the Fourth International Symposium on Artificial Intelligence and
+Mathematics, AI/MA TH96, pages 150—153, Fort Lauderdale, Florida, 1996.
+15.	5. Wess. Fallbasiertes Pro blemlösen in wissensbasierten Systemen zur
+Entscheidungsunterstützung und Diagnostik. PhD thesis, FB Informatik,
+Univ.Kaiserslautern, January 1995.
+16.	J. Whittle. Analogy in CLAM. Technical Report MSc.thesis, University of Edinburgh, 
+Dept. of Al, Edinburgh, 1995.

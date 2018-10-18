@@ -1,0 +1,67 @@
+Large-Scale Fault Diagnosis
+for On-Board Train Systems
+
+B.D. Netten1 , R.A. Vingerhoeds1,2
+
+1	Delft University of Technology, Faculty of Technical Mathematics and Informatics,
+Knowledge Based Systems Group, Julianalaan 132, 2628 BL Delft, The Netherlands.
+E-mail: bart@kgs.twi. tudelft.nl, rob@kgs.twi.tudelft.nl
+2	University of Wales Swansea, Department of Electrical and Electronic Engineering,
+Singleton Park, Swansea SA2 8PP, United Kingdom.
+
+
+Abstract
+A new approach is developed for fault diagnosis during different stages of
+development and operation of large train systems, incorporating case-based
+reasoning, conditional probabilities and indexing networks. Due to the size and
+complexity, the explicit, complete and accurate modelling of the on-board train
+systems is regarded impossible. The knowledge is implicitly available in fault-cases
+with possible symptoms, test results and actions. Off-line, different diagnostic
+systems are automatically maintained and (re)generated. Knowledge and experience
+of manufacturers and railway companies are fed back into all systems, but only after
+validation by authorised personnel. On-line, the system responses are consistent and
+fast enough, despite the size and uncertainty in the fault-cases. Available case-based
+reasoning tools have serious limitations in permissible size of the problem, handling
+probability factors, meeting required response times and satisfying the real-time
+requirements. The novelty of the proposed approach is that fault-networks, rather
+than fault-trees, are built automatically as the indexing structure of the case-base for
+on-line use.
+8 References
+Aamodt A, E. Plaza (1994). Case-Based Reasoning: Foundational Issues, Methodological
+Variations, and System Approaches. Al Communications, 7, nr. 1, March, pp. 39-52.
+
+Auriol E., M. Manago, K.D. Althoff, S. Wess, S. Dittrich (1994). Integrating Induction and
+Case-Based Reasoning: Methodolological Approach and First Evaluations. 2nd) European
+Workshop on Case-Based Reasoning, (eds.) M. Keane, J.P. Haton, M. Manago, Chantilly, 7-10
+November, pp 145-156.
+Forgy, C.L. (1982). Rete: A fast Algorithm for the Many pattern/Many Object Pattern Match
+Problem. Artificial Intelligence, 19, pp. 17-37.
+
+Johnson, K. (1994). Evolution of the Trouble Shooting Manual for the
+A319/A320/A321/A330/A340 Central Maintenance System. FAST Airbus Technical Digest, nr. 16,
+pp. 10-15.
+
+Keane M., J.P. Haton, M. Manago, (Eds.) (1994). Second European Workshop on Case-Based
+Reasoning. AcknoSoft Press (Paris), Chantilly, 7-10 November.
+
+Myllymäki P., H. Tim (1993). Massively Parallel Case-Based Reasoning with Probabilistic
+Similarity Metrics. First European Workshop on Case-Based Reasoning, (eds.) M.M. Richter, S.
+Wess, K.-D. Althoff, F. Maurer, SEKI Report SR-93-12, University of Kaiserslautern, pp 48-53.
+
+Neapolitan R.E. (1990). Probabilistic Reasoning in Expert Systems: Theory and Algorithms. John
+Wiley & Sons.
+
+Netten B.D., R.A. Vingerhoeds (1994). Automatic Fault-Tree Generation, A Generic Approach for
+Fault Diagnosis Systems. IFAC Workshop Safety, Reliability and Applications of Emerging
+Intelligent Control Techniques, Hong Kong, 12-14 december, pp 182-187.
+
+Richter M.M., S. Wess, K.-D. Althoff, F. Maurer (Eds.) (1993). First European Workshop on Case-Based 
+Reasoning. SEKI Report SR-93-12, University of Kaiserslautern, 1-5 November.
+
+Vepa R. (1992). Monitoring and Fault Diagnosis in Control Engineering, in: Application of
+Artificial Intelligence in Process Control, (eds.) L. Boullart, A. Krijgsman, R.A Vingerhoeds.
+Pergamon Press, pp. 456496.
+
+Woltering A., Schult T.J. (1993). Management Strategy Consultation Using a Case-Based
+Reasoning Shell. First European Workshop on Case-Based Reasoning. (eds.) M.M. Richter, S.
+Wess, K.-D. Althoff, F. Maurer, SEKI Report SR-93-12, University of Kaiserslautern, pp 227-232.

@@ -1,0 +1,88 @@
+Integrating Rules and Cases for the Classification Task
+
+
+
+Jerzy Surma
+Department of Computer Science
+University of Economics
+Komandorska 118/120, Wroclaw, Poland
+Email: surma@ksk-2.iie.ae.wroc.pl
+Koen Vanhoof
+Faculty of Applied Economics Science
+Limburgs University Center
+B-3590 Diepenbeek, Belgium
+Email: vanhoof@rsftew.luc.ac.be
+
+
+
+Abstract. The recent progress in Case- Based Reasoning has shown that one of the
+most important challenges in developing future AL methods will be to combine and
+synergistically utilize general and case-based knowledge. In this paper a very
+rudimentary kind of integration for the classification task, based on simple
+heuristics, is sketched: “To solve a problem, first try to use the conventional rule-based 
+approach. If it does not work, try to remember a similar problem you have
+solved in the past and adapt the old solution to the new situation”. This heuristic
+approach is based on the knowledge base that consists of rule base and exception
+case base. The method of generating this kind of knowledge base from a set of
+examples is described. The proposed approach is tested, and compared with
+altemative approaches. The experimental results show that the presented integration
+method can lead to an improvement in accuracy and comprehensibility.
+References
+
+Aamodt, A. (1991). A Knowledge- Intensive, Integrated Approach to Problem Solving and
+Sustained Learning. A Doctoral Dissertation - University of Trondheim.
+Aamodt, A. (1995). Knowledge Acquisition and Learning by Experience - The Role of Case-Specific 
+Knowledge. In Kodratoff, Y., Tecuci, G. (eds.) On Integration of Knowledge
+Acquisition and Machine Learning. Academic Press (in press).
+Aha, D.W. (1992). Tolerating noisy, irrelevant and novel attributes in instance- based
+learning algorithms. International Journal of Man Machine Studies, vol.36, pp.267-287.
+Armengol, E., Plaza, E; (1994). Integrating Induction in a Case- Based Reasoner. In Proceed
+of the Second European Conference on Case- Based Reasoning. AcknoSoft Press, Paris,
+pp.243-252.
+Auriol, E., Manago, M., Althoff, K.D., Wess, S., Dittrich,S. (1994). Integration Induction and
+Case- Based Reasoning: Methodological Approach and First Evaluation. In Proceed. of the
+Second European Conference on Case- Based Reasoning. AcknoSoft Press, Paris, pp.145-
+156.
+Bamberger, S.K., Goos, K. (1993). Integration of Case- Based Reasoning and Inductive
+Learning Methods. In Proceed, of the First European Conference on Case- Based
+Reasoning. SEKI Report SR-93-12. University of Kaiserslautern, pp. 296-300.
+Biberman, Y. (1995). The Role of Prototypicality in Exemplar-Based Leaming. In Machine
+Learning: ECML-95, (Eds.) Lavrac, N., Wrobel, S., Springer Verlag. pp.77-91.
+Barletta, R. (1994). A Hybrid Indexing and Retrieval Strategy for Advisory Case- Based
+Reasoning Systems Built with ReMind. In Proceed, of the Second European Conference
+on Case- Based Reasoning. AcknoSoft Press, Paris, pp.49-58.
+Cardie, C. (1993). Using Decision Trees to Improve Case- Based Learning. In Proceed. of the
+Tenth International Conference on Machine Learning. Morgan Kaufmann, pp.25-32.
+Cost, S., Salzberg, 5. (1993). A Weighted Nearest Neighbor Algorithm for Learning with
+Symbolic Features. Machine Learning vol.10, pp.57-78.
+Golding, A.R., Rosenbloom, P.S. (1991). Improving Rule- Based System through Case- Based
+Reasoning. In Proceed. of the 1991 National Conference on AI The MIT Press, pp.22-27.
+Hammond, KJ. (1988). Explaining and Repairing Plans That Fails. Artificial Intelligence
+vol.45, pp.173-228.
+Kohavi, R., John, G., Long, R., Manley, D., Pflager, K. (1994). MLC++. A Machine Learning
+Library in C++. In Tools with Artificial Intelligence Conference.
+Koton, P.A. (1988). Reasoning about Evidence in Causal Explanations. In Proceed. AAAI-88,
+Morgan Kaufmann, Los Altos, pp.256-261.
+Lenz, M. (1993). Cabata - A hybrid Case- Based Reasoning system. In Proceed. of the First
+European Conference on Case- Based Reasoning. SEKI Report SR-93-12. University of
+Kaiserslautern, pp. 204-209.
+Malek, M., Rialle, V. (1994). A Case- Based Reasoning System Applied to Neuropathy
+Diagnosis. In Proceed. of the Second European Conference on Case- Based Reasoning.
+AcknoSoft Press, Paris, pp.329-336.
+Manago, M., Althoff, K.D., Auriol, E., Traphoner, R., Wess, S., Conruyt, N., Maurer, F.
+(1993). Induction and Reasoning from Cases. In Proceed. of the first European
+Conference on Case- Based Reasoning. SEKI Report SR-93-12. University of
+Kaiserslautern, pp. 204-209.
+Matwin, S., Plante, B. (1994). Theory Revision by Analyzing Explanations and Prototypes. In
+Michalski, R., Tecuci,G. (ads.) Machine Learning vol.4, Morgan Kaufmann, San Mateo.
+Quinlan, J.R. (1993). C4.5: Programs for Machine Learning. Morgan Kaufmann, San Mateo.
+Riesbeck, C.K., Schank, R.C. (1989). Inside Case- Based Reasoning. Lawrence Erlbaum,
+Hillsdale.
+Rissland, E.L., Skalak D.B. (1991). CABARET: rule integration in a hybrid architecture.
+International Journal of Man- Machine Studies, vol.34, pp.839-887.
+Surma, J. (1994). Enhancing Similarity Measure with Domain Specific Knowledge”. In
+Proceed. of the Second European Conference on Case- Based Reasoning. AcknoSoft
+Press, Paris, pp.365-371.
+Utgoff, P.E. (1989). Incremental Decision Tress. Machine Learning, vol.4, pp.161-186.
+Zhang, J. (1992). Selecting Typical Instances in Instance- Based Learning. In Proc. of the 9th
+Int. Conf. on Machine Learning. Morgan Kaufmann, pp.470479.

@@ -1,0 +1,89 @@
+Application of Different Learning Methods to
+Hungarian Part-of-Speech Tagging
+
+Tamás Horváth1, Zoltán Alexin2, Tibor Gyimóthy3, and Stefan Wrobel4,1
+
+1 German National Research Center for Information Technology, GMD - AiS.KD,
+Schloß Birlinghoven, D-53754 Sankt Augustin, tamas.horvath@gmd.de
+2 Dept. of Applied Informatics, József Attila University,
+P.O.Box 652, H-6701 Szeged, alexin@inf.u-szeged.hu
+3 Research Group on Artificial Intelligence, Hungarian Academy of Sciences,
+Aradi vértanuk tere 1, H-6720 Szeged, gyimi@inf.u-szeged.hu
+4 Otto-von-Guericke-Universität Magdehurg, IWS,
+P.O.Box 4120, D-39106 Magdeburg, wrobel@iws.cs.uni-magdeburg.de
+
+
+
+Abstract. From the point of view of computational linguistics, Hungarian 
+is a difficult language due to its complex grammar and rich morphology. 
+This means that even a common task such as part-of-speech tagging
+presents a new challenge for learning when looked at for the Hungarian
+language, especially given the fact that this language has fairly free word
+order. In this paper we therefore present a case study designed to illustrate 
+the potential and limits of current ILP and non-ILP algorithms
+on the Hungarian POS-tagging task. We have selected the popular C4.5
+and Progol systems as propositional and ILP representatives, adding experiments 
+with our own methods AGLEARN, a C4.5 preprocessor based
+on attribute grammars, and the ILP approaches PHM and RIBL. The
+systems were compared on the Hungarian version of the multilingual
+morphosyntactically annotated MULTEXT-East TELRJ corpus which
+consists of about 100.000 tokens. Experimental results indicate that Hungarian 
+POS-tagging is indeed a challenging task for learning algorithms,
+that even simple background knowledge leads to large differences in accuracy, 
+and that instance-based methods are promising approaches to
+POS tagging also for Hungarian. The paper also includes experiments
+with some different cascade connections of the taggers.
+References
+
+[1] E. H. L. Aarts and J. K. Lenstra, editors. Local Search in Combinatorial Optimization. 
+Discrete Mathematics and Optimization. Wiley-Interscience, 1997.
+[2]	Z. Alexin, S. Zvada, and T. Gyimóthy. Application of AGLEARN on Hungarian
+Part-of-speech Tagging. In D. Parigot and M. Mernik, editors, Second Workshop 
+on Attribute Grammars and their Applications, WAGA ‘99, pages 133—152,
+Amsterdam, The Netherlands, 1999. INRIA Rocquencourt.
+[3]	U. Bohnebeck, T. Horváth, and S. Wrobel. Term comparisons in first-order similarity 
+measures. In D. Page, editor, Proc. 8th Int. Conference on Inductive Logic
+Programming (1LP98), pages 65—79. Springer Verlag, 1998.
+[4]	E. Brill. Some advances in transformation-based part of speech tagging. In Proceedings 
+of the 12th National Conference on Artificial Intelligence. Volume 1,
+pages 722—727. AAAI Press, July 31—Aug. 4 1994.
+[5]	J. Cussens. Part-of-speech tagging using Progol. In N. Lavrac and S. Dzeroski,
+editors, Proceedings of the 7th International Workshop on Inductive Logic Programming, 
+volume 1297 of LNAI, pages 93—108. Springer, Sept. 17—20 1997.
+[6]	J. Cussens. Using prior probabilities and density estimation for relational classification. 
+Lecture Notes in Computer Science, 1446:106—115, 1998.
+[7]	W. Daelemans, A. v. d. Bosch, and J. Zavrel. Rapid development of NLP modules
+with memory-based learning. In Proc. of ELSNET in Wonderland, Utrecht, pages
+105—113, 1998.
+[8]	S. Dzeroski and N. Lavrac. Inductive learning in deductive databases. IEEE
+Transactions on Knowledge and Data Engineering: Special Issue on Learning and
+Discovery in Knowledge-Based Databases, 5(6):939—949, Dec. 1993.
+[9]	M. Eineborg and N. Lindberg. Induction of constraint grammar-rules using Progol. 
+Lecture Notes in Computer Science, 1446:116—124, 1998.
+[10]	W. Emde and D. Wettschereck. Relational instance based learning. In L. Saitta,
+editor, Machine Learning - Proceedings 12th International Conference on Machine
+Learning, pages 122—130. Morgan Kaufmann Publishers, 1996.
+[11]	T. Erjavec, A. Lawson, and L. R. (eds.). East meets west: A compendium of
+multilingual resources, 1998. CD-ROM, produced and distributed by TELRI
+Association e.V., ISBN:3-922641-46-6.
+[12]	T. Gyimóthy and T. Horváth. Learning semantic functions of attribute grammars.
+Nordic Journal of Computing, 4(3):287—302, Fall 1997.
+[13]	H. v. Halteren, J. Zavrel, and W. Daelemans. Improving data driven wordclass
+tagging by system combination. In Proc. of COLING-ACL‘98, Montreal, Canada,
+pages 491—497, 1998.
+[14] T. Horváth. Learning logic programs with structured background knowledge. PhD
+thesis, German National Research Center for Information Technology, 1999.
+[15]	T. Horváth, R. H. Sloan, and G. Turán. Learning logic programs by using the
+product homomorphism method. In Proceedings of the 10th Annual Conference
+on Computational Learning Theory, pages 10—20. ACM Press, July 6—9 1997.
+[16]	T. Horváth and G. Turán. Learning logic programs with structured background
+knowledge. In L. D. Raedt, editor, Advances in Inductive Logic Programming,
+pages 172—191. lOS Press, 1996.
+[17]	B. Megyesi. Brill’s rule based part-of-speech tagger for Hungarian. Master’s thesis,
+University of Stockholm, 1998.
+[18]	S. Muggleton. Inverse entailment and Progol. New Generation Computing, Special
+issue on Inductive Logic Programming, 13(3-4):245—286, 1995.
+[19]	C. Oravecz. Morfoszintaktikai annotáció a magyar nemzeti szövegtárban. Technical 
+report, Research Institute for Linguistics, Hungarian Academy of Sciences,
+1998. (in Hungarian).
+[20] J. R. Quinlan. C4.5: Programs for Machine Learning. Morgan Kaufmann, 1993.

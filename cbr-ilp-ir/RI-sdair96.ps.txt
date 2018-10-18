@@ -1,0 +1,184 @@
+Improving Full­Text Precision on Short Queries
+using Simple Constraints
+
+Marti A. Hearst
+Xerox PARC
+3333 Coyote Hill Rd
+Palo Alto, CA 94304
+(415) 812­4742
+hearst@parc.xerox.com
+
+Abstract
+We show that two simple constraints, when
+applied to short user queries (on the order of
+5--10 words) can yield precision scores com­parable 
+to or better than those achieved using
+long queries (50--85 words) at low document
+cutoff levels. These constraints are meant to
+detect documents that have subtopic passages
+that includes the most important components
+of the query. The constraints are: (i) a sim­ple 
+Boolean constraint which requires the user
+to specify the query as a list of topics; this
+list is converted into a conjunct of disjuncts
+by the system, and (ii) a subtopic­sized prox­imity 
+constraint imposed over the Boolean con­straint. 
+The vector space model is used to rank
+the documents that satisfy both constraints. Ex­periments 
+run over 45 TREC queries show sig­nificant, 
+almost consistent improvements over
+rankings that use no constraints. These results
+have important ramifications for interactive sys­tems 
+intended for casual users, such as those
+searching on the World Wide Web.
+
+References
+[1] P. Anick, J. Brennan, R. Flynn, D. Hanssen,
+B. Alvey, and J. Robbins. A direct manipula­tion 
+interface for boolean information retrieval
+via natural language query. In Proceedings
+of the 13th Annual International ACM/SIGIR
+Conference, pages 135--150, Brussels, Belgium,
+1990.
+[2] N. J. Belkin and W. B. Croft. Retrieval tech­niques. 
+In Martha E. Williams, editor, An­nual 
+Review of Information Science and Tech­nolgy, 
+pages 109--145. Elsevier Science Publish­ers, 1987.
+[3] Chris Buckley, James Allan, and Gerard
+Salton. Automatic routing and ad­hoc re­trieval 
+using SMART: TREC 2. In Donna Har­man, editor, 
+Proceedings of the Second Text
+Retrieval Conference TREC­2. National Insti­tute 
+of Standards and Technology Special Pub­lication 500­215, 1994.
+[4] James P. Callan. Passage­level evidence in doc­ument 
+retrieval. In Proceedings of the 17th An­nual 
+International ACM/SIGIR Conference,
+pages 302--310, Dublin, Ireland, 1994.
+[5] Charles L. A. Clarke, Grodon V. Cormack,
+and Forbes J. Burkowski. Shortest substring
+ranking (multitext experiments for TREC­4).
+In Donna Harman, editor, Proceedings of the
+Fourth Text Retrieval Conference TREC­4.
+National Institute of Standards and Technol­ogy 
+Special Publication, 1996. (to appear).
+[6] W. Bruce Croft, Robert Cook, and Dean
+Wilder. Providing government information on
+the internet: Experiences with THOMAS. In
+Proceedings of Digital Libraries '95, pages 19--
+24, Austin, TX, June 1995.
+[7] Douglass R. Cutting, Jan O. Pedersen, and
+Per­Kristian Halvorsen. An object­oriented ar­chitecture 
+for text retrieval. In Conference
+Proceedings of RIAO'91, Intelligent Text and
+Image Handling, Barcelona, Spain, pages 285--
+298, April 1991. Also available as Xerox PARC
+technical report SSL­90­83.
+[8] Stephanie W. Haas and Robert M. Losee Jr.
+Looking in text windows: Their size and com­position. 
+Information Processing and Manage­ment, 30(5):619--629, 1994.
+[9] Donna Harman, editor. Proceedings of the
+Third Text Retrieval Conference TREC­3. Na­tional 
+Institute of Standards and Technology
+Special Publication 500­225, 1995.
+[10] Donna Harman, editor. Proceedings of the
+Fourth Text Retrieval Conference TREC­4.
+National Institute of Standards and Technol­ogy 
+Special Publication, 1996. (to appear).
+[11] Marti Hearst, Jan Pedersen, Peter Pirolli,
+Hinrich Sch¨uetze, Gregory Grefenstette, and
+David Hull. Four TREC­4 Tracks: the Xerox
+site report. In Donna Harman, editor, Pro­ceedings 
+of the Fourth Text Retrieval Confer­ence 
+TREC­4. National Institute of Standards
+and Technology Special Publication, 1996. (to
+appear).
+[12] Marti A. Hearst. Multi­paragraph segmenta­tion 
+of expository text. In Proceedings of the
+32nd Meeting of the Association for Computa­tional Linguistics, June 1994.
+[13] Marti A. Hearst. Tilebars: Visualization of
+term distribution information in full text in­
+formation access. In Proceedings of the ACM
+SIGCHI Conference on Human Factors in
+Computing Systems, Denver, CO, May 1995.
+ACM.
+[14] Marti A. Hearst and Christian Plaunt.
+Subtopic structuring for full­length document
+access. In Proceedings of the 16th Annual
+International ACM/SIGIR Conference, pages
+59--68, Pittsburgh, PA, 1993.
+[15] Rolf G. Henzler. Free or controlled vocabular­
+ies: Some statistical user­oriented evaluations
+of biomedical information systems. Interna­tional 
+Classification, 5(1):21--26, 1978.
+[16] William R. Hersh, Diane L. Elliot, David H.
+Hickam, Stephanie L. Wolf, and Anna Molnar.
+Towards new measures of information retrieval
+evaluation. In Proceedings of the 18th Annual
+International ACM/SIGIR Conference, pages
+164--170, Seattle, WA, 1995.
+[17] Yufeng Jing and W. Bruce Croft. An associ­ation 
+thesaurus for information retrieval. In
+Proceedings of RIAO, pages 146--160, Rocke­
+feller University, New York, 1994.
+[18] E. Michael Keen. Term position ranking: some
+new test results. In Proceedings of the 15th An­nual 
+International ACM/SIGIR Conference,
+pages 66--76, Copenhagen, Denmark, 1992.
+[19] F. Lancaster. Vocabulary Control for Infor­mation 
+Retrieval, Second Edition. Information
+Resources, Arlington, VA, 1986.
+[20] Ray R. Larson. Evaluation of advanced re­trieval 
+techniques in an experimental online
+catalog. Journal of the American Society for
+Information Science, 43(1):34--53, 1992.
+[21] X. Allan Lu and Robert B. Keefer. Query ex­pansion/reduction 
+and its impact on retrieval
+effectiveness. In Donna Harman, editor, Pro­ceedings 
+of the Third Text Retrieval Conference
+TREC­3, pages 231--239. National Institute of
+Standards and Technology Special Publication
+500­225, 1995.
+[22] Karen Markey, Pauline Atherton, and Clau­dia 
+Newton. An analysis of controlled vocabu­lary 
+and free text search statements in online
+searches. Online Review, 4:225--236, 1982.
+[23] G. McAlpine and P. Ingwersen. Integrated in­
+formation retrieval in a knowledge worker sup­port 
+system. In Proceedings of the 12th Annual
+International ACM/SIGIR Conference, pages
+48--57, Cambridge, MA, 1989.
+[24] Elke Mittendorf and Peter Sch¨auble. Docu­ment 
+and passage retrieval based on hidden
+markov models. In Proceedings of the 17th An­nual 
+International ACM/SIGIR Conference,
+pages 318--327, Dublin, Ireland, 1994.
+[25] Alistair Moffat, Ron Sacks­Davis, Ross Wilkin­
+son, and Justin Zobel. Retrieval of partial doc­uments. 
+In Donna Harman, editor, Proceed­ings of the Second 
+Text Retrieval Conference
+TREC­2, pages 181--190. National Institute of
+Standards and Technology Special Publication
+500­215, 1994.
+[26] Gerard Salton. Automatic text processing:
+the transformation, analysis, and retrieval of
+information by computer. Addison­Wesley,
+Reading, MA, 1989.
+[27] Gerard Salton and Chris Buckley. Improving
+retrieval performance by relevance feedback.
+JASIS, 41(4):288--297, 1990.
+[28] Gerard Salton, Edward A. Fox, and Harry Wu.
+Extended boolean information retrieval. Com­munications 
+of the ACM, 26(11):1022--1036,
+November 1983.
+[29] Howard Turtle and W. Bruce Croft. Evalu­ation 
+of an inference network­based retrieval
+model. ACM Transactions on Information
+Systems, 9(3):187--222, 1991.
+[30] Ellen M. Voorhees. Query expansion using
+lexical­semantic relations. In Proceedings of the
+17th Annual International ACM/SIGIR Con­ference, 
+pages 61--69, Dublin, Ireland, 1994.
+[31] Ross Wilkinson. Effective retrieval of struc­tured 
+documents. In Proceedings of the
+17th Annual International ACM/SIGIR Con­ference, 
+pages 311--317, Dublin, Ireland, 1994.

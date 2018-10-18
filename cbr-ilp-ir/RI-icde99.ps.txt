@@ -1,0 +1,103 @@
+Clustering Large Datasets in Arbitrary Metric Spaces
+
+Venkatesh Ganti \Lambda Raghu Ramakrishnan Johannes Gehrke y
+Computer Sciences Department, University of Wisconsin­Madison
+Allison Powell z James French x
+Department of Computer Science, University of Virginia, Charlottesville
+
+Abstract
+Clustering partitions a collection of objects into groups
+called clusters, such that similar objects fall into the same
+group. Similarity between objects is defined by a distance
+function satisfying the triangle inequality; this distance
+function along with the collection of objects describes a dis­tance 
+space. In a distance space, the only operation possi­ble 
+on data objects is the computation of distance between
+them. All scalable algorithms in the literature assume a spe­cial 
+type of distance space, namely a k­dimensional vector
+space, which allows vector operations on objects.
+We present two scalable algorithms designed for cluster­
+ing very large datasets in distance spaces. Our first algo­rithm 
+BUBBLE is, to our knowledge, the first scalable clus­tering 
+algorithm for data in a distance space. Our second
+algorithm BUBBLE­FM improves upon BUBBLE by reduc­ing 
+the number of calls to the distance function, which may
+be computationally very expensive. Both algorithms make
+only a single scan over the database while producing high
+clustering quality. In a detailed experimental evaluation,
+we study both algorithms in terms of scalability and quality
+of clustering. We also show results of applying the algo­rithms 
+to a real­life dataset.
+
+
+References
+[1] R. Agrawal, J. Gehrke, D. Gunopulos, and P. Raghavan. Au­tomatic 
+subspace clustering of high dimensional data for data
+mining. In SIGMOD, 1998.
+[2] L. Auld. Authority Control: An Eighty­Year Review. Li­brary 
+Resources & Technical Services, 26:319--330, 1982.
+[3] N. Beckmann, H.­P. Kriegel, R. Schneider, and B. Seeger.
+The R \Lambda ­tree: an efficient and robust access method for points
+and rectangles. In SIGMOD, 1990.
+[4] P. Bradley, U. Fayyad, and C. Reina. Scaling clustering al­gorithms 
+to large databases. In KDD, 1998.
+[5] P. Ciaccia, M. Patella, and P. Zezula. M­tree: An efficient
+access method for similarity search in metric spaces. VLDB,
+1997.
+[6] R. Dubes and A. Jain. Clustering methodologies in ex­ploratory 
+data analysis, Advances in Computers. Academic
+Press, New York, 1980.
+[7] R. Duda and P. Hart. Pattern Classification and Scene anal­ysis. 
+Wiley, 1973.
+[8] M. Ester, H.­P. Kriegel, J. Sander, and X. Xu. A density­
+based algorithm for discovering clusters in large spatial
+databases with noise. In KDD, 1995.
+[9] M. Ester, H.­P. Kriegel, and X. Xu. A database interface for
+clustering in large spatial databases. KDD, 1995.
+[10] M. Ester, H.­P. Kriegel, and X. Xu. Focussing techniques for
+efficient class indentification. Proc. of the 4th Intl. Sym. of
+Large Spatial Databases, 1995.
+[11] C. Faloutsos and K.­I. Lin. Fastmap: A fast algorithm for in­dexing, 
+datamining and visualization of traditional and mul­timedia databases. SIGMOD, 1995.
+[12] D. H. Fisher. Knowledge acquisition via incremental conceptual 
+clustering. Machine Learning, 2(2), 1987.
+[13] D. H. Fisher. Iterative optimization and simplification of hi­erarchical 
+clusterings. Technical report, Department of Com­puter Science, Vanderbilt University, TN 37235, 1995.
+[14] J. C. French, A. L. Powell, and E. Schulman. Applications
+of Approximate Word Matching in Information Retrieval. In
+CIKM, 1997.
+[15] J. C. French, A. L. Powell, E. Schulman, and J. L. Pfaltz.
+Automating the Construction of Authority Files in Digital
+Libraries: A Case Study. In C. Peters and C. Thanos, edi­tors, 
+First European Conf. on Research and Advanced Tech­
+nology for Digital Libraries, volume 1324 of Lecture Notes
+in Computer Science, pages 55--71, 1997. Springer­Verlag.
+[16] V. Ganti, R. Ramakrishnan, J. Gehrke, A. Powell, and
+J. French. Clustering large datasets in arbitrary metric
+spaces. Technical report, University of Wisconsin­Madison,
+1998.
+[17] S. Guha, R. Rastogi, and K. Shim. Cure: An efficient clus­tering 
+algorithm for large databases. In SIGMOD, 1998.
+[18] L. Kaufmann and P. Rousseuw. Finding Groups in Data ­ An
+Introduction to Cluster Analysis. Wiley series in Probability
+and Mathematical Statistics, 1990.
+[19] J. Kruskal and M. Wish. Multidimensional scaling. Sage
+University Paper, 1978.
+[20] F. Murtagh. A survey of recent hierarchical clustering algo­rithms. 
+The Computer Journal, 1983.
+[21] R. T. Ng and J. Han. Efficient and effective clustering meth­ods 
+for spatial data mining. VLDB, 1994.
+[22] R. Shepard. The analysis of proximities: Multidimensional
+scaling with an unknown distance, i and ii. Psychometrika,
+pages 125--140, 1962.
+[23] W. Torgerson. Multidimensional scaling:i. theory and
+method. Psychometrika, 17:401--419, 1952.
+[24] M. Wong. A hybrid clustering method for identifying high­
+density clusters. J. of Amer. Stat. Assocn., 77(380):841--847,
+1982.
+[25] F. Young. Multidimensional scaling: history, theory, and
+application s. Lawrence Erlbaum associates, Hillsdale, New
+Jersey, 1987.
+[26] T. Zhang, R. Ramakrishnan, and M. Livny. Birch: An effi­cient 
+data clustering method for large databases. SIGMOD,
+1996.

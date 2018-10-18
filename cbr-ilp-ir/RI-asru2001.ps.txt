@@ -1,0 +1,63 @@
+LANGUAGE MODELING FOR MULTI­DOMAIN SPEECH­DRIVEN TEXT RETRIEVAL
+
+Katunobu Itou 1 , Atsushi Fujii 2 , Tetsuya Ishikawa 2
+1 National Institute of Advanced Industrial Science and Technology
+1­1­1 Chuuou Daini Umezono, Tsukuba, 305­8568, Japan, E­mail: itou@ni.aist.go.jp
+2 University of Library and Information Science
+1­2 Kasuga, Tsukuba, 305­8550, Japan, E­mail: {fujii,ishikawa}@ulis.ac.jp
+
+ABSTRACT
+We report experimental results associated with speech­driven text
+retrieval, which facilitates retrieving information in multiple do­mains 
+with spoken queries. Since users speak contents related to
+a target collection, we produce language models used for speech
+recognition based on the target collection, so as to improve both
+the recognition and retrieval accuracy. Experiments using existing
+test collections combined with dictated queries showed the effec­tiveness 
+of our method.
+
+
+5. REFERENCES
+[1] John S. Garofolo, Ellen M. Voorhees, Vincent M. Stanford,
+and Karen Sparck Jones, ``TREC­6 1997 spoken document
+retrieval track overview and results,'' in Proceedings of the
+6th Text REtrieval Conference, 1997, pp. 83--91.
+[2] J. Barnett, S. Anderson, J. Broglio, M. Singh, R. Hudson, and
+S. W. Kuo, ``Experiments in spoken queries for document
+retrieval,'' in Proceedings of Eurospeech97, 1997, pp. 1323--
+1326.
+[3] Fabio Crestani, ``Word recognition errors and relevance feed­
+back in spoken query processing,'' in Proceedings of the
+Fourth International Conference on Flexible Query Answer­ing Systems, 2000, pp. 267--281.
+[4] Lalit. R. Bahl, Frederick Jelinek, and Robert L. Mercer, ``A
+maximum linklihood approach to continuous speech recog­nition,
+'' IEEE Transactions on Pattern Analysis and Machine
+Intelligence, vol. 5, no. 2, pp. 179--190, 1983.
+[5] T. Kawahara, A. Lee, T. Kobayashi, K. Takeda, N. Mine­matsu, 
+S. Sagayama, K. Itou, A. Ito, M. Yamamoto, A. Ya­
+mada, T. Utsuro, and K. Shikano, ``Free software toolkit for
+Japanese large vocabulary continuous speech recognition,''
+in Proceedings of the 6th International Conference on Spo­ken 
+Language Processing, 2000, pp. 476--479.
+[6] K. Itou, M. Yamamoto, K. Takeda, T. Takezawa, T. Mat­suoka, 
+T. Kobayashi, K. Shikano, and S. Itahashi, ``The de­sign 
+of the newspaper­based Japanese large vocabulary con­tinuous 
+speech recognition corpus,'' in ICSLP­98, 1998, pp.
+3261--3264.
+[7] S. E. Robertson and S. Walker, ``Some simple effec­tive 
+approximations to the 2­poisson model for probabilis­tic 
+weighted retrieval,'' in Proceedings of the 17th Annual
+International ACM SIGIR Conference on Research and De­velopment 
+in Information Retrieval, 1994, pp. 232--241.
+[8] Yuji Matsumoto, Akira Kitauchi, Tatsuo Yamashita, Yoshi­taka 
+Hirano, Hiroshi Matsuda, and Masayuki Asahara,
+``Japanese morphological analysis system ChaSen version
+2.0 manual 2nd edition,'' Tech. Rep. NAIST­IS­TR99009,
+NAIST, 1999.
+[9] National Institute of Informatics, Proceedings of the 2nd
+NTCIR Workshop Meeting on Evaluation of Chinese &
+Japanese Text Retrieval and Text Summarization, 2001.
+[10] Satoshi Sekine and Hitoshi Isahara, ``IREX: IR and IE evalu­ation 
+project in Japanese,'' in Proceedings of the 2nd Interna­tional 
+Conference on Language Resources and Evaluation,
+2000, pp. 1475--1480.

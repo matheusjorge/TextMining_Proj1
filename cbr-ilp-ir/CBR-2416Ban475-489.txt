@@ -1,0 +1,68 @@
+Tuning Production Processes
+through a Case Based Reasoning Approach
+
+Stefania Bandini, Sara Manzoni, and Carla Simone
+
+Department of Computer Science, Systems and Communication
+University of Milano-Bicocca
+Via Bicocca degli Arcimboldi 8 20126 Milan - Italy
+tel +39 02 64487835 fax + 39 02 64487839
+{bazidini, manzoni, simone}@disco.unimib.it
+
+
+Abstract. This paper illustrates how the Case Based Reasoning (CBR)
+paradigm has been applied to the definition of the requirements and the
+specifications of a Knowledge Management technology supporting the
+handling of tuning and anomalies in production processes. In particular,
+the production of truck tyres will be illustrated as the application domain
+of the proposed approach. This domain is a paradigmatic example where
+the valorization of the experiential knowledge is a company requirement,
+so the representation of knowledge concerning production process issues
+is mandatory. It requires extending CBR techniques to an emerging area
+of application involving knowledge about the interplay of static objects
+(i.e. products) with dynamic objects (i.e. processes). The content of production 
+cases, their organization into a Case Base and a first proposal
+for the Case Base retrieval of similar cases will be presented.
+References
+
+1.	Prahalad, C.K., Hamel, G.: The core competence of the corporation. Strategic 
+Learning in Knowledge Economy: Individual, Collective and Organizational
+Learning Process (2000) 3—22
+2.	Utterback, J.M.: Mastering the Dynamics of Innovation. Harvard Business School
+Press, Boston (MA) (1996)
+3.	Bandini, S., Manzoni, S.: Product design as product revise. In Esposito, F., ed.:
+AI*IA 2001: Advances in Artificial Intelligence, 7th Congress of the Italian Association 
+for Artificial Intelligence, Bari, Italy, September 25-28, 2001, Proceedings.
+Volume 2175 of Lecture Notes in Computer Science., Berlin, Springer (2001) 159—
+164
+4.	Kolodner, J.: Case-Based Reasoning. Morgan Kaufmann, San Mateo (CA) (1993)
+5.	Aha, D., Becerra-Fernandez, I., Maurer, F., Munoz-Avila, H., eds.: 1999 AAAI
+Workshop, Exploring Synergies of Knowledge Management and Case-Based Reasoning, 
+Technical Report WS-99-19, Naval Research Lab, Navy Center for Applied
+Research in Artificial Intelligence (1999)
+6.	Aha, D., Weber, R., eds.: 2000 AAAI Workshop, Intelligent Lessons Learned Systems, 
+Technical Report AIC-00-005, Naval Research Lab, Navy Center for Applied
+Research in Artificial Intelligence (2000)
+7.	Althoff, K.D., Birk, A., von Wangenheim, C.G., Tautz, C.: CBR for experimental
+software engineering. In Lenz, M., Bartsch-Spörl, B., Burkhard, H.D., Wess, S.,
+eds.: Case-Based Reasoning Technology. Volume 1400 of Lecture Notes in Computer 
+Science., Springer (1998) 235—254
+8.Bandini, S., Manzoni, S.: A support system based on CBR for the design of
+rubber compounds in motor racing. In Blanzieri, E., Portinale, L., eds.: Advances
+in Case-Based Reasoning, 5th European Workshop, EWCBR 2000, Trento, Italy,
+September 6-9, 2000, Proceedings. Volume 1898 of Lecture Notes in Computer
+Science., Berlin, Springer (2000) 348—357
+9.	Bandini, S., Manzoni, S.: Modeling core knowledge and practices in a computational 
+approach to innovation process. Model-Based Reasoning: Scientific Discovery, 
+Technological Innovation, Values (2002)
+10.	Proceedings of workshop on case-based reasoning approaches for process-oriented
+knowledge management, at 4th international conference on case-based reasoning,
+ICCBR 2001, vancouver (canada), july 30 - august 2, 2001. online available at
+http://www.iccbr.org/iccbr01/workshops.html (2001)
+11.	DeCindio, F., DeMichelis, C., Simone, C.: Giving back some freedom to system
+designers. System Research 2 (1985) 273—280
+12.	Wenger, E.: Communities of Practice: Learning, Meaning and Identity. Cambridge
+University Press, New York (1998)
+13.	Simone, C., Sarini, M.: Adaptability of classification schemes: what does it mean?
+In: Proc.7th Conference on Computer Supported Cooperative Work, Copenhagen,
+September 2001, Kluwer Academic Press (2001) 19—38

@@ -1,0 +1,143 @@
+Online Power­aware Routing in Wireless Ad­hoc Networks
+
+Qun Li, Javed Aslam, Daniela Rus
+Department of Computer Science
+Dartmouth College
+Hanover, NH 03755
+{liqun, jaa, rus}@cs.dartmouth.edu
+
+ABSTRACT
+This paper discusses online power­aware routing in large
+wireless ad­hoc networks for applications where the message
+sequence is not known. We seek to optimize the lifetime of
+the network. We show that online power­aware routing does
+not have a constant competitive ratio to the offline optimal
+algorithm. We develop an approximation algorithm called
+max­min zPmin that has a good empirical competitive ra­tio. 
+To ensure scalability, we introduce a second online algo­
+rithm for power­aware routing. This hierarchical algorithm
+is called zone­based routing. Our experiments show that its
+performance is quite good.
+
+REFERENCES
+[1] Jon Agre and Loren Clare. An integrated architeture for
+cooperative sensing networks. Computer, pages 106 -- 108,
+May 2000.
+[2] A.D. Amis, R. Prakash, T.H.P. Vuong, and D.T. Huynh.
+Max­min d­cluster formation in wireless ad hoc networks.
+In Proceedings IEEE INFOCOM 2000. Conference on
+Computer Communications, March 2000.
+[3] Jae­Hwan Chang and Leandros Tassiulas. Energy
+conserving routing in wireless ad­hoc networks. In Proc.
+IEEE INFOCOM, Tel Aviv, Israel, Mar. 2000.
+[4] Benjie Chen, Kyle Jamieson, Hari Balakrishnan, and
+Robert Morris. Span: An energy­e#cient coordination
+algorithm for topology maintenance in ad hoc wireless
+networks. In 7th Annual Int. Conf. Mobile Computing and
+Networking 2001, Rome, Italy, July 2001.
+[5] Yu Chen and Thomas C. Henderson. S­NETS: Smart
+sensor networks. In Seventh International Symposium on
+Experiemental Robotics, Hawaii, Dec. 2000.
+[6] I. Chlamtac, C. Petrioli, and J. Redi. Energy­conserving
+access protocols for indetification networks. IEEE/ACM
+Transactions on Networking, 7(1):51--9, Feb. 1999.
+[7] A. Chockalingam and M. Zorzi. Energy efficiency of media
+access protocols for mobile data networks. IEEE
+Transactions on Communications, 46(11):1418--21, Nov.
+1998.
+[8] B. Das, R. Sivakumar, and V. Bharghavan. Routing in ad
+hoc networks using a spine. In Proceedings of Sixth
+International Conference on Computer Communications
+and Networks, Sept. 1997.
+[9] Deborah Estrin, Ramesh Govindan, John Heidemann, and
+Satish Kumar. Next century challenges: Scalable
+coordination in sensor networks. In ACM MobiCom 99,
+Seattle, USA, August 1999.
+[10] Laura Maria Feeney and Martin Nilsson. Investigating the
+energy consumption of a wireless network interface in an ad
+hoc networking environment. In INFOCOM 2001, April
+2001.
+[11] M. Gerla, X. Hong, and G. Pei. Landmark routing for large
+ad hoc wireless networks. In Proceedings of IEEE
+GLOBECOM 2000, San Francisco, CA, Nov. 2000.
+[12] Piyush Gupta and P. R. Kumar. Critical power for
+asymptotic connectivity in wireless networks. Stochastic
+Analysis, Control, Optimization and Applications: A
+Volume in Honor of W.H. Fleming, pages 547--566, 1998.
+[13] Z. J. Haas. A new routing protocol for the reconfigurable
+wireless network. In Proceedings of the 1997 IEEE 6th
+International Conference on Universal Personal
+Communications, ICUPC'97, pages 562 --566, San Diego,
+CA, October 1997.
+[14] W. Rabiner Heinzelman, A. Chandrakasan, and
+H. Balakrishnan. Energy­e#cient routing protocols for
+wireless microsensor networks. In Hawaii International
+Conference on System Sciences (HICSS '00), Jan. 2000.
+[15] Chalermek Intanagonwiwat, Ramesh Govindan, and
+Deborah Estrin. Directed di#usion: A scalable and robust
+communication paradigm for sensor networks. In Proc. of
+the Sixth Annual International Conference on Mobile
+Computing and Networks (MobiCOM 2000), Boston,
+Massachusetts, August 2000.
+[16] Mario Joa­Ng and I­Tai Lu. A peer­to­peer zone­based
+two­level link state routing for mobile ad hoc networks.
+IEEE Journal on Selected Areas in Communications, 17,
+Aug. 1999.
+[17] D. B. Johnson and D. A. Maltz. Dynamic source routing in
+ad­hoc wireless networks. In T. Imielinski and H. Korth,
+editors, Mobile Computing, pages 153 --181. Kluwer
+Academic Publishers, 1996.
+[18] B. Karp and H.T. Kung. GPSR: Greedy Perimeter
+Stateless Routing for wireless networks. In Proceedings of
+MobiCom 2000, Aug. 2000.
+[19] Y. B. Ko and N. H. Vaidya. Location­aided routing (LAR)
+in mobile ad hoc networks. In Proceedings of ACM/IEEE
+MOBICOM'98, pages 66 -- 75, 1998.
+[20] P. Krishna, N.H. Vaidya, M. Chatterjee, and D.K. Pradhan.
+A cluster­based approach for routing in dynamic networks.
+Computer Communication Review, 27, April 1997.
+[21] Range LAN.
+http://www.proxim.com/products/rl2/7410.shtml.
+[22] A.B. McDonald and T.F. Znati. A mobility­based
+framework for adaptive clustering in wireless ad hoc
+networks. IEEE Journal on Selected Areas in
+Communications, 17, Aug. 1999.
+[23] S. Murthy and J. J. Garcia­Luna­Aceves. An efficient
+routing protocol for wireless networks. ACM/Baltzer
+Journal on Mobile Networks and Applications,
+MANET(1,2):183 --197, October 1996.
+[24] V. Park and M. S. Corson. A highly adaptive distributed
+algorithm for mobile wireless networks. In Proceedings of
+INFOCOM'97, Kobe, Japan, April 1997.
+[25] M.R. Pearlman and Z.J. Haas. Determining the optimal
+configuration for the zone routing protocol. IEEE Journal
+on Selected Areas in Communications, 17, Aug. 1999.
+[26] C. E. Perkins and P. Bhagwat. Highly dynamic
+destination­sequenced distance­vector routing (DSDV) for
+mobile computers. Computer Communication review,
+24(4):234 --244, October 1994.
+[27] G. J. Pottie and W. J. Kaiser. Wireless integrated newtork
+sensors. Communications of the ACM, 43(5):51--58, May
+2000.
+[28] S. Ramanathan and M. Steenstrup.
+Hierarchically­organized, multihop mobile networks for
+multimedia support. ACM/Baltzer Mobile Networks and
+Applications, 3(1):101--119, June 1998.
+[29] Volkan Rodoplu and Teresa H. Meng. Minimum energy
+mobile wireless networks. In Proc. of the 1998 IEEE
+International Conference on Communications, ICC'98,
+volume 3, pages 1633--1639, Atlanda, GA, June 1998.
+[30] Elizabeth Royer and C­K. Toh. A review of current routing
+protocols for ad hoc mobile wireless networks. In IEEE
+Personal Communication, volume 6, pages 46 -- 55, April
+1999.
+[31] S. Singh, M. Woo, and C. S. Raghavendra. Power­aware
+routing in mobile ad­hoc networks. In Proc. of Fourth
+Annual ACM/IEEE International Conference on Mobile
+Computing and Networking, pages 181--190, Dallas, TX,
+Oct. 1998.
+[32] Adcon Telemetetry. http://www.adcon.com.
+[33] Ya Xu, John Heidemann, and Deborah Estrin. Adaptive
+energy­conserving routing for multihop ad hoc networks.
+Research Report 527 USC/Information Sciences Institute,
+October 2000.

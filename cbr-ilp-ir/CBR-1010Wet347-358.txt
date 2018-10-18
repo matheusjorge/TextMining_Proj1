@@ -1,0 +1,101 @@
+Weighting Features
+
+Dietrich Wettschereck1 and David W. Aha2
+
+1 German National Research Center for Computer Science,
+53754 Sankt Augustin, Germany (dietrich.wettschereck@gmd.de)
+2 Navy Center for Applied Research in AI, Naval Research Laboratory,
+Washington, DC 20375 USA (aha@aic.nrl.navy.mil)
+
+
+Abstract. Many case-based reasoning algorithms retrieve cases using a
+derivative of the k-nearest neighbor (k-NN) classifier, whose similarity
+function is sensitive to irrelevant, interacting, and noisy features. Many
+proposed methods for reducing this sensitivity parameterize k-NN’s similarity 
+function with feature weights. We focus on methods that automatically 
+assign weight settings using little or no domain-specific knowledge.
+Our goal is to predict the relative capabilities of these methods for specific 
+dataset characteristics. We introduce a five-dimensional framework
+that categorizes automated weight-setting methods, empirically compare
+methods along one of these dimensions, summarize our results with four
+hypotheses, and describe additional evidence that supports them. Our
+investigation revealed that most methods correctly assign low weights
+to completely irrelevant features, and methods that use performance
+feedback demonstrate three advantages over other methods (i.e., they
+require less pre-processing, better tolerate interacting features, and increase 
+learning rate).
+References
+
+Aha, D. W. (1990). A study of instance-based learning algorithms for supervised learning 
+tasks: Mathematical, empirical, and psychological evaluations (TR 90-42). Irvine,
+CA: University of California, Department of Information and Computer Science.
+Aha, D. W. (1991). Incremental constructive induction: An instance-based approach.
+In Proceedings of the Eighth International Workshop on Machine Learning (pp.
+117—121). Evanston, IL: Morgan Kaufmann.
+Aha, D. W., & Bankert, R. L. (1994). Feature selection for case-based classification of
+cloud types: An empirical comparison. In D. W. Aha (Ed.) Case-Based Reasoning:
+Papers from the 1994 Workshop (TR WS-94-01). Menlo Park, CA: AAAI Press.
+Aha, D. W., & Goldstone, R. L. (1992). Concept learning and flexible weighting. In
+Proceedings of the Fourteenth Annual Conference of the Cognitive Science Society
+(pp. 534—539). Bloomington, IN: Lawrence Erlbaum.
+Cain, T., Pazzani, M. J., & Silverstein, G. (1991). Using domain knowledge to influence 
+similarity judgement. In Proceedings of the Case-Based Reasoning Workshop
+(pp. 191—202). Washington, DC: Morgan Kaufmann.
+Cardie, C. (1993). Using decision trees to improve case-based learning. In Proceedings
+of the Tenth International Conference on Machine Learning (pp. 25—32). Amherst,
+MA: Morgan Kaufmann.
+Creecy, R. H., Masand, B. M., Smith, S. J., & Waltz, D. L. (1992). Trading MIPS
+and memory for knowledge engineering. Communications of the A CM, 35, 48—64.
+Daelemans, W., van den Bosch, A. (1992). Generalization performance of backpropagation 
+learning on a syllabification task. In Proceedings of TWLT3: Connectionism
+and Natural Language Processing (pp. 27—37). Enschede, The Netherlands: Unpublished.
+Devijver, P. A., & Kittler, J. (1982). Pattern recognition: A statistical approach. Englewood 
+Cliffs, NJ: Prentice-Hall.
+Domingos, P. Context-sensitive feature selection for lazy learners. To appear in Artificial 
+Intelligence Review..
+Fayyad, U. M., & Irani, K. B. (1993). Multi-interval discretization of continuous-valued
+attributes for classification learning. In Proceedings of the Thirteenth International
+Joint Conference on Artificial Intelligence (pp. 1022—1029). Chambery, France:
+Morgan Kaufmann.
+Kelly, J. D., Jr., & Davis, L. (1991). A hybrid genetic algorithm for classification. In
+Proceedings of the Twelfth International Joint Conference on Artificial Intelligence
+(pp. 645—650). Sydney, Australia: Morgan Kaufmann.
+Kira, K., & Rendell, L. A. (1992). A practical approach to feature selection. In Proceedings 
+of the Ninth International Conference on Machine Learning (pp. 249—256).
+Aberdeen, Scotland: Morgan Kaufmann.
+Kohavi, R., Langley, P., & Yun, Y. (1995). Heuristic search for feature weights in
+instance-based learning. Unpublished manuscript.
+Kononenko, I. (1994). Estimating attributes: Analysis and extensions of RELIEF. In
+Proceedings of the 1994 European Conference on Machine Learning (pp. 171—182).
+Catania, Italy: Springer Verlag.
+Lowe, D. (1995). Similarity metric learning for a variable-kernal classifier. Neural
+Computation, 7, 72—85.
+Mohri, T., & Tanaka, H. (1994). An optimal weighting criterion of case indexing for
+both numeric and symbolic attributes. In D. W. Aha (Ed.), Case-Based Reasoning:
+Papers from the 1994 Workshop (TR WS-94-01). Menlo Park, CA: AAAI Press.
+Moore, A. W., & Lee, M. 5. (1994). Efficient algorithms for minimizing cross validation 
+error. In Proceedings of the Eleventh International Conference on Machine
+Learning (pp. 190—198). New Brunswick, NJ: Morgan Kaufmann.
+Murphy, P. (1995). UCI Repository of machine learning databases [Machine-readable
+data repository @ics.uci.edu]. Irvine, CA: University of California, Department of
+Information and Computer Science.
+Ricci, F., & Avesani, P. (1995). Learning a local similarity metric for case-based reasoning. 
+To appear in Proceedings of the First International Conference on Case-Based Reasoning. 
+Sesimbra, Portugal: Springer-Verlag.
+Salzberg, S. L. (1991). A nearest hyperrectangle learning method. Machine Learning,
+6, 251—276.
+Shannon, C. E. (1948). A mathematical theory of communication. Bell Systems Technology Journal, 27, 379—423.
+Skalak, D. (1994). Prototype and feature selection by sampling and random mutation 
+hill climbing algorithms. In Proceedings of the Eleventh International Machine
+Learning Conference (pp. 293—301). New Brunswick, NJ: Morgan Kaufmann.
+Stanfill, C., & Waltz, D. (1986). Toward memory-based reasoning. Communications
+of the ACM, 29, 1213—1228.
+Wettschereck, D. (1994). A study of distance-based machine learning algorithms. Doctoral 
+dissertation, Department of Computer Science, Oregon State University, Corvallis, OR.
+Wettschereck, D., Aba, D. W. & Mohri, T (1995). A review and comparative evaluation 
+of feature weighting methods for lazy learning algorithms (TR AIC-95-012).
+Washington, DC: Naval Research Laboratory, Navy Center for Applied Research
+in Artificial Intelligence.
+Wettschereck, D., & Dietterich, T. G. (1995). An experimental comparison of the
+nearest neighbor and nearest hyperrectangle algorithms. Machine Learning, 19,
+5—28.

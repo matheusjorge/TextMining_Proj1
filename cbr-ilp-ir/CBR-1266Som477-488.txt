@@ -1,0 +1,75 @@
+A Utility-Based Approach to Learning in a Mixed
+Case-Based and Model-Based Reasoning Architecture
+
+
+Maarten van Someren1, Jerzy Surma2 and Pietro Torasso3
+
+1 Universiteit van Amsterdam
+
+Roetersstraat 15
+1018 WB Amsterdam
+The Netherlands
+email: maarten@swi.psy.uva.nl
+
+2 Limhurg University Centre
+
+Universitaire Campus D
+B-3590 Diepenbeek
+Belgium
+email: surma@rsftew.luc.ac.be
+
+3 Dipartimento di Informatica
+Universita’ di Torino
+Corso Svizzera 185
+Torino
+Italia
+email: torasso@di.unito.it
+
+
+Abstract. Case-based reasoning (CBR) can be used as a form of “caching”
+solved problems to speedup later problem solving. Using “cached” cases
+brings additional costs with it due to retrieval time, case adaptation time
+and also storage space. Simply storing all cases will result in a situation
+in which retrieving and trying to adapt old cases will take more time
+(on average) than not caching at all. This means that caching must be
+applied selectively to build a case memory that is actually useful. This is
+a form of the utility problem [4, 2]. The approach taken here is to construct 
+a “cost model” of a system that can be used to predict the effect
+of changes to the system. In this paper we describe the utility problem
+associated with “caching” cases and the construction of a “cost model”.
+We present experimental results that demonstrate that the model can
+be used to predict the effect of certain changes to the case memory.
+References
+
+[1]	Console, L., Portinale, L., Theseider, D., and Torasso, P. (1993). Combining Heuristic 
+Reasoning with Causal Reasoning In Diagnostic Problem Solving, pages 46—68.
+Springer Verlag.
+[2]	Francis, A. G. and Ram, A. (1995). A comparative utility analysis of case-based
+reasoning and controle-rule learning systems. In Lavrac, N. and Wrobel, S., editors,
+Machine Learning: ECML-95, pages 138—150. Springer Verlag.
+[3]	Keller, R. M. (1988). Defining operationality for explanation-based learning. Artificial 
+Intelligence, 35:227—241.
+[4]	Minton, 5. (1988). Learning Effective Search Control Knowledge: An Explanation-Based 
+Approach. Kluwer.
+[5]	Portinale, L. and Torasso, P. (1995). Adapter: an integrated diagnostic system
+combining case-based and abductive reasoning. In Veloso, M. and Aamodt, A.,
+editors, Proceedings ICCBR-95, pages 277—288. Springer Verlag.
+[6]	Portinale, L. and Torasso, P. (1996). On the usefulness of re-using diagnostic solutions. 
+In Wahlster, W., editor, Proceedings 12th European Conference on Artificial
+Intelligence ECAI-96, pages 137—141. John Wiley and Sons.
+[7]	Smyth, B. and Keane, M. (1995). Remembering to forget. In Mellish, C., editor,
+Proceedings IJCAI-95, pages 377—382. Morgan Kaufmann.
+[8]	Straatman, R. and Beys, P. (1995). A performance model for knowledge-based systems. 
+In Ayel, M. and Rousse, M. C., editors, EUROVAV-95 European Symposium
+on the Validation and Verification of Knowledge Based Systems, pages 253—263.
+ADEIRAS, Uuiversité de Savoie, Chambéry.
+[9]	Subramanian, D. and Hunter, 5. (1992). Measuring utility and the design of provably 
+good ebi algorithms. In Sleemau, D. and Edwards, P., editors, Machine Learning: 
+Proceedings of the Ninth International Workshop ML-95, pages 426—435. Morgan Kaufmann.
+[10] van Harmelen, F. (1994). A model of costs and benefits of meta-level computation.
+In Proceedings of the Fourth Workshop on Meta-programming in Logic (ME TA ‘94),
+volume 883 of LNCS, pages 248—261. Springer-Verlag.
+[11] van Someren, M. W., Zheng, L. L., and Post, W. (1990). Cases, models or compiled 
+knowledge? - a comparative analysis and proposed integration. In Wielinga,
+B. J., Boose, J., Gaines, B., Schreiber, G., and van Someren, M. W., editors, Current
+trends in knowledge acquisition, pages 339—355. lOS Press.

@@ -1,0 +1,70 @@
+Probabilistic Relational Models
+
+Daphne Koller
+
+Computer Science Department, Stanford University, Stanford, CA 94305-9010
+http://robotics.stanford.edu/~koller
+koller@cs.stanford.edu
+
+
+
+Abstract. Probabilistic models provide a sound and coherent foundation 
+for dealing with the noise and uncertainty encountered in most realworld domains. 
+Bayesian networks are a language for representing complex 
+probabilistic models in a compact and natural way. A Bayesian
+network can be used to reason about any attribute in the domain, given
+any set of observations. It can thus be used for a variety tasks, including
+prediction, explanation, and decision making. The probabilistic semantics 
+also gives a strong foundation for the task of learning models from
+data. Techniques currently exist for learning both the structure and the
+parameters, for dealing with missing data and hidden variables, and for
+discovering causal structure.
+One of the main limitations of Bayesian networks is that they represent
+the world in terms of a fixed set of “attributes” . Like propositional logic,
+they are incapable of reasoning explicitly about entities, and thus cannot
+represent models over domains where the set of entities and the relations
+between them are not fixed in advance. As a consequence, Bayesian networks 
+are limited in their ability to model large and complex domains.
+Probabilistic relational models are a language for describing probabilistic 
+models based on the significantly more expressive basis of relational
+logic. They allow the domain to be represented in terms of entities, their
+properties, and the relations between them. These models represent the
+uncertainty over the properties of an entity, representing its probabilistic
+dependence both on other properties of that entity and on properties of
+related entities. They can even represent uncertainty over the relational
+structure itself. Some of the techniques for Bayesian network learning
+can be generalized to this setting, but the learning problem is far from
+solved. Probabilistic relational models provide a new framework, and new
+challenges, for the endeavor of learning relational models for real-world
+domains.
+References
+
+1.	G.F. Cooper. The computational complexity of probabilistic inference using
+Bayesian belief networks. Artificial Intelligence, 42:393—405, 1990.
+2.	A. Dempster, N. Laird, and D. Rubin. Maximum likelihood from incomplete data
+via the EM algorithm. Journal of the Royal Statistical Society, 39 (Series B):1—38,
+1977.
+3.	N. Friedman. Learning belief networks in the presence of missing values and hidden
+variables. In Proc. ICML, 1997.
+4.	N. Friedman, L. Getoor, D. Koller, and A. Pfeffer. Learning probabilistic relational
+models. In Proc. IJCAI, 1999.
+5.	D. Heckerman. A tutorial on learning with Bayesian networks. Technical Report
+MSR-TR-95-06, Microsoft Research, 1995.
+6.	D. Koller and A. Pfeffer. Learning probabilities for noisy first-order rules. In Proc.
+IJCAI, pages 1316—1321, 1997.
+7.	D. Koller and A. Pfeffer. Probabilistic frame-based systems. In Proc. AAAI, 1998.
+8.	S. L. Lauritzen. The EM algorithm for graphical association models with missing
+data. Computational Statistics and Data Analysis, 19:191—201, 1995.
+9.	Steffen L. Lauritzen and David J. Spiegeihalter. Local computations with probabilities 
+on graphical structures and their application to expert systems. Journal of
+the Royal Statistical Society, B 50(2):157—224, 1988.
+10.	L. Ngo and P. Haddawy. Answering queries from context-sensitive probabilistic
+knowledge bases. Theoretical Computer Science, 1996.
+11.	J. Pearl. Probabilistic Reasoning in Intelligent Systems: Networks of Plausible
+Inference. Morgan Kaufmann, 1988.
+12.	A. Pfeffer, D. Koller, B. Milch, and K. Takusagawa. SPOOK: A system for probabilistic 
+object-oriented knowledge representation. Submitted to UAI ‘99, 1999.
+13.	D. Poole. Probabilistic Horn abduction and Bayesian networks. Artificial Intelligence, 
+64:81—129, 1993.
+14.	P. Spirtes, C. Glymour, and R. Scheines. Causation, prediction, and search.
+Springer Verlag, 1993.

@@ -1,0 +1,99 @@
+The Query Complexity of Finding Local Minima in
+the Lattice 1
+
+Amos Beimel 2
+Dept. of Computer Science, Ben­Gurion University, Beer­Sheva 84105, Israel.
+E­mail: beimel@cs.bgu.ac.il.
+Homepage: www.cs.bgu.ac.il/beimel.
+Felix Geller
+Computer Science Department, Technion Haifa 32000, Israel.
+E­mail: felix@cs.technion.ac.il.
+and
+Eyal Kushilevitz 3
+Computer Science Department, Technion Haifa 32000, Israel.
+E­mail: eyalk@cs.technion.ac.il.
+Homepage: www.cs.technion.ac.il/eyalk.
+Received ; accepted Oct, 2000
+
+In this paper we study the query complexity of finding local minimum points
+of a boolean function. This task occurs frequently in exact learning algorithms
+for many natural classes, such as monotone DNF, O(log n)­term DNF, unate DNF,
+and decision trees. On the negative side, we prove that any (possibly randomized)
+algorithm that produces a local minimum of a function f chosen from a sufficiently
+``rich'' concept class, using a membership oracle for f , must
+ask
+ n 2 ) membership
+queries in the worst case. In particular, this lower bound applies to the class of
+decision trees. A simple algorithm is known that achieves this lower bound. On the
+positive side, we show that for the class O(log n)­term DNF finding local minimum
+points requires only (n log n) membership queries (and more generally (tn)
+membership queries for t­term DNF with t  n). This efficient procedure improves
+the time and query complexity of known learning algorithms for the class O(log n)­
+term DNF.
+
+
+REFERENCES
+1. D. Angluin. Learning k­term DNF formulas using queries and counterexamples. Technical Report
+YALEU/DCS/RR­559, Department of Computer Science, Yale University, 1987.
+2. D. Angluin. Learning regular sets from queries and counterexamples. Information and Computation, 75:87--
+106, 1987.
+3. D. Angluin. Queries and concept learning. Machine Learning, 2(4):319--342, 1988.
+4. D. Angluin. Negative results for equivalence queries. Machine Learning, 5:121--150, 1990.
+5. D. Angluin, M. Frazier, and L. Pitt. Learning conjunctions of Horn clauses. Machine Learning, 9:147--164,
+1992.
+6. D. Angluin, L. Hellerstein, and M. Karpinski. Learning read­once formulas with queries. J. of the ACM,
+40:185--210, 1993.
+7. D. Angluin, M. Krik›is, R. E. Sloan, and G. Tur’ an. Malicious omissions and errors in answers to membership
+queries. Machine Learning, 28:211--255, 1997.
+8. D. Angluin and D. K. Slonim. Randomly fallible teachers: learning monotone DNF with an incomplete
+membership oracle. Machine Learning, 14(1):7--26, 1994.
+9. A. Beimel, F. Bergadano, N. H. Bshouty, E. Kushilevitz, and S. Varricchio. On the applications of multiplicity
+automata in learning. In Proc. of the 37th Annu. IEEE Symp. on Foundations of Computer Science, pages
+349--358, 1996. Journal version: J. of the ACM, 47(3):506­530, 2000.
+10. F. Bergadano, D. Catalano, and S. Varricchio. Learning sat­k­DNF formulas from membership queries. In
+Proc. of the 28th Annu. ACM Symp. on the Theory of Computing, pages 126--130, 1996.
+11. A. Blum, P. Chalasani, S. A. Goldman, and D. K. Slonim. Learning with unreliable boundary queries. In Proc.
+of 8th Annu. ACM Conf. on Comput. Learning Theory, pages 98--107, 1995. Journal version: J. of Computer
+and System Sciences, 56(2):209--202, 1998.
+12. A. Blum and S. Rudich. Fast learning of k­term DNF formulas with queries. In Proc. of the 24th Annu.
+ACM Symp. on the Theory of Computing, pages 382--389, 1992. Journal version: J. of Computer and System
+Sciences, 51(3):367--373, 1995.
+13. N. H. Bshouty. Exact learning via the monotone theory. In Proc. of the 34th Annu. IEEE Symp. on Foundations
+of Computer Science, pages 302--311, 1993. Journal version: Information and Computation, 123(1):146--153,
+1995.
+14. N. H. Bshouty. Simple learning algorithms using divide and conquer. In Proc. of 8th Annu. ACM Conf. on
+Comput. Learning Theory, pages 447--453, 1995. Journal version: Computational Complexity, 6:174--194,
+1997.
+15. N. H. Bshouty and R. Cleve. On the exact learning of formulas in parallel. In Proc. of the 33rd Annu. IEEE
+Symp. on Foundations of Computer Science, pages 513--522, 1992.
+16. N. H. Bshouty, S. A. Goldman, T. R. Hancock, and S. Matar. Asking questions to minimize errors. J. of
+Computer and System Sciences, 52(2):268--286, 1996.
+17. M. Clausen, A. Dress, J. Grabmeier, and M. Karpinski. On zero­testing and interpolation of k­sparse
+multivariate polynomials over finite fields. Theoretical Computer Science, 84(2):151--164, 1991.
+18. S. Goldman and H. Mathias. Learning k­term DNF formulas with an incomplete membership oracle. In Proc.
+of 5th Annu. ACM Workshop on Comput. Learning Theory, pages 77--85, 1992.
+19. T. Heged˜ us. Generalized teaching dimensions and the query complexity of learning. In Proc. of 8th Annu.
+ACM Conf. on Comput. Learning Theory, pages 108--117, 1995.
+20. L. Hellerstein, K. Pillaipakkamnatt, V. Raghavan, and D. Wilkins. How many queries are needed to learn? J.
+of the ACM, 43(5):840--862, 1996.
+21. E. Kushilevitz. A simple algorithm for learning O(log n)­term DNF. In Proc. of 9th Annu. ACM Conf. on
+Comput. Learning Theory, pages 266--269, 1996. Journal version: Inform. Process. Lett., 61(6):289--292,
+1997.
+22. W. Maass and G. Tur’ an. On the complexity of learning from counterexamples. In Proc. of the 30th Annu.
+IEEE Symp. on Foundations of Computer Science, pages 262--273, 1989.
+23. W. Maass and G. Tur’ an. On the complexity of learning from counterexamples and membership queries. In
+Proc. of the 31st Annu. IEEE Symp. on Foundations of Computer Science, volume I, pages 203--210, 1990.
+24. W. Maass and G. Tur’ an. Lower bound methods and separation results for on­line learning models. Machine
+Learning, 9:107--145, 1992.
+25. M. Naor, L. J. Schulman, and A. Srinivasan. Splitters and near­optimal derandomization. In Proc. of the 36th
+Annu. IEEE Symp. on Foundations of Computer Science, pages 182--191, 1995.
+26. R. L. Rivest and R. E. Schapire. Inference of finite automata using homing sequences. Information and
+Computation, 103:299--347, 1993.
+27. R. M. Roth and G. M. Benedek. Interpolation and approximation of sparse multivariate polynomials over
+GF2). SIAM Journal on Computing, 20(2):291--314, 1991.
+28. R. E. Schapire and L. M. Sellie. Learning sparse multivariate polynomials over a field with queries and
+counterexamples. In Proc. of 6th Annu. ACM Conf. on Comput. Learning Theory, pages 17--26, 1993. Journal
+version: J. of Computer and System Sciences, 52(2):201--213, 1996.
+29. A. C. Yao. Lower bounds by probabilistic arguments. In Proc. of the 24th Annu. IEEE Symp. on Foundations
+of Computer Science, pages 420--428, 1983.
+

@@ -1,0 +1,105 @@
+Combining CBR with Interactive Knowledge
+Acquisition, Manipulation and Reuse*
+
+David B. Leake and David C. Wilson
+
+Computer Science Department
+Indiana University, Lindley Hall
+150 S. Woodlawn Ave
+Bloomington, IN 47405, U.S.A.
+{leake, davwils}@cs.indiana.edu
+
+
+
+Abstract. Because of the complexity of aerospace design, intelligent
+systems to support and amplify the abilities of aerospace designers have
+the potential for profound impact on the speed and reliability of design 
+generation. This article describes a framework for supporting the
+interactive capture of design cases and their application to new problems, 
+illustrating the approach with a discussion of its use in a support
+system for aircraft design. The project integrates case-based reasoning
+with interactive tools for capturing expert design knowledge through
+“concept mapping.” Concept mapping tools provide crucial functions
+for interactively generating and examining design cases and navigating
+their hierarchical structure, while CBR techniques provide capabilities
+to facilitate retrieval and to aid interactive adaptation of designs. The
+project aims simultaneously to develop a useful design aid and more generally 
+to develop practical interactive approaches to fundamental issues
+of case acquisition and representation, context-sensitive retrieval, and
+case adaptation.
+References
+
+[Aha and Breslow, 1997] D. Aha and L. Breslow. Refining conversational case libraries.
+In Proceedings of the Second International Conference on Case-Based Reasoning,
+pages 267—278, Berlin, 1997. Springer Verlag.
+[Bagg, 1997] T.	Bagg.	RECALL:	Reusable	experience
+with case-based reasoning for automating lessons learned.
+http://hope.gsfc.nasa.gov/RECALL/homepg/recall.htm, 1997.
+[Cañas et al., 1995] A Cañas, K. Ford, J. Brennan, T. Reichherzer, and P. Hayes.
+Knowledge construction and sharing in quorum. In World Conference on Artificial
+Intelligence in Education, 1995.
+[de Silva Garza and Maher, 1996] A. Gómez de Silva Garza and M. Maher. Design by
+interactive exploration using memory-based techniques. Knowledge-Based Systems,
+9(1), 1996.
+[Domeshek et al., 1994] E. Domeshek, M. Herndon, A. Bennett, and J. Kolodner. A
+case-based design aid for conceptual design of aircraft subsystems. In Proceedings of
+the Tenth IEEE Conference on Artificial Intelligence for Applications, pages 63—69,
+Washington, 1994. IEEE Computer Society Press.
+[Falkenhainer et al., 1989] B. Falkenhainer, K. Forbus, and D. Gentner. The structure-mapping 
+engine: Algorithm and examples. Artificial Intelligence, 41:1—63, 1989.
+[Gebhardt et al., 1997] Friedrich Gebhardt, Angi Voß, Wolfgang Gräther, and Barbara
+Schmidt-Belz. Reasoning with complex cases. Kluwer, Boston, 1997.
+[Goel et al., 1991] A. Goel, J. Kolodner, M. Pearce, and R. Billington. Towards a
+case-based tool for aiding conceptual design problem solving. In R. Bareiss, editor,
+Proceedings of the DARPA Case-Based Reasoning Workshop, pages 109—120, San
+Mateo, 1991. DARPA, Morgan Kaufmann.
+[Gruber and Russell, 1992] Thomas Cruber and Daniel Russell. Generative design
+rationale: Beyond the record and replay paradigm. Knowledge Systems Laboratory
+KSL 92-59, Computer Science Department, Stanford University, 1992.
+[Hammond, 1989] K. Hammond. Case-Based Planning: Viewing Planning as a Memory 
+Task. Academic Press, San Diego, 1989.
+[Hinkle and Toomey, 1995] D. Hinkle and C. Toomey. Applying case-based reasoning
+to manufacturing. AI Magazine, 16(1):65—73, Spring 1995.
+[Hua and Faltings, 1993] K. Hua and B. Faltings. Exploring case-based design -
+CADRE. Artificial Intelligence in Engineering Design, Analysis and Manufacturing, 
+7(2):135—144, 1993.
+[Jonassen et al., 1993] David Jonassen, Katherine Beissner, and Michael Yacci. Explicit 
+methods for conveying structural knowledge through concept maps, chapter 15,
+page 155. Erlbaum, Hillsdale, NJ, 1993.
+[Kitano and Shimazu, 1996] H. Kitano and H. Shimazu. The experience sharing architecture: 
+A case study in corporate-wide case-based software quality control. In
+D. Leake, editor, Case-Based Reasoning: Experiences, Lessons, and Future Directions,
+pages 235—268. AAAI Press, Menlo Park, CA, 1996.
+[Kolodner, 1993] J. Kolodner. Case-Based Reasoning. Morgan Kaufmann, San Mateo,
+CA, 1993.
+[Leake et al., 1997] David Leake, Andrew Kinley, and David Wilson. A case study of
+case-based CBR. In Proceedings of the Second International Conference on Case-Based 
+Reasoning, pages 371—382, Berlin, 1997. Springer Verlag.
+[Leake, 1992] D. Leake. Evaluating Explanations: A Content Theory. Lawrence Erlbaum, 
+Hillsdale, NJ, 1992.
+[Lenz and Ashley, 1998] M. Lenz and K. Ashley, editors. Proceedings of the AAAI-98
+workshop on textual case-based reasoning. AAAI Press, Menlo Park, CA, 1998.
+[Mark et al., 1996] William Mark, Evangelos Simoudis, and David Hinkle. Case-based
+reasoning: Expectations and results. In D. Leake, editor, Case-Based Reasoning:
+Experiences, Lessons, and Future Directions, pages 269—294. AAAI Press, Menlo
+Park, CA, 1996.
+[Novak and Gowin, 1984] J.D. Novak and D.B. Gowin. Learning How to Learn. Cambridge 
+University Press, New York, 1984.
+[Schank, 1982] R.C. Schank. Dynamic Memory: A Theory of Learning in Computers
+and People. Cambridge University Press, Cambridge, England, 1982.
+[Smith et al., 1995] I. Smith, C. Lottaz, and B. Faltings. Spatial composition using
+cases: IDIOM. In Proceedings of First International Conference on Case-Based Reasoning, 
+pages 88—97, Berlin, October 1995. Springer Verlag.
+[Sycara, 1988] K. Sycara. Using case-based reasoning for plan adaptation and repair.
+In J. Kolodner, editor, Proceedings of the DARPA Case-Based Reasoning Workshop,
+pages 425—434, San Mateo, CA, 1988. Morgan Kaufmann.
+[Volirath, 1998] I. Vollrath. Reuse of complex electronic designs: Requirements analysis 
+for a CBR application. In P. Cunningham, B. Smyth, and M. Keane, editors,
+Proceedings of the Fourth European Workshop on Case-Based Reasoning, pages 136—
+147, Berlin, 1998. Springer Verlag.
+[Voß, 1994] A. VoB. The need for knowledge acquisition in case-based reasoning — some
+experiences from an architectural domain. In Proceedings of the Eleventh European
+Conference on Artificial Intelligence, pages 463—467. John Wiley, 1994.
+[Wilke et al., 1997] W. Wilke, I. Vollrath, K.-D. Althoff, and R. Bergmann. A framework 
+for learning adaptation knowedge based on knowledge light approaches. In
+Proceedings of the Fifth German Workshop on Case-Based Reasoning, 1997.

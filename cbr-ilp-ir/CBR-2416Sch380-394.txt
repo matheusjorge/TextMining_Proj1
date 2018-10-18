@@ -1,0 +1,92 @@
+Entropy-Based vs. Similarity-Influenced:
+Attribute Selection Methods for Dialogs
+Tested on Different Electronic Commerce Domains
+
+Sascha Schmitt1, Philipp Dopichaj1, and Patricia Domínguez-Marín2
+
+1Artificial Intelligence - Knowledge-Based Systems Group
+Department of Computer Science, University of Kaiserslautern
+67653 Kaiserslautern, Germany
+{sschmitt | dopichaj}@informatik.uni-kl.de
+2Department of Optimization
+ITWM - Fraunhofer Institut für Techno- und Wirtschaftsmathematik
+P.O. Box 3049, 67618 Kaiserslautern, Germany
+dominguez@itwm.fhg.de
+
+
+
+Abstract. Recent research activities in the field of attribute selection for
+carrying on dialogs with on-line customers have focused on entropy-based
+approaches that make use of information gain measures. These measures
+consider the distribution of attribute values in the case base and are focused on
+their ability to reduce dialog length. The implicit knowledge contained in the
+similarity measures is neglected. In previous work, we proposed the similarity-influenced 
+selection method sim Var, which selects the attributes that induce the
+maximum change in similarity distribution amongst the candidate cases,
+thereby partitioning the case base into similar and dissimilar cases. In this paper
+we present an evaluation of the selection methods using three domains with
+distinct characteristics. The comparison of the selection methods is based on the
+quality of the dialogs generated. Statistical analysis was used to support the
+evaluation results.
+References
+
+1.	Auriol, E., Wess, S., Manago, M., Althoff, K.D., Traphöner, R.: INRECA. A Seamlessly
+Integrated System Based on Inductive Inference and Case-Based Reasoning. In: Veloso,
+M., Aamodt, A. (eds.): Case-Based Reasoning Research and Development. Proc. of the 1st
+Intemat. Conf. on Case-Based Reasoning, ICCBR’95. LNAI 1010, Springer-Verlag (1995)
+2.	Bergmann, R., Breen, S., Göker, M., Manago, M., Wess, S.: Developing Industrial Case-Based 
+Reasoning Applications. The INRECA-Methodology. LNAI 1612, Springer-Verlag
+(1999)
+3.	Bergmann, R., Richter, M.M., Schmitt, S., Stahl, A., Vollrath, I.: Utility-Oriented
+Matching:	A New Research Direction for Case-Based Reasoning. In: Vollrath, I., Schmitt,
+S., Reimer, U. (eds.): Proc. of the 9th German Workshop on Case-Based Reasoning,
+GWCBR’01, Baden-Baden, Germany. In: Schnurr, H.-P., Staab, S., Studer, R., Stumme,
+G., Sure, Y. (Hrsg.): Professionelles Wissensmanagement. Shaker Verlag (2001)
+4.	Cohen, P.R.: Empirical Methods for Artificial Intelligence. The MIT Press (1995)
+5.	Cunningham, P., Bergmann, R., Schmitt, S., Traphöner, R., Breen, S., Smyth, B.:
+WEB SELL: Intelligent Sales Assistants for the World Wide Web. In: Weber, R., Gresse
+von Wangenheim, C. (eds.): Proc of the Workshop Program at the 4th International
+Conference on Case-Based Reasoning, ICCBR-2001, Vancouver, Canada. Workshop 3:
+Case-Based Reasoning in Electronic Commerce (2001)
+6.	Cunningham, P., Smyth, B.: A comparison of model-based and incremental case-based
+approaches to electronic fault diagnosis. In: Proc. of the Case-Based Reasoning Workshop
+at AAAI-94 (1994)
+7.	Doyle, M., Cunningham, P.: A Dynamic Approach to Reducing Dialog in On-Line
+Decision Guides. In: Blanzieri, E., Protionale, L. (eds.): Advances in Case-Based
+Reasoning. Proc. of the 5th European Workshop on Case-Based Reasoning, EWCBR 2000.
+LNAI 1898, Springer-Verlag (2000)
+8.	Kohlmaier, A., Schmitt, S., Bergmann, R.: A Similarity-based Approach to Selection in
+User-Adaptive Sales Dialogs. In: Aha, D.W., Watson, I. (eds.): Case-Based Reasoning
+Research and Development. Proc. of the 4th International Conference on Case-Based
+Reasoning, ICCBR-2001. LNAI 2080, Springer-Verlag (2001)
+9.	Kohlmaier, A., Schmitt, S., Bergmann, R.: Evaluation of a Similarity-based Approach to
+Customer-adaptive Electronic Sales Dialogs. In: Weibelzahl, S., Chin, D., Weber, G.
+(eds.): Empirical Evaluation of Adaptive Systems. Proc. of the workshop held at the 8th
+International Conference on User Modeling (2001)
+10.	McSherry, D.: Minimizing Dialog Length in Interactive Case-Based Reasoning. In: Proc.
+of the 17th International Joint Conference on Artificial Intelligence, IJCAI-01, Seattle,
+USA (2001)
+11.	Mitchell, T.M.: Machine Learning. McGraw-Hill (1997)
+12.	orenge:dialog. In: orenge: Open Retrieval Engine 3.2 Manual. empolis — knowledge
+management. http://www.km.empolis.com/
+13.	Quinlan, J.R.: Induction of Decision Trees. Machine Learning 1 (1986)
+14.	Quinlan, J.R.: C4.5: Programs for Machine Learning. Morgan Kaufmann, San Mateo,
+California (1993)
+15.	Schmitt, S.: simVar:A Similarity-Influenced Question Selection Criterion for c-Sales
+Dialogs. In: Burke, R., Cunningham, P. (eds.): Special Issue on AI Approaches to User
+Requirements Elicitation for E-Commerce. Artificial Intelligence Review. To be published
+16.	Schmitt, S., Bergmann, R.: A Formal Approach to Dialogs with Online Customers. In:
+O’Keefe, B., Loebbecke, C., Gricar, J., Pucihar, A., Lenart, G. (eds.): c-Everything: e-
+Commerce, e-Government, c-Household, c-Democracy. Proc. of the 14th Bled Electronic
+Commerce Conference. Vol. 1: Research (2001)
+17.	Smyth, B., Cunningham, P.: A Comparison of Incremental Case-Based Reasoning and
+Inductive Learning. In: Proc. of the 2nd European Workshop on Case-Based Reasoning,
+EWCBR’94, Chantilly, France (1994)
+18.	Stoodley, K.D.C., Lewis, T., Stainton, C.L.S.: Applied Statistical Techniques. Halsted
+Press (1980)
+19.	Wilke, W., Lenz, M., Wess, S.: Intelligent Sales Support with CBR. In: Lenz, M. Bartsch-
+Spörl, B., Burkhard, H.D., Wess, S. (eds.): Case-Based Reasoning Technology. From
+Foundations to Applications. Springer-Verlag (1998)
+20.	Yang, Q., Wun J.: Enhancing the Effectiveness of Interactive Case-Based Reasoning with
+Clustering and Decision Forests. In: Aha, D., Muñoz-Avila, H. (eds.): Applied Intelligence
+Journal, Special Issue on Interactive CBR (1999).

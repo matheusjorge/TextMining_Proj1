@@ -1,0 +1,50 @@
+A Mirror Neuron System for Syntax Acquisition
+
+Steve Womble and Stefan Wermter
+University of Sunderland, Centre of Informatics,
+St. Peter's Way, Sunderland, SR6 0DD. United Kingdom
+www.his.sunderland.ac.uk
+
+Abstract. We investigate the use of a connectionist model of a mirror
+neuron cortical network for a context free syntax acquisition task. A finite
+state representation of the context free grammar is learned by an implicit
+knowledge system (IKS) modelled by a connectionist network. A mirror
+neuron system (MNS) whose evolutionary pedigree suggests adaptation
+for goal-directed sequential processing is used to track embedded recursions 
+in a learned finite state model of the grammar. The mirror system
+modifies the output of the IKS depending on the depth of embedding.
+Reciprocally the IKS updates the MNS as natural `goals' occur within
+a sequence during sentence production. This solves the computationally
+hard problem of inferring contexts from sequential input.
+
+References
+1. Christopher M. Bishop. Neural Networks for Pattern Recognition. Oxford University
+ Press, Great Clarendon Street, Oxford, OX2 6DP, United Kigdom, 1995.
+2. Vittorio Gallese, Luciano Fadiga, Leonardo Fogassi, and Giacomo Rizzolatti. Action 
+recognition in the premotor cortex. Brain, 119:593{609, 1996.
+3. Matthew A. Howard, F. McGlone, K. D. Singh, and N. Roberts. Brain activations
+to passive observation of relevant actions - an fMRI study. In Maxim Stamenov
+and Vittorio Gallese, editors, Mirror Neurons and the Evolution of Brain and Language, 
+Advances In Consciousness Research. John Benjamins, John Benjamins,
+Netherlands, 2001 (In Press).
+4. Ralph-Axel Muller. Innateness, autonomy, universality? neurobiological approaches 
+to language. Behavioural and brain Sciences, 19:611{675, 1996.
+5. Giacomo Rizzolatti and Michael A. Arbib. Language within our grasp. Trends in
+the Neurosciences, 21:188{194, 1998.
+6. Giacomo Rizzolatti, R. Camarda, L. Fogassi, M. Gentilucci, G. Luppino, and
+M. Matelli. Functional organization of inferior area 6 in the macaque monkey:
+II. Area F5 and the control of distal movements. Experimental Brain Research,
+71:491{507, 1988.
+7. Giacomo Rizzolatti, Luciano Fadiga, Leonardo Fogassi, and Vittorio Gallese. Premotor 
+cortex and the recognition of motor actions. Cognitive Brain Research,
+3:131{141, 1996.
+8. Edmund T. Rolls and Alessandro Treves. Neural Networks and Brain Function,
+chapter 6, pages 95{135. Oxford University Press, Great Clarendon Street, Oxford,
+OX2 6DP, United Kigdom, 1998.
+9. Stefan Wermter. Hybrid Connectionist Natural Language Processing. Chapman &
+Hall, 2-6 Boundary Row, London., 1995.
+10. Steve Womble and Stefan Wermter. Mirror neurons and feedback learning. In
+Maxim Stamenov and Vittorio Gallese, editors, Mirror Neurons and the Evolution
+of Brain and Language, Advances In Consciousness Research. John Benjamins,
+Netherlands, 2001 (In Press).
+

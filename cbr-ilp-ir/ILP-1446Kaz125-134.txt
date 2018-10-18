@@ -1,0 +1,61 @@
+A Hybrid Approach to Word Segmentation
+
+Dimitar Kazakov1 and Suresh Manandhar2
+
+University of York, Heslingtou, York YO1O 5DD, UK,
+{kazakov, suresh}@cs.york.ac.uk,
+WWW home page: 1 http://www.cs.york.ac.uk/mlg/ and
+2 http://www.cs.york.ac.uk/~suresh/
+
+
+Abstract. This article presents a combination of unsupervised and supervised 
+learning techniques for generation of word segmentation rules
+from a list of words. First, a bias for word segmentation is introduced
+and a simple genetic algorithm is used for the search of segmentation
+that corresponds to the best bias value, In the second phase, the segmentation 
+obtained from the genetic algorithm is used as an input for
+two inductive logic programming algorithms, namely FOIDL and CLOG.
+The result is a logic program that can be used for segmentation of unseen
+words. The learnt program contains affixes which are characteristic for
+the given language and can be used in other morphology tasks.
+
+References
+1.	H. Blockeel. Application of inductive logic programming to natural language processing. 
+Master’s thesis, Katholieke Universiteit Leuven, 1994.
+2.	E. Brill. Some advances in transformation-based part of speech tagging. In Proceedings 
+of AAAI-94, pages 748—753. AAAI Press/MIT Press, 1994.
+3.	Mary Elaine Calif and Raymond J. Mooney. Advantages of decision lists and
+implicit negatives in inductive logic programming. Technical report, University of
+Texas at Austin, 1996.
+4.	James Cussens. Part-of-speech tagging using Progol. In Inductive Logic Programming: 
+Proceedings of the 7th International Workshop (ILP-97), pages 93—108, 1997.
+5.	Sabine Deligne. Modèles de sequences de longueurs variables: Application au traitement 
+du langage écrit et de Ia parole. PhD thesis, ENST Paris, France, 1996.
+6.	Bernard Fradin. L’approche à deux niveaux en morphologie computationnelle et
+les développements récents de la morphologie. Traitement automatique des langues,
+35(2):9—48, 1994.
+7.	David E. Goldberg. Genetic Algorithms in Search, Optimization, and Machine
+Learning. Addison-Wesley, 1989.
+8.	Dimitar Kazakov. An inductive approach to natural language parser design. In
+Kemal Oflazer and Harold Somers, editors, Proceedings of Nemlap-2, pages 209—
+217, Ankara, Turkey, September 1996. Bilkent University.
+9.	Dimitar Kazakov. Unsupervised learning of naive morphology with genetic algorithms. 
+In W. Daelemans, A. van den Bosch, and A. Weijters, editors, Workshop
+Notes of the ECML/MLnet Workshop on Empirical Learning of Natural Language
+Processing Tasks, pages 105—112, Prague, April 1997.
+10.	Nada Lavrac and Saso Dzeroski. Inductive Logic Programming Techniques and Applications. 
+Ellis Horwood Ltd., Campus 400, Maylands Avenue,Hemel Hempstead,
+Herdfortshire, HP2 7EZ, England, 1994.
+11.	Suresh Manandhar, Saso Dzeroski, and Tomaz Erjavec. Learning Multilingual
+Morphology with CLOG. In The Eighth International Conference on Inductive
+Logic Programming (ILP’98), Madison, Wisconsin, USA, 1998.
+12.	Raymond J. Mooney and Mary Elaine Califf. Induction of first—order decision lists:
+Results on learning the past tense of English verbs. JAIR, June 1995.
+13.	Vito Pirelli. Morphology, Analogy and Machine Translation. PhD thesis, Salford
+University, UK, 1993.
+14.	J.R. Quinlan. Learning logical definitions from relations. ML, 5:239—266, 1990.
+15.	Antal van den Bosch, Walter Daelemans, and Ton Weijters. Morphological analysis
+as classification: an inductive learning approach. In Kemal Ofiazer and Harold
+Somers, editors, Proceedings of Nemlap-2, pages 79-89, Ankara, Sep. 1996.
+16.	François Yvon. Prononcer par analogie: motivations, formalisations et évaluations.
+PhD thesis, ENST Paris, France, 1996.

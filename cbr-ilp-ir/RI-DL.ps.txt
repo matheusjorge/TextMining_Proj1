@@ -1,0 +1,49 @@
+A Digital Libraries System based on Multi­level Agents
+
+Kamel Hamard 1 , Jian­Yun Nie 1 ,
+Gregor v. Bochmann 2 ,
+Robert Godin 3 , Brigitte Kerhervé 3 ,
+T. Radhakrishnan 4 , Rajjan Shinghal 4 ,
+James Turner 5 ,
+Fadi Berouti 6 , F.P. Ferrie 6
+1. Dept. IRO, Université de Montréal
+2. SITE, University of Ottawa
+3. Dept. Informatique, Univ. du Québec à Montréal
+4. Dept. Of Computer science, Concordia University
+5. Dept. de bibliothéconomie et science dÆinformation,Université de Montréal
+6. Center for Intelligent Machines, McGill University
+
+Abstract
+In this paper, we describe an agent­based architecture for digital library (DL) systems and its
+implementation. This architecture is inspired from Harvest and UMDL, but several extensions
+have been made. The most important extension concerns the building of multi­level indexing and
+cataloguing. Search agents are either local or global. A global search agent interacts with other
+agents of the system, and manages a set of local search agents. We extended the Z39.50 standard
+in order to support the visual characteristics of images and we also integrated agents for
+multilingual retrieval. This work shows that the agent­based architecture is flexible enough to
+integrate various kinds of agents and services in a single system.
+
+References:
+[Banerjee 94] Sujata Banerjee and Vibhu O. Mittal., On the Use of Linguistic Ontologies for
+Accessing and Indexing Distributed Digital Libraries. D­lib Magazine 1994.
+[Birmingham 95] William P. Birmingham, An Agent­Based Architecture for Digital Libraries.
+D­lib Magazine, July 1995.
+[Bowman 94] C. M. Bowman et al.. The Harvest Information Discovery and Access. Technical
+Report CU­CS­732­94, Department of Computer Science, University of Colorado, Boulder
+July 1994.
+[Dublin Core] http://linnea.helsinki.fi/meta/oclc/index.htm
+[Hirano] HIRANO Satoshi, HORB ­ a distributed Java package. Tutorial document.
+http://ring.etl.go.jp/openlab/horb
+[Isabelle 97] P. Isabelle, G. Foster, P. Plamondon, The SILC project: A system for language and
+coding identification, http://www­rali.iro.umontreal.ca/ProjetSILC.en.html, 1997.
+[Nie 98] J.Y. Nie, P. Isabelle, P. Plamondon, G. Foster, Using a probabilistic translation model
+for cross­language information retrieval, Sixth workshop on Very Large Corpora, Montreal,
+pp. 18­27, 1998.
+[NISO 95] National Information Standards Organization. Z39.50 : Information Retrieval
+(Z39.50) : application Service Definition and Protocol Specification, 1995.
+[Shivakumar 95] N. Shivakumar and H. Garcia­Molina, SCAM: Acopy detection mechanism for
+digital document, Digital LibraryÆ95, 1995,
+http://csdl.tamu.edu/csdl/DL95/papers/shivakumar.ps
+[Systran] http://babelfish.altavista,digital.com/
+[Willow] http://www1.cac.washington.edu/willow/home.html
+

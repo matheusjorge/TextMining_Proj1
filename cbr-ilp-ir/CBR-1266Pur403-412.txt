@@ -1,0 +1,83 @@
+Towards Improving Case Adaptability with a
+Genetic Algorithm
+
+Lisa Purvis and Salil Athalye
+
+Xerox Corporation, 800 Phillips Road, 128-51E
+Webster, NY 14580
+E-Mail: {lpurvis,athalye}@wrc.xerox.com
+
+
+Abstract. Case combination is a difficult problem in Case Based Reasoning, 
+as sub-cases often exhibit conflicts when merged together. In our
+previous work we formalized case combination by representing each case
+as a constraint satisfaction problem, and used the minimum conflicts
+algorithm to systematically synthesize the global solution. However, we
+also found instances of the problem in which the minimum conflicts algorithm 
+does not perform case combination efficiently. In this paper we
+describe those situations in which initially retrieved cases are not easily
+adaptable, and propose a method by which, to improve case adaptability
+with a genetic algorithm. We introduce a fitness function that maintains
+as much retrieved case information as possible, while also perturbing
+a sub-solution to allow subsequent case combination to proceed more
+efficiently.
+References
+
+1.	P.E. Raue A. Eiben and Zs. Ruttkay. Solving constraint satisfaction problems
+using genetic algorithms. In Proceedings of the IEEE World Conference on Computational 
+Intelligence, pages 543—547, 1994.
+2.	Dean Allemang. Review of the first european workshop on case based reasoning.
+Case-Based Reasoning Newsletter, 2, 1993.
+3.	Andrew Kinley David B. Leake and David Wilson. Learning to improve case adaptation 
+by introspective reasoning and cbr. In Proceedings of the Pirst International
+Conference on Case Based Reasoning, Sesimbra, Portugal, pages 229—240, 1995.
+4.	Lawrence Davis. Handbook of Genetic Algorithms. Van Nostrand Reinhold Publishers, 1991.
+5.	A. Goel. Integration of Case-Based Reasoning and Model-Based Reasoning for
+Adaptive Design Problem Solving. PhD thesis, Ohio State University, 1989.
+6.	K. Haigh and M. Veloso. Route planning by analogy. In Proceedings of the First
+International Conference on Case Based Reasoning, Sesimbra, Portugal, pages
+169—180, 1995.
+7.	Kefeng Hua and Boi Faltings. Exploring case-based building design - cadre. In
+Artificial Intelligence in Engineering Design, Analysis, and Manufacturing, 1993.
+8.	Y. Huang and R. Miles. A case based method for solving relatively stable dynamic 
+constraint satisfaction problems. In Proceedings of the First International
+Conference on Case Based Reasoning, Sesimbra, Portugal, pages 481—490, 1995.
+9.	C. Lottaz I. Smith and B. Faltings. Spatial composition using cases: Idiom. In
+Proceedings of the First International Conference on Case Based Reasoning, Sesimbra, 
+Portugal, pages 88—97, 1995.
+10.	M. Brand et al. L. Birnbaum, G. Collins. A model-based approach to the construction 
+of adaptive case-based planning systems. In Proceedings of the Case Based
+Reasoning Workshop, Florida, USA, 1989.
+11.	David Leake. Workshop report: The aaai’93 workshop on case based reasoning.
+AI Magazine, pages 63—64, 1994.
+12.	David Leake and S. Fox. Using introspective reasoning to guide index refinement.
+In Proceedings of the Sixteenth International Conference of the Cognitive Science
+Society, pages 313—318, 1992.
+13.	Kazuo Miyashita and Katia Sycara. Improving system performance in case-based
+iterative optimization through knowledge filtering. In Proceedings of the International 
+Joint Conference on Artificial Intelligence, pages 371—376, 1995.
+14.	H. Munoz and J. Huellen. Retrieving cases in structured domains by using goal
+dependencies. In Proceedings of the First International Conference on Case Based
+Reasoning, Sesimbra, Portugal, pages 241—252, 1995.
+15.	B.D. Netten and R.A. Vingerhoeds. Adaptation for conceptual design in eadocs.
+In Proceedings of the ECAI’96 Workshop on Case Adaptation, Budapest, Hungary
+1996.
+16.	Lisa Purvis. Intelligent Design Problem Solving Using Case-Based and Constraint-Based 
+Techniques. PhD thesis, The University of Connecticut, 1995.
+17.	Lisa Purvis and Pearl Pu. Adaptation using constraint satisfaction techniques.
+In Proceedings of the First International Conference on Case-Based Reasoning,
+Sesimbra, Portugal, pages 289—300, 1995.
+18.	Maria Cristina Riff Rojas. From quasi-solutions to solution: An evolutionary algorithm 
+to solve csp. In Proceedings of the Principles and Practice of Constraint
+Programming Conference (CP96), pages 367—381, 1996.
+19.	Barry Smyth and Mark T. Keane. Experiments on adaptation-guided retrieval in
+case-based design. In Proceedings of the First International Conference on Case
+Based Reasoning, Sesimbra, Portugal, pages 313—324, 1995.
+20.	A. Philips Steven Minton, M. Johnston and P. Laird. Minimizing conflicts: A
+heuristic repair method for constraint satisfaction and scheduling problems. Artificial 
+Intelligence, pages 161—205, 1992.
+21.	E.P.K. Tsang and T. Warwick. Applying genetic algorithms to constraint satisfaction 
+optimization problems. In Proceedings of the European Conference on
+Artificial Intelligence, Stockholm, Sweden, pages 649—654, 1990.
+22.	T. Warwick. A CA Approach to Constraint Satisfaction Problems. PhD thesis,
+University of Essex, Colchester, UK, 1995.

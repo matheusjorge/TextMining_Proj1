@@ -1,0 +1,41 @@
+A Support System Based on CBR for the Design
+of Rubber Compounds in Motor Racing
+
+Stefania Bandini and Sara Manzoni
+
+Department of Computer Science, Systems, and Communication
+University of Milan—Bicocca, via Bicocca degli Arcimboldi, 8 - 200126 - Milan (Italy)
+tel +39 02 64487835 —— fax +39 02 64487839
+bandini@disco.unimib.it
+
+
+
+Abstract. This work presents P—Race, a knowledge—based system developed 
+for the Motorsports Department of Pirelli Tyres. The system
+supports the formulation of rubber compounds of tyre tread, in order to
+take part (and win) in motor racing. Multiple knowledge representations
+have been adopted and integrated into a single Case—Based Reasoning
+(CBR) computational framework in order to capture the different competence 
+involved in the decision making process. Moreover, a dedicated
+representation formalism called Abstract Compounds Machine (ACM)
+has been introduced in order to represent, compute, and integrate in the
+CBR architecture the core knowledge regarding rubber compounds. The
+result is a general case-based architecture where the adaptation step is
+demanded to a component based on the ACM model.
+References
+
+1.	W. Cheetham, J. Graf. 1997. Case—Based Reasoning in Color Matching. In D. B.
+Leake, B. Plaza (Eds.), Case-Based Reasoning Research and Development, Proceedings 
+of the 2nd International Conference on Case-Based Reasoning, Springer—Verlag, Berlin.
+2.	S. Craw, N. Wiratunga, R. Rowe. 1998. Case-Based Design for Tablet Formulation.
+Proceedings of the 4th European Workshop on Case-Based Reasoning, Springer—Verlag, Berlin.
+3.	M. L. Maher, M. Balachandran, D. M. Zhang. 1995. Case-Based Reasoning in
+Design. Laurence Eribaum Ass. Pu., Hove (UK).
+4.	K. Borner. 1998. CBR for Design. In M. Lenz, B. Bartsch-Spörl, H. Burkhard,
+S. Wess (Eds.), Case-Based Reasoning Technology, Lecture Notes in Artificial Intelligence 
+1400, Springer.
+5.	J. Kolodner. 1993. Case-Based Reasoning. Morgan Kaufmann Pu., San Mateo
+(CA).
+6.	S. Bandini, S. Manzoni. 1999. Modulo di Adattamento e Modifica Ricette, Pirelli
+P—Race Project. Internal Report (FR2).
+7.	G. Berry, C. Boudol. 1992. The Chemical Abstract Machine. TCS 96, Elsevier.

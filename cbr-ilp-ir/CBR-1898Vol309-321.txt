@@ -1,0 +1,52 @@
+Handling Vague and Qualitative Criteria in
+Case-Based Reasoning Applications
+
+Ivo Vollrath
+
+Artificial Intelligence/Knowledge Based Systems group, University of Kaiserslautern
+vollrath@informatik.uni-kl.de
+http: //wwwagr.informatik.uni-kl.de/
+
+
+
+Abstract. In some case-based reasoning (CBR) applications for decision 
+support there are a number of vague or qualitative criteria that have
+to be taken into account by the similarity measure. Sometimes, these criteria 
+are very hard to acquire or quantify and they often conflict with the
+“main” quality criterion that is measured by the similarity function. Surprisingly, 
+this sometimes is true even for cost criteria (mostly believed to
+be quite quantitative): in certain applications, the acceptable cost limit
+depends mostly on the quality that is available and thus cannot be specified 
+a priori. This paper discusses the problems arising from this kind
+of implicit criteria and shows approaches of how they can be integrated
+into the similarity measure of a case-based reasoning system without the
+need of artificially quantifying them.
+References
+
+1.	Ivo Volirath and Peter Oehler. Intelligent retrieval of electronic designs in online
+catalogs. In Wolfgang Wilke and Jürgen Schumacher, editors, KI-98 Workshop on
+Intelligent Systems and Electronic Commerce, number LSA-98-03E in LSA Report,
+pages 57—63, Kaiserslautern, 1998. Centre for Learning Systems and Applications
+(LSA).
+2.	Norbert Faulhaber and Ralf Seepold. An efficient similarity metric for IP reuse in
+RMS. In Kunzmann and Seepold [81, pages 23—32.
+3.	Ranto Rafidinitrimo, Philippe Coeurdevey, and Gabrièle Saucier. IP key features 
+and an object oriented IP catalog management system. Design & Reuse
+Technical Paper, Grenoble, France, On-Line, Last seen at http://www.design-reuse.com/NEWS/paper02..98.html, February 1999.
+4.	Michael M. Richter and Klaus-Dieter Althoff. Similarity and utility in non-numerical 
+domains. In Mathematische Methoden der Wirtschaftswissenschaften,
+pages 403—413. Physika-Verlag, 1999. Last seen at http://www.cbr-web.org/
+documents/RichterSimilarity99.pdf.
+5.	Ivo Vollratb. Reuse of complex electronic designs: Requirements analysis for a
+CBR application. In Barry Smyth and Pádraig Cunningham, editors, Advances in
+Case-Based Reasoning: 4th European Workshop, proceedings/EWCBR-98, volume
+1488: Lecture notes in artificial intelligence of Lecture notes in computer science,
+Berlin, 1988. Springer.
+6.	Peter Oehler and Ivo Vollrath. Are you READEE for IPs? In Kunzmann and
+Seepold [8].
+7.	Michael M. Richter. The knowledge contained in similarity measures. Invited Talk
+at the International Conference on Case-Based Reasoning (ICCBR-95), 1995. Last
+seen at http://www.cbr-web.org/documents/Richtericcbr95remarks.html.
+8.	Arno Kunzmann and Raif Seepold, editors. Proceedings 2. GI/ITG/GMM
+Workshop: Reuse Techniques for VLSI Design, FZI-Report 3-13-9/98, Karlsruhe,
+September 1998. Forschungszentrum Informatik.

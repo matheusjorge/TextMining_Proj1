@@ -1,0 +1,47 @@
+Data Mining via ILP: The Application of Progol
+to a Database of Enantioseparations
+
+Christopher H.Bryant1
+
+School of Computing and Mathematics, University of Huddersfield, HD1 3DH, UK. **
+
+
+Abstract. As far as this author is aware, this is the first paper to describe 
+the application of Progol to enantioseparations. A scheme is proposed 
+for data mining a relational database of published enantio separations 
+using Progol. The application of the scheme is described and a
+preliminary assessment of the usefulness of the resulting generalisations
+is made using their accuracy, size, ease of interpretation and chemical
+justification.
+References
+
+1.	Bratko, I., Muggleton, S.: Applications of Inductive Logic Programming. Communications 
+of the ACM 38(11) (1995) 65-70
+2.	Bryant, C.H.: Data Mining for Chemistry: the Application of Three Machine
+Induction Tools to a Database of Enantioseparations. Ph.D. Thesis. University
+of Manchester Institute of Science and Technology, UK. 1996.
+3.	Bryant, C.H., Adam, A.E., Taylor, D.R., Rowe, R.C.: Towards an Expert System
+for Enantioseparations: Induction of Rules Using Machine Learning. Chemometrics 
+and Intelligent Laboratory Systems 34 (1996) 21-40
+4.	Bryant, C.H., Adam, A.E., Taylor, D.R., Rowe, R.C.: Using Inductive Logic
+Programming to Discover Knowledge Hidden in Chemical Data. Chemometrics
+and Intelligent Laboratory Systems, 36 (1997) 111-123
+5.	Chirex. The Innovative Direction in Chiral Separations. Phenomenex Ltd. UK,
+Macclesfield, Cheshire, UK.
+6.	Cleveland, T.: Pirkle-Concept Chiral Stationary Phases for the HPLC Separation 
+of Pharmaceutical Racemates. Journal of Liquid Chromatography 18(4)
+(1995) 649-671
+7.	Dzeroski, S., Schulze-Kremer, S., Heidtke, K.R., Siems: K., Wettschereck, D.:
+Applying ILP to Diterpene Structure Elucidation from 13C NMR Spectra. Presented 
+at a workshop in Bari, Italy on 2nd July 1996 entitled ‘Data Mining with
+Inductive Logic Programming’ associated with the l3th International Conference
+on Machine Learning.
+8.	Muggleton, S.: Inverse Entailment and Progol. New Generation Computing 13(3-
+4)	(1995) 245-286
+9.	Muggleton, S., Feng, C.: Efficient Induction of Logic Programs, in: Arikawa,
+S., Goto, S., Ohsuga, S., Yokomori, T. (eds.), Proc. 1st Conf. on Algorithmic
+Learning Theory, Japanese Society for Artificial Intelligence, Tokyo, 1990
+10.	Quinlan, J.R.: Learning Logical Definitions from Relations. Machine Learning
+6 (1990) 239-266
+11.	Taylor, D.R., Maher, K.: Chiral Separations by High-Performance Liquid Chromatography. 
+Journal of Chromatographic Science 30 (1992) 67-85

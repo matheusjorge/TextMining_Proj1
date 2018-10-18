@@ -1,0 +1,167 @@
+One­way Functions are Essential for Single­Server
+Private Information Retrieval
+
+Amos Beimel \Lambda Yuval Ishai y Eyal Kushilevitz z Tal Malkin x
+\Lambda Division of Engineering and Applied Sciences, Harvard Uni­
+versity, 40 Oxford st., Cambridge, MA 02138. E­mail:
+beimel@deas.harvard.edu. Supported by grants ONR­N00014­96­1­
+0550 and ARO­DAAL03­92­G0115.
+y Computer Science Department, Technion, Haifa 32000, Israel. E­
+mail: yuvali@cs.technion.ac.il. Part of this work was done while vis­
+iting IBM T.J. Watson Research Center.
+z IBM T.J. Watson Research Center, and Computer Science De­
+partment, Technion, Haifa, Israel. E­mail: eyalk@watson.ibm.com
+and eyalk@cs.technion.ac.il. Supported in part by the Mitchell­
+Schoref program at the Technion.
+x Laboratory for Computer Science, Massachusetts Institute of
+Technology, 545 Technology sq., Cambridge, MA 02139. E­mail:
+tal@theory.lcs.mit.edu. Supported by DARPA grant DABT63­96­C­
+0018. Part of this work was done while visiting IBM T.J. Watson
+Research Center.
+
+
+Abstract
+Private Information Retrieval (PIR) protocols allow a user
+to read information from a database without revealing to
+the server storing the database which information he has
+read. Kushilevitz and Ostrovsky [23] construct, based on the
+quadratic residuosity assumption, a single­server PIR proto­col 
+with small communication complexity. Cachin, Micali,
+and Stadler [5] present a single­server PIR protocol with a
+smaller communication complexity, based on the (new) \Phi­
+hiding assumption.
+A major question, addressed in the present work, is what
+assumption is the minimal assumption necessary for the con­struction 
+of single­server private information retrieval pro­tocols 
+with small communication complexity. We prove that
+if there is a (0­error) PIR protocol in which the server sends
+less than n bits then one­way functions exist (where n is the
+number of bits in the database). That is, even saving one bit
+compared to the naive protocol, in which the entire database
+is sent, already requires one­way functions. The same result
+holds (but requires more work) even if we allow the retrieval
+to fail with probability of at most 1=(8n). Moreover, similar
+results hold even if we allow constant probability of error.
+For example, we prove that if there is a PIR protocol with er­
+ror 1=4 and communication complexity less than n=10 bits,
+then one­way functions exist.
+
+References
+[1] M. Abadi, J. Feigenbaum, and J. Kilian. On hiding
+information from an oracle. J. of Computer and System
+Sciences, 39:21--50, 1989.
+[2] A. Ambainis. Upper bound on the communication com­plexity 
+of private information retrieval. In Proc. of 24th
+ICALP, volume 1256 of Lecture Notes in Computer Sci­ence, 
+pages 401--407, 1997.
+[3] D. Beaver and J. Feigenbaum. Hiding instances in
+multioracle queries. In C. Choffrut and T. Lengauer,
+editors, STACS '90, 7th Annu. Symp. on Theoreti­
+cal Aspects of Computer Science, volume 415 of Lec­ture 
+Notes in Computer Science, pages 37--48. Springer­
+Verlag, 1990.
+[4] D. Beaver, J. Feigenbaum, J. Kilian, and P. Rogaway.
+Locally random reductions: Improvements and appli­cations. 
+J. of Cryptology, 10(1):17--36, 1997. Early
+version: Security with small communication overhead,
+CRYPTO '90, volume 537 of Lecture Notes in Com­puter 
+Science, pages 62­76. Springer­Verlag, 1991.
+[5] C. Cachin, S. Micali, and M. Stadler. Computationally
+private information retrieval with polylogarithmic com­munication. 
+In Advances in Cryptology ­ EUROCRYPT
+'99, 1999. To appear.
+[6] B. Chor and N. Gilboa. Computationally private in­
+formation retrieval. In Proc. of the 29th Annu. ACM
+Symp. on the Theory of Computing, pages 304--313,
+1997.
+[7] B. Chor and O. Goldreich. Unbiased bits from sources
+of weak randomness and probabilistic communication
+complexity. SIAM J. on Computing, 17(2):230--261,
+1988.
+[8] B. Chor, O. Goldreich, E. Kushilevitz, and M. Su­dan. 
+Private information retrieval. In Proc. of the 36th
+Annu. IEEE Symp. on Foundations of Computer Sci­
+ence, pages 41--51, 1995. Journal version to appear in
+JACM.
+[9] T. M. Cover and J. A. Thomas. Elements of Informa­tion 
+Theory. John Wiley & Sons, 1991.
+[10] C. Cr'epeau. Equivalence between two flavors of obliv­ious 
+transfers. In C. Pomerance, editor, Advances in
+Cryptology ­ CRYPTO '87, volume 293 of Lecture Notes
+in Computer Science, pages 350--354. Springer­Verlag,
+1988.
+[11] G. Di Crescenzo, Y. Ishai, and R. Ostrovsky. Universal
+service­providers for database private information re­trieval. 
+In Proc. of the 17th Annu. ACM Symp. on Prin­ciples 
+of Distributed Computing, pages 91--100, 1998.
+[12] G. Di Crescenzo, T. Malkin, and R. Ostrovsky. Single­
+database private information retrieval implies oblivious
+transfer. Manuscript, November, 1998.
+[13] Y. Gertner, S. Goldwasser, and T. Malkin. A ran­dom 
+server model for private information retrieval. In
+M. Luby, J. Rolim, and M. Serna, editors, RANDOM
+'98, 2nd International Workshop on Randomization
+and Approximation Techniques in Computer Science,
+volume 1518 of Lecture Notes in Computer Science,
+pages 200--217. Springer, 1998.
+[14] Y. Gertner, Y. Ishai, E. Kushilevitz, and T. Malkin.
+Protecting data privacy in private information retrieval
+schemes. In Proc. of the 30th Annu. ACM Symp. on
+the Theory of Computing, pages 151--160, 1998.
+[15] O. Goldreich. Note on computational indistinguishabil­ity. 
+Inform. Process. Lett., 34(6):277--281, 1990.
+[16] O. Goldreich. Foundations of Cryptography (frag­
+ments of a book). Electronic Colloquium on Com­putational 
+Complexity, 1995. Electronic publica­
+tion: http://www.eccc.uni­trier.de/eccc­local/ECCC­
+Books/eccc­books.html.
+[17] S. Goldwasser and S. Micali. Probabilistic encryption.
+J. of Computer and System Sciences, 28(21):270--299,
+1984.
+[18] J. Hastad, R. Impagliazzo, L. A. Levin, and M. Luby.
+Construction of a pseudo­random generator from any
+one­way function. Technical Report TR­91­068, Inter­national 
+Computer Science Institute, 1991.
+[19] R. Impagliazzo and M. Luby. One­way functions are
+essential for complexity based cryptography. In Proc.
+of the 30th Annu. IEEE Symp. on Foundations of Com­puter 
+Science, pages 230--235, 1989.
+[20] R. Impagliazzo and S. Rudich. Limits on the provable
+consequences of one­way permutations. In Proc. of the
+21st Annu. ACM Symp. on the Theory of Computing,
+pages 44--61, 1989.
+[21] Y. Ishai and E. Kushilevitz. Improved upper bounds
+on information theoretic private information retrieval.
+In Proc. of the 31th Annu. ACM Symp. on the Theory
+of Computing, 1999.
+[22] E. Kushilevitz and N. Nisan. Communication Complex­ity. 
+Cambridge University Press, 1997.
+[23] E. Kushilevitz and R. Ostrovsky. Replication is not
+needed: Single database, computationally­private in­
+formation retrieval. In Proc. of the 38th Annu. IEEE
+Symp. on Foundations of Computer Science, pages 364--
+373, 1997.
+[24] M. Luby. Pseudorandomness and Cryptographic Appli­cations. 
+Princeton University Press, 1996.
+[25] E. Mann. Private access to distributed information.
+Master's thesis, Technion ­ Israel Institute of Technol­
+ogy, Haifa, 1998.
+[26] M. Naor. Bit commitment using pseudorandom gener­ators. 
+J. of Cryptology, 4:151--158, 1991.
+[27] R. Ostrovsky and V. Shoup. Private information stor­age. 
+In Proc. of the 29th Annu. ACM Symp. on the
+Theory of Computing, pages 294--303, 1997.
+[28] R. Ostrovsky and A. Wigderson. One­way functions are
+essential for non­trivial zero­knowledge. In 2nd Israel
+Symp. on Theory of Computing and Systems, pages 3--
+17, 1993.
+[29] M. O. Rabin. How to exchange secrets by oblivious
+transfer. Technical Report TR­81, Harvard Aiken Com­putation 
+Laboratory, 1981.
+[30] J. Rompel. One­way functions are necessary and suffi­cient 
+for secure signatures. In Proc. of the 22nd Annu.
+ACM Symp. on the Theory of Computing, pages 387--
+394, 1990.
+[31] A. C. Yao. Theory and application of trapdoor func­tions. 
+In Proc. of the 23th Annu. IEEE Symp. on Foun­dations 
+of Computer Science, pages 80--91, 1982.

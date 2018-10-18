@@ -1,0 +1,74 @@
+A Systematic Approach to Creating and Maintaining Software
+Documentation
+
+Allison L. Powell, James C. French, John C. Knight
+(alp4g | french | knight)@virginia.edu
+Department of Computer Science, Thornton Hall, University of Virginia, Charlottesville, VA 22903
+
+
+Abstract. Current software documentation is difficult to
+write and seldom meets the varying needs of its users. We
+propose that by considering different users and applying
+information retrieval techniques to the information included
+in software documentation, we can provide effective access
+to that information. We submit a set of features for inclu­sion 
+in documentation database systems and describe a pro­totype 
+designed to determine the usefulness of these
+features.
+
+
+
+References
+1. British Ministry of Defence, ``Interim Defence Stan­dard
+ 00­55, The Procurement of Safety Critical Soft­ware 
+in Defence Equipment,'' April 5, 1991.
+2. Cybulski, J. L. and Reed, K., ``A Hypertext Based Soft­ware 
+Engineering Environment,'' IEEE Software, pp.
+62­68, March 1992.
+3. Delisle, N. M. and Schwartz, M. D., ``Contexts­­A Par­titioning 
+Concept for Hypertext,'' ACM Transactions on
+Office Information Systems, vol. 5, no. 2, pp. 168­186,
+April 1987.
+4. Devanbu, P., Selfridge, P. G., Brachman, R. J. and Bal­lard, 
+B. W., ``LaSSIE: a Knowledge­based Software
+Information System,'' IEEE Proceedings of 12th Inter­national 
+Conference on Software Engineering, pp. 249­
+261, 1990.
+5. Frame Developer's Kit for Specific Platforms ­ UNIX,
+Frame Technology Corporation, October 1993.
+6. Frame Developer's Kit Programmer's Guide, Frame
+Technology Corporation, October 1993.
+7. Garg, P. K. and Scacchi, W., ``A Hypertext System to
+Manage Software Life­Cycle Documents,'' IEEE Soft­ware, pp. 90­98, May 1990.
+8. Horowitz, E. and Williamson, R. C., ``SODOS: A Soft­ware 
+Document Support Environment­­Its Definition,''
+IEEE Transactions on Software Engineering, vol. SE­
+12, no. 8, pp. 849­859, August 1986.
+9. Horowitz, E. and Williamson, R. C., ``SODOS: A Soft­ware 
+Document Support Environment­­Its Use,'' IEEE
+Transactions on Software Engineering, vol. SE­12, no.
+11, pp. 1076­1087, November 1986.
+10. Kahle, B. and Medlar, A., ``An Information System for
+Corporate Users: Wide Area Information Servers,''
+Online Magazine, pp. 56­60, September 1991.
+11. Marchionini, G. and Shneiderman, B., ``Finding Facts
+vs. Browsing Knowledge in Hypertext Systems,'' IEEE
+Computer, vol. 21, no. 1, pp. 70­80, 1988.
+12. Parnas, D. L., van Schouwen, A. J. and Kwan, S. P.,
+``Evaluation of Safety­Critical Software,'' Communica­tions 
+of the ACM, vol. 33, no. 6, pp. 636­648, June
+1990.
+13. Radio Technical Commission for Aeronautics, ``Soft­ware 
+Considerations in Airborne Systems and Equip­ment Certification,'' Document No. RTCA/DO­178A,
+March 1985.
+14. Soloway, E., Pinto, J., Letovsky, S., Littman, D.,
+Lampert, R., ``Designing Documentation to Compen­sate 
+for Delocalized Plans,'' Communications of the
+ACM, vol. 31, no. 11, pp. 1259­1267, November 1988.
+15. United States of America Department of Defense,
+``DOD­STD­2167, Military Standard Defense System
+Software Development,'' June 4, 1985.
+16. Wood, M. and Somerville, I., ``An Information
+Retrieval System for Software Components,'' SIGIR
+Forum, pp. 11­25, Spring/Summer 1988.
+

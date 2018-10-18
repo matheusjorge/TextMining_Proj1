@@ -1,0 +1,55 @@
+A Logical Framework for Graph Theoretical
+Decision Tree Learning
+
+Peter Geibel and Fritz Wysotzki
+
+Methods of Artificial Intelligence, Computer Science Department, Sekr. Fr 5—8
+Technical University Berlin, Franklinstr. 28/29, D-10587 Berlin, Germany
+Email {geibel | wysotzki}@cs.tu-berlin.de
+
+
+Abstract. We present a logical approach to graph theoretical learning 
+that is based on using alphabetic substitutions for modelling graph
+morphisms. A classified graph is represented by a definite clause that
+possesses variables of the sort node for representing nodes and atoms for
+representing the edges. In contrast to the standard logical semantics, different 
+node variables are assumed to denote different objects. The use of
+an alphabetical subsumption relation (a-subsumption) implies that the
+least generalization of clauses (a-generalization) has different properties
+than Plotkin’s least generalization (lgg). We present a method for constructing 
+optimal a-generalizations from Plotkin’s least generalization.
+The developed framework is used in the relational decision tree algorithm
+TRITOP.
+References
+
+1.	W. Buntine. Generalized subsumtion and its applications to induction and redundancy. 
+Artificial Intelligence, 36:149—176, 1988.
+2.	R. Carraghan and M. P Pradalos. An exact algorithm for the maximum clique
+problem. Operations Research Letter, 9:375—382, 1990.
+3.	L. Dehaspe, W. van Laer, and L. De Raedt. Applications of a logical discovery
+engine. In Proc. 4th Int. Workshop on ILP, GMD-Studien Nr. 237, 1994.
+4.	Peter Geibel and Fritz Wysotzki. Learning relational concepts with decision trees.
+In Lorenza Saitta, editor, Machine Learning: Proceedings of the Thirteenth International 
+Conference. Morgan Kaufmann Publishers, San Fransisco, CA, 1996.
+5.	N. Heift. Inductive generalization: A logical framework. In Proceedings of the
+Second Working Session on Learning, pages 149—157, 1987.
+6.	B. Jung. On inverting generality relations. In S. Muggleton, editor, Proc. of the
+3rd Int. Workshop on ILP, pages 87—102. J. Stefan Institute, 1993.
+7.	J. Kietz. Induktive Analyse relationaler Daten. PhD thesis, Technische Universität
+Berlin, 1996.
+8.	S. Kramer. Structural regression trees. Technical Report TR-95-35, Oesterreicbisches 
+Forschungsinstitut fuer Artificial Intelligence, 1995.
+9.	J. W. LLoyd. Foundations of Logic Programming. Springer-Verlag, 1987.
+10.	G. D. Plotkin. A note on inductive generalization. In Machine Intelligence, pages
+153—164.	Edinburgh University Press, 1969.
+11.	J. R. Quinlan. Learning Logical Definitions from Relations. Machine Learning,
+5:239 — 266, 1990.
+12.	J.R. Quinlan. Induction of Decision Trees. Machine Learning, 1(1):82 — 106, 1986.
+13.	C. Rouveirol. Semantic model for induction of first order theories. In Proceedings
+of the 12th IJCAI, pages 685—691. Morgan Kaufmann, 1991.
+14.	T. Scheffer, H. Herbrich, and F. Wysotzki. Efficient theta-subsumtion based on
+graph algorithms. In Proceedings of the International Workshop on ILP, 1996.
+15.	A. Sriivasan and S. H. Muggleton. Comparing the use of background knowledge
+by two inductive logic programming systems. In Proceedings ILP 1995, 1995.
+16.	S. Unger and F. Wysotzki. Lernfähige Klassifizierungssysteme. Akademie-Verlag,
+Berlin, 1981.

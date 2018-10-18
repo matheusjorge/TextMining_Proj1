@@ -1,0 +1,106 @@
+Surviving the Information
+Explosion: How People Find
+Their Electronic Information
+
+Christine Alvarado, Jaime Teevan,
+Mark S. Ackerman and David Karger
+AI Memo 2003­006 April 2003
+
+Abstract: We report on a study of how people look for information within email, files,
+and the Web. When locating a document or searching for a specific answer, people relied
+on their contextual knowledge of their information target to help them find it, often
+associating the target with a specific document. They appeared to prefer to use this
+contextual information as a guide in navigating locally in small steps to the desired
+document rather than directly jumping to their target. We found this behavior was
+especially true for people with unstructured information organization. We discuss the
+implications of our findings for the design of personal information management tools.
+Funding: This research was supported by NTT, the Packard Foundation, MIT's Project
+Oxygen, the Arthur P. Sloan Foundation and the National Science Foundation. The third
+author was also supported by NSF grant IRI­0124878.
+
+References
+Abrams, D., Baecker, R. and Chignell, M. (1998).
+Information archiving with bookmarks: personal
+Web space construction and organization,
+Proceedings CHI '98, l41­148.
+Ackerman, M. S., and Halverson, C. (1998). considering
+an organization's memory. Proceedings of
+CSCW'98, 39­48.
+Bates, M. (1979). Information search tactics. Journal of
+the American Society for Information Science:
+205­214.
+Bellotti, V. and Smith, I. (2000). Informing the design of
+an information management system with iterative
+fieldwork. In Proceedings of DIS '00, 227­238.
+Bernard, H. R. (1994). Research methods in
+anthropology: Qualitative and quantitative
+approaches. Landham, MD: Altamira Press.
+Buckland, M., & Gey, F. (1994). The relationship
+between recall and precision. Journal of the
+American Society for Information Science, 45, 12­
+19.
+Chi, E. H., Pirolli, P., Chen, K., and Pitkoww, J. (2001).
+Using information scent to model user
+information needs and actions on the Web. In
+Proceedings of CHI '01, 490­497.
+Fertig, S., Freeman, E. and Gelernter, D. (1996).
+Lifestreams: an alternative to the desktop
+metaphor. In Proceedings of CHI '96, 410­411.
+Hearst, M. (2000). Next generation Web search: setting
+our sites. IEEE Data Engineering Bulletin, Special
+issue on Next Generation Web Search, 23, 3, 38­
+48.
+Huynh, D., Karger, D., and Quan, D (2002). Haystack:
+A platform for creating, organizing and
+visualizing in­formation using RDF. In Semantic
+Web Workshop 2002 Proceedings.
+Jones, W., Bruce, H., and Dumais, S. (2001). Keeping
+found things found on the Web. In Proceedings of
+CIKM '01, 119­134.
+Lansdale, M. (1988). The psychology of personal
+information management. Applied Ergonomics
+19, 1, 458­465.
+Mackay, W. E. (1988). More than just a communication
+system: diversity in the use of electronic mail. In
+Proceedings of CSCW '88, 344­353.
+Malone, T. E. (1983). How do people organize their
+desks? ACM Transactions on Office Information
+Systems 1, 1, 99­112.
+Mander, R., Salomon, G. and Wong, Y. Y. (1992). A
+``pile'' metaphor for supporting casual organization
+of information. In Proceedings of CHI '92, 627­
+634.
+Marchionini, Gary. (1995). Information Seeking in
+Electronic Environments. New York: Cambridge.
+University Press.
+Nardi, B. and Barreau, D. (1995). Finding and
+reminding: file organization from the desktop.
+ACM SIGCHI Bulletin 27, 3, 39­43.
+Nardi, B. and Barreau, D. (1997). ``Finding and
+reminding'' revisited: appropriate metaphors for
+file organization at the desktop. ACM SIGCHI
+Bulletin 29, 1, 76­78.
+Nardi, B., Whittaker, S. and Bradner, E. (2000).
+Interaction and outeraction: instant messaging in
+action. In Proceedings of CSCW '00, 79­88.
+O'Day, V., and Jeffries, R. (1993). Orienteering in an
+information landscape: How information seekers
+get from here to there. In Proceedings of CHI ‘93,
+438­445.
+Palen, L. and Salzman M. (2002). Voice­mail diary
+studies for naturalistic data capture under mobile
+conditions. Proceedings of the CSCW'02, 87­95.
+Pirolli, P., and Card, S. (1999). Information foraging.
+Psychological Review 106, 4, 643­675.
+Sellen, A. J., Murphy, R. and Shaw, K. (2002). How
+knowledge workers use the Web. In Proceedings
+of CHI '02, 227­234).
+Suchman, L. A. (1987). Plans and situated actions. New
+York: Cambridge University Press.
+Whittaker, S. and Hirschberg, J. (2001). The character,
+value, and management of personal paper
+archives. ACM Transactions of Computer­
+Human Interaction 8, 2, 150­170.
+Whittaker, S. and Sidner, C. (1996). Email overload:
+exploring personal information management of
+email. In Proceedings of CHI '96, 276­283.

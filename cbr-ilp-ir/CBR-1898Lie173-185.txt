@@ -1,0 +1,67 @@
+Case-Based Reasoning for
+Breast Cancer Treatment Decision Helping
+
+Jean Lieber and Benoit Bresson
+
+Orpailleur research group
+LORIA, UMR 7503 — CNRS, INRIA-Lorraine, Nancy Universities
+BP 239, 54506 Vandoeuvre-lés-Nancy, France
+{lieber , bresson}@loria.fr
+
+
+Abstract. This paper presents two applications for the breast cancer
+treatment decision helping. The first one is called CASIMIR/RBR and can
+be likened to a rule-based reasoning system. In some situations, the application 
+of the rules of this system does not provide a satisfying treatment.
+Then, the application CASIMIR/CBR—which is not fully implemented-can be used. 
+CASIMIR/CBR uses principles of case-based reasoning in order 
+to suggest solutions by adapting the rules of CASIMIR/RBR. In this
+framework, the rules are considered as cases: they are adapted rather
+than used literally.
+
+
+References
+
+1.	A. Aamodt and E. Plaza. Case-based Reasoning: Foundational Issues, Methodological 
+Variations, and System Approaches. AI Communications, 7(1):39-59, 1994.
+2.	R. Bergmann and W. Wilke. Building and Refining Abstract Planning Cases by
+Change of Representation Language. Journal of Artificial Intelligence Research,
+3:53 118, 1995.
+
+3.	C. Bonssu. Apprentissage à partir d’échecs. Mémoire de DEA d’informatique,
+Université Henri Poincaré Nancy 1, 1998.
+4.	L. K. Branting and D. W. Aha. Stratified Case-Based Reasoning: Reusing Hierarchical 
+Problem Solving Episodes. In Proceedings of the 14th International Joint
+Conference on Artificial Intelligence (IJCAI’95,.), Montréal, volume 1, pages 384—
+390, August 1995.
+
+5.	Béatrice Fuchs, Jean Lieber, Alain Mille, and Amedeo Napoli. Towards a Unified
+Theory of Adaptation in Case-Based Reasoning. In K.-D. Althoff, R. Bergmann,
+and L. K. Branting, editors, Case-Based Reasoning Reasearch and Development —
+Third International Conference on Case-Based Reasoning (ICCBR-99,.), Lecture
+Notes in Artificial Intelligence 1650. Springer, Berlin, 1999.
+6.	K. J. Hamnmond. Explaining and Repairing Plans That Fail. Artificial Intelligence,
+45:173—228, 1990.
+7.	J. Lieber and A. Napoli. Using Classification in Case-Based Planning. In
+W. Wahlster, editor, Proceedings of the 12th European Conference on Artificial
+Intelligence (ECAI’96), Budapest, Hungary, pages 132--136. John Wiley & Sons,
+Ltd., 1996.
+8.	J. Lieber and A. Napoli. Correct and Complete Retrieval for Case-Based Problem-Solving. 
+In H. Prade, editor, Proceedings of the 13th European Conference on
+Artificial Intelligence (ECAI-98), Brighton, United Kingdom, pages 68—72, 1998.
+9.	B. Melis, J. Lieber, and A. Napoli. Reformulation in Case-Based Reasoning. In
+B.	Smyth and P. Cunningham, editors, Fourth European Workshop on Case-Based
+Reasoning, EWCBR-98, Lecture Notes in Artificial Intelligence 1488, pages 172—
+183.	Springer, 1998.
+10.	C. K. Riesbeck and R. C. Schank. Inside Case-Based Reasoning. Lawrence Erlbaum
+Associates, Inc., Hillsdale, New Jersey, 1989.
+11.	B. Séroussi, J. Bouaud, and E.-C. Antoine. Enhancing Clinical Practice Guideline
+Compliance by Involving Physicians in the Decision Process. In W. Horn, Y. Sha-
+har, G. Lindberg, S. Andreassen, and J. Wyatt, editors, Proceedings of the Joint
+European Conference on Artificial Intellingence in Medicine and Medical Decision
+Making (AIMDM-99), volume 1620 of LNAI, pages 76—-85, Berlin, 1999. Springer.
+12.	B. Smyth and M. T. Keane. Using adaptation knowledge to retrieve and adapt
+design cases. Knowledge-Based Systems, 9(2):127—135, 1996.
+13.	P. Vismara. Reconnaissance et représentation d’éléments structuraux pour la description 
+d’objets complexes. Application à l’élaboration de stratégies de syntbése
+en chimie organique. Thése de l’Université des Sciences et Techniques du Languedoc, Montpellier, 1995.

@@ -1,0 +1,62 @@
+Acquiring Graphic Design Knowledge with
+Nonmonotonic Inductive Learning
+
+Kazuya CHIBA1, Hayato OHWADA2 and Fumio MIZOGUCHI2
+
+1Corporate Research Laboratories, Fuji Xerox Co., Ltd.
+Email: chiba.kazuya@fujixerox.co.jp
+2Faculty of Science and Engineering, Science University of Tokyo
+Email: {ohwada, mizo)@ia.noda.sut.ac.jp
+
+
+
+Abstract. In this paper, we present a new method based on nonmonotonic
+learning where the Inductive Logic Programming (ILP) algorithm is used twice
+and apply our method to acquire graphic design knowledge. Acquiring
+design knowledge is a challenging task because such knowledge is complex and
+vast. We thus focus on principles of layout and constraints that layouts must
+satisfy to realize automatic layout generation. Although we do not have
+negative examples in this case, we can generate them randomly by considering
+that a page with just one element moved is always wrong. Our nonmonotonic
+learning method introduces a new predicate for exceptions. In our method, the
+ILP algorithm is executed twice, exchanging positive and negative examples.
+From our experiments using magazine advertisements, we obtained rules
+characterizing good layouts and containing relationships between elements.
+Moreover, the experiments show that our method can learn more accurate rules
+than normal ILP can.
+References
+
+[Bain 91] M. Bain and S. Muggleton. Non-monotonic learning. In D. Michie, editor, Machine
+Intelligence 12:105-120. Oxford University Press, 1991.
+[Boming 87] A. Borning, R. Duisberg, B. Freeman-Benson, A. Kramer, and M. Woolf.
+Constraint Hierarchies. ACM OOPSLA, Oct. 1987, pp. 48-60.
+[BYTE 97] BYTE, 22(12), McGraw-Hill, 1997.
+[De Raedt 93] L. De Raedt and M. Bruynooghe, A theory of clausal discovery, in Proceedings
+of the 13th International Joint Conference on Artificial Intelligence, pp. 1058-1063, Morgan
+Kaufmann, 1993.
+[Esposito 94] F. Esposito, D. Malerba and G. Semeraro. Multistrategy Learning for Document
+recognition. Applied Artificial Intelligence: An International Journal, 8(1):33-84, 1994.
+[Honda 94] K. Honda, C. Kato, H. Ohwada, N. Ichihara and F. Mizoguchi. A Floor Planning
+System Using Constraint Logic Programming. In Proc. of The 2nd International Conference
+on the Practical Applications of Prolog,1994.
+[Ishiba 97] M. Ishiba et al. A Document Generation System using the Kansei Model. IPSJ
+SIG Report, 97-HI-70, pp. 7 1-78, 1997. (In Japanese)
+[Lieberman 93] H. Lieberman. Mondrian: A Teachable Graphical Editor. in Watch What I Do:
+Programming by Demonstration, Allen Cypher, ed., MIT Press, 1993.
+[Lieberman 95] H. Lieberman. The Visual Language of Experts in Graphic Design. IEEE
+Symposium on Visual Languages, Darmstadt, Germany, September 1995.
+[Lieberman 96] H. Lieberman. Intelligent Graphics. Communications of the ACM, 39(8):38-48,
+1996.
+[Muggleton 91] S. Muggleton. Inductive logic programming. New Generation Computing,
+8(4):295-318, 1991.
+[Muggleton 95] 5. Muggleton. Inverse entailment and Progol. New Generation Computing,
+13:245-286, 1995.
+[Rijsbergen 79] C. J. van Rijsbergen. Information Retrieval. chapter 7. Butterworths, 1979.
+[Slattery 98] S. Slattery and M. Craven. Combining Statistical and Relational Methods for
+Learning in Hypertext Domains. Proceedings of the 8th International Conference on
+Inductive Logic Programming, Springer-Verlag, 1998.
+[Srinivasan 92] A. Srinivasan, S. Muggleton, and M. Bain. Distinguishing exceptions from
+noise in non-monotonic learning. In Proceedings of the Second Inductive Logic
+Programming Workshop, pp. 97-107, Tokyo, 1992.
+[Wrobel 94] S. Wrobel. Concept Formation During Interactive Theory Revision. Machine
+Learning, 14:169-191, 1994.

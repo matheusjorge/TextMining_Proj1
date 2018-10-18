@@ -1,0 +1,81 @@
+Term Comparisons in First-Order Similarity
+Measures
+
+Uta Bohnebeck1, Tam·s Horv·th2, and Stefan Wrobel2
+
+1 University of Bremen,
+Center for Computing Technology,
+P.O.Box 330 440, D-28834 Bremen,
+bohnebec@informatik.uni-bremen.de
+2 German National Research Center for Information Technology,
+SET.KI,
+Schloﬂ Birlinghoven,
+D-53757 Sankt Augustin
+{tamas.horvath,stefan.wrobel}@gmd.de
+
+
+
+
+Abstract. The similarity measures used in first-order IBL so far have
+been limited to the function-free case. In this paper we show that a lot of
+predictive power can be gained by allowing lists and other terms in the
+input representation and designing similarity measures that work directly
+on these structures. We present an improved similarity measure for the
+first-order instance based learner RIBL that employs the concept of edit
+distances to efficiently compute distances between lists and terms, discuss
+its computational and formal properties, and show that it is empirically
+superior by a wide margin on a problem from the domain of biochemistry.
+References
+
+1.	A. Aho. Algorithms for Finding Patterns in Strings. In J. van Leeuwen, editor,
+Handbook of Theoretical Computer Science, Volume A: Algorithms and Complexity,
+pages 255ó300. The MIT Press, 1990.
+2.	J. G. Belasco and G. Brawerman. Control of messengerRNA Stability. Academic
+Press, 1993.
+3.	C. Bisson. Conceptual Clustering in a First-Order Logic Representation. In
+B. Neumann, editor, Proceedings of the 10th European Conference on Artificial
+Intelligence, pages 458ó462. John Wiley, 1992.
+4.	U. Bohnebeck, W. S‰lter, 0. Herzog, M. Wischnewsky, and D. Blohm. An Approach 
+to mRNA Signalstructure Detection through Knowledge Discovery. In Proceedings 
+of GCBí97, pages 125ó126, 1997.
+5.	S. Dzeroski, S. Schulze-Kremer, K. Heidtke, K. Siems, and D. Wettschereck. Applying 
+ILP to Diterpene Structure Elucidation from 13C NMR Spectra. In S. Muggleton, 
+editor, Proceedings of the 6th International Workshop on Inductive Logic
+Programming, pages 14ó27. Stockholm University, Royal Institute of Technology,
+1996.
+6.	W. Emde and D. Wettschereck. Relational Instance-Based Learning. In L. Saitta,
+editor, Proceedings of the 13th International Conference on Machine Learning,
+pages 122ó130. Morgan Kaufmann, 1996.
+7.	A. Hutchinson. Metrics on Terms and Clauses. In M. Someren and G. Widmer,
+editors, Proceedings of the 9th European Conference on Machine Learning, volume
+1224 of LNAI, pages 138ó145. Springer-Verlag, 1997.
+8.	R. D. Klausner, T. A. Rouault, and J. B. Harford. Regulating the Fate of mRNA:
+The Control of Cellular Iron Metabolism. Cell, 72:19ó28, 1993.
+9.	S. L. Low and M. J. Berry. Knowing When Not to Stop: Selenocysteine Incorporation 
+in Eukaryotes. Trends in Biochemistry Sciences, 21:203ó208, 1996.
+10.	J. E. G. McCarthy and H. Koilmus. Cytoplasmic mRNA-Protein Interactions in
+Eukaryotic Gene Expression. Trends in Biochemistry Sciences, pages 191ó197,
+1995.
+11.	S.-H. Nienhuys-Cheng. Distance Between Herbrand Interpretations: A Measure
+for Approximations to a Target Concept. In N. Lavrac and S. Dzeroski, editors,
+Proceedings of the 7th International Workshop on Inductive Logic Programming,
+volume 1297 of LNAI, pages 213ó226. Springer-Verlag, 1997.
+12.	M. Sebag. Distance Induction in First Order Logic. In N. Lavrac and S. Dzeroski,
+editors, Proceedings of the 7th International Workshop on Inductive Logic Programming, 
+volume 1297 of LNAI, pages 264ó272. Springer-Verlag, 1997.
+13.	B. A. Shapiro and K. Zhang. Comparing Multiple RNA Secondary Structures
+Using Tree Comparisons. CA BIOS, 6(4):309ó318, 1990.
+14.	K. Tai. The Tree-to-Tree Correction Problem. Journal of the ACM, 26(3):422ó433,
+1979.
+15.	E. Ukkonen. Algorithms for Approximate String Matching. Inform. and Control,
+64:100ó118, 1985.
+16.	R. Wagner and M. Fischer. The String-to-String Correction Problem. Journal of
+the ACM, 21(1):168ó173, 1974.
+17.	D. Wettschereck and D. Aha. Weighting Features. In M. Veloso and A. Aamodt,
+editors, Proceedings of the 1st International Conference on Case-Based Reasoning,
+volume 1010 of LNAI, pages 347ó358. Springer-Verlag, 1995.
+18.	K. Zhang and D. Shasha. Simple Fast Algorithms for the Editing Distance Between
+Trees and Related Problems. SIAM J. Computing, 18(6):1245ó1262, 1989.
+19.	M. Zuker and P. Stiegler. Optimal Computer Folding of Large RNA Sequences
+Using Thermodynamics and Auxiliary Information. Nucleic Acids Research, 9(1),
+1980.

@@ -1,0 +1,112 @@
+CBR and Machine Learning for Combustion System
+Design
+
+Jutta Stehr
+Daimler Benz AG
+Dept. F3S/E
+Postfach 2360
+89013 Ulm, Germany
+email: stehr@dbag.ulm.DaimlerBenz.com
+
+
+
+Abstract
+Nowadays the automotive industry has to face two major challenges. First products must meet
+continually increasing government requirements on fuel economy and low exhaust emission.
+Second the market demands product variety and short production cycles. The automobile’s
+combustion system determines the exhaust emission rate, combustion system engineering is
+one of the crucial steps in the development process. Cylinder head design is a good example of
+showing how enhanced AI technologies like CBR and Machine Learning support high-level
+eingineering design tasks.
+
+The work described was coordinated in a joint project between the Daimler-Benz research
+group on Thermo and Fluid Dynamics and our reasearch group on Machine Learning with the
+aim of improving of cylinder head engineering. This paper proposes how Machine Learning
+and specifically Case-based Reasoning (CBR) transform a traditional database containing both
+geometry and air-motion data into a so called experience memory for cylinder head design. We
+will present the initial steps of our database analysis in terms of different learning algorithms,
+then use the extracted knowledge to develop case-based design retrieval and quality prediction
+modules.
+5. References
+
+[ACO92]	T.Acorn, S.Walden. SMART: Support Management cultivated
+reasoning technology for Compaq customer service. Proceedings of
+AAAI-92. MIT Press. 1992.
+
+[AHA91]	D. Aha, D. Kibler, M. Albert. Instance-Based Learning Algorithms.
+Machine Learning 6 (1). 1991.
+
+[AHA94]	D. Aha, R. Bankert. Feature Selection for Case-Based Classification of
+Cloud Types: An empirical comparison. Workshop Notes on Case-
+Based Reasoning. AAAI-94. 1994.
+
+[BAR89]	R. Barletta, D. Hennessy. Case Adaptation in Autoclave Layout Design.
+DARPA Case-Based Reasoning Workshop. Morgan Kaufmann
+Publishers. 1989.
+
+[BOE9O]	C. D. de Boer, R. J. R. Johns, D. W. Grigg. B. M. Train. I. Denbratt.
+J.R. Linna. Refinement with perforamnce and economy for four-valve
+automotive engines. Society of Automotive Engineers. 1990.
+
+[BR089]	D. C. Brown, B. Chandrasekaran. Design Problem Solving: Knowledge
+Structures and Control Strategies. Pitman. 1989.
+
+[CAR93]	C. Cardie. Using Decision Trees to Improve Case-Based Learning.
+Proc. of the 10th Int. Conference on Machine Learning. Morgan
+Kaufman. 1993.
+
+[CHE94] Cheshire Engineering Corporation. Neuralyst. User’s Guide. 1994.
+
+[C0S93]	S. Cost, S. Salzberg. A weighted Nearest Neighbor Algorithm for
+Learning with Symbolic Features. Machine Learning 10 (1). 1993.
+
+[D0R76]	D. Dörner. Problemlösung als Informationsverarbeitung. Verlag W.
+Kohihammer. 1976.
+
+[FAB92]	FABEL-Consortium. Survey of FABEL, Fabel Report No. 2, GMD,
+1992.
+
+[HAM89]	K. Hammond. Chef: A Model of Case-Based Planning. Proceedings of
+the Nat. Conference on Artificial Intelligence (AAAI 86). MIT Press
+1986.
+
+[KEL91]	J. D. Kelly, L. Davis. A Hybrid Genetic Algorithm for Classification.
+Proc. of the 1 2zh Int. Joint Conference on Artificial Intellicence. 1991.
+
+[KOL93]	J. Kolodner. Case-Based Reasoning. Morgan Kaufmann Publishers.
+1993.
+
+[LIN77] P. H. Lindsay, D. A. Norman. Human Information Processing.
+Academic Press. 1977.
+
+[MIC94] D. Michie, D. J. Spiegeihalter, C. C. Taylor (eds.). Machine Learning,
+Neural and Statistical Classification. Ellis Horwood. 1994.
+
+[PEA92]	M. Pearce, A. K. Goel, J. L. Kolodner, C. Zimring, L. Sentosa, R.
+Billington. Case-Based Design Support. IEEE Expert. October 1992.
+
+[PIA91]	G. Piatetsky-Shapiro, W. J. Frawley (eds.). Knowledge Discovery in
+Databases. MIT Press. 1991.
+
+[POL49] G. Polya. Schule des Denkens. Francke Verlag. 1949.
+
+[SIM92]	E. Simoudis. Using Case-Based Retrieval for Customer Technical
+Support. IEEE Expert. October 1992.
+
+[QUI93]	J. R. Quinlan. C4.5 Programs For Machine Learning. Morgan
+Kaufmann Publishers. 1993.
+
+[TAK87]	H. Takahashi, T. Ishida, K. Sato. Improvement of Diesel Emgine
+Performance by Variable Swirl System. Int. Off-Highway &
+Powerplant Congress. Society of Automotive Engineers. 1987.
+
+[WAL91]	J. P. Walsh, G. R. Ungson. Organizational Memory. Academy of
+Management Review. 16 (1). 1991.
+
+[WES91]	S. WeB. PATDEX/2 - ein System zum adaptiven, fallfokussierenden
+Lernen in technischen Diagnosesituasitionen. SEKI Working Paper
+SWP-91-01. Universität Kaiserslautern. 1991.
+
+[WIR95]	T. Reinartz, R. Wirth. The need for a Task Model for KDD. Accepted
+by the MLnet Familiarisation Workshop on Machine Learning,
+Statistics and Knowledge Discovery in Databases. 1995.

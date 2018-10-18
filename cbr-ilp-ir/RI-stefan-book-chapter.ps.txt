@@ -1,0 +1,79 @@
+Using Learned Extraction Patterns for Text
+Classification
+
+Ellen Riloff
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112, USA
+riloff@cs.utah.edu
+
+Abstract. A major knowledge­engineering bottleneck for information
+extraction systems is the process of constructing an appropriate dictio­nary 
+of extraction patterns. AutoSlog is a dictionary construction system
+that has been shown to substantially reduce the time required for knowl­edge 
+engineering by learning extraction patterns automatically. However,
+an open question was whether these extraction patterns were useful for
+tasks other than information extraction. We describe a series of experi­ments 
+that show how the extraction patterns learned by AutoSlog can be
+used for text classification. Three dictionaries produced by AutoSlog for
+different domains performed well in our text classification experiments.
+
+References
+Carbonell, J. G. 1979. Towards a Self­Extending Parser. In Proceedings of the 17th
+Meeting of the Association for Computational Linguistics. 3--7.
+DeJong, Gerald and Mooney, R. 1986. Explanation­Based Learning: An Alternative
+View. Machine Learning 1:145--176.
+Fisher, D. H. 1987. Knowledge Acquisition Via Incremental Conceptual Clustering.
+Machine Learning 2:139--172.
+Granger, R. H. 1977. FOUL­UP: A Program that Figures Out Meanings of Words
+from Context. In Proceedings of the Fifth International Joint Conference on Artificial
+Intelligence. 172--178.
+Jacobs, Paul and Rau, Lisa 1990. SCISOR: Extracting Information from On­Line
+News. Communications of the ACM 33(11):88--97.
+Jacobs, P. and Zernik, U. 1988. Acquiring Lexical Knowledge from Text: A Case
+Study. In Proceedings of the Seventh National Conference on Artificial Intelligence.
+739--744.
+Kim, J. and Moldovan, D. 1993. Acquisition of Semantic Patterns for Information
+Extraction from Corpora. In Proceedings of the Ninth IEEE Conference on Artificial
+Intelligence for Applications, Los Alamitos, CA. IEEE Computer Society Press. 171--
+176.
+Lehnert, W. G. and Sundheim, B. 1991. A Performance Evaluation of Text Analysis
+Technologies. AI Magazine 12(3):81--94.
+Lehnert, W.; Cardie, C.; Fisher, D.; Riloff, E.; and Williams, R. 1991. University of
+Massachusetts: Description of the CIRCUS System as Used for MUC­3. In Proceedings
+of the Third Message Understanding Conference (MUC­3), San Mateo, CA. Morgan
+Kaufmann. 223--233.
+Lehnert, W.; Cardie, C.; Fisher, D.; McCarthy, J.; Riloff, E.; and Soderland, S. 1992.
+University of Massachusetts: MUC­4 Test Results and Analysis. In Proceedings of
+the Fourth Message Understanding Conference (MUC­4), San Mateo, CA. Morgan
+Kaufmann. 151--158.
+Lehnert, W. 1991. Symbolic/Subsymbolic Sentence Analysis: Exploiting the Best of
+Two Worlds. In Barnden, J. and Pollack, J., editors 1991, Advances in Connectionist
+and Neural Computation Theory, Vol. 1. Ablex Publishers, Norwood, NJ. 135--164.
+Mitchell, T. M.; Keller, R.; and Kedar­Cabelli, S. 1986. Explanation­Based General­
+ization: A Unifying View. Machine Learning 1:47--80.
+Proceedings of the Third Message Understanding Conference (MUC­3), San Mateo,
+CA. Morgan Kaufmann.
+Proceedings of the Fourth Message Understanding Conference (MUC­4), San Mateo,
+CA. Morgan Kaufmann.
+Proceedings of the Fifth Message Understanding Conference (MUC­5), San Francisco,
+CA. Morgan Kaufmann.
+Quinlan, J. R. 1986. Induction of Decision Trees. Machine Learning 1:80--106.
+Riloff, E. and Lehnert, W. 1994. Information Extraction as a Basis for High­Precision
+Text Classification. ACM Transactions on Information Systems 12(3):296--333.
+Riloff, E. and Shoen, J. 1995. Automatically Acquiring Conceptual Patterns Without
+an Annotated Corpus. In Proceedings of the Third Workshop on Very Large Corpora.
+148--161.
+Riloff, E. 1993. Automatically Constructing a Dictionary for Information Extraction
+Tasks. In Proceedings of the Eleventh National Conference on Artificial Intelligence.
+AAAI Press/The MIT Press. 811--816.
+Riloff, E. 1996. An Empirical Study of Automated Dictionary Construction for In­
+formation Extraction in Three Domains. Artificial Intelligence. To appear.
+Soderland, S.; Fisher, D.; Aseltine, J.; and Lehnert, W. 1995. CRYSTAL: Inducing a
+conceptual dictionary. In Proceedings of the Fourteenth International Joint Confer­
+ence on Artificial Intelligence. 1314--1319.
+Proceedings of the TIPSTER Text Program (Phase I), San Francisco, CA. Morgan
+Kaufmann.
+Utgoff, P. 1988. ID5: An Incremental ID3. In Proceedings of the Fifth International
+Conference on Machine Learning. 107--120.
+

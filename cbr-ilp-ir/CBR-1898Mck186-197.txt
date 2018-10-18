@@ -1,0 +1,76 @@
+Competence-Guided Case-Base Editing
+Techniques
+
+Elizabeth McKenna and Barry Smyth
+
+Smart Media Institute, Department of Computer Science
+University College Dublin, Belfield, Dublin 4, Ireland
+{Elizabeth.McKenna,Barry.Smyth}@ucd.ie
+
+
+
+Abstract. Case-based classification is a powerful classification method,
+which (in its simplest form) assigns a target case to the same class as
+the nearest of n previously classified cases. Many case-based classifiers
+use the simple nearest-neighbour technique to identify the nearest case,
+but this means comparing the target case to all of the stored cases at
+classification time, resulting in high classification costs. For this reason
+many techniques have been proposed to improve the performance of case-based 
+classifiers by reducing the search they must perform. In this paper
+we will look at editing techniques that preserve the lazy-learning quality
+of case-based classification, hut improve classification performance.
+References
+
+1.	Aha, D. W., Kibler, D., and Albert, M. K.: Instance-Based Learning Algorithms,
+Machine Learning 6 (1991), 37—66.
+2.	Blake, C., Keogh, E., and Merz, C. J.: UCI repository of Machine Learning
+Databases, Irvine, CA: University of California. Department of Information and
+Computer Science, (1998).
+3.	Brighton, H.: Information Filtering for Lazy Learning Algorithms, Masters thesis,
+Centre for Cognitive Science, University of Edinburgh, Scotland, (1997).
+4.	Brighton, H and Mellish, C.: On the Consistency of information filters for Lazy
+learning algorithms, Proceedings of the 3rd European Conference on the Principles
+of Data Mining and Knowledge Discovery. Lecture Notes in Computer Science
+(Jan Rauch Jan M. Zytkow, ed.), Springer Verlag, (1999), pp. 283—288.
+5.	Cameron-Jones, R. M.: Minimum Description Length Case-Based Learning., Proceedings 
+of the 5th Australian Joint Conference on Artificial Intelligence, World
+Scientific, (1992), pp. 368—373.
+6.	Chang, C. L.: Finding Prototypes for Nearest Neighbour Classifiers, IEEE Transactions 
+on Computers C-23 (1974), 1179—1184.
+7.	Dasarathy, D. V.: (ed.), Nearest Neighbor Norms: NN Pattern Classification Techniques, 
+IEEE Press, (1991).
+8.	Cates, C. W.: The Reduced Nearest Neighbor Rule, IEEE Transactions on Information 
+Theory IT-18(3) (1972), 431—433.
+9.	Hart, P. E.: The Condensed Nearest Neighbor Rule, IEEE Transactions on Information 
+Theory IT-14 (1967), 515—516.
+10.	King, R. D., Feng, C. and Sutherland, A.: Statlog: Comparison of Classification
+Algorithms on Large Real- Worlds Problems, Applied Artificial Intelligence 9(3)
+(1995), 289—333.
+11.	McKenna, E. and Smyth, B.: Competence-guided Editing Methods for Lazy Learning, 
+Proceedings of the 14th European Conference on Artificial Intelligence, (2000).
+12.	Smyth, B. and Keane, M. T.: Remembering to Forget: A Competence Preserving 
+Case Deletion Policy for CBR Systems, Proceedings of the 14th International
+Joint Conference on Artificial Intelligence (Chris Mellish, ed.), Morgan Kaufmann
+(1995), pp. 377—382.
+13.	Smyth, B. and McKenna, E.: Modelling the Competence of Case-Bases, Advances
+in Case-Based Reasoning. Lecture Notes in Artificial Intelligence (B. Smyth and
+P. Cunningharn, eds.), Springer Verlag, (1998), pp. 208—220.
+14.	Smyth, B. and McKenna, E.: Building Compact Competent Case-Bases, Case-Based 
+Reasoning Research and Development. Lecture Notes in Artificial Intelligence 
+(Klaus Dieter Althoff, Ralph Bergmann, and L.Karl Branting, ads.), Springer
+Verlag, (1999), pp. 329—342.
+15.	Smyth, B. and McKenna, E.: Footprint-Based Retrieval, Case-Based Reasoning
+Research and Development. Lecture Notes in Artificial Intelligence (Klaus Dieter
+Althoff, Ralph Bergmann, and L.Karl Branting, eds.), Springer Verlag, (1999),
+pp. 343—357.
+16.	Smyth, B. and McKenna, E.: An Efficient and Effective Procedure for Updating a
+Competence Model for Case-Based Reasoners, Proceedings of the 11th European
+Conference on Machine Learning (Ramon Lopez de Mantaras and Enric Plaza
+eds.), Springer Verlag, (2000).
+17.	Tomek, I.: Two Modifications of CNN, IEEE Transactions on Systems, Man, and
+Cybernetics 7(2) (1976), 679—772.
+18.	Wilson, D. L.: Asymptotic Properties of Nearest Neighbor Rules Using Edited Data,
+IEEE Transactions on Systems, Man, and Cybernetics 2-3 (1972), 408—421.
+19.	Wilson, D. R. and Martinez, T. R.: Instance Pruning Techniques, Proceedings of
+the 14th International Conference on Machine Learning (D. Fisher, ed.), Morgan
+Kaufmann, (1997), pp. 403—411.

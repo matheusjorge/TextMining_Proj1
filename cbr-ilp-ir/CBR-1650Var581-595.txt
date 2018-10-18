@@ -1,0 +1,51 @@
+ICARUS: Design and Deployment of a
+Case-Based Reasoning System for Locomotive
+Diagnostics
+
+Anil Varma1
+
+
+1Information Technology Laboratory,
+General Electric Corporate Research and Development,
+Niskayuna, NY 12301
+varma@crd.ge.com
+
+
+
+Abstract. Locomotives, like many modem complex machines, are equipped
+with the capability to generate on-board fault messages indicating the presence
+of anomalous conditions. Such messages tend to generate in large quantities
+and difficult and time consuming to interpret manually. This paper presents the
+design and development of a case-based reasoning system for diagnosing locomotive 
+faults using such fault messages as input. The process of using his-
+torical repair data and expert input for case generation and validation is described. 
+An algorithm for case matching is presented along with some results
+on pilot data.
+References
+
+1.	Jarmulak, J., Kerckhoffs, E.,Veen, P. : Case-Based Reasoning in an Ultrasonic Rail-Inspection 
+System. In: Leake, D., Plaza, E.(eds.): Case-Based Reasoning Research and
+Development. Lecture Notes in Computer Science, Vol 1266. Springer-Verlag New York
+(1997) ,43—52.
+
+2.	Acorn,T., and Walden, S. : SMART: Support Management Automated Reasoning Technology 
+for Compaq Customer Service. In Proceedings of AAAI-92. Cambridge, MA:
+AAAI Press, MIT Press.(1992)
+
+3.	Hennessy, D., and Hinkle, D. : Applying Case-Based Reasoning to Autoclave Loading.
+IEEE Expert,(1992), 7(5), 21-26.
+
+4.	Kitano, H., Shimazu, H. and Shibata, A. : Case-Method: A Methodology for Building
+Large-Scale Case-Based Systems. In Proceedings of the Eleventh National Conference on
+Artificial Intelligence, (1993), 303-308.
+
+5.	Bonzano, A., Cunningham, P. and Smyth, B. : Using Introspective Learnng to Improve
+Retrieval in CBR : A Case Study in Air Traffic Control. In: Leake, D., Plaza, E.(eds.):
+Case-Based Reasoning Research and Development. Lecture Notes in Computer Science,
+Vol 1266. New York (1997) ,291—302.
+
+6.	Klaus-Dieter, A., Auriol, E., Bergmann, R., Breen, S., Dittrich, S., Johnston,R. Manago,
+M., Traphoener, R., Wess, Stefan : Case-Based Reasoning for Decision Support and Diagnostic 
+Problem Solving: The INRECA Aproach. In B. Bartsch-Sporl, D. Janetzko & S.
+Wess (eds.), Proceedings of the 3rd workshop of the German special interest group on
+CBR, (1995), 63-72.

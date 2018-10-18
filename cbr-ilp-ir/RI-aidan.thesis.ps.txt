@@ -1,0 +1,99 @@
+A Folder­Based Graphical Interface for
+an Information Retrieval System
+
+Aidan Low
+Electrical Engineering and Computer Science
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+Abstract
+Past advances in user interface design include the move from an application­centric
+model to the document­centric model found in the file/folder graphical interfaces of
+modern operating systems. Recently, we have also seen advances in query­based
+information retrieval technology, such as the search engines of the World­Wide Web.
+This thesis proposes an interface that combines the power of these two technologies to
+produce a unified interface that allows users to navigate their information space more
+easily and more intuitively. This interface, the Haystack Browser, presents users with a
+file/folder graphical interface that allows users to dynamically categorize their
+information space by creating "folders" that correspond to queries within an information
+retrieval system. The interface is implemented as an extension of the Haystack Project, a
+personalized information retrieval system under development at the MIT Laboratory for
+Computer Science.
+
+
+
+Bibliography
+[Adar98] Adar, Eytan. Hybrid­Search and Storage of Semi­structure Information
+Master's thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, May 1998
+[Alta99] Alta Vista website, accessed 16 May 1999 <http://www.altavista.com>
+[Appl93] Apple Computer, Inc. Staff, "MacIntosh Human Interface Guidelines"
+Addison­Wesley Pub Co, January 1993
+[Asdo98] Asdoorian, Mark. Data manipulation services in the Haystack IR System
+Master's thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, May 1998
+[Bern89] Bernes­Lee, Tim; Information Management: A Proposal
+CERN, March 1989, May 1990
+[CORB99] Object Management Group. CORBA/IIOP index.
+accessed 16 May 1999 <http://www.omg.org/corba/csindx.htm>
+[Cous97] Cousin, Steve, et al.
+"The Digital Library Integrated Task Environment(DLITE)"
+Computer­Human Interactions '97, March 1997
+[Dert98] Dertouzos, Michael. The Way It Will Be
+HarperCollins,1999
+[Feie71] Feiertag, R. J. and Organick, E. I., "The Multics Input­Output System",
+Proceedings of the Third Symposium on Operating Systems Principles, ACM, Oct 1971.
+pp 35­41
+[Frak92] Frakes, William B.; Baeza­Yates, Ricardo, Information Retrieval
+Prentice Hall, 1992
+[Furn97] Furnas, George; Effective View Navigation
+Conference proceedings on Human factors in computing systems (CHI97), March 1997
+[Giff91] Gifford, David K. et al. Semantic File Systems
+13th ACM Symposium on Operating Systems Principles, October 1991
+[Giff91a] Gifford, David K. and O'Toole, James. Intelligent File Systems for Object
+Repositories
+Operating Systems of the 90s and Beyond, Springer Verlag, 1991
+[Harr96] Harris, Andy; Communication and the World Wide Web
+last modified 16 July, 1996, accessed 16 May 1999
+<http://klingon.cs.iupui.edu/~aharris/mmcc/mod2/abwww.html>
+[Hays99] Haystack web site accessed 16 May 1999 <http://haystack.lcs.mit.edu>
+[Icaz99] de Icaza, Miguel, Blandford, Jon "Components in the Gnome Project"
+Red Hat Software, May 1999
+[John89] Johnson, J., et. al. The Xerox Star: a retrospective
+Computer (1989), 22(9):11­26,28­29
+[Kay99] McKay, Everett, Developing User Interfaces for Microsoft Windows
+Microsoft Press, 1999
+[Lisa99] Lisansky, Ilya. Something about Haystack
+Master's thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, January 1999
+[Lean91] Reaching through analogy: a Design Rationale perspective on roles of analogy
+Allan MacLean, Victoria Bellotti, Richard Young and Thomas Moran
+Conference proceedings on Human factors in computing systems (CHI91), April 1991
+[Micr99] Microsoft Corporation, Microsoft Windows 2000 Beta Training Kit
+Microsoft Press, 1999
+[Nels65] Nelson, Ted; The Hypertext
+Proceedings of the World Documentation Federation, 1965
+[Nort99] Northern Light Search, accessed 16 May 1999 <http://www.northernlight.com>
+[Otol92] O'Toole, James W. and Gifford, David K. Names should mean What, not Where
+ACM 5th European Workshop on Distributed Systems, September 1992
+[Ritc74] Ritchie, D. M. and Thompson, K., "The UNIX Time­Sharing System",
+CACM 17, 7. July 1974. pp 365­375
+[Rocc71] Rocchio, J.J. "Relevance Feedback in Information Retrieval"
+In Salton G. (Ed.), The SMART Retrieval System
+Prentice Hall, 1971
+[Salt83] Salton, G., and McGill, M.J.
+Introduction to Modern Information Retrieval
+McGraw­Hill, 1983.
+[Sun89] NFS Network File System protocol specification
+Sun Microsystems, Network Working Group
+Request for Comments (RFC 1094) March 1989
+Version 2
+[Tane92] Tanenbaum, Andrew; Modern Operating Systems
+Prentice Hall, 1992
+[Taus97] Tauscher, Linda and Greenberg, Saul.
+Revisitation Patterns in World Wide Web Navigation
+Computer­Human Interactions '97, March 1997
+[Vlec97] Van Vleck, Tom; The IBM 7094 and CTSS
+modified 12/18/97, accessed 16 May 1999 <http://www.best.com/~thvv/7094.html>
+[Wolv93] Wolverton, Van "Running MS­DOS"
+Microsoft Press, 1993
+[Yaho99] Yahoo! website, accessed 16 May 1999 <http://www.yahoo.com>

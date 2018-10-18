@@ -1,0 +1,75 @@
+Analysis of the Evolution of Peer­to­Peer Systems
+
+David Liben­Nowell, Hari Balakrishnan, David Karger
+Laboratory for Computer Science
+Massachusetts Institute of Technology
+200 Technology Square
+Cambridge, MA 02139 USA
+fdln,hari,kargerg@lcs.mit.edu
+
+ABSTRACT
+In this paper, we give a theoretical analysis of peer­to­peer (P2P)
+networks operating in the face of concurrent joins and unexpected
+departures. We focus on Chord, a recently developed P2P system
+that implements a distributed hash table abstraction, and study the
+process by which Chord maintains its distributed state as nodes join
+and leave the system. We argue that traditional performance mea­sures 
+based on run­time are uninformative for a continually running
+P2P network, and that the rate at which nodes in the network need
+to participate to maintain system state is a more useful metric. We
+give a general lower bound on this rate for a network to remain con­nected, 
+and prove that an appropriately modified version of Chord's
+maintenance rate is within a logarithmic factor of the optimum rate.
+
+REFERENCES
+[1] DABEK, F., BRUNSKILL, E., KAASHOEK, M. F., KARGER, D.,
+MORRIS, R., STOICA, I., AND BALAKRISHNAN, H. Building
+peer­to­peer systems with Chord, a distributed location service. In
+Proc. IEEE Workshop on Hot Topics in Operating Systems
+(HotOS­VIII) (2001).
+[2] DABEK, F., KAASHOEK, M. F., KARGER, D., MORRIS, R., AND
+STOICA, I. Wide­area cooperative storage with CFS. In Proc. SOSP
+(2001).
+[3] DRUSCHEL, P., AND ROWSTRON, A. Past: Persistent and
+anonymous storage in a peer­to­peer networking environment. In
+Proceedings of the 8th IEEE Workshop on Hot Topics in Operating
+Systems (HotOS­VIII) (2001), pp. 65--70.
+[4] FIAT, A., AND SAIA, J. Censorship resistant peer­to­peer content
+addressable networks. In Proc. SODA (2002).
+[5] KARGER, D., LEHMAN, E., LEIGHTON, F., LEVINE, M., LEWIN,
+D., AND PANIGRAHY, R. Consistent hashing and random trees:
+Distributed caching protocols for relieving hot spots on the World
+Wide Web. In Proc. STOC (1997).
+[6] KUBIATOWICZ, J., BINDEL, D., CHEN, Y., CZERWINSKI, S.,
+EATON, P., GEELS, D., GUMMADI, R., RHEA, S.,
+WEATHERSPOON, H., WEIMER, W., WELLS, C., AND ZHAO, B.
+OceanStore: An architecture for global­scale persistent storage. In
+Proc. ASPLOS (2000).
+[7] LEWIN, D. Consistent hashing and random trees: Algorithms for
+caching in distributed networks. Master's thesis, Department of
+EECS, MIT, 1998. Available at the MIT Library,
+http://thesis.mit.edu/.
+[8] PANDURANGAN, G., RAGHAVAN, P., AND UPFAL, E. Building
+low­diameter P2P networks. In Proc. FOCS (2001).
+[9] PLAXTON, C., RAJARAMAN, R., AND RICHA, A. Accessing
+nearby copies of replicated objects in a distributed environment. In
+Proc. SPAA (1997).
+[10] RATNASAMY, S., FRANCIS, P., HANDLEY, M., KARP, R., AND
+SHENKER, S. A scalable content­addressable network. In Proc.
+SIGCOMM (2001).
+[11] SAIA, J., FIAT, A., GRIBBLE, S., KARLIN, A. R., AND SAROIU,
+S. Dynamically fault­tolerant content addressable networks. In Proc.
+IPTPS (2002).
+[12] STOICA, I., MORRIS, R., KARGER, D., KAASHOEK, M. F., AND
+BALAKRISHNAN, H. Chord: A scalable peer­to­peer lookup service
+for internet applications. In Proc. SIGCOMM (2001).
+[13] STOICA, I., MORRIS, R., LIBEN­NOWELL, D., KARGER, D.,
+KAASHOEK, M. F., DABEK, F., AND BALAKRISHNAN, H. Chord:
+A scalable peer­to­peer lookup service for internet applications.
+Tech. Rep. TR­819, MIT LCS, 2001.
+http://www.pdos.lcs.mit.edu/chord/papers/.
+[14] ZHAO, B., KUBIATOWICZ, J., AND JOSEPH, A. Tapestry: An
+infrastructure for fault­tolerant wide­area location and routing. Tech.
+Rep. UCB/CSD­01­1141, Computer Science Division, U. C.
+Berkeley, Apr. 2001.
+

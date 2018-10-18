@@ -1,0 +1,84 @@
+Combining Words and Compound Terms for Monolingual and Cross­Language
+Information Retrieval
+
+Jian­Yun Nie, Jean­François Dufort
+Dept. IRO, University of Montreal,
+CP. 6128, succursale Centre­ville
+Montreal, Quebec, H3C 3J7 Canada
+nie@iro.umontreal.ca
+
+Abstract:
+Most existing systems of Information retrieval (IR) use
+single words as index to represent the contents of documents
+and queries. One of the consequences is the low recall level.
+In this paper, we propose to integrate compound terms as
+additional indexing units because terms are more precise
+representation units than words. Terms are recognized
+through the use of a terminology database and an automatic
+term extraction tool, which is based on syntactic templates
+and statistical analysis. In this paper, we first show that the
+use of compound terms is greatly beneficial to monolingual
+IR. Then compound terms are incorporated in statistical
+translation models trained on a large set of parallel texts.
+Our experiments on cross­language information retrieval
+(CLIR) show that such a translation model leads to a much
+better CLIR effectiveness when compound terms are
+integrated.
+
+
+References
+[1] Brown, P. F., Pietra, S. A. D., Pietra, V. D. J., and
+Mercer, R. L., The mathematics of machine translation:
+Parameter estimation. Computational Linguistics, vol.
+19, pp. 263­312, 1993.
+[2] Buckley, C. Implementation of the SMART information
+retrieval system, Technical report, #85­686, Cornell
+University, 1985.
+[3] Chiaramella Y. and Nie J.­Y., ``A retrieval model based
+on an extended modal logic and its application to the
+RIME experimental approach,'' presented at Research
+and Development on Information Retrieval ­ ACM­
+SIGIR Conference, Brussels, pp. 25­43, 1990.
+[4] Grefenstette, G. The Problem of Cross­-Language
+Information Retrieval. In Cross­language Information
+Retrieval. Kluwer Academic Publishers. pages 1­9,
+1998.
+[5] Fagin, J., Experiments in Automatic Phrase Indexing
+for Document Retrieval: A Comparison of Syntactic
+and Non­Syntactic methods, PhD thesis, Computer
+Science, Cornell University, 1988.
+[6] Foster, George F. Statistical Lexical Disambiguation,
+M.Sc thesis, McGill University, School of Computer
+Science, 1991.
+[7] Franz, M., McCarley, J.S., Roukos, S., Ad hoc and
+multilingual information retrieval at IBM, The Seventh
+Text Retrieval Conference (TREC­7), NIST SP 500­242,
+pp. 157­168, 1998 (http://trec.nist.gov).
+[8] Harman D. K. and E. M. Voorhees (eds.) The Sixth Text
+REtrieval Conference (TREC­7). Gaithersburg, NIST
+SP 500­242, 1998 (http://trec.nist.gov).
+[9] Miller, G., Wordnet: an on­line lexical database, in
+International Journal of Lexicography, vol. 3, 1990.
+[10] Nie, J.Y., Isabelle, P., Simard, M., Durand, R., Cross­
+language information retrieval based on parallel texts
+and automatic mining of parallel texts from the Web,
+ACM­SIGIR conference, Berkeley, CA, pp. 74­81, 1999.
+[11] Salton, G. and McGill, M. J., Introduction to Modern
+Information Retrieval: McGraw­Hill, 1983.
+[12] Simard, M., Foster, G., Isabelle, P., Using Cognates to
+Align Sentences in Parallel Corpora, Proceedings of the
+4th International Conference on Theoretical and
+Methodological Issues in Machine Translation,
+Montreal , 1992.
+[13] Sparck­Jones, K., Notes and references on early
+automatic classification work, SIGIR Forum, vol. 25,
+pp. 10­17,1991.
+[14] Voorhees, E. M. Using Wordnet to disambiguate word
+senses for text retrieval. Research and Development on
+Information Retrieval ­ ACM­SIGIR, Pittsburgh, pp.
+171­180, 1993.
+[15] Yarowsky, D. Unsupervised word sense
+disambiguation rivaling supervised methods,
+Proceedings of the 33rd Annual Meeting of the
+Association for Computational Linguistics, pp. 189­
+196, Cambridge, MA., 1995.

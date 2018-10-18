@@ -1,0 +1,85 @@
+Noise Detection and Elimination Applied to
+Noise Handling in a KRK Chess Endgame
+
+Dragan Gamberger1 and Nada Lavrac2
+
+1 Rudjer Boskovic Institute, Bijenicka 54
+10000 Zagreb, Croatia
+tel. +385 1 4561142, fax +385 1 425497, gambi@lelhp1.irb.hr
+2 Jozef Stefan Institute, Jamova 39
+1000 Ljubljana, Slovenia
+tel. +386 61 1773272, fax +386 61 219385, nada.lavrac@ijs.si
+
+
+Abstract . Compression measures used in inductive learners, such as
+measures based on the MDL (Minimum Description Length) principle,
+provide a theoretically justified basis for grading candidate hypotheses.
+Compression-based induction is appropriate also for handling of noisy
+data. This paper shows that a simple compression measure can be used
+to detect noisy examples. A technique is proposed in which noisy examples 
+are detected and eliminated from the training set, and a hypothesis
+is then built from the set of remaining examples. The separation of noise
+detection and hypothesis formation has the advantage that noisy examples 
+do not influence hypothesis construction as opposed to most standard 
+approaches to noise handling in which the learner typically tries to
+avoid overfitting the noisy example set. Experimental results in a KRK
+(king-rook-king) chess endgame domain show the potential of this novel
+approach to noise handling.
+References
+
+1.	B. Cestnik and I. Bratko. On estimating probabilities in tree pruning. In Proc.
+5th European Working Session on Learning, 138—150, 1991.
+2.	P. Clark and T. Niblett. The CN2 induction algorithm. Machine Learning,
+3(4):261—283, 1989.
+3.	K.A. De Jong and W.M. Spears. Learning concept classification rules using genetic
+algorithms. In Proceedings of the 12th International Joint Conference on Artificial
+Intelligence (IJCAI-91), Morgan Kaufmann, (1991) 651—656.
+4.	S. Dzeroski, N. Lavrac. Inductive learning in deductive databases. IEEE Transactions 
+on Knowledge and Data Engineering, 5(6), 939—949, 1993.
+5.	D. Gamberger. A minimization approach to propositional inductive learning. In
+Proceeding. of the 8th European Conference on Machine Learning (ECML-95),
+Springer, (1995) 151—160.
+6.	D. Gamberger. Specific rule induction for medical domains. In Proc. Computer-Aided 
+Data Analysis in Medicine, CADAM-95, 136—145. IJS Scientific Publishing
+IJS-SP-95-1, 1995.
+7.	D. Gamberger and N. Lavrac. Towards a theory of relevance in inductive concept
+learning. Technical report IJS-DP-7310. J. Stefan Institute, Ljubljana, 1995.
+8.	D. Gamberger, N. Lavrac and S. Dzeroski. Noise elimination in inductive concept 
+learning: A case study in medical diagnosis. In Proc. Seventh International
+Workshop on Algorithmic Learning Theory ALT’96, Springer 1996 (in press).
+9.	N. Lavrac, S. Dzeroski and M. Grobelnik. Learning nonrecursive definitions of
+relations with LINUS. In Proc. Fifth European Working Session on Learning,
+pages 265—281, Springer, Berlin, 1991.
+10.	N. Lavrac and S. Dzeroski. Inductive learning of relations from noisy examples.
+In S. Muggleton (ed.) Inductive Logic Programming, 495-516. Academic Press,
+1992.
+11.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Technique. and Applications. 
+Ellis Horwood (Simon & Schuster), Ellis Horwood Series in Artificial
+Intelligence. UK: Chichester, 1994.
+12.	N. Lavrac, D. Gamberger and S. Dzeroski. An approach to dimensionality reduction 
+in learning from deductive databases. In Proceedings of the 5th International 
+Workshop on Inductive Logic Programming (ILP-95), Technical report,
+Katholieke Universiteit Leuven, 1995.
+13.	N. Lavrac, S. Dzeroski and I. Bratko. Handling imperfect data in inductive logic
+programming. In L. De Raedt (ed.) Advances in Inductive Logic Programming,
+48-64. lOS Press, 1996.
+14.	J. Mingers. An empirical comparison of pruning methods for decision tree induction. 
+Machine Learning, 4(2):227—243, 1989.
+15.	J. Mingers. An empirical comparison of selection measures for decision-tree induction. 
+Machine Learning, 3(4):319—342, 1989.
+16.	S.H. Muggleton, M. Bain, J. Hayes-Michie and D.Michie. An experimental comparison 
+of human and machine learning formalisms. In Proc. Sixth International
+Workshop on Machine Learning, 113—118, Morgan Kaufmann, San Mateo, CA,
+1989.
+17.	S. Muggleton, A. Srinivasan and M. Bain. Compression, significance and accuracy.
+In Proc. 9th International Conference on Machine Learning, 338—347. Morgan
+Kaufmann, 1992.
+18.	T. Niblett T and I. Bratko. Learning decision rules in noisy domains. In M.
+Bramer (ed.) Research and Development in Expert Systems III, 24—25. Cambridge
+University Press, 1986.
+19.	R. Quinlan. Simplifying decision trees. International Journal of Man-Machine
+Studies, 27(3):221—234, 1987.
+20.	J.R. Quinlan. Learning logical definitions from relations. Machine Learning, 5(3):
+239—266, 1990.
+21.	J. Rissanen. Modeling by shortest data description. Automatica, 14: 465—471,
+1978.

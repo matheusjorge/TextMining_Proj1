@@ -1,0 +1,56 @@
+Reliable Communication over Partially Authenticated
+Networks 
+
+Amos Beimel y Matthew Franklin z
+January 14, 1998
+
+Abstract
+Reliable communication between parties in a network is a basic requirement for
+executing any protocol. In this work, we consider the effect on reliable communication
+when some pairs of parties have common authentication keys. The pairs sharing keys
+define a natural ``authentication graph'', which may be quite different from the ``com­munication 
+graph'' of the network. We characterize when reliable communication is
+possible in terms of these two graphs, focusing on the very strong setting of a Byzantine
+adversary with unlimited computational resources.
+
+
+
+References
+[1] M. Ben­Or, S. Goldwasser, and A. Wigderson. Completeness theorems for noncrypto­
+graphic fault­tolerant distributed computations. In Proc. of the 20th Annu. ACM Symp.
+on the Theory of Computing, pages 1--10, 1988.
+[2] J. Carter and M. Wegman. Universal classes of hash functions. J. of Computer and
+System Sciences, 18:143--154, 1979.
+[3] D. Chaum, C. Crepau, and I. Damgard. Multiparty unconditionally secure protocols.
+In Proc. of the 20th Annu. ACM Symp. on the Theory of Computing, pages 11--19, 1988.
+[4] D. Dolev. The Byzantine generals strike again. J. of Algorithms, 3:14--30, 1982.
+[5] D. Dolev, C. Dwork, O. Waarts, and M. Yung. Perfectly secure message transmission.
+J. of the ACM, 40(1):17--47, 1993.
+[6] C. Dwork, D. Peleg, N. Pippenger, and E. Upfal. Fault tolerance in networks of bounded
+degree. SIAM J. on Computing, 17(5):975--988, 1988.
+[7] S. Even. Graph Algorithms. Computer Science press, 1979.
+[8] M. J. Fischer, N. A. Lynch, and M. Merritt. Easy impossibility proofs for distributed
+consensus problems. Distributed Computing, 1(1):26--39, 1986.
+[9] M. K. Franklin and R. N. Wright. Reliable and private communication over echo lines.
+Manuscript, 1997.
+[10] D. Powell (guest editor). Special section on group communication. CACM, 39(4), 1996.
+[11] H. Krawczyk. LFSR­based hashing and authentication. In Y. G. Desmedt, editor, Ad­
+vances in Cryptology---CRYPTO '94, volume 839 of Lecture Notes in Computer Science,
+pages 129--139. Springer­Verlag, 1994.
+[12] H. Krawczyk. New hash functions for message authentication. In L. C. Guillou and J.­J.
+Quisquater, editors, Advances in cryptology: EUROCRYPT '95, volume 921 of Lecture
+Notes in Computer Science, pages 301--310. Springer, 1995.
+[13] N. A. Lynch. Distributed Algorithms. Morgan Kaufman Publishers, 1997.
+[14] K. Menger. Allgemeinen kurventheorie. Fund. Math., 10:96--115, 1927.
+[15] M. Pease, R. Shostak, and L. Lamport. Reaching agreements in the presence of faults.
+J. of the ACM, 27(2):228--234, 1980.
+[16] T. Rabin and M. Ben­Or. Verifiable secret sharing and multiparty protocols with honest
+majority. In Proc. of the 21st Annu. ACM Symp. on the Theory of Computing, pages
+73--85, 1989.
+[17] G. J. Simmons. A survey of information authentication. In G. J. Simmons, editor,
+Contemporary Cryptology, The Science of Information Integrity, pages 441--497. IEEE
+Press, 1992.
+[18] E. Upfal. Tolerating a linear number of faults in networks of bounded degree. Informa­tion 
+and Computation, 115(2):312--320, 1994.
+[19] M. Wegman and J. Carter. New hash functions and their use in authentication and set
+equality. J. of Computer and System Sciences, 22:265--279, 1981.

@@ -1,0 +1,42 @@
+Lessons Learned from Deployed CBR Systems
+and Design Decisions Made in Building
+a Commercial CBR Tool
+
+Hideo Shimazu and Yosuke Takashima
+
+Information Technology Research Laboratories. NEC Corporation.
+4-1-1 Miyazaki. Miyamae. Kawasaki, 216. Japan
+{shimazu, yosuke}@joke.cl.nec.co.jp
+
+
+
+
+Abstract. This paper reports our experiences in several CBR system
+building projects. Based on the lessons learned in these projects. we
+have developed a help desk support tool. Help Desk Builder. It consists
+of a knowledge management tool and a customer information manage-merit tool. 
+The knowledge management tool includes case-based retrieval
+functions. This paper focuses on the design decisions and architecture of
+the case-based functions in Help Desk Builder.
+References
+
+1.	Kitano, H., Shihata, A., Shimazu. H.. Kajihara J., Sato, A., Building Large-Scale
+Corporate-Wide Case-Based Systems: Integration of Organizational and Machine
+Executable Algorithms. In Proceedings of the National Conference on Artificial
+Intelligence. 1992 (AAAI-92)
+2.	Kitano, H and Shimazu, H, The Experience Sharing Architecture: A Case Study
+in Corporate-Wide Case-Based Software Quality Control. In Case-Based Reasoning
+Experiences, Lessons. & Future Directions, ed D.B. Leake, AAAI Press/The MIT
+Press, 1996
+3.	Kolodner, J., Case-Based Reasoning, Morgan Kaufmann. 1993.
+4.	Schank, R., and Abelson, R.P., 1977. Scripts, Plans, Goals, and Understanding,
+Erlbaum, Hillsdale. N.J.. 1977
+5.	Shimazu, H., Kitano, H., and Shibata, A., Retrieving Cases from Relational
+DataBase: Another Stride Towards Corporate-Wide Case-Based Systems, In Pro-
+ceedings of the International Joint Conference on Artificial Intelligence, 1993 (IJCAI
+93)
+6.	Shimazu, H., Shibata. A., and Nihei, K.. Case-Based Retrieval Interface Adapted
+to Customer-Initiated Dialogues in Help Desk Operations, In Proceedings of the
+National Conference on Artificial Intelligence, 1994 (AAAI-94)
+7.	Shimazu and Takashima, Detecting Discontinuities in Case-Bases, In Proceedings
+of the National Conference on Artificial Intelligence, 1996 (AAAI-96)

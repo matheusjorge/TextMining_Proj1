@@ -1,0 +1,67 @@
+A-Subsumption and Its Application to Learning
+from Positive-only Examples
+
+Zdravko Markov
+
+Institute for Information Technologies — Bulgarian Academy of Sciences
+Acad.G.Bonchev St. Block 29A, 1113 Sofia, Bulgaria
+Email: markov@iinf.bg
+
+
+Abstract. The general aim of the present paper is to show the advantages 
+of the model-theoretic approach to Inductive Logic Programming. 
+The paper introduces a new generality ordering between Horn
+clauses, called A-subsumption. It is stronger than e-subsumption and
+weaker than generalized subsumption. Most importantly A-subsumption
+allows to compare clauses in a local sense, i.e. with respect to a partial
+interpretation. This allows to define a non-trivial upper bound in the 
+Asubsumption lattice without the use of negative examples. An algorithm
+for concept learning from positive-only examples, based on these ideas,
+is described and its performance is empirically evaluated in the paper.
+References
+
+1.	Bergadano, F., Gunetti, D.: Functional Inductive Logic Programming with Queries
+to the User. In Proceedings of ECML-93, LNAI, Vol.667, Springer-Verlag, 1993,
+323-328.
+2.	Buntine, W.: Generalized Subsumption and Its Application to Induction and Redundancy, 
+Artificial Intelligence, Vol. 36 (1988), 149-176.
+3.	Conklin, D., Witten, I.: Complexity-Based Induction, Machine Learning, Vol. 16
+(3), 1994, 203-225.
+4.	De Raedt, L., Lavrac, N., Dzeroski, S.: Multiple Predicate Learning. In: Proceedings
+of IJCAI-93, Chambery, France, August 28 — September 3, 1993, 1037-1042.
+5.	Gold, E.M.: Language Identification in the Limit. Information and Control, Vol.10,
+1967, 447-474.
+6.	Ling, C.X.: Logic Program Synthesis from Good Examples. In S. Muggleton (ed.),
+Inductive Logic Programming, Academic Press, 1992, 113- 129.
+7.	Markov, Z.: Relational Learning by Heuristic Evaluation of Ground Data. In S.
+Wrobel (Ed.), Proceedings of Fourth Int. Workshop on ILP (ILP-94), September
+12-14, 1994, Bad Honnef/Bon, Germany, GMD-Studien Nr.237, 337-349.
+8.	Markov, Z.: A Functional Approach to ILP. In Luc De Raedt (Ed.), Proceedings of
+the Fifth Int. Workshop on ILP (ILP-95), 4-6 Sept. 1995, Leuven, Scientific report,
+Department of Computer Science, K.U. Leuven, September, 1995, 267-280.
+9.	Muggleton, S., Buntine, W.: Machine invention of first-order predicates by 
+inverting resolution. In Proceedings of the Fifth Int. Conference on Machine Learning,
+Morgan Kaufmann, 1988, 339-352.
+10.	Muggleton, S., Feng, C.: Efficient induction of logic programs. In S. Muggleton
+(ed.), Inductive Logic Programming, Academic Press, 1992, 281-298.
+11.	Muggleton, S., Srinivasan, A., Bain, M.: Compression, significance and accuracy.
+In D. Sleeman, P. Edwards (eds.), Proceedings of the Ninth Int. Conference of
+Machine Learning (ML92), Morgan Kaufmann, 1992, 338-347.
+12.	Muggleton, S., Page, C.D.: Self-saturation of definite clauses. In S. Wrobel (Ed.),
+Proceedings of Fourth Int. Workshop on ILP (ILP’94), September 12-14, 1994, Bad
+Honnef/Bon, Germany, GMD-Studien Nr.237, 161-174.
+13.	Muggleton, S.: Inverse Entailment and Progol, New Generation Computing, 13
+(1995), 245-286.
+14.	Quinlan, J.R.: Learning logical definitions from relations. Machine Learning, 5
+(1990), 239-266.
+15.	Ramsay, A.: Formal Methods in Artificial Intelligence, Cambridge University Press,
+1991.
+16.	Rouveirol, S.: Extensions of Inversion of Resolution Applied to Theory Completion.
+In S. Muggleton (ed.), Inductive Logic Programming, Academic Press, 1992, 63-92.
+17.	Stahl, I., Tausend, B., Wirth, R.: Two Methods for Improving Inductive Logic 
+Programming Systems. In Proceedings of ECML-93, LNAI, Vol.667, Springer-Verlag,
+1993, 41-55.
+18.	Zelle, J., Thompson, C., Califf, M., Mooney, R.: Inducing Logic Programs without
+Explicit Negative Examples. In Luc De Raedt (Ed.), Proceedings of the Fifth Int.
+Workshop on ILP (ILP-95), 4-6 Sept. 1995, Leuven, Scientific report, Department
+of Computer Science, K.U. Leuven, September, 1995, 403-416.

@@ -1,0 +1,65 @@
+Flexible Control of Case-Based Prediction in the
+Framework of Possibility Theory
+
+Didier Dubois, Eyke Hijilermejer, and Henri Prade
+
+Institut de Recherche en Informatique de Toulouse, Université Paul Sabatier
+{dubois , eyke ,prade}@irit.fr
+
+
+
+
+Abstract. The “similar problem-similar solution” hypothesis underlying 
+case-based reasoning is modelled in the framework of possibility theory 
+and fuzzy sets. Thus, case-based prediction can be realized in the
+form of fuzzy set-based approximate reasoning. The inference process
+makes use of fuzzy rules. It is controlled by means of modifier functions
+acting on such rules and related similarity measures. Our approach also
+allows for the incorporation of domain-specific (expert) knowledge concerning 
+the typicality (or exceptionality) of the cases at hand. It thus
+favors a view of case-based reasoning according to which the user interacts 
+closely with the system in order to control the generalization beyond
+observed data. Our method is compared to instance-based learning and
+kernel-based density estimation. Loosely speaking, it adopts basic principles 
+of these approaches and supplements them with the capability of
+combining knowledge and data in a flexible way.
+References
+
+1.	A. Aamodt and E. Plaza. Case-based reasoning: Foundational issues, methodological 
+variations, and system approaches. AI Communications, 7(1):39—59, 1994.
+2.	D. W. Aha, D. Kibler, and M. K. Albert. Instance-based learning algorithms.
+Machine Learning, 6(1):37—66, 1991.
+3.	C. M. Bishop. Neural Networks for Pattern Recognition. Clarendon Press, Oxford,
+1995.
+4.	B. V. Dasarathy, editor. Nearest Neighbor (NN) Norms. NN Pattern Classification
+Techniques. IEEE Computer Society Press, Los Alamitos, California, 1991.
+5.	B. V. Dasarythy. Nosing around the neighborhood: A new system structure and
+classification rule for recognition in partially exposed environments. IEEE Transactions 
+on Pattern Analysis and Machine Intelligence, PAMI-2(1):67-71, 1980.
+6.	T. Denoeux. A k-nearest neighbor classification rule based on Dempster-Shafer
+Theory. IEEE Thans. Systems, Man, and Cybernetics, 25(5):804-813, 1995.
+7.	D. Dubois, F. Esteva, P. Carcia, L. Codo, R. Lopez de Mantaras, and H. Prade.
+Fuzzy set modelling in case-based reasoning. Int. J. Intell. Syst., 13:345—373, 1998.
+8.	D. Dubois and H. Prade. The three semantics of fuzzy sets. Fuzzy Sets and Systems,
+90(2):141—150, 1997.
+9.	S. A. Dudani. The distance-weighted k-nearest-neighbor rule. IEEE Transactions
+on Systems, Man, and Cybernetics, SMC-6(4):325—327, 1976.
+10.	M. E. Hellman. The nearest neighbor classification rule with a reject option. IEEE
+Transactions on Systems, Man, and Cybernetics, SSC-6:179—185, 1970.
+11.	E. Hüllermeier. Toward a probabilistic formalization of case-based inference.
+Proc. IJCAI-99, pages 248—253, 1999.
+12.	E. Hüllermeier, D. Dubois, and H. Prade. Knowledge-based extrapolation of cases:
+A possibilistic approach. In Proceedings IPMU-2000, 2000. To appear.
+13.	M. Jaczynski and B. Trousse. Fuzzy logic for the retrieval step of a case-based
+reasoner. In Proc. EWCBR-94, pages 313—321, 1994.
+14.	D. Kibler and D. W. Aha. Instance-based prediction of real-valued attributes.
+Computational Intelligence, 5:51—57, 1989.
+15.	P. Myllymäki and H. Tirri. Bayesian case-based reasoning with neural networks.
+Proc. IEEE Int. Conf. Neural Networks, pages 422—427, 1993.
+16.	E. Plaza, F. Esteva, P. Garcia, L. Godo, and R. Lopez de Mantaras. A logical
+approach to case-based reasoning using fuzzy similarity relations. Journal of Information 
+Sciences, 106:105-122, 1998.
+17.	R. R. Yager. Case-based reasoning, fuzzy systems modelling and solution composition. 
+Proc. ICCBR-97, pages 633—643, 1997.
+18.	L. A. Zadeh. A fuzzy-set theoretic interpretation of linguistic hedges. J. Cybernetics, 
+2(3):4—32, 1972.

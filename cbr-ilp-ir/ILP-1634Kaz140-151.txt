@@ -1,0 +1,45 @@
+Combining LAPIS and WordNet for the Learning
+of LR Parsers with Optimal Semantic
+Constraints
+
+Dimitar Kazakov
+
+University of York, Heslington, York YO1O 5DD, UK
+kazakov@cs.york.ac.uk,
+WWW home page: http://www.cs.york.ac.uk/~kazakov/
+
+
+
+Abstract. There is a history of research focussed on learning of shift-reduce 
+parsers from syntactically annotated corpora by the means of
+machine learning techniques based on logic. The presence of lexical semantic 
+tags in the treebank has proved useful for learning semantic constraints 
+which limit the amount of nondeterminism in the parsers. The
+level of generality of the semantic tags used is of direct importance to
+that task. We combine the ILP system LAPIS with the lexical resource
+WordNet to learn parsers with semantic constraints. The generality of
+these constraints is automatically selected by LAPIS from a number of options 
+provided by the corpus annotator. The performance of the parsers
+learned is evaluated on an original corpus also described in the article.
+References
+
+1.	Alfred Aho, Ravi Sethi, and Jeffrey Uliman. Compilateurs - Principles, techniques
+et outils. InterEditions, Paris, 1989.
+2.	George A. Miller et al. Introduction to WordNet: An on-line lexical database.
+Technical report, University of Princeton, 1993.
+3.	Dimitar Kazakov. An inductive approach to natural language parser design. In
+Kemal Oflazer and Harold Somers, editors, Proceedings of NeMLaP-2, pages 209—
+217, Ankara, 1996. Bilkent University.
+4.	Mitchell P. Marcus, Beatrice Santorini, and Mary Ann Marcinkiewicz. Building a
+large annotated corpus of English: the Penn treebank. Computational Linguistics,
+19, 1993.
+5.	Tom M. Mitchell. Machine Learning. McGraw-Hill, 1997.
+6.	G. Plotkin. A note of inductive generalization. In B. Meltzer and D. Mitchie, editors,
+Machine Intelligence 5, pages 153—163. Edinburgh University Press, 1970.
+7.	Ch. Samuelsson. Fast Natural—Language Parsing Using Explanation—Based Learning. 
+PhD thesis, The Royal Institute of Technology and Stockholm University, 1994.
+8.	John M. Zelle. Using Inductive Logic Programming to Automate the Construction
+of Natural Language Parsers. PhD thesis, The University of Texas at Austin, 1995.
+9.	John M. Zelle and Raymond J. Mooney. Inducing deterministic Prolog parsers from
+treebanks: A machine learning approach. In Proceedings of AAAI-94, pages 748—753.
+AAI Press/MIT Press, 1994.

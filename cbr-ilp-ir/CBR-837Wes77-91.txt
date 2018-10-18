@@ -1,0 +1,63 @@
+Case-Based and Symbolic Classification*
+- A Case Study -
+
+Stefan Wess and Christoph Globig
+
+University of Kaiserslautern, P.O. Box 3049
+D-67653 Kaiserslautern, Germany
+{globig,wess}@informatik.uni-kl.de
+
+
+
+Abstract. Contrary to symbolic learning approaches, that represent a
+learned concept explicitly, case-based approaches describe concepts implicitly
+ by a pair (GB, sim), i.e. by a measure of similarity sim and a
+set CB of cases. This poses the question if there are any differences concerning 
+the learning power of the two approaches. In this article we will
+study the relationship between the case base, the measure of similarity,
+and the target concept of the learning process. To do so, we transform a
+simple symbolic learning algorithm (the version space algorithm) into an
+equivalent case-based variant. The achieved results strengthen the hypothesis 
+of the equivalence of the learning power of symbolic and case-based 
+methods and show the interdependency between the measure used
+by a case-based algorithm and the target concept.
+References
+
+1.	David W. Aha. Case-Based Learning Algorithms. In Ray Bareiss, editor, Proceedings 
+CBR Workshop 1991, pages 147—158. Morgan Kaufmann Publishers, 1991.
+2.	David W. Aha, Dennis Kibler, and Marc K. Albert. Instance-Based Learning Algorithms. 
+Machine Learning, 6:37—66, 1991.
+3.	R. Bareiss, B. W. Porter, and C. C. Wier. PHOTOS: An Exemplar-Based Learning
+Apprentice. In Kodratoff and Michalski [9], pages 12—23.
+4.	S. Cost and Steven Salzberg. A weighted nearest neighbor algorithm for learning
+with symbolic features. Machine Learning, 10(1):56—78, 1993.
+5.	Belur Dasarathy. Nearest Neighbor Norms: NN Pattern Classification Techniques.
+IEEE Computer Society Press, 1990.
+6.	Christoph Globig and Stefan Wess. Symbolic Learning and Nearest-Neighbor Classification. 
+In H.-H. Bock, W. Lenski, and M.M. Richter, editors, Information Systerns 
+and Data-Analysis, pages 17—27. Springer Verlag, 1994.
+7.	Robert S. Holte. Commentary on: PHOTOS an exemplar-based learning apprentice.
+In Kodtratoff and Michalski [9], pages 128—139.
+8.	Klaus P. Jantke. Case-Based Learning in Inductive Inference. In Proceedings of
+the 5th ACM Workshop on Computational Learning Theory (COLT-92), pages
+218—223. ACM Press, 1992.
+9.	Yves Kodratoff and Ryszard Michalski, editors. Machine Learning: An Artificial
+Inteligence Approach, volume III. Morgan Kaufmann, 1990.
+10.	Janet L. Kolodner. Retrieval and Organizational Strategies in Conceptual Memory.
+Lawrence Erlbaum, Hillsdale, New Jersey, 1984.
+11.	R. Michalski, J. G. Carbonell, and T. Mitchell, editors. Machine Learning: An
+Artificial Intelligence Approach, volume 1. Tioga, Palo Alto, California, 1983.
+12.	Ryszard S. Michalski. Concept Meaning, Matching and Cohesiveness. In Stella
+Vosniadou and Andrew Ortony, editors, Similarity and Analogical Reasoning, chap-
+ter 4, pages 122—145. Cambridge University Press, Cambridge, 1989.
+13.	T.M. Mitchell. Generalization as search. Artificial Intelligence, 18(2):203—226,
+1982.
+14.	L. Rendell. A general framework for induction and a study of selective induction.
+Machine Learning, (1):177—226, 1986.
+15.	Michael M. Richter. Classification and Learning of Similarity Measures. In Proc.
+der 16. Jahrestagung der Gesellschaft für Klassifikation e. V. Springer Verlag, 1992.
+16.	Michael M. Richter and Stefan Wess. Similarity, Uncertainty and Case-Based Reasoning 
+in PATDEX. In Robert S. Boyer, editor, Automated Reasoning, Essays in
+Honor of Woody Bledsoe, pages 249—265. Kluwer Academic Publishing, 1991.
+17.	Craig Stanfill and David Waltz. Toward Memory-Based Reasoning. Corn. of the
+ACM, 29(12):1213—1229, 1986.

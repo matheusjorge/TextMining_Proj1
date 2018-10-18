@@ -1,0 +1,84 @@
+On Arithmetic Branching Programs \Lambda
+
+Amos Beimel y Anna G'al z
+Division of Engineering & Applied Sciences Dept. of Computer Sciences
+Harvard University The University of Texas at Austin
+40 Oxford st., Cambridge, MA 02138. Austin, TX 78712.
+
+Abstract
+The model of arithmetic branching programs is an algebraic model of computation
+generalizing the model of modular branching programs. We show that, up to a poly­nomial 
+factor in size, arithmetic branching programs are equivalent to complements of
+dependency programs, a model introduced by Pudl'ak and Sgall [20]. Using this equiv­alence 
+we prove that dependency programs are closed under conjunction over every
+field, answering an open problem of [20]. Furthermore, we show that span programs,
+an algebraic model of computation introduced by Karchmer and Wigderson [16], are
+at least as strong as arithmetic programs; every arithmetic program can be simulated
+by a span program of size not more than twice the size of the arithmetic program.
+Using the above results we give a new proof that NL/poly ` \PhiL/poly, first proved by
+Wigderson [25]. Our simulation of NL/poly is more efficient, and it holds for logspace
+counting classes over every field.
+
+
+References
+[1] E. Allender. Making computation count: Arithmetic circuits in the nineties. SIGACT
+NEWS, Complexity Theory Column, 28(4):2--15, 1997.
+[2] E. Allender, R. Beals, and M. Ogihara. The complexity of matrix rank and feasible
+systems of linear equations. In Proc. of the 28th Annu. ACM Symp. on the Theory of
+Computing, pages 161--167, 1996.
+[3] L. Babai, A. G'al, J. Koll'ar, L. R'onyai, T. Szab'o, and A. Wigderson. Extremal bipartite
+graphs and superpolynomial lower bounds for monotone span programs. In Proc. of the
+28th Annu. ACM Symp. on the Theory of Computing, pages 603--611, 1996.
+[4] L. Babai, A. G'al, and A. Wigderson. Superpolynomial lower bounds for monotone span
+programs. Technical Report 96­37, DIMACS, 1996. To appear in Combinatorica.
+[5] A. Beimel, A. G'al, and M. Paterson. Lower bounds for monotone span programs.
+Computational Complexity, 6(1):29--45, 1997. Conference version: FOCS '95.
+[6] S. J. Berkowitz. On computing the determinant in small parallel time using a small
+number of processors. Inform. Process. Lett., 18:147--150, 1984.
+[7] A. Borodin, J. von zur Gathen, and J. Hopcroft. Fast parallel matrix and GCD com­
+putations. Information and Control, 52(3):241--256, 1982.
+[8] A. Borodin, A. A. Razborov, and R. Smolensky. On lower bounds for read­k­times
+branching programs. Computational Complexity, 3(1):1--18, 1993.
+[9] G. Buntrock, C. Damm, U. Hertrampf, and C. Meinel. Structure and importance of the
+logspace­mod class. Math. Systems Theory, 25:223--237, 1992.
+[10] J. F. Buss, G. S. Frandsen, and J. O. Shallit. The computational complexity of some
+problems of linear algebra. In R. Reischuk and M. Morvan, editors, STACS '97, volume
+1200 of Lecture Notes in Computer Science, pages 451--462. Springer, 1997. See also:
+ECCC report TR97­009, http://www.eccc.uni­trier.de/eccc/, 1997.
+[11] A. G'al. Combinatorial Methods in Boolean Function Complexity. PhD thesis, U. of
+Chicago, 1995. Also: http://www.eccc.uni­trier.de/eccc­local/ECCC­Theses/gal.html .
+[12] A. G'al. A characterization of span program size and improved lower bounds for mono­tone 
+span programs. In Proc. of the 30th Annu. ACM Symp. on the Theory of Com­puting, pages 429--437, 1998.
+[13] J. von zur Gathen. Algebraic complexity theory. Ann. Review of Comp. Sci., 3:317--347,
+1988.
+[14] J. von zur Gathen. Parallel linear algebra. In J. H. Reif, editor, Synthesis of Parallel
+Algorithms, pages 573--617. Morgan Kaufmann, 1993.
+[15] Y. Ishai and E. Kushilevitz. Private simultaneous messages protocols with applications.
+In 5th Israel Symp. on Theory of Computing and Systems, pages 174--183, 1997.
+[16] M. Karchmer and A. Wigderson. On span programs. In Proc. of the 8th Annu. IEEE
+Structure in Complexity Theory, pages 102--111, 1993.
+[17] M. Mahajan and V Vinay. Determinant: Combinatorics, algorithm, and complexity.
+Chicago J. of Theoretical Comp. Sci., http://www.cs.uchicago.edu/publications/cjtcs/,
+1997:5, 1997. Preliminary version: A combinatorial algorithm for the determinant, Proc.
+of the 8th Annu. ACM­SIAM Symp. on Discrete Algorithms, pages 730--738, 1997.
+[18] K. Mulmuley. A fast parallel algorithm to compute the rank of a matrix over an arbitrary
+field. Combinatorica, 7:101--104, 1987.
+[19] N. Nisan. Lower bounds for non­commutative computation. In Proc. of the 23th Annu.
+ACM Symp. on the Theory of Computing, pages 410--418, 1991.
+[20] P. Pudl'ak and J. Sgall. Algebraic models of computation and interpolation for algebraic
+proof systems. In P. W. Beame and S. Buss, editors, Proof Complexity and Feasible
+Arithmetic, volume 39 of DIMACS Series in Discrete Mathematics and Theor. Comp.
+Sci., pages 279--296. AMS, 1998.
+[21] A. A. Razborov. Lower bounds for deterministic and nondeterministic branching pro­grams. 
+In L. Budach, editor, Proc. of Fundamentals of Computation Theory (FCT '91),
+volume 529 of Lecture Notes in Computer Science, pages 47--60. Springer­Verlag, 1991.
+[22] K. Reinhardt and E. Allender. Making nondeterminism unambiguous. In Proc. of the
+38th Annu. IEEE Symp. on Foundations of Computer Science, pages 244--253, 1997.
+[23] C. Small. Arithmetic of finite fields. M. Dekker, 1991.
+[24] V. Strassen. Algebraic complexity theory. In J. van Leeuwen, editor, Handbook of
+Theoretical Computer Science, volume A, chapter 11, pages 635--672. Elsevier and The
+MIT press, 1990.
+[25] A. Wigderson. NL=poly ` \PhiL=poly. In Proc. of the 9th Annu. IEEE Structure in Com­plexity 
+Theory, pages 59--62, 1994. Journal version: A. G'al and A. Wigderson, Boolean
+complexity classes vs. their arithmetic analogs, Random Structures & Algorithms, 9:99--
+111, 1996. See also: ECCC report TR95­049, http://www.eccc.uni­trier.de/eccc/, 1995.

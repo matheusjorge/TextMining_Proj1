@@ -1,0 +1,101 @@
+Learning Extraction Patterns for Subjective Expressions
+
+Ellen Riloff
+School of Computing
+University of Utah
+Salt Lake City, UT 84112
+riloff@cs.utah.edu
+Janyce Wiebe
+Department of Computer Science
+University of Pittsburgh
+Pittsburgh, PA 15260
+wiebe@cs.pitt.edu
+
+Abstract
+This paper presents a bootstrapping process
+that learns linguistically rich extraction pat­terns for subjective (opinionated) expressions.
+High­precision classifiers label unannotated
+data to automatically create a large training set,
+which is then given to an extraction pattern
+learning algorithm. The learned patterns are
+then used to identify more subjective sentences.
+The bootstrapping process learns many subjec­tive 
+patterns and increases recall while main­taining high precision.
+
+
+References
+C. Baker, C. Fillmore, and J. Lowe. 1998. The Berkeley
+FrameNet Project. In Proceedings of the COLING­ACL­98.
+T. Ballmer and W. Brennenstuhl. 1981. Speech Act Classifi­cation: 
+A Study in the Lexical Analysis of English Speech
+Activity Verbs. Springer­Verlag.
+A. Banfield. 1982. Unspeakable Sentences. Routledge and
+Kegan Paul, Boston.
+M. E. Califf. 1998. Relational Learning Techniques for Natural
+Language Information Extraction. Ph.D. thesis, Tech. Rept.
+AI98­276, Artificial Intelligence Laboratory, The University
+of Texas at Austin.
+Dayne Freitag. 1998. Toward General­Purpose Learning for
+Information Extraction. In Proceedings of the ACL­98.
+V. Hatzivassiloglou and K. McKeown. 1997. Predicting the
+Semantic Orientation of Adjectives. In Proceedings of the
+ACL­EACL­97.
+S. Huffman. 1996. Learning information extraction pat­terns 
+from examples. In Stefan Wermter, Ellen Riloff,
+and Gabriele Scheler, editors, Connectionist, Statistical, and
+Symbolic Approaches to Learning for Natural Language
+Processing, pages 246--260. Springer­Verlag, Berlin.
+J. Karlgren and D. Cutting. 1994. Recognizing Text Genres
+with Simple Metrics Using Discriminant Analysis. In Pro­ceedings of the COLING­94.
+B. Kessler, G. Nunberg, and H. Sch˜utze. 1997. Automatic De­tection 
+of Text Genre. In Proceedings of the ACL­EACL­97.
+J. Kim and D. Moldovan. 1993. Acquisition of Semantic Pat­terns 
+for Information Extraction from Corpora. In Proceed­
+ings of the Ninth IEEE Conference on Artificial Intelligence
+for Applications.
+Beth Levin. 1993. English Verb Classes and Alternations: A
+Preliminary Investigation. University of Chicago Press.
+B. Pang, L. Lee, and S. Vaithyanathan. 2002. Thumbs up? Sen­timent 
+Classification Using Machine Learning Techniques.
+In Proceedings of the EMNLP­02.
+R. Quirk, S. Greenbaum, G. Leech, and J. Svartvik. 1985. A
+Comprehensive Grammar of the English Language. Long­man, New York.
+E. Riloff and R. Jones. 1999. Learning Dictionaries for In­formation 
+Extraction by Multi­Level Bootstrapping. In Pro­ceedings of the AAAI­99.
+E. Riloff, J. Wiebe, and T. Wilson. 2003. Learning Subjective
+Nouns using Extraction Pattern Bootstrapping. In Proceed­ings 
+of the Seventh Conference on Computational Natural
+Language Learning (CoNLL­03).
+E. Riloff. 1993. Automatically Constructing a Dictionary for
+Information Extraction Tasks. In Proceedings of the AAAI­
+93.
+E. Riloff. 1996. Automatically Generating Extraction Patterns
+from Untagged Text. In Proceedings of the AAAI­96.
+S. Soderland, D. Fisher, J. Aseltine, and W. Lehnert. 1995.
+CRYSTAL: Inducing a Conceptual Dictionary. In Proceed­
+ings of the IJCAI­95.
+S. Soderland. 1999. Learning Information Extraction Rules for
+Semi­Structured and Free Text. Machine Learning, 34(1­
+3):233--272.
+E. Spertus. 1997. Smokey: Automatic Recognition of Hostile
+Messages. In Proceedings of the IAAI­97.
+P. Turney. 2002. Thumbs Up or Thumbs Down? Semantic Ori­entation 
+Applied to Unsupervised Classification of Reviews.
+In Proceedings of the ACL­02.
+J. Wiebe, R. Bruce, and T. O'Hara. 1999. Development and
+Use of a Gold Standard Data Set for Subjectivity Classifica­tions. 
+In Proceedings of the ACL­99.
+J. Wiebe, T. Wilson, and M. Bell. 2001. Identifying Collo­cations 
+for Recognizing Opinions. In Proceedings of the
+ACL­01 Workshop on Collocation: Computational Extrac­tion, 
+Analysis, and Exploitation.
+J. Wiebe. 1990. Recognizing Subjective Sentences: A Compu­tational 
+Investigation of Narrative Text. Ph.D. thesis, State
+University of New York at Buffalo.
+J. Wiebe. 2000. Learning Subjective Adjectives from Corpora.
+In Proceedings of the AAAI­00.
+T. Wilson and J. Wiebe. 2003. Annotating Opinions in the
+World Press. In Proceedings of the ACL SIGDIAL­03.
+R. Yangarber, R. Grishman, P. Tapanainen, and S. Huttunen.
+2000. Automatic Acquisiton of Domain Knowledge for In­formation 
+Extraction. In Proceedings of COLING 2000.

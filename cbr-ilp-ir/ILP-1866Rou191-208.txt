@@ -1,0 +1,109 @@
+Towards Learning in CARIN-ALN
+
+Céline Rouveirol and Véronique Ventos
+
+Laboratoire de Recherche en Informatique
+Bàtiment 490, Université Paris-Sud
+91405 - Orsay Cedex (France)
+{celine,ventos}@lri.fr
+
+
+
+
+Abstract. In this paper we investigate a new language for learning,
+which combines two well-known representation formalisms, Description
+Logics and Horn Clause Logics. Our goal is to study the feasability of
+learning in such a hybrid description - horn clause language, namely
+CARIN-ALN [LR98b] , in the presence of hybrid background knowledge,
+including a Horn clause and a terminological component. After setting
+our learning framework, we present algorithms for testing example coverage 
+and subsumption between two hypotheses, based on the existential
+entailment algorithm studied in[LR98b]. While the hybrid language is
+more expressive than horn clause logics alone, the complexity of these
+two steps for CARIN-ALN remains bounded by their respective complexity 
+in horn clause logics.
+References
+
+[AKP91]	H. Ait-Kaci and A. Podeiski. Towards the meaning of LIFE. In
+J. Maluszynski and M. Wirsing, editors, Proceedings on 3rd International 
+Symposium on Programming Language Implementation and
+Logic Programming, pages 255—274, Berlin, 1991.
+[AR00]	E. Alphonse and C. Rouveirol. Lazy propositionalisation for relational
+learning. In W. Horn, editor, Proceedings of the 14th European Conference 
+on Artificial Intelligence, Berlin, 2000. lOS Press. to appear.
+[BCS98]	P. Brézellec, M. Champesme, and H. Soldano. Tabata, a learning algorithm 
+searching a minimal space using a tabu strategy. In H. Prade,
+editor, Proceedings of the 13th European Conference on Artificial Intelligence, 
+pages 420—424, Brighton, 1998. Wiley.
+[BDRJ99]	H. Blockheel, L. De Raedt, and B. Jacobs, N.and Demoen. Scaling
+up inductive logic programming by learning from interpretaions. Data
+Mining and Knowledge Discovery, 3(1):59—93, 1999.
+[BPS94]	A. Borgida and P. F. Patel-Schneider. Complete algorithm for 
+subsumption in the CLASSIC description logic. Journal of Artificial 
+Intelligence Research, 1:278—308,1994.
+[Bra78]	R.J. Brachman. A structural paradigm for representing knowledge.
+Technical Report 3605, BBN Report, 1978.
+[Bun88]	W. Buntine. Generalized subsumption and its application to induction
+and redundancy. Artificial Intelligence, 36:375—399, 1988.
+[CH92]	W. W. Cohen and H. Hirsh. Learnability of the classic knowledge
+representation language. Technical report, ATT Bell Laboratories,
+New York, 1992.
+[CH94a]	W. W. Cohen and H. Hirsh. The learnability of the description logics
+with equality constraints. Machine Learning, 2(4):169—199, 1994.
+[CH94b]	W. W. Cohen and H. Hirsh. Learning the CLASSIC description logic:
+Theoretical and experimental results. In International Conference on
+Knowledge Representation and Reasoning, pages 121—133. 1994.
+[DLNN91] F.M. Donini, M. Lenzerini, D. Nardi, and W. Nutt. The complexity 
+of concept languages. In J.A. Allen R. Fikes and E Sandewall,
+editors, Principles of Knowledge Representation and Reasoning: 2nd
+International Conference, pages 151—162, Cambridge, Mass., 1991.
+[DLNS91] F.M. Donini, M. Lenzerini, D. Nardi, and A. Schaerf. A hybrid system
+with datalog and concept languages. In B. Ardizzone, S. Gablio, and
+F. Sorbello, editors, Trends in Artificial Intelligence, volume 549 of
+Lecture Notes in Artificial Intelligence, pages 88—97. Springer-Verlag,
+1991.
+[DR97]	L. De Raedt. Logical settings for concept learning. Artificial 
+Intelligence, 95:187—201, 1997.
+[FP96]	M. Frazier and L. Pitt. Classic learning. Machine Learning, 25:151—
+193, 1996.
+[GLMC]	F. Goasdoué, V. Lattès, and Rousset M.-Ch. The use of carin 
+language and algorithms for information integration: The picsel system.
+International Journal of Cooperative Systems. submitted.
+[Gon97]	M-E. Goncalves. Handling quantifiers in ILP. In S. Muggleton, editor,
+Proc. of the 6th International Workshop on Inductive Logic Program-
+ming, pages 337—357. Springer Verlag, 1997.
+[KL94]	J-U. Kietz and M. Lübbe. An efficient subsumption algorithm for 
+inductive logic programming. In William W. Cohen and Haym Hirsh, 
+editors, Proc. 11th International Conference on Machine Learning, pages
+130—138. Morgan Kaufmann, 1994.
+[KM94]	J. U. Kietz and K. Morik. A polynomial approach to the constructive
+induction of structural knowledge. Machine Learning, 14(2):193—217,
+1994.
+[LR98a]	A. Levy and M.-Ch. Rousset. Verification of knowledge bases based
+on containment checking. Artificial Intelligence, 101(1-2), 1998.
+[LR98b]	A. Y. Levy and M.-Ch. Rousset. Combining horn rules and description
+logics in carin. Artificial Intelligence, 104:165—209, 1998.
+[MF90]	S. Muggleton and C. Feng. Efficient induction of logic programs. In
+Proceedings of the 1st Conference on Algorithmic Learning Theory,
+pages 368—381. Ohmsma, Tokyo, Japan, 1990.
+[MMPS94] D. Michie, S. Muggleton, D. Page, and A. Srinivasan. To the 
+international computing community: A new East-West challenge. Technical
+report, Oxford University Computing laboratory, Oxford,UK, 1994.
+URL: ftp://ftp.comlab.ox.ac.uk/pub/Packages/ILP/trains.tar.Z.
+[NCVLRDR99] S-H. Nienhuys-Cheng, W. Van Laer, J. Ramon, and L. De Raedt.
+Generalizing refinement operators to learn prenex conjunctive normal
+forms. In S. Dzeroski and P. Flach, editors, Proc. of the 9th 
+International Conference on Inductive Logic Programming, pages 245—256.
+Springer Verlag, 1999.
+[QDBK96] J. Quantz, G. Dunker, F. Bergmann, and I. Kellner. The flex 
+system. Technical report, KIT-Report, Technische Universität, Berlin,
+Germany, 1996.
+[Val84]	L.G. Valiant. A theory of the learnable. Communications of the ACM,
+27:1134—1142, 1984.
+[VHB88]	F. Van Harmelen and A. Bundy. Explanation based generalisation —
+partial evaluation. Artificial Intelligence, 36:401—412, 1988.
+[WWB+ 93] J.R. Wright, E.S. Weixelbaum, K. Brown, G.T. Vesonder, S.R. Palmer,
+J.L. Berman, and H.H. Moore. A knowledge-based configurator that
+supports sales, engineering and manufacturing at att bell network 
+systems. In Proceedings of the Innovative Applications of Artificial 
+Intelligence Conferences, pages 183—193, Menlo Park, California, 1993.

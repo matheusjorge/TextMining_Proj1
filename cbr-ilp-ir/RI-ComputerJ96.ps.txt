@@ -1,0 +1,105 @@
+Information Retrieval as Counterfactual
+
+Jian­Yun Nie
+Martin Brisebois
+Département d'informatique et de recherche opérationnelle
+Université de Montréal
+C.P. 6128, succursale Centre­ville
+Montréal, P.Q
+H3C 3J7, Canada
+phone: (514) 343­2263
+fax: (514) 343­5834
+e­mail: nie@iro.umontreal.ca
+briseboi@iro.umontreal.ca
+François Lepage
+Département de philosophie
+Université de Montréal
+C.P. 6128, succursale Centre­ville
+Montréal, P.Q
+H3C 3J7, Canada
+e­mail: lepagef@ere.umontreal.ca
+
+Relevance, one of the fundamental notions in Information Retrieval (IR),
+has long been studied from a cognitive point of view. It is known that
+relevance depends not only on the topic of the document and the
+information need expressed in a query, but also on other "situational"
+factors in the retrieval situation, such as the user's previous knowledge,
+background, intentions, and so on. Formal models, on the other hand,
+usually consider relevance from a system point of view, i.e. they isolate
+relevance in a restricted context in which only the topic matters. One of
+the reasons for this very partial modeling is due to the inappropriateness
+of standard formal tools for describing relevance in a general context.
+This paper is an attempt to identify a more appropriate logical framework
+for the modeling. Counterfactual conditional logic is examined with
+respect to the IR requirements, indicating the logic's high potential value
+for this task. A particular conditional logic is then defined which, in
+comparison with previous developments on conditional logic, is better
+suited to IR. The new model gives an insight into the phenomena related
+to the "situational" factors of relevance judgment which, until now, have
+not been considered.
+
+
+
+References
+1 . C. L. Barry, User­defined relevance criteria: an exploratory study. Journal of the
+American Society for Information Science, vol. 45, pp. 149­159 (1994).
+2 . J. Barwise and J. Perry, Situations and Attitudes. Cambridge MA: MIT Press
+(1983).
+3 . N. J. Belkin, Cognitive models and information transfer. Social Science
+Information Studies, vol. 4, pp. 111­129 (1984).
+4 . N. J. Belkin and A. Vickery, Interaction in information systems. West Yorkshire,
+UK: The British Library Board (1985).
+5 . H. W. Bruce, A cognitive view of the situational dynamism of user­centered
+relevance estimation. Journal of the American Society for Information Science, vol.
+45, pp. 142­148 (1994).
+6 . B. F. Chellas, Modal logic ­ An Introduction. Cambridge: Cambridge University
+Press (1980).
+7 . F. Crestani and C. J. v. Rijsbergen, Information retrieval by logical imaging.
+Journal of Documentation, vol. 51, pp. 3­17 (1995).
+8 . C. A. Cuadra and R. V. Katter, Opening the black box of "relevance". Journal of
+Documentation, vol. 23, pp. 291­303 (1967).
+9 . B. Dervin and M. Nilan, Information needs and uses. Annual Review of Science
+and Technology, vol. 21, pp. 3­27 (1986).
+10. K. Devlin, Logic and Information. Cambridge: Cambridge University Press
+(1991).
+11. T. Eiter and G. Gottlob, On the complexity of propositional knowledge base
+revision, updates, and counterfactuals. Artificial Intelligence, vol. 57, pp. 227­270
+(1992).
+12. E. A. Fox and N. D. Barnette, Improving education through a computer science
+digital library with three types of WWW servers. The Second WWW International
+Conference(1994).
+13. T. J. Froehlich, Special issue on "relevance". , vol. 45: Journal of the American
+Society for Information Science, 1994.
+14. P. Gärdenfors, Imaging and conditionalization. The Journal of Philosophy, vol.
+79, pp. 747­760 (1982).
+15. P. Gärdenfors, Knowledge in Flux: Modeling in Dynamics of Epistemic States.
+Cambridge: MIT Press (1988).
+16. M. L. Ginsberg, Counterfactuals. Artificial Intelligence, vol. 30, pp. 35­79 (1986).
+17. H. Katsuno and A. O. Mendelzon, A unified view of propositional knowledge base
+updates. International Joint Conference on Artificial Intelligence, Detroit, MI,
+1413­1419 (1989).
+18. M. Lalmas and C. J. van Rijsbergen, A model of an information retrieval system
+based on situation theory and Dempster­Shafer theory of evidence. Incompleteness
+and Uncertainty in Information Systems, Montreal, 62­67 (1993).
+19. F. Lepage and J.­Y. Nie, A multivalued conditional logic with probabilistic
+interpretation. IRO, Université de Montréal, Montreal, Technical report 965,
+(1995).
+20. D. Lewis, Counterfactuals: Harvard University Press (1973).
+21. D. Lewis, Probability of conditionals and conditional probabilities. Philosophical
+Review, vol. LXXXV, pp. 297­315 (1976).
+22. D. Nute, Topics in Conditional Logic, vol. 20. Dordrecht, Holland: Reidel (1980).
+23. C. J. van Rijsbergen, A non­classical logic for information retrieval. The Computer
+Journal, vol. 29, pp. 481­485 (1986).
+24. C. J. van Rijsbergen, Towards an information logic. Research and Development on
+Information Retrieval ­ ACM­SIGIR, 77­86 (1989).
+25. T. Saracevic, The concept of "relevance" in information science: a historical
+review. in Introduction to Information Science, T. Saracevic, Ed. New York: R. R.
+Bowker Company, pp. 111­151 (1970).
+26. T. Saracevic et al., A Study of information seeking and retrieving (I): background
+and methodology. Journal of the American Society for Information Science, vol.
+39, pp. 161­176 (1988).
+27. R. Stalnaker, Probabilities and conditionals. Philosophy of Science, vol. 28, pp.
+64­80 (1970).
+28. R. Stalnaker, Stalnaker to Fraassen. in Foundations of Probability Theory,
+Statistical Inference, and Statistical Theories of Science, Harper and Hooker, Eds.
+Dordrecht, Holland: Reidel (1976).

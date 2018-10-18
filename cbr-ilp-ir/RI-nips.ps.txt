@@ -1,0 +1,80 @@
+CATEGORY: Artificial Intelligence
+Learning Human­like Knowledge by Singular
+Value Decomposition: A Progress Report
+
+Thomas K. Landauer Darrell Laham
+Department of Psychology & Institute of Cognitive Science
+University of Colorado at Boulder Boulder, CO 80309­0345
+{landauer, dlaham}@psych.colorado.edu
+Peter Foltz
+Department of Psychology
+New Mexico State University Las Cruces, NM 88003­8001
+pfoltz@crl.nmsu.edu
+
+Abstract
+Singular value decomposition (SVD) can be viewed as a method for
+unsupervised training of a network that associates two classes of events
+reciprocally by linear connections through a single hidden layer. SVD
+was used to learn and represent relations among very large numbers of
+words (20k­60k) and very large numbers of natural text passages (1k­
+70k) in which they occurred. The result was 100­350 dimensional
+"semantic spaces" in which any trained or newly added word or passage
+could be represented as a vector, and similarities were measured by the
+cosine of the contained angle between vectors. Good accuracy in
+simulating human judgments and behaviors has been demonstrated by
+performance on multiple­choice vocabulary and domain knowledge
+tests, emulation of expert essay evaluations, and in several other ways.
+Examples are also given of how the kind of knowledge extracted by this
+method can be applied.
+
+
+References
+Anglin, J. M. (1970). The growth of word meaning. Cambridge, MA: MIT.
+Berry, M. W. (1992). Large scale singular value computations. International Journal of
+Supercomputer Applications, 6, 13­49.
+Deerwester, S., Dumais, S. T., Furnas, G. W., Landauer, T. K., & Harshman, R. (1990).
+Indexing By Latent Semantic Analysis. Journal of the American Society For
+Information Science, 41, 391­407.
+Dumais, S. T. (1991). Improving the retrieval of information from external sources.
+Behavior Research Methods, Instruments and Computers, 23, 229­236.
+Dumais, S. T. (1994). Latent semantic indexing (LSI) and TREC­2. In D. Harman (Ed.),
+National Institute of Standards and Technology Text Retrieval Conference. NIST
+special publication.
+Foltz, P. W., Kintsch, W., & Landauer, T. K. (in press). Analysis of text coherence
+using Latent Semantic Analysis. Discourse Processes.
+Laham, D. (in press). Latent Semantic Analysis approaches to categorization. Proceedings
+of the Cognitive Science Society, 1997.
+Landauer, T. K., & Dumais, S. T. (1997). A solution to Plato's problem: The Latent
+Semantic Analysis theory of the acquisition, induction, and representation of
+knowledge. Psychological Review, 104, 211­240.
+Landauer, T. K., Foltz, P. W., & Laham, D. (1997). Latent Semantic Analysis passes
+the test: knowledge representation and multiple­choice testing. Manuscript in
+preparation.
+Landauer, T. K., Laham, D., Rehder, B. & Schreiner, M .E. (in press). How well can
+passage meaning be derived without using word order: A comparison of Latent
+Semantic Analysis and humans. Proceedings of the Cognitive Science Society, 1997.
+Landauer, T. K., & Littman, M. L. (1990). Fully automatic cross­language document
+retrieval using latent semantic indexing. In Proceedings of the Sixth Annual
+Conference of the UW Centre for the New Oxford English Dictionary and Text
+Research (pp. 31­38). Waterloo, Ontario: UW Centre for the New OED.
+Myers, D. G. (1995). Psychology, Fourth Edition. NY, NY: Worth.
+Rehder, B., Schreiner, M. E., Wolfe, B. W., Laham, D., Landauer, T. K., & Kintsch, W.
+(in press). Using Latent Semantic Analysis to assess knowledge: Some technical
+considerations. Discourse Processes.
+Shafir, E., Smith, E. E., & Osherson, D. N. (1990). Typicality and reasoning judgments.
+Memory & Cognition, 3, 229­239.
+Till, R. E., Mross, E. F., & Kintsch. W. (1988). Time course of priming for associate
+and inference words in discourse context. Memory and Cognition, 16, 283­299.
+Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases.
+Science, 185, 1124­1131.
+Tversky, A., & Kahneman, D. (1980). Judgments of and by representativeness. In D.
+Kahneman, P. Slovic, & A. Tversky (Eds.), Judgment under uncertainty: Heuristics
+and biases. New York: Cambridge University Press.
+Tversky, A., & Kahneman, D. (1983). Extensional versus intuitive reasoning: The
+conjunction fallacy in probability judgment. Psychological Review, 90, 293­315.
+Warrington, E. K., & Shallice, T. (1984). Category­specific semantic impairments.
+Brain, 107, 829­853.
+Wolfe, M. B., Schreiner, M. E., Rehder, B., Laham, D., Foltz, P. W., Kintsch, W., &
+Landauer, T. K. (in press). Learning from text: Matching readers and text by Latent
+Semantic Analysis. Discourse Processes.
+

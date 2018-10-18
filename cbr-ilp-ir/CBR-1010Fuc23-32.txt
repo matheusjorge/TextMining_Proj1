@@ -1,0 +1,51 @@
+Operator Decision Aiding by Adaptation of
+Supervision Strategies
+
+Béatrice Fuchs, Alain Mille, Benoît Chiron
+
+CPE-Lyon, LISA , 31 place Bellecour, 69 002 Lyon, France
+e-mail : {bf,am,chiron}@cpe.ipl.fr
+
+
+Abstract. This paper presents a CBR application in the domain of industrial 
+supervision. The domain knowledge is acquired at design stage
+through different models and some critical prototypical situations. At
+operating stage, new situations and their associated supervision strategy 
+complete the supervision system and are reused by adaptation in
+later situations in similar contexts. The system can be viewed as an artificial 
+operator who collects experiences from the operators in order to
+propose relevant variants in similar situations. First, we present current
+approaches in process supervision. Then, knowledge and cases representation 
+that support case-based reasoning and the different stages of the
+reasoning process are presented. We focus on case adaptation, and show
+different degrees of case reuse, depending on available knowledge.
+References
+
+[Chiron, 1995] Chiron, B. (1995). Aide à la conception dans le domaine de la supervision 
+et le raisonnement à partir de cas. In Bichindaritz, I., editor, 4erne Seminaire
+raisonnement à partir de cas, Université René Descartes, Paris V.
+[Fuchs, 1995] Fuchs, B. (1995). Aide à la décision opérateur par adaptation de
+stratégies de supervision industrielle. In Bichindaritz, I., editor, 4erne Seminaire
+raisonnement à partir de cas, Université René Descartes, Paris V.
+[Kolodner, 1993] Kolodner, J. (1993). Case-Based Reasoning. Morgan Kaufmann.
+[Leake, 1993] Leake, D. B. (1993). Learning adaptation strategies by introspective reasoning 
+about memory search. In Press, A., editor, Proceedings of the AAAI Workshop
+on Case based reasoning, pages 57—63, MenloPark, CA.
+[Marca and Mc Gowan, 1988] Marca, D. and Mc (Iowan, C. (1988). SADT: Structured
+Analysis and Design Technique. Mac Graw Hill.
+[Mille, 1994] Mile, A. (1994). Situations de supervision : similarite entre situations.
+Rapport interne.
+[Mille et al., 1995] Mille, A., Chartres, J.-M., Niel, E., Fuchs, B., and Chiron, B.
+(1995). Intelligent workstation for immediate decision helping in process supervision. 
+In Glavic P. and Kravanja, Z., editors, European Symposium on Computer
+Aided Process Engineering - 5, Bled, Slovenia. Pergamon Press.
+[Millot, 1988] Milot, P. (1988). Supervision des procédés automatinés et ergonomie.
+Hermès.
+[Riesbeck and Schank, 1989] Riesbeck, C. K. and Schank, R. C. (1989). Inside case-based 
+reasoning. Lawrence Erlbaum Associates.
+[SFERCA, 1993] SFERCA (1993). Image, le manuel opérateur. Technical report,
+SFERCA S.A., 23, rue du Creuzat, 38 L’Isle d’Abeau.
+[Slade, 1991] Slade, 5. (1991). Case-based reasoning: A research paradigm. AI magazine, 12(1):42—55.
+[Smyth and Cunningham, 1993] Smyth, B. and Cunningham, P. (1993). Complexity
+of adaptation in real-world case-based reasoning systems. In Proceedings of the sixth
+Irish conference on Artificial Intelligence and cognitive systems, pages 228—240.

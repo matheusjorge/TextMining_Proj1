@@ -1,0 +1,49 @@
+Towards using a Single Uniform Metric
+in Instance-Based Learning
+
+Kai Ming Ting
+
+Basser Department of Computer Science
+University of Sydney, NSW 2006, Australia
+
+
+Abstract. In instance-based learning, two different metrics are usually
+used for continuous-valued attributes and nominal attributes. The problem 
+of using different metrics in domains which have both types of attribute 
+has been mitigated by methods such as attribute and instance
+weightings in instance-based learning.
+This paper investigates a method that treats both types of attribute
+using a single uniform metric in instance-based learning. The method
+transforms continuous-valued attributes into nominal attributes through
+discretisation at the outset. We empirically examine the approach using
+both real-world and artificial datasets to characterise the benefits of discretisation 
+and using a single uniform metric in instance-based learning.
+Results indicate that our approach can be beneficial to instance-based
+learning in domains which have noise or irrelevant attributes.
+References
+1.	Aha, D.W., A Study of Instance-Based Algorithms for Supervised Learning Tasks,
+PhD Thesis (1990), Department of Information and Computer Science, University
+of California, Irvine, Technical Report 90-42.
+2.	Catlett, J. On Changing Continuous Attributes into Ordered Discrete Attributes.
+In Proceedings of the European Working Session on Learning. (1991).
+3.	S. Cost and S. Salzberg. A weighted nearest neighbor algorithm for learning with
+symbolic features. Machine Learning, 10:57—78 (1993).
+4.	U.M. Fayyad and K.B. Irani. Multi-interval discretization of continuous-valued attributes 
+for classification learning. In Proceedings of the Thirteenth International
+Joint Conference on Artificial Intelligence, (1993) 1022—1027.
+5.	Kerber, R. ChiMerge: Discretization of Numeric Attributes, in Proceedings of the
+Tenth National Conference on Artificial Intelligence, (1992) 123-128.
+6.	Kononenko, I. Inductive and Bayesian Learning in Medical Diagnosis,
+Applied Artificial Intelligence, Vol.7, (1993) 317-337.
+7.	Murphy, P.M. and D.W. Aha, UCI Repository of Machine Learning Databases
+[machine-readable data repository]. Technical report (1991), Department of Information 
+and Computer Science, University of California, Irvine, CA.
+8.	Rissanen, J. Stochastic Complexity in Statistical Inquiry, (1989) World Scientific.
+9.	Schaffer, C. A Conservation Law for Generalization Performance, in Proceedings of
+11th International Conference on Machine Learning, (1994) 259-265.
+10.	Ting, K.M. Discretization of Continuous- Valued Attributes and Instance-Based
+Learning, TR.491, (1994) Basser Dept of Computer Science, University of Sydney.
+11.	Van de Merckt, T. Decision Trees in Numerical Attributes Spaces, in Proceedings
+of 13th International Joint Conference on Artificial Intelligence, (1993) 1016-1021.
+12.	Wettschereck, D. A Study of Distance-Based Machine Learning Algorithms, PhD
+Thesis, (1994), Department of Computer Science, Oregon State University.

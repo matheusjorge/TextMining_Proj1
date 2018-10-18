@@ -1,0 +1,63 @@
+Inverse Entailment in
+Nonmonotonic Logic Programs
+
+Chiaki Sakama
+
+Department of Computer and Communication Sciences
+Wakayama University
+Sakaedani, Wakayama 640 8510, Japan
+sakama@sys.wakayama-u.ac.jp
+http://www.sys.wakayama-u.ac.jp/~sakama
+
+
+
+Abstract. Inverse entailment (IE) is known as a technique for finding
+inductive hypotheses in Horn theories. When a background theory is
+nonmonotonic, however, LB is not applicable in its present form. The
+purpose of this paper is extending the JE technique to nonmonotonic
+inductive logic programming (ILP). To this end, we first establish a new
+entailment theorem in normal logic programs, then introduce the notion
+of contrapositive programs. Finally, a theory of IE in nonmonotonic JLP
+is constructed.
+References
+
+1.	M. Bain and S. Muggleton. Non-monotonic learning. In: S. Muggleton (ed.) 
+Inductive Logic Programming, Academic Press, pp. 145—161, 1992.
+2.	C. Baral and M. Gelfond. Logic programming and knowledge representation. 
+Journal of Logic Programming 19/20:73—148, 1994.
+3.	F. Bergadano, D. Gunetti, M. Nicosia, and G. Ruffo. Learning logic programs with
+negation as failure. In: L. De Raedt (ed.) Advances in Inductive Logic Programming,
+105 Press, pp. 107—123, 1996.
+4.	Y. Dimopoulos and A. Kakas. Learning nonmonotonic logic programs: learning
+exceptions. In: Proceedings of the 8th European Conference on Machine Learning,
+Lecture Notes in Artificial Intelligence 912, Springer-Verlag, pp. 122—137, 1995.5.	
+L. Fogel and G. Zaverucha. Normal programs and multiple predicate learning.
+In:	Proceedings of the 8th International Workshop on Inductive Logic Programming,
+Lecture Notes in Artificial Intelligence 1446, Springer-Verlag, pp. 175—184, 1998.
+6.	M. Gelfond and V. Lifschitz. The stable model semantics for logic programming.
+In:	Proceedings of the 5th International Conference and Symposium on Logic Programming, 
+MIT Press, pp. 1070—1080, 1988.
+7.	K. Inoue and Y. Kudoh. Learning extended logic programs. In: Proceedings of the
+15th International Joint Conference on Artificial Intelligence, Morgan Kaufmann,
+pp. 176—181, 1997.
+8.	V. Lifschitz, L. R. Tang, and H. Thrner. Nested expression in logic programs. Annals
+of Mathematics and Artificial Intelligence 25:369—389, 1999.
+9.	J. W. Lloyd. Foundations of logic programming (2nd edition). Springer-Verlag,
+1987.
+10.	L. Martin and C. Vrain. A three-valued framework for the induction of general
+logic programs. In: L. De Raedt (ed.) Advances in Inductive Logic Programming, IOS
+Press, pp. 219—235, 1996.
+11.	S. Muggleton. Inverse entailment and Progol. New Generation Computing 13:245—
+286, 1995.
+12.	S. Muggleton. Completing inverse entailment. In: Proceedings of the 8th International 
+Workshop on Inductive Logic Programming, Lecture Notes in Artificial Intelligence 
+1446, Springer-Verlag, pp. 245—249, 1998.
+13.	C. Sakama. Some properties of inverse resolution in normal logic programs. In: Proceedings 
+of the 9th International Workshop on Inductive Logic Programming, Lecture
+Notes in Artificial Intelligence 1634, Springer-Verlag, pp. 279—290, 1999.
+14.	Y. Shoham. Nonmonotonic logics: meaning and utility. In: Proceedings of the
+10th International Joint Conference on Artificial Intelligence, Morgan Kaufmann,
+pp. 388—393, 1987.
+15.	A. Yamamoto. Which hypotheses can be found with inverse entailment? In: Proceedings 
+of the 7th International Workshop on Inductive Logic Programming, Lecture
+Notes in Artificial Intelligence 1297, Springer-Verlag, pp. 296—308, 1997.

@@ -1,0 +1,49 @@
+Mining Association Rules in Multiple Relations
+
+Luc Dehaspe and Luc De Raedt
+
+Katholieke Universiteit Leuven, Department of Computer Science,
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+email : {Luc.Dehaspe, Luc.DeRaedt}@cs.kuleuven.ac.be
+fax : ++ 32 16 32 79 96; telephone : ++ 32 18 32 75 67
+
+
+
+Abstract. The application of algorithms for efficiently generating association 
+rules is so far restricted to cases where information is put together
+in a single relation. We describe how this restriction can be overcome
+through the combination of the available algorithm. with standard techniques 
+from the field of inductive logic programming. We present the
+system WARMR, which extends APRIORI [2] to mine association rules
+in multiple relations. We apply WARMR to the natural language processing 
+task of mining part-of-speech tagging rules in a large corpus of
+English. be applied to further constrain the space of interesting ARMR’s.
+References
+
+1.	R.. Agrawal, T. Imielinski, and A. Swami. Mining assosiation rules between sets of
+items in large databases. In Proceedings of the 1993 International Conference on
+Management of Data (SIGMOD 93), pages 207—216, May 1993.
+2.	R.. Agrawal, H. Mannila, R.. Srikant, H. Toivonen, and A.I. Verkamo. Fast discovery 
+of association rules. In U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and
+R.. Uthurusamy, editors, Advances in Knowledge Discovery and Data Mining, pages
+307—328. The MIT Press, 1996.
+3.	L. De Raedt, editor. Advances in Inductive Logic Programming, volume 32 of Frontiers 
+in Artificial Intelligence and Applications. IOS Press, 1996.
+4.	L. De Raedt. Induction in logic. In R.S. Michaiski and Wnek J., editors, Proceedings 
+of the 3rd International Workshop on Multistrategy Learning, pages 29—38,
+1996.
+5.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70:375—392, 1994.
+6.	5. Dzeroski. Inductive logic programming and knowledge discovery in databases.
+In U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and R.. Uthurusamy, editors, Advances 
+in Knowledge Discovery and Data Mining, pages 118—152. The MIT Press,
+1996.
+7.	M. Houtsma and A. Swami. Set-oriented mining of assocation rules. Technical
+Report RJ 9567, IBM Almaden Research Center, San Jose, Calif., 1993.
+8.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications.
+ Ellis Horwood, 1994.
+9.	M.P. Marcus, B. Santorini, and M. A. Marcinkiewics. Building a large annotated
+corpus of English: the Penn Treebank. Computational Linguistics, 19(2):313—330,
+1993.
+10.	G. Plotkin. A note on inductive generalization. In Machine Intelligence, volume 5,
+pages 153—163. Edinburgh University Press, 1970.

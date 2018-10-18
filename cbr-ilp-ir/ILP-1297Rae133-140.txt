@@ -1,0 +1,53 @@
+Using Logical Decision Trees for Clustering
+
+Luc De Raedt and Hendrik Blockeel
+
+Department of Computer Science, Katholieke Universiteit Leuven,
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+email: {Luc.DeRaedt,Hendrik.Blockeel}@cs.kuleuven.ac.be
+
+
+Abstract. A novel first order clustering system, called C 0.5, is presented. 
+It inherits its logical decision tree formalism from the TILDE
+system, but instead of using class information to guide the search, it
+employs the principles of instance based learning in order to perform
+clustering. Various experiments are discussed, which show the promise
+of the approach.
+References
+
+1.	G. Bisson. Conceptual clustering in a first order logic representation. In Proceedings 
+of the 10th European Conference on Artificial Intelligence, pages 458—462.
+John Wiley & Sons, 1992.
+2.	H. Blockeel and L. De Raedt. Experiments with top-down induction of logical
+decision trees. Technical Report OW 247, Dept. of Computer Science, K.U.Leuven,
+January 1997. Also in Periodic Progress Report ESPRIT Project ILP2, January
+1997.
+3.	L. De Raedt. Induction in logic. In R.S. Michalski and Wnek J., editors, Proceedings 
+of the 3rd International Workshop on Multistrategy Learning, pages 29—38,
+1996.
+4.	L. De Raedt and L. Dehaspe. Clausal discovery. Machine Learning, 26:99—146,
+1997.
+5.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70:375—392, 1994.
+6.	L. De Raedt and W. Van Laer. Inductive constraint logic. h Proceedings of the
+5th Workshop on Algorithmic Learning Theory, volume 997 of Lecture Notes in
+Artificial Intelligence. Springer-Verlag, 1995.
+7.	W. Emde. Inductive learning of characteristic concept descriptions. In S. Wrobel,
+editor, Proceedings of the 4th International Workshop on Inductive Logic Programming, 
+volume 237 of GMD-Studien, pages 51—70, Sankt Augustin, Germany, 1994.
+Gesellschaft für Mathematik und Datenverarbeitung MBH.
+8.	W. Emde and D. Wettschereck. Relational instance-based learning. In L. Saitta,
+editor, Proceedings of the 13th International Conference on Machine Learning,
+pages 122—130. Morgan Kaufmann, 1996.
+9.	D. H. Fisher. Knowledge acquisition via incremental conceptual clustering. Machine 
+Learning, 2:139—172, 1987.
+10.	S. Kramer. Structural regression trees. In Proceedings of the 13th National Conference 
+on Artificial Intelligence (AAAI-96), 1996.
+11.	P. Langley. Elements of Machine Learning. Morgan Kaufmann, 1996.
+12.	G. Plotkin. A note on inductive generalization. In Machine Intelligence, volume 5,
+pages 153—163. Edinburgh University Press, 1970.
+13.	L. De Raedt, P. Idestam-Almquist, and G. Sablon. Theta-subsumption for structural 
+matching. In Proceedings of the 9th European Conference on Machine Learning, 1997.
+14.	A. Srinivasan, S.H. Muggleton, and R.D. King. Comparing the use of background
+knowledge by inductive logic programming systems. In L. De Raedt, editor, Proceedings 
+of the 5th International Workshop on Inductive Logic Programming, 1995.

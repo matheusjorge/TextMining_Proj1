@@ -1,0 +1,39 @@
+Completing Inverse Entailment
+
+Stephen Muggleton
+
+Department of Computer Science
+University of York
+Heslington, York, YO1 5DD
+United Kingdom
+
+
+
+Abstract. Yamamoto has shown that the Inverse Entailment(IE) mechanism 
+described previously by the author is complete for Plotkin’s relative 
+subsumption but incomplete for entailment. That is to say, an hypothesised 
+clause H can be derived from an example E under a background theory B 
+using IE if and only if H subsumes E relative to B in
+Plotkin’s sense. Yamamoto gives examples of H for which B U H |= E
+but H cannot be constructed using IE from B and E. The main result of
+the present paper is a theorem to show that by enlarging the bottom set
+used within IE, it is possible to make a revised version of IE complete
+with respect to entailment for Horn theories. Furthermore, it is shown
+for function-free definite clauses that given a bound k on the arity of
+predicates used in B and E, the cardinality of the enlarged bottom set
+is bounded above by the polynomial function p(c + 1)k, where p is the
+number of predicates in B, E and c is the number of constants in B U E.
+References
+
+1.	J.W. Lloyd. Foundations of Logic Programming. Springer-Verlag, Berlin, 1987.
+Second edition.
+2.	S. Muggleton. Inverse entailment and Progol. New Generation Computing, 13:245—
+286, 1995.
+3.	S-H. Nienhuys-Cheng and R. de Wolf. Foundations of Inductive Logic Programming.
+Springer-Verlag, Berlin, 1997. LNAI 1228.
+4.	U. Nilsson and J. Maluszynski. Logic, Programming and Prolog. Wiley, New York,
+1995. Second edition.
+5.	A. Yamamoto. Which hypotheses can be found with inverse entailment? In
+N. Lavrac and S. Dzeroski, editors, Proceedings of the Seventh International Workshop 
+on Inductive Logic Programming, pages 296—308. Springer-Verlag, Berlin, 1997.
+LNAI 1297.

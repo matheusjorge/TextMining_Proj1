@@ -1,0 +1,78 @@
+MULTIFEATURE AUDIO SEGMENTATION FOR BROWSING AND ANNOTATION
+
+George Tzanetakis
+Computer Science Department
+Princeton University
+35 Olden Street, Princeton NJ 08544,USA
+gtzan@cs.princeton.edu
+Perry Cook
+Computer Science and Music Deptartment
+Princeton University
+35 Olden Street, Princeton NJ 08544,USA
+prc@cs.princeton.edu
+
+ABSTRACT
+Indexing and content­based retrieval are necessary to handle the
+large amounts of audio and multimedia data that is becoming avail­able 
+on the web and elsewhere. Since manual indexing using ex­isting 
+audio editors is extremely time consuming a number of au­tomatic 
+content analysis systems have been proposed. Most of
+these systems rely on speech recognition techniques to create text
+indices. On the other hand, very few systems have been proposed
+for automatic indexing of music and general audio. Typically these
+systems rely on classification and similarity­retrieval techniques
+and work in restricted audio domains.
+A somewhat different, more general approach for fast indexing
+of arbitrary audio data is the use of segmentation based on multi­ple 
+temporal features combined with automatic or semi­automatic
+annotation. In this paper, a general methodology for audio seg­mentation 
+is proposed. A number of experiments were performed
+to evaluate the proposed methodology and compare different seg­mentation 
+schemes. Finally, a prototype audio browsing and an­notation 
+tool based on segmentation combined with existing clas­sification 
+techniques was implemented.
+
+
+
+REFERENCES
+[1] A. Hauptmann and M. Witbrock, ``Informedia: News­
+on­demand multimedia information acquisition and re­trieval,
+'' in Intelligent Multimedia Information Retrieval,
+chapter 10, pp. 215--240. MIT Press, Cambridge, Mass.,
+1997, http://www.cs.cmu.edu/afs/cs/user/alex/www/.
+[2] E. Wold, T. Blum, D. Keislar, and J. Wheaton, ``Content­
+based classification, search and retrieval of audio,'' IEEE
+Multimedia, vol. 3, no. 2, pp. 27--36, 1996.
+[3] J. Foote, ``An overview of audio information retrieval,'' ACM
+Multimedia Systems, vol. 7, pp. 2--10, 1999.
+[4] A. Bregman, Auditory Scene Analysis, MIT Press, 1990.
+[5] K. Martin, E. Scheirer, and B. Vercoe, ``Musical content anal­ysis 
+through models of audition,'' in Proc.ACM Multimedia
+Workshop on Content­Based Processing of Music, Bristol,
+UK, 1998.
+[6] J. Boreczky and L. Wilcox, ``A hidden markov model frame­
+work for video segmentation using audio and image fea­tures,
+'' Proc. Int.Conf on Acoustics,Speech and Signal Pro­cessing Vol.6, pp. 3741--3744, 1998.
+[7] S. Rossignol, X. Rodet, et al., ``Features extraction and tem­poral 
+segmentation of acoustic signals,'' Proc. ICMC 98, pp.
+199--202, 1998.
+[8] M. Hunt, M. Lennig, and P. Mermelstein, ``Experiments in
+syllable­based recognition of continuous speech,'' in Proc.
+1996 ICASSP, 1980, pp. 880--883.
+[9] E. Scheirer and M. Slaney, ``Construction and evaluation
+of a robust multifeature speech/music discriminator,'' IEEE
+Transactions on Acoustics, Speech and Signal Processing
+(ICASSP'97), pp. 1331--1334, 1997.
+[10] B. Arons, ``Speechskimmer: A system for interac­tively 
+skimming recorded speech,'' ACM Transactions
+Computer Human Interaction, vol. 4, pp. 3--38, 1997,
+http://www.media.mit.edu/people/barons/papers/ToCHI97.ps.
+[11] M. Slaney and R. Lyon, ``On the importance of time­a tem­poral 
+representation of sound,'' in Visual Representations of
+Speech Signals, M Cooke, B Beet, and M Crawford, Eds.,
+pp. 95--116. John Wiley & Sons Ltd, 1993.
+[12] E. Scheirer, ``Tempo and beat analysis of acoustic musical
+signals,'' J.Acoust.Soc.Am, vol. 103, no. 1, pp. 588,601, Jan
+1998.
+W99­4
+

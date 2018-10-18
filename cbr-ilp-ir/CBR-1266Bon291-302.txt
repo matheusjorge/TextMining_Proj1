@@ -1,0 +1,74 @@
+Using Introspective Learning to Improve Retrieval in
+CBR: A Case Study in Air Traffic Control *
+
+Andrea Bonzano1, Pádraig Cunningham1 and Barry Smyth2
+
+1Artificial Intelligence Group, Trinity College Dublin, Ireland
+2University College Dublin, Ireland
+
+{Andrea.Bonzano,Padraig.Cunningham}@tcd.ie, bsmyth@cslan.ucd.ie
+
+
+Abstract. We can learn a lot about what features are important for
+retrieval by comparing similar cases in a case-base. We can determine
+which features are important in predicting outcomes and we can assign
+weights to features accordingly. In the same manner we can discover
+which features are important in specific contexts and determine
+localised feature weights that are specific to individual cases. In this
+paper we describe a comprehensive set of techniques for learning local
+feature weights and we evaluate these techniques on a case-base for
+conflict resolution in air traffic control. We show how introspective
+learning of feature weights improves retrieval and how it can be used to
+determine context sensitive local weights. We also show that
+introspective learning does not work well in case-bases containing only
+pivotal cases because there is no redundancy to be exploited.
+References
+	Birnbaum, L., Collins, G., Brand, M., Freed, M., Krulwich, B., and Prior, L.
+(1991) A Model-Based Approach to the Construction of Adaptive Case-Based
+Planning Systems. Proceedings of the Case-Based Reasoning Workshop, pp. 2 15-224.
+Washington D.C., USA.
+	Bonzano A., & Cuningham P., (1996) ISAC: A CBR System for Decision
+support in Air Traffic Control in Proceedings of EWCBR ‘96, Advances in Case-Based 
+Reasoning, Ian Smith & Boi Faltings eds. Springer Verlag Lecture Notes in Al,
+pp44-57.
+	Fox, S. & Leake, D. B. (1995) Using Introspective Reasoning to Refine
+Indexing. Proceedings of the 14th International Joint Conference on Artificial
+Intelligence, pp. 391-397.
+	Laird, J. E, Rosenbloom, P. 5., and Newell, A. (1986) Chucking in Soar: The
+Anatomy of a General Learning Mechanism. Machine Learning. 1(1).
+	Laird, J. E., Newell, A., and Rosenbloom, P. 5. (1987) Soar: An Architecture for
+General Intelligence. Artificial Intelligence. 33(1).
+	Leake, D. B., Kinley, A., and Wilson, D. (1995) Learning to Improve Case
+Adaptation by Introspective Reasoning and CBR. Case-Based Reasoning Research
+and Development (Ed.s M. Veloso & A. Aamodt), Proceedings of the 1st International
+Conference on Case-Based Reasoning, pp. 229-240, Springer-Verlag.
+	Munoz-Avila, H., Hüllen, J. (1996) Feature Weighting by ExplainingCase-Based
+Planning Episodes. Advances in Case-Based Reasoning (Ed.s I. Smith & B. Faltings),
+Proceedings of the Third European Workshop on Case-Based Reasoning, pp. 280-
+294, Springer-Verlag.
+	Oehlmann, R., Edwards, P., & Sleeman, D. (1995) Changing the Viewpoint: Re-Indexing 
+by Introspective Question. Proceedings of the 16th Annual Conference of the
+Cognitive Science Society, pp. 38 1-386. Lawrence-Erlbaum and Associates.
+	Saltzburg, S. L. (1991) A Nearest Hyperrectangle Learning Method. Machine
+Learning, 1.
+	Stefik, M. (1981) Planning and Meta-Planning. Artificial Intelligence, 16, pp.
+141-170.
+	Smyth, B. & Keane, M. T. (1995) Remembering to Forget: A Competence
+Preserving Case Deletion Policy for CBR Systems. Proceedings of the 14th
+International Joint Conference on artificial Intelligence (IJCAI-95), pp. 377-382.
+Montreal, Canada.
+	Veloso, M. (1992) Learning by Analogical Reasoning in General Problem
+Solving. Ph.D. Thesis, (CMU-CS-92-174), School of Computer Science, Carnegie
+Mellon University, Pittsburgh, USA.
+	Watson I. D., (1996) Case-Based Reasoning Tools: An Overview, In
+Proceedings of 2nd. UK CBR Workshop, Progress in Case-Based Reasoning, Watson.
+I.D. (Ed.) pp.71-88. University of Salford. (also available on the Web at
+http://l46.87.176.38/ai-cbr/Papers/cbrtools.doc)
+	Wetterschereck, D., & Aha, D. W. (1995) Weighting Features. Case-Based
+Reasoning Research and Development (Ed.s M. Veloso & A. Aamodt), Proceedings
+of The 1st International Conference on Case-Based Reasoning, pp. 347-358,
+Springer-Verlag.
+	Wettschereck, D., Aba, D. W., & Mohri, T. (1997). A review and empirical
+evaluation of feature weighting methods for a class of lazy learning algorithms. To
+appear in Artificial Intelligence Review. (also available on the Web from
+http://www.aic.nrl .navy.mil/~aha/)

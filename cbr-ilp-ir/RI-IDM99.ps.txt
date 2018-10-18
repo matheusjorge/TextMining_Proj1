@@ -1,0 +1,84 @@
+Metrics for Evaluating Database Selection Techniques
+
+James C. French Allison L. Powell 
+Department of Computer Science
+University of Virginia
+Charlottesville, VA
+ffrench---alp4gg@cs.virginia.edu
+March 30, 1999
+
+Abstract
+The increasing availability of online databases and
+other information resources in digital libraries has
+created the need for efficient and effective algo­rithms 
+for selecting databases to search. A number
+of techniques have been proposed for query rout­ing 
+or database selection. We have developed a
+methodology and metrics that can be used to di­rectly 
+compare competing techniques. They can
+also be used to isolate factors that influence the
+performance of these techniques so that we can better 
+understand performance issues. In this paper
+we describe the methodology we have used to ex­amine 
+the performance of database selection algo­
+rithms such as gGlOSS and CORI. In addition we
+develop the theory behind a ``random'' database
+selection algorithm and show how it can be used
+to help analyze the behavior of realistic database
+selection algorithms.
+
+
+References
+[1] J. P. Callan, Z. Lu, and W. B. Croft. Searching
+Distributed Collections with Inference Networks.
+In Proceedings of the 18th International Confer­ence 
+on Research and Development in Information
+Retrieval, pages 21--29, Seattle, WA, 1995.
+[2] J. C. French, A. L. Powell, and J. Callan. Ef­fective 
+and Efficient Automatic Database Selec­tion. 
+Technical Report CS­99­08, Department of
+Computer Science, University of Virginia, Febru­ary 1999. 
+Submitted to VLDB'99.
+[3] J. C. French, A. L. Powell, J. Callan, C. L. Viles,
+T. Emmitt, K. J. Prey, and Y. Mou. Compar­ing 
+the Performance of Database Selection Algo­rithms. 
+Technical Report CS­99­03, Department
+of Computer Science, University of Virginia, Jan­uary 1999. Submitted to SIGIR'99.
+[4] J. C. French, A. L. Powell, C. L. Viles, T. Emmitt, 
+and K. J. Prey. Evaluating Database Selec­tion 
+Techniques: A Testbed and Experiment. In
+W. B. Croft, A. Moffat, and C. J. van Rijsber­gen, 
+editors, Proceedings of the 21st Annual Inter­
+national ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 121--
+129, Melbourne, Australia, 24­28 August 1998.
+[5] L. Gravano and H. Garcia­Molina. Generaliz­ing 
+GlOSS to Vector­Space Databases and Bro­ker 
+Hierarchies. In Proceedings of the 21st In­ternational 
+Conference on Very Large Databases
+(VLDB), Zurich, Switzerland, 1995.
+[6] L. Gravano, H. Garcia­Molina, and A. Tomasic.
+The Effectiveness of GlOSS for the Text Database
+Discovery Problem. In SIGMOD94, pages 126--137,
+Minneapolis, MN, May 1994.
+[7] L. Gravano, H. Garcia­Molina, and A. Toma­sic. 
+Precision and Recall of GlOSS Estimators for
+Database Discovery. In Proceedings of the 3rd In­ternational 
+Conference on Parallel and Distributed
+Information Systems, pages 103--106, Austin, TX,
+September 1994.
+[8] H. J. Larson. Introduction to Probability Theory
+and Statistical Inference, (2nd. edition). John Wi­leyi &
+ Sons, Inc., 1974.
+[9] R. M. Losee. Determining Information Retrieval
+and Filtering Performance without Experimen­tation. 
+Information Processing & Management,
+31(4):555--572, 1995.
+[10] Z. Lu, J. P. Callan, and W. B. Croft. Measures
+in collection ranking evaluation. Technical Report
+TR­96­39, Computer Science Department, Univer­sity of 
+Massachusetts, 1996.
+[11] A. Tomasic, L. Gravano, C. Lue, P. Schwarz, and
+L. Haas. Data Structures for Efficient Broker Im­plementation. 
+ACM Transactions on Information
+Systems, 15(3):223--253, July 1997.

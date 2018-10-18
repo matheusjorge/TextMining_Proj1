@@ -1,0 +1,76 @@
+Data Manipulation Services in the
+Haystack IR System
+
+Mark Asdoorian
+Submitted to the Department of Electrical Engineering and
+Computer Science
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+Abstract
+The Haystack project seeks to design and implement a distributed, intelligent, per­sonalized, 
+information retrieval system. Haystack archives documents with meta­
+data, which is also indexed by the system to improve query results. To support
+this system, an infrastructure needed to be designed and implemented. This thesis
+covers the overall design of that infrastructure with a focus on the service model,
+event model, remote communications model, and necessary services for the addition
+of our core metadata for documents in the system.
+
+
+Bibliography
+[1] Eytan Adar. Hybrid­search and Storage of Semi­structured Information. Mas­ter's 
+thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, May 1998.
+[2] Michelle Q Wang Baldonado and Terry Winograd. SenseMaker: An
+Information­-Exploration Interface Supporting the Contextual Evolution of
+a User's Interests. Technical Report SIDL­WP­1996­0048, Stanford Uni­versity, 
+Stanford Digital Library Project, September 1996. http://www­
+diglib.stanford.edu/cgi­bin/WP/get/SIDL­WP­1996­0048.
+[3] C. Mic Bowman, Udi Manber, Peter B. Danzig, Michael F. Schwartz,
+Darren R. Hardy, and Duane P. Wessels. Harvest: A Scalable, Cus­
+tomizable Discovery and Access System. Technical Report CU­CS­732­
+94, University of Colorado, Department of Computer Science, March 1995.
+ftp://ftp.cs.colorado.edu/pub/cs/techreports/schwarts/Harvest.Jour.ps.Z.
+[4] Digital Equipment Corporation. AltaVista Personal Search 97.
+http://www.altavista.digital.com/av/content/searchpx.htm.
+[5] David Flanagan. Java in a Nutshell. O'Reilly & Associates, Inc., Sebastopol,
+CA, second edition, May 1997.
+[6] William B. Frakes and Ricardo Baeza­Yates. Information Retrieval: Data Struc­tures 
+and Algorithms. Prentice Hall, EnglewoodCliffs, NJ, 1992.
+[7] David K. Gifford, Pierre Jonvelot, Mark A. Sheldon, and Jr. James W. O'toole.
+Semantic File Systems. http://www­psrg.lcs.mit.edu/Projects/SFS/newsfs.ps.
+[8] Elliotte Rusty Harold. Java Network Programming. O'Reilly & Associates, Inc.,
+Sebastopol, CA, first edition, February 1997.
+[9] Marti A. Hearst. Interfaces for Searching the Web. Scientific American, March
+1997. http://www.sciam.com/0397issue/0397hearst.html.
+[10] Marti A. Hearst and Jan O. Pedersen. Reexamining the Cluster Hypothe­sis: 
+Scatter/gather on Retrieval Results. In Proceedings of the Nineteenth
+Annual International ACM SIGIR Conference, Zurich, Germany, June 1996.
+http://www.parc.xerox.com/istl/projects/ia/papers/sg­sigir96/sigir96.html.
+[11] I­search. http://www.isearch.com/.
+[12] Java Remote Method Invocation ­ Distributed Computing for Java, March 1998.
+http://java.sun.com/marketing/collateral/javarmi.html.
+[13] David R. Karger and Lynn Andrea Stein. Haystack: Per­User Information
+Environments. http://www.ai.mit.edu/people/las/papers/karger­stein­9702.ps.
+[14] Arkadi Kosmynin. An Information Broker for Adaptive Distributed Resource
+Discovery Service. In Proceedings of
+the First International Conference of Web Society, San Francisco, CA, 1996.
+http://aace.virginia.edu/aace/conf/webnet/html/356.htm.
+[15] Joshua David Kramer. Agent Based Personalized Information Retrieval. Mas­ter's 
+thesis, Massachusetts Institute of Technology, Department of Electrical
+Engineering and Computer Science, June 1997.
+[16] Mg. http://www.kbs.citri.edu.au/mg/.
+[17] Scott Oaks and Henry Wong. Java Threads. O'Reilly & Associates, Inc., Se­bastopol, 
+CA, first edition, January 1997.
+[18] Robert Orfali and Dan Harkey. Client/Server Programming with Java and
+CORBA. Wiley Computer Publishing, New York, CA, first edition, 1997.
+[19] OROMatcher Users's Guide.
+http://oroinc.com/developers/docs/OROMatcher/index.html.
+[20] Mark A. Sheldon. Content Routing: A Scalable Architecture for
+Network­Based Information Discovery. PhD thesis, Massachusetts Insti­tute 
+of Technology, Department of EECS, December 1995. http://www­
+psrg.lcs.mit.edu/ftpdir/papers/sheldon­phdthesis.ps.
+[21] Mark A. Sheldon, Ron Weiss, Bienvenido Vlez, and David K. Gifford. Ser­vices 
+and Metadata Representation for Distributed Information Discovery.
+http://paris.lcs.mit.edu:80/ sheldon/dist­indexing­workshop­position.html.
+[22] Larry Wall. Programming Perl. O'Reilly & Associates, Inc., Sebastopol, CA,
+second edition, October 1996.

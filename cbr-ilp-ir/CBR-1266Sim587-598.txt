@@ -1,0 +1,69 @@
+Creative Design:
+Reasoning and Understanding
+
+Marin Simina and Janet Kolodner
+
+College of Computing
+Georgia Institute of Technology
+Atlanta, GA 30332-0280
+{marin, jlk}@cc.gatech.edu
+
+
+Abstract. This paper investigates memory issues that influence long-term 
+creative problem solving and design activity, taking a case-based
+reasoning perspective. Our exploration is based on a well-documented
+example: the invention of the telephone by Alexander Graham Bell. We
+abstract Bell’s reasoning and understanding mechanisms that appear
+time and again in long-term creative design. We identify that the understanding 
+mechanism is responsible for analogical anticipation of design
+constraints and analogical evaluation, beside case-based design. But an
+already understood design can satisfy opportunistically suspended design
+problems, still active in background. The new mechanisms are integrated
+in a computational model, ALEC1, that accounts for some creative behavior 
+in case-based design.
+References
+
+1.	Bhatta, S., Goel A.: Learning Generic Mechanisms from Experiences for Analogical
+Reasoning. Proceedings of the Fifteenth Conference of the Cognitive Science Society.
+Lawrence Eribaum Associates (1993) 237—242
+2.	Chandrasekaran, B.: Design Problem Solving: A Task Analysis. AI Magazine Volume
+11, 4 (1990)
+3.	Forbus, K., Ferguson, R., Gentner, D.: Incremental Structure-Mapping. Proceedings
+of the Sixteenth Conference of the Cognitive Science Society. Lawrence Erlbaum
+Associates (1994) 313—318
+4.	Forbus, K.: Qualitative Process Theory. Artificial Intelligence 24 (1984) 85—168
+5.	Goel A.: Integrating Case-Based and Model-Based Reasoning: A Computational
+Model of Design Problem Solving. AI Magazine 13(2) (1992) 50—54
+6.	Gorman, M.: Simulating Science: Heuristics, Mental Models and Technoscientific
+Thinking. Bloomington: Indiana University Press (1992)
+7.	Hammond K., Timothy C., Marks, M., Seifert C.: Opportunism and Learning. Machine 
+Learning 10 (1993) 279—309
+8.	Hayes-Roth, B.: A Blackboard Architecture for Control. Artificial Intelligence, 26
+(1985) , 251-321.
+9.	Hinrichs, T.: Some Limitations of Feature-Based Recognition in Case-Based Design.
+In Case-Based Reasoning Research and Development. Springer Verlag (1995) 471—
+480
+10.	Kolodner, J.: Case-Based Reasoning. Morgan Kaufmann (1993) 369—382
+11.	Kolodner, J., Wills, L.: Case-based Creative Design. AAAI Spring Symposium on
+Al and Creativity. Stanford, CA. (1993).
+12.	Moorman, K. & Ram, A.: A Model of Creative Understanding. In Proceedings of
+the Twelfth Annual AAAI Conference (1994)
+13.	Peterson, J., Mahesh, K., Goel, A.: Situating natural language understanding
+within experience-based design. International Journal of Human-Computer stud-
+ies 41 (1994) 881-913
+14.	Ram, A.: A theory of Questions and Question Asking. The Journal of Learning
+Sciences, 1 (3 & 4) (1991) 273—318
+15.	Ram, A., Hunter, L.: The Use of Explicit Goals for Knowledge to Guide Inference
+and Learning. Journal of Applied Intelligence 2(1) (1992) 47—73
+16.	Reich, Y., Fenves, S.: Inductive Learning of Synthesis Knowledge. International
+Journal of Expert Systems: Research and Applications 5(4) (1992) 275-297
+17.	Schank, R.: Explanation Patterns. Lawrence Erlbaum Associates (1986)
+18.	Simina, M., Kolodner, J.: Opportunistic Reasoning: A Design Perspective. Proceedings 
+of the Seventeenth Conference of the Cognitive Science Society. Lawrence
+Erlbaum Associates (1995) 78—83
+19.	US vs Bell: The Bell Telephone: The Deposition of Alexander Graham Bell. Boston:
+American Bell Telephone Company (1908)
+20.	Wills, L., Kolodner, J.: Explaining Serendipitous Recognition in Design. Proceedings 
+of the Sixteenth Conference of the Cognitive Science Society. Lawrence Erlbaum
+Associates (1994) 940—945
+21.	Tong, C.: Knowledge-Based Circuit Design. Ph.D. Thesis. Rutgers Technical Report LCSR-TR-108 (1988)

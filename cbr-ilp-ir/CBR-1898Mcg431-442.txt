@@ -1,0 +1,50 @@
+Personalised Route Planning:
+A Case-Based Approach
+
+Lorraine McGinty and Barry Smyth
+
+Smart Media Institute, Department of Computer Science,
+University College Dublin, Belfield, Dublin 4, Ireland
+{Lorraine . McGinty ,Barry. Smyth}@ucd.ie
+
+
+
+Abstract. Automatically generating high-quality routes using real map
+data is difficult for a number of reasons. Real maps rarely contain the
+sort of information that is useful for constructing high quality routes. In
+addition, the notion of “route quality” is difficult to define and is likely to
+change from person to person. In this sense the automatic construction
+of high-quality routes that match the preferences of individuals is an
+example of a weak-theory problem, and therefore well suited to a case-based 
+approach. In this paper we describe and evaluate a case-based
+route planning system that is capable of efficiently generating routes
+that reflect the implicit preferences of individual users.
+References
+
+1.	Branting, L. and Aha, D.: Stratified Case-Based Reasoning: Reusing hierarchical
+problem solving episodes, Proceedings of the Fourteenth International Joint Conference 
+on Artificial Intelligence, Morgan Kaufmann, 1995, pp. 384—390.
+2.	Haigh, K., Shewchuk, J., and Veloso, M.: Exploiting Domain Geometry in Analogical 
+Route Planning, Journal of Experimental and Theoretical Artificial Intelligence
+9 (1997), 509—541.
+3.	Haigh, K. and Veloso, M.: Route Planning by Analogy, Proceedings of the International 
+Conference of Case-Based Reasoning, Springer-Verlag, 1995, pp. 169—180.
+4.	Kolodner, J. (ed.): Case-Based Reasoning, Morgan Kaufmann, 1993.
+5.	Liu, B.: Using Knowledge To Isolate Search in Route Finding, Proceedings of Fourteenth 
+International Joint Conference on Artificial Intelligence, 1995, pp. 119—124.
+6.	Liu, B.: Intelligent Route Finding: Combining Knowledge, Cases and An Efficient
+Search Algorithm, Proceedings of the 12th European Conference on Artificial Intelligence, 
+1996, pp. 380—384.
+7.	Rogers, S., and Fiechter, C.: A Route Advice Agent that Models Driver Preferences, 
+Proceedings of the American Association of Artificial Intelligence Spring
+Symposium on Agents with Adjustable Autonomy, 1999, pp. 106—113.
+8.	Rogers, S., and Langley, P.: Personalixed Driving Route Recommendations, Proceedings 
+of the American Association of Artificial Intelligence Workshop on Recommender Systems, 1998, pp. 96—100.
+9.	Smyth, B. and Cunningham, P.: The Utility Problem Analysed: A Case-Based Reasoning 
+Perspective, Proceedings of the American Association of Artificial Intelligence 
+Spring Symposium on Agents with Adjustable Autonomy (I. Smith and
+B. Faltings, eds.), Springer-Verlag, 1996, pp. 392—399.
+10.	Smyth, B. and Keane, M.: Adaptation-Guided Retrieval: Questioning the Similarity
+Assumption in Reasoning, Artificial Intelligence 102 (1998), 249—293.
+11.	Watson, I. (ed.): Applying Case-Based Reasoning: Techniques for Enterprise Systems, 
+Morgan Kaufmann, 1997.

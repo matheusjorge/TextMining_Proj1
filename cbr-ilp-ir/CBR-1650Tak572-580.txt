@@ -1,0 +1,71 @@
+Case-Based Quality Management System Using
+Expectation Values
+
+Hirokazu Taki1, Satoshi Hori2, and Norihiro Abe3
+
+1Wakayama University, Systems Engineering Department, 930 Sakae-dani,
+Wakayama, Japan
+taki@sys.wakayama-u.ac.jp
+2Mitsubishi Electric Corporation, Manufacturing Technology Center,
+8-1-1 Tsukaguchi-Honmachi, Amagasaki Hyogo, Japan
+hori@int.mdl.melco.co.jp
+3Kyushu Institute of Technology, Information Engineering Department,
+680-4 Kawazu, Iizuka-Shi, Fukuoka, Japan
+abe@sein.mse.kyutech.ac.jp
+
+
+
+Abstract. This paper describes a quality management system (called CBQM: Case-Based 
+Quality Management) using the case-based reasoning mechanism which is
+based on a cost expectation value. The cost expectation value is calculated from
+objective and subjective values. We developed a quality management system that
+employs a stochastic method. However, in some cases, this stochastic-based system
+failed to select good cases. Therefore, we have integrated some expectation values
+into the case selection mechanism. The CBQM has an expectation measurement. Its
+case selection criteria use not only similarity, but also some expectation values, If
+unforeseen malfunctions may occur due to inappropriate design, manufacturing
+condition and/or unsuitable usage, the similarity is not enough to select useful cases
+from a casebase. That is because the similarity is mainly based on products
+themselves. The CBQM adopts the cost expectation value in order to pick up useful
+cases. The CBQM’s selection criteria is based on the quality of cases, which considers
+repair time, repair part cost, trouble recurrence, the confidence of diagnosis and repair
+difficulty. We validated this system in real product repair problems which field service
+engineers repair home appliances.
+
+
+References
+1.	Casadaban, C.E.: “DEB: A Diagnostic Experience Browser using Similarity
+Networks”, NASA Conf. Publication, Vol.NASA-CP-3073, pp.517-524 (1990).
+2.	Golding, A.R. and Rosenbloom, P.S.: “Improving Rule-Based Systems through
+Case-Based Reasoning”, Proc. of AAAI 1991, pp.22-27 (1991).
+3.	Hammond, K.J.: “CHEF:A Model of Case-based Planning”, Proc. AAAI86,
+pp267-271 (1986).
+4.	Kim, K. and Rendell, L.A.: “The Feature Selection Problem: Traditional
+Methods and a New Algorithm” , Proc. of AAAI (1992).
+5.	Kobayashi, S. and Nakamura, K.: “Knowledge Compilation and Refinement for
+Fault Diagnosis”, IEEE Expert, Vol.6, No.5, pp.39-46, Oct (1991).
+6.	Kuiper, B.: “Qualitative Simulation” Artificial Intelligence Vol.2 pp.289- 338
+(1986).
+7.	Nguyen, T., et. al.: “Compaq Quicksource Providing the Consumer with the
+Power of AI” AI magazine pp.48-60 (Fall 1993).
+8.	Quinlan, J.R.: “Decision Trees and Decision making”, IEEE Trans. on Systems,
+Man and Cybernitics, Vol.20,No.2, pp.339-346 (19%).
+9.	Rewari, A. ed.: “AI in Corporate Service and Support”, IEEE Expert, Vol.8,
+No.6, pp.5-38 (1993).
+10.	Shinmori, A.: “A Proposal to Combine Probabilistic Reasoning with Case-Based
+Retrieval for Software Troubleshooting”, AAAI Technical Report WS-98-15,
+1998 Workshop Case-based Reasoning Integration, pp149-154 (1998).
+11.	Tsatsouli, C., Cheng, Q. and Wei, H-Y: “Integrating Case-Based Reasoning and
+Decision Theory”, IEEE Expert, Vol.12, No.4, pp.46-56 (1997).
+12.	Yang, Q., Kim, E. and Racine, K.: CaseAdvisor: “Supporting Interactive
+Problem Solving and Case Base Maintenance for Help Desk Applications”,
+IJICAI97 practical Use of CBR Workshop, pp.31-40 (1997).
+13.	Saaty, T.L.: “Multicriteria Decision Making - The Analytic Hierarchy Process”,
+RWS publications, (1990).
+14.	Hori, S., Shugimatsu, K., Furukawa, S. and Taki, H.: Utilizing Repair Cases of
+Home Electrical Appliances, Proc. of Practical Use of Case-Based Reasoning
+IJICAI-97 Workshop, pp.41-52 (1997)
+15.	Aamodt, A. and Plaza, E.: Case-Based Reasoning: Foundational Issues,
+Methodological Variations, and System Approaches. AI Communications 7(1):
+39-59 (1994)
+16.	AcknoSoft: http://www.acknosoft.com/Technology.html

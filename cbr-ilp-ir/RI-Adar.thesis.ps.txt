@@ -1,0 +1,155 @@
+Hybrid­Search and Storage of Semi­structured
+Information
+
+Eytan Adar
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+Department of Electrical Engineering and Computer Science
+
+Abstract
+Given today's tangle of digital information, one of the hardest tasks for information
+systems users is finding anything in the mess. For a number of well documented
+reasons including the amazing growth in the Internet's popularity and the drop in
+the cost of storage, the amount of information on the net, as well as on a user's local
+computer has increased dramatically in recent years. Although this readily available
+information should be extremely beneficial for computer users, paradoxically it is now
+much harder to find anything.
+Many different solutions have been proposed to the general information seeking
+task of users, but few if any have addressed the needs of individuals or have leveraged
+the benefit of single­user interaction. The Haystack project is an attempt to answer
+the needs of the individual user. Creating such a system requires solving two problems.
+Half the problem addresses the manipulation of the data into a queryable format.
+Once the user's information is represented in Haystack, the other half of the problem
+centers around our desire to answer the highly varied questions a user may ask about
+this information. In this thesis we will propose a means of representing information
+in a robust model within Haystack and we will describe a corresponding mechanism
+by which the diverse questions of the individual can be answered. This novel method
+functions by using a combination of existing information systems. We will call this
+combined system a hybrid­search system.
+
+
+Bibliography
+[1] Serge Abiteboul, Dallan Quass, Jason McHugh, Jennifer Widom, and Janel L.
+Wiener. The Lorel query language for semistructured data. Internation Journal
+on Digital Libraries, 1(1):68--88, April 1997.
+[2] Eytan Adar. Haystack: A personal information repository. Bachelor's thesis,
+Massachusetts Institute of Technology, Department of Electrical Engineering and
+Computer Science, May 1997.
+[3] Eytan Adar and Jeremy Hylton. On­the­fly hyperlink creation for page images.
+In Proceedings of the Second Annual Conference on the Theory and Practice of
+Digital Libraries, number 2 in DL, Austin, TX, June 1995.
+[4] Maristella Agosti, Fabio Crestani, and Massimo Melucci. Design and impleme­
+nation of a tool for the automatic construction of hypertexts for information
+retrieval. Revised conference paper, Dipartimento di Elettroica ed Informatica,
+Universit`a di Padova ­ Italy, 1995.
+[5] Yigal Arens, Chun­Nan Hsu, and Craig A. Knoblock. Query processing in the
+sims information mediator. Technical report, Information Sciences Institute and
+Department of Computer Science, University of Southern California, Marina del
+Rey, California, 1996.
+[6] Mark Asdoorian. Data manipulation services in the Haystack IR system. Mas­ter's 
+thesis, Massachusetts Institute of Technology, Department of Electrical En­gineering 
+and Computer Science, May 1998.
+[7] Michael K. Buckland. What is a ``document''? Journal of The American Society
+for Information Science, 48(9):804--809, 1997.
+[8] Bulletin of the Technical Committee on Data Engineering, 19(1), March 1996.
+Special Issue on Integrating Text Retrieval and Databases.
+[9] Vannevar Bush. As we may think. Atlantic Monthly, 176(1):641--649, 1945.
+reprinted in [35].
+[10] W. Bruce Croft and Lisa A. Smith. A loosely­coupled intergration of a text
+retrieval system and an object­oriented database system. In Research and devel­opment 
+in information retrieval: Proceedings of the fifteenth annual international
+conference, number 15 in SIGIR, pages 223--232, Copenhagen, Denmark, June
+1992.
+[11] Douglass R. Cutting, David R. Karger, Jan O. Pedersen, and John W. Tukey.
+Scatter/Gather: A cluster­based approach to browsing large document collec­tions. 
+In Research and development in information retrieval: Proceedings of
+the fifteenth annual international conference, number 15 in SIGIR, Copenhagen,
+Denmark, June 1992.
+[12] C[hris] J. Date. An Introduction to Database Systems. The Systems Programming
+Series. Addison­Wesley, Reading, Massachusetts, sixth edition, 1995.
+[13] Samuel DeFazio, Amjad Daoud, Lisa Ann Smith, Jagannathan Srinivasan, Bruce
+Croft, and Jamie Callan. Integrating IR and RDBMS using cooperative index­
+ing. In Research and Development in Information Retrieval: Proceedings of the
+Eighteenth Annual International Conference, number 18 in SIGIR, pages 84--92,
+Seattle, WA, July 1995.
+[14] D[ouglas] C. Engelbart. Augmenting human intellect: A conceptual framework.
+Technical report, Stanford Research Institute, SRI, Menlo Park, CA, October
+1962.
+[15] R. G. G. Catell et. al. The Object Database Standard: ODMG 2.0. The Morgan
+Kaufmann Series in Data Management Systems. Morgan Kaufmann Publishers,
+Inc., San Mateo, CA, 1988.
+[16] Center for Networked Information Discovery and Retrieval. Cnidr isearch.
+http://www.cnidr.org/ir/isearch.html.
+[17] Norbert Fuhr. Models for intergrated information retrieval and database systems.
+In Bulletin [8], pages 3--13. Special Issue on Integrating Text Retrieval and
+Databases.
+[18] Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Design Pat­terns: 
+Elements of Reusable Object­Oriented Software. Addison­ Wesley, Reading,
+Massachusetts, 1995.
+[19] Roy Golman and Jennifer Widom. Dataguides: Enabling query formulation and
+optimization in semistructured databases. In Proceedings of the Twenty­Third
+Internation Conference on Very Large Data Bases, number 21 in VLDB, pages
+436--445, Athens, Greece, August 1997.
+[20] Irene Greif. Computer­Supported Cooperative Work: A Book of Readings. Mor­gan 
+Kaufmann Publishers, Inc., San Mateo, CA, 1988.
+[21] David A. Grossman, Ophir Frieder, David O. Holmes, and David C. Roberts.
+Integrating structured data and text: A relational approach. Journal of The
+American Society for Information Science, 48(2):122--132, 1997.
+[22] Junzhong Gu, Ulrich Thiel, and Jian Zhao. Efficient retrieval of complex objects:
+Query processing in a hybrid DB and IR system. In G. Knorz, J. Krause, and
+C. Womser­Hacker, editors, Proceedings of the 1st German National Conference
+on Information Retrieval, number 1 in IR, pages 67--81, 1993.
+[23] Haystack. Haystack homepage. http://www.ai.mit.edu/projects/haystack.
+[24] Bill Janseen, Mike Spreitzer, Dan Larner, and Chris Jacobi. ILU 2.0alpha12
+reference manual. Technical report, Xerox PARC, Xerox PARC, Palo Alto, CA,
+November 1997.
+[25] Javasoft. JavaBeans. http://java.sun.com/beans/.
+[26] Daniel Knaus and Peter Sch¨auble. The system architecture and the transaction
+concept of the spider information retrieval system. In Bulletin [8], pages 43--52.
+Special Issue on Integrating Text Retrieval and Databases.
+[27] Joshua David Kramer. Agent based personalized information retrieval. Master's
+thesis, Massachusetts Institute of Technology, Department of Electrical Engi­neering 
+and Computer Science, June 1997.
+[28] Michael Lesk. The seven ages of information retrieval. In Conference for the
+50th Anniversary of As We May Think, Cambridge, MA, October 1995.
+[29] J.C.R. Licklider. Man­computer symbiosis. IRE Transactions on Human Factors
+in Electronics, HFE­1(7):4--11, March 1960. reprinted in [40].
+[30] Clifford A. Lynch and Michael Stonebraker. Extended user­defined indexing with
+application to textual databases. In Francois Bancilhon and David J. DeWitt,
+editors, Proceedings of the Fourteenth International Conference on Very Large
+Data Bases, number 14 in VLDB, pages 306--317, Los Angeles, August 1988.
+[31] Object Management Group. CORBA/IIOP index.
+http://www.omg.org/corba/c2indx.htm.
+[32] Jason McHugh, Serge Abiteboul, Roy Goldman, Dallan Quass, and Jennifer
+Widom. Lore: A database management system for semistructured data. SIG­
+MOD Record, 26(3):54--66, September 1997.
+[33] Douglas L. Medin and Brian H. Ross. Cognitive Psychology, chapters 7 and 8,
+pages 170--259. Harcourt Brace Jovanovich, Inc., Orlando, FL, 1990.
+[34] Amihai Motro. VAGUE: A user interface to relational datbases that permits
+vague queries. ACM Transactions on Office Information Systems, 6(3):187--214,
+1988.
+[35] James M. Nyce and Paul Kahn. From Memex to Hypertext: Vannevar Bush and
+the Mind's Machine. Academic Press, Inc., San Diego, CA, 1991.
+[36] Steve Putz. Using a relational database for an inverted text index. Technical
+Report SSL­91­20, Xerox Palo Alto Research Center, Xerox PARC, Palo Alto,
+California, 1991.
+[37] Jeroen G. W. Raaijmakers and Richard M. Shiffrin. Search of associative mem­ory. 
+Psychological Review, 88(2):93--134, March 1981.
+[38] H.­J. Schek and P. Pistor. Data structures for an integrated data base manage­
+ment and information retrieval system. In Proceedings of the Eigth International
+Conference on Very Large Data Bases, number 8 in VLDB, pages 197--207, Mex­
+ico City, Mexico, September 1982.
+[39] Gabriele Sonnenberger. Exploiting the functionality of object­oriented database
+management systems for information retrieval. In Bulletin [8], pages 14--23.
+Special Issue on Integrating Text Retrieval and Databases.
+[40] Robert W. Taylor. In memoriam: J. C. R. Licklider, 1915 -- 1990. Technical
+report, Digital Systems Research Center, Digital SRC, Palo Alto, California,
+August 1990.
+[41] C. J. van Rijsbergen. Information retrieval. Department of Computing Science,
+University of Glasgow.
+[42] S. R. Vasanthakumar, James P. Callan, and W. Bruce Croft. Integrating inquery
+with an rdbms to support text retrieval. In Bulletin [8], pages 24--33. Special
+Issue on Integrating Text Retrieval and Databases.
+[43] Marc Volz, karl Aberer, and Klemens Bohm. An OODBMS­IRS coupling for
+structured documents. In Bulletin [8], pages 34--42. Special Issue on Integrating
+Text Retrieval and Databases.
+[44] World Wide Web Consortium. Jigsaw overview. http://www.w3c.org/Jigsaw/.

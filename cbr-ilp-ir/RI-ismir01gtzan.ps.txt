@@ -1,0 +1,126 @@
+Automatic Musical Genre Classification
+Of Audio Signals
+
+George Tzanetakis
+Computer Science Department
+35 Olden Street
+Princeton NJ 08544
++1 609 258 5030
+gtzan@cs.princeton.edu
+Georg Essl
+Computer Science Dep.
+35 Olden Street
+Princeton NJ 08544
++1 609 258 5030
+gessl@cs.princeton.edu
+Perry Cook
+Computer Science and Music Dep.
+35 Olden Street
+Princeton NJ 08544
++1 609 258 5030
+prc@cs.princeton.edu
+
+ABSTRACT
+Musical genres are categorical descriptions that are used to
+describe music. They are commonly used to structure the
+increasing amounts of music available in digital form on the
+Web and are important for music information retrieval.
+Genre categorization for audio has traditionally been
+performed manually. A particular musical genre is
+characterized by statistical properties related to the
+instrumentation, rhythmic structure and form of its
+members. In this work, algorithms for the automatic genre
+categorization of audio signals are described. More
+specifically, we propose a set of features for representing
+texture and instrumentation. In addition a novel set of
+features for representing rhythmic structure and strength is
+proposed. The performance of those feature sets has been
+evaluated by training statistical pattern recognition
+classifiers using real world audio collections. Based on the
+automatic hierarchical genre classification two graphical
+user interfaces for browsing and interacting with large
+audio collections have been developed.
+
+
+REFERENCES
+[1] Perrot, D., and Gjerdigen, R.O. Scanning the dial: An
+exploration of factors in the identification of musical style. In
+Proceedings of the 1999 Society for Music Perception and
+Cognition pp.88(abstract)
+[2] Martin, K.,D., Scheirer, E.D., Vercoe, B., L. Musical content
+analysis through models of audition. In Proceedings of the
+1998 ACM Multimedia Workshop on Content­Based
+Processing of Music.
+[3] Foote, J. An overview of audio information retrieval.
+Multimedia Systems 1999. 7(1), 42­51.
+[4] Scheirer, E. D. and Slaney, M. Construction and evaluation
+of a robust multifeature speech/music discriminator. In
+Proceedings of the 1997 International Conference on
+Acoustics, Speech, and Signal Processing, 1331­1334.
+[5] Wold, E., Blum, T., Keislar, D., and Wheaton, J. Content --
+based classification, search and retrieval of audio. IEEE
+Multimedia, 1996 3 (2)
+[6] Foote, J., Content­based retrieval of music and audio. In
+Multimedia Storage and Archiving Systems II, 1997 138­147
+[7] Martin, K. Sound­Source Recognition: A theory and
+computational model. PhD thesis, MIT Media Lab.
+http://sound.media.mit.edu/~kdm
+[8] Rossignol, S et al. Feature extraction and temporal
+segmentation of acoustic signals. In Proceedings of
+International Computer Music Conference (ICMC), 1998.
+[9] Dubnov, S., Tishby, N., and Cohen, D. Polyspectra as
+measures of sound and texture. Journal of New Music
+Research, vol. 26 1997.
+[10]Scheirer, E. Music Listening Systems. Phd thesis., MIT
+Media Lab: http://sound.media.mit.edu/~eds
+[11]Welsh, M., Borisov, N., Hill, J., von Behren, R., and Woo,
+A. Querying large collections of music for similarity.
+Technical Report UCB/CSD00­1096, U.C Berkeley,
+Computer Science Division, 1999.
+[12]Scheirer, E. Tempo and beat analysis of acoustic musical
+signals. Journal of the Acoustical Society of America
+103(1):588­601.
+[13]Goto, M. and Muraoka, Y. Music understanding at the beat
+level: real time beat tracking for audio signals.
+In D.F Rosenthal and H. Okuno (ed.), Readings in
+Computational Auditory Scene Analysis 156­176.
+[14]Gouyon, F., Pachet, F. and Delerue, O. On the use of zero­
+crossing rate for an application of classification of percussive
+sounds. Proceedings of the COST G­6 conference on Digital
+Audio Effects (DAFX­00), Verona, Italy, 2000.
+[15]Pachet, F., Cazaly, D. ``A classification of musical genre'',
+Content­Based Multimedia Information Access (RIA)
+Conference, Paris, March 2000.
+[16]Oppenheim, A. and Schafer, R. Discrete­Time Signal
+Processing. Prentice Hall. Edgewood Cliffs, NJ. 1989.
+[17]Mallat, S, G. A theory for multiresolution signal
+decomposition: The Wavelet representation. IEEE
+Transactions on Pattern Analysis and Machine
+Intelligence,1989, 11, 674­693.
+[18]Mallat, S,G. A wavelet tour of signal processing. Academic
+Press 1999.
+[19]Daubechies, I. Orthonormal bases of compactly supported
+wavelets. Communications on Pure and Applied Math.1988.
+vol.41, 909­996.
+[20]Duda, R. and Hart, P. Pattern classification and scene
+analysis. John Willey & Sons. 1973.
+[21]Hunt, M., Lennig, M., and Mermelstein, P. Experiments in
+syllable­based recognition of continuous speech. In
+Proceedings of International Conference on Acoustics,
+Speech and Signal Processing, 1996, 880­883.
+[22]Logan, B. Mel Frequency Cepstral Coefficients for music
+modeling. Read at the first International Symposium on
+Music Information Retrieval..
+http://ciir.cs.umass.edu/music2000
+[23] Jollife, L. Principal component analysis. Spring Verlag,
+1986.
+[24]Herman, T, Meinicke, P., and Ritter, H. Principal curve
+sonification. In Proceedings of International Conference on
+Auditory Display. 2000.
+[25]Tzanetakis, G. and Cook, P. Mutlifeature audio segmentation
+for browsing and annotation. In Proceedings of IEEE
+Workshop on Applications of Signal Processing to Audio
+and Acoustics. 1999.
+[26]Tzanetakis, G. and Cook, P. MARSYAS: a framework for
+audio analysis. Organised Sound 2000. 4(3)
+

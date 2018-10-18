@@ -1,0 +1,67 @@
+HUMAN PERCEPTION AND COMPUTER EXTRACTION OF MUSICAL BEAT STRENGTH
+
+George Tzanetakis, Georg Essl
+Computer Science, CISE Department
+Carnegie Mellon University, University of Florida
+gtzan@cs.cmu.edu, gessl@cise.ufl.edu
+Perry Cook
+Computer Science and Music Department
+Princeton University
+prc@cs.princeton.edu
+
+ABSTRACT
+Musical signals exhibit periodic temporal structure that create
+the sensation of rhythm. In order to model, analyze, and retrieve
+musical signals it is important to automatically extract rhythmic
+information. To somewhat simplify the problem, automatic algo­rithms 
+typically only extract information about the main beat of
+the signal which can be loosely defined as the regular periodic se­quence 
+of pulses corresponding to where a human would tap his
+foot while listening to the music. In these algorithms, the beat is
+characterized by its frequency (tempo), phase (accent locations)
+and a confidence measure about its detection.
+The main focus of this paper is the concept of Beat Strength,
+which will be loosely defined as one rhythmic characteristic that
+could allow to discriminate between two pieces of music having
+the same tempo. Using this definition, we might say that a piece
+of Hard Rock has a higher beat strength than a piece of Classical
+Music at the same tempo. Characteristics related to Beat Strength
+have been implicitely used in automatic beat detection algorithms
+and shown to be as important as tempo information for music clas­sification 
+and retrieval. In the work presented in this paper, a user
+study exploring the perception of Beat Strength was conducted
+and the results were used to calibrate and explore automatic Beat
+Strength measures based on the calculation of Beat Histograms.
+
+
+5. REFERENCES
+[1] Masataka Goto and Yoichi Muraoka, ``Music Understanding
+at the Beat Level: Real­time Beat Tracking of Audio Signals,''
+in Computational Auditory Scene Analysis, David Rosenthal
+and Hiroshi Okuno, Eds., pp. 157--176. Lawrence Erlbaum
+Associates, 1998.
+[2] Eric Scheirer, ``Tempo and beat analysis of acoustic musical
+signals,'' Journal of the .Acoustical Society of America, vol.
+103, no. 1, pp. 588,601, Jan. 1998.
+[3] Jean Laroche, ``Estimating Tempo, Swing and Beat Locations
+in Audio Recordings,'' in Proc. Int. Workshop on applications
+of Signal Processing to Audio and Acoustics WASPAA, Mo­
+honk, NY, 2001, IEEE, pp. 135--139.
+DAFX­4
+[4] Jarno Sepp˜anen, ``Quantum Grid Analysis of Musical Sig­nals,'' 
+in Proc. Int. Workshop on applications of Signal Pro­cessing 
+to Audio and Acoustics WASPAA, Mohonk, NY, 2001,
+IEEE, pp. 131--135.
+[5] Jonathan Foote and Shingo Uchihashi, ``The Beat Spectrum:a
+new approach to rhythmic analysis,'' in Int. Conf. on Multime­dia & Expo. IEEE, 2001.
+[6] George Tzanetakis and Perry Cook, ``Musical Genre 
+Classifi­cation of Audio Signals,'' IEEE Transactions on Speech and
+Audio Processing, July 2002.
+[7] George Tzanetakis, Georg Essl, and Perry Cook, ``Audio Anal­ysis 
+using the Discrete Wavelet Transform,'' in Proc. Conf. in
+Acoustics and Music Theory Applications. WSES, Sept. 2001.
+[8] George Tzanetakis and Perry Cook, ``Marsyas: A framework
+for audio analysis,'' Organised Sound, vol. 4(3), 2000.
+[9] Richard Duda, Peter Hart, and David Stork, Pattern classifi­cation, 
+John Wiley & Sons, New York, 2000.
+

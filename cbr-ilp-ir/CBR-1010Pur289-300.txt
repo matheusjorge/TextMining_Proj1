@@ -1,0 +1,81 @@
+Adaptation Using Constraint Satisfaction
+Techniques *
+
+Lisa Purvis1 and Pearl Pu2
+
+1 Dept. of Computer Science
+University of Connecticut
+U-155, Storr., CT 06269
+2 Laboratoire d’Intelligence Artificielle & Robotique
+Institut de Microtechnique / DMT
+Swiss Federal Institute of Technology (EPFL)
+MT-Ecublens, 1015 Lausanne, Switzerland
+
+
+Abstract. Case adaptation, a central component of case-based reasoning, 
+is often considered to be the most difficult part of a case-based
+reasoning system. The difficulties arise from the fact that adaptation often 
+does not converge, especially if it is not done in a systematic way.
+This problem, sometimes termed the assimilation problem, is especially
+pronounced in the case-based design problem solving domain where a
+large set of constraints and features are processed. Furthermore, in the
+design domain, multiple cases must be considered in conjunction in order
+to solve the new problem, resulting in the difficulty of how to efficiently
+combine the cases into a global solution for the new problem.
+In order to achieve case combination, we investigate a methodology which
+formalizes the process using constraint satisfaction techniques. We represent 
+each case as a primitive constraint satisfaction problem (CSP) and
+apply an existing repair-based CSP algorithm to combine these primitive 
+CSPs into a globally consistent solution for the new problem. The
+run time is satisfactory for providing a quick and explicable answer to
+whether existing cases can be adapted or if new cases would have to be
+created.
+We have tested our methodology in the configuration design and assembly 
+sequence generation domains.
+References
+
+1.	W. Bain. Judge. In R.C. Reisbeck, C.K.and Schank, editor, Inside Case-Based
+Reasoning. Eribaum Publishers, 1989.
+2.	C. Bessiere. Arc consistency in dynamic constraint satisfaction problems. In Proceedings 
+of the 9th Nat. Conf. of AAAI, Anaheim, 1991.
+3.	J.G. Carbonell. Derivational analogy: A theory of reconstructive problem solving
+and expertise acquisition. In Machine Learning, volume 1, 1986.
+4.	J.G. Carbonell and M.M. Veloso. Integrating derivational analogy into a general
+problem solving architecture. In Proceedings: Workshop on Case Based Reasoning
+(DARPA) Clearwater, Florida. Morgan Kaufmann Publishers, 1988.
+5.	Eric Domeshek and Janet Kolodner. Finding the points of large cases. Artificial
+Intelligence in Engineering Design, Analysis and Manufacturing (AI EDAM), 1993.
+6.	W. Ewers. Sincere ‘s Vacuum Cleaner and Small Appliance Repair Service Manual.
+Sincere Press, 1973.
+7.	B. Faltings, D. Haroud, and I. Smith. Dynamic constraint satisfaction with continuous 
+variables. In Proceedings of the European Conf. on AI Wien, 1992.
+8.	D. Gentner. Structure mapping: A theoretical framework for analogy. Cognitive
+Science, 7, 1983.
+9.	K. Hammond. Chef: A model of case-based planning. In Proceedings of AAAI-86,
+Cambridge, MA, 1986.
+10.	D.H. Hennessy and D. Hinkle. Applying case-based reasoning to autoclave loading.
+IEEE Expert, 7:21—26, 1992.
+11.	T.R. Hinrichs. Problem solving in Open Worlds: A case study in Design. Northvale
+Publishers, 1992.
+12.	Kefeng Hua and Boi Faltings. Exploring case-based building design - cadre. Artificial 
+Intelligence in Engineering Design, Analysis and Manufacturing (AIEDAM),
+1993.
+13.	J. Kolodner. Case Based Reasoning. Morgan Kaufmann Publishers, 1993.
+14.	P. Koton. Reasoning about evidence in causal explanation. In Proceedings of
+AAAI-88, Cambridge, MA, 1988.
+15.	Mary Lou Maher and Dong Mei Zhang. Cadsyn: A case-based design process
+model. Artificial Intelligence in Engineering Design, Analysis and Manufacturing
+(AIEDAM), 1993.
+16.	S. Minton, M. Johnston, A. Philips, and P. Laird. Minimizing conflicts: a heuristic 
+repair method for constraint satisfaction and scheduling problems. Artificial
+Intelligence, 58:161—205, 1992.
+17.	S. Mittal and B. Falkenhainer. Dynamic constraint satisfaction. In Proceedings of
+the 8th National Conference of AAAI, 1990.
+18.	Pearl Pu. Issues in case-based design systems. Artificial Intelligence in Engineering
+Design, Analysis and Manufacturing (AI EDAM), pages 79—85, 1993. As guest
+editor for a special issue on case-based design systems.
+19.	Pearl Pu and Lisa Purvis. Formalizing case adaptation in a case-based design system. 
+In Proceedings of the Third International Conference on Artificial Intelligence
+in Design (AID 94), August 1994.
+20.	Pearl Pu and Markus Reschberger. Case-based assembly planning. In Proceedings
+of DARPA’. Case-based Reasoning Workshop. Morgan Kaufmann, 1991.

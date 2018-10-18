@@ -1,0 +1,43 @@
+Relations between Customer Requirements,
+Performance Measures, and General Case Properties
+for Case Base Maintenance
+
+Ioannis Iglezakis and Thomas Reinartz
+
+DaimlerChrysler AG, Research & Technology, RIC/AM,
+P.O. Box 2360, 89013 Ulm, Germany
+{ioannis.iglezakis, thomas.reinartz}@daimlerchrysler.com
+
+
+
+Abstract. The ultimate goal of CBR applications is to satisfy customers using this
+technology in their daily business. As one of the crucial issues in CBR for practical
+applications, maintenance is important to cope with demands changing over time.
+Review and restore are the two steps in CBR that deal with tasks of maintenance. In
+order to perform these tasks, we suggested case and case base properties, quality
+criteria, and restore operators in earlier publications. In this paper, we specify
+concrete performance measures that correspond to general customer requirements,
+and analyze the relations between these performance criteria, case properties,
+and restore operators. We present initial results on theoretical analyzes on these
+relations, and report on examples of experimental studies that indicate that the
+suggested case properties and the respective restore operators help to identify
+maintenance strategies in order to optimize performance of CBR systems over
+time.
+References
+
+1.	Agnar Aamodt and Enric Plaza. Case—based reasoning: Foundational issues, methodological
+variations, and system approaches. AI Communications, 7(1):39—59, 1994.
+2.	Ioannis Iglezakis. The conflict graph for maintaining case—based reasoning systems. In
+Proceedings of the 4th International Conference on Case—Based Reasoning, pages 263—275.
+Springer—Verlag, 2001.
+3.	J. Ross Quinlan. C4.5: Programs for Machine Learning. Morgan Kaufmann, 1993.
+4.	Thomas Reinartz, Ioannis Iglezakis, and Thomas Roth—Berghofer. On quality measures for case
+base maintenance. In Proceedings of the 5th European Workshop on Case—Based Reasoning,
+pages 247—259. Springer—Verlag, 2000.
+5.	Thomas Reinartz, Ioannis Iglezakis, and Thomas Roth—Berghofer. Review and restore for case—base 
+maintenance. Computational Intelligence: special issue on maintaining CBR systems,
+17(2):214—234, 2001.
+6.	Barry Smyth and Elizabeth McKenna. Competence guided incremental footprint-based retrieval. 
+Knowledge—Based Systems, 14(3):155—161, 2001.
+7.	Barry Smyth and Elizabeth McKenna. Competence models and the maintenance problem.
+Computational Intelligence: special issue on maintaining CBR systems, 17(2):235—249, 2001.

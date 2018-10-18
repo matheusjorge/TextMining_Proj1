@@ -1,0 +1,88 @@
+Adaptation Using Iterated Estimations
+
+Göran Falkman
+
+Department of Computer Science, University of Skövde,
+P0 Box 408, SE—541 28 Skövde, Sweden
+goran.falkman@ida.his.se
+
+
+
+Abstract. A model for adaptation in case-based reasoning (cBR) is presented. 
+Similarity assessment is based on the computation and the iterated 
+estimation of structural relationships among representations, and
+adaptation is given as a special case of the general process.
+Compared to traditional approaches to adaptation within CBR, the presented 
+model has the advantage of using a uniform declarative model for
+both case representation, similarity assessment and adaptation. As a consequence, 
+adaptation knowledge can be made directly available during
+similarity assessment and for explanation purposes. The use of a uniform
+model also provides the possibility of a CBR approach to adaptation.
+The model is compared with other approaches to adaptation within CBR.
+References
+
+1.	K.-D. Althoff, R. Bergmann, and K. L. Branting, editors. Case-Based Reasoning:
+Research and Development. Proceedings of the Third International Conference on
+Case-Based Reasoning, ICCBR-99, Seeon Monastery, Germany, July 1999, volume
+1650 of Lecture Notes in Artificial Intelligence. Springer-Verlag, 1999.
+2.	E. Blanzieri and L. Portinale, editors. Advances in Case-Based Reasoning. Proceedings 
+of the 5th European Workshop, EWCBR 2000, Trento, Italy, September
+6—9, 2000, volume 1898 of Lecture Notes in Artificial Intelligence. Springer-Verlag,
+2000.
+3.	K. Börner. Structural similarity as guidance in case-based design. In Wess et al.
+[20], pages 197—208.
+4.	K. Börner et al. Structural similarity and adaptation. In I. Smith and B. Faltings,
+editors, Advances in Case-Based Reasoning. Proceedings of the Third European
+Workshop, EWCBR-95, Lausanne, Switzerland, November 1996, volume 1168 of
+Lecture Notes in Artificial Intelligence, pages 58—75. Springer-Verlag, 1996.
+5.	B. Díaz-Agudo and P. A. González-Galero. A declarative similarity framework
+for knowledge intensive CBR. In D. W. Aha and I. Watson, editors, Case-Based
+Reasoning: Research and Development. Proceedings of the 4th International Conference 
+on Case-Based Reasoning, ICCBR 2001, Vancouver, BC, Canada, July
+30—August 2, 2001, volume 2080 of Lecture Notes in Artificial Intelligence, pages
+158—172. Springer-Verlag, 2001.
+6.	G. Falkman. Similarity measures for structured representations: A definitional
+approach. In E. Blanzieri and L. Portinale, editors, Advances in Case-Based Reasoning. 
+Proceedings of the 5th European Workshop, EWCBR 2000, Trento, Italy,
+September 6—9, 2000, volume 1898 of Lecture Notes in Artificial Intelligence, pages
+380—392. Springer-Verlag, 2000.
+7.	B. Fuchs, J. Lieber, A. Mille, and A. Napoli. Towards a unified theory of adaptation
+in case-based reasoning. In Althoff et al. [1], pages 104—117.
+8.	B. Fuchs and A. Mille. A knowledge-level task model of adaptation in case-based
+reasoning. In Althoff et al. [1], pages 118—131.
+9.	L. Hallnäs. Partial inductive definitions. Theoretical Computer Science, 87(1):115—
+142, 1991.
+10.	D. B. Leake. Constructive similarity assessment: Using stored cases to define new
+situations. In Proceedings of the Fourteenth Annual Conference of the Cognitive
+Science Society, pages 313—318, Hillsdale, NJ, USA, 1992. Lawrence Erlbaum.
+11.	D. B. Leake. Toward a computer model of memory search strategy learning. In
+Proceedings of the Sixteenth Annual Conference of the Cognitive Science Society,
+pages 549—554, Hillsdale, NJ, USA, 1994. Lawrence Erlbaum.
+12.	D. B. Leake. Adaptive similarity assessment for case-based explanation. International 
+Journal of Expert Systems, 8(2):165—194, 1995.
+13.	D. B. Leake, A. Kinley, and D. Wilson. Learning to improve case adaptation by
+introspective reasoning and CBR. In Veloso and Aamodt [19], pages 229—240.
+14.	J. Lieber and B. Bresson. Case-based reasoning for breast cancer treatment decision
+helping. In Blanzieri and Portinale [2], pages 173—185.
+15.	E. Melis, J. Lieber, and A. Napoli. Reformulation in case-based reasoning. In
+B. Smyth and P. Cunningham, editors, Advances in Case-Based Reasoning. Proceedings 
+of the 4th European Workshop, EWCBR-98 Dublin, Ireland, September
+23—25 1998, volume 1488 of Lecture Notes in Artificial Intelligence, pages 172—
+183. Springer-Verlag, 1998.
+16.	A. Salam Khan and A. Hoffmann. Acquiring adaptation knowledge for CBR with
+MIKAS. In M. Stumptner, D. Corbett, and M. Brooks, editors, Al 2001: Advances
+in Artificial Intelligence. Proceedings of the 14th Australian Joint Conference on
+Artificial Intelligence, Adelaide, Australia, December 10—14, 2001, volume 2256 of
+Lecture Notes in Artificial Intelligence, pages 201—212. Springer-Verlag, 2001.
+17.	B. Smyth and M. T. Keane. Retreiving adaptable cases: the role of adaptation
+knowledge in case retrieval. In Wess et al. [20], pages 109-220.
+18.	B. Smyth and M. T. Keane. Experiments on adaptation-guided retrieval in case-based 
+reasoning. In Veloso and Aamodt [19], pages 313—324.
+19.	M. Veloso and A. Aamodt, editors. Case-Based Reasoning: Research and Development. 
+Proceedings of the First International Conference, ICCBR-95, Sesimbra,
+Portugal, October 1995, volume 1010 of Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1995.
+20.	S. Wess, K.-D. Althoff, and M. M. Richter, editors. Topics in Case-Based Reasoning. 
+Selected Papers of the First European Workshop, EWCBR-98 Kaiserslauten,
+Germany, November 1993, volume 837 of Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1994.

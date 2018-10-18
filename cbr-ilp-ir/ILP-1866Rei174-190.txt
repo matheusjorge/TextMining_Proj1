@@ -1,0 +1,64 @@
+Using ILP to Improve Planning in Hierarchical
+Reinforcement Learning
+
+Mark Reid and Malcolm Ryan
+
+School of Computer Science and Engineering, University of New South Wales
+Sydney 2052, Australia
+{mreid,malcolmr}@cse.unsw.edu.au
+
+
+
+Abstract. Hierarchical reinforcement learning has been proposed as a
+solution to the problem of scaling up reinforcement learning. The RL-TOPs 
+Hierarchical Reinforcement Learning System is an implementation 
+of this proposal which structures an agent’s sensors and actions into
+various levels of representation and control. Disparity between levels of
+representation means actions can be misused by the planning algorithm
+in the system. This paper reports on how JLP was used to bridge these
+representation gaps and shows empirically how this improved the system’s 
+performance. Also discussed are some of the problems encountered
+when using an ILP system in what is inherently a noisy and incremental
+domain.
+References
+
+[1]	Proceedings of the 15th International Conference on Machine Learning. Morgan
+Kaufmann, 1998.
+[2]	Scott Benson. Learning Action Models for Reactive Autonomous Agents. PhD
+thesis, Department of Computer Science, Stanford University, 1996.
+[3] Thomas G. Dietterich. The maxq method for hierarchical reinforcement learning.
+In Proceedings of the 15th International Conference on Machine Learning [1].
+[4]	S. Dzeroski, S. Muggleton, and S. Russel. PAC learnability of determinate logic
+programs. In Proceeding of the Fifth ACM Workshop on Computational Learning
+Theory, pages 128—135, 1992.
+[5]	Saso Dzeroski, Luc De Raedt, and Hendrik Blockeel. Relational reinforcement
+learning. In Proceedings of the 8th International Workshop on Inductive Logic
+Programming, pages 11—22, 1998.
+[6]	Yolanda Gil. Learning by experimentation: Incremental refinement of incomplete
+planning domains. In Proceedings of the 11th International Workshop on Machine
+Learning, 1994.
+[7]	Wayne Iba, James Wogulis, and Pat Langley. Trading off simplicity and coverage 
+in incremental concept learning. In Proceedings of the 5th International
+Conference on Machine Learning, pages 73—79, 1988.
+[8] Pat Langley. Elements of Machine Learning. Morgan Kaufmann, 1996.
+[9]	E. McCreath and A. Sharma. Lime: A system for learning relations. In The
+9th International Workshop on Algorithmic Learning Theory. Springer-Verlag,
+October 1998.
+[10]	N. J. Nilsson. Teleo-reactive programs for agent control. Journal of Artificial
+Intelligence Research, 1:139—158, 1994.
+[11]	Ronald Parr and Stuart Russell. Reinforcement learning with hierarchies of machines. 
+In Advances in Neural Information Processing Systems 10: Proceedings of
+the 1997 Conference, 1998.
+[12]	Malcolm R. K. Ryan and Mark D. Pendrith. RL-TOPS: An architecture for
+modularity and re-use in reinforcement learning. In Proceedings of the 15th International 
+Conference on Machine Learning [1].
+[13]	Malcolm R. K. Ryan and Mark Reid. Learning to fly: An application of hierarchical 
+reinforcement learning. In Proceedings of the 17th International Conference
+on Machine Learning. Morgan Kaufmann, (to appear) .
+[14]	Wei-Min Shen. Discovery as autonomous learning from the environment. Machine
+Learning, 12:143—156, 1993.
+[15]	Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction. 
+MIT Press, 1998.
+[16]	Richard S. Sutton, Doina Precup, and Satinder Singh. Between mdps and semi-mdps: 
+A framework for temporal abstraction in reinforcement learning. Artificial
+Intelligence, 112:181—211, 1999.

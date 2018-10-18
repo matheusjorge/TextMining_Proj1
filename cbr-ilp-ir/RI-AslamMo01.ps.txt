@@ -1,0 +1,163 @@
+Models for Metasearch
+
+Javed A. Aslam
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+jaa@cs.dartmouth.edu
+Mark Montague
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+montague@cs.dartmouth.edu
+
+ABSTRACT
+Given the ranked lists of documents returned by multiple
+search engines in response to a given query, the problem of
+metasearch is to combine these lists in a way which optimizes
+the performance of the combination. This paper makes three
+contributions to the problem of metasearch: (1) We describe
+and investigate a metasearch model based on an optimal
+democratic voting procedure, the Borda Count; (2) we de­
+scribe and investigate a metasearch model based on Bayesian
+inference; and (3) we describe and investigate a model for
+obtaining upper bounds on the performance of metasearch
+algorithms. Our experimental results show that metasearch
+algorithms based on the Borda and Bayesian models usu­ally 
+outperform the best input system and are competitive
+with, and often outperform, existing metasearch strategies.
+Finally, our initial upper bounds demonstrate that there is
+much to learn about the limits of the performance of meta­
+search.
+
+
+7. REFERENCES
+[1] Proceedings of the 24th Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval, New Orleans, Louisiana, USA,
+2001. ACM Press, New York.
+[2] B. T. Bartell. Optimizing Ranking Functions: A
+Connectionist Approach to Adaptive Information
+Retrieval. PhD thesis, University of California, San
+Diego, 1994.
+[3] N. Belkin, P. Kantor, C. Cool, and R. Quatrain.
+Combining evidence for information retrieval. In
+Harman [11], pages 35--43.
+[4] W. S. Cooper. Some inconsistencies and misnomers in
+probabilistic information retrieval. In Proceedings of
+the 14th Annual International ACM SIGIR
+Conference on Research and Development in
+Information Retrieval. ACM Press, New York, 1991.
+[5] W. S. Cooper, A. Chen, and F. C. Gey. Full text
+retrieval based on probabilistic equations with
+coefficients fitted by logistic regression. In Harman
+[11], pages 57--66.
+[6] W. B. Croft. Combining approaches to information
+retrieval. In W. B. Croft, editor, Advances in
+Information Retrieval: Recent Research from the
+Center for Intelligent Information Retrieval,
+chapter 1. Kluwer Academic Publishers, 2000.
+[7] The mathematics of voting: Democratic symmetry.
+The Economist, page 83, Mar. 2000.
+[8] E. A. Fox, M. P. Koushik, J. Shaw, , R. Modlin, and
+D. Rao. Combining evidence from multiple searches.
+In D. Harman, editor, The First Text REtrieval
+Conference (TREC­1), pages 319--328, Gaithersburg,
+MD, USA, Mar. 1993. U.S. Government Printing
+O#ce, Washington D.C.
+[9] E. A. Fox and J. A. Shaw. Combination of multiple
+searches. In Harman [11], pages 243--249.
+[10] K. L. Fox, O. Frieder, M. Knepper, and E. Snowberg.
+SENTINEL: A multiple engine information retrieval
+and visualization system. Journal of the ASIS, 50(7),
+May 1999.
+[11] D. Harman, editor. The Second Text REtrieval
+Conference (TREC­2), Gaithersburg, MD, USA, Mar.
+1994. U.S. Government Printing O#ce, Washington
+D.C.
+[12] D. A. Hull, J. O. Pedersen, and H. Sch˜utze. Method
+combination for document filtering. In Proceedings of
+the 19th Annual International ACM SIGIR
+Conference on Research and Development in
+Information Retrieval, pages 279--287, Zurich,
+Switzerland, 1996. ACM Press, New York.
+[13] J. H. Lee. Analyses of multiple evidence combination.
+In N. J. Belkin, A. D. Narasimhalu, and P. Willett,
+editors, Proceedings of the 20th Annual International
+ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 267--275,
+Philadelphia, Pennsylvania, USA, July 1997. ACM
+Press, New York.
+[14] R. Manmatha, T. Rath, and F. Feng. Modeling score
+distributions for combining the outputs of search
+engines. In Proceedings of the 24th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval [1].
+[15] M. Montague and J. Aslam. Metasearch consistency.
+In Proceedings of the 24th Annual International ACM
+SIGIR Conference on Research and Development in
+Information Retrieval [1].
+[16] K. B. Ng. An Investigation of the Conditions for
+E#ective Data Fusion in Information Retrieval. PhD
+thesis, School of Communication, Information, and
+Library Studies, Rutgers University, 1998.
+[17] K. B. Ng and P. B. Kantor. An investigation of the
+preconditions for e#ective data fusion in ir: A pilot
+study. In Proceedings of the 61th Annual Meeting of
+the American Society for Information Science, 1998.
+[18] K. B. Ng, D. Loewenstern, C. Basu, H. Hirsh, and
+P. B. Kantor. Data fusion of machine­learning
+methods for the TREC5 routing task (and other
+work). In Voorhees and Harman [32], pages 477--487.
+[19] Content­Based Multimedia Information Access
+(RIAO), Paris, France, Apr. 2000.
+[20] D. G. Saari. Explaining all three­alternative voting
+outcomes. Journal of Economic Theory,
+87(2):313--355, Aug. 1999.
+[21] J. Savoy, A. L. Calv’e, and D. Vrajitoru. Report on the
+TREC­5 experiment: Data fusion and collection
+fusion. In Voorhees and Harman [32], pages 489--502.
+[22] E. Selberg and O. Etzioni. On the instability of web
+search engines. In RIAO [19], pages 223--235.
+[23] E. W. Selberg. Towards Comprehensive Web Search.
+PhD thesis, University of Washington, 1999.
+[24] J. A. Shaw and E. A. Fox. Combination of multiple
+searches. In D. Harman, editor, Overview of the Third
+Text REtrieval Conference (TREC­3), pages 105--108,
+Gaithersburg, MD, USA, Apr. 1995. U.S. Government
+[25] P. Thompson. A combination of expert opinion
+approach to probabilistic information retrieval, part 1:
+the conceptual model. Information Processing and
+Management, 26(3):371--382, 1990.
+[26] P. Thompson. A combination of expert opinion
+approach to probabilistic information retrieval, part 2:
+mathematical treatment of CEO model 3. Information
+Processing and Management, 26(3):383--394, 1990.
+[27] M. van Erp and L. Schomaker. Variants of the borda
+count method for combining ranked classifier
+hypotheses. In Proceedings of the Seventh
+International Workshop on Frontiers in Handwriting
+Recognition, pages 443--452, Amsterdam, Sept. 2000.
+International Unipen Foundation.
+[28] C. C. Vogt. Adaptive Combination of Evidence for
+Information Retrieval. PhD thesis, University of
+California, San Diego, 1999.
+[29] C. C. Vogt. How much more is better? Characterizing
+the e#ects of adding more IR systems to a
+combination. In RIAO [19], pages 457--475.
+[30] C. C. Vogt and G. W. Cottrell. Fusion via a linear
+combination of scores. Information Retrieval,
+1(3):151--173, Oct. 1999.
+[31] C. C. Vogt, G. W. Cottrell, R. K.Belew, and B. T.
+Bartell. Using relevance to train a linear mixture of
+experts. In Voorhees and Harman [32], pages 503--515.
+[32] E. Voorhees and D. Harman, editors. The Fifth Text
+REtrieval Conference (TREC­5), Gaithersburg, MD,
+USA, 1997. U.S. Government Printing O#ce,
+Washington D.C.
+[33] E. Voorhees and D. Harman. Overview of the Eighth
+Text REtrieval Conference (TREC­8). In D. Harman,
+editor, The Eighth Text REtrieval Conference
+(TREC­8), Gaithersburg, MD, USA, 2000. U.S.

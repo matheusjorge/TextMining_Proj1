@@ -1,0 +1,38 @@
+CBR for Document Retrieval: The EALLQ
+Project
+
+Mario Lenz, Hans-Dieter Burkhard
+
+Dept. of Computer Science, Humboldt University Berlin, Axel-Springer-Str. 54a,
+D-1O 117 Berlin, Germany, Email: {lenz,hdb}@informatik.hu-berlin.de
+
+
+Abstract. This paper reports about a project on document retrieval in
+an industrial setting. The objective is to provide a tool that helps finding
+documents related to a given query, such as answers in Frequently Asked
+Questions databases. A CBR approach has been used to develop a run-
+ning prototypical system which is currently under practical evaluation.
+References
+
+1.	K. L. Branting and J. C. Lester. Justification structures for document reuse. In
+Smith and Faltings [10], pp. 76—90.
+2.	G. Kamp. On the use of CBR in corporate service and support. In M. T. Keane,
+J. P. Haton, and M. Manago, editors, 2nd European Workshop on CBR (EWCBR-
+94), pp. 175—183
+3.	M. benz and H.-D. Burkhard. Case Retrieval Nets: Basic ideas and extensions.
+In G. G6rz and S. H6lldobler, editors, KI-96: Advances in Artificial Intelligence,
+pp. 227—239, LNAI 1137, Springer Verlag, 1996.
+4.	M. Lenz and II.-D. Burkhard. Lazy propagation in Case Retrieval Nets. In
+W.	Wahlster, editor, Proc. ECAI-96, pp. 127—131, John Wiley and Sons, 1996.
+5. M. Lenz, H.-D. Burkhard, and S. Brückner. Applying Case Retrieval Nets to diagnostic 
+tasks in technical domains. In Smith and Faltings [10], pp. 219—233.
+6.	M. Lenz, II.-D. Burkhard, P. Pirk, E. Auriol, and M. Manago. CBR for Diagnosis
+and Decision Support. AI Communications, 9(3):138—146, 1996.
+E.	Rioff and W. Lehuert. Information extraction as a basis for high-precision text
+classification. ACM Transactions on Information Systems, 12(3):296—333, 1994.
+G.	Salton and M. McGill. Introduction to Modern Information Retrieval.
+McGraw-Hill, New York, 1983.
+J.	Searle. Speech Acts: An Essay in the Philosophy of Language. Cambridge University 
+Press, New York, 1969.
+I.	Smith and B. Faltings, editors. Advances in Case-Based Reasoning, LNAI 1186.
+Springer Verlag, 1996.

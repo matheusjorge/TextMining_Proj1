@@ -1,0 +1,29 @@
+Growth and Server Availability of the NCSTRL Digital
+Library
+
+Allison L. Powell James C. French 
+Department of Computer Science, University of Virginia
+Charlottesville, VA
+falp4g|frenchg@cs.virginia.edu
+
+ABSTRACT
+This paper reports on measurements of the NCSTRL digital
+library taken over a two­year period. We report the growth
+of the system along two dimensions: number of participating
+institutions and number of documents indexed by the system.
+We also report an aspect of reliability for this distributed dig­ital 
+library system.
+
+
+REFERENCES
+1. Davis, J. R. and C. Lagoze, ``NCSTRL: Design and De­ployment 
+of a Globally Distributed Digital Library,'' JASIS,
+51(3):273­280, 2000.
+2. Dushay, N., J. C. French and C. Lagoze, ``Using Query Medi­ators 
+for Distributed Searching in Federated Digital Libraries,''
+Proc. Fourth ACM Conf. on Digital Libraries, Aug. 1999, pp.
+171­178.
+3. Dushay, N., J. C. French and C. Lagoze, ``Predicting Indexer
+Performance in a Distributed Digital Library,'' European Conf.
+on Digital Libraries, Sept. 1999, pp. 142­166.
+

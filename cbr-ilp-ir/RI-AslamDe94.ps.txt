@@ -1,0 +1,88 @@
+Improved Noise­Tolerant Learning and
+Generalized Statistical Queries
+
+Javed A. Aslam # Scott E. Decatur +
+Aiken Computation Laboratory
+Harvard University
+Cambridge, MA 02138
+July 1994
+
+Abstract
+The statistical query learning model can be viewed as a tool for creating (or demon­strating 
+the existence of) noise­tolerant learning algorithms in the PAC model. The
+complexity of a statistical query algorithm, in conjunction with the complexity of sim­ulating 
+SQ algorithms in the PAC model with noise, determine the complexity of the
+noise­tolerant PAC algorithms produced. Although roughly optimal upper bounds have
+been shown for the complexity of statistical query learning, the corresponding noise­
+tolerant PAC algorithms are not optimal due to ine#cient simulations. In this paper
+we provide both improved simulations and a new variant of the statistical query model
+in order to overcome these ineficiencies.
+We improve the time complexity of the classification noise simulation of statistical
+query algorithms. Our new simulation has a roughly optimal dependence on the noise
+rate. We also derive a simpler proof that statistical queries can be simulated in the
+presence of classification noise. This proof makes fewer assumptions on the queries
+themselves and therefore allows one to simulate more general types of queries.
+We also define a new variant of the statistical query model based on relative error, and
+we show that this variant is more natural and strictly more powerful than the standard
+additive error model. We demonstrate e#cient PAC simulations for algorithms in this
+new model and give general upper bounds on both learning with relative error statistical
+queries and PAC simulation. We show that any statistical query algorithm can be
+simulated in the PAC model with malicious errors in such a way that the resultant PAC
+algorithm has a roughly optimal tolerable malicious error rate and sample complexity.
+Finally, we generalize the types of queries allowed in the statistical query model. We
+discuss the advantages of allowing these generalized queries and show that our results
+on improved simulations also hold for these queries.
+
+
+References
+[1] Dana Angluin. Computational learning theory: Survey and selected bibliography. In Proceed­
+ings of the 24 th Annual ACM Symposium on the Theory of Computing, 1992.
+[2] Dana Angluin and Philip Laird. Learning from noisy examples. Machine Learning, 2(4):343--
+370, 1988.
+[3] Dana Angluin and Leslie G. Valiant. Fast probabilistic algorithms for Hamiltonian circuits
+and matchings. Journal of Computer and System Sciences, 18(2):155--193, April 1979.
+[4] Javed Aslam and Scott Decatur. General bounds on statistical query learning and PAC learn­
+ing with noise via hypothesis boosting. In Proceedings of the 34 th Annual Symposium on
+Foundations of Computer Science, pages 282--291, November 1993. To appear in Information
+and Computation.
+[5] Avrim Blum, Merrick Furst, Je#ery Jackson, Michael Kearns, Yishay Mansour, and Steven
+Rudich. Weakly learning DNF and characterizing statistical query learning using Fourier
+analysis. In Proceedings of the 26 th Annual ACM Symposium on the Theory of Computing,
+May 1994.
+[6] Anselm Blumer, Andrzej Ehrenfeucht, David Haussler, and Manfred K. Warmuth. Learnability
+and the Vapnik­Chervonenkis dimension. Journal of the ACM, 36(4):929--865, 1989.
+[7] Scott Decatur. Statistical queries and faulty PAC oracles. In Proceedings of the Sixth Annual
+ACM Workshop on Computational Learning Theory, pages 262--268. ACM Press, July 1993.
+[8] Andrzej Ehrenfeucht, David Haussler, Michael Kearns, and Leslie Valiant. A general lower
+bound on the number of examples needed for learning. Information and Computation,
+82(3):247--251, September 1989.
+[9] Yoav Freund. Boosting a weak learning algorithm by majority. In Proceedings of the Third
+Annual Workshop on Computational Learning Theory, pages 202--216. Morgan Kaufmann,
+1990.
+[10] Yoav Freund. An improved boosting algorithm and its implications on learning complexity.
+In Proceedings of the Fifth Annual ACM Workshop on Computational Learning Theory, pages
+391--398. ACM Press, 1992.
+[11] Sally A. Goldman, Michael J. Kearns, and Robert E. Schapire. On the sample complexity
+of weak learning. In Proceedings of the Third Annual Workshop on Computational Learning
+Theory, pages 217--231. Morgan Kaufmann, 1990.
+[12] Michael Kearns. E#cient noise­tolerant learning from statistical queries. In Proceedings of the
+25 th Annual ACM Symposium on the Theory of Computing, pages 392--401, San Diego, 1993.
+[13] Michael Kearns and Ming Li. Learning in the presence of malicious errors. In Proceedings of
+the 20 th Annual ACM Symposium on Theory of Computing, Chicago, Illinois, May 1988.
+[14] Philip D. Laird. Learning from Good and Bad Data. Kluwer international series in engineering
+and computer science. Kluwer Academic Publishers, Boston, 1988.
+[15] Colin McDiarmid. On the method of bounded di#erences. In J. Siemons, editor, Surveys
+in Combinatorics, pages 149--188. Cambridge University Press, Cambridge, 1989. London
+Mathematical Society LNS 141.
+[16] Yasubumi Sakakibara. Algorithmic Learning of Formal Languages and Decision Trees. PhD
+thesis, Tokyo Institute of Technology, October 1991. (International Institute for Advanced
+Study of Social Information Science, Fujitsu Laboratories Ltd, Research Report IIAS­RR­91­
+22E).
+[17] Robert Schapire. The strength of weak learnability. Machine Learning, 5(2):197--226, 1990.
+[18] Hans Ulrich Simon. General bounds on the number of examples needed for learning probabilis­
+tic concepts. In Proceedings of the Sixth Annual ACM Workshop on Computational Learning
+Theory, pages 402--411. ACM Press, 1993.
+[19] Leslie Valiant. A theory of the learnable. Communications of the ACM, 27(11):1134--1142,
+November 1984.
+[20] Leslie Valiant. Learning disjunctions of conjunctions. In Proceedings of the Ninth International
+Joint Conference on Artificial Intelligence, 1985.

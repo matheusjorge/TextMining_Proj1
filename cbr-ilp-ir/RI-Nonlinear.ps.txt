@@ -1,0 +1,212 @@
+On the Power of Nonlinear Secret­Sharing
+
+Amos Beimel
+Dept. of Computer Science
+Ben­Gurion University
+Beer­Sheva 84105, Israel
+beimel@cs.bgu.ac.il
+Yuval Ishai
+DIMACS and AT&T Labs -- Research
+96 Frelinghuysen Road
+Piscataway, NJ 08854, USA
+yuval@dimacs.rutgers.edu
+
+Abstract
+A secret­sharing scheme enables a dealer to distribute a
+secret among n parties such that only some predefined au­thorized 
+sets of parties will be able to reconstruct the secret
+from their shares. The (monotone) collection of authorized
+sets is called an access structure, and is freely identified with
+its characteristic monotone function f : f0; 1g n ! f0; 1g.
+A family of secret­sharing schemes is called efficient if the
+total length of the n shares is polynomial in n. Most previ­ously 
+known secret­sharing schemes belonged to a class of
+linear schemes, whose complexity coincides with the mono­tone 
+span program size of their access structure. Prior to
+this work there was no evidence that nonlinear schemes can
+be significantly more efficient than linear schemes, and in
+particular there were no candidates for schemes efficiently
+realizing access structures which do not lie in NC.
+The main contribution of this work is the construction
+of two efficient nonlinear schemes: (1) A scheme with per­fect 
+privacy whose access structure is conjectured not to
+lie in NC; (2) A scheme with statistical privacy whose ac­cess 
+structure is conjectured not to lie in P=poly. Another
+contribution is the study of a class of nonlinear schemes,
+termed quasi­linear schemes, obtained by composing lin­ear 
+schemes over different fields. We show that while these
+schemes are possibly (super­polynomially) more powerful
+than linear schemes, they cannot efficiently realize access
+structures outside NC.
+
+
+References
+[1] L. M. Adleman and K. Kompella. Using smoothness to
+achieve parallelism. In Proc. of the 20th Annu. ACM Symp.
+on the Theory of Computing, pages 528--538, 1988.
+[2] L. Babai, A. G’al, and A. Wigderson. Superpolynomial
+lower bounds for monotone span programs. Combinatorica,
+19(3):301--319, 1999.
+[3] L. Babai, P. G. Kimmel, and S. V. Lokam. Simultane­ous 
+messages vs. communication. In 12th Annual Sympo­sium 
+on Theoretical Aspects of Computer Science, volume
+900 of Lecture Notes in Computer Science, pages 361--372.
+Springer, 1995.
+[4] L. Babai, N. Nisan, and M. Szegedy. Multiparty protocols
+and logspace­hard pseudorandom sequences. In Proc. of the
+21st Annu. ACM Symp. on the Theory of Computing, pages
+1--11, 1989.
+[5] E. Bach and J. Shalit. Algorithmic Number Theory, volume
+1: Efficient Algorithms. MIT press, 1996.
+[6] P. Beguin and A. Cresti. General short computational secret
+sharing schemes. In L. C. Guillou and J. J. Quisquater, ed­itors, 
+Advances in Cryptology -- EUROCRYPT '95, volume
+921 of Lecture Notes in Computer Science, pages 194--208.
+Springer, 1995.
+[7] R. Beigel and B. Fu. Circuits over PP and PL. J. of Com­puter 
+and System Sciences, 60:422--441, 2000. Preliminary
+version in the proceedings of the 12th Annual IEEE Confer­ence 
+on Computational Complexity, pp. 24­35, 1997.
+[8] A. Beimel. Secure Schemes for Secret Sharing and Key Dis­tribution. 
+PhD thesis, Technion -- Israel Institute of Technol­ogy, 1996.
+[9] A. Beimel, A. G’al, and M. Paterson. Lower bounds
+for monotone span programs. Computational Complexity,
+6(1):29--45, 1997. Conference version: FOCS '95.
+[10] M. Ben­Or, S. Goldwasser, and A. Wigderson. Completeness 
+theorems for noncryptographic fault­tolerant dis­tributed 
+computations. In Proc. of the 20th Annu. ACM
+Symp. on the Theory of Computing, pages 1--10, 1988.
+[11] J. Benaloh and J. Leichter. Generalized secret sharing and
+monotone functions. In S. Goldwasser, editor, Advances in
+Cryptology -- CRYPTO '88, volume 403 of Lecture Notes in
+Computer Science, pages 27--35. Springer­Verlag, 1990.
+[12] J. Benaloh and S. Rudich. Private communication, 1989.
+[13] S. J. Berkowitz. On computing the determinant in small par­allel 
+time using a small number of processors. Inform. Pro­cess. 
+Lett., 18:147--150, 1984.
+[14] G. R. Blakley. Safeguarding cryptographic keys. In R. E.
+Merwin, J. T. Zanca, and M. Smith, editors, Proc. of the
+1979 AFIPS National Computer Conference, volume 48
+of AFIPS Conference proceedings, pages 313--317. AFIPS
+Press, 1979.
+[15] C. Blundo, A. De Santis, L. Gargano, and U. Vaccaro. On
+the information rate of secret sharing schemes. Theoretical
+Computer Science, 154(2):283--306, 1996.
+[16] D. Boneh and M. Naor. Timed commitments. In Advances
+in Cryptology -- CRYPTO 2000, volume 1880 of Lecture
+Notes in Computer Science, pages 236--254. Springer­Ver­
+lag, 2000.
+[17] A. Borodin, J. v. z. Gathen, and J. Hopcroft. Fast parallel
+matrix and GCD computations. Information and Control,
+52(3):241--256, 1982.
+[18] E. F. Brickell. Some ideal secret sharing schemes. Journal
+of Combin. Math. and Combin. Comput., 6:105--113, 1989.
+[19] E. F. Brickell and D. M. Davenport. On the classification of
+ideal secret sharing schemes. J. of Cryptology, 4(73):123--
+134, 1991.
+[20] E. F. Brickell and D. R. Stinson. Some improved bounds on
+the information rate of perfect secret sharing schemes. J. of
+Cryptology, 5(3):153--166, 1992.
+[21] G. Buntrock, C. Damm, U. Hertrampf, and C. Meinel. Struc­ture 
+and importance of the logspace­mod class. Math. Sys­tems Theory, 25:223--237, 1992.
+[22] R. M. Capocelli, A. De Santis, L. Gargano, and U. Vaccaro.
+On the size of shares for secret sharing schemes. J. of Cryp­tology, 6(3):157--168, 1993.
+[23] D. Chaum, C. Cr’epeau, and I. Damgšard. Multiparty unconditionally 
+secure protocols. In Proc. of the 20th Annu. ACM
+Symp. on the Theory of Computing, pages 11--19, 1988.
+[24] R. Cramer, I. Damgšard, and S. Dziembowski. On the com­plexity 
+of verifiable secret sharing and multiparty computa­tion. 
+In Proc. of the 32th Annu. ACM Symp. on the Theory
+of Computing, pages 325--334, 2000.
+[25] R. Cramer, I. Damgšard, and U. Maurer. General se­cure 
+multi­party computation from any linear secret­sharing
+scheme. In B. Preneel, editor, Advances in Cryptology --
+EUROCRYPT 2000, volume 1807 of Lecture Notes in Com­puter 
+Science, pages 316--334. Springer, 2000.
+[26] L. Csirmaz. The dealer's random bits in perfect secret shar­ing 
+schemes. Studia Sci. Math. Hungar., 32(3--4):429--437,
+1996.
+[27] L. Csirmaz. The size of a share must be large. J. of Cryptol­ogy, 
+10(4):223--231, 1997.
+[28] Y. Desmedt and Y. Frankel. Shared generation of authenti­cators 
+and signatures. In J. Feigenbaum, editor, Advances in
+Cryptology -- CRYPTO '91, volume 576 of Lecture Notes in
+Computer Science, pages 457--469. Springer­Verlag, 1992.
+[29] Y. Desmedt and Y. Frankel. Homomorphic zero­knowledge
+threshold schemes over any finite abelian group. SIAM J. on
+Discrete Mathematics, 7(4):667--679, 1994.
+[30] M. v. Dijk. On the information rate of perfect secret sharing
+schemes. Designs, Codes, and Cryptography, 6:143--169,
+1995.
+[31] M. v. Dijk. A linear construction of secret sharing schemes.
+Designs, Codes, and Cryptography, 12(2):161--201, 1997.
+[32] S. M. Eikenberry and J. P. Sorenson. Efficient algorithms for
+computing the Jacobi symbol. Journal of Symbolic Compu­tation, 26(4):509--523, 1998.
+[33] S. Fehr. Span programs over rings and how to share a secret
+from a module. Master's thesis, ETH Zurich, 1998.
+[34] U. Feige, J. Kilian, and M. Naor. A minimal model for se­cure 
+computation. In Proc. of the 26th Annu. ACM Symp. on
+the Theory of Computing, pages 554--563, 1994.
+[35] A. G’al. A characterization of span program size and im­proved 
+lower bounds for monotone span programs. In Proc.
+of the 30th Annu. ACM Symp. on the Theory of Computing,
+pages 429--437, 1998.
+[36] L. Goldschlager. The monotone and planar circuit value
+problem is complete for P. SIGACT News, 9:25--27, 1977.
+[37] S. Goldwasser and S. Micali. Probabilistic encryption. J. of
+Computer and System Sciences, 28(21):270--299, 1984.
+[38] D. M. Gordon. A survey of fast exponentiation methods.
+Journal of Algorithms, 27(1):129--146, 1998.
+[39] J. Hšastad. The shrinkage exponent of de Morgan formulas
+is 2. SIAM J. on Computing, 27(1):48--64, 1998.
+[40] Y. Ishai and E. Kushilevitz. Private simultaneous messages
+protocols with applications. In 5th Israel Symp. on Theory
+of Computing and Systems, pages 174--183, 1997.
+[41] M. Ito, A. Saito, and T. Nishizeki. Secret sharing schemes
+realizing general access structure. In Proc. of the IEEE
+Global Telecommunication Conf., Globecom 87, pages 99--
+102, 1987. Journal version: Multiple Assignment Scheme
+for Sharing Secret. J. of Cryptology, 6(1):15­20, 1993.
+[42] M. Karchmer and A. Wigderson. On span programs. In
+Proc. of the 8th Annu. IEEE Structure in Complexity Theory,
+pages 102--111, 1993.
+[43] H. Krawczyk. Secret sharing made short. In D. R. Stin­
+son, editor, Advances in Cryptology -- CRYPTO '93, volume
+773 of Lecture Notes in Computer Science, pages 136--146.
+Springer­Verlag, 1994.
+[44] K. M. Martin. New secret sharing schemes from old. J.
+Combin. Math. Combin. Comput., 14:65--77, 1993.
+[45] K. Mulmuley. A fast parallel algorithm to compute the rank
+of a matrix over an arbitrary field. Combinatorica, 7:101--
+104, 1987.
+[46] M. O. Rabin. Randomized Byzantine generals. In Proc.
+of the 24th Annu. IEEE Symp. on Foundations of Computer
+Science, pages 403--409, 1983.
+[47] A. Renvall and C. Ding. A nonlinear secret sharing scheme.
+In ACISP: Information Security and Privacy: Australasian
+Conference, volume 1172 of Lecture Notes in Computer Sci­ence, pages 56--66, 1996.
+[48] A. Shamir. How to share a secret. Communications of the
+ACM, 22:612--613, 1979.
+[49] G. J. Simmons. An introduction to shared secret and/or
+shared control and their application. In G. J. Simmons, ed­itor, 
+Contemporary Cryptology, The Science of Information
+Integrity, pages 441--497. IEEE Press, 1992.
+[50] G. J. Simmons, W. Jackson, and K. M. Martin. The geom­etry 
+of shared secret schemes. Bulletin of the ICA, 1:71--88,
+1991.
+[51] P. M. Spira. On time hardware tradeoffs for Boolean func­tions. 
+In Proc. of 4th Hawaii International Symp. on System
+Sciences, pages 525--527, 1971.
+[52] D. R. Stinson. An explication of secret sharing schemes.
+Designs, Codes, and Cryptography, 2:357--390, 1992.
+[53] D. R. Stinson. New general lower bounds on the informa­tion 
+rate of secret sharing schemes. In E. F. Brickell, editor,
+Advances in Cryptology -- CRYPTO '92, volume 740 of Lec­ture 
+Notes in Computer Science, pages 168--182. Springer­
+Verlag, 1993.
+[54] D. R. Stinson and J. L. Massey. An infinite class of coun­ter
+examples to a conjecture concerning non­linear resilient
+functions. Journal of Cryptology, 8:167--173, 1995.
+[55] D. R. Stinson and S. A. Vanstone. A combinatorial approach
+to threshold schemes. SIAM J. on Discrete Mathematics,
+1(2):230--236, 1988.

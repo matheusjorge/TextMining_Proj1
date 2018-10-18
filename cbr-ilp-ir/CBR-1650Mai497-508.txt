@@ -1,0 +1,46 @@
+A Hybrid Case-Based Reasoner for Footwear
+Design
+
+Julie Main and Tharam S. Dillon
+
+Dept of Computer Science and Computer Engineering
+La Trobe University, Bundoora 3083, Australia.
+Ph: +61 3 9479-2393, Fax: +61 3 9479-3060
+and Expert and Intelligent Systems Laboratory,
+Applied Computing Research Institute
+Email: main@cs.latrobe.edu.au
+
+
+Abstract. This paper details the way case-based reasoning has been
+used to aid footwear designers in creating new designs while maximizing
+component reuse. A hybrid system was created which uses an object-oriented 
+memory model, neural networks for retrieval and fuzzy feature
+vectors to augment the basic case-based reasoning model. One of the
+main tasks involved in the design of any case-based system is determining
+the features that make up a case and finding a way to index these cases
+in a case-base for efficient and correct retrieval. This paper looks at the
+components of this footwear design system and how the various elements
+join together to create a useful system, in particular, how the use of
+fuzzy feature vectors and neural networks can improve the indexing and
+retrieval steps in case-based systems.
+References
+
+1.	Ashley, K.D.: Modeling Legal Argument: Reasoning with Cases and Hypotheticals.
+MA, MIT Press, 1990.
+2.	Beale, R. and Jackson, T.: Neural Computing: An Introduction. Hilger, Bristol, 1990
+3.	Dillon, T.S. and Tan, P.L.: Object-Oriented Conceptual Modeling. Australia, Prentice 
+Hall, 1993.
+4.	Hammond, K.J.: CHEF: A Model of Case-Based Planning. Proc. Fifth National
+Conference. on Artificial Intelligence (AAAI-86). 1986:267-271.
+5.	Hennessey, D. and Hinkle, D.: Applying Case-Based Reasoning to Autoclave Loading. 
+IEEE Expert. 7(5):21-26, October 1992.
+6.	Kolodner, J.: Case Based Reasoning. CA, Morgan Kaufmann, 1993.
+7.	Main, J., Dillon T.S. and Khosla R.: Use of Neural Networks for Case-Retrieval in
+a System For Fashion Shoe Design. Proc. Eighth International Conference on Industrial 
+and Engineering Applications of Artificial Intelligence and Expert Systems
+(IEA/AIE 95: Melbourne, Australia; June 1995). Gordon and Breach, pp. 151-158.
+8.	Riesbeck, C. K. and Schank, R.C.: Inside Case-based Reasoning. New Jersey,
+Lawrence Erlbaum, 1989.
+9.	Rahayu, W. and Chang E.: A Methodology for Transforming an Object-Oriented
+Data Model into a Relational Database Design. Proceedings of the 12th International 
+Conference on Technology Object-Oriented Languages and Systems, Melbourne, 1993, pp 99 - 115.

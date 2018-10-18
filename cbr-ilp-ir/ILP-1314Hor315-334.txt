@@ -1,0 +1,83 @@
+Learning Logic Programs with Random
+Classification Noise
+
+Tamás Horváth1, Robert H. Sloan2, and György Turán3
+
+1 Dept. of Applied Informatics, József A. University, Szeged 6720, Hungary
+2 Dept. of EE & Computer Science, University of Illinois at Chicago
+851 S. Morgan St. Rm 1120, Chicago, IL 60607-7053, USA
+3 Dept. of Mathematics, Stat., & Computer Science, University of Illinois at Chicago,
+Research Group on Artificial Intelligence, Hungarian Academy of Sciences
+
+
+
+
+Abstract. We consider the learnability of classes of logic programs in
+the presence of noise, assuming that the label of each example is reversed
+with a fixed probability. We review the polynomial PAC learnability of
+nonrecursive, determinate, constant-depth Horn clauses in the presence
+of such noise. This result is extended to an analogous class of recursive
+logic programs that consist of a recursive clause, a base case clause, and
+ground background knowledge. Also, we show that arbitrary nonrecursive 
+Horn clauses with forest background knowledge remain polynomially
+PAC learnable in the presence of noise. We point out that the sample
+size can be decreased by using dependencies among the literals.
+References
+
+1.	D. Angluin and P. Laird. Learning from noisy examples. Machine Learning,
+2(4):343—370, 1988.
+2.	J. A. Aslam and S. E. Decatur. Improved noise-tolerant learning and generalized
+statistical queries. Technical Report TR-17-94, Center for Research in Computing
+Technology, Division of Applied Sciences, Harvard University, 1994.
+3.	W. W. Cohen. Pac-learning recursive logic programs: efficient algorithms. J. AI
+Research, 2:501—539, 1995.
+4.	W. W. Cohen. Pac-learning recursive logic programs: negative results. J. AI Research, 
+2:541—573, 1995.
+5.	S. E. Decatur. Statistical queries and faulty PAC oracles. In Proc. 6th Annu.
+Workshop on Comput. Learning Theory, pages 262—268. ACM Press, New York,
+NY, 1993.
+6. 5. Dzeroski. Learning first-order clausal theories in the presence of noise. In Proc.
+5th Scandinavian Conf. on Artificial Intelligence, Amsterdam, 1995. IOS Press.
+7.	S. Dzeroski, S. Muggleton, and S. Russell. PAC-learnability of determinate logic
+programs. In Proc. 5th Annu. Workshop on Comput. Learning Theory, pages 128—
+135. ACM Press, New York, NY, 1992.
+8.	R. Gennaro. PAC-learning PROLOG clauses with or without errors. Tech. Memo
+500, MIT Laboratory for Computer Science, 1994.
+9.	S. A. Goldman and R. H. Sloan. Can PAC learning algorithms tolerate random
+attribute noise? Algorithmica, 14:70—84, 1995.
+10.	W. Hoeffding. Probability inequalities for sums of bounded random variables.
+Journal of the American Statistical Association, 58(301):13—30, Mar. 1963.
+11.	T. Horváth and G. Turán. Learning logic programs with structured background
+knowledge. In L. De Raedt, editor, 5th Int. Workshop on Inductive Logic Programming, 
+pages 53—76, 1995. Also in Advances in Inductive Logic Programming (ed.
+L. De Raedt). IOS Press, 1996, pages 172—191. (IOS Frontiers in AI and Appl.).
+12.	M. Kearns. Efficient noise-tolerant learning from statistical queries. In Proc. 25th
+Annu. ACM Sympos. Theory Comput., pages 392—401. ACM Press, New York, NY,
+1993.
+13.	M. Kearns and M. Li. Learning in the presence of malicious errors. SIAM J.
+Comput., 22:807—837, 1993.
+14.	M. J. Kearns and U. V. Vazirani. An Introduction to Computational Learning
+Theory. The MIT Press, Cambridge, Massachusetts, 1994.
+15.	N. Lavrac and S. Dzeroski. Inductive learning of relations from noisy examples.
+In S. H. Muggleton, editor, Inductive Logic Programming, pages 495—514, London,
+1992. Academic Press.
+16.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, New York, 1994.
+17.	N. Lavrac, S. Dzeroski, and I. Bratko. Handling imperfect data in inductive logic
+programming. In L. De Raedt, editor, Advances in Inductive Logic Programming,
+pages 48—64. lOS Press, 1996.
+18.	Y. Mansour and M. Parnas. On learning conjunctions with malicious noise. In
+Israel System and Theory Computer Symposium (ISTCS 96), 1996. (To appear).
+19.	S. Muggleton and C. Feng. Efficient induction of logic programs. In S. Muggleton,
+editor, Inductive Logic Programming, pages 281—298. Academic Press, 1992.
+20.	G. Shackelford and D. Volper. Learning k-DNF with noise in the attributes. In
+Proc. 1st Annu. Workshop on Comput. Learning Theory, pages 97—103, San Mateo,
+CA, 1988. Morgan Kaufmann.
+21.	R. H. Sloan. Four types of noise in data for PAC learning. Inf. Process. Lett.,
+54:157—162, 1995.
+22.	A. Sriivasan, S. H. Muggleton, and M. Bain. Distinguishing exceptions from noise
+in non-monotonic learning. In Proc. Second International Workshop on Inductive
+Logic Programming, Tokyo, Japan, 1992. ICOT TM-1182.
+23.	L. G. Valiant. Learning disjunctions of conjunctions. In Proceedings of the 9th
+International Joint Conference on Artificial Intelligence, vol. 1, pages 560-566, Los
+Angeles, California, 1985. International Joint Committee for Artificial Intelligence.

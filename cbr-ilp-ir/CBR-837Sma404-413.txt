@@ -1,0 +1,76 @@
+Case-Based Information Retrieval
+
+Malika Smail
+
+C.R.I.N./C.N.R.S.
+Bâtiment Loria, B.P. 239
+F54506 Vandoeuvre-lès-Nancy Cedex
+e-mail : malika@loria.fr
+Tel : (033) 83.59.20.65
+
+
+Abstract. This paper discusses a Case-Based Reasoning (CBR) approach 
+as a good way of incrementally improving an information retrieval
+strategy. The proposed approach, Cabri-n, achieves a synergy between
+CBR and information retrieval that aims to exploit users feedback for improving 
+the retrieval short-term performances (during a single retrieval
+session) and the long-term performances (over the system’s life time).
+The long-term improvement is achieved by managing a memory of sessions 
+which exploits successes as well as failures of information retrieval.
+A typology defined over the set of potential information needs serves as
+a meta-index for the long-term memory, so allows a context-sensitive retrieval 
+and adaptation of former sessions. Besides, we discuss some common 
+issues of CBR and information retrieval making their combination
+a promising paradigm.
+References
+
+1.	N. Belkin, C. Cool, and U. Thiel. Scripts for Information Seeking Strategies. In
+Working Notes AAAI Spring Symposium Series “Case-Based Information Retrieval - 
+Exploring the Opportunities for Technology Sharing”, pages 8—17, Standford University, 1993.
+2.	N. Belkin and B.H. Kwasnik. Using structural representations of anomalous states
+of knowledge for choosing document retrieval stratégies. In ACM SIGIR International 
+Conference on Research and Development in Information Retrieval, pages
+11—22, Pisa, 1986.
+3.	F. Mac Call and P. Willet. Criteria for the Selection of Search Strategies in Best-Match 
+Document Retrieval Systems. International Journal on Man-Machine stud-
+ies, 25:317—326, 1986.
+4.	M. Cluzeau-Ciry. Typologie des utilisateurs et des utilisations d’une banque
+d’images. Le Documentaliste, 25(3): 115—120,1988.
+5.	M. Créhange and G. Halin. Machine Learning Techniques for Progressive Retrieval
+in an Image Database. In T. Harder, editor, Proceedings Datenbanksysteme in
+Buro, Tecknik und Wissenschaft, pages 314—322, Zurich, March 1989. Springer-Verlag.
+6.	W.B. Croft and R.H. Thompson. The use of Adaptive Mechanisms for Selection
+of Search Strategies in Document Retrieval Systems. In Third Joint B CS-ACM
+symposium, Cambridge, 1984.
+7.	E.A. Domeshek. What Abby Cares About. In Proceedings of the DARPA Case-Based 
+Reasoning Workshop, pages 13—24, Washington, 1991. Morgan Kaufmann,
+Inc.
+8.	K.J. Hammond. Learning Modification Rules from Expectation Failure. In Proceedings 
+of the DARPA Case-Based Reasoning Workshop, pages 110—114, Florida
+(USA), 1989.
+9.	D. Harman. Relevance Feedback Revisited. In ACM SIGIR International Conference 
+on Research and Development in Information Retrieval, pages 1—10, Copenhagen, 1992.
+10.	T.R. Hinrichs and J.L. Kolodner. The Roles of Adaptation in Case-Based Design.
+In AAAI Conference, pages 28—33, 1991.
+11.	5. Mott. Case-Based Reasoning : Market, Applications, and Fit with Other Technologies. 
+Expert Systems with Applications, 6:97—107, 1993.
+12.	J.R. Quinlan. Induction of Decision Trees. Machine Learning, 1:81—106, 1986.
+13.	C.K. Riesbeck and R.C. Schank. Inside Case-Based Reasoning. Lawrence Erlbaum
+Associates Publishers, Hillsdale, New Jersey, 1989.
+14.	G. Salton. Recent trends in automatic information retrieval. In ACM SIGIR
+International Conference on Research and Development in Information Retrieval,
+pages 1—10, Pisa (Italy), 1986.
+15.	G. Salton and M.J. Mac Gill. Introduction to modern information retrieval. Mac
+Graw Hill Book Company, New York, 1983.
+16.	E. Simoudis and J.S. Miller. The Application of CBR to Help Desk Applications. 
+In Proceedings of the DARPA Case-Based Reasoning Workshop, pages 25—
+36, Washington, 1991. Morgan Kaufmann, Inc.
+17.	M. Smail. Combining Information Retrieval and Case-Based Reasoning : a Promising 
+Paradigm. In Proceedings IJCAI’98 Workshop on Reuse of designs : an interdisciplinary 
+Cognitive Approach, Chambéry (France), août 1993.
+18.	A. Tißen. A Case-Based Architecture for a Dialogue Manager for Information
+Seeking Processes. In ACM SIGIR International Conference on Research and
+Development in Information Retrieval, pages 152—161, Chicago (USA), 1991.
+19.	M. Veloso and J. Carbonell. Variable Precision Case Retrieval in Analogical Problem 
+Solving. In Proceedings of the DARPA Case-Based Reasoning Workshop,
+Washington, 1991.

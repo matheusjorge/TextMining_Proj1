@@ -1,0 +1,62 @@
+Collaborative
+Case-Based Recommender Systems
+
+Stefano Aguzzoli*, Paolo Avesani, and Paolo Massa
+
+ITC-IRST,
+Via Sommarive 18 - Loc. Pantè, I-38050 Povo, Trento, Italy
+{aguzzoli , avesani ,massa}@irst.itc.it
+
+
+
+
+Abstract. We introduce an application combining CBR and collaborative 
+filtering techniques in the music domain. We describe a scenario
+in which a new kind of recommendation is required, which is capable
+of summarizing many recommendations in one suggestion. Our claim is
+that recommending one set of goods is different from recommending a
+single good many times. The paper illustrates how a case-based reasoning 
+approach can provide an effective solution to this problem reducing
+the drawbacks related to the user profiles. CoCoA, a compilation compiler 
+advisor, will be described as a running example of a collaborative
+case-based recommendation system.
+References
+
+1.	M. Berry and S. Dumais. Using linear algebra for intelligent information retrieval.
+SIAM Review 37(4), pages 573—595, 1995.
+2.	D. Billsus and M. J. Pazzani. Learning collaborative information filters. Technical
+report, AAAI, July 1998.
+3.	Padraig Cunningham, Ralph Bergmann, S. Schmitt, R. Traphoener, and S. Breen.
+Websell: Intelligent sales assistants for the world wide web. Technical report,
+Trinity College Dublin, 2000.
+4.	S. Deerwester, S.T. Dumais, G.W. Furnas, T.K. Landauer, and R. Harshman.
+Indexing by latent semantic analysis. Journal of the American Society for Information 
+Science, pages 391—407, 1990.
+5.	George E. Forsythe, Michael A. Malcolm, and Cleve B. Moler. Computer Methods
+for Mathematical Computations. Prentice-Hall, Englewood Cliffs, NJ 07632, USA,
+1977.
+6.	D. Goldberg, D. Nichols, B.M. Oki, and D. Terry. Using collaborative filtering to
+weave an information tapestry. Communications of the ACM, 35(12):61—70, 1992.
+7.	Gene H. Golub and Charles F. Van Loan. Matrix Computations. The Johns
+Hopkins University Press and North Oxford Academic, Baltimore, MD, USA and
+Oxford, England, 1983.
+8.	C. Hayes and P. Cunningham. Smart radio: Building music radio on the fly. In
+Expert Systems 2000, Cambridge, UK, 2000.
+9.	Thomas Hofmann. Probabilistic latent semantic analysis. pages 177—196, 2001.
+10.	P. McJones. Eachmovie collaborative filtering data set, dec systems research center,
+1997. http://research.compaq.com/SRC/eachmovie/.
+11.	P. Resnick and H.R. Varian. Recommender systems. Communications of the ACM,
+40(3):56—58, 1997.
+12.	B. M. Sarwar, G. Karypis, J. A. Konstan, and J. Riedl. Application of dimensionality 
+reduction in recommender system — a case study. In ACM WebKDD 2000
+Web Mining for E-Commerce Workshop, 2000.
+13.	J.B. Schafer, J. Konstan, J., and Riedl. Recommender systems in e-commerce.
+In Proceeding of the ACM Conference on Electronic Commerce, Pittsburgh, PA,
+USA, November 1999.
+14.	S. Schmitt and R. Bergmann. Applying case-based reasoning technology for product 
+selection and customization in electronic commerce environments. In 12th Bled
+Electronic Commerce Conference, 1999.
+15.	Armin Stahl and Ralph Bergmann. Applying recursive CBR for the customization
+of structured products in an electronic shop. In EWCBR, pages 297—308, 2000.
+16.	Wolfgang Wilke, Mario Lenz, and Stefan Wess. Intelligent sales support with CBR.
+In Case-Based Reasoning Technology, pages 91—114, 1998.

@@ -1,0 +1,70 @@
+Bayesian Case Reconstruction
+
+Daniel N. Hennessy1, Bruce G. Buchanan1, and John M. Rosenberg2
+
+1 Intelligent Systems Program, University of Pittsburgh, Pittsburgh, PA
+{hennessy, buchanan}@cs.pitt.edu
+2 Dept of Biological Sciences, University of Pittsburgh, PA
+jmr@jmr3.xtal.pitt.edu
+http://www.xtal.pitt.edu
+
+
+
+Abstract. Bayesian Case Reconstruction (BCR) is a case-based technique that
+broadens the coverage of a case library by sampling and recombining pieces of
+existing cases to construct a large set of “plausible” cases. It employs a Bayesian 
+Belief Network to evaluate whether implicit dependencies within the original 
+cases have been maintained. The belief network is constructed from the
+expert’s limited understanding of the domain theory combined with the data
+available in the case library. The cases are the primary reasoning vehicle. The
+belief network leverages the available domain model to help evaluate whether
+the “plausible” cases have maintained the necessary internal context. BCR is
+applied to the design of screening experiments for Macromolecular Crystallization 
+in the Probabilistic Screen Design program. We describe BCR and provide 
+an empirical comparison of the Probabilistic Screen Design program
+against the current practice in Macromolecular Crystallization.
+References
+
+1.	Carter Jr., C.W. & Carter, C.W. (1979) Protein Crystallization Using Incomplete
+Factorial Experiments. J. Biol. Chem., 254: p. 122 19-12223.
+2.	Hennessy, D., Gopalakrishnan, V., Buchanan, B.G., Rosenberg, J.M., and Subramanian, 
+D., (1994) “Induction of Rules for Biological Macromolecular Crystallization”, 
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 179-187, Stanford, CA
+3.	Gilliland, G.C. (1987) A biological macromolecule crystallization database: a basis
+for a crystallization strategy. In Proceedings of the Second International Conference 
+on Protein Crystal Growth; A FEBS Advanced Lecture Course. Bischenberg,
+Strasbourg, France: North Holland
+4.	Hennessy, D., Buchanan, B.G., Subramanian, D., Wilkosz, P.A., & Rosenberg, J.
+M., (2000). “Statistical Methods for the Objective Design of Screening Procedures
+for Macromolecular Crystallization”, Acta Crystallographica Section D D56, 817-
+827.
+6.	Jurisica, I., Rogers, P., Glasgow, J., Fortier, S., Luft, J., Wolfley, J., Bianca, M.,
+Weeks, D., DeTitta, G.T. (2001) Intelligent Decision Support for Protein Crystal
+Growth. To appear in IBM Systems Journal, Special issue on Deep Computing for
+Life Sciences, 40(2): 394-409
+7.	Hennessy, D.N. & Hinkle, D. (1992). Applying case-based reasoning to autoclave
+loading. IEEE Expert 7(5): 21-26.
+8.	Redmond, M.A. (1990). What should I do now? Using goal sequitor knowledge to
+choose the next problem-solving step. In Proceedings of the Twelfth Annual Conference 
+of the Cognitive Science Society. Northvale, NJ: Erlbaum.
+9.	Breese, J. S., & Heckerman, D. (1995). Decision-theoretic case-based reasoning.
+Proceedings of the Fifth International Workshop on Artificial Intelligence and Statistics 
+(pp. 56-63). Ft. Lauderdale, FL: Unpublished.
+10.Myllymaki, P, & Tirri, H. (1993). Massively parallel case-based reasoning with
+probabilistic similarity metrics. Proceedings of the First European Workshop on
+Case-Based Reasoning (pp. 145-154). Kaiserlautern, Germany: Springer-Verlag.
+11.	Aha, D. W. & Chang, L. W. (1996). Cooperative Bayesian and Case-Based Reasoning 
+for Solving Multiagent Planning Tasks. NCARAI Technical Report AIC
+96-005.
+12. 	Kasif, S., Salzberg, S., Waltz, D., Rachlin, J. & Aha, D. W. (1998). A probabilistic
+framework for memory-based reasoning. Artificial Intelligence, 104(1-2), 297-312.
+13.	Kim, J. H. & Pearl, J. (1983). A computational model for causal and diagnostic
+reasoning in inference systems, in: Proceedings of the 8th International Joint Conference 
+on Artificial Intelligence (pp. 190-193), Karlsruhe, West Germany
+14.	Pearl, J. (1988). Probabilistic Reasoning in Intelligent Systems: Networks of Plausible 
+Inference. Morgan Kaufman Publishers, San Mateo, California.
+15.	Kolodner, J. (1993). Case-Based Reasoning. Morgan Kaufman Publishers, San
+Mateo, California.
+16.	McPherson, A. (1990). Current Approaches to Macromolecular Crystallization.
+European Journal of Biochemistry, 189, 1-23.

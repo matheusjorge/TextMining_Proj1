@@ -1,0 +1,54 @@
+Integrating Structural Search Capabilities Into
+Project Haystack
+
+Svetlana Shnitser
+Department of Electrical Engineering and Computer
+Science
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+Abstract
+In this thesis, we have designed and implemented a system for performing structural
+searched in Haystack. The Haystack data model is semi­structured, and the chal­
+lenge of this project was to develop a system that performs database­like queries on
+semistructured data using current relational database technologies. To achieve this
+goal, we have designed a database schema that would allow us to store our data
+model. We have specified the format in which the user can enter database queries
+and implemented procedures that translate user queries into SQL. We have designed
+a way to integrate structural search with text search in Haystack and have outlined
+ideas on how database queries can be used for machine learning.
+
+Bibliography
+[1] E. Adar. Hybrid­Search and Storage of Semi­structured Information. Master's
+Thesis, Massachusetts Institute ofTechnology, Department of Electrical Engi­neering 
+and Computer Science, May 1998.
+[2] I. Lisansky. A Data Model for the Haystack Document Management System.
+Master's Thesis, Massachusetts Institute ofTechnology, Department of Electrical
+Engineering and Computer Science, February 1999.
+[3] W. Chien. Learning Query Behavior in the Haystack System. Master's Thesis,
+Massachusetts Institute ofTechnology, Department of Electrical Engineering and
+Computer Science, May 2000.
+[4] R. Goldman, J. Widom. DataGuides: Enabling Query Formulation and Opti­mization 
+in Semistructured Databases. Proceedings of the 23rd VLDB COnfer­ence Athens, Greece 1997
+[5] J. McHugh, S. Abiteboul, R. Goldman, D. Quass, J. Widom. Lore: A Database
+Management System for Semistructured Data
+http://www­db.stanford.edu/lore
+[6] J. Rocchio. Relevance Feedback in information retrieval. In The SMART Re­trieval 
+System --- Experiments in Atomatic Document Processing, pp. 313­323
+[7] W. Frakes, R. Baeza­Yates. Information Retrieval. Prentice Hall, 1992
+[8] Introduction to Structured Query Language.
+http://w3.one.net/ jhoffman/sqltut.htm
+[9] B. Rhodes, T. Starner. Remembrance Agent. A Continuously Running Auto­mated 
+Information Retrieval System. The Proceedings of The First International
+Conference on The Practical Application Of Intelligent Agents and Multi Agent
+Technology (PAAM '96), pp. 487­495.
+[10] Sleepycat Software. http://www.sleepycat.com
+[11] ISearch Text Search Engine. http://www.cnidr.org/ir/isearch.html
+[12] JDBC API Tutorial and Reference, Second Edition Addison­Wesley, 1999
+[13] S. Lawrence, K. Bollacker, C. Lee Files. Indexing and Retrieval of Scientific 
+Lit­erature English International Conference on Information and Knowledge 
+Man­agements, pp. 139­146, 1999
+[14] D. Karger, L. Stein. Haystack: Per­User Information Environments
+http://haystack.lcs.mit.edu/papers/
+[15] MyYahoo. http://www.myyahoo.com/
+[16] DirectHit Search Engine. http://www.directhit.com/
+[17] PurpleYogi softare. http://www.purpleyogi.com/

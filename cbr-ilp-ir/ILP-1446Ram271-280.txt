@@ -1,0 +1,65 @@
+A Framework for Defining Distances
+Between First-Order Logic Objects
+
+Jan Ramon and Maurice Bruynooghe
+
+Katholieke Universiteit Leuven, Department of Computer Science
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+{janr,maurice}@cs.kuleuven.ac.be
+
+
+
+Abstract. Several learning systems, such as systems based on clustering
+and instance based learning, use a measure of distance between objects.
+Good measures of distance exist when objects are described by a fixed set
+of attributes as in attribute value learners. More recent learning systems
+however, use a first order logic representation. These systems represent
+objects as models or clauses. This paper develops a general framework
+for distances between such objects and reports a preliminary evaluation.
+References
+
+1.	G. Bisson. Conceptual clustering in a first order logic representation. In Proceedings
+of the 10th European Conference on Artificial Intelligence, pages 458—462. John
+Wiley & Sons, 1992.
+2.	H. Blockeel and L. De Raedt. Top-down induction of first order logical decision
+trees. Artificial Intelligence, 1998. To appear.
+3.	H. Blockeel, L. De Raedt, and 3. Ramon. Top-down induction of clustering trees.
+In Proceedings of the 15th International Conference on Machine Learning, 1998.
+4.	L. De Raedt. Logical settings for concept learning. Artificial Intelligence, 95:187—
+201, 1997.
+5.	L. De Raedt and L. Dehaspe. Clausal discovery. Machine Learning, 26:99—146,
+1997.
+6.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70:375—392, 1994.
+7.	L. De Raedt and W. Van Laer. Inductive constraint logic. In Proceedings of the
+5th Workshop on Algorithmic Learning Theory, volume 997 of Lecture Notes in
+Artificial Intelligence. Springer-Verlag, 1995.
+8.	S. Dzeroski, S. Schulze-Kremer, K. R. Heidtke, K. Siems, D. Wettschereck, and
+H. Blockeel. Diterpene structure elucidation from 13C NMR spectra with inductive
+logic programming. Applied Artificial Intelligence: Special Issue on First-Order
+Knowledge Discovery in Databases, 1998. To appear.
+9.	T. Eiter and Mannila H. Distance measures for point sets and their computation.
+Acta Informatica, 34, 1997.
+10.	W. Emde and D. Wettschereck. Relational instance based learning. In Proceedings
+of the 1995 Workshop of the GI Special Interest Group on Machine Learning, 1995.
+11.	A. Hutchinson. Metrics on terms and clauses. In Proceedings of the 9th European
+Conference on Machine Learning, Lecture Notes in Artificial Intelligence, pages
+138—145. Springer-Verlag, 1997.
+12.	P. Langley. Elements of Machine Learning. Morgan Kaufmann, 1996.
+13.	Shan-Hwei Nienhuys-Cheng. Distance between herbrand interpretations: A measure 
+for approximations to a target concept. In Proceedings of the 7th International
+Workshop on Inductive Logic Programming, Lecture Notes in Artificial Intelligence.
+Springer-Verlag, 1997.
+14.	J. Ramon and M. Bruynooghe. A framework for defining distances between first-
+order logic objects. Technical Report CW 283, Department of Computer Science, 
+Katholieke Universiteit Leuven, 1998. http://vvw.cs.kuleuven.ac.be/-
+publicaties/rapporten/CW1998.html.
+15.	J. Ramon, M. Bruynooghe, and W. Van Laer. Distance measures between atoms.
+Technical Report CW 264, Department of Computer Science, Katholieke Universiteit 
+Leuven, 1998. http://www.cs.kuleuven.ac.be/publicaties/rapporten/-
+CW1998.html.
+16.	A. Srinivasan, S.H. Muggleton, R.D. King, and M.J.E. Steinberg. Mutagenesis:
+ILP experiments in a non-determinate biological domain. In S. Wrobel, editor,
+Proceedings of the 4th International Workshop on Inductive Logic Programming,
+volume 237 of GMD-Studien, pages 217—232. Gesellschaft für Mathematik und
+Datenverarbeitung MBH, 1994.

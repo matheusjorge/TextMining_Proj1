@@ -1,0 +1,43 @@
+An Automatic and Guaranteed Determination of
+the Number of Roots of an Analytic Function
+Interior to A Simple Closed Curve in the
+Complex Plane
+
+Jonathan L. Herlocker
+Department of Mathematical Sciences
+Lewis and Clark College
+Portland, OR 97219 U.S.A.
+herlock@lclark.edu
+Jeffrey S. Ely
+Department of Mathematical Sciences
+Lewis and Clark College
+Portland, OR 97219 U.S.A.
+jeff@lclark.edu
+
+
+Abstract
+A well known result from complex analysis allows us, under suitable circum­stances, 
+to compute the number of roots of an analytic function, f(z), that lie
+inside a counterclockwise, simple closed curve, C, by computing the integral,
+We employ interval arithmetic and automatic differentiation to give an au­tomatic 
+and guaranteed bound on the integral. Furthermore, we explore the
+interplay of the choice of curve C, the location of the roots relative to C, the
+number of subdivisions, and the arithmetic precision used, upon the time nec­essary 
+to obtain satisfactory bounds.
+
+
+
+References
+[1] Churchill, R., Brown, J., Verhey, R., Complex Variables and Applications,
+McGraw­Hill, New York. (1976).
+[2] Ely, J., The VPI Software Package for Variable Precision Interval Arithmetic,
+(to appear in Interval Computations).
+[3] Henrici, P., Applied and Computational Complex Analysis, Vol.1. Wiley,
+New York. (1974).
+[4] Kagiwada, H., Kalaba, R., Rasakhoo, N., Spingarn, K., Numerical Deriva­tives 
+and Nonlinear Analysis, Plenum, New York (1986).
+[5] Moore, R.E., Methods and Applications of Interval Analysis, SIAM,
+Philadelphia. (1979).
+[6] Press, W., Flannery, B., Teukolsky, S., Vetterling, W., Numerical Recipes
+in C, Cambridge University Press, Cambridge, MA. (1988).
+[7] Stroustrup, B., The C++ Programming Language, Addison­Wesley, Read­ing, Mass. (1986).

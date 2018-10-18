@@ -1,0 +1,56 @@
+Multiple Explanation Patterns
+
+Uri J. Schild
+Yaakov Kerner1
+
+Department of Mathematics and Computer Science
+Bar Ilan University, Ramat-Gan 52900, Israel
+schild@bimacs.biu.ac.il
+kerner@blmacs.biu.ac.il
+
+
+
+Abstract
+In the Case-Based Reasoning paradigm cases are often
+given initially in natural language in the form of a “story”. While this
+textual form is appropriate for humans, it is often not suitable for direct
+application by a computer. Our paper uses the legal domain of
+sentencing for criminal offences to illustrate an approach to indexing,
+knowledge representation of stories and their application in reasoning.
+This approach extends the well-known concept of Explanation Patterns.
+
+6.	References
+
+1.	Schank R.C.: Tell me a Story - A New Look at Real and Artificial Memory. Charles
+Scribner’s Sons, Macmillan Pubi. Co., New York, 1990
+2.	Schank R.C., Abelson R.P.: Scripts, Plans, Goals and Understanding: An Inquiry into
+Human Knowledge Structures. Lawrence Erlbaum Assoc., Hillsdale, NJ, 1977
+3.	Schank R.C.: Dynamic Memory. Cambridge University Press, 1982
+4.	Kolodner J.L.: Maintaining Organization in a Conceptual Memory for Events.
+Cognitive Science, 7, 1983, p.281-328
+5.	Kolodner J.L: Organization and Retrieval in a Conceptual Memory for Events. IJCAI-
+81, 1981, p.227-233
+6.	Lehnert W., Dyer M.G., Johnson P., Yang C., Harley S.: BORIS - An Experiment in
+In-Depth Understanding of Narratives. Artificial Intelligence, 20, 1983, p.15-62
+7.	Dyer M.G.: In-Depth Understanding. MIT Press, Cambridge, Mass., 1983
+8.	Kolodner J.L., Simpson R.L., Sycara-Cyranski K.: A Computer Model of Case-Based
+Reasoning in Problem Solving. IJCAI-85, 1985, p.284-290
+9.	Schubert L.K., Hwang C.E.: An Episodic Knowledge Representation for Narrative
+Texts. First Int. Conf. on Principles of K R and Reasoning. 1989, p.444-458
+10.	Rain W.M.: JUDGE. In: Riesbeck C.K., Schank R.C.: Inside Case-Based Reasoning.
+Lawrence Erlbaum Assoc., Hillsdale, NJ, 1989, p.93-163
+11.	Kass A.M., Leake D.B., Owens C.C.: Swale: A Program that Explains. In: Schank R.C.
+Explanation Patterns: Understanding Mechanically and Creatively. Lawrence
+Erlbaum Assoc., Hillsdale, NJ, 1986, p.232-254
+12.	Kass A.M.: Adaption-Based Explanation: Extending Script/Frame Theory to handle
+Novel Input. IJCAI-89, 1989, p.141-147
+13.	Schank R.C.: Explanation Patterns. Lawrence Erlbaum Assoc., Hillsdale, NJ, 1986
+14.	Kolodner J.L.: Retrieving Events from a Case Memory: A Parallel Implementation.
+Proc. of a Workshop on CBR, Morgan Kaufman, San Mateo, 1988, p.233-249
+15.	Redmond M.: Distributed Cases for Case-Based Reasoning; Facilitating Use of
+Multiple Cases. AAAI-90, 1990, p.304-309
+16.	Branting L. Karl: Reasoning with Portions of Precedents. Proc. of Third International
+Conference on Al and Law. ACM Press, New York, 1991, p.145-154
+17.	Tversky A.: Features of Similarity. Psychological Review, 84, 4, 1977, p.327-352
+18.	Kass A.M.: Developing Creative Hypotheses. Technical Report #6, ILS, 1990
+19.	Thomas D.A.: Principles of Sentencing. Heineman, London, 1979.

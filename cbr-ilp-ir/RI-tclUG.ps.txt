@@ -1,0 +1,53 @@
+Tcl Commands as Media in a Distributed Multimedia Toolkit *
+
+Jonathan L. Herlocker
+Joseph A. Konstan
+Department of Computer Science
+University of Minnesota
+Minneapolis, MN 55455
+{herlocke,konstan}@cs.umn.edu
+
+Introduction
+Conventional multimedia applications focus on audio, video, image, and text media. In this paper, we
+introduce a more flexible and more powerful medium­­a stream of commands. This stream of commands­
+­Tcl[1] commands in particular­can be used to implement animation, device control, user­interfaces, and
+many other less­conventional media types.
+A command stream is a real­time medium composed of discrete commands. The commands may reside
+anywhere on the network, but they are executed locally on the machine where other medias are displayed.
+More generally, they may reside and be executed on any network­connected machines. Since a command
+stream will be only one media type in an integrated multimedia toolkit, we must be able to operate on it
+like any other media stream. Therefore a command stream must support the following operations:
+. Playback in reverse.
+. Playback at variable speeds (normal, fast­forward, fast­rewind).
+. Random access to any point of the stream.
+. Synchronization with discrete elements of other media streams, such as video frames and
+audio samples.
+Tcl commands are particularly useful as the basis for the command stream. They are general, placing few
+restrictions on the actions we can perform. Tcl also provides a ready­to­use interpreter and integration
+into a networked environment [2]. Tcl commands can be used to access powerful libraries such as Tk[1],
+to generate user interfaces, and Expect[3], to operate interactive processes.
+We implemented the Tcl command stream as a new medium for the Berkeley Continuous Media Toolkit
+(CMT) [4]. CMT provides support for several media types (including audio & video), network transmis­sion 
+of media, and a timeline based synchronization mechanism (shared logical clock.) By adding the Tcl
+stream to CMT, we are able to integrate Tcl streams with other media in presentations.
+This paper presents the Tcl command stream and it's implementation. We begin with a brief introduction
+to the Continuous Media Toolkit, followed by a description and discussion of experiences with TclStream
+1.0, the initial implementation of the command stream. We follow this with a discussion of one of the
+fundamental challenges in command streams ­ developing an authoring interface that allows real people
+to create them. We conclude the paper with our plans for TclStream 2.0, some observations about Tcl 
+fea­tures we would like to have, and some general conclusions.
+
+
+
+References
+1. John K. Ousterhout. Tcl and the Tk Toolkit. Addison­Wesley, Reading, Massachusetts, 1994.
+2. Brian C. Smith, Lawrence A. Rowe, Stephen C. Yen Tcl Distributed Programming, Proc. of the 1993
+Tcl/TK Workshop, Berkeley, CA, June 1993.
+3. Don Libes. Expect: Scripts for Controlling Interactive Processes. Computing Systems: the Journal of
+the USENIX Association. Volume 4, Number 2. Spring 1991.
+4. Lawrence A. Rowe and Brian C. Smith. A continuous media player. Proceedings of the Third Inter­national 
+Workshop on Network and Operating Systems Support for Digital Audio and Video, p.
+x+416, 376­86.
+5. Frank Gadegast. The MPEG­FAQ. Version 3.2, Aug 1994. http://www.cs.tu­berlin.de/~phade/mpeg/
+faq/mpegfa32.zip.
+

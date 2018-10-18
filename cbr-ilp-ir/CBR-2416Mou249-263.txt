@@ -1,0 +1,79 @@
+Similarity Assessment for Generalizied Cases
+by Optimization Methods
+
+Babak Mougouie1 and Ralph Bergmann2
+
+1 Max-Planck Institut für Informatik, Saarbrücken, Germany
+mbabak@mpi-sb.mpg.de
+2 University of Hildesheim, Data- arid Knowledge Management Group
+P0-Box 101363, D-31113 Hildesheim, Germany
+bergmann@dwm.uni-hildesheim.de
+
+
+
+Abstract. Generalized cases are cases that cover a subspace rather than
+a point in the problem-solution space. Generalized cases can be represented 
+by a set of constraints over the case attributes. For such representations, 
+the similarity assessment between a point query and generalized
+cases is a difficult problem that is addressed in this paper. The task is
+to find the distance (or the related similarity) between the point query
+and the closest point of the area covered by the generalized cases, with
+respect to some given similarity measure. We formulate this problem as a
+mathematical optimization problem and we propose a new cutting plane
+method which enables us to rank generalized cases according to their
+distance to the query.
+References
+
+1.	M. Avriel and B. Golany. Mathematical Programming for Industrial Engineers.
+Marcel Dekker, INC., 1996.
+2.	Ray Bareiss. Exemplar-Based Knowledge Acquisition: A unified Approach to Concept 
+Representation, Classification and Learning. Academic Press, 1989.
+3.	M. S. Bazaraa, H.D. Sherali, and Shetty C.M. NonLinear Programming, Theorey
+and Algorithms. 2nd Edition, Wiley, 1993.
+4.	R. Bergmann. Experience Management: Foundations, Development Methodology,
+and Internet-based Applications. Springer, forthcomming, 2002.
+5.	R. Bergmann and I. Vollrath. Generalized cases: Representation and steps towards
+efficient similarity assessment. In W. Burgard, Th. Christaller, and A. B. Gremers
+editors, KI-99: Advances in Artificial Intelligence., LNAI 1701. Springer, 1999.
+6.	R. Bergmann, I. Vollrath, and T. Wahlmann. Generalized cases and their application 
+to electronic designs. In E. Melis, editor, 7. German Workshop on Case-Based
+Reasoning (GWCBR ‘99)., 1999.
+7.	Ralph Bergmann. Effizientes Problemlösen durch flezible Wiederverwendung von
+Fällen auf verschiedenen Abstraktionsebenen. DISKI 138. infix, 1996.
+8.	L. Blum, F. Cucker, M. Shub, and Smale S. Complexity and Real Computation.
+Springer, 1997.
+9.	H.-D. Burkhard and M.M. Richter. Similarity in case-based reasoning and fuzzy
+theory. In S.K. Pal, T.S. Dillon, and D.S. Yeung, editors, Soft Computing in Case-Based 
+Reasoning, chapter 2. Springer, 2000.
+10.	R. Horst and H. Thy. Global Otimization: Deterministic Approaches. Springer,
+1993.
+11.	Kefeng Hua, Ian Smith, and Boi Faltings. Integrated case-based building design. In
+Stefan Wess, Klaus-Dieter Althoff, and Michael M Richter, editors, Topics in Case-Based 
+Reasoning. Proc. Of the First European Workshop on Case-Based Reasoning
+(EWCBR-93), Lecture Notes in Artificial Intelligence, 837, pages 436—445. Springer
+Verlag, 1993.
+12.	Janet L Kolodner. Retrieval and Organizational Strategies in Conceptual Memory.
+PhD thesis, Yale University, 1980.
+13.	Jeff Lewis. Intellectual property (IP) components. Artisan Components, Inc., [web
+page], http://www.artisan.com/ip.html, 1997. [Accessed 28 Oct 1998].
+14.	B. Mougouie. Optimization of distance/similarity functions under linear and non-linear 
+constraints with application in case-based reasoning. Diplomarbeit, Max-Planck 
+Institut für Informatik, Saarbrücken, Germany., 2001.
+15.	S. Nickel. Convex analysis. Technical report, Department of Mathematics, University 
+of Kaiserslautern, Kaiserslautern, Germany, 1998.
+16.	L. Portinale, P. Torasso, and D. Magro. Selecting most adaptable diagnostic solutions 
+thorugh pivoting-based retrieval. In David B Leake and Enric Plaza, editors,
+Case-Based Reasoning Research and Development, Proc. ICCBR-97, Lecture Notes
+in Artificial Intelligence, 1266, pages 393—402. Springer Verlag, 1997.
+17.	Lisa Purvis and Pearl Pu. Adaptation using constraint satisfaction techniques.
+Lecture Notes in Artificial Intelligence, 1010, pages 289—300. Springer Verlag, 1995.
+18.	S Salzberg. A nearest hyperrectangle learning method. Machine Learning, 6:277—
+309, 1991.
+19.	Jörg W. Schaaf. Fish and shrink: a next step towards efficient case retrieval in large
+scaled case bases. In Ian Smith and Boi Faltings, editors, Advances in Case-Based
+Reasoning, Lecture Notes in Artificial Intelligence, 1186, pages 362—376. Springer
+Verlag, 1996.
+20.	A. Schoebel. Lecture notes in location theory. Technical report, Department of
+Mathematics, University of Kaiserslautern, Kaiserslautern, Germany, 2000.
+21.	Thomas Wahlmann. Implementierung einer skalierbaren diskreten Kosinus transformation 
+in VHDL. Diploma thesis, University of Siegen, 1999.

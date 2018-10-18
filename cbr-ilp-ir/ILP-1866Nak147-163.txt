@@ -1,0 +1,68 @@
+Solving Selection Problems Using Preference
+Relation Based on Bayesian Learning
+
+Tomofumi Nakano and Nobuhiro Inuzuka
+
+Nagoya Institute of Technology,
+Gokiso-cho, Showa-ku, Nagoya 466-8555, Japan
+{tnakano, inuzuka}@ics.nitech.ac.jp
+
+
+
+Abstract. This paper defines a selection problem which selects an 
+appropriate object from a set that is specified by parameters. We discuss
+inductive learning of selection problems and give a method combining
+inductive logic programming (ILP) and Bayesian learning. It induces
+a binary relation comparing likelihood of objects being selected. Our
+methods estimate probability of each choice by evaluating variance of an
+induced relation from an ideal binary relation. Bayesian learning 
+combines a prior probability of objects and the estimated probability. By
+making several assumptions on probability estimation, we give several
+methods. The methods are applied to Part-of-Speech tagging.
+References
+
+1.	J. Cussens. “Part-of-Speech Disambiguation Using ILP”, Technical Report PRG-
+TR-25-96, Oxford University Computing Laboratory, 1996.
+2.	J. Cussens. “Bayesian Inductive Logic Programming with Explicit Probabilistic
+Bias”, Technical Report PRG-TR-24-96, Oxford University Computing Laboratory, 1996.
+3.	J. Cussens. “Part-of-Speech Tagging Using Progol”, Proc. 7th Int’l Workshop on
+ILP, LNAI 1297, pp. 93—108, Springer, 1997
+4.	J. Cussens. “Using Prior Probabilities and Density Estimation for Relational 
+Classification”, Proc. 8th Int’l Conf. on ILP, LNAI 1446, Springer, pp. 106—115, 1998.
+5.	J. Cussens, S. Dzeroski and T. Erjavec. “Morphosintactic Tagging of Solovene
+Using Progol”, Proc. 9th Int’l Workshop on ILP, LNAI 1634, Springer, pp. 68—79,
+1999.
+6.	H. A. David. “Ranking from Unbalanced Paired-Comparison Data”, Biometrika
+74, pp. 432—436, 1987
+7.	L. Dehaspe. “Maximum Entropy Modeling with Clausal Constraints”, Proc. 7th
+Int’l Workshop on ILP, LNAI 1297, Springer, pp. 109—124, 1997.
+8.	P. Flach and N. Lachiche. “1BC: A First Order Bayesian Classifier”, Proc. 9th
+ILP, LNAI 1634, Springer, pp. 92—103, 1999.
+9.	J. D. Hirst, R. D. King and M. J. B. Sternberg, “Quantitative structure-activity
+relationships by neural networks and inductive logic programming. I. The inhibition
+of dihydrofolate reductase by pyrimidines”, Journal of Computer-Aided Molecular
+Design 8 (1994), pp. 405-420, 1994.
+10.	T. Hotváth, Z. Alexin, T. Gyim6thy and S. Wrobel. “Application of Different
+Learning Methods to Hungarian Part-of-Speech Tagging”, Proc. 9th Int’l 
+Workshop on ILP, LNAI 1634, Springer, pp. 128—139, 1999.
+11.	N. Inuzuka, T. Nakano and H. Itoh. “Acquiring Heuristic Value in Search Trees by a
+Relational Learner”, Proc. 11th Int’l Conf. on Applications of Prolog, pp. 157-162,
+1998.
+12.	J Jelonek and J Stefanowski. “Experiments on Solving Multiclass Learning 
+Problems by n2-classifier”, Proc. 10th European Conf. on Machine Learning, LNAI
+1398, Springer, pp. 172—177, 1998.
+13.	D. Koller. “Probabilistic Relational Models” . Proc. 9th ILP, LNAI 1634, Springer,
+pp. 3—13, 1999.
+14.	L. Márquetz and H. Rodriguez. “Part-of-Speech Tagging Using Decision Trees”,
+Proc. 10th European Conf. on Machine Learning, LNAI 1398, Springer, pp. 25—36,
+1998.
+15.	S. Muggleton. “A Learning Model for Universal Representations”, Proc. 4th Int’l
+Workshop on ILP, pp. 139—160, 1994.
+16.	S. Muggleton. “Inverse Entailment and Progol”, New Generation Computing 
+Journal, 13 pp. 245—286, 1995.
+17.	T. Nakano, N. Inuzuka, H. Seki and H. Itoh. “Inducing Shogi Heuristics Using
+Inductive Logic Programming”, Proc. 8th Int’l Conf. on ILP, LNAI 1446, Springer,
+pp. 155—164. 1998.
+18.	S. Slattery and M Craven. “Combining Statistical and Relational Methods for
+Learning in Hypertext Domains”, Proc. 8th Int’l Conf. on ILP, LNAI 1446,
+Springer, pp. 38—52, 1998.

@@ -1,0 +1,78 @@
+Using Case-Based Reasoning for Argumentation
+with Multiple Viewpoints
+
+Nikos Karacapilidis*	Brigitte Trousse*	Dimitris Papadias**
+
+* INRIA Sophia Antipolis, Action AID
+2004 Route des Lucioles BP 93
+06902 Sophia Antipolis Cedex, France
+e-mail: {nikos, trousse}@sophia.inria.fr
+
+** Dept. of Computer Science
+The Hong Kong University of Science and Technology
+Clear Water Bay, Kowloon, Hong Kong
+e-mail: dimitris@cs.ust.hk
+
+
+Abstract. The integration of classical case-based reasoning with other
+problem solving methods attracts increasing research interest in the
+broader area of information and decision support systems. This paper
+presents a framework where CBR and Argumentation Based Reasoning
+jointly aid agents to address various discourse instances in group decision
+making processes. The ability to comprehend and engage in arguments
+is essential for these environments, while use of precedent cases is well-suited. 
+Cases in our model are not merely considered as representations
+of past data, but as flexible entities associated with the underlying view-point 
+of an agent and the evolution of the corresponding discussion. The
+paper provides an object-oriented description of the elements involved,
+and illustrates their dependencies through a comprehensive example.
+References
+
+1.	Aamodt, A., Plaza, E.: Case-Based Reasoning: Foundational Issues, Methodological 
+Variations and System Approaches. Al Communications 7(1), 1996.
+2.	Aamodt, A.: Explanation-driven Retrieval, Reuse, and Learning of Cases. In Proceedings 
+of EWCBR ‘93, pp. 279-284, 1996.
+3.	Alterman, R., Griffin, D.: Remembering Episodes of Question Answering. In Proceedings 
+of EWCBR ‘94, pp. 235-242, 1994.
+4.	Ashley, K.D, Mc Laren, B.M.: Reasoning with Reasons in Case-Based Comparisons. 
+In M. Veloso & A. Aamodt (eds.) Case-Based Reasoning: Research and
+Development, LNAI 1010, Springer-Verlag, pp. 133-144, 1995.
+5.	Ashley, K.D.: Indexing and Analytical Models. In Hammond K.J. (ed.) Proceedings
+of DARPA Workshop on CBR, Morgan Kaufmann, pp. 197-202, 1989.
+6.	Brown, M., Watson, I., Filer, N.: Separating the Cases from the Data: Towards
+More Flexible Case-Based Reasoning. In Proceedings of ICCBR ‘95, LNAI 1010,
+Springer-Verlag, pp. 157-168, 1995.
+7.	Eemeren, F.H. van, Grootendorst, R., Snoeck Henkemans, F.: Pundamentals of
+Argumentation Theory: A Handbook of Historical Backgrounds and Contemporary
+Developments. Lawrence Erblaum Associates, 1996.
+8.	O’Hara, S.: A Blackboard Architecture for Case Re-interpretation of cases. In
+Proceedings of EWCBR ‘94, pp. 337-346, 1994.
+9.	Karacapilidis, N.I., Papadias, D., Gordon, T.: An Argumentation Based Framework 
+for Defeasible and Qualitative Reasoning. In D. Borges & C. Kaestner (eds.)
+Advances in Artificial Intelligence, LNAI 1159, Springer-Verlag, pp. 1-10, 1996.
+10.	Karacapilidis, N.I., Papadias, D.: A Group Decision and Negotiation Support System 
+for Argumentation Based Reasoning. In G. Antoniou & M. Truszczynski (eds.)
+Learning and Reasoning with Complex Representations, LNAI Series, Springer-Verlag, 1997. In Press.
+11.	Kolodner, J.: Case-Based Reasoning, Morgan Kaufmann, 1993.
+12.	Leake, D.B.: Focusing Construction and Selection of Abductive Hypotheses. In
+Proceedings of the 11th IJCAI, pp. 24-29, 1993.
+13.	Rumbaugh, J., Blaha, M., Premerlani, W., Eddy, F., Lorensen, W.: Object-Oriented
+Modeling and Design. Prentice-Hall, 1991.
+14.	Plaza, E., Arcos, J.L., Martin, F.: Cooperative Case-Based Reasoning. In G.
+Weiss (ed.) Distributed Artificial Intelligence meets Machine Learning, LNAI Series, 
+Springer-Verlag, 1997. In press.
+15.	Rissland, E.L., Skalak, D.B.: CABARET: rule interpretation in a hybrid architecture.
+Int. Journal Man-Machine Studies 34, pp. 839-887, 1991.
+16.	Rissland, E.L., Skalak, D.B., Friedman, M.T.: Using Heuristic Search to Retrieve
+Cases that Support Arguments. In Proceedings of CBR ‘93 Workshop, AAAI Press,
+pp. 5-11, 1993.
+17.	Sycara, K.: Resolving Adversarial Conflicts: An Approach Integrating Case-Based
+and Analytic Methods. Ph.D. diss., School of Information and Computer Science,
+Georgia Institute of Technology, 1987.
+18.	Toulmin, S.E.: The Uses of Argument. Cambridge University Press, 1958.
+19.	Trousse, B., Christiaans, H.: Design as a Topos-based Argumentative Activity: A
+Protocol Analysis Study. In N. Cross et. al. (eds) Analysing Design Activity, J.
+Wiley & Sons, pp. 365-388, 1996.
+20.	Trousse, B., Orel, T., Rothenburger, B., Vogel, C., Charrel, P.J.: Models of View-points 
+Correlation, Technical Report D3 of R&T CNES-INRIA Study of Dynamic
+Viewpoints, 1996 (in french).

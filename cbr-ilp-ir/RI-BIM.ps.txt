@@ -1,0 +1,123 @@
+Reducing the Servers' Computation in Private Information
+Retrieval: PIR with Preprocessing 
+
+Amos Beimel y Yuval Ishai z Tal Malkin x
+June 9, 2003
+
+Abstract
+Private information retrieval (PIR) enables a user to retrieve a data item from a database,
+replicated among one or more servers, while hiding the identity of the retrieved item. This
+problem was suggested by Chor, Goldreich, Kushilevitz, and Sudan in 1995, and since then
+efficient protocols with sub-linear communication were suggested. However, in all these protocols
+the servers' computation for each retrieval is at least linear in the size of entire database, even
+if the user requires only a single bit.
+In this paper, we study the computational complexity of PIR. We show that in the standard
+PIR model, where the servers hold only the database, linear computation cannot be avoided. To
+overcome this problem we propose the model of PIR with preprocessing: Before the execution of
+the protocol each server may compute and store polynomially-many information bits regarding
+the database; later on, this information should enable the servers to answer each query of the
+user with more e∆cient computation.
+We demonstrate that preprocessing can significantly save work. In particular, we construct
+for any constants k  2 and  > 0: (1) a k-server protocol with O(n 1=(2k 1) ) communication,
+O(n= log 2k 2 n) work, and O(n 1+ ) storage; (2) a k-server protocol with O(n 1=k+ ) communication 
+and work and n O(1) storage; (3) a computationally-private k-server protocol with O(n  )
+communication, O(n 1=k+ ) work, and n O(1) storage; and (4) a protocol with a polylogarithmic
+number of servers, polylogarithmic communication and work, and O(n 1+ ) storage. On the
+lower bounds front, we prove that the product of the extra storage used by the servers (i.e., in
+addition to the length of the database) and the expected amount of work is at least linear in n.
+Finally, we suggest two alternative models to saving computation, by batching queries and by
+allowing a separate online interaction per future query.
+
+
+References
+[1] A. Ambainis. Upper bound on the communication complexity of private information retrieval.
+In P. Degano, R. Gorrieri, and A. Marchetti-Spaccamela, editors, Proc. of the 24th International 
+Colloquium on Automata, Languages and Programming, volume 1256 of Lecture Notes
+in Computer Science, pages 401{407. Springer, 1997.
+[2] L. Babai, L. Fortnow, L. Levin, and M. Szegedy. Checking computations in polylogarithmic
+time. In Proc. of the 23th Annu. ACM Symp. on the Theory of Computing, pages 21{31, 1991.
+[3] P. Beame, M. E. Saks, X. Sun, and E. Vee. Super-linear time-space tradeo
+ lower bounds for
+randomized computation. In Proc. of the 41st Annu. IEEE Symp. on Foundations of Computer
+Science, pages 169{179, 2000.
+[4] D. Beaver and J. Feigenbaum. Hiding instances in multioracle queries. In C. Cho
+rut and
+T. Lengauer, editors, STACS '90, 7th Annu. Symp. on Theoretical Aspects of Computer Science, 
+volume 415 of Lecture Notes in Computer Science, pages 37{48. Springer-Verlag, 1990.
+[5] D. Beaver, J. Feigenbaum, J. Kilian, and P. Rogaway. Locally random reductions: Improvements 
+and applications. J. of Cryptology, 10(1):17{36, 1997. Early version: Security with small
+communication overhead, CRYPTO '90, volume 537 of Lecture Notes in Computer Science,
+pages 62-76. Springer-Verlag, 1991.
+[6] A. Beimel and Y. Ishai. Information-theoretic private information retrieval: A unified construction. 
+In P. G. Spirakis and J. van Leeuven, editors, Proc. of the 28th International Colloquium 
+on Automata, Languages and Programming, volume 2076 of Lecture Notes in Computer
+Science, pages 912{926. Springer, 2001.
+[7] A. Beimel, Y. Ishai, and E. Kushilevitz. Upper bounds for information-theoretic private information 
+retrieval via a unified construction. Manuscript, 2002. This is a full version of [20]
+and [6].
+[8] A. Beimel, Y. Ishai, E. Kushilevitz, and T. Malkin. One-way functions are essential for single-server 
+private information retrieval. In Proc. of the 31st Annu. ACM Symp. on the Theory of Computing, pages 89{98, 1999.
+[9] A. Beimel, Y. Ishai, E. Kushilevitz, and J. F. Raymond. Breaking the O(n
+1
+2k 1 ) barrier for
+inforamtion-theoretic private information retrieval. In Proc. of the 43rd Annu. IEEE Symp.
+on Foundations of Computer Science, pages 261{270, 2002.
+[10] A. Beimel, Y. Ishai, and T. Malkin. Reducing the servers' computation in private information
+retrieval: PIR with preprocessing. In M. Bellare, editor, Advances in Cryptology { CRYPTO
+2000, volume 1880 of Lecture Notes in Computer Science, pages 56{74. Springer, 2000.
+[11] C. Cachin, S. Micali, and M. Stadler. Computationally private information retrieval with
+polylogarithmic communication. In J. Stern, editor, Advances in Cryptology { EUROCRYPT
+'99, volume 1592 of Lecture Notes in Computer Science, pages 402{414. Springer, 1999.
+[12] B. Chor and N. Gilboa. Computationally private information retrieval. In Proc. of the 29th
+Annu. ACM Symp. on the Theory of Computing, pages 304{313, 1997.
+[13] B. Chor, O. Goldreich, E. Kushilevitz, and M. Sudan. Private information retrieval. In Proc. of
+the 36th Annu. IEEE Symp. on Foundations of Computer Science, pages 41{51, 1995. Journal
+version: J. of the ACM, 45:965{981, 1998.
+[14] D. Coppersmith and S. Winograd. Matrix multiplication via arithmetic progressions. Journal
+of Symbolic Computation, 9(3):251{280, 1990.
+[15] G. Di-Crescenzo, Y. Ishai, and R. Ostrovsky. Universal service-providers for private information 
+retrieval. J. of Cryptology, 14(1):37{74, 2001. Preliminary version in Proc. of the 17th
+Annu. ACM Symp. on Principles of Distributed Computing, pages 91{100, 1998.
+[16] G. Di-Crescenzo, T. Malkin, and R. Ostrovsky. Single-database private information retrieval
+implies oblivious transfer. In Advances in Cryptology { EUROCRYPT 2000, volume 1807 of
+Lecture Notes in Computer Science, pages 122{138. Springer, 2000.
+[17] Y. Dodis. Space-time tradeo
+s for graph properties. Master's thesis, MIT, 1998.
+[18] Y. Gertner, S. Goldwasser, and T. Malkin. A random server model for private information
+retrieval. In M. Luby, J. Rolim, and M. Serna, editors, RANDOM '98, 2nd International
+Workshop on Randomization and Approximation Techniques in Computer Science, volume
+1518 of Lecture Notes in Computer Science, pages 200{217. Springer, 1998.
+[19] Y. Gertner, Y. Ishai, E. Kushilevitz, and T. Malkin. Protecting data privacy in private information 
+retrieval schemes. In Proc. of the 30th Annu. ACM Symp. on the Theory of Computing,
+pages 151{160, 1998. Journal version: J. of Computer and System Sciences, 60(3):592{629,
+2000.
+[20] Y. Ishai and E. Kushilevitz. Improved upper bounds on information theoretic private information 
+retrieval. In Proc. of the 31st Annu. ACM Symp. on the Theory of Computing, pages
+79 { 88, 1999.
+[21] Y. Ishai, E. Kushilevitz, R. Ostrovsky, and A. Sahai. Batch codes and their applications.
+Manuscript, 2002.
+[22] T. Itoh. E∆cient private information retrieval. IEICE Trans. Fundamentals of Electronics,
+Communications and Computer Sciences, E82-A(1):11{20, 1999.
+[23] E. Kushilevitz and R. Ostrovsky. Replication is not needed: Single database, computationally-private 
+information retrieval. In Proc. of the 38th Annu. IEEE Symp. on Foundations of
+Computer Science, pages 364{373, 1997.
+[24] E. Kushilevitz and R. Ostrovsky. One-way trapdoor permutations are su∆cient for single-database 
+computationally-private information retrieval. In Advances in Cryptology { EURO-CRYPT 
+2000, volume 1807 of Lecture Notes in Computer Science, pages 104{121, 2000.
+[25] T. Malkin. A Study of Secure Database Access and General Two-Party Computation. PhD
+thesis, MIT, 2000. See: http://theory.lcs.mit.edu/cis/cis-theses.html.
+[26] E. Mann. Private access to distributed information. Master's thesis, Technion { Israel Institute
+of Technology, Haifa, 1998.
+[27] P. B. Miltersen. Cell probe complexity { a survey. Advances in Data Structures (Pre-conference
+Workshop of FSTTCS'99), 1999. See: http://www.daimi.au.dk/bromille/Papers/.
+[28] P. B. Miltersen, N. Nisan, S. Safra, and A Wigderson. On data structures and asymmetric
+communication complexity. J. of Computer and System Sciences, 57(1):37{49, 1998.
+[29] R. Ostrovsky and V. Shoup. Private information storage. In Proc. of the 29th Annu. ACM
+Symp. on the Theory of Computing, pages 294{303, 1997.
+[30] J. P. Stern. A new and e∆cient all-or-nothing disclosure of secrets protocol. In Advances
+in Cryptology { ASIACRYPT '98, volume 1514 of Lecture Notes in Computer Science, pages
+357{371. Springer, 1998.
+[31] A. Yamamura and T. Saito. Private information retrieval based on the subgroup membership
+problem. In V. Varadharajan and Y. Mu, editors, ACISP 2001, volume 2119 of Lecture Notes
+in Computer Science, pages 206{220. Springer-Verlag, 2001.
+[32] A. C. C. Yao. Should tables be sorted? J. of the ACM, 28(3):615{628, 1981.

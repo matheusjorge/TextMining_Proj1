@@ -1,0 +1,48 @@
+Integrating Semantic Structure and Technical
+Documentation in Case-Based Service Support
+Systems
+
+Gerd Kamp
+
+Computer Science Department,University of Hamburg
+Vogt-Kölln-Str. 30, 22527 Hamburg
+
+
+Abstract. Help desk systems are one of the most successful application
+areas of case-based reasoning. However, case-based reasoning techniques
+cover only parts of the whole help desk scenario. One missing part is providing 
+access to the technical docummentation. Combining these becomes
+especially important in the area of service support systems, where the
+service person has no access to the printed documentation. This paper
+presents a concept how to integrate CBR and technical documentation
+for service support systems.
+References
+
+1.	K.D. Althoff, S. Wess, B. Bartsch-Spörl, D. Janetzko, Frank Maurer, and Angi
+Voss. Fallbasiertes Schliessen in Expertensystemen: Welche Rolle spielen Fälle für
+wissensbasierte Systeme KI, (4):14—21, 1992.
+2.	Paul Harmon (ed.). Expert systems for help desks. Intelligent Software Strategies,
+9 1991.
+3.	Paul Harmon (ed.). Case—based reasoning I -- III. Intelligent Software Strategies,
+1991—1992.
+4.	Gerd Kamp. Ähnlichkeit in AMS. In Workshop Ähnlichkeit von Fällen beim
+fallbasierten Schliessen pages 83—86. K.D. Althoff and S. Wess and B. Bartsch—
+Spörl and D. Janetzko, 1992.
+5.	Peter D. Karp. The design space of frame knowledge representation systems. SRI
+AI Center Technical Note 520, SRI International, 1993.
+6.	Janet L. Kolodner. Improving human decision making through case—based decision
+aiding. AI Magazine, 12(2):52—68, 1991.
+7.	M. Manago, R. Bergmann, N. Conruyt, R.. Traphöner, J.Pasley, J. LeRenard,
+F. Maurer, S. Wess, K D Althoff, and S. Dumont. Casuel: A common case representation 
+language. Technical rel port, INRECA, 1993.
+8.	G. Pews, F. Weller, and S. Wess. Bestimmung der Ähnlichkeit in der fallbasierten
+Diagnose mit simulationfähigen Maschinenmodellen. In Workshop: Ähnlichkeit
+von Fällen beim fallbasierten Schliessen. K.D. Althoff and S. Wess and B. Bartsch—
+Spörl and D. Janetzko, 1992.
+9.	Peter Schäuble. A tutorial on information retrieval. In Proc. of the 1993 Workshop
+on CBR AK CBR. of the GI, 1993. (to appear).
+10.	Stephen Shade. Case-based reasoning: A research paradigm. AI Magazine,
+12(1):42—55, 1991.
+11.	S. Wess. PATDEX — ein Ansatz zur wissensbasierten und inkrementellen
+Verbesserung von Ähnlichkeitsbewertungen in der fallbasierten Diagnostik. In
+Expertensysteme 93, pages 125—1:38. F. Puppe and A. Günter, 1993.

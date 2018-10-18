@@ -1,0 +1,54 @@
+Rule Evaluation Measures: A Unifying View
+
+Nada Lavrac1, Peter Flach2, Blaz Zupan3,1
+
+1 Department of Intelligent Systems
+Jozef Stefan Institute, Ljubljana, Slovenia
+2 Department of Computer Science
+University of Bristol, United Kingdom
+3 Faculty of Computer and Information Sciences
+University of Ljubljana, Slovenia
+
+
+
+Abstract. Numerous measures are used for performance evaluation in
+machine learning. In predictive knowledge discovery, the most frequently
+used measure is classification accuracy. With new tasks being addressed
+in knowledge discovery, new measures appear. In descriptive knowledge
+discovery, where induced rules are not primarily intended for classification, 
+new measures used are novelty in clausal and subgroup discovery,
+and support and confidence in association rule learning. Additional measures 
+are needed as many descriptive knowledge discovery tasks involve
+the induction of a large set of redundant rules and the problem is the
+ranking and filtering of the induced rule set. In this paper we develop
+a unifying view on some of the existing measures for predictive and descriptive 
+induction. We provide a common terminology and notation by
+means of contingency tables. We demonstrate how to trade off these
+measures, by using what we call weighted relative accuracy. The paper
+furthermore demonstrates that many rule evaluation measures developed
+for predictive knowledge discovery can be adapted to descriptive knowledge 
+discovery tasks.
+References
+
+1.	P. Clark and T. Niblett (1989). The CN2 induction algorithm. Machine Learning
+3, pp. 261—284.
+2.	L. Dehaspe and L. De Raedt (1997). Mining association rules with multiple relations. 
+In N. Lavrac and S. Dzeroski (Eds.), Proc. ‘7th Int. Workshop on Inductive
+Logic Programming (ILP’97,), pp. 125—132, LNAI 1297, Springer-Verlag.
+3.	P.A. Flach and N. Lachiche (1999). A first-order approach to unsupervised learning.
+Submitted.
+4.	P.A. Flach and I. Savnik (1999). Database dependency discovery: a machine learning 
+approach. AI Communications, to appear.
+5.	W. Klösgen (1996). Explora: A multipattern and multistrategy discovery assistant. 
+In U.M. Fayyad, G. Piatetsky-Shapiro, P. Smyth and R. Uthurusamy (Eds.),
+Advances in Knowledge Discovery and Data Mining, 249—271, AAAI Press.
+6.	T. Mitchell (1997). Machine Learning, McGraw Hill.
+7.	P.M. Murphy and D.W. Aha (1994). UCI Repository of machine learning databases
+[http://www.ics.uci.edu/~mlearn/mlrepository.html]. Irvine, CA: University of
+California, Department of Information and Computer Science.
+8.	S. Wrobel (1997). An algorithm for multi-relational discovery of subgroups. In
+J. Komorowski and J. Zytkow (Eds.), Proc. Pirst European Symposium on Principles 
+of Data Mining and Knowledge Discovery PKDD ‘97, Springer-Verlag.
+9.	G. Piatetsky-Shapiro (1991). Discovery, analysis and presentation of strong rules.
+In G. Piatetsky-Shapiro and W. Frawley (Eds.), Knowledge Discovery in Databases,
+229—249. AAAI Press.

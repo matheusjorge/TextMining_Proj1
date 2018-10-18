@@ -1,0 +1,74 @@
+The Life Cycle of Test Cases in a CBR System
+
+Mirjam Minor and Alexandre Hanft
+
+Al Lab, Dept. of Computer Science
+Humboldt University, D-10099 Berlin
+{minor,hanft}@informatik.hu-berlin.de
+
+
+
+Abstract. In this article, a case-based approach for managing cases
+with a life cycle is introduced. The authors present an application for
+the accompaniment and support of software engineers in their work of
+specifying test cases. Some general aspects of corporate knowledge editing 
+are discussed. The model of life cycles provides a solution for editing 
+and retrieving cases with several degrees of maturity. It is realised
+by persistent case numbers, explicit revision states, and a multi-layered
+similarity function. Some experiments are performed with a prototypical
+system.
+References
+
+1.	D. W. Aha and H. Muñoz-Avila. Exploring Synergies of Knowledge Management
+and Case-Based Reasoning. Technical Report AIC-99-008, Naval Research Lab,
+1999.
+2.	K.-D. Althoff, R. Bergmann, and L. K. Branting, editors. Case-Based Reasoning
+Research and Development, Proc. ICCBR-99, Lecture Notes in Artificial Intelligence, 
+1650. Springer Verlag, 1999.
+3.	K.-D. Althoff, M. Nick, and C. Tautz. CBR-PEB: An Application Implementing
+Reuse Concepts of the Experience Factory for the Transfer of CBR System Know-How. 
+In E. Melis, editor, CBR-PEB: An Application Implementing Reuse Concepts
+of the Experience Factory for the Transfer of CBR System Know-How, pages 39—48,
+Saarbrücken, 1999. Universität Saarbrücken.
+4.	B. Bartsch-Spörl. Cases as Knowledge Assets. In S. Schmitt and I. Vollrath, editors,
+Challenges for Case-Based Reasoning — Proceedings of the ICCBR ‘99 Workshops
+—,	pages I—25—I—28, Kaiserslautern, 1999. Universität Kaiserslautern.
+5.	R. Bergmann, S. Breen, E. Fayol, M. Göker, M. Manago, S. Schmitt, J. Schumacher, 
+A. Stahl, S. WeB, and W. Wilke. Collecting experience on the systematic
+development of cbr applications using the inreca methodology. In Smyth and Cunningham 
+[19], pages 460—470.
+6.	H.-D. Burkhard. Extending some Concepts of CBR — Foundations of Case Retrieval 
+Nets. In Case-Based Reasoning Technology — Prom Foundations to Applications [13], pages 17—50.
+7.	C. Carrick and Q. Yang. Activating cbr systems through autonomous information
+gathering. In Althoff et al. [2], pages 74—88.
+8.	T. Dingsoyr. A Lifecycle Process for Experience Databases. In S. Schmitt and
+I. Vollrath, editors, Challenges for Case-Based Reasoning — Proceedings of the IC-
+CBR ‘99 Workshops —, pages I—9-I—13, Kaiserslautern, 1999. Universitàt Kaiserslautern.
+9.	L. Gieri and M. Lenz, editors. 6th German Workshop on CBR, IMIB Series Vol.
+7, Rostock, 1998. Universitàt Rostock.
+10.	M. Gómez-Albarrán, P. A. Gonzáles-Calero, B. Díaz-Agudo, and C. Fernández-Conde. 
+Modelling the CBR Life Cycle Using Description Logics. In Althoff et al. [2],
+pages 147—161.
+11.	M. Kunze and A. Hübner. CBR on Semi-structured Documents: The Experience-Book 
+and the FAllQ Project. In Gierl and Lenz [9], pages 77—85.
+12.	D. B. Leake and D. Wilson. Combining CBR with Interactive Knowledge Acquisition, 
+Manipulation and Reuse. In Althoff et al. [2], pages 203—2 17.
+13.	M. Lenz, H.-D. Burkhard, B. Bartsch-Spörl, and S. Wess. Case-Based Reasoning
+Technology — From Foundations to Applications. LNAI 1400. Springer Verlag,
+Berlin, 1998.
+14.	M. Lenz, K.-H. Busch, A. Hübner, and S. Wess. The SIMATIC Knowledge Manager. 
+In KM and CBR [1], pages 40—45.
+15.	M. Lenz, A. Hübner, and M. Kunze. Textual CBR. In Case-Based Reasoning
+Technology — From Foundations to Applications [13].
+16.	M. Minor. Managing Test Specifications with Case-Based Reasoning. In E. Melis,
+editor, 7th German Workshop on CBR, pages 132—139, Saarbrücken, 1999. Universitàt 
+Saarbrücken.
+17.	M. Minor and A. Hanft. Cases with a Life-Cycle. In S. Schmitt and I. Vollrath, 
+editors, Challenges for Case-Based Reasoning — Proceedings of the ICCBR ‘99
+Workshops —, pages I—3—I—8, Kaiserslautern, 1999. Universitàt Kaiserslautern.
+18.	B.-U. Pagel and H.-W. Six. Software Engineering: Die Phasen der Softwareentwicklung. 
+Addison-Wesley, Bonn, erste edition, 1994.
+19.	B. Smyth and P. Cunningham, editors. Advances in Case-Based Reasoning, Lecture
+Notes in Artificial Intelligence, 1488. Springer Verlag, 1998.
+20.	O. van Ewyk. Preparing for the Knowledge Era.
+See http://www.hci.com.au/hcisite/articles/prepare.htm, 1998.

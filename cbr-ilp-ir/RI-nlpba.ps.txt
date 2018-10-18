@@ -1,0 +1,52 @@
+Cross­Lingual Medical Information Retrieval through Semantic Annotation
+
+SŸpela Vintar § , Bärbel Ripplinger * , Paul Buitelaar §
+§ DFKI GmbH
+Stuhlsatzenhausweg 3, 66123 Saarbrücken, Germany
+{vintar, paulb}@dfki.de
+*Eurospider Information Technology AG
+Schaffhauserstrasse 18
+CH 8006 Zürich, Switzerland
+ripplinger@eurospider.com
+
+Abstract
+We present a framework for concept­based, cross­lingual information retrieval (CLIR) in
+the medical domain, which is under development in the MUCHMORE project. Our
+approach is based on using the Unified Medical Language System (UMLS) as the primary
+source of semantic data, whereby documents and queries are annotated with multiple layers
+of linguistic information. Linguistic processing includes POS­tagging, morphological
+analysis, phrase recognition and the identification of medical concepts and semantic
+relations between them.
+The paper describes experiments in mono­ and bilingual document retrieval, performed on
+a parallel English­German corpus of medical abstracts. Results show on the one hand that
+linguistic processing, especially lemmatisation and compound analysis, is a crucial step to
+achieving good baseline performance. On the other hand we show that semantic
+information, specifically the combined use of concepts and relations, significantly increases
+performance in cross­lingual retrieval.
+
+References
+1. Brants T. 2000. TnT ­ A Statistical Part­of­Speech Tagger. In: Proceedings of 6 th ANLP
+Conference, Seattle, WA.
+2. Eichmann D., Ruiz M. and Srinivasan P. 1998. Cross­Language Information Retrieval with the
+UMLS Metathesaurus. In: Proceedings of the 21 st Annual International ACM SIGIR Conference
+on Research and Development in Information Retrieval, Melbourne, Australia.
+3. Gaussier E., Grefenstette G., Hull D.A. and Schulze B.M. 1998. Xerox TREC­6 site report: Cross
+language text retrieval. In: Proceedings of The Sixth Text Retrieval Conference (TREC­6).
+Gaitersburg, MD: National Institute of Standards Technology (NIST).
+4. Gey F.C. and Jiang H. 1999. English­German Cross­Language Retrieval for the GIRT Collection
+­ Exploiting a Multilingual Thesaurus. In: The Eighth Text REtrieval Conference (TREC­8), draft
+notebook proceedings.
+5. Gonzalo J., Verdejo F. and Chugur I. 1999. Using EuroWordNet in a Concept­based Approach to
+Cross­Language Text Retrieval Applied Artificial Intelligence:13, 1999.
+6. Oard D. 1998. A comparative study of query and document translation for cross­lingual
+information retrieval In: Proceedings of AMTA, Philadelphia, PA.
+7. Petitpierre D. and Russell G. 1995. MMORPH ­ The Multext Morphology Program. Multext
+deliverable report for the task 2.3.1, ISSCO, University of Geneva.
+8. Singhal A., C. Buckley, and M. Mitra. Pivoted Document Length Nomalization. In: Proceedings of
+the 19 th ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 21­
+29, 1996, Zurich.
+9. Skut W. and Brants T. 1998. A Maximum Entropy partial parser for unrestricted text. In
+Proceedings of the 6th ACL Workshop on Very Large Corpora (WVLC), Montreal.
+10. Vossen P. 1997. EuroWordNet: a multilingual database for information retrieval. In: Proceedings
+of the DELOS workshop on Cross­language Information Retrieval, March 5­7, 1997, Zurich.
+

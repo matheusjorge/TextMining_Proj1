@@ -1,0 +1,70 @@
+1BC: A First-Order Bayesian Classifier
+
+Peter Flach and Nicolas Lachiche
+
+University of Bristol, United Kingdom
+{flach,lachiche}@cs.bris.ac.uk
+
+
+
+Abstract. In this paper we present iBO, a first-order Bayesian Classifier. 
+Our approach is to view individuals as structured terms, and to distinguish 
+between structural predicates referring to subterms (e.g. atoms
+from molecules), and properties applying to one or several of these subterms (
+e.g. a bond between two atoms). We describe an individual in
+terms of elementary features consisting of zero or more structural predicates 
+and one property; these features are considered conditionally independent 
+following the usual naive Bayes assumption. 1BC has been implemented 
+in the context of the first-order descriptive learner Tertius,
+and we describe several experiments demonstrating the viability of our
+approach.
+References
+
+1.	L. De Raedt. Attribute value learning versus inductive logic programming: The
+missing links (extended abstract). In D. Page, editor, Proc. of the 8th Int. Conference 
+on Inductive Logic Programming, LNAI 1446, pages 1—8. Springer-Verlag,
+1998.
+2.	L. Dehaspe and L. De Raedt. Mining association rules in multiple relations. In
+S. Dzeroski and N. Lavrac, editors, Proc. of the 7th Int. Workshop on Inductive
+Logic Programming, LNAI 1297, pages 125—132. Springer-Verlag, 1997.
+3.	T. G Dietterich, R. H. Lathrop, and T. Lozano-Perez. Solving the multiple instance
+problem with axis-parallel rectangles. Artificial Intelligence, 89:31—71, 1997.
+4.	B. Dolsak, I. Bratko, and A. Jezernik. Finite element mesh design: An engineering
+domain for ILP application. In S. Wrobel, editor, Proc. of the 4th Int. Workshop
+on Inductive Logic Programming, GMD-Studien 237, pages 305—320, 1994.
+5.	P. Domingos and M. Pazzani. On the optimality of the simple Bayesian classifier
+under zero-one loss. Machine Learning, 29:103—130, 1997.
+6.	P.A. Flach, C. Giraud-Carrier, and J.W. Lloyd. Strongly typed inductive concept
+learning. In D. Page, editor, Proc. of the 8th Int. Conference on Inductive Logic
+Programming, LNAI 1446, pages 185—194. Springer-Verlag, 1998.
+7.	P.A. Flach and N. Lachiche. A first-order approach to unsupervised learning.
+Submitted, 1999.
+8.	I. Kononenko and I. Bratko. Information-based evaluation criterion for classifier’s
+performance. Machine Learning, 6:67—80, 1991.
+9.	N. Lavrac and S. Dzeroski. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, 1994.
+10.	R. Piola M. Botta, A. Giordana. FONN: Combining first order logic with connectionist 
+learning. In Proc. of the 14th Int. Conference on Machine Learning, pages
+46—56,	1997.
+11.	S. Muggleton. Inverse entailment and Progol. New Generation Computing, 13(3-
+4):245—286, 1995.
+12.	S. Muggleton, M. Bain, J. Hayes-Michie, and D. Michie. An experimental comparison 
+of human and machine learning formalisms. In Proc. Sixth Int. Workshop on
+Machine Learning, pages 113—118. Morgan Kaufmann, 1989.
+13.	U. Pompe and I. Kononenko. Naive Bayesian classifier within ILP-R. In
+L. De Raedt, editor, Proc. of the 5th Int. Workshop on Inductive Logic Programming, 
+pages 417—436. Dept. of Computer Science, Katholieke Universiteit Leuven,
+1995.
+14.	R. Rymon. Search through systematic set enumeration. In Proc. Third Int. Conf.
+on Knowledge Representation and Reasoning, pages 539—550. Morgan Kaufmann,
+1992.
+15.	M. Sebag. A stochastic simple similarity. In D. Page, editor, Proc. of the 8th Int.
+Conference on Inductive Logic Programming, LNAI 1446, pages 95—105. Springer-
+Verlag, 1998.
+16.	A. Srinivasan, S. H. Muggleton, R. D. King, and M. J. E. Sternberg. Mutagenesis:
+ILP experiments in a non-determinate biological domain. In S. Wrobel, editor,
+Proc. of the 4th Int. Workshop on Inductive Logic Programming, GMD-Studien
+237, pages 217—232, 1994.
+17.	J.-D. Zucker and J.-G. Ganascia. Learning structurally indeterminate clauses. In
+D. Page, editor, Proc. of the 8th Int. Conference on Inductive Logic Programming,
+LNAI 1446, pages 235—244. Springer-Verlag, 1998.

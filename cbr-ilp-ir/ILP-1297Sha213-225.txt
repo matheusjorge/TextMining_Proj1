@@ -1,0 +1,72 @@
+Distance Between Herbrand Interpretations:
+A Measure for Approximations to a Target Concept
+
+Shan-Hwei Nienhuys-Cheng
+cheng@cs.few.eur.nl
+
+Department of Computer Science, H4-19
+Erasmus University Rotterdam
+P.O. Box 1738, 3000DR, Rotterdam, the Netherlands
+
+
+Abstract. We can use a metric to measure the differences between elements 
+in a domain or subsets of that domain (i.e. concepts). Which
+particular metric should be chosen, depends on the kind of difference
+we want to measure. The well known Euclidean metric on Rn and its
+generalizations are often used for this purpose, but such metrics are not
+always suitable for concepts where elements have some structure different 
+from real numbers. For example, in (Inductive) Logic Programming
+a concept is often expressed as an Herbrand interpretation of some first-order 
+language. Every element in an Herbrand interpretation is a ground
+atom which has a tree structure.
+We start by defining a metric d on the set of expressions (ground atoms
+and ground terms), motivated by the structure and complexity of the
+expressions and the symbols used therein. This metric induces the Hausdorff 
+metric h on the set of all sets of ground atoms, which allows us to
+measure the distance between Herbrand interpretations. We then give
+some necessary and some sufficient conditions for an upper bound of h
+between two given Herbrand interpretations, by considering the elements
+in their symmetric difference.
+References
+
+1.	D. W. Aha, D. Kibler, and M. K. Albert. Instance-based learning algorithms. Ma.
+chine Learning, 6:37—66, 1991.
+2.	R. Beale and T. Jackson Neural Computing, an Introduction Adam Hilger.
+3.	J. W. de Bakker and J. I. Zucker. Processes and the denotational semantics of
+concurrency. Information and Control, 1/2, 1984.
+4.	J. Dieudonné. Foundations of Modern Analysis. Academic Press, 1969.
+5.	W. Emde and D. Wettschereck. Relational instance-based learning. In: L. Saitta,
+editor, Proceedings of the 13th International Conference on Machine Learning
+(ICML-96), pages 122—130. Morgan Kaufmann, 1996.
+6.	H. Bunke and B.T. Messmer. Similarity measure for strutured representations In:
+S.	Wess, K.D. Aithoff and M. Richter, editors, Topics in Case-Based Reasoning, First
+European workshop, EWCBR-93, pages 106-118, 1993. Springer-Verlag.
+7.	E. M. Gold. Language identification in the limit. Information and Control, 10:447—
+474, 1967.
+8.	A. Hutchinson. Metrics on Terms and Clauses. In: M. Someren, G. Widmer, editors.
+Proceedings of the 9th European Conference on Machine Learning (ECML-97), pages
+138-145, 1997. Springer-Verlag.
+9.	D. T. Kao, R. D. Bergeron, M. J. Cullinane, and T. M. Sparr. Semantics and mathematics 
+of science datasampling. Technical Report 95—14, Department of Computer
+Science, University of New Hampshire, 1995.
+10.	M. J. Kearns and U. V. Vazirani. An Introduction to Computational Learning
+Theory. MIT Press, Cambridge (MA), 1994.
+11.	M. Li and P. Vitányi. An Introduction to Kolmogorov Complexity and Its Applications. 
+Springer-Verlag, Berlin, second edition, 1997.
+12.	J. W. Lloyd. Foundations of Logic Programming. Springer-Verlag, Berlin, second
+edition, 1987.
+13.	S. H. Nienhuys-Cheng and R. de Wolf. A complete method for program specialization 
+based on unfolding. In: W. Wahlster, editor, Proceedings of the 12th European
+Conference on Artificial Intelligence (ECAI-96), pages 438—442. Wiley, 1996.
+14.	S. H. Nienhuys-Cheng and R. de Wolf. Foundations of Inductive Logic Programming, 
+LNAI Tutorial 1228, Springer-Verlag, May 1997.
+15.	G.D. Plotkin. A Note on Inductive Generalization. Machine Intelligence, 5:153—
+163, 1970.
+16.	J.C. Reynolds. Transformational Systems and the Algebraic Structure of Atomic
+Formulas. Machine Intelligence, 5:135—153, 1970.
+17.	C. Rouveirol. Flattening and saturation: Two representation changes for generalization. 
+Machine Learning, 14:219—232, 1994.
+18.	E. Y. Shapiro. Inductive inference of theories from facts. Research Report 192,
+Yale University, 1981.
+19.	D. Wettschereck. A Study of Distance-Based Machine Learning Algorithms. PhD
+thesis, Oregon State University, 1994.

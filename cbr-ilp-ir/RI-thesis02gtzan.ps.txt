@@ -1,0 +1,373 @@
+MANIPULATION, ANALYSIS AND RETRIEVAL
+SYSTEMS FOR AUDIO SIGNALS
+
+GEORGE TZANETAKIS
+FACULTY OF PRINCETON UNIVERSITY
+DEPARTMENT OF COMPUTER SCIENCE
+
+Abstract
+Digital audio and especially music collections are becoming a major part of the average
+computer user experience. Large digital audio collections of sound effects are also used by
+the movie and animation industry. Research areas that utilize large audio collections in­
+clude: Auditory Display, Bioacoustics, Computer Music, Forensics, and Music Cognition.
+In order to develop more sophisticated tools for interacting with large digital audio
+collections, research in Computer Audition algorithms and user interfaces is required.
+In this work a series of systems for manipulating, retrieving from, and analysing large
+collections of audio signals will be described. The foundation of these systems is the design
+of new and the application of existing algorithms for automatic audio content analysis. The
+results of the analysis are used to build novel 2D and 3D graphical user interfaces for
+browsing and interacting with audio signals and collections. The proposed systems are
+based on techniques from the fields of Signal Processing, Pattern Recognition, Information
+Retrieval, Visualization and Human Computer Interaction. All the proposed algorithms and
+interfaces are integrated under MARSYAS, a free software framework designed for rapid
+prototyping of computer audition research. In most cases the proposed algorithms have
+been evaluated and informed by conducting user studies.
+New contributions of this work to the area of Computer Audition include: a gen­eral 
+multifeature audio texture segmentation methodology, feature extraction from mp3
+compressed data, automatic beat detection and analysis based on the Discrete Wavelet
+Transform and musical genre classification combining timbral, rhythmic and harmonic
+features. Novel graphical user interfaces developed in this work are various tools for
+browsing and visualizing large audio collections such as the Timbregram, TimbreSpace,
+GenreGram, and Enhanced Sound Editor.
+Bibliography
+[1] Proc. Int. Symposium on Music Information Retrieval (ISMIR), Plymouth, MA,
+2000.
+[2] Proc. Int. Symposium on Music Information Retrieval (ISMIR), 2001.
+[3] M. Alghoniemy and A. Tewfik. Rhythm and Periodicity Detection in Polyphonic
+Music. In Proc. 3rd Workshop on Multimedia Signal Processing, pages 185--190,
+Denmark, Sept. 1999.
+[4] M. Alghoniemy and A. Tewfik. Personalized Music Distribution. In Proc. Int. Conf.
+on Acoustics, Speech and Signal Processing ICASSP, Istanbul, turkey, June 2000.
+IEEE.
+[5] E. Allamanche, H. Jurgen, O. Hellmuth, B. Froba, T. Kastner, and M. Cremer.
+Content­based Identification of Audio Material using MPEG­7 Low Level
+Description. In Proc. Int. Symposium on Music Information Retrievla (ISMIR), 2001.
+[6] D. Anastassiou. Genomic Signal Processing. IEEE Signal Processing Magazine,
+18(4):8--21, July 2001.
+[7] B. Arons. SpeechSkimmer: a system for interactively skimming recorded
+speech. ACM Transactions Computer Human Interaction, 4:3--38, 1997.
+http://www.media.mit.edu/people/barons/papers/ToCHI97.ps.
+[8] J.­J. Aucouturier and M. Sandler. Segmentation of Musical Signals Using Hidden
+Markov Models. In Proc. 110th Audio Engineering Society Convention, Amsterdam,
+The Netherlands, May 2001. Audio Engineering Society AES.
+[9] D. H. Ballard and C. M. Brown. Computer Vision. Prentice Hall, 1982.
+[10] M. A. Bartsch and G. H. Wakefield. To Catch a Chorus: Using Chroma­Based
+Representation for Audio Thumbnailing. In Proc. Int. Workshop on applications of
+Signal Processing to Audio and Acoustics, pages 15--19, Mohonk, NY, 2001. IEEE.
+[11] S. Belongie, C. Carson, H. Greenspan, and J. Malik. Blobworld: A system for
+region­based image indexing and retrieval. In Proc. 6th Int. Conf. on Computer
+Vision, Jan. 1998.
+[12] A. L. Berenzweig and D. P. Ellis. Locating singing voice segments within musical
+signals. In Proc. Int. Workshop on Applications of Signal Processing to Audio and
+Acoustics WASPAA, pages 119--123, Mohonk, NY, 2001. IEEE.
+[13] J. Biles. GenJam: A Genetic Algorithms for Generating Jazz Solos. In Proc. Int.
+Computer Music Conf. (ICMC), pages 131--137, Aarhus, Denmark, Sept. 1994.
+[14] G. Boccignone, M. DeSanto, and G. Percannella. Joint Audio­Video Processing
+of MPEG Encoded Sequences. In Proc. Int. Con.f On Multimedia Computing and
+Systems (ICMCS), pages 225--229. IEEE, 1999.
+[15] J. Boreczky and L. Wilcox. A hidden markov model framework for video
+segmentation using audio and image features. In Proc. Int. Conf. on Acoustics,
+Speech and Signal Processing ICASSP, volume 6, pages 3741--3744. IEEE, 1998.
+[16] A. Bregman. Auditory Scene Analysis. MIT Press, Cambridge, 1990.
+[17] J. Brown. Computer identification of musical instruments. Journal of the Acoustical
+Society of America, 105(3):1933--1941, 1999.
+[18] C. Chafe, B. Mont­Reynaud, and L. Rush. Toward an Intelligent Editor of Digital
+Audio: Recognition of Musical Constructs. Computer Music Journal, 6(1):30--41,
+1982.
+[19] P. Cook. Physically inspired sonic modeling (PHISM): synthesis of percussive
+sounds. Computer Music Journal, 21(3), Aug. 1997.
+[20] P. Cook. Toward physically­informed parametric synthesis of sound effects. In
+Proc. IEEE Workshop on applications of Signal Processing to Audio and Acoustics,
+WASPAA, New Paltz, NY, 1999. Invited Keynote Address.
+[21] P. Cook, editor. Music, Cognition, and Computerised Sound. MIT Press, 2001.
+[22] P. Cook, G. Essl, and D. Trueman. N >> 2: Multi­speaker Display Systems for
+Virtual Reality and Spatial Audio Projection. In Proc. Int. Conf. on Auditory Display
+(ICAD), Glasgow, Scotland, 1998.
+[23] P. Cook and G. Scavone. The Synthesis Toolkit (STK), version 2.1. In Proc. Int.
+Computer Music Conf. ICMC, Beijing, China, Oct. 1999. ICMA.
+[24] R. Dannenberg. An on­line algorithm for real­time accompaniment. In Proc. Int.
+Computer Music Conf., pages 187--191, Paris, France, 1984.
+[25] I. Daubechies. Orthonormal bases of compactly supported wavelets. Communications 
+on Pure and Applied Math, 41:909--996, 1988.
+[26] S. Davis and P. Mermelstein. Experiments in syllable­based recognition of
+continuous speech. IEEE Transcactions on Acoustics, Speech and Signal
+Processing, 28:357--366, Aug. 1980.
+[27] H. Deshpande, R. Singh, and U. Nam. Classification of Musical Signals in the Visual
+Domain. In Proc. COST G­G Conf. on Digital Audio Effects (DAFX), Limerick,
+Ireland, Dec. 2001.
+[28] S. Dixon. A Lightweight Multi­agent Musical Beat Tracking System. In Proc.
+Pacific Rim Int. Conf. on Artificial Intelligence, pages 778--788, 2000.
+[29] S. Dixon. An Interactive Beat Tracking and Visualization System. In Proc. Int.
+Computer Music Conf. (ICMC), pages 215--218, Habana, Cuba, 2002. ICMA.
+[30] R. Duda, P. Hart, and D. Stork. Pattern classification. John Wiley & Sons, New
+York, 2000.
+[31] D. Ellis. Prediction­driven computational auditory scene analysis. PhD thesis, MIT
+Media Lab, 1996.
+[32] A. Eronen and A. Klapuri. Musical Instrument Recognition using Cepstral Features
+and Temporal Features. In Int. Conf. on Acoustics, Speech and Signal Processing
+ICASSP, Istanbul Turkey, 2000. IEEE.
+[33] G. Essl and P. Cook. Measurements and efficient simulations of bowed bars. Journal
+of Acoustical Society of America (JASA), 108(1):379--388, 2000.
+[34] U. Fayyad, G. G. Grinstein, and A. Wierse, editors. Information Visualization in
+Data Mining and Knowledge Discovery. Morgan Kaufmann, 2002.
+[35] M. Fernstorm and C. McNamara. After Direct Manipulation ­ Direct Sonification.
+In Proc. Int. Conf. on Auditory Display, ICAD, Glasgow, Scotland, 1998.
+[36] M. Fernstrom and E. Brazil. Sonic Browsing: an auditory tool for multimedia asset
+management. In Proc. Int. Conf. on Auditory Display (ICAD), Espoo, Finland, July
+2001.
+[37] M. Flickner and et al. Query by image and video content: the QBIC system. IEEE
+Computer, 28(9):23--32, Sept. 1995.
+[38] J. Foote. Content­based retrieval of music and audio. In Multimedia Storage and
+Archiving Systems II, pages 138--147, 1997.
+[39] J. Foote. An overview of audio information retrieval. ACM Multimedia Systems,
+7:2--10, 1999.
+[40] J. Foote. Visualizing music and audio using self­similarity. In ACM Multimedia,
+1999.
+[41] J. Foote. Arthur: Retrieving orchestral music by long­term structure. Read at the
+First International Symposium on Music Information Retrieval, 2000.
+[42] J. Foote. Automatic Audio Segmentation using a Measure of Audio Novelty. In
+Proc. Int. Conf. on Multimedia and Expo, volume 1, pages 452--455. IEEE, 2000.
+[43] J. Foote and S. Uchihashi. The Beat Spectrum:a new approach to rhythmic analysis.
+In Int. Conf. on Multimedia & Expo. IEEE, 2001.
+[44] I. Fujinaga. Machine recognition of timbre using steady­state tone of acoustic
+instruments. In Proc. Int. Computer Music Conf. ICMC, pages 207--210, Ann Arbor,
+Michigan, 1998. ICMA.
+[45] I. Fujinaga. Realtime recognition of orchestral instruments. In Int. Computer Music
+Conf. ICMC, 141­143. ICMA, 2000.
+[46] B. Garton. Virtual Performance Modelling. In Proc. Int. Computer Music Conf.
+(ICMC), pages 219--222, San Jose, California, Oct. 1992.
+[47] A. Ghias, J. Logan, D. Chamberlin, and B. Smith. Query by Humming: Musical
+Information Retrieval in an Audio Database. ACM Multimedia, pages 213--236,
+1995.
+[48] M. Goto and Y. Muraoka. Real­time rhythm tracking for drumless audio signals ­
+chord change detection for musical decisions. In Proc. Int. Joint. Conf. in Artificial
+Intelligence: Workshop on Computational Auditory Scene Analysis, 1997.
+[49] M. Goto and Y. Muraoka. Music Understanding at the Beat Level: Real­time Beat
+Tracking of Audio Signals. In D. Rosenthal and H. Okuno, editors, Computational
+Auditory Scene Analysis, pages 157--176. Lawrence Erlbaum Associates, 1998.
+[50] J. M. Gray. An Exploration of Musical Timbre. PhD thesis, Dept. of Psychology,
+Stanford Univ., 1975.
+[51] W. Grosky, R. Jain, and R. Mehrotra, editors. The handbook of Multimedia
+Information Management. Prentice Hall, 1997.
+[52] T. Hastie and W. Stuetzle. Principal curves. Journal of the American Statistical
+Association, 84(406):502--516, 1989.
+[53] A. Hauptmann and M. Witbrock. Informedia: News­on­demand multimedia
+information acquisition and retrieval. In Intelligent Multimedia Informa­tion 
+Retrieval, chapter 10, pages 215--240. MIT Press, Cambridge, 1997.
+http://www.cs.cmu.edu/afs/cs/user/alex/www/.
+[54] T. Hermann, P. Meinicke, and H. Ritter. Principal Curve Sonification. In
+International Conference on Auditory Display, ICAD, 2000.
+[55] R. E. Johnson. Components, Frameworks, Patterns. In Proc. ACM SIGSOFT
+Symposium on Software Reusability, pages 10--17, 1997.
+[56] L. Jolliffe. Principal Component Analysis. Springer­Verlag, New York, 1986.
+[57] J. M. Jose, J. Furner, and D. J. Harper. Spatial querying for image retrieval: a
+user­oriented evaluation. In Proc. SIGIR Conf. on research and development in
+Information Retrieval, Melbourne, Australia, 1998. ACM.
+[58] I. JTC1/SC29. Information Technology­Coding of Moving Pictures and Associated
+Audio for Digital Storage Media at up to about 1.5 Mbit/s­IS 11172 (Part 3, Audio).
+1992.
+[59] I. JTC1/SC29. Information Technology­Generic Coding of Moving Pictures and
+Associated Audio Information­IS 13818 (Part 3, Audio). 1994.
+[60] H. Kang and B. Shneiderman. Visualization Methods for Personal Photo
+Collections: Browsing and Searching in the PhotoFinder. In Proc. Int. Con.f on
+Multimedia and Expo, New York, 2000. IEEE.
+[61] N. Kashino and T. Kinoshita. Application of Bayesian probability network to music
+scene analysis. In Proc. Int. Joint Conf. On Artificial Intelligence, CASA Workshop,
+1995.
+[62] T. Kemp, M. Schmidt, M. Westphal, and A. Waibel. Strategies for automatic
+segmentation of audio data. In Proc. Int. Conf. on Acoustics Speech and Signal
+Processing (ICASSP), volume 3, pages 1423--1426. IEEE, 2000.
+[63] D. Kimber and L. Wilcox. Acoustic segmentation for audio browsers. In Interface
+Conference, pages Sydney, Australia, July 1996.
+[64] G. E. Krasner and S. T. Pope. A cookbook for using the model­view­controller
+user interface paradigm in Smalltalk­80. Journal of Object­Oriented Programming,
+1(3):26--49, Aug. 1988.
+[65] R. Kronland­Martinet, J. Morlet, and A. Grossman. Analysis of sound patterns
+through wavelet transforms. Int. Journal of Pattern Recognition and Artificial
+Intelligence, 1(2):237--301, 1987.
+[66] J. Laroche. Estimating Tempo, Swing and Beat Locations in Audio Recordings. In
+Proc. Int. Workshop on applications of Signal Processing to Audio and Acoustics
+WASPAA, pages 135--139, Mohonk, NY, 2001. IEEE.
+[67] F. Lerdahl and R. Jackendoff. A Generative Theory of Tonal Music. MIT Press,
+1983.
+[68] G. Li and A. Khokar. Content­based indexing and retrieval of audio data using
+wavelets. In Int. Conf. on Multimedia and Expo (II), pages 885--888. IEEE, 2000.
+[69] K. Li and et. al. Building and using a scalable display wall system. IEEE Computer
+Graphics and Applications, 21(3), July 2000.
+[70] S. Li. Content­based classification and retrieval of audio using the nearest feature
+line method. IEEE Transactions on Speech and Audio Processing, 8(5):619--625,
+Sept. 2000.
+[71] J. List, A. van Ballegooij, and A. de Vries. Known­Item Retrieval on Broadcast TV.
+Technical Report INS­R0104, CWI, Apr. 2001.
+[72] B. Logan. Mel Frequency Cepstral Coefficients for Music Modeling. In Proc. Int.
+Symposium on Music Information Retrieval (ISMIR), 2000.
+[73] B. Logan. Music summarization using key phrases. In Proc. Int. Conf. on Acoustics,
+Speech and Signal Processing ICASSP. IEEE, 2000.
+[74] L. Lu, J. Hao, and Z. HongJiang. A robust audio classification and segmentation
+method. In Proc. ACM Multimedia, Ottawa, Canada, 2001.
+[75] P. C. Mahalanobis. On the generalized distance in statistics. In Proc. National Inst.
+of Science India, volume 12, pages 49--55, 1936.
+[76] J. Makhoul. Linear prediction: A tutorial overview. Proceedings of the IEEE,
+63:561--580, Apr. 1975.
+[77] S. G. Mallat. A Wavelet Tour of Signal Processing. Academic Press, 1999.
+[78] G. Marchionini. Information Seeking in Electronic Environments. The Press
+Syndicate of the University of Cambridge, 1995.
+[79] K. Martin. A Blackboard System for Automatic Transcription of Simple Polyphonic
+Music. Technical Report 399, MIT Media Lab, 1996.
+[80] K. Martin. Toward automatic sound source recognition: identifying musical
+instruments. In NATO Computational Hearing Advanced Study Institute. Il Ciocco
+IT, 1998.
+[81] K. Martin. Sound­Source Recognition: A Theory and Computational Model. PhD
+thesis, MIT Media Lab, 1999.
+[82] K. Martin, E. Scheirer, and B. Vercoe. Musical content analysis through models
+of audition. In Proc. Multimedia Workshop on Content­based Processing of Music,
+Bristol, UK, 1998. ACM.
+[83] N. Masako and K. Watanabe. Interactive Music Composer based on Neural
+Networks. In Proc. Int. Computer Music Conf. (ICMC), San Jose, California, 1992.
+[84] T. K. Moon. The Expectation­Maximization Algorithm. IEEE Signal Processing
+Magazine, 13(6):47--60, Nov. 1996.
+[85] F. Moore. Elements of Computer Music. Prentice Hall, 1990.
+[86] J. Moorer. On the Segmentation and Analysis of Continuous Musical Sound by
+Digital Computer. PhD thesis, Dept. of Music, Stanford University, 1975.
+[87] J. Moorer. The Lucasfilm Audio Signal Processor. Computer Music Journal,
+6(3):30--41, 1982. (also in ICASSP 82).
+[88] P. Noll. MPEG digital audio coding. IEEE Signal Processing Magazine, pages
+59--81, September 1997.
+[89] A. Oppenheim and R. Schafer. Discrete­Time Signal Processing. Prentice Hall,
+Edgewood Cliffs, NJ, 1989.
+[90] L. Ottaviani and D. Rocchesso. Separation of Speech Signal from Complex Auditory
+Scenes. In Proc. COST G­6 Conf. on Digital Audio Effects (DAFX), Limerick,
+Ireland, Dec. 2001.
+[91] A. Pentland, R. Picard, and S. Sclaroff. Photobook: Tools for Content­Based
+Manipulation of Image Databases. IEEE Multimedia, pages 73--75, July 1994.
+[92] D. Perrot and R. Gjerdigen. Scanning the dial: An exploration of factors in
+identification of musical style. In Proc. Society for Music Perception and Cognition,
+page 88, 1999. (abstract).
+[93] S. Pfeiffer. Pause concepts for audio segmentation at different semantic levels. In
+Proc. ACM Multimedia, Ottawa, Canada, 2001.
+[94] J. Pierce. Consonance and Scales. In P. Cook, editor, Music Cognition and
+Computerized Sound, pages 167--185. MIT Press, 1999.
+[95] D. Pye. Content­based methods for the management of digital music. In Proc. Int.
+Conf on Acoustics, Speech and Signal processing ICASSP. IEEE, 2000.
+[96] L. Rabiner, M. Cheng, A. Rosenberg, and C. McGonegal. A comparative
+performance study of several pitch detection algorithms. IEEE Trans. Acoustics,
+Speech, and Signal Processing., ASSP­24:399--417, October 1976.
+[97] L. Rabiner and B. Gold. Theory and Application of Digital Signal Processing.
+Prentice Hall, 1975.
+[98] L. Rabiner and B. H. Juang. Fundamentals of Speech Recognition. Prentice­Hall,
+1993.
+[99] C. Roads. Computer Music Tutorial. MIT Press, 1996.
+[100] K. Rodden, W. Basalaj, D. Sinclair, and K. Wood. Does Organization by Similarity
+Assist Image Browsing ? In Proc. SIG­CHI on Human Factors in computing
+systems, Seattle WA, USA, 2001. ACM.
+[101] D. F. Rosental and H. G. Okuno, editors. Computational Auditory Scene Analysis.
+Lawrence Erlbaum, 1998.
+[102] S. Rossignol, X. Rodet, et al. Features extraction and temporal segmentation of
+acoustic signals. In Proc. Int. Computer Music Conf. ICMC, pages 199--202. ICMA,
+1998.
+[103] J. Saunders. Real time discrimination of broadcast speech/music. In Proc. Int. Conf.
+on Acoustics, Speech and Signal Processing ICASSP, pages 993--996. IEEE, 1996.
+[104] G. Scavone, S. Lakatos, P. Cook, and C. Harbke. Perceptual spaces for sound effects
+obtained with an interactive similarity rating program. In Proc. Int. Symposium on
+Musical Acoustics, Perugia, Italy, Sept. 2001.
+[105] R. Schalkoff. Pattern Recognition. Statistical, Structural and Neural Approaches.
+John Wiley & Sons, 1992.
+[106] E. Scheirer. Bregman's chimerae: Music perception as auditory scene analysis. In
+Proc. Int. Conf. on Music Perception and Cognition, Montreal, 1996.
+[107] E. Scheirer. The MPEG­4 structured audio standard. In Proc. Int. Conf. on Acoustics,
+Speech and Signal Processing ICASSP. IEEE, 1998.
+[108] E. Scheirer. Tempo and beat analysis of acoustic musical signals. Journal of the
+.Acoustical Society of America, 103(1):588,601, Jan. 1998.
+[109] E. Scheirer. Music­Listening Systems. PhD thesis, MIT, 2000.
+[110] E. Scheirer and M. Slaney. Construction and evaluation of a robust multifeature
+speech/music discriminator. In Proc. Int. Conf. on Acoustics, Speech and Signal
+Processing ICASSP, pages 1331--1334. IEEE, 1997.
+[111] D. Schwarz. A system for data­driven concatenative sound synthesis. In Proc. Cost­
+G6 Conf. on Digital Audio Effects (DAFX), Verona, Italy, Dec. 2000.
+[112] J. Sepp˜anen. Quantum Grid Analysis of Musical Signals. In Proc. Int. Workshop on
+applications of Signal Processing to Audio and Acoustics WASPAA, pages 131--135,
+Mohonk, NY, 2001. IEEE.
+[113] R. N. Shepard. Circularity in Judgements of Relative Pitch. Journal of the Acoustical
+Society of America, 35:2346--2353, 1964.
+[114] B. Shneiderman. Designing the User Interface: Strategies for Effective Human­
+Computer Interaction. Addison­Wesley, 3rd ed. edition, 1998.
+[115] M. Slaney. A critique of pure audition. Computational Auditory Scene Analysis,
+1997.
+[116] M. Slaney and R. Lyon. A perceptual pitch detector. In Proc. Int. Conf. on Acoustics,
+Speech and Signal Processing ICASSP, pages 357--360, Albuquerque, NM, 1990.
+IEEE.
+[117] M. Slaney and R. Lyon. On the importance of time­a temporal representation of
+sound. In M. Cooke, B. Beet, and M. Crawford, editors, Visual Representations of
+Speech Signals, pages 95--116. John Wiley & Sons Ltd, 1993.
+[118] P. Smaragdis. Redundancy Reduction for Computational Audition, a Unifying
+Approach. PhD thesis, MIT Media Lab, 2001.
+[119] L. Smith. A Multiresolution Time­Frequency Analysis And Interpretation Of Musical
+Rhythm. PhD thesis, University of Western Australia, July 1999.
+[120] R. Spence. Information Visualization. Addison Wesley ACM Press, 2001.
+[121] K. Steiglitz. A digital signal processing primer. Addison Wesley, 1996.
+[122] A. Subramanya, S.R. annd Youssef. Wavelet­based indexing of audio data in
+audio/multimedia databases. In Proc. Int. Workshop on Multimedia Database
+Management IW­MMDBMS, pages 46--53, 1998.
+[123] T. Tolonen and M. Karjalainen. A Computationally Efficient Multipitch Analysis
+Model. IEEE Trans. on Speech and Audio Processing, 8(6):708--716, Nov. 2000.
+[124] G. Tzanetakis and P. Cook. A Framework for Audio Analysis based on Classification
+and Temporal Segmentation. In Proc. Euromicro 99, Workshop on Music Technology
+and Audio Processing, 1999.
+[125] G. Tzanetakis and P. Cook. Multifeature audio segmentation for browsing and
+annotation. In Proc. Workshop on applications of signal processing to audio and
+acoustics WASPAA, New Paltz, NY, 1999. IEEE.
+[126] G. Tzanetakis and P. Cook. 3D Graphics Tools for Sound Collections. In Proc.
+COST G6 Conf. on Digital Audio Effects (DAFX), Verona, Italy, Dec. 2000.
+[127] G. Tzanetakis and P. Cook. Audio Information Retrieval (AIR) Tools. In Proc. Int.
+Symposium on Music Information Retrieval (ISMIR), 2000.
+[128] G. Tzanetakis and P. Cook. Experiments in computer­assisted annotation of audio.
+In Proc. Int. Con. on Auditory Display, ICAD, 2000.
+[129] G. Tzanetakis and P. Cook. Marsyas: A framework for audio analysis. Organised
+Sound, 4(3), 2000.
+[130] G. Tzanetakis and P. Cook. Sound analysis using MPEG compressed audio. In
+Proc. Int. Conf. on Acoustics, Speech and Signal Processing ICASSP, Istanbul, 2000.
+IEEE.
+[131] G. Tzanetakis and P. Cook. Marsyas3D: a prototype audio browser­editor using
+a large scale immersive visual and audio display. In Proc. Int. Conf. on Auditoy
+Display (ICAD), Espoo, Finland, Aug. 2001.
+[132] G. Tzanetakis and P. Cook. Audio Information Retrieval using Marsyas. Kluewe
+Academic Publishers, 2002. (to be published).
+[133] G. Tzanetakis and P. Cook. Musical Genre Classification of Audio Signals. IEEE
+Transactions on Speech and Audio Processing, 2002. (accepted for publication).
+[134] G. Tzanetakis, G. Essl, and P. Cook. Audio Analysis using the Discrete Wavelet
+Transform. In Proc. Conf. in Acoustics and Music Theory Applications. WSES,
+Sept. 2001.
+[135] G. Tzanetakis, G. Essl, and P. Cook. Automatic Musical Genre Classification of
+Audio Signals. In Proc. Int. Symposium on Music Information Retrieval (ISMIR),
+Oct. 2001.
+[136] G. Tzanetakis and L. Julia. Multimedia Structuring using Trees. In Proc. In Proc.
+RIAO 2000 ''Content based multimedia information access'', Paris, France, Apr.
+2001.
+[137] K. van Rijsbergen. Information retrieval. Butterworths, London, 2nd edition, 1979.
+[138] R. Vertegaal and E. Bonis. ISEE: An Intuitive Sound Editing Environment.
+Computer Music Journal, 18(2):21--29, 1994.
+[139] R. Vertegaal and B. Eaglestone. Looking for Sound ? Selling Perceptual Space
+in Hierarchically Nested Boxes. In Summary CHI 98 Conf. on Human Factors in
+Computing Systems. ACM, 1998.
+[140] S. Wake and T. Asahi. Sound Retrieval with Intuitive Verbal Expressions. In Proc.
+Int. Conf. on Auditory Display (ICAD), Glasgow, Scotland, 1997.
+[141] Y. Wang and V. Miikka. A compressed domain beat detector using MP3 audio
+bitstreams. In Proc. ACM Multimedia, Ottawa, Canada, 2001.
+[142] B. Whitman, G. Flake, and S. Lawrence. Artist Detection in Music with
+Minnowmatch. In Proc. Workshop on Neural Networks for Signal Processing, pages
+559--568, Falmouth, Massachusetts, Sept. 2001. IEEE.
+[143] E. Wold, T. Blum, D. Keislar, and J. Wheaton. Content­based classification, search
+and retrieval of audio. IEEE Multimedia, 3(2), 1996.
+[144] C. Yang. MACS: Music Audio Characteristic Sequence Indexing for Similarity
+Retrieval. In Proc. Workshop on Applications of Signal Processing to Audio and
+Acoustics (WASPAA), New Paltz, New York, 2001. IEEE.
+[145] C. Yang. Music Database Retrieval based on Spectral Similarity. In Proc.
+Int. Symposium on Music Information Retrieval (Poster) (ISMIR), Bloomington,
+Indiana, 2001.
+[146] B. Yeo and B. Liu. Rapid Scene Analysis on Compressed Videos. IEEE Trans.
+Circuits System. Video Technology, 5(6), 1995.
+[147] T. Zhang and J. Kuo. Audio Content Analysis for online Audiovisual Data
+Segmentation and Classification. Transactions on Speech and Audio Processing,
+9(4):441--457, May 2001.
+[148] A. Zils and F. Pachet. Musical Mosaicing. In Proc. Cost­G6 Conf. on Digital Audio
+Effects (DAFX), Limerick, Ireland, Dec. 2001.

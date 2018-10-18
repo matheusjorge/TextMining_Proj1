@@ -1,0 +1,63 @@
+Learning Programs in the Event Calculus
+
+Stephen Moyle and Stephen Muggleton *
+
+Oxford University Computing Laboratory,
+Wolfson Building,
+Parks Road,
+Oxford, OX1 3QD,
+United Kingdom.
+{sam, steve}@comlab.ox.ac.uk
+
+
+
+Abstract. The event calculus is a formalism for reasoning about actions
+and change in dynamic systems. It has been used in diverse areas including 
+planning and communications protocol specification. Writing event
+calculus programs requires the construction of domain specific axioms
+(DSAs) - a programming task which is non-trivial, and one that hinders 
+the broader use of the event calculus. This work demostrates that
+such axioms can be learned from temporal observations using hductive
+Logic programming (ILP) techniques, in particular theory completion.
+The theory of logical back-propagation as a mechanism for theory completion 
+is described and its implementation in the ILP system Progol
+is used here. These techniques were used to investigate learning DSAs
+for the traditional AI blocks world. In the experiments Progol, utilising
+logical back-propagation, learned correct DSAs. These results provide
+encouragement and highlight the possibility of discovering causal relationships 
+from data in temporal databases, and also learning the domain
+specific knowledge necessary in the development of plans.
+References
+
+[1]	Abeysiughe, G. K.: Event Calculus to Support Temporal Reasoning in a Clinical
+Domain, Ph.D. thesis, University of Southampton (1993).
+[2]	Bratko, I., Muggleton, S., Varsek, A.: Learning Qualitative Models of Dynamic
+Systems, in Inductive Logic Programming, S. Muggleton, Editor. (1992) Academic
+Press: London. p. 437-452.
+[3]	De Raedt, L.: Interactive Theory Revision: An Inductive Logic Programming Approach. 
+(1992), London: Academic Press.
+[4]	Denecker, M., et al.: A Realistic Experiment in Knowledge Representation in Open
+Event Calculus: Protocol Specification in Proceedings of JICSLP’96, the Joint
+International Conference and Symposium on Logic Programming. (1996) Bonn,
+Germany: MIT Press.
+
+[5]	Kakas, A. C., Miller, R. S.: A Simple Declarative Language for Describing Narratives 
+with Actions. Journal of Logic Programming: Special Issue on Reasoning
+about Action and Change (1997).
+[6]	Kowalski, R., Sergot, M.: A Logic-based Calculus of Events. New Generation Computing 
+4 (1986) 67 - 95.
+[7]	Moyle, S., Muggleton, S.: Experiments in Learning Event Calculus Programs, Oxford 
+University Computing Laboratory PRG-TR-23-97 (1997).
+[8]	Muggleton, S.: Inverse Entailment and Progol. New Generation Computing 13(3
+and 4) (1995) 245—286.
+[9]	Sablon, G.: Iterative Versionspaces with an application in Inductive Logic Programming, 
+Ph.D. thesis, Katholic University of Leuven (1995).
+[10]	Shanahan, M.: Solving the Frame Problem: A Mathematical Investigation of the
+Common Sense Law of Inertia. (1997), MIT Press.
+[11]	Srinivasan, A., Camacho, R.: Numerical reasoning in ILP in Machine Intelligence
+15. (1995), Oxford.
+[12]	Sripada, S. M.: Efficient Implementation of the Event Calculus for Temporal Database 
+Applications in Proceedings of the 12th International Conference on Logic
+Programming. (1995), Japan.
+[13] Stickel, M. E.: A Prolog technology theorem prover: a new exposition and implementation 
+in Prolog. Theoretical Computer Science 104(1) (1992) 109—128.

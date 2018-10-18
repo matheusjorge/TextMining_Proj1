@@ -1,0 +1,72 @@
+Executing Query Packs in ILP
+
+Hendrik Blockeel, Luc Dehaspe, Bart Demoen, Gerda Janssens, Jan Ramon,
+and Henk Vandecasteele
+
+Katholieke Universiteit Leuven, Department of Computer Science
+Celestijnenlaan 200A, B-3001 Leuven, Belgium
+{Hendrik.Blockeel,Luc.Dehaspe,Bart.Demoen,Gerda.Janssens,
+Jan.Ramon,Henk.Vandecasteele}@cs.kuleuven.ac.be
+
+
+
+Abstract. Inductive logic programming systems usually send large numbers 
+of queries to a database. The lattice structure from which these
+queries are typically selected causes many of these queries to be highly
+similar. As a consequence, independent execution of all queries may involve 
+a lot of redundant computation. We propose a mechanism for executing 
+a hierarchically structured set of queries (a “query pack”) through
+which a lot of redundancy in the computation is removed. We have incorporated 
+our query pack execution mechanism in the JLP systems TILDE
+and WARMR by implementing a new Prolog engine JLPROLOG which provides 
+support for pack execution at a lower level. Experimental results
+demonstrate significant efficiency gains. Our query pack execution mechanism 
+is very general in nature and could be incorporated in most other
+ILP systems, with similar efficiency improvements to be expected.
+References
+
+[1]	R. Agrawal, H. Mannila, R. Srikant, H. Toivonen, and A.J. Verkamo. Fast 
+discovery of association rules. In U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, and
+R. Uthurusamy, editors, Advances in Knowledge Discovery and Data Mining,
+pages 307—328. The MIT Press, 1996.
+[2]	H. Blockeel. Top-down induction of first order logical decision trees. PhD thesis
+Department of Computer Science, Katholieke Universiteit Leuven, 1998.
+http://www.cs.kuleuven.ac.be/~ml/PS/blockeel98:phd.ps.gz.
+[3]	H. Blockeel and L. De Raedt. Lookahead and discretization in ILP. In Proceedings
+of the 7th International Workshop on Inductive Logic Programming, volume 1297
+of Lecture Notes in Artificial Intelligence, pages 77—85. Springer-Verlag, 1997.
+[4]	H. Blockeel and L. De Raedt. Top-down induction of first order logical decision
+trees. Artificial Intelligence, 101(1-2) :285—297, June 1998.
+[5]	H. Blockeel, L. De Raedt, N. Jacobs, and B. Demoen. Scaling up inductive logic
+programming by learning from interpretations. Data Mining and Knowledge 
+Discovery, 3(1):59—93, 1999.
+[6] M. Bongard. Pattern Recognition. Spartan Books, 1970.
+[7]	W. Chen and D. S. Warren. Tabled evaluation with delaying for general
+logic programs. Journal of the ACM, 43(1):20—74, January 1996. See also
+http://www.cs.sunysb.edu/~sbprolog.
+[8]	L. De Raedt. Logical settings for concept learning. Artificial Intelligence, 95:187—
+201, 1997.
+[9]	L. De Raedt and W. Van Laer. Inductive constraint logic. In Klaus P. Jantke,
+Takeshi Shinohara, and Thomas Zeugmann, editors, Proceedings of the 6th 
+International Workshop on Algorithmic Learning Theory, volume 997 of Lecture Notes
+in Artificial Intelligence, pages 80—94. Springer-Verlag, 1995.
+[10]	L. Dehaspe and H. Toivonen. Discovery of frequent datalog patterns. Data Mining
+and Knowledge Discovery, 3(1):7—36, 1999.
+[11]	Bart Demoen, Gerda Janssens, and Henk Vandecasteele. Executing query flocks
+for ILP. In Sandro Etalle, editor, Proceedings of the Eleventh Benelux Workshop
+on Logic Programming, Maastricht, The Netherlands, November 1999. 14 pages.
+[12]	M. Mehta, R. Agrawal, and J. Rissanen. SLIQ: A fast scalable classifier for
+data mining. In Proceedings of the Fifth International Conference on Extending
+Database Technology, 1996.
+[13]	S. Muggleton. Inverse entailment and Progol. New Ceneration Computing, 13,
+1995.
+[14]	J. Ross Quinlan. C4.5: Programs for Machine Learning. Morgan Kaufmann series
+in machine learning. Morgan Kaufmann, 1993.
+[15]	A. Srinivasan, S.H. Muggleton, and R.D. King. Comparing the use of background
+knowledge by inductive logic programming systems. In L. De Raedt, editor, 
+Proceedings of the 5th International Workshop on Inductive Logic Programming, 1995.
+[16]	Dick Tsur, Jeffrey D. Ullman, Serge Abiteboul, Chris Clifton, Rajeev Motwani,
+Svetlozar Nestorov, and Arnon Rosenthal. Query flocks: A generalization of
+association-rule mining. In Proceedings of the ACM SIGMOD International 
+Conference on Management of Data (SICMOD-98), volume 27,2 of ACM SIGMOD
+Record, pages 1—12, New York, June 1—4 1998. ACM Press.

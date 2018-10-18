@@ -1,0 +1,54 @@
+On the Admissibility of Concrete Domains for CBR
+Based on Description Logics
+
+Gerd Kamp
+
+Universität Hamburg, Vogt-Kölln-Str.30, 22527 Hamburg
+kamp@informatik.uni-hamburg.de
+
+
+Abstract. In order to use descriptions logics for case-based reasoning it must
+be possible to use primitive datatypes such as numbers and strings within the
+representation and inference mechanisms of the logic. The best way to do so is
+via so called admissible concrete domains. In this paper we address the general
+problem of the admissibility of concrete domains, using the application area of
+the retrieval of bibliographic data as an example. We investigate the theoretical
+limitations on admissible concrete domains over numbers and strings imposed by
+decidability results known from mathematical logic and automata theory, as well
+as the prospects of potential implementations in our description logic CTL.
+References
+
+1.	F. Baader and P. Hanschke. A Scheme for Integrating Concrete Domains into Concept Languages. 
+Research Report RR-91-1O, DFKI, Kaiserslautern, Germany, April 1991.
+2.	Stanley Bums and H.P. Sankappanavar. A Course in Universal Algebra. Springer Verlag,
+New York, 1981.
+3.	G. E. Collins and Hoon Hong. Partial cylindrical algebraic decomposition. Journal of Symbolic 
+Computation, 12:299—328,1991.
+4.	Andreas Dolzmann and Thomas Sturm. REDLOG — Computer Algebra Meets Computer
+Logic. Technical Report MIP-9603, Universität Passau, Passau, Germany, February 1996.
+5.	H. W. Gusgen. Spatial reasoning based on Allen’s temporal logic. Technical Report TR-89-
+049, ICSI, August 1989.
+6.	P. Hanschke. A Declarative Integration of Terminological, Constraint-Based, Data-driven,
+and Goal-directed Reasoning. Dissertation, Universität Kaiserslautern, 1993.
+7.	H. Hong. RISC-CLP(Real): Constraint Logic Programming over the real numbers. In Constraint 
+Logic Programming: Selected Research. MIT Press, Cambridge, MA, 1993.
+8.	John E. Hopcroft and Jeffrey Ullman. Introduction to automata theory languages and computation. 
+Addison-Wesley, 1979.
+9.	Gerd Kamp. Using Description Logics for Knowledge Intensive Case-based Reasoning.
+In I. Smith and B. Faltings, editors, Advances in Case-Based Reasoning, pages 204—218,
+Lausanne, Switzerland, November 1996. Springer Verlag.
+10.	Gerd Kamp and Bernd Neumann. Knowledge-based Inference Methods for Modeling Technical 
+Systems. In Proc. 30th Hawaiian International Conference on System Sciences, Wailea,
+HA, 1997. Computer Science Press.
+11.	Gerd Kamp and Holger Wache. CTL — a description logic with expressive concrete domains,
+Technical report, LKI, 1996.
+12.	Gerd Kamp and Holger Wache. Using Description Logics for Consistency-based Diagnosis.
+In International Description Logics — Collected Papers from the 1996 Workshop —, number
+WS-96-05, pages 136—140, Boston, MA, November 1996. AAAI Press.
+13.	O. Matz, A. Miller, A. Potthoff, W. Thomas, and B. Valkema. Report on the Program
+AMoRE. Technical Report 9507, Universität Kiel, Germany, October 1995.
+14.	Alfred Tarski. A Decision Method for Elementary Algebra and Geometry. University of
+California Press, Berkeley and Los Angeles, CA, 1951.
+15.	Alfred Tarski. Andrzej Mostowski, and Raphael M. Robinson. Undecidable Theories. Studies 
+in Logic and the Foundations of Mathematics. North-Holland, Amsterdam, Netherlands,
+1971.

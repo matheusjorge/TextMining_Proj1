@@ -1,0 +1,120 @@
+The Impact of Database Selection on Distributed Searching
+
+Allison L. Powell James C. French \Lambda
+Department of Computer Science
+University of Virginia
+falp4g|frenchg@cs.virginia.edu
+Jamie Callan y
+School of Computer Science
+Carnegie Mellon University
+callan+@cs.cmu.edu
+Margaret Connell z
+Center for Intelligent Information Retrieval
+University of Massachusetts
+connell@cs.umass.edu
+Charles L. Viles x
+School of Information and Library Science
+University of North Carolina, Chapel Hill
+viles@ils.unc.edu
+
+Abstract The proliferation of online information resources
+increases the importance of effective and efficient distributed
+searching. Distributed searching is cast in three parts -- database
+selection, query processing, and results merging. In this paper
+we examine the effect of database selection on retrieval perfor­mance. 
+We look at retrieval performance in three different dis­tributed 
+retrieval testbeds and distill some general results. First
+we find that good database selection can result in better retrieval
+effectiveness than can be achieved in a centralized database.
+Second we find that good performance can be achieved when
+only a few sites are selected and that the performance generally
+increases as more sites are selected. Finally we find that when
+database selection is employed, it is not necessary to maintain
+collection wide information (CWI), e.g. global idf. Local in­
+formation can be used to achieve superior performance. This
+means that distributed systems can be engineered with more
+autonomy and less cooperation. This work suggests that im­provements 
+in database selection can lead to broader improve­ments 
+in retrieval performance, even in centralized (i.e. single
+database) systems. Given a centralized database and a good se­lection 
+mechanism, retrieval performance can be improved by
+decomposing that database conceptually and employing a selec­tion step.
+
+References
+[1] J. Allan, J. P. Callan, W. B. Croft, L. Ballesteros, D. Byrd,
+R. Swan, and J. Xu. INQUERY does battle with TREC­6.
+In The Sixth Text REtrieval Conference (TREC­6).
+[2] N. J. Belkin, P. Kantor, E. A. Fox, and J. A. Shaw. Com­bining 
+the Evidence of Multiple Query Representations for
+Information Retrieval. Information Processing and Man­agement, 31(4):431--448, 1995.
+[3] J. Callan, A. L. Powell, J. C. French, and M. Connell. The
+Effects of Query­Based Sampling on Automatic Database
+Selection Algorithms. Technical Report CMU­LTI­00­
+162, Language Technologies Institute, School of Computer
+Science, Carnegie Mellon University, 2000.
+[4] J. P. Callan, Z. Lu, and W. B. Croft. Searching Distributed
+Collections with Inference Networks. In Proc. SIGIR'95,
+pages 21--29, 1995.
+[5] N. Craswell, D. Hawking, and P. Thistlewaite. Merging
+Results from Isolated Search Engines. In Proc. of the Tenth
+Australasian Database Conf., pages 189--200, 1999.
+[6] E. A. Fox, M. P. Koushik, J. Shaw, R. Modlin, and D. Rao.
+Combining Evidence from Multiple Searches. In The
+First Text Retrieval Conference (TREC­1), pages 319--328,
+November 1992.
+[7] J. C. French, A. L. Powell, J. Callan, C. L. Viles, T. Em­mitt, 
+K. J. Prey, and Y. Mou. Comparing the Performance
+of Database Selection Algorithms. In Proc. SIGIR'99,
+pages 238--245, 1999.
+[8] J. C. French, A. L. Powell, C. L. Viles, T. Emmitt, and
+K. J. Prey. Evaluating Database Selection Techniques: A
+Testbed and Experiment. In Proc. SIGIR'98, pages 121--
+129, 1998.
+[9] J. C. French and C. L. Viles. Ensuring Retrieval Effec­tiveness 
+in Distributed Digital Libraries. Journal of Vi­sual 
+Communication and Image Representation, 7(1):61--
+73, 1996.
+[10] N. Fuhr. A Decision­Theoretic Approach to Database Se­lection 
+in Networked IR. ACM Transactions on Informa­tion Systems, 17(3):229--249, July 1999.
+[11] L. Gravano and H. Garcia­Molina. Generalizing GlOSS to
+Vector­Space Databases and Broker Hierarchies. In Proc.
+VLDB'95, 1995.
+[12] L. Gravano, H. Garcia­Molina, and A. Tomasic. GlOSS:
+Text­source discovery over the internet. ACM Transactions
+on Database Systems, 24(2):229--264, June 1999.
+[13] L. Gravano, H. Garcia­Molina, and A. Tomasic. The Effec­tiveness 
+of GlOSS for the Text Database Discovery Prob­lem. In SIGMOD94, pages 126--137, May 1994.
+[14] D. Harman. Overview of the Fourth Text Retrieval Con­ference 
+(TREC­4). In Proceedings of the Fourth Text Re­trieval Conference (TREC­4), 1996.
+[15] D. Hawking and P. Thistlewaite. Methods for Information
+Server Selection. ACM Transactions on Information Sys­tems, 
+17(1):40--76, January 1999.
+[16] D. Hull. Using Statistical Testing in the Evaluation of Re­trieval 
+Experiments. In Proc. SIGIR'93, pages 329--338,
+1993.
+[17] A. Moffat and J. Zobel. Information Retrieval Systems for
+Large Document Collections. In Proceedings of the Third
+Text Retrieval Conference (TREC­3), pages 85--94, 1995.
+[18] R. L. Ott. An Introduction to Statistical Methods and Data
+Analysis. Duxbury Press, 4th. edition, 1993.
+[19] C. L. Viles and J. C. French. Dissemination of Collection
+Wide Information in a Distributed Information Retrieval
+System. In Proc. SIGIR'95, pages 12--20, July 1995.
+[20] E. Voorhees, N. K. Gupta, and B. Johnson­Laird. Learn­ing 
+Collection Fusion Strategies. In Proc. SIGIR'95, pages
+172--179, 1995.
+[21] E. Voorhees, N. K. Gupta, and B. Johnson­Laird. The Col­lection 
+Fusion Problem. In Proceedings of the Third Text
+Retrieval Conference (TREC­3), pages 95--104, 1995.
+[22] J. Xu and J. Callan. Effective Retrieval with Distributed
+Collections. In Proc. SIGIR'98, pages 112--120, 1998.
+[23] J. Xu and W. B. Croft. Cluster­based Language Models for
+Distributed Retrieval. In Proc. SIGIR'99, pages 254--261,
+1999.
+[24] R. R. Yager and A. Rybalov. On the fusion of docu­ments 
+from multiple collection information retrieval sys­tems. 
+Journal of the American Society of Information Sci­ence, 49(13):1177--1184, 1998.
+[25] B. Yuwono and D. L. Lee. Server Ranking for Distributed
+Text Retrieval Systems on Internet. In Proc. Fifth Intl.
+Conf. on Database Systems for Advanced Applications,
+pages 41--49, April 1997.

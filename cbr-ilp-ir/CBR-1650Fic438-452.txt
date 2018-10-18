@@ -1,0 +1,54 @@
+CBR for the Reuse of Image Processing
+Knowledge: A Recursive Retrieval/Adaptation
+Strategy
+
+Valérie FICET-CAUCHARD, Christine PORQUET & Marinette REVENU
+
+GREYC-ISMRA -6 Bd du Maréchal Juin - F14050 CAEN cedex FRANCE
+tél: +33 (0)2-31-45-27-21 fax: +33 (0)2-31-45-26-98 e-mail: Valerie.Ficet@greyc.ismra.fr
+
+
+
+Abstract. The development of an Image Processing (IP) application is a complex 
+activity, which can be greatly alleviated by user-friendly graphical programming 
+environments. Our major objective is to help IP experts reuse parts of
+their applications. A first work towards knowledge reuse has been to propose a
+suitable representation of the strategies of IP experts by means of IP plans (trees
+of tasks, methods and tools). This paper describes the CBR module of our interactive 
+system for the development of IP plans. Mter a brief presentation of the
+overall architecture of the system and its other modules, we explain the distinction 
+between an IP case and an IP plan, and give the selection criteria and functions 
+that are used for similarity calculation. The core of the CBR module is a
+search/adaptation algorithm, whose main steps are detailed: retrieval of suitable
+cases, recursive adaptation of the selected one and memorization of new cases.
+The system’s implementation is presently completed; its functioning is described 
+in a session showing the kind of assistance provided by the CBR module
+during the development of a new IP application.
+References
+
+[1]	A. Bonzano, P. Cunningham & B. Smyth, Using introspective learning to improve retrieval
+in CBR: A case study in air traffic control, ICCBR’97, Rhode Island, USA, July 1997.
+[2]	P. Caulier & B. Houriez, A Case-Based Reasoning Assistance System in Telecommunications 
+Networks Management, XPS’9S, Kaiserslautern, Germany, 1995.
+[3]	R. Clouard, A. Elmoataz, C. Porquet, M. Revenu, Borg : A knowledge-based system for
+automatic generation of image processing programs, IEEE Trans. on Pattern Analysis and
+Machine Intelligence, Vol. 21, n. 2, pp. 128-144, February, 1999.
+[4]	A. Elmoataz, Mécanismes opératoires d’un segmenteur d’images non dédié: définition
+d’une base d’opérateurs et implémentation, Thèse de Doctorat, Caen, July 1990.
+[5]	V. Ficet-Cauchard, C. Porquet & M. Revenu, An Interactive Case-Based Reasoning System
+for the Development of Image Processing Applications, EWCBR’98, Dublin, kedand,
+pp. 437-447, September 1998.
+[6]	V. Ficet-Cauchard, Réalisation d’un système d’aide à la conception d’applications de
+Traitement d’Images: une approche basée sur le Raisonnement à Partir de Cas, Thèse de
+Doctorat, Caen, January 1999.
+[7] H. Munoz-Avila, D. Aha, L. Breslow & D. Nau, HICAP: An Interactive Case-Based Planning 
+Architecture and its Application to Noncombatant Evacuation Operations. IAAI-99.
+[8]	B.D. Netten & R.A. Vingerhoeds, Structural Adaptation by Case Combination in EADOCS,
+GWCBR’96, Bad Honnef, Germany, March 1997.
+[9]	B. Prasad, Planning With Case-Based Structures, AAAI Fall Symposium, MIT Campus,
+Cambridge, Massachusetts, November 1995.
+[10] Russ, John C. (1995) The Image Processing Handbook, second edition, CRC Press, 1995.
+[11] B. Smyth, Case-Based Design, Doctoral Thesis of the Trinity College, Dublin, Ireland,
+April 1996.
+[12] M. Veloso, H. Munoz-Avila & R. Bergmann, Cased-based planning: selected methods and
+systems, AI Communications, vol. 9, n. 3, September 1996.

@@ -1,0 +1,80 @@
+Theory Completion Using Inverse Entailment
+
+Stephen H. Muggleton and Christopher H. Bryant
+
+Department of Computer Science,
+University of York,
+York, YO1 5DD,
+United Kingdom.
+
+
+
+Abstract. The main real-world applications of Inductive Logic 
+Programming (ILP) to date involve the “Observation Predicate Learning”
+(OPL) assumption, in which both the examples and hypotheses define
+the same predicate. However, in both scientific discovery and language
+learning potential applications exist in which OPL does not hold. OPL is
+ingrained within the theory and performance testing of Machine 
+Learning. A general ILP technique called “Theory Completion using Inverse
+Entailment” (TCIE) is introduced which is applicable to non-OPL 
+applications. TCIE is based on inverse entailment and is closely allied to
+abductive inference. The implementation of TCIE within Progol5.0 is
+described. The implementation uses contra-positives in a similar way to
+Stickel’s Prolog Technology Theorem Prover. Progol5.0 is tested on two
+different data-sets. The first dataset involves a grammar which 
+translates numbers to their representation in English. The second dataset
+involves hypothesising the function of unknown genes within a network
+of metabolic pathways. On both datasets near complete recovery of 
+performance is achieved after relearning when randomly chosen portions of
+background knowledge are removed. Progol5.0’s running times for 
+experiments in this paper were typically under 6 seconds on a standard laptop
+PC.
+References
+
+[1]	H. Ade, L. De Raedt, and M. Bruynooghe. Theory revision. In S. Muggleton,
+editor, Proceedings of the 3rd International Workshop on Inductive Logic 
+Programming, pages 179—192, 1993.
+[2]	Y. Dimopoulos and A. Kakas. Abduction and inductive learning. In L. De Raedt,
+editor, Proceedings of the Fifth Inductive Logic Programming Workshop (ILP95),
+pages 25—28, Leuven, Belgium, 1995. KU Leuven.
+[3]	B. Dujon. The yeast genome project - what did we learn? Trends in Genetics,
+12:263—270, 1996.
+[4]	K. Furukawa. On the completion of the most specific hypothesis computation in
+inverse entailment for mutual recursion. In Proceedings of Discovery Science ‘98,
+LNAI 1532, pages 315—325, Berlin, 1998. Springer-Verlag.
+[5] Goffeau, A. et multi al. Life with 6000 genes. Science, 274:546—567, 1996.
+[6]	K. Ito and A. Yamamoto. Finding hypotheses from examples by computing the
+least generlisation of bottom clauses. In S. Arikawa and H. Motoda, editors,
+Proceedings of Discovery Science ‘98, pages 303—314. Springer, Berlin, 1998. LNAI
+1532.
+[7]	A.C. Kakas, R.A. Kowaiski, and F. Toni. Abductive logic programming. Journal
+of Logic and Computation, 2,1992.
+[8]	S. Muggleton. Inverse entailment and Progol. New Generation Computing,
+13:245—286, 1995.
+[9]	S Muggleton. Completing inverse entailment. In C.D. Page, editor, Proceedings
+of the Eighth International Workshop on Inductive Logic Programming (ILP-98),
+LNAI 1446, pages 245—249. Springer-Verlag, Berlin, 1998.
+[10]	S.C. Oliver. From DNA sequence to biological function. Nature, 379:597—600,
+1996.
+[11]	C. Plotkin. A further note on inductive generalization. In Machine Intelligence,
+volume 6. Edinburgh University Press, 1971.
+[12]	L. De Raedt. Interactive Theory Revision: an Inductive Logic Programming 
+Approach. Academic Press, 1992.
+[13]	L. De Raedt and M. Bruynooghe. Interactive concept-learning and constructive
+induction by analogy. Machine Learning, 8:107—150, 1992.
+[14]	L. De Raedt and N. Lavrac. Multiple predicate learning in two inductive logic
+programming settings. Journal on Pure and Applied Logic, 4(2):227—254, 1996.
+[15]	B. L. Richards and R. J. Mooney. Automated refinement of first-order Horn-clause
+domain theories. Machine Learning, 19(2):95—131, 1995.
+[16] E.Y. Shapiro. Algorithmic program debugging. MIT Press, 1983.
+[17]	M. Stickel. A Prolog technology theorem prover: implementation by an extended
+Prolog compiler. Journal of Automated Reasoning, 4(4):353—380, 1988.
+[18] J. Wogulis. Revising relational theories. In Proceedings of the 8th International
+Workshop on Machine Learning, pages 462—466. Morgan Kaufmann, 1991.
+[19]	S. Wrobel. First-order theory refinement. In L. De Raedt, editor, Advances
+in Inductive Logic Programming, pages 14—33. lOS Press, Ohmsha, Amsterdam,
+1995.
+[20]	A. Yamamoto. Which hypotheses can be found with inverse entailment? In
+N. Lavrac and S. Dzeroski, editors, Proceedings of the Seventh International 
+Workshop on Inductive Logic Programming, pages 296—308. Springer-Verlag, Berlin,
+1997. LNAI 1297.

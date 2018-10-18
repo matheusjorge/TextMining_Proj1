@@ -1,0 +1,54 @@
+Case Acquisition in a Project Planning Environment
+
+Sasidhar Mukkamalla and Héctor Muñoz-Avila
+
+Department of Computer Science and Engineering
+19 Memorial Drive West
+Lehigh University
+Bethlehem, PA 18015, USA
+{sam6,munoz}@cse.lehigh.edu
+
+
+
+Abstract: In this paper, we propose an approach to acquire cases in the context
+of project planning, without any extra effort from the end user. Under our
+definition, a case has a one to one correspondence with the standard elements of
+a project plan. We exploit this correspondence to capture cases automatically
+from project planning episodes. We provide an algorithm for extracting cases
+from project plans. We implemented this algorithm on top of a commercial
+project-planning tool and perform experiments evaluating our approach.
+References
+
+Aha, D.W., and Breslow, L. Refining conversational case libraries. In: Proceedings of the
+Fourth European Workshop on Case-Based Reasoning (EWCBR-98). Providence, RI:
+Springer. 1998.
+Blythe, J., Kim, J., Ramachandran, S., and Gil, Y. An Integrated Environment for Knowledge
+Acquisition. In: Proceedings of the International Conference on Intelligent User Interfaces
+2001.
+El Fattah, Y. Structured Representation of Causal Relationships in Template Planning.(A
+Preliminary Report). Rockwell Scientific Technical Report, 2001.
+Erol, K., Nau, D., & Hendler, J. HTN planning: Complexity and expressivity. In: Proceedings
+of the Twelfth National Conference on Artificial Intelligence (pp. 123-1128). Seattle, WA:
+AAAI Press, 1994
+Hanney, K., and Keane, M.T Learning Adaptation Rules from a Case-Base. In: Proceedings of
+the Third European Workshop on Case-Based Reasoning (EWCBR-96), Lausanne,
+Switzerland: Springer. 1996.
+Ilghami, O., Nau, D.S., Muñoz-Avila, H., & Aha, D.W. (2002) CaMeL: Leaning Methods for
+HTN Planning. To appear in Proccedings of the The Sixth International Conference on AI
+Planning & Scheduling (AIPS’02), 2002.
+Muñoz-Avila, H., McFarlane, D., Aha, D.W., Ballas, J., Breslow, L.A., & Nau, D. Using
+guidelines to constrain interactive case-based HTN planning. In: Proceedings of the Third
+International Conference on Case-Based Reasoning (ICCBR-99). Munich: Springer, 1999.
+Muñoz-Avila, H., Aha, D.W., Nau D. S., Breslow, L.A., Weber, R., & Yamal, F. SiN:
+Integrating Case-based Reasoning with Task Decomposition. To appear in Proceedings of
+the Seventeenth lnternational Joint Conference on Artificial Intelligence (IJCAI-2001).
+Seattle, WA: AAAI Press, 2001.
+Muñoz-Avila, H., Gupta, K., Aha, D.W., Nau, D.S. Knowledge Based Project Planning. To
+appear in Knowledge Management and Organizational Memories. 2002.
+Nau, D., Cao, Y., Lotem, A., & Muñoz-Avila, H. SHOP: Simple hierarchical ordered planner.
+Proceedings of the Sixteenth International Joint Conference on Artificial Intelligence
+(IJCAI-99). Stockholm: AAAI Press, 1999.
+Smyth, B., and Keane, M.T., Remembering to forget: A competence-preserving case deletion
+policy for case-based reasoning systems. In: Proceedings of the Fourthteen International
+Joint Conference on Artificial Intelligence (IJCAI-95). AAAI Press, 1995.
+Veloso, M. Planning and learning by analogical reasoning. Berlin: Springer-Verlag, 1994.

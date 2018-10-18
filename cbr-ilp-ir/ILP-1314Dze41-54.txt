@@ -1,0 +1,84 @@
+Applying ILP to Diterpene Structure
+Elucidation from 13C NMR Spectra
+
+Saso Dzeroski1,2, Steffen Schulze-Kremer3,
+Karsten R. Heidtke4, Karsten Siems4 and Dietrich Wettschereck5
+
+1 FORTH-ICS, P.O.Box 1385, 711 10 Heraklion, Crete, Greece
+2 Department of Intelligent Systems, Jozef Stefan Institute
+Jamova 39, 1000 Ljubljana, Slovenia
+Email: Saso.Dzeroski@ijs.si
+3 Max-Planck Institute for Molecular Genetics
+Otto-Warburg-Laboratorium, Department Lehrach
+Ihnestrasse 73, 14195 Berlin, Germany
+4 AnalytiCon GmbH
+Gustav-Meyer-Allee 25, 13335 Berlin-Wedding, Germany
+5 GMD, FIT.KI, Schloss Birlinghoven, 53745 Sankt Augustin, Germany
+
+
+Abstract. We present a novel application of ILP to the problem of
+diterpene structure elucidation from 13C NMR spectra. Diterpenes are
+organic compounds of low molecular weight that are based on a skeleton
+of 20 carbon atoms. They are of significant chemical and commercial
+interest because of their use as lead compounds in the search for new
+pharmaceutical effectors. The structure elucidation of diterpenes based
+on 13C NMR spectra is usually done manually by human experts with
+specialized background knowledge on peak patterns and chemical structures. 
+In the process, each of the 20 skeletal atoms is assigned an atom
+number that corresponds to its proper place in the skeleton and the
+diterpene is classified into one of the possible skeleton types. We address 
+the problem of learning classification rules from a database of peak
+patterns for diterpenes with known structure. Recently, propositional
+learning was successfully applied to learn classification rules from spectra 
+with assigned atom numbers. As the assignment of atom numbers is
+a difficult process in itself (and possibly indistinguishable from the classification 
+process), we apply ILP, i.e., relational learning, to the problem
+of classifying spectra without assigned atom numbers.
+References
+
+1.	Aha, D., Kibler, D., and Albert, M. Instance-based learning algorithms. Machine
+Learning, 6: 37—66, 1991.
+2.	Abraham, R.J., Loftus, P. Proton and Carbon 13 NMR Spectroscopy, An Integrated
+Approach. Heyden, London, 1978.
+3.	Clark, P. and Boswell, R. Rule induction with CN2: Some recent improvements.
+In Proc. Fifth European Working Session on Learning, pages 151—163. Springer,
+Berlin, 1991.
+4;	Cover, T.M., and Hart, P.E. Nearest neighbor pattern classification. IEEE Transactions 
+on Information Theory, 13: 21—27, 1968.
+5.	De Raedt, L., and Van Laer, V. Inductive constraint logic. In Proc. Sixth International 
+Workshop on Algorithmic Learning Theory, pages 80—94. Springer, Berlin,
+1995.
+6.	Dzeroski, S. Handling imperfect data in inductive logic programming. In Proc.
+Fourth Scandinavian Conference on Artificial Intelligence, pages 111—125. lOS
+Press, Amsterdam, 1993.
+7.	Dzeroski, S., Schulze-Kremer, S., Heidtke, K., Siems, K., Wettschereck, D. Diterpene 
+structure elucidation from 13C NMR spectra with machine learning. In Proc.
+ECAI’96 Workshop on Intelligent Data Analysis in Medicine and Pharmacology,
+1996.
+8.	Emde, W., Wettschereck, D. Relational instance-based learning. In Proc. Thirteenth 
+International Conference on Machine Learning, pages 122—130. Morgan
+Kaufmann, San Mateo, CA, 1996.
+9.	Gray, N. A. B. Progress in NMR-spectroscopy, Vol. 15, pp. 201—248, 1982.
+10.	Lavrac, N., Dzeroski, S. Inductive Logic Programming: Techniques and Applications. 
+Ellis Horwood, Chichester, 1994.
+11.	Muggleton, S. Inverse entailment and PROGOL. New Generation Computing, 13:
+245—286,	1995.
+12.	Muggleton, S., and Feng, C. Efficient induction of logic programs. In Proc. First
+Conference on Algorithmic Learning Theory, pages 368—381. Ohmsha, Tokyo, 1990.
+13.	Natural products on CD-ROM. Chapman and Hall, London, 1995.
+14.	Quinlan, J.R. Induction of decision trees. Machine Learning 1(1): 81—106, 1986.
+15.	Quinlan, J.R. Learning logical definitions from relations. Machine Learning, 5(3):
+	239—266, 1990.
+16.	Quinlan, J.R. C4.5: Programs for Machine Learning. Morgan Kaufmann, San Mateo, 
+CA, 1993.
+17.	Schulze-Kremer, S. Molecular Bioinformatics - Algorithms and Applications. de
+Gruyter, Berlin, 1995.
+18.	Stuttgart	Neural	Network
+Simulator. Computer code available from the University of Stuttgart, Germany,
+via anonymous ftp ftp: //ftp.informatik.uni-stuttgart.de/pub/SNNS, 1995.
+19.	Tveter, D. R. Fast-Backpropagation. Computer code available from the author.
+Address: 5228 N Nashville Aye, Chicago, Illinois, 60656, drt@chinet.chi.il.us,
+1995.
+20.	Wettschereck, D. A study of distance-based machine learning algorithms. PhD
+Thesis, Department of Computer Science, Oregon State University, Corvallis, OR,
+1994.

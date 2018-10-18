@@ -1,0 +1,74 @@
+Corpus­Based Identification of Non­Anaphoric Noun Phrases
+
+David L. Bean and Ellen Riloff
+Department of Computer Science
+University of Utah
+Salt Lake City, Utah 84112
+fbean,riloffg@cs.utah.edu
+
+Abstract
+Coreference resolution involves finding antecedents
+for anaphoric discourse entities, such as definite
+noun phrases. But many definite noun phrases are
+not anaphoric because their meaning can be un­derstood 
+from general world knowledge (e.g., ``the
+White House'' or ``the news media''). We have
+developed a corpus­based algorithm for automat­ically 
+identifying definite noun phrases that are
+non­anaphoric, which has the potential to improve
+the efficiency and accuracy of coreference resolu­tion 
+systems. Our algorithm generates lists of non­
+anaphoric noun phrases and noun phrase patterns
+from a training corpus and uses them to recognize
+non­anaphoric noun phrases in new texts. Using
+1600 MUC­4 terrorism news articles as the training
+corpus, our approach achieved 78% recall and 87%
+precision at identifying such noun phrases in 50 test
+documents.
+
+References
+James Allen. 1995. Natural Language Understand­ing. 
+Benjamin/Cummings Press, Redwood City,
+CA.
+Chinatsu Aone and Scott William Bennett. 1996.
+Applying Machine Learning to Anaphora Reso­lution. 
+In Connectionist, Statistical, and Sym­bolic 
+Approaches to Learning for Natural Lan­guage 
+Understanding, pages 302--314. Springer­
+Verlag, Berlin.
+Andrew Kehler. 1997. Probabilistic coreference in
+information extraction. In Proceedings of the Sec­ond 
+Conference on Empirical Methods in Natural
+Language Processing (EMNLP­97).
+7 Case sensitive text can have a significant positive ef­fect 
+on performance because it helps to identify proper
+nouns. Proper nouns can then be used to look for restric­tive 
+premodification, something that our system cannot
+take advantage of because the MUC­4 corpus is entirely
+in uppercase.
+Christopher Kennedy and Branimir Boguraev. 1996.
+Anaphor for everyone: Pronomial anaphora reso­lution 
+without a parser. In Proceedings of the 16th
+International Conference on Computational Lin­guistics 
+(COLING­96).
+Shalom Lappin and Herbert J. Leass. 1994. An al­gorithm 
+for pronomial anaphora resolution. Com­putational 
+Linguistics, 20(4):535--561.
+Joseph F. McCarthy and Wendy G. Lehnert. 1995.
+Using Decision Trees for Coreference Resolution.
+In Proceedings of the 14th International Joint
+Conference on Artificial Intelligence (IJCAI­95),
+pages 1050--1055.
+Ellen F. Prince. 1981. Toward a taxonomy of given­
+new information. In Peter Cole, editor, Radical
+Pragmatics, pages 223--255. Academic Press.
+Brian Roark and Eugene Charniak. 1998. Noun­
+phrase co­occurence statistics for semi­automatic
+semantic lexcon construction. In Proceedings of
+the 36th Annual Meeting of the Association for
+Computational Linguistics.
+R. Vieira and M. Poesio. 1997. Processing defi­nite 
+descriptions in corpora. In S. Botley and
+M. McEnery, editors, Corpus­based and Compu­tational 
+Approaches to Discourse Anaphora. UCL
+Press.

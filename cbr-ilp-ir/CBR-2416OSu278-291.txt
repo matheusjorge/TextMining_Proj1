@@ -1,0 +1,68 @@
+Improving Case-Based Recommendation
+A Collaborative Filtering Approach
+
+Derry O’ Sullivan, David Wilson, and Barry Smyth
+
+Smart Media Institute
+University College Dublin
+{dermot.osullivan,david.wilson,barry.smyth}@ucd.ie
+
+
+
+Abstract. Data Mining, or Knowledge Discovery as it is also known, is becoming 
+increasingly useful in a wide variety of applications. In the following paper,
+we look at its use in combating some of the traditional issues faced with recommender 
+systems. We discuss our ongoing work which aims to enhance the
+performance of PTV, an applied recommender system working in the TV listings 
+domain. This system currently combines the results of separate user-based
+collaborative and case-based components to recommend programs to users. Our
+extension to this idea operates on the theory of developing a case-based view of
+the collaborative component itself. By using data mining techniques to extract
+relationships between programme items, we can address the sparsity/maintenance
+problem. We also adopt a unique approach to recommendation ranking which
+combines user similarities and item similarities to provide more effective recommendation 
+orderings. Experimental results corroborate our ideas, demonstrating
+the effectiveness of data mining in improving recommender systems by providing
+similarity knowledge to address sparsity, both at user-based recommendation level
+and recommendation ranking level.
+References
+
+1.	Herlocker, J., Konstan, J., Borchers, A., Riedl, J.: An algorithmic framework for performing
+collaborative filtering. In: Proceedings of the 1999 Conference on Research and Development
+in Information Retrieval: SIGIR-99. (1999)
+2.	Konstan, J., Miller, B., Maltz, D., Herlocker, J., Gordon, L., Riedl, J.: Grouplens: Applying
+collaborative filtering to usenet news. Communications of the ACM 40 (1997) 77—87
+3.	Shardanand, U., Maes, P.: Social information filtering: Algorithms for automating “word
+of mouth”. In: Proceedings of ACM CHI’95 Conference on Human Factors in Computing
+Systems. (1995) 210—217
+4.	Smyth, B., Cotter, P.: Personalized electronic programme guides. Artificial Intelligence
+Magazine 21 (2001)
+5.	Good, N., Schafer, J.B., Konstan, J.A., Borchers, A., Sarwar, B.M., Herlocker, J.L., Riedl,
+J.: Combining collaborative filtering with personal agents for better recommendations. In:
+Proceedings of the 1999 Conference of the American Association of Artificial Intelligence
+(AAAI-99). (1999) 439—446
+6.	Soboroff, I., Nicholas, C.: Combining content and collaboration in text filtering. In: Proceedings 
+of the IJCAI-99 Workshop on Machine Learning for Information Filtering. (1999)
+7.	Balabanovic, M., Shoham, Y: Fab: Content-based, collaborative recommendation. Communications 
+of the ACM 40 (1997) 66—72
+8.	Wilson, D.C., Leake, D.B.: Maintaining case-based reasoners: Dimensions and directions.
+Computational Intelligence 17 (2001)
+9.	Watson, I.: CBR is a methodology not a technology. Knowledge Based Systems 12 (1999)
+303—308
+10.	O’Sullivan, D., Wilson, D., Smyth, B.: Using collaborative filtering data in case-based recommendation. 
+In: Proceedings of the 15th International FLAIRS Conference. (2002) To
+Appear.
+11.	Fox, S., Leake, D.: Learning to refine indexing by introspective reasoning. In: Proceedings
+of First International Conference on Case-Based Reasoning, Berlin, Springer Verlag (1995)
+431—440
+12.	Hipp, J., Nakhaeizadeh, U.G.: Mining association rules: Deriving a superior algorithm by
+analyzing today’s approaches. In: Proceedings of the 4th European Symposium on Principles
+of Data Mining and Knowledge Discovery. (2000)
+13.	Agrawal, R., Mannila, H., Srikant, R., Toivonen, H., Verkamo, A.I.: Fast discovery of association 
+rules. In Fayyad, U.M., Piatetsky-Shapiro, G., Smyth, P., Uthurusamy, R., eds.:
+Advances in Knowledge Discovery and Data Mining. AAAI Press (1996) 307—328
+14.	Sarwar, B.M., Karypis, G., Konstan, J.A., Riedl, J.: Item-based collaborative filtering recommender 
+algorithms. In: Proceedings of the Tenth International World Wide Web Conference.
+(2001)
+15.	Donald, K.M.: (Use of the fischlar video library system)
+16.	Charu Aggarwal, Zheng Sun, P.S.Y.: Finding profile association rules (1998)

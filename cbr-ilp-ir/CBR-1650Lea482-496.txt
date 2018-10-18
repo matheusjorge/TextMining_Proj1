@@ -1,0 +1,92 @@
+Integrating Information Resources:
+A Case Study of Engineering Design Support*
+
+David B. Leake,1 Larry Birnbaum,2 Kristian Hammond,2 Cameron Marlow,3
+and Hao Yang4
+
+1 Computer Science Department, Lindley Hall, Indiana University,
+150 S. Woodlawn Aye, Bloomington, IN 47405, U.S.A., leake@cs.indiana.edu
+2 Intelligent Information Laboratory, Computer Science Department,
+Northwestern University, 1890 Maple Avenue, Evanston, IL 60201, U.S.A.,
+{birnbaum,hammond}@ils.nwu.edu
+3 Computer Science Department, The University of Chicago,
+1100 East 58th Street, Chicago, IL 60637, U.S.A., cameron@ils.nwu.edu
+4 PDC, MD 270, GB-D68, Vehicle Operations, Ford Motor Company, 21500
+Oakwood Blvd., Dearborn, MI 48124, U.S.A., hyangl@ford.com
+
+
+
+Abstract. The development of successful case-based design aids depends 
+both on the CBR processes themselves and on crucial questions of
+integrating the CBR system into the larger task context: how to make the
+CBR component provide information at the right time and in the right
+form, how to access relevant information from additional information
+sources to supplement the case library, how to capture information for
+use downstream and how to unobtrusively acquire new cases. This paper
+presents a set of design principles and techniques that integrate methods 
+from CBR and information retrieval to address these questions. The
+paper illustrates their application through a case study of the Stamping
+Advisor, a tool to support feasibility analysis for stamped metal automotive parts.
+References
+
+[Coulon and Steffens, 1994] C.-H. Coulon and R. Steffens. Comparing fragments by
+their images. FABEL Report 13, Gesellschaft für Mathematik und Datenverarbeitung
+mbH, 1994. Pages 36—44.
+[Domeshek et al, 1994] E. Domeshek, M. Herndon, A. Bennett, and 3. Kolodner. A
+case-based design aid for conceptual design of aircraft subsystems. In Proceedings of
+the Tenth IEEE Conference on Artificial Intelligence for Applications, pages 63—69,
+Washington, 1994. IEEE Computer Society Press.
+[Gebhardt et al., 1997] Friedrich Gebhardt, Angi Voß, Wolfgang Gräther, and Barbara
+Schmidt-Belz. Reasoning with complex cases. Kluwer Academic Publishers, Boston,
+1997.
+[Goel et al., 1991] A. Goel, J. Kolodner, M. Pearce, and R. Billington. Towards a
+case-based tool for aiding conceptual design problem solving. In R. Bareiss, editor,
+Proceedings of the DARPA Case-Based Reasoning Workshop, pages 109—120, San
+Mateo, 1991. DARPA, Morgan Kaufmann.
+[Goel, 1989] A. Goel. Integration of Case-Based Reasoning and Model-Based Reasoning
+for Adaptive Design Problem Solving. PhD thesis, The Ohio State University, 1989.
+[Hinkle and Toomey, 1995] D. Hinkle and C. Toomey. Applying case-based reasoning
+to manufacturing. AI Magazine, 16(1):65—73, Spring 1995.
+[Hua and Faltings, 1993] K. Hua and B. Faltings. Exploring case-based design -
+CADRE. Artificial Intelligence in Engineering Design, Analysis and Manufacturing, 7(2):135—144, 1993.
+[Hua et al., 1996] K. Hua, B. Faltings, and I. Smith. CADRE: Case-based geometric
+design. Artificial Intelligence in Engineering, 10:171—183, 1996.
+[Knoblock and Levy, 1998] K. Knoblock and A. Levy, editors. Proceedings of the
+AAAI-98 workshop on AI and information integration. AAAI Press, Menlo Park,
+CA, 1998.
+[Kolodner, 1993] J. Kolodner. Case-Based Reasoning. Morgan Kaufmann, San Mateo,
+CA, 1993.
+[Kolodner, 1994] J. Kolodner. From natural language understanding to case-based reasoning 
+and beyond: A perspective on the cognitive model that ties it all together. In
+R. Schank and E. Langer, editors, Beliefs, Reasoning, and Decision Making: PsychoLogic 
+in Honor of Bob Abelson, pages 55—110. Lawrence Eribaum, Hillsdale, NJ,
+1994.
+[Leake and Wilson, 1999] D. Leake and D. Wilson. Integrating CBR with interactive
+tools for acquiring, manipulating and reusing design knowledge. In Proceedings of
+the Third International Conference on Case-Based Reasoning, Berlin, 1999. Springer
+Verlag. In press.
+[Leake, 1998] D. Leake. Cognition as case-based reasoning. In W. Bechtel and G. Graham, 
+editors, A Companion to Cognitive Science, pages 465—476. Blackwell, Oxford,
+1998.
+[Lenz and Ashley, 1998] M. Lenz and K. Ashley, editors. Proceedings of the AAAI-98
+workshop on textual case-based reasoning. AAAI Press, Menlo Park, CA, 1998.
+[Maher et al., 1995] M. Maher, B. Balachandran, and D. Zhang. Case-based reasoning
+in design. Erlbaum, Hillsdale, NJ, 1995.
+[Mark et al., 1996] William Mark, Evangelos Simoudis, and David Hinkle. Case-based
+reasoning: Expectations and results. In D. Leake, editor, Case-Based Reasoning:
+Experiences, Lessons, and Future Directions, pages 269—294. AAAI Press, Menlo
+Park, CA, 1996.
+[Rissland and Daniels, 1996] E. Rissland and J. Daniels. The synergistic application
+of CBR to IR. Artificial Intelligence Review, 10:441—475, 1996.
+[Schank, 1982] R.G. Schank. Dynamic Memory: A Theory of Learning in Computers
+and People. Cambridge University Press, Cambridge, England, 1982.
+[Smith et al., 1995] I. Smith, C. Lottaz, and B. Faltings. Spatial composition using
+cases: IDIOM. In Proceedings of First International Conference on Case-Based Reasoning, 
+pages 88—97, Berlin, October 1995. Springer Verlag.
+[Sycara et al., 1991] K. Sycara, R. Guttal, J. Koning, S. Narasimhan, and D. Navinchandra. 
+CADET: a case-based synthesis tool for engineering design. International
+Journal of Expert Systems, 4(2):157—188, 1991.
+[Vollrath, 1998] I. Vollrath. Reuse of complex electronic designs: Requirements analysis 
+for a CBR application. In P. Cunningham, B. Smyth, and M. Keane, editors,
+Proceedings of the Fourth European Workshop on Case-Based Reasoning, pages 136—
+147, Berlin, 1998. Springer Verlag.

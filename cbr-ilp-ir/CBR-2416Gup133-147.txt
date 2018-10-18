@@ -1,0 +1,91 @@
+Exploiting Taxonomic and Causal Relations
+in Conversational Case Retrieval
+
+Kalyan Moy Gupta1, David W. Aha2, and Nabil Sandhu1
+
+1ITT Industries, AES Division, Alexandria, VA 22303
+2Navy Center for Applied Research in Artificial Intelligence,
+Naval Research Laboratory (Code 5515), Washington, DC 20375
+{Gupta, Aha, Sandhu}@aic.nrl.navy.mil
+
+
+
+Abstract. Conversational case-based reasoning (CCBR) systems engage their
+users in a series of questions and answers and present them with cases that are
+most applicable to their decision problem. In previous research, we introduced
+the Taxonomic CCBR methodology, an extension of standard CCBR that
+improved performance by organizing features related by abstraction into
+taxonomies. We recently extended this methodology to include causal relations
+between taxonomies and claimed that it could yield additional performance
+gains. In this paper, we formalize the causal extension of Taxonomic CCBR,
+called Causal CCBR, and empirically assess its benefits using a new
+methodology for evaluating CCBR performance. Evaluation of Taxonomic and
+Causal CCBR systems in troubleshooting and customer support domains
+demonstrates that they significantly outperform the standard CCBR approach.
+In addition, Causal CCBR outperforms Taxonomic CCBR to the extent causal
+relations are incorporated in the case bases.
+References
+
+Acorn, T.L., & Walden, S.H. (1992). SMART: Support management automated
+reasoning technology for COMPAQ customer service. Proceedings of the Fourth
+Annual Conference on Innovative Applications of Artificial Intelligence. San Jose,
+CA: AAAI Press.
+Aha, D.W., & Gupta K.M. (2002). Causal query elaboration in conversational case-based 
+reasoning. In Proceedings of the Fifteenth Conference of the Florida AI
+Research Society (pp. 95-100). Pensacola Beach, FL: AAAI Press.
+Aha, D.W., Breslow, L.A., & Munoz-Avila, H. (2001). Conversational case-based
+reasoning. Applied Intelligence, 14(1), 9-32.
+Aha, D. W., Maney, T., & Breslow, L. A. (1998). Supporting dialogue inferencing in
+conversational case-based reasoning. Proceedings of the Fourth European
+Workshop on Case-Based Reasoning (pp. 262-273). Dublin, Ireland: Springer.
+Carrick, C., Yang, Q., Abi-Zeid, I., & Lamontagne, L. (1999). Activating CBR
+systems through autonomous information gathering. Proceedings of the Third
+International Conference on Case-Based Reasoning (pp. 74-88). Seeon, Germany:
+Springer.
+Doyle, M., & Cunningham, P. (2000). A dynamic approach to reducing dialog in on-line 
+decision guides. Proceedings of the Fifth European Workshop on Case-Based
+Reasoning (pp. 49-60). Trento, Italy: Springer.
+Giampapa, J.A., & Sycara, K. (2001). Conversational case-based planning for agent
+team coordination. Proceedings of the Fourth International Conference on Case-Based 
+Reasoning (pp. 189-203). Vancouver, Canada: Springer.
+Göker, M., Roth-Berghofer, T., Bergmann, R., Pantleon, T., Traphoner, R., Wess, S.,
+& Wilke, W. (1998). The development of HOMER: A case-based CAD/CAM
+help-desk support tool. Proceedings of the Fourth European Workshop on Case-Based 
+Reasoning (pp. 346-357). Dublin, Ireland: Springer.
+Göker, M., & Thompson, C.A. (2000). Personalized conversational case-based
+recommendation. Proceedings of the Fifth European Workshop on Case-Based
+Reasoning (pp. 99-111). Trento, Italy: Springer.
+Gupta K.M. (2001). Taxonomic case-based reasoning. Proceedings of the Fourth
+International Conference on Case-Based Reasoning (pp. 219-233). Vancouver,
+Canada:	Springer.
+Gupta, K.M. (1998). Knowledge-based system for troubleshooting complex
+equipment. International Journal of Information and Computing Science, 1(1), 29-
+41.
+Gupta, K.M. (1997). Case base engineering for large-scale industrial applications. In
+B.R. Gaines & R. Uthurusamy (Eds.) Intelligence in Knowledge Management:
+Papers from the AAAI Spring Symposium (Technical Report SS-97-01). Stanford,
+CA: AAAI Press.
+Kohlmaier, A., Schmitt, S., & Bergmann, R. (2001). A similarity-based approach to
+attribute selection in user-adaptive sales dialogs. Proceedings of the Fourth
+International Conference on Case-Based Reasoning (pp. 306-320). Vancouver,
+Canada: Springer.
+Kolodner, J. (1993). Case-based reasoning. San Mateo, CA: Morgan Kaufmann.
+Lenz, M., & Burkhard H. D. (1996). Case retrieval nets: Basic ideas and extensions.
+In G. Görz & S. Hölldobler (Eds.) KI-96: Advances in Artificial Intelligence.
+Berlin: Springer.
+McSherry, D. (2001a). Interactive case-based reasoning in sequential diagnosis.
+Applied Intelligence, 14(1), 65-76.
+McSherry, D. (2001b). Minimizing dialog length in interactive case-based reasoning.
+Proceedings of the Seventeenth International Joint Conference on Artificial
+Intelligence (pp. 993-998). Seattle, WA: Morgan Kaufmann.
+Montazemi A.R., & Gupta K.M. (1996), An adaptive agent for case description in
+diagnostic CBR systems. Computers in Industry, 29(3), 209-224.
+Shimazu, H. (2001). ExpertClerk: Navigating shoppers’ buying process with the
+combination of asking and proposing. Proceedings of the Seventeenth International
+Conference on Artificial Intelligence (pp. 1443-1448). Seatfie, WA: Morgan Kaufmann.
+Shimazu, H., Shibata, A., & Nihei, K. (1994). Case-based retrieval interface adapted to
+customer-initiated dialogues in help desk operations. Prnceedings of the Twelfth National
+Conference on Artificial Intelligence (pp.513-518). Seattle, WA: AAAI Press.
+Yang, Q., & Wu, J. (2001). Enhancing the effectiveness of interactive case-based
+reasoning with clustering and decision forests. Applied Intelligence, 14(1),
+49-64.

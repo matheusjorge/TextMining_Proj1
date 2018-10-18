@@ -1,0 +1,106 @@
+Modular System Design for Multimedial Information Handling
+
+Botond Pakucs 1 Bj#rn Gamb#ck 1;2 Preben Hansen 1
+botte@sics.se gamback@sics.se preben@sics.se
+1 Information and Language Engineering 2 Computational Linguistics
+Swedish Institute of Computer Science University of Helsinki
+Box 1263, S­164 29 Kista, Sweden P.O. Box 4, SF­00014 Helsinki, Finland
+
+Abstract
+Often, information retrieval from various other
+media is analogous to text­based retrieval; how­
+ever, accessing documents in e.g. audio or video
+formats causes some extra problems, in particular
+with respect to document segmentation, choice
+of indexing features, and robustness. We review
+these diOEculties, together with some previous at­
+tempts to overcome them, and then describe a
+very AEexible, modular IR system which has been
+designed with a speciøc eye towards these issues.
+
+
+References
+Abberley, D., Renals, S., and Cook, G. 1998.
+Retrieval of Broadcast News Documents
+with the THISL System. Proc. Int.
+Conf. on Acoustics, Speech and Signal
+Processing, Seattle, Washington. IEEE.
+Bretan, I., Dewe, J., Hallberg, A., Karlgren, J.,
+and Wolkert, N. 1998. Web­Speciøc
+Genre Visualization. Proc. 3rd World
+Conf. on the WWW and Internet, Or­lando, FL. AACE.
+Bub, T., Wahlster, W., and Waibel, A. 1997.
+Verbmobil: The Combination of Deep
+and Shallow Processing for Spontaneous
+Speech Translation. Proc. Int. Conf. on
+Acoustics, Speech and Signal Processing,
+pp. 71–74, M#nchen, Germany. IEEE.
+Crestani, F. and Sanderson, M. 1997. Retrieval
+of Spoken Documents: First Experi­ences. 
+Technical report, Dept. of Com­
+puting Science, University of Glasgow,
+Scotland.
+Falk, J. 1997. Pauses in Synthesized Speech: 
+Au­tomatic Prediction of Silent Intervals in
+Swedish. MA Thesis, Dept. of Linguis­tics, 
+G#teborg University, Sweden.
+Garofolo, J. S., Voorhees, E. M., Stanford, V.,
+and Jones, K. S. 1997. TREC–6
+1997 Spoken Document Retrieval Track
+Overview and Results. Proc. 6th Text
+Retrieval Conf., pp. 83–91, Gaithers­burg, MD. NIST.
+Glavitsch, U. and Sch#uble, P. 1992. A System
+for Retrieving Speech Documents. Proc.
+15th Int. Conf. on Research and De­velopment in Information Retrieval, pp.
+168–176, K#benhavn, Denmark. ACM
+SIGIR.
+Glavitsch, U., Sch#uble, P., and Wechsler, M.
+1994. Metadata for Integrating Speech
+Documents in a Text Retrieval System.
+SIGMOD Record, 23(4):57–63.
+Hauptmann, A. G. 1995. Speech Recognition in
+the Informedia TM Digital Library: Uses
+and Limitations. Proc. 7th Int. Conf. on
+Tools with AI, Washington, DC. IEEE.
+James, D. A. 1995. The Application of Classi­cal Information Retrieval Techniques to
+Spoken Documents. PhD Thesis, Engi­neering Dept., University of Cambridge,
+England.
+Jones, G. J. F., Foote, J. T., Sparck Jones, K.,
+and Young, S. J. 1996. Retrieving Spo­ken Documents by Combining Multiple
+Index Sources. Proc. 19th Int. Conf.
+on Research and Development in In­
+formation Retrieval, pp. 30–38, Z#rich,
+Switzerland. ACM SIGIR.
+Marchionini, G. 1995. Information Seeking in
+Electronic Environments. Cambridge
+University Press, Cambridge, England.
+Ng, K. 1998. Towards Robust Methods for Spo­ken Document Retrieval. Proc. 5th Int.
+Conf. on Spoken Language Processing,
+Sydney, Australia.
+Ng, K. and Zue, V. 1997. Subword Unit Rep­resentations for Spoken Document 
+Re­trieval. Proc. 5th European Conf. on
+Speech Communication and Technology,
+pp. 1607–1610, Rhodes, Greece.
+Robinson, T., Hochberg, M., and Renals, S. 1996.
+The Use of Recurrent Networks in Con­tinuous Speech Recognition. In Lee, C.­
+H. and Soong, F. K., editors, Advanced
+Topics in Automatic Speech and Speaker
+Recognition, Ch. 7. Kluwer, Dordrecht,
+Holland.
+Sanderson, M. and Crestani, F. 1998. Mixing
+and Merging for Spoken Document Re­trieval. Proc. 2nd European Conf. on
+Research and Advanced Technology for
+Digital Libraries, pp. 397–407, Herak­lion, Greece.
+Slaughter, L., Oard, D., Warnick, V., Hard­ing, J., and Wilkerson, G. 1998. A
+Graphical Interface for Speech­Based
+Retrieval. Proc. 3rd Digital Library
+Conf., Philadelphia, PA. ACM.
+Smeaton, A., Morony, M., Quinn, G., and Scaife,
+R. 1998. Taisc#ala#: Information Re­trieval from an Archive of Spoken 
+Ra­dio News. Proc. 2nd European Conf. on
+Research and Advanced Technology for
+Digital Libraries, pp. 397–407, Herak­lion, Greece.
+Wechsler, M. 1995. Eine neue Indexierungsmeth­
+ode f#r Information Retrieval auf
+Audiodokumente. HIM95 Konferenz:
+Hypertext–Information Retrieval–Multimedia, pp. 117–128. (in German).

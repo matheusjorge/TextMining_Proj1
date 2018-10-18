@@ -1,0 +1,44 @@
+A Rule-based Question Answering System for Reading
+Comprehension Tests
+
+Ellen Rilo
+ and Michael Thelen
+Department of Computer Science
+University of Utah
+Salt Lake City, Utah 84112
+frilo
+,thelenmg@cs.utah.edu
+
+Abstract
+We have developed a rule-based system, Quarc,
+that can read a short story and nd the sentence
+in the story that best answers a given question.
+Quarc uses heuristic rules that look for lexical
+and semantic clues in the question and the story.
+We have tested Quarc on reading comprehension 
+tests typically given to children in grades
+3-6. Overall, Quarc found the correct sentence
+40% of the time, which is encouraging given the
+simplicity of its rules.
+
+References
+L. Hirschman, M. Light, E. Breck, and
+J. Burger. 1999. Deep Read: A Reading
+Comprehension System. In Proceedings of the
+37th Annual Meeting of the Association for
+Computational Linguistics.
+G. Miller. 1990. Wordnet: An On-line Lexical
+Database. International Journal of Lexicography,
+ 3(4).
+E. Rilo
+ and J. Shepherd. 1997. A Corpus-Based 
+Approach for Building Semantic Lexicons. 
+In Proceedings of the Second Conference 
+on Empirical Methods in Natural Language Processing, pages 117{124.
+B. Roark and E. Charniak. 1998. Noun-phrase
+Co-occurrence Statistics for Semi-automatic
+Semantic Lexicon Construction. In Proceedings 
+of the 36th Annual Meeting of the Association 
+for Computational Linguistics, pages
+1110{1116.
+

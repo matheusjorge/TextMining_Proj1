@@ -1,0 +1,99 @@
+Extending K-Means Clustering to First-Order
+Representations
+
+Mathias Kirsten1 and Stefan Wrobel2
+
+1 German National Research Center for Information Technology, GMD - AiS.KD,
+Schloﬂ Birlinghoven, D-53754 Sankt Augustin,
+mathias.kirsten@gmd.de
+2 Otto-von-Guericke-Universit‰t Magdeburg, IWS,
+P.O.Box 4120, D-39106 Magdeburg,
+wrobel@iws.cs.uni-magdeburg.de
+
+
+
+Abstract. In this paper, we present an in-depth evaluation of two 
+approaches of extending k-means clustering to work on first-order 
+representations. The first-approach, k-medoids, selects its cluster center from
+the given set of instances, and is thus limited in its choice of centers. The
+second approach, k-prototypes, uses a heuristic prototype construction
+algorithm that is capable of generating new centers. The two approaches
+are empirically evaluated on a standard benchmark problem with respect
+to clustering quality and convergence. Results show that in this case 
+indeed the k-medoids approach is a viable and fast alternative to existing
+agglomerative or top-down clustering approaches even for a small-scale
+dataset, while k-prototypes exhibited a number of deficiencies.
+References
+
+1.	G. H. Ball and D. J. Hall. A clustering technique for summarizing multivariate
+data. Behavioral Science, 12:153ó157, 1967.
+2.	G. Bisson. Conceptual Clustering in a First-Order Logic Representation. In
+B. Neumann, editor, Proceedings of the 10th European Conference on Artificial
+Intelligence, pages 458ó462. John Wiley, 1992.
+3.	H. Blockeel, L. De Raedt, and J. Ramon. Top-down induction of clustering trees. In
+J. Shavlik, editor, Proceedings of the Fiteenth International Conference on Machine
+Learning (ICML-98), pages 55ó63. Morgan Kaufmann, 1998.
+4.	D. Cox. Note on grouping. J. Am. Stat. Assoc., 52:543ó547, 1957.
+5.	W. Emde. Inductive learning of characteristic concept descriptions from small sets
+to classified examples. In F. Bergadano and L. De Raedt, editors, Proceedings of
+the 7th European Conference on Machine Learning, volume 784 of Lecture Notes
+in Artificial Intelligence, pages 103ó121. Springer-Verlag, 1994.
+6.	W. Emde and D. Wettschereck. Relational Instance-Based Learning. In L. Saitta,
+editor, Proceedings of the 13th International Conference on Machine Learning,
+pages 122ó130. Morgan Kaufrnann, 1996.
+7.	U. M. Fayyad, C. Rain, and P. S. Bradley. Initialization of iterative refinement
+clustering algorithms. In R. Agrawal, P. E. Stolorz, and C. Piatetsk-Shapiro, 
+editors, Proceedings of the Fourth International Conference on Knowledge Discovery
+and Data Mining (KDD-98), pages 194ó198. AAAI Press, 1998.
+8.	5. K. Gupta, K. Sambasiva Rao, and V. Bhatnagar. K-means Clustering Algorithm
+for Categorical Attributes. In M. K. Mohania and A. Min Tjoa, editors, 
+Proceedings of the First International Conference on Data Warehousing and Knowledge
+Discovery (Da WaK-99), volume 1676 of Lecture Notes in Computer Science, pages
+203ó208. Springer-Verlag, 1999.
+9.	T. Horv·th, S. Wrobel, and U. Bohnebeck. Relational instance-based learning with
+lists and terms. Machine Learning (to appear).
+10.	T. Horv·th, S. Wrobel, and U. Bohnebeck. Term comparisons in first-order 
+similarity measures. In D. Page, editor, Proceedings of the 8th International Conference on
+Inductive Logic Programming, volume 1446 of LNAI, pages 65ó79. Springer-Verlag,
+1998.
+11.	Z. Huang. Extensions to the k-means algorithm for clustering large data sets with
+categorical values. Data Mining and Knowledge Discovery, 2(3):283ó304, 1998.
+12.	A. Hutchinson. Metrics on Terms and Clauses. In M. Someren and G. Widmer,
+editors, Proceedings of the 9th European Conference on Machine Learning, volume
+1224 of LNAI pages 138ó145. Springer-Verlag, 1997.
+13.	L. Kaufmann and P. J. Rousseeuw. Clustering by means of medoids. In Y. Dodge,
+editor, Statistical Data Analysis based on the L1 Norm, pages 405ó416. Elsevier
+Science Publishers, 1987.
+14.	L. Kaufmann and P. J. Rousseeuw. Finding Groups in Data: an Introduction to
+Cluster Analysis. John Wiley, 1990.
+15.	M. Kirsten and S. Wrobel. Relational distance-based clustering. In D. Page, editor,
+Proceedings of the 8th International Conference on Inductive Logic Programming,
+volume 1446 of LNAI, pages 261ó270. Springer-Verlag, 1998.
+16.	J. McQueen. Some methods of classification and analysis of multivariate 
+observations. In L. K. Le Cam and J. Neyman, editors, Proceedings of Fifth Berkeley
+Symposium on Mathematical Statistics and Probability, pages 281ó293, 1967.
+17.	S. Muggleton. Inverse entailment and Progol. New Generation Computing, 13:245ó
+286, 1995.
+18.	S.-H. Nienhuys-Cheng. Distance Between Herbrand Interpretations: A Measure
+for Approximations to a Target Concept. In N. Lavrac and S. Dzeroski, editors,
+Proceedings of the 7th International Workshop on Inductive Logic Programming,
+volume 1297 of LNAI, pages 213ó226. Springer-Verlag, 1997.
+19.	C. Plotkin. A note on inductive generalization. In Machine Intelligence, volume 5,
+pages 153ó163. Edinburgh University Press, 1970.
+20.	J. Quinlan and R. Cameron-Jones. FOIL: A midterm report. In P. Brazdil, editor,
+Proceedings of the 6th European Conference on Machine Learning, volume 667 of
+Lecture Notes in Artificial Intelligence, pages 3ó20. Springer-Verlag, 1993.
+21.	J. Ramon and M. Bruynooghe. A framework for defining distances between first-order 
+logic objects. In D. Page, editor, Proceedings of the 8th International 
+Conference on Inductive Logic Programming, volume 1446 of Lecture Notes in Artificial
+Intelligence, pages 271ó280. Springer-Verlag, 1998.
+22.	M. Sebag. Distance induction in first order logic. In N. Lavrac and S. Dzeroski,
+editors, Proceedings of the 7th International Workshop on Inductive Logic 
+Programming, LNAI, pages 264 ó 272. Springer-Verlag, 1997.
+23.	A. Srinivasan, S. Muggleton, and R. King. Comparing the use of background
+knowledge by inductive logic programming systems. In L. De Raedt, editor, 
+Proceedings of the 5th International Workshop on Inductive Logic Programming, pages
+199ó230. Department of Computer Science, Katholieke Universiteit Leuven, 1995.
+24.	A. Srinivasan, S. Muggleton, M. Sternberg, and R. King. Theories for mutagenicity:
+a study in first-order and feature-based induction. Artificial Intelligence, 85:277 ó
+299, 1996.

@@ -1,0 +1,64 @@
+Probabilistic First-Order Classification
+
+Uros Pompe and Igor Kononenko
+
+University of Ljubljana, Faculty of Computer and Information Science,
+Trzaska 25, SI-l00l LiubUana, Slovenia
+tel: +386-61-1768 386 fax: +386-61-1768 386
+e-mail: {uros.pompe, igor.kononenko}@fri.uni-lj.si
+
+
+
+
+Abstract. We discuss the problem of classification using the first order 
+hypotheses. This paper proposes an enhancement of classification
+based on the naive Bayesian scheme that is able to overcome the conditional 
+independence assumption. Several experiments, involving some
+artificial and real-world, both propositional and relational domains, were
+conducted. The results indicate that the classification performance of
+propositional learners is reached when the richer first-order knowledge
+representation is not mandatory. This holds also in the domains where
+such representation is more convenient. Our framework can also benefit
+from the use of the hypotheses describing negative information. In such
+case, the classification becomes more noise resistant.
+References
+
+
+[Ali and Pazzani 1993] Ali, K. M. and M. J. Pazzani (1993). Hydra: A noise-tolerant 
+relational concept learning algorithm. In Proceedings of the 13th
+IJCAI, Charnbery, France, pp. 1064—1070.
+[Cestnik 1990] Cestnik, B. (1990). Estimating probabilities: A crucial task in
+machine learning. In Proceedings of European Conference on Artificial Intelligence, 
+Stockholm, pp. 147—149.
+[Dolsak and Muggleton 1992] Dolsak, B. and S. Muggleton (1992). The application 
+of inductive logic programming to finite elements mesh design. In
+S. Muggleton (Ed.), Inductive Logic Programming. Academic Press.
+[Domingos and Pazzani 1996] Domingos, P. and M. J. Pazzani (1996). Beyond
+independence: Conditions for the optimality of the simple Bayesian classifier. 
+In L. Saitta (Ed.), Proceedings of the Thirteenth International Conference 
+on Machine Learning, Barn, Italy, pp. 105—112. Morgan Kaufman.
+[Dzeroski 1991] Dzeroski, S. (1991). Handling noise in inductive logic programming. 
+Master’s thesis, University of Ljubljana, Faculty of electrical engineering 
+and computer science, Ljubljana, Slovenia.
+[Kononenko 1991] Kononenko, I. (1991). Semi-naive Bayesian classifier. In
+Y. Kodratoff (Ed.), Proceedings of European Working Session on Learning,
+Porto, pp. 206—219. Springer Verlag.
+[Kononenko, Simec, and Robnik 1996] Kononenko, I., E. Simec, and M. Robnik 
+(1996). Overcoming the myopia of inductive learning algorithms with
+ReliefF. Journal of Applied Intelligence.
+[Lloyd 1987] Lloyd, J. W. (1987). Foundations of Logic Programming (Second
+ed.) . Berlin, Germany: Springer Verlag.
+[Muggleton 1992] Muggleton, S. (1992). Inductive Logic Programming. London,
+England: Academic Press.
+[Muggleton 1996] Muggleton, S. (1996). Stochastic logic programs. In
+L. De Raedt (Ed.), Advances in Inductive Logic Programming, pp. 254—
+264. Amsterdam, Netherlands: IOS Press.
+[Pompe and Kononenko 1995a] Pompe, U. and I. Kononenko (1995a). Linear
+space induction in first order logic with Relief. In R. Kruse, R. Viertl, and
+G. Della Riccia (Eds.), CISM Lecture notes. Udine, Italy: Springer Verlag.
+[Pompe and Kononenko 1995b] Pompe, U. and I. Kononenko (1995b). Naive
+bayesian classifier within ILP-R. In L. De Raedt (Ed.), Proceedings of
+the 5th International Workshop on ILP, Leuven, Belgium, pp. 417—436.
+Katholieke Universiteit Leuven.
+[Quinlan 1996] Quinlan, J. R. (1996). Learning first-order definitions of functions. 
+Journal of Artificial Intelligence Research 5, 139—161.

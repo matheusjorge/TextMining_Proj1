@@ -1,0 +1,73 @@
+A Corpus-based Bootstrapping Algorithm for
+Semi-Automated Semantic Lexicon Construction
+
+Ellen Rilo
+ and Jessica Shepherd
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+rilo
+@cs.utah.edu
+(Received 30 September 2002 )
+
+Abstract
+Many applications need a lexicon that represents semantic information but acquiring lexical 
+information is time consuming. We present a corpus-based bootstrapping algorithm
+that assists users in creating domain-specific semantic lexicons quickly. Our algorithm
+uses a representative text corpus for the domain and a small set of \seed words" that
+belong to a semantic class of interest. The algorithm hypothesizes new words that are
+also likely to belong to the semantic class because they occur in the same contexts as
+the seed words. The best hypotheses are added to the seed word list dynamically, and
+the process iterates in a bootstrapping fashion. When the bootstrapping process halts, a
+ranked list of hypothesized category words is presented to a user for review. We used this
+algorithm to generate a semantic lexicon for eleven semantic classes associated with the
+MUC-4 terrorism domain.
+
+References
+Brill, E. 1994. Some Advances in Rule-based Part of Speech Tagging. In Proceedings
+of the Twelfth National Conference on Artificial Intelligence, 722{727. AAAI Press/The
+MIT Press.
+Carbonell, J. G. 1979. Towards a Self-Extending Parser. In Proceedings of the 17th
+Annual Meeting of the Association for Computational Linguistics, 3{7.
+Cardie, C. 1993. A Case-Based Approach to Knowledge Acquisition for Domain-Specific
+Sentence Analysis. In Proceedings of the Eleventh National Conference on Articial
+Intelligence, 798{803. AAAI Press/The MIT Press.
+Church, K. 1989. A Stochastic Parts Program and Noun Phrase Parser for Unrestricted
+Text. In Proceedings of the Second Conference on Applied Natural Language Processing.
+Dolan, W.; Vanderwende, L.; and Richardson, S. 1993. Automatically Deriving Structured 
+Knowledge Bases from On-Line Dictionaries. In Proceedings of the First Conference
+of the Pacic Association for Computational Linguistics, 5{14.
+Granger, R. H. 1977. FOUL-UP: A Program that Figures Out Meanings of Words
+from Context. In Proceedings of the Fifth International Joint Conference on Artificial
+Intelligence, 172{178.
+Hastings, P., and Lytinen, S. 1994. The Ups and Downs of Lexical Acquisition. In
+Proceedings of the Twelfth National Conference on Artificial Intelligence, 754{759. AAAI
+Press/The MIT Press.
+Jacobs, P., and Zernik, U. 1988. Acquiring Lexical Knowledge from Text: A Case Study.
+In Proceedings of the Seventh National Conference on Articial Intelligence, 739{744.
+Lenat, D. B.; Prakash, M.; and Shepherd, M. 1986. CYC: Using Common Sense Knowledge 
+to Overcome Brittleness and Knowledge-Acquisition Bottlenecks. AI Magazine
+6:65{85.
+Marcus, M.; Santorini, B.; and Marcinkiewicz, M. 1993. Building a Large Annotated
+Corpus of English: The Penn Treebank. Computational Linguistics 19(2):313{330.
+Miller, G. 1990. Wordnet: An On-line Lexical Database. International Journal of
+Lexicography 3(4).
+MUC-4 Proceedings. 1992. Proceedings of the Fourth Message Understanding Conference
+(MUC-4). San Mateo, CA: Morgan Kaufmann.
+Rilo
+, E., and Schmelzenbach, M. 1998. An Empirical Approach to Conceptual Case
+Frame Acquisition. In Proceedings of the Sixth Workshop on Very Large Corpora, 49{56.
+Rilo
+, E., and Shepherd, J. 1997. A Corpus-Based Approach for Building Semantic
+Lexicons. In Proceedings of the Second Conference on Empirical Methods in Natural
+Language Processing, 117{124.
+Roark, B., and Charniak, E. 1998. Noun-phrase Co-occurrence Statistics for Semi-automatic 
+Semantic Lexicon Construction. In Proceedings of the 36th Annual Meeting
+of the Association for Computational Linguistics, 1110{1116.
+Weischedel, R.; Meteer, M.; Schwartz, R.; Ramshaw, L.; and Palmucci, J. 1993. Coping 
+with Ambiguity and Unknown Words through Probabilistic Models. Computational
+Linguistics 19(2):359{382.
+Yarowsky, D. 1992. Word sense disambiguation using statistical models of Roget's categories 
+trained on large corpora. In Proceedings of the Fourteenth International Conference
+on Computational Linguistics (COLING-92), 454{460.
+

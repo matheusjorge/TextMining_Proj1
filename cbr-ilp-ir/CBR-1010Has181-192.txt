@@ -1,0 +1,53 @@
+Case Adaptation Using an Incomplete Causal
+Model*
+
+John D. Hastings1, L. Karl Branting1, and Jeffrey A. Lockwood2
+
+1 Department of Computer Science
+University of Wyoming
+Laramie, Wyoming 82071-3682
+{hastings, karl}@eolus.uwyo.edu
+2 Department of Plant, Soil, and Insect Sciences
+University of Wyoming
+Laramie, Wyoming 82071
+lockwood@uwyo.edu
+
+
+
+Abstract. This paper describes a technique for integrating case-based
+reasoning with model-based reasoning to predict the behavior of biological 
+systems characterized both by incomplete models and insufficient
+empirical data for accurate induction. This technique is implemented in
+GARMA, a system for rangeland pest management advising. CARMA’s
+ability to predict the forage consumption judgments of 15 expert entomologists 
+was empirically compared to that of CARMA’s case-based and
+model-based components in isolation. This evaluation confirmed the hypothesis 
+that integrating model-based and case-based reasoning through
+model-based adaptation can lead to more accurate predictions than the
+use of either technique individually.
+References
+
+[AH92]	T. F. H. Allen and T. W. Hoekstra. Toward a Unified Ecology. Columbia
+University Press, New York, NY, 1992.
+[FG93]	M. P. Feret and 3. I. Glascow. Hybrid case-based reasoning for the diagnosis
+of complex devices. In Proceedings of Eleventh National Conference on Artificial 
+Intelligence, pages 168—175, Washington, D.C., July 11—15 1993. AAAI
+Press/MIT Press.
+[Goe91]	A. Goel. A model-based approach to case adaptation. In Thirteenth Annual
+Conference of the Cognitive Science Society, pages 143—148, 1991.
+[Hag88] W. Hager. Applied Numerical Linear Algebra. Prentice Hall, 1988.
+[HO83]	G. B. Hewitt and J. A. Onsager. Control of grasshoppers on rangeland in the
+united states: a perspective. Journal of Range Management, 36:202—207, 1983.
+[Kot88]	P. Koton. Using Experience in Learning and Problem Solving. PhD thesis,
+Massachusetts Institute of Technology, 1988. Department of Electrical Engineering 
+and Computer Science.
+[LL91]	J. Lockwood and D. Lockwood. Rangeland grasshopper (orthoptera: Acrididae) 
+population dynamics: Insights from catastrophe theory. Environmental
+Entomology, 20:970—980, 1991.
+[Pim9l] S. L. Pimm. The Balance of Nature: Ecological Issues in the Conservation of
+Species and Communities. University of Chicago Press, Chicago, 1991.
+[RL91]	S. Rajamoney and H. Lee. Prototype-based reasoning: An integrated approach
+to solving large novel problems. In Proceedings of Ninth National Conference
+on Artificial Intelligence, Anaheim, July 14—19 1991. AAAI Press/MIT Press.
+[WD95]	D. Wettschereck and T. Dietterich. An experimental comparison of the
+nearest-neighbor and nearest-hyperrectangle algorithms. To appear in Machine Learning, 1995.

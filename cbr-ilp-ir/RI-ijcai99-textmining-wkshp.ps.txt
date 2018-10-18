@@ -1,0 +1,170 @@
+Bootstrapping for Text Learning Tasks
+
+Rosie Jones 1
+rosie@cs.cmu.edu
+Andrew McCallum 2;1
+mccallum@justresearch.com
+Kamal Nigam 1
+knigam@cs.cmu.edu
+Ellen Riloff 3
+riloff@cs.utah.edu
+1 School of Computer Science
+Carnegie Mellon University
+Pittsburgh, PA 15213
+2 Just Research
+4616 Henry Street
+Pittsburgh, PA 15213
+3 Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+
+Abstract
+When applying text learning algorithms to
+complex tasks, it is tedious and expensive to
+hand­label the large amounts of training data
+necessary for good performance. This pa­per 
+presents bootstrapping as an alternative
+approach to learning from large sets of la­beled 
+data. Instead of a large quantity of la­beled 
+data, this paper advocates using a small
+amount of seed information and a large collec­tion 
+of easily­obtained unlabeled data. Boot­strapping 
+initializes a learner with the seed in­
+formation; it then iterates, applying the learner
+to calculate labels for the unlabeled data, and
+incorporating some of these labels into the
+training input for the learner. Two case studies
+of this approach are presented. Bootstrapping
+for information extraction provides 76% preci­sion 
+for a 250­word dictionary for extracting
+locations from web pages, when starting with
+just a few seed locations. Bootstrapping a text
+classifier from a few keywords per class and
+a class hierarchy provides accuracy of 66%, a
+level close to human agreement, when placing
+computer science research papers into a topic
+hierarchy. The success of these two examples
+argues for the strength of the general boot­
+strapping approach for text learning tasks.
+
+
+References
+[Baker et al., 1999] D. Baker, T. Hofmann, A. McCallum,
+and Y. Yang. A hierarchical probabilistic model for novelty
+detection in text. Technical report, Just Research, 1999.
+http://www.cs.cmu.edu/¸mccallum.
+[Blum and Mitchell, 1998] A. Blum and T. Mitchell. Com­bining 
+labeled and unlabeled data with co­training. In COLT '98, 1998.
+[Brin, 1998] Sergey Brin. Extracting patterns and relations
+from the world wide web. In WebDB Workshop at EDBT
+'98, 1998.
+[Califf, 1998] M. E. Califf. Relational Learning Techniques
+for Natural Language Information Extraction. PhD thesis,
+Tech. Rept. AI98­276, Artificial Intelligence Laboratory,
+The University of Texas at Austin, 1998.
+[Castelli and Cover, 1996] V. Castelli and T. M. Cover. The
+relative value of labeled and unlabeled samples in pattern
+recognition with an unknown mixing parameter. IEEE
+Transactions on Information Theory, 42(6):2101--2117,
+November 1996.
+[Cohen and Singer, 1996] W. Cohen and Y. Singer. Context­
+sensitive learning methods for text categorization. In SI­GIR '96, 1996.
+[Cohen, 1996] W. W. Cohen. Learning trees and rules with
+set­valued features. In Proceedings of the Thirteenth Na­tional 
+Conference on Artificial Intelligence (AAAI­96),
+1996.
+[Craven et al., 1998] M. Craven, D. DiPasquo, D. Freitag,
+A. McCallum, T. Mitchell, K. Nigam, and S. Slattery.
+Learning to Extract Symbolic Knowledge from the World
+Wide Web. In Proceedings of the Fifteenth National Con­ference 
+on Artificial Intelligence, 1998.
+[Dempster et al., 1977] A. P. Dempster, N. M. Laird, and
+D. B. Rubin. Maximum likelihood from incomplete data
+via the EM algorithm. Journal of the Royal Statistical
+Society, Series B, 39(1):1--38, 1977.
+[Duda and Hart, 1973] R. Duda and P. Hart. Pattern clas­sification 
+and scene analysis. Wiley, 1973.
+[Freitag, 1998] Dayne Freitag. Multistrategy Learning for In­formation 
+Extraction. In Proceedings of the Fifteenth In­ternational 
+Conference on Machine Learning, 1998.
+[Huffman, 1996] S. Huffman. Learning information extrac­tion 
+patterns from examples. In Stefan Wermter, Ellen
+Riloff, and Gabriele Scheler, editors, Connectionist, Sta­tistical, 
+and Symbolic Approaches to Learning for Natu­ral 
+Language Processing, pages 246--260. Springer­Verlag,
+Berlin, 1996.
+[Joachims, 1998] T. Joachims. Text categorization with Sup­port 
+Vector Machines: Learning with many relevant fea­tures. In ECML­98, 1998.
+[Kim and Moldovan, 1993] J. Kim and D. Moldovan. Ac­quisition 
+of Semantic Patterns for Information Extraction
+from Corpora. In Proceedings of the Ninth IEEE Con­ference 
+on Artificial Intelligence for Applications, pages
+171--176, Los Alamitos, CA, 1993. IEEE Computer Soci­ety Press.
+[Lewis and Ringuette, 1994] David D. Lewis and Marc
+Ringuette. A comparison of two learning algorithms for
+text categorization. In Third Annual Symposium on Doc­ument 
+Analysis and Information Retrieval, pages 81--93,
+1994.
+[Lewis, 1998] D. D. Lewis. Naive (Bayes) at forty: The inde­pendence 
+assumption in information retrieval. In ECML­
+98, 1998.
+[McCallum and Nigam, 1998] A. McCallum and K. Nigam.
+A comparison of event models for naive Bayes text clas­sification. 
+In AAAI­98 Workshop on Learning for Text
+Categorization, 1998. Tech. rep. WS­98­05, AAAI Press.
+http://www.cs.cmu.edu/¸mccallum.
+[McCallum et al., 1998] A. McCallum, R. Rosenfeld,
+T. Mitchell, and A. Ng. Improving text clasification by
+shrinkage in a hierarchy of classes. In ICML­98, 1998.
+[McCallum et al., 1999] Andrew McCallum, Kamal Nigam,
+Jason Rennie, and Kristie Seymore. Using machine learn­ing 
+techniques to build domain­specific search engines. In
+IJCAI­99, 1999. To appear.
+[McLachlan and Basford, 1988] G.J. McLachlan and K.E.
+Basford. Mixture Models. Marcel Dekker, New York, 1988.
+[Mitchell, 1997] T. M. Mitchell. Machine Learning. McGraw­
+Hill, New York, 1997.
+[MUC­4 Proceedings, 1992] MUC­4 Proceedings. Proceed­ings 
+of the Fourth Message Understanding Conference
+(MUC­4). Morgan Kaufmann, San Mateo, CA, 1992.
+[MUC­5 Proceedings, 1993] MUC­5 Proceedings. Proceed­ings 
+of the Fifth Message Understanding Conference
+(MUC­5). Morgan Kaufmann, San Francisco, CA, 1993.
+[Nigam et al., 1999] K. Nigam, A. McCallum, S. Thrun, and
+T. Mitchell. Text classification from labeled and unlabeled
+documents using EM. Machine Learning, 1999. To appear.
+[Riloff and Jones, 1999] E. Riloff and R. Jones. Automat­ically 
+Generating Extraction Patterns from Untagged
+Text. In Proceedings of the Sixteenth National Confer­ence 
+on Artificial Intelligence, pages 1044--1049. The AAAI
+Press/MIT Press, 1999. (to appear).
+[Riloff, 1993] E. Riloff. Automatically Constructing a Dic­tionary 
+for Information Extraction Tasks. In Proceedings
+of the Eleventh National Conference on Artificial Intelli­gence, 
+pages 811--816. AAAI Press/The MIT Press, 1993.
+[Riloff, 1996a] E. Riloff. An Empirical Study of Automated
+Dictionary Construction for Information Extraction in
+Three Domains. Artificial Intelligence, 85:101--134, 1996.
+[Riloff, 1996b] E. Riloff. Automatically Generating Extrac­tion 
+Patterns from Untagged Text. In Proceedings of the
+Thirteenth National Conference on Artificial Intelligence,
+pages 1044--1049. The AAAI Press/MIT Press, 1996.
+[Schapire and Singer, 1999] Robert E. Schapire and Yoram
+Singer. Boostexter: A boosting­based system for text cat­egorization. 
+Machine Learning Journal, 1999. To appear.
+[Seymore et al., 1999] K. Seymore, A. McCallum, and
+R. Rosenfeld. Learning hidden Markov model structure
+for information extraction. In AAAI­99 Workshop on Ma­chine 
+Learning for Information Extraction, 1999. In sub­mission.
+[Soderland et al., 1995] S. Soderland, D. Fisher, J. Aseltine,
+and W. Lehnert. CRYSTAL: Inducing a conceptual dictionary. 
+In Proceedings of the Fourteenth International
+Joint Conference on Artificial Intelligence, pages 1314--
+1319, 1995.
+[Soderland, 1999] Stephen Soderland. Learning Information
+Extraction Rules for Semi­structured and Free Text. Ma­chine Learning, 1999. (to appear).
+[Yang, 1999] Y. Yang. An evaluation of statistical ap­proaches 
+to text categorization. Journal of Information Retrieval, 1999. To appear.
+[Yarowsky, 1995] D. Yarowsky. Unsupervised word sense
+disambiguation rivaling supervised methods. In ACL­95,
+1995.

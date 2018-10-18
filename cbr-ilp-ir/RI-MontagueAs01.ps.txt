@@ -1,0 +1,50 @@
+Metasearch Consistency #
+
+Mark Montague
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+montague@cs.dartmouth.edu
+Javed A. Aslam
+Department of Computer Science
+Dartmouth College
+6211 Sudikoff Laboratory
+Hanover, NH 03755
+jaa@cs.dartmouth.edu
+
+ABSTRACT
+We investigate the performance of metasearch algorithms
+in terms of how much they improve consistency. We find
+that three di#erent metasearch algorithms, each over three
+datasets, usually improve the consistency of search results;
+sometimes the improvement is dramatic. Furthermore, con­sistency 
+tends to improve when performance improves.
+
+REFERENCES
+[1] J. Aslam and M. Montague. Models for metasearch. In
+ACM SIGIR '01, New Orleans, Louisiana, USA, Sept.
+2001. ACM Press, New York.
+[2] B. T. Bartell. Optimizing Ranking Functions: A
+Connectionist Approach to Adaptive Information
+Retrieval. PhD thesis, University of California, San
+Diego, 1994.
+[3] W. B. Croft. Combining approaches to information
+retrieval. In W. B. Croft, editor, Advances in
+Information Retrieval: Recent Research from the
+Center for Intelligent Information Retrieval, chapter 1.
+Kluwer Academic Publishers, 2000.
+[4] E. A. Fox and J. A. Shaw. Combination of multiple
+searches. In TREC­2, pages 243--249, Gaithersburg,
+MD, USA, Mar. 1994. U.S. Government Printing
+O#ce, Washington D.C.
+[5] J. H. Lee. Analyses of multiple evidence combination.
+In ACM SIGIR '97, pages 267--275, Philadelphia,
+Pennsylvania, USA, July 1997. ACM Press, New York.
+[6] C. C. Vogt. Adaptive Combination of Evidence for
+Information Retrieval. PhD thesis, University of
+California, San Diego, 1999.
+[7] C. C. Vogt. How much more is better? Characterizing
+the effects of adding more IR systems to a combination.
+In RIAO, pages 457--475, Paris, France, Apr. 2000.
+

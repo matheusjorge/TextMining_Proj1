@@ -1,0 +1,92 @@
+Induction of Recursive Theories in the Normal ILP
+Setting: Issues and Solutions
+
+Floriana Esposito, Donato Malerba, and Francesca A. Lisi
+
+Dipartimento di Informatica, Università degli Studi di Bari,
+Via Orabona 4, 1-70126 Bari, Italy
+{esposito | malerba | lisi}@di.uniba.it
+
+
+
+Abstract. Induction of recursive theories in the normal ILP setting is a complex
+task because of the non-monotonicity of the consistency property. In this paper
+we propose computational solutions to some relevant issues raised by the
+multiple predicate learning problem . A separate-and-parallel-conquer search
+strategy is adopted to interleave the learning of clauses supplying predicates
+with mutually recursive definitions. A novel generality order to be imposed to
+the search space of clauses is investigated in order to cope with recursion in a
+more suitable way. The consistency recovery is performed by reformulating the
+current theory and by applying a layering technique based on the collapsed
+dependency graph. The proposed approach has been implemented in the ILP
+system ATRE and tested in the specific context of the document understanding
+problem within the WISDOM project. Experimental results are discussed and
+future directions are drawn.
+References
+
+I .	Aha, D.W., Lapointe, S., Ling, C.X., Matwin, S.: Learning recursive relations with
+randomly selected small training sets. Proc. 11th Tnt. Conf. on Machine Learning, (1994)
+12-18
+2.	Apt, K.R.: Logic programming. In: van Leeuwen, J. (ed.): Handbook of Theoretical
+Computer Science, Vol. B. Elsevier, Amsterdam (1990) 493-574
+3.	Boström, H.: Specialization of recursive predicates. In Lavrac, N., Wrobel, S. (eds.):
+Machine Learning ECML-95. Lecture Notes in Artificial Intelligence, Vol. 912. Springer-
+Verlag, Berlin (1995) 92-106
+4.	Buntine, W.: Generalised subsumption and its applications to induction and redundancy.
+Artificial Intelligence, Vol. 36 (1988) 149-176
+5.	Cameron-Jones, R.M., Quinlan, J.R.: Avoiding pitfalls when learning recursive theories.
+Proc. 12th Tnt. Joint Conf. on Artificial Intelligence, (1993) 1050-1055
+6.	Ceri, S., Gottlob, G., Tanca, L.: What you always wanted to know about Datalog (and never
+dared to ask). IEEE Transactions on Knowledge and Data Engineering 1(1) (1989) 146-166
+7.	Cohen, W. W.: Leamability of restricted logic programs. In: Muggleton, S. (ed.): Proc. 3rd
+Int. Workshop on Inductive Logic Programming, (1993) 41-71
+8.	De Raedt, L.: Interactive Theory Revision. Academic Press, London (1992)
+9.	De Raedt, L., Lavrac, N., Dzeroski, S.: Multiple predicate learning. Proc. 13th Int. Joint
+Conf. on Artificial Intelligence, (1993) 1037-1042
+10.	De Raedt, L., Lavrac, N.: The many faces of inductive logic programming. In:
+Komorowski, J., Ras, Z.W. (eds.): Methodologies for Intelligent Systems. Lecture Notes in
+Artificial Intelligence, Vol. 689. Springer-Verlag, Berlin (1993) 435-449
+11.	De Raedt, L., Dehaspe, L.: Clausal discovery. Machine Learning 26(2/3), (1997) 99-146
+12.	Esposito, F., Caggese, S., Malerba, D., Semeraro, G.: Classification in noisy domains by
+flexible matching. Proc. European Symposium on Intelligent Techniques, (1997) 45-49
+13.	Esposito, F., Malerba, D., Lisi, F.A.: Machine Learning for Intelligent Processing of Printed
+Documents. In: Ras, Z.W., Skowron, A. (eds.): Journal of Intelligent Information Systems
+16. Kluwer Academic Publishers (2000) 175-198
+14.	Flach, P.: A framework for inductive logic programming. In: Muggleton, S. (ed.): Inductive
+Logic Programming, Vol. 38 of Apic Series. Academic Press, London (1992) 193-211
+15.	Flener, P., Yilmaz, S.: Inductive Synthesis of Recursive Logic Programs: Achievements
+and Prospects. Journal of Logic Programming 41(2/3), Special Issue on Synthesis,
+Transformation and Analysis, (1999) 141-195
+16.	Giordana, A., Saitta, L., Baroglio, C.: Learning simple recursive theories. In: Komorowski,
+J., Ras, Z.W. (eds.): Methodologies for Intelligent Systems. Lecture Notes in Artificial
+Intelligence, Vol. 689. Springer-Verlag, Berlin (1993) 425-434
+17.	Idestam-Almquist, P.: Efficient induction of recursive definitions by structural analysis of
+saturations. In: De Raedt, L. (ed.): Advances in Inductive Logic Programming. 105 Press,
+Amsterdam (1996)192-205
+1 8.	Jorge, A., Brazdil, P.: Architecture for iterative learning of recursive definitions. In: De
+Raedt, L. (ed.): Advances in Inductive Logic Programming. IOS Press, Amsterdam (1996)
+206-2 18
+19.	van Leeuwen, J.: Graph Algorithms. In: van Leeuwen, J. (ed.): Handbook of Theoretical
+Computer Science, Vol. A. Elsevier, Amsterdam (1990) 525-631
+20.	Malerba, D., Semeraro, G., Esposito, F.: A multistrategy approach to learning multiple
+dependent concepts. In: Nakhaeizadeh, G., Taylor, C. (eds.): Machine Learning and
+Statistics: The interface. John Wiley & Sons, New York (1997) 87-106
+21.	Malerba, D., Esposito, F., Lisi, F.A.: Learning Recursive Theories with ATRE. In: Prade,
+H. (ed.), Proc. 13th Europ. Conf. on Artificial Intelligence. John Wiley & Sons, Chichester
+(1998) 435-439
+22.	Mitchell, T.M.: Machine Learning. McGraw-Hill (1997)
+23.	Mofizur, C.R., Numao, M.: Top-down induction of recursive programs from small number
+of sparse examples. In: De Raedt, L. (ed.): Advances in Inductive Logic Programming. IOS
+Press, Amsterdam (1996) 236-253
+24.	Nagy, G., Seth, S.C., Stoddard, S.D.: A prototype document image analysis system for
+technical journals. IEEE Computer 25(7), (1992) 10-22
+25.	Nienhuys-Cheng, S.-W., de Wolf, R.: A complete method for program specialization based
+upon unfolding. Proc. 12th Europ. Conf. on Artificial Intelligence (1996) 438-442
+26.	Plotkin, G.D.: A note on inductive generalization. In: Meltzer, B., Michie, D. (eds.):
+Machine Intelligence 5. Edinburgh University Press, Edinburgh (1970)153-163
+27.	Plotkin, G.D.: A further note on inductive generalization. In: Meltzer, B., Michie, D. (eds.):
+Machine lntelligence 6. Edinburgh University Press, Edinburgh (1971) 101-124
+28.	Quinlan, J.R.: Learning Logical Definitions from Relations. Machine Learning 5 (1990)
+239-266
+29.	Rouveirol, C.: Flattening and saturation: Two representation changes for generalization.
+Machine Learning 14(2) (1994) 219-232

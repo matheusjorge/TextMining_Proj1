@@ -1,0 +1,73 @@
+Morphosyntactic Tagging of Slovene Using
+Progol
+
+James Cussens,1 Saso Dzeroski,2 Tomaz Erjavec2
+
+1 University of York,
+Heslington, York YO10 5DD, UK
+jc@cs.york.ac.uk
+2 Department for Intelligent Systems, Jozef Stefan Institute,
+Jamova 39, SI-1000 Ljubljana, Slovenia
+saso.dzeroski@ijs.si, tomaz.erjavec@ijs.si
+
+
+
+
+Abstract. We consider the task of tagging Slovene words with morphosyntactic 
+descriptions (MSDs). MSDs contain not only part-of-speech
+information but also attributes such as gender and case. In the case of
+Slovene there are 2,083 possible MSDs. P-Progol was used to learn morphosyntactic 
+disambiguation rules from annotated data (consisting of
+161,314 examples) produced by the MULTEXT-East project. P-Progol
+produced 1,148 rules taking 36 hours. Using simple grammatical background 
+knowledge, e.g. looking for case disagreement, P-Progol induced
+4,094 clauses in eight parallel runs. These rules have proved effective
+at detecting and explaining incorrect MSD annotations in an independent 
+test set, but have not so far produced a tagger comparable to other
+existing taggers in terms of accuracy.
+References
+
+1.	N. Bel, Nicoletta Caizolari, and Monica Monachini (eds.). Common specifications
+and notation for lexicon encoding and preliminary proposal for the tagsets. MULTEXT 
+Deliverable D1.6.1B, ILC, Pisa, 1995.
+2.	H. Blockeel and L. De Raedt. Top-down induction of first-order logical decision
+trees. Artificial Intelligence, 101(1—2):285—297, 1999.
+3.	Eric Brill. Transformation-based error-driven learning and natural language
+processing: A case study in part-of-speech tagging. Computational Linguistics,
+21(4):543—565, 1995.
+4.	Nicoleta Calzolari and John McNaught (eds.). Synopsis and Comparison of Morphosyntactic 
+Phenomena Encoded in Lexicons and Corpora: A Common Proposal
+and Applications to European Languages. EAGLES Document EAG—CLWG—
+MORPHSYN/R, ILC, Pisa, 1996.
+5.	James Cussens. Part-of-speech tagging using Progol, In Inductive Logic Programming: 
+Proceedings of the 7th International Workshop (ILP-97). LNAI 1297, pages
+93—108. Springer, 1997.
+6.	D. Cutting, J. Kupiec, J. Pedersen, and P. Sibun. A practical part-of-speech tagger.
+In Proceedings of the Third Conference on Applied Natural Language Processing,
+pages 133—140, Trento, Italy, 1992.
+7.	Walter Daelemans, Jakub Zavrel, Peter Berck, and Steven Gillis. Mbt: A memory-based 
+part of speech tagger-generator. In Eva Ejerhed and Ido Dagan, editors,
+Proceedings of the Fourth Workshop on Very Large Corpora, pages 14—27, Copenhagen, 1996.
+8.	Ludmila Dimitrova, Tomaz Erjavec, Nancy Ide, Heiki-Jan Kaalep, Vladimir
+Petkevic, and Dan Tufis. Multext-East: Parallel and Comparable Corpora and
+Lexicons for Six Central and Eastern European Languages. In COLING-A CL ‘98,
+pages 315—319, Montréal, Québec, Canada, 1998.
+9.	Saso Dzeroski, Tomaz Erjavec, and Jakub Zavrel. Morphosyntactic tagging of
+slovene: Evaluating pos taggers and tagsets. Technical Report IJS TechReport
+DP-8018, Jozef Stefan Institute, 1999.
+10.	Tomaz Erjavec and Monica Monachini (eds.). Specifications and notation for lexicon 
+encoding. MULTEXT-East Final Report D1.1F, Jozef Stefan Institute, Ljubljana, 
+December 1997. http://nl.ijs.si/ME/CD/docs/mte-d1 lf/.
+11.	Tomaz Erjavec and Nancy Ide. The MULTEXT-East corpus. In Antonio Rubio, 
+Natividad Gallardo, Rosa Castro, and Antonio Tejada, editors, First International 
+Conference on Language Resources and Evaluation, LREC’98, pages 971—
+974, Granada, 1998. ELRA. URL: http://ceres.ugr.es/ rubio/elra.html.
+12.	Nikolaj Lindberg and Martin Eineborg. Learning constraint grammar-style disambiguation 
+rules using inductive logic programming. In Proc. COLINC/A CL 98,
+1998.
+13.	Tom Mitchell. Machine Learning. McGraw-Hill, 1997.
+14.	Adwait Ratnaparkhi. A maximum entropy part of speech tagger. In Proc. ACL-SIGDAT 
+Conference on Empirical Methods in Natural Language Processing, pages
+491—497, Philadelphia, 1996.
+15.	Rene Steetskamp. An implementation of a probabilistic tagger. Master’s thesis,
+TOSCA Research Group, University of Nijmegen, Nijmegen, 1995. 48 p.

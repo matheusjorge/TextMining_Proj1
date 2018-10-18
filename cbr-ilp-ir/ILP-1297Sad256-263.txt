@@ -1,0 +1,53 @@
+Using Abstraction Schemata
+in Inductive Logic Programming
+
+Ken SADOHARA1 and Makoto HARAGUCHI2
+
+1 Electrotechnical Laboratory
+1 - 1 - 4 Umezono, Tsukuba, 305 Japan
+E-mail: sadohara@etl.go.jp
+2 Division of Electronics and Information Engineering
+Hokkaido University N13-W8, Kita-ku, Sapporo, 060 Japan
+E-mail: makoto@db.huee.hokudai.ac.jp
+
+
+Abstract. We consider inductive logic programming guided by a language
+bias called abstraction schemata which enables us to specify a partial structure 
+for a target program. Specifically, to improve the efficiency of such learning, 
+we discuss a class of programs for which it is possible to devise a learning 
+algorithm capable of identifying and pruning unpromising uses of the
+schemata. This identification process includes the bias shift problem: how to
+decide whether a hypothesis space contains no correct program with respect
+to a given example specification. For solving this problem, a required property 
+of hypothesis spaces is discovered. This result yields a class of programs
+that are beyond the representational capabilities of previous approaches --
+most notably, non-trivial programs with local variables.
+References
+
+1.	H. Adé. Declarative bias for specific-to-general ilp systems. Machine Learning, 20:119—
+154, 1995.
+2.	J-U.Kietz and S. Wrobel. Controlling the complexity of learning in logic through syntactic 
+and task-oriented models. Inductive Logic Programming, pages 335-359. ACA-
+DEMIC PRESS, 1992.
+3.	Y. Mukouchi and S. Arikawa. Towards a mathematical theory of machine discovery
+from facts. Theoretical Computer Science, 137:53—84, 1995.
+4.	D.A. Plaisted. Theorem proving with abstraction. Artificial Intelligence, 16:47—108,
+1981.
+5.	L.D. Raedt and M. Bruynooghe. Interactive concept-learning and constructive induction 
+by analogy. Machine Learning, 8:107—150, 1992.
+6.	M.R..K. Krishna Rao. A class of prolog programs inferable from positive data. LNAI
+1160, pages 272—284. Springer-Verlag, 1996.
+7.	K. Sadohara. A study on analogical logic program synthesis from examples. PhD thesis,
+Tokyo Institute of Technology, 1996.
+8.	K. Sadohara and M. Haraguchi. Analogical logic program synthesis algorithm that can
+refute inappropriate similarities. LNAI 997, pages 266—281. Springer-Verlag, 1996.
+9.	S. Sakurai and M. Haraguchi. Towards learning by abstraction. Proc. 2nd Workshop
+on Algorithmic Learning Theory, pages 288-298, 1991.
+10.	E.Y. Shapiro. Inductive inference of theories from facts. Technical Report 192, Yale
+University Computer Science Dept., 1981.
+11.	T. Shinohara. Inductive inference of monotonic formal systems from positive data.
+New Generation Computing, 8:371—384, 1991.
+12.	I. Stahl. The appropriateness of predicate invention as bias shift operation in lip.
+Machine Learning, 20:95—117, 1995.
+13.	B. Tausend and S. Bell. Analogical reasoning for logic programming. Inductive Logic
+Programming, pages 397-408. ACADEMIC PRESS, 1992.

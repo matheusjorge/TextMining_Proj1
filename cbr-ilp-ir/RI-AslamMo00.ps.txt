@@ -1,0 +1,41 @@
+Bayes Optimal Metasearch: A Probabilistic Model for Combining the Results
+of Multiple Retrieval Systems
+
+Javed A. Aslam Mark Montague
+Department of Computer Science
+Dartmouth College
+6211 Sudiko
+ Laboratory
+Hanover, NH 03755
+fjaa, montagueg@cs.dartmouth.edu
+
+Abstract
+We introduce a new, probabilistic model for combining
+the outputs of an arbitrary number of query retrieval
+systems. By gathering simple statistics on the average
+performance of a given set of query retrieval systems,
+we construct a Bayes optimal mechanism for combining
+the outputs of these systems. Our construction yields a
+metasearch strategy whose empirical performance nearly
+always exceeds the performance of any of the constituent
+systems. Our construction is also robust in the sense that
+if \good" and \bad" systems are combined, the performance 
+of the composite is still on par with, or exceeds,
+that of the best constituent system. Finally, our model
+and theory provide theoretical and empirical avenues for
+the improvement of this metasearch strategy.
+
+
+References
+[1] E. A. Fox and J. A. Shaw. Combination of multiple 
+searches. In The Second Text REtrieval Conference (TREC-2), pages 243{249, 1994.
+[2] J. H. Lee. Analyses of multiple evidence combination. 
+In Proceedings of the 20th Annual International ACM SIGIR Conference on Research
+and Development in Information Retrieval, pages
+267{275, 1997.
+[3] C. C. Vogt and G. W. Cottrell. Fusion via a linear 
+combination of scores. Information Retrieval,
+1(3):151{173, 1999.
+[4] E. Voorhees and D. Harman. Overview of the
+Eighth Text REtrieval Conference (TREC-8). In
+The Eighth Text REtrieval Conference (TREC-8), 2000.

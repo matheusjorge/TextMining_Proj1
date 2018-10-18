@@ -1,0 +1,141 @@
+Modular Preference Moore Machines in News Mining Agents
+
+Stefan Wermter and Garen Arevian
+University of Sunderland
+The Informatics Centre, SCET
+St. Peter's Campus, St Peter's Way
+Sunderland SR6 0DD, United Kingdom
+www.his.sunderland.ac.uk
+
+Abstract
+This paper focuses on Hybrid Symbolic Neural Ar­chitectures 
+that support the task of classifying tex­tual 
+information in learning agents. We give an
+outline of these symbolic and neural preference
+Moore machines. Furthermore, we demonstrate
+how they can be used in the context of information
+mining and news classification. Using the Reuters
+newswire text data, we demonstrate how hybrid
+symbolic and neural machines can provide an ef­fective 
+foundation for learning news agents.
+
+
+
+References
+[1] N. M. Allinson and H. Yin. Interactive and semantic
+data visualisation using self­organizing maps. In Pro­ceedings of the IEE Colloquium on Neural Networks in
+Interactive Multimedia Systems, 1998.
+[2] M. Balabanovic and Y. Shoham. Learning informa­tion retrieval agents: Experiments with automated web
+browsing. In Proceedings of the 1995 AAAI Spring Sym­posium on Information Gathering from Heterogeneous,
+Distributed Environments, Stanford, CA, 1995.
+[3] M. Balabanovic, Y. Shoham, and Y. Yun. An adaptive
+agent for automated web browsing. Technical Report
+CS­TN­97­52, Stanford University, 1997.
+[4] T. Briscoe. Co­evolution of language and of the lan­guage acquisition device. In Proceedings of the Meeting
+of the Association for Computational Linguistics, 1997.
+[5] E. Charniak. Statistical Language Learning. MIT Press,
+Cambridge, MA, 1993.
+[6] A. Cleeremans, D. Servan­Schreiber, and J. McClel­
+land. Finite­state automata and simple recurrent net­works. Neural Computation, 1:372--381, 1989.
+[7] R. Cooley, B. Mobasher, and J. Srivastava. Web mining:
+Information and pattern discovery on the world wide
+web. In International Conference on Tools for Artificial
+Intelligence, Newport Beach, CA, November 1997.
+[8] M. Craven, D. DiPasquo, D. Freitag, A. McCallum,
+T. Mitchell, K. Nigam, and S. Slattery. Learning to ex­tract symbolic knowledge from the world wide web. In
+Proceedings of the 15th National Conference on Artifi­cial Intelligence, Madison, WI, 1998.
+[9] H. Cunningham, Y. Wilks, and R. Gaizauskas. New
+methods, current trends and software infrastructure for
+NLP. In Proceedings of the NEMLAP­2, Ankara, 1996.
+[10] D. Freitag. Information extraction from html: Appli­cation 
+of a general machine learning approach. In Na­tional Conference on Artificial Intelligence, pages 517--
+523, Madison, Wisconsin, 1998.
+[11] T. Honkela. Self­organizing maps in symbol process­ing. In S.Wermter and R.Sun, editors, Hybrid Neural
+Systems. Springer, Heidelberg, Germany, 2000.
+[12] T. Joachims. Text categorization with support vector
+machines: learning with many relevant features. In
+Proceedings of the European Conference on Machine
+Learning, Chemnitz, Germany, 1998.
+[13] S. Kaski, T. Honkela, K. Lagus, and T. Kohonen. WEB­
+SOM ­ self­organizing maps of document collections.
+Neurocomputing, 21:101--117, 1998.
+[14] T. Kohonen. Self­Organizing Maps. Springer, Berlin,
+1995.
+[15] T. Kohonen. Self­organisation of very large document
+collections: State of the art. In Proceedings of the In­
+ternational Conference on Ariticial Neural Networks,
+pages 65--74, Skovde, Sweden, 1998.
+[16] Stefan C. Kremer. On the computational power of
+Elman­style recurrent networks. IEEE Transactions on
+Neural Networks, 6(4):1000--1004, July 1995.
+[17] D. D. Lewis. Reuters­21578 text categorization test col­lection, 
+1997. http://www.research.att.com/”lewis.
+[18] A. McCallum, R. Rosenfeld, T. Mitchell, and A. Y. Ng.
+Improving text classification by shrinkage in a hierarchy
+of classes. In Proceeedings of the 15th International
+Conference on Machine Learning, pages 359--367, San
+Francisco, CA, 1998.
+[19] F. Menczer, R. Belew, and W. Willuhn. Artificial life ap­plied 
+to adaptive information agents. In Proceedings of
+the 1995 AAAI Spring Symposium on Information Gath­ering 
+from Heterogeneous, Distributed Environments,
+1995.
+[20] Kazuhisa Niki. Self­organizing information retrieval
+system on the web: SirWeb. In Nikola Kasabov, Robert
+Kozma, Kitty Ko, Robert O'Shea, George Coghill, and
+Tom Gedeon, editors, Progress in Connectionsist-­Based
+Information Systems. Proceedings of the 1997 Inter­national
+Conference on Neural Information Processing
+and Intelligent Information Systems, volume 2, pages
+881--884. Springer, Singapore, 1997.
+[21] R. Papka, J. P. Callan, and A. G. Barto. Text­based
+information retrieval using exponentiated gradient de­scent. 
+In M. C. Mozer, M. I. Jordan, and T. Petsche, ed­itors, Advances 
+in Neural Information Processing Sys­tems, volume 9. The MIT Press, 1997.
+[22] M. Perkowitz and O. Etzioni. Adaptive web sites: an AI
+challenge. In International Joint Conference on Artifi­cial Intelligence, Nagoya, Japan, 1997.
+[23] M. Sahami, M. Hearst, and E. Saund. Applying the
+multiple cause mixture model to text categorization.
+Technical report, AAAI Spring Symposium on Machine
+Learning in Information Access, 1996.
+[24] H. Schuetze, D. A. Hull, and J. O. Pedersen. A compar­ison 
+of classifiers and document representations for the
+routing problem. In Proceedings of the Special Interest
+Group on Information Retrieval, 1995.
+[25] D. Servan­Schreiber, A. Cleeremans, and J. L. Mc­
+Clelland. Encoding sequential structure in simple re­current 
+networks. Technical Report Technical Report
+CMU­CS­88­183, Carnegie Mellon University, Pitts­
+burgh, PA, 1988.
+[26] N. Sharkey and A. Sharkey. Separating learning and
+representation. In S. Wermter, E. Riloff, and G. Scheler,
+editors, Connectionist, Statistical and Symbolic Ap­proaches 
+to Learning for Natural Language Processing,
+pages 17--32. Springer, 1996.
+[27] R. Sun and T. Peterson. Multi­agent reinforcement
+learning: Weighting and partitioning. Neural Networks,
+1999.
+[28] G. van Noord. FSA utilities: A toolbox to manipu­late 
+finite­state automata. In Darrell Raymond, Derick
+Wood, and Sheng Yu, editors, Automata Implementation, 
+pages 87--108. Lecture Notes in Computer Science
+1260, Springer Verlag, 1997.
+[29] S. Wermter. Preference Moore machines for neural
+fuzzy integration. In Proceedings of the International
+Joint Conference on Artificial Intelligence, pages 840--
+845, Stockholm, 1999.
+[30] S. Wermter, G. Arevian, and C. Panchev. Recurrent neu­ral 
+network learning for text routing. In Proceedings of
+the International Conference on Artificial Neural Net­works, 
+pages 898--903, Edinburgh, UK, 1999.
+[31] S. Wermter, G. Arevian, and C. Panchev. Network anal­ysis 
+in a neural learning internet agent. In Proceedings
+of the International Conference on Computational Intelligence 
+and Neurosciences, pages 880--884, Atlantic
+City, PA, USA, 2000.
+[32] S. Wermter, C. Panchev, and G. Arevian. Hybrid neural
+plausibility networks for news agents. In Proceedings
+of the National Conference on Artificial Intelligence,
+pages 93--98, Orlando, USA, 1999.
+[33] S. Wermter and R. Sun. Hybrid Neural Systems.
+Springer, Heidelberg, 2000.

@@ -1,0 +1,78 @@
+Representing and Indexing Building Refurbishment
+Cases for Multiple Retrieval of Adaptable Pieces of
+Cases
+
+Farhi Marir and Ian Watson
+Department of Surveying, University of Salford, MS 4 WT. UK.
+
+
+Abstract. CBRefurb is a case-based reasoning (CBR) system for the strategic cost
+estimation for building refurbishment. This domain is characterised by many uncertainties
+and variation. Its cost estimation involves large amount of interrelated factors whose
+impact is difficult to assess. This paper report on the problems faced by the building cost
+information Services (BCIS) databases and several rule-based expert systems to tackle
+this complex cost estimation problem and, the design and evaluation of CBRefurb system
+implemented using ReMind Shell. CBRefurb imitates the domain expert in its approach
+of breaking down the whole building work into smaller work (building items) by
+organising the refurbishment cases as a hierarchical structure composed of cases and
+subcases. The process of estimation imitate the expert by considering only these pieces of
+previous cases of similar situation (or context). For this purpose, CBRefurb defines some
+of the building and its component (or items) features as a global context and local context
+information used to classify cases and subcases into context cases and subcases, and to
+decompose the cost estimation problem into adaptable subproblems. This is followed by a
+two indexing schemes to suit the hierarchical structure of the case and the problem
+decomposition and to allow classfication and retrieval of contextual cases. CBRefurb
+features consolidate the aim of the project that is allowing multiple retrieval of
+appropriate pieces of the refurbishment which are easier to adapt, reflecting the expert
+method of estimating cost for complex refurbishment work.
+7.	References
+
+1.	Schank, R. (1982). Dynamic memory: a theory of reminding and learning in
+computers and people. Cambridge University Press, Cambridge, UK
+2.	Kolodner, J.L. (1993). Case-Based Reasoning. Morgan Kaufmann.
+3.	Aamodt, A. & Plaza, E. (1994). Case-Based Reasoning:
+Foundational Issues, Methodological Variations, and System Approaches. AI
+Communications, 7(i): pp 39-59.
+4.	Watson, I. & Marir, F. 1994. Case-Based Reasoning: A Review. The
+Knowledge Engineering Review, Vol. 9, No. 4: pp.327-354
+5.	Douglas J.F. and Peter S.B. (1991). Cost Planning of Buildings (6th Edition).
+BSP Professional Books
+6	Marir, F., & Watson, I.D. ,(1995a). CBRefurb: Case-Based Cost Estimation.
+Colloquium on Case Based Reasoning: Prospects for applications. Organised by
+Professional Group C4 (Artificial Intelligence), 7, March, 1995.
+7.	Watson, I.D., & Brandon, P.s. (1992). Strategic Maintenance Prediction: An
+Expert System for Facilities Managers. In Facilities Management: Research
+Direction, Proc. 2nd. IFMA International Symposium. (Ed. Barett P.).
+8.	Pearce, M., Ashok K.G., Kolodner, J.L., Zimring, C. & Billignton, R. (1992)
+Case-Based Design Support- A case study in Architectural Design IEEE Expert
+Oct. 1992
+9.	Hennessy, D. et al.[1992]. Applying Case-Based Reasoning to autoclave
+Loading., IEEE Expert,.Vol 17, ppl4-20,pp2l-25.
+10.	Redmond, M. A. 1992. Learning by observing and understanding expert
+problem solving. Georgia Institute of Technology College of Computing
+Technical Report no. GIT-CC-92/43. Atlanta
+11.	Sycara, K. [1987] . Resolving Adversial Conflicts: An approach Integrating
+cases-Based Reasoning and Analytic Methods. PhD thesis , School of
+Information and Computer Science, Georgia Institute of Technology.
+12	Hammond, K.J. (1986). CHEF: A Model of Case-Based Planning. In Proc.
+American Association for Artificial Intelligence, AAAI-86, August 1986.
+Philadelphia, PA, US.
+13.	Barletta, R. & Mark, W.,(1988). Explanation-Based Indexing of Cases.In
+DARPA’88 Proceeding, see Kolodner J.L.,(Ed.) 1988.
+14	Marir, F., & Watson, I.D. (1995b). Can CBR imitate human intelligence and
+are such systems easy to design and maintain? A critique. Proceedings of the
+First UK CBR Workshop, 12th January at the University of Salford. (Ed.
+Watson I.D., F. Marir & Perera S.)
+15.	Lebowitz, M., (1987). Experimental with incremental concept formation:
+UNIMEM. Machine Learning, 2(ii): pp 1 03-38.
+16	Navichandra, D. (1991). Exploration and innovation in design:towards a
+computational model. Springer Verlag, New York. NY, US.
+17	Maher, M.L. & Zhang, D.M. (1991): CADSYN: using case and
+decomposition knowledge for design synthesis. In Artificial Intelligence in
+Design, Gero, J.S. (ed.), Butterworth-Heinmann. Oxford. UK
+18	Domeshek, E., (1993). A case study of case indexing: Designing index feature
+sets to suit task demands and support parallelism. In, Advances in
+connectionnist and neural computation theory, Vol.2: Analogical connections,
+eds. J. Barenden and K. Holyoak, Norwood, NJ. US.
+19	Smyth, B., & Keane M.T., [1993]. Retyrieving Adaptable Knowledge in Case
+Retrieval. EWCBR-93, 1st Worksop on CBR, Vol2, 1-5Nov. 93, Germany

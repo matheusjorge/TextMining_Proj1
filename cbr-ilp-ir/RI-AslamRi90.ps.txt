@@ -1,0 +1,40 @@
+Inferring Graphs from Walks
+(Extended Abstract)
+
+Javed A. Aslam # Ronald L. Rivest +
+Laboratory for Computer Science
+Massachusetts Institute of Technology
+Cambridge, MA 02139
+
+Abstract
+We consider the problem of inferring an undirected, degree­bounded, edge­colored
+graph from the sequence of edge colors seen in a walk of that graph. This problem can
+be viewed as reconstructing the structure of a Markov chain from its output. (That is,
+we are not concerned with inferring the transition probabilities, but only the underlying
+graph structure of the Markov chain.) We present polynomial­time algorithms for the
+inference of underlying graphs of degree­bound 2 (linear chains and cycles), based on
+some surprising properties about the confluence of various sets of rewrite rules.
+
+
+References
+[1] A. V. Aho, R. Sethi, and J. D. Ullman. Code optimization and finite Church­Rosser
+theorems. In R. Rustin, editor, Design and Optimization of Compilers, pages 89--105.
+Prentice­Hall, 1972.
+[2] A. V. Aho and J. D. Ullman. Transformations on straight line programs. In Conference
+Record Second Annual ACM Symposium on Theory of Computing, pages 136--148, 1970.
+[3] Dana Angluin. An application of the theory of computational complexity to the study of
+inductive inference. PhD thesis, University of California, Berkeley, 1976.
+[4] Henk P. Barendregt. The Lambda Calculus: Its Syntax and Semantics, volume 103 of
+Studies in Logic. North­Holland, 1981. Revised Edition, 1984.
+[5] A. Church and J. B. Rosser. Some properties of conversion. Transaction of AMS, 39:472--
+482, 1936.
+[6] E. Mark Gold. Complexity of automaton identification from given data. Information
+and Control, 37:302--320, 1978.
+[7] G. Huet and D. C. Oppen. Equations and rewrite rules: a survey. In R. Book, editor,
+Formal Language Theory, pages 349--393. Academic Press, 1980.
+[8] G’erard Huet. Confluent reductions: abstract properties and applications to term rewrit­ing 
+systems. In Proceedings of the 18th Annual Symposium on Foundations of Computer
+Science, pages 30--45. IEEE, 1977.
+[9] Steven Rudich. Inferring the structure of a Markov chain from its output. In Proceedings
+of the 26th Annual Symposium on Foundations of Computer Science, pages 321--326.
+IEEE, 1985.

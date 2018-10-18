@@ -1,0 +1,80 @@
+Supporting Tourism Culture via CBR
+
+Enrico Blanzieri1 and Alessandro Ebranati2
+
+1 ITC-IRST
+
+via Sommarive 18, 1-38050 Povo, Italy
+blanzier@irst.itc.it
+2 ITC-IRST and Università di Trento
+
+via Inama 5,I-38100 Trento, Italy
+imbra@irst.itc.it
+
+
+
+Abstract. We present COOL-TOUR, a WEB-based Case Based Reasoning 
+system for tourism culture support. Its main goal is to build the
+community of tourists that are interested in a geographic area. Building
+communities is relevant for e-commerce and CBR can support it effectively. 
+Users interact with the system entering tours for accessing auxiliary 
+services. The tours are stored in a case base and other users can retrieve 
+and adapt them. The community is built around these stored experiences. 
+The implemented version of COOL—TOUR deals with Mountain
+Bike tours, providing a sketch-based interaction interface. The spatial
+data similarity assessment is based on spatial indexing.
+References
+
+1.	Klaus-Dieter Aithoff, Ralph Bergmann, and L. Karl Branting, editors. Case—Based
+Reasoning Research and Development. Springer, Berlin, 1999.
+2.	L. Ardissono and A. Goy. Tailoring the Interaction With Users in Electronic Shops.
+In Kay [12], pages 35—44.
+3.	D. Billsus and M. Pazzani. Learning collaborative information filters. In Proceedings 
+of the International Conference on Machine Learning, pages 46—54, Madison,
+Wisciautoh, 1998. Morgan Kaufmann Publishers.
+4.	Max J. Egenhofer. Spatial-Query-by-Sketch. In M. Burnett and W. Citrin, editors,
+VL‘96: IEEE Symposium on Visual Languages, pages 60—67. Boulder, GO, IEEE
+Press, 1996.
+5.	B. J. Fogg (editor). Persuasive technologies. Communications of the ACM,
+42(5):26—58, May 1999.
+6.	Irene Gargantini. An effective way to represent quadtrees. Communications of the
+ACM, 25(12):905—910, December 1982.
+7.	C. Ghidini and L. Serafini. Information Integration for Electronic Commerce. In
+C. Sierra and P. Noriega, editors, Proceedings of the Workshop on Agent Mediated
+Electronic Trading (AMET’98), volume 1571 of LNAI, pages 189—206, Minneapolis,
+USA, 1998. Springer Verlag.
+8.	Kristian J. Hammond, Robin Burke, and Kathryn Schmitt. A Case-Based
+Approach to Knowledge Navigation. Working Papers of the AAAI Work-
+shop on Multi-Media and Artificial Intelligence, July 1994. Available at
+http://www.cs.uchicago.edu/~kris/PDF/nav.pdf.
+9.	E. C. Higham, A. Holt, and G. W. Kearsley. Tourist flow reasoning: the spatial similarities 
+of tourist movements. In Proceedings fo the Spatial Information Research
+Centre’s 8th Colloquium, pages 75—83, 1996.
+10.	A. Holt and C. L. Benwell. Applying Case-Based Reasoning Techniques in GIS.
+The International Journal of Geographical Information Science, 13(1):9—25, 1999.
+11.	Alec Holt. The Matching and Ranking of Surface and Deep Similarities of Spatial
+Data. In Proceedings of the Spatial Information Research Centre’s 10th Colloquium,
+pages 133—143, 1998.
+12.	Judy Kay, editor. User Modeling: Proceedings of the Seventh International Conference, 
+UM99. Springer, Wien New York, 1999.
+13.	M. Andrea Rodríguez, Max J. Egenhofer, and Robert D. Rugg. Assessing Semantic
+Similarities among Geospatial Feature Class Definitions. In A. Vckovski, K. Brassel, 
+and H.-J. Schek, editors, Lectures Notes in Computer Science, volume 1580,
+pages 189—202. Springer-Verlag, March 1999.
+14.	Dorian Selz and Petra Schubert. Web Assessment - A Model for the Evaluation and
+the Assessment of Successful Electronic Commerce Applications. In Proceedings of
+the 31st HICSS Conference, pages 46—48, Hawaii, 1998.
+15.	B. Smyth and P. Cotter. Surfing the Digital Wave: Generating Personalised TV
+Listings Using Collaborative, Case—Based Recommendation. In Aithoff et al. [1],
+pages 561—571.
+16.	Waszkiewicz, Cunningham, and Byrne. Case-based User Profiling in a Personal
+Travel Assistant. In Kay [12], pages 323—325.
+17.	Hannes Werthner and Stefan Klein. Information Technology and Tourism - A
+Challenging Relationship. Springer-Verlag, Wien, 1999.
+18.	Wolfang Wilke, Mario Lenz, and Stefan Wess. Intelligent Sales Support with CBR.
+In Mario Lenz, Brigitte Bartsch-Spöerl, Hans-Dieter Burkhard, and Stefan Wess,
+editors, Case—Based Reasoning Technology - From Foundations to Applications,
+LNAI, pages 91—113. Springer, Wien New York, 1998.
+19.	Z. Zhang and Q. Yang. Towards lifetime maintenance of case based indexes for
+continual case based reasoning. In F. Giunchiglia, editor, Artificial Intelligence:
+Methodology, Systems and Applications, pages 489-500. Springer, Berlin, 1998.

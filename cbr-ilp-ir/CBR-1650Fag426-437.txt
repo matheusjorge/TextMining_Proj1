@@ -1,0 +1,49 @@
+Case-Based Reasoning for Candidate List
+Extraction in a Marketing Domain
+Michael Fagan, Konrad Bloor
+
+BT Laboratories, Martlesham Heath
+Ipswich, Suffolk. IP5 3RE. UK
+michael.2.fagan@bt.com
+
+
+
+Abstract. This paper describes a software tool called CALIBRE (Candidate
+Library Retrieval). The tool incorporates case-base reasoning to support the
+extraction of candidate lists for targeted marketing campaigns. The tool has
+been aimed at users in the marketing domain. This domain is characterised by
+very large databases containing many Terabytes of customer related information. 
+Large systems such as these require careful management of the queries
+being submitted to optimise the use of processing and storage resources. The
+CBR approach encourages consistent best practice as well as cutting down on
+valuable negotiation time. An early prototype has been built and is currently
+used for experimental purposes.
+References
+
+[1]	Aamodt, A., Plaza, E.: Case-Based Reasoning: Foundational Issues, methodological
+Variations, and System Approaches. AI Communications 7(1), 39-52, 1994
+[2]	Leake, D.: Case-Based Reasoning: Experiences, Lessons, & Future Directions. AAAI
+Press, ISBN 0-262-621 l0-X LEACP, 1997
+[3]	Piatetsky-Shapiro, G., Frawley, W. J. (eds), Knowledge Discovery in Databases, AAAI
+Press, 1991.
+[4]	Ribeiro, J. S., Kaufmann, K. A., Kerschberg, L., ‘Knowledge Discovery from Multiple
+Databases’, in KDD-9S: Proc. of the 1st Int’l Conf. on Knowledge Discovery and Data
+Mining, U. M. Fayyad, R. Uthurusamy (eds.), AAAI Press, 1995, pp240-245.
+[5] Brightware Inc (1996). ARTScript Programming Guide 3, Rules & CBR
+[6]	Brown, M. (1993). A Memory model for Case Retrieval by Activation Passing, Department 
+of Computer Science, Manchester University.
+[7]	Everitt, B.S. (1980), ‘Cluster Analysis’, 2d Edition, London: Heineman Educational Books
+Ltd
+[8]	Fagan, M, Corley S L, ‘CBR for the Reuse of Corporate SQL Knowledge’ in Advances in
+Case-Based Reasoning, EWCBR-98. Springer-Verlag, pp382-39 1.
+[9]	Schank, R.C., Abelson, R. (1977) Scipts, Plans; Goals and Understanding: An Inquiry into
+Human Knowledge Structures.
+[10] SAS, http://www.sas.com/
+[11] Richard Stevens, W. (1990). UNIX Network Programming, Prentice-Hall.
+[12] Kitano, H., Shibata, A., Shimazu, H., Kajihara, J., & Sato, A. (1992) Building large-scale
+and corporate wide case-based systems In, Proceedings of AAAI-92
+[13] Netten, B.D., & Vingerhoeds, R.A. (1995) Large-scale fault diagnosis for on-board train
+systems In, Case-Based Reasoning Research and Development
+[14] Waltz, D. (1996) Large-Scale Applications of CBR In, Advances in Case-Based Reasoning
+[15] Schaaf, J.W (1996) Fish and Shrink: A Next Step Towards Efficient Case Retrieval in
+Large-Scale Case Bases In, Advances in Case-Based Reasoning

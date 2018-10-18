@@ -1,0 +1,73 @@
+Approximate ILP Rules by Backpropagation Neural
+Network: A Result on Thai Character Recognition
+
+Boonserm Kijsirikul and Sukree Sinthupinyo
+
+Department of Computer Engineering, Chulalongkom University,
+Phayathai Rd., Phathumwan, Bangkok, 10330, Thailand
+Email: Boonserm@cp.eng.chula.ac.th
+
+
+
+Abstract. This paper presents an application of Inductive Logic Programming
+(ILP) and Backpropagation Neural Network (BNN) to the problem of Thai
+character recognition. In such a learning problem, there exist several different
+classes of examples; there are 77 different Thai characters. Using examples
+constructed from character images, ILP learns 77 rules each of which defines
+each character. However, some unseen character images, especially the noisy
+images, may not exactly match any learned rule, i.e., they may not be covered
+by any rule. Therefore, a method for approximating the rule that best matches
+the unseen data is needed. Here we employ BNN for finding such rules.
+Experimental results on noisy data show that the accuracy of rules learned by
+ILP without the help of BNN is comparable to other methods. Furthermore,
+combining BNN with ILP yields the significant improvement and surpasses the
+other methods tested in our experiment.
+References
+
+[1]	C.Baroglio and M.Botta. Multiple Predicate Learning with RTh. Topic in
+Artificial Intelligence, LNAI 992, 1995.
+[2]	H.Blockeel and L.De Raedt. Experiments with Top-Down Induction of Logical
+Decision Trees. Technical Report CW247, Dept. of Computer Science,
+K.U.Leuven, 1997.
+[3]	M.Botta, A.Giordana and R.Piola. FONN: Combining First Order Logic with
+Connectionist Learning. Proceedings of the 14th International Conference on
+Machine Learning, 1997.
+[4]	S.Dzeroski, N.Jacobs, M.Molina, C.Moure, S.Muggleton and W.V.Laer.
+Detecting Traffic Problems with ILP. Proceedings of the 8th International
+Workshop on Inductive Logic Programming, 1998.
+[5]	S.Dzeroski, S.Schulze-Kremer, K.R.Heidtke, K.Siems and D.Wettschereck.
+Applying ILP to Diterpene Structure Elucidation from 13C NMR Spectra.
+Proceedings of 6th International Workshop on Inductive Logic Programming,
+1996.
+[6]	S.Eupiboon. Thai Handwritten Character Recognition by Considering the
+Character Head. Master Thesis, KMIT, Thailand, 1988 (in Thai).
+[7]	W.V.Laer, S.Dzeroski and L.D.Raedt. Multi-Class Problems and Discretization
+in ICL Extended Abstract. Proceedings of the Mlnet Familiarization Workshop
+on Data Mining with Inductive Logic Programming, pp.53-60, 1996.
+[8]	C.Lursinsap. Speeding Up Handwritten Character Neural Learning by Surface
+Projection. Proceedings of the 2nd Symposium on Natural Longuage Processing,
+pp. 198-205, 1995.
+[9]	L.Martin and C.Vrain. MULT_ICN: An Empirical Multiple Predicate Learner.
+Proceedings of the 5th International Workshop on Inductive Logic Programming,
+1995.
+[10]	S.Muggleton. Inverse Entailment and PROGOL. New Generation Computing,
+3:245-286, 1995.
+[11]	S.Muggleton, D.Page and A.Srinivasan. An Initial Experiment into
+Stereochemistry-Based Drug Design Using Inductive Logic Programming.
+Proceedings of the 6th International Workshop on Inductive Logic Programming,
+pp.25-40, 1996.
+[12]	P.Phokharatkul and C.Kimpan. Recognition of Handprinted Thai Characters
+Using the Cavity Features of Character Based on Neural Network. Proceedings
+of the 1998 IEEE Asia-Pacific Conference on Circuits and Systems, pp. 149-152.
+1998.
+[13]	D. Rattanatarn and S. Jitapunkul. Thai Printed Characters Recognition Using the
+Fuzzy Logic Technique and Syntactic Method. Proceedings of the 18th
+Conference of Electrical Engineering, 1995 (in Thai)
+[14]	D.E.Rumelhart, G.E.Hinton and R.J.Williams. Learning internal representations
+by error propagation. In D. E. Rumelhart, & J. L. McClelland (Eds.), Parallel
+distributed processing (Vol 1), Cambridge, MA:MIT Press, 1986.
+[15]	T.Tanprasert and C.Tanprasert, Variable Simulated Light Sensitive Model for
+Handwritten Thai Digit Recognition. Proceedings of the 2nd Symposium on
+Natural Language Processing, pp. 173-179, 1995.
+[16]	G.G.Towell and J.W.Shavlik. Knowledge-Based Artificial Neural Networks.
+Artificial Intelligence, 70 (4):119-116, 1994.

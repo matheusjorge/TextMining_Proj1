@@ -1,0 +1,86 @@
+Experiments in Predicting Biodegradability
+
+Saso Dzeroski (1), Hendrik Blockeel (2), Boris Kompare (3),
+Stefan Kramer (4), Bernhard Pfahringer (4), Wim Van Laer (2)
+
+(1) Department of Intelligent Systems, Jozef Stefan Institute
+Jamova 39, SI-1000 Ljubljana, Slovenia
+(2) Department of Computer Science, Katholieke Universiteit Leuven
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+(3) Faculty of Civil Engineering and Geodesy, University of Ljubljana
+Hajdrihova 28, SI-1000, Ljubljana, Slovenia
+(4) Austrian Research Institute for Artificial Intelligence
+Schottengasse 3, A-1010 Vienna, Austria
+
+
+
+Abstract. We present a novel application of inductive logic programming 
+(ILP) in the area of quantitative structure-activity relationships
+(QSARs). The activity we want to predict is the biodegradability of
+chemical compounds in water. In particular, the target variable is the
+half-life in water for aerobic aqueous biodegradation. Structural descriptions 
+of chemicals in terms of atoms and bonds are derived from the
+chemicals’ SMILES encodings. Definition of substructures are used as
+background knowledge. Predicting biodegradability is essentially a regression 
+problem, but we also consider a discretized version of the target
+variable. We thus employ a number of relational classification and regression 
+methods on the relational representation and compare these to
+propositional methods applied to different propositionalisations of the
+problem. Some expert comments on the induced theories are also given.
+References
+
+1.	Blockeel, H. and De Raedt, L. 1998. Top-down induction of first order logical
+decision trees. Artificial Intelligence, 101(1-2): 285—297.
+2.	Boethling, R.S., and Sabijic, A. 1989. Screening-level model for aerobic biodegradability 
+based on a survey of expert knowledge. Environ. Sci. Technol. 23: 672—679.
+3.	Breiman, L., Friedman, J.H., Qishen, R.A., and Stone, C.J. 1984. Classification and
+Regression Trees. Wadsworth, Belmont.
+4.	Cambon, B., and Devillers, J. 1993. New trends in structure-biodegradability relationships. 
+Quant. Struct. Act. Relat. 12(1): 49—58.
+5.	Clark, P., and Boswell, R. 1991. Rule induction with CN2: some recent improvements. 
+In Proc. 5th European Working Session on Learning, pages 151—163.
+Springer, Berlin.
+6.	Cohen W. 1995. Fast effective rule induction. In Proc. 12th Intl. Conf. on Machine
+Learning, pages 115—123. Morgan Kaufrnann, San Mateo, CA.
+7.	Dehaspe, L., and Toivonen, H. 1999. Frequent query discovery: a unifying ILP
+approach to association rule mining. Data Mining and Knowledge Discovery.
+8.	De Raedt, L., and Van Laer, W. 1995. Inductive constraint logic. In Proc. 6th Intl.
+Workshop on Algorithmic Learning Theory, pages 80—94. Springer, Berlin.
+9.	Gamberger, D., Sekuak, S., and Sabljic, A. 1993. Modelling biodegradation by an
+example-based learning system. Informatica 17: 157—166.
+10.	Howard, PH., Boethling, R.S., Jarvis, W.F., Meylan, W.M., and Michalenko, E.M.
+1991. Handbook of Environmental Degradation Rates. Lewis Publishers.
+11.	Howard, P.H., Boethling, R.S., Stiteler, W.M., Meylan, W.M., Hueber, A.E., Beauman, 
+J.A., and Larosche, M.E. 1992. Predictive model for aerobic biodegradability
+developed from a file of evaluated biodegradation data. Environ. Toxicol. Chem. 11:
+593—603.
+12.	Howard, P. and Meylan, W. 1992. User’s Guide for the Biodegradation Probability 
+Program, Ver. 3. Syracuse Res. Corp., Chemical Hazard Assessment Division,
+Environmental Chemistry Center, Syracuse, NY 13210, USA.
+13.	King, R.D., Muggleton, S.H., Lewis, R.A., and Sternberg, M.J.E. 1992. Drug design
+by machine learning : the use of inductive logic programming to model the structure-activity 
+relationship of trirnethoprim analogues binding to dihydrofolate reductase.
+Proc. National Academy of Sciences USA, 89: 11322—11326.
+14.	Kompare, B. 1995. The use of artificial intelligence in ecological modelling. Ph.D.
+Thesis, Royal Danish School of Pharmacy, Copenhagen, Denmark.
+15.	Kramer, S. 1996. Structural regression trees. In Proc. 13th Natl. Conf. on Artificial
+Intelligence, pages 812—819. AAAI Press/The MIT Press.
+16.	Quinlan, J.R. 1993a. C4.5: Programs for Machine Learning. Morgan Kaufrnann,
+San Mateo, CA.
+17.	Quinlan, J.R. 1993b. Combining instance-based and model-based learning. In Proc.
+10th Intl. Conf. on Machine Learning, pages 236—243. Morgan Kaufrnann, San Mateo, CA.
+18.	Quinlan, J.R. 1996. Learning first-order definitions of functions. Journal of Artificial 
+Intelligence Research, 5:139—161.
+19.	Srinivasan, A., Muggleton, S.H., Sternberg, M.J.E., and King, R.D. 1996. Theories 
+for mutagenicity: A study in first-order and feature-based induction. Artificial
+Intelligence 85(1-2): 277-299.
+20.	Srinivasan, A., King, R.D., Muggleton, S.H., and Sternberg, M.J.E. 1997. The predictive 
+toxicology evaluation challenge. In Proc. 15th Intl. Joint Conf. on Artificial
+Intelligence, pages 4—9. Morgan Kaufrnann, San Mateo, CA.
+21.	Wang, Y., and Witten, I.H. 1997. Inducing model trees for continuous classes. In
+Poster Papers - 9th European Conf. on Machine Learning, pages 128—137. Prague,
+Czech Republic. URL: http://www.cs.waikato.ac.nz/~ml/publications.html.
+22.	Weininger D. 1988. SMILES, a Chemical and Information System. 1. Introduction
+to Methodology and Encoding Rules. J. Chem. Inf. Comput. Sci. 28(1): 31-6.
+23.	Zitko, V. 1991. Prediction of biodegradability of organic chemicals by an artificial
+neural network. Chemosphere, Vol. 23, No. 3: 305-312.

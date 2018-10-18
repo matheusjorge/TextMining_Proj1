@@ -1,0 +1,68 @@
+Similarity Measures for Structured
+Representations:
+A Definitional Approach
+
+Goran Falkman1,2
+
+1 Department of Computing Science,
+
+Chalmers University of Technology and Goteborg University
+SE—412 96 Göteborg, Sweden
+2 Department of Computer Science, University of Skövde
+
+PO Box 408, SE-541 28 Skövde, Sweden
+goran.falkman@ida.his.se
+
+
+
+Abstract. A similarity framework for definitional representations is presented. 
+Similarity assessment is based on the computation and estimation
+of structural relationships (connections) among definitions. The framework 
+is general enough to capture many different types of similarity measures: 
+ordinal and cardinal measures, asymmetric measures, and measures 
+between any number of objects. By definition, the similarity measures 
+retrieve the cases that need the least adaptation.
+References
+
+1.	B6rner, K.: Structural Similarity as Guidance in Case-Based Design. In: [15]
+197—208
+2.	Bunke, H., Messmer, B. T.: Similarity Measures for Structured Representations.
+In: [15] 106—118
+3.	Hallnäs, L.: Partial Inductive Definitions. Theoretical Computer Science 87(1)
+(1991) 115—142
+4.	Hofstadter, D. R.: Fluid Concepts and Creative Analogies: Computer Models of
+the Fundamental Mechanisms of Thought. Basic Books, New York (1995)
+5.	Kolodner, J. L.: Case-Based Reasoning. Morgan Kaufmann Publishers, Inc. (1993)
+6.	Osborne, H. R., Bridge, D. G.: A Case Base Similarity Framework. In: [12] 309—323
+7.	Osborne, H. R., Bridge, D. G.: Similarity Metrics: A Formal Unification of Cardinal
+and Non-Cardinal Similarity Measures. In: Leake, D. B., Plaza, E. (eds.): Case-Based 
+Reasoning Research and Development: Proceedings of the Second International 
+Conference on Case-Based Reasoning, ICCBR-97, Providence, RI, USA, July
+1997. Lecture Notes in Artificial Intelligence, Vol. 1266. Springer-Verlag, Berlin
+Heidelberg New York (1997) 235—244
+8.	Plaza, B.: Cases as Terms: A Feature Term Approach to the Structured Representation 
+of Cases. In: Veloso, M., Aamodt, A. (eds.): Case-Based Reasoning Research
+and Development: Proceedings of the First International Conference, ICCBR-95,
+Sesimbra, Portugal, October 1995. Lecture Notes in Artificial Intelligence, Vol.
+1010. Springer-Verlag, Berlin Heidelberg New York (1995) 265—276
+9.	Plaza, E., de Mántaras, R. L., Armengol, E.: On the Importance of Similitude: An
+Entropy-Based Assessment. In: [12] 324—338
+10.	Ricci, F., Senter, L.: Structured Cases, Trees and Efficient Retrieval. In: Smyth, B.,
+Cunningham, P. (eds.): Advances in Case-Based Reasoning: Proceedings of the 4th
+European Workshop, EWCBR-98 Dublin, Ireland, September 23—25 1998. Lecture
+Notes in Artificial Intelligence, Vol. 1488. Springer-Verlag, Berlin Heidelberg New
+York (1998) 88—99
+11.	Richter, M. M., Wess, S.: Similarity, Uncertainty and Case-Based Reasoning in
+PATDEX. In: Boyer, R. S. (ed.): Automated Reasoning: Essays in Honor of Noody
+Bledsoe. Kluwer (1991) 249—265
+12.	Smith, I., Faltings, B. (eds.): Advances in Case-Based Reasoning: Proceedings
+of the Third European Workshop, EWCBR-95, Lausanne, Switzerland, November
+1996. Lecture Notes in Artificial Intelligence, Vol. 1168. Springer-Verlag, Berlin
+Heidelberg New York (1996)
+13.	Smyth, B., Keane, M. T.: Retreiving Adaptable Cases: The Role of Adaptation
+Knowledge in Case Retrieval. In: [15] 109—220
+14.	Tversky, A.: Features of Similarity. Psychological Review 84(4) (1977) 327—352
+15.	Wess, S., Althoff, K.-D., Richter, M. M. (eds.): Topics in Case-Based Reasoning.
+Selected Papers of the First European Workshop, EWCBR-93 Kaiserslauten, Germany, 
+November 1993. Lecture Notes in Artificial Intelligence, Vol. 837. Springer-Verlag, 
+Berlin Heidelberg New York (1994)

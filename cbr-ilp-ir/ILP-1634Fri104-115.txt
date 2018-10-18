@@ -1,0 +1,44 @@
+Sorted Downward Refinement:
+Building Background Knowledge into a
+Refinement Operator for
+Inductive Logic Programming
+
+Alan M. Frisch
+
+Intelligent Systems Group, Department of Computer Science,
+University of York, York YO1O 5DD, United Kingdom
+frischc@cs.york.ac.uk
+http://www.cs.york.ac.uk/~frisch
+
+
+
+Abstract. Since its inception, the field of inductive logic programming
+has been centrally concerned with the use of background knowledge
+in induction. Yet, surprisingly, no serious attempts have been made to
+account for background knowledge in refinement operators for clauses,
+even though such operators are one of the most important, prominent
+and widely-used devices in the field. This paper shows how a sort theory, 
+which encodes taxonomic knowledge, can be built into a downward,
+subsumption-based refinement operator for clauses.
+References
+
+1.	Wray Buntine. Generalized subsumption and its applications to induction and
+redundancy. Artificial Intelligence, 36(2): 149—176, 1988.
+2.	Alan M. Frisch. The substitutional framework for sorted deduction: Fundamental
+results on hybrid reasoning. Artificial Intelligence, 49:161—198, 1991.
+3.	Alan M. Frisch and C. David Page Jr. Generalization with taxonomic information. 
+In Proc. of the Eighth National Conf. on Artificial Intelligence, pages 755—761,
+Boston, MA, July 1990.
+4.	Alan M. Frisch and C. David Page Jr. Building theories into instantiation. In
+Proc. of the Fourteenth Int. Joint Conf. on Artificial Intelligence, pages 1210—1216,
+Montreal, Canada, August 1995.
+5.	Philip D. Laird. Learning from Good and Bad Data. Kluwer Academic Publishers,
+Boston, MA, 1988.
+6.	Shan-Hwei Nienhuys-Cheng and Ronald de Wolf. Foundations of Inductive Logic
+Programming. Springer-Verlag, 1997.
+7.	C. David Page Jr. Anti- Unification in Constraint Logics: Foundations and Applications 
+to Learnability in First-Order Logic, to Speed-up Learning, and to Deduction.
+PhD thesis, Department of Computer Science, University of Illinois at Urbana-Champaign, 1993.
+8.	C. David Page Jr. and Alan M. Frisch. Generalization and learnability: A study of
+constrained atoms. In Stephen H. Muggleton, editor, Inductive Logic Programming,
+chapter 2, pages 29—61. Academic Press, London, 1992.

@@ -1,0 +1,56 @@
+Function-Free Horn Clauses
+Are Hard to Approximate
+
+Richard Nock and Pascal Jappy
+
+Laboratoire d’Informatique, de Robotique et de Microélectronique de Montpellier,
+161, rue Ada,
+34392 Montpellier, France
+{nock,jappy}@lirmm.fr
+
+
+
+Abstract. In this paper, we show two hardness results for approximating 
+the best function-free Horn clause by an element of the same class.
+Our first result shows that for some constant k > 0, the error rate of the
+best k-Horn clause cannot be approximated in polynomial time to within
+any constant factor by an element of the same class. Our second result is
+much stronger. Under some frequently encountered complexity hypothesis, 
+we show that if we replace the constant number of Horn clauses
+by a small, poly-logarithmic number, the constant factor blows up exponentially 
+to a quasi-polynomial factor nlogk n,, where n is the number of
+predicates of the problem, a measure of its complexity. Our main result
+links the difficulty of error approximation with the number of clauses allowed. 
+We finally give an outline of the incidence of our result on systems
+that learn using ILP (Inductive Logic Programming) formalism.
+References
+1.	S. Arora. Probabilistic checking of proofs and hardness of approximation problems.
+Technical Report GS-TR-476-94, Princeton University, 1994.
+2.	W. Buntine. Generalized subsumption and its applications to induction and redundancy. 
+Artificial Intelligence, 36:149—176, 1988.
+3.	W.W. Cohen. Pac-learning nondeterminate clauses. In Proceedings of the Twelfth
+National Conference on Artificial Intelligence, AAAI’94, pages 676—681, 1994.
+4.	W.W. Cohen. Pac-learning recursive logic programs: Efficient algorithms. Journal
+of Artificial Intelligence Research, 2:501—539, 1995.
+5.	W.W. Cohen. Pac-learning recursive logic programs: Negative results. Journal of
+Artificial Intelligence Research, 2:541—571, 1995.
+6.	S. Dzerovski, S.H. Muggleton, and S. Russel. Pac-learnability of determinate logic
+programs. In Proceedings of COLT-92, pages 128—137, 1992.
+7.	E.M. Gold. Language indentification in the limit. Information and Control, 10:447—
+474, 1967.
+8.	K-U. Hoffgen and H.U. Simon. Robust trainability of single neurons. In Proc. of
+the 5 th International Conference on Computational Theory, 1992.
+9.	P. Jappy, R. Nock, and 0. Gascuel. Negative robust learning results for horn clause
+programs. In Proceedings of ICML ‘96, pages 258—265, 1996.
+10.	M. Kearns, M. Li, L. Pitt, and L.G. Valiant. On the learnability of boolean formulae. 
+In Proceedings of STOCS’87, pages 285—294, 1987.
+11.	J.U. Kietz and S. Dzeroski. Inductive logic programming and learnability. Sigart
+Bulletin, 5:22—32, 1994.
+12.	S.H. Muggleton. Bayesian inductive logic programming. In Proceedings of the
+Seventh Workshop on COmputational Learning Theory, 1994.
+13.	S.H. Muggleton and C. Feng. Efficient induction of logic programs. Inductive Logic
+Programming. Academic Press, New York, 1992.
+14.	R. Nock and P. Jappy. On the hardness of approximating function-free horn clauses.
+Technical Report LIRMM-RR-98017, LIRMM, 1998.
+15.	L.G. Valiant. A theory of the learnable. Association for Computing Machinery
+Communications, 27:1134—1142, 1984.

@@ -1,0 +1,58 @@
+A Connectionist Indexing Approach for CBR Systems*
+
+Maria Malek
+
+TIMC-LIFIA
+bat. Lifia, 46 ave Félix Viallet,
+38031 Grenoble, France
+Email: Maria.Malek@imag.fr
+
+
+
+Abstract. An important factor that plays a major role in determining the performances
+of a CBR system is the complexity and the accuracy of the case retrieval phase. Both flat
+memory and inductive approaches suffer from serious drawbacks. In the first approach,
+the search time becomes considerable when dealing with large scale memory base, while
+in the second one the modifications of the case memory becomes very complex because
+of its sophisticated architecture.
+In this paper, we show how we can construct a simple efficient indexing system structure.
+We construct a case hierarchy with two levels of memory: the lower level contains cases
+organised into groups of similar cases, while the upper level contains prototypes, each
+of which represents one group of cases. The construction of prototypes is made by using
+an incremental prototype-based network. This upper level parallel memory is used as an
+indexing system during the retrieval phase.
+References
+
+1.	A. Aamodt and E. Plaza. Case-based reasoning: Foundational issues, methodological variations,
+and system approaches. AICOM, 7(1), March 1994.
+2.	E. Alpaydin. Gal : Networks that grow when they learn and shrink when they forget. Technical
+Report TR 91-032, International Computer Science Institute, May 1991.
+3.	A. Azcarraza and A. Giacometti. A prototype-based incremental network model for classification
+task. In Fourth International Conference on Neural Networks and Their Applications, Nimes,
+France, 1991.
+4.	S.K. Bamberger and K. Goos. Integration of case-based reasoning and inductive learning methods.
+In First European Workshop on CBR, November 1993.
+5.	R. Barletta. An introduction to case—based reasoning. AI Expert, August 1991.
+6.	A. Giacometti. Modèles Hybrides de l’Expertise. PhD thesis, Telecom- Paris, 1992.
+7.	J. Kolodner. Case—Based Reasoning. Morgan Kaufmann Publishers, Inc, 1993.
+8.	M. Malek and V. Rialle. A case—based reasoning system applied to neuropathy diagnosis. In Second
+European Workshop, EWCBR-94, Lecture Notes in Computer Science. Springer—Verlag, November
+1994.
+9.	M. Manago, K. Althoff, E. Auriol, R. Traphoner, S. Wess, N. Conruyt, and F. Maurer. Induction
+and reasoning from cases. In First European Workshop on CBR, November 1993.
+10.	P. Myllymaki and H.Tirri. Massively parallel case-based reasoning with probabilistic similarity
+metrics. In First European Workshop on CBR, November 1993.
+11.	J.R. Quinlan. Induction of decision trees. Machine Learning, (1):81— 106, 1986.
+12.	J.R. Quinlan. C4.5. Morgan Kaufmann Publishers, 1992.
+13.	D.L. Reilly, L.N. Cooper, and C. Erlbaum. A neural model for category learning Biological Cybernetics, 
+(45):35—41, 1989.
+14.	C.K Riesbeck and B.C. Schank. Inside Case-Based Reasoning. Lawrence Erlbaum Associates,
+publishers, 1989.
+15.	P. Thrift. A neutral network model for case—based reasoning. In Proceddings of the DARPA Case—Based 
+Reasoning Workshop, May 1989.
+16.	S.B. Thrun, J. Bala, E. Bloedorn, I. Bratko, B. Cestnik, J. Cheng, K. De Joug, S Dzroski, S.E.
+Fahlman, D. Fisher, R. Hamann, K. Kaufman, S. Keller, I. Kononenko, J. Kreuziger, R.S. Michalski, 
+T. Mitchell, P. Pachowicz, Y. Reich H. Vafaie, W. Van de Welde, W. Wenzel, J. Wnek, and
+J. Zhang. The monk’s problems a performance comparison of different learning algorihms. Technical 
+Report CMU-CS-91-197, Carnegie Mellon University, December 1991.
+17.	P.E. Utgoff. Incremental induction of decision trees. Machine Learning, (4): 161—186, 1989.

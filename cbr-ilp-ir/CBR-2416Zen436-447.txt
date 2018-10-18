@@ -1,0 +1,80 @@
+An Approach to Aggregating Ensembles
+of Lazy Learners That Supports Explanation
+
+Gabriele Zenobi and Pádraig Cunningham
+
+Department of Computer Science
+Trinity College Dublin
+{Gabriele.Zenobi, Padraig.Cunningham}@cs.tcd.ie
+
+
+
+Abstract: Ensemble research has shown that the aggregated output of an
+ensemble of predictors can be more accurate than a single predictor. This is true
+also for lazy learning systems like Case-Based Reasoning (CBR) and k-Nearest-Neighbour. 
+Aggregation is normally achieved by voting in classification tasks
+and by averaging in regression tasks. For CBR, this increased accuracy comes
+at the cost of interpretability however. If we consider the use of retrieved cases
+for explanation to be one of the advantages of CBR then this is lost in an
+ensemble. This is because a large number of cases will have been retrieved by
+the ensemble members. In this paper we present a new technique for
+aggregation that obtains excellent results and identifies a small number of cases
+for use in explanation. This new approach might be viewed as a transformation
+process whereby cases are transformed from their feature based representation
+to a representation based on the predictions of ensemble members. This new
+representation produces very accurate predictions and allows a small number of
+similar neighbours to be identified.
+References
+
+Armengol, E., Palaudàries, A., Plaza, E., (2001). Individual Prognosis of Diabetes
+Long-term Risks: A CBR Approach. Methods of Information in Medicine. Special
+issue on prognostic models in Medicine. vol. 40, pp. 46-51.
+Breiman, L., (1996) Bagging predictors. Machine Learning, 24:123-140.
+Cunningham, P., Carney, J., (2000) Diversity versus Quality in Classification Ensembles based
+on Feature Selection, 11th European Conference on Machine Learning (ECML 2000),
+Lecture Notes in Artificial Intelligence, R. López de Mántaras and E. Plaza, (eds) pp 109-
+116, Springer Verlag.
+Cunningham, P., Zenobi, G., (2001) Case Representation Issues for Case-Based Reasoning
+from Ensemble Research, in Proceedings of 4th International Conference on Case-Based
+Reasoning eds D. W. Aha, I. Watson, LNAI 2080, pp146-157, Springer Verlag.
+Guerra-Salcedo, C., Whitley, D., (1999a). Genetic Approach for Feature Selection for
+Ensemble Creation. in GECCO-99: Proceedings of the Genetic and Evolutionary
+Computation Conference, Banzhaf, W., Daida, J., Eiben, A. E., Garzon, M. H., Honavar, V.,
+Jakiela, M., & Smith, R. E. (eds.). Orlando, Florida USA, pp236-243, San Francisco, CA:
+Morgan Kaufmann.
+Guerra-Salcedo, C., Whitley, D., (1999b). Feature Selection Mechanisms for Ensemble
+Creation: A Genetic Search Perspective, in Data Mining with Evolutionary Algorithms:
+Research Directions. Papers from the AAAI Workshop. Alex A. Freitas (Ed.) Technical
+Report WS-99-06. AAAI Press, 1999.
+Hansen, L.K., Salamon, P., (1990) Neural Network Ensembles, IEEE Pattern Analysis and
+Machine Intelligence, 1990. 12, 10, 993-1001.
+Heskes, T.M. (1998). Selecting weighting factors in logarithmic opinion pools. Advances in
+Neural Information Processing Systems, 10, 266-272.
+Ho, T.K., (1998) Nearest Neighbours in Random Subspaces, Proc. Of 2nd International
+Workshop on Statistical Techniques in Pattern Recognition, A. Amin, D. Dori, P. Puil, H.
+Freeman, (eds.) pp64O-648, Springer Verlag LNCS 1451.
+Kohavi, P. Langley, Y. Yun, (1997) The Utility of Feature Weighting in NearestNeighbor
+Algorithms, European Conference on Machine Learning, ECML’97, Prague, Czech
+Republic, 1997, poster.
+Krogh, A., Vedelsby, J., (1995) Neural Network Ensembles, Cross Validation and Active
+Learning, in Advances in Neural Information Processing Systems 7, G. Tesauro, D. S.
+Touretsky, T. K. Leen, eds., pp231-238, MIT Press, Cambridge MA.
+Jacobs, R.A., Jordan, M.I., Nowlan, S.J., & Hinton, G.E., (1991) Adaptive mixtures of local
+experts, Neural Computation, 3, 79-98.
+Leake, D., B., (1996) CBR in Context: The Present and Future, in Leake, D.B. (ed) Case-Based
+Reasoning: Experiences, Lessons and Future Directions, pp3-3O, MIT Press.
+Ong, L.S., Sheperd, B., Tong, L.C., Seow-Choen, F., Ho, Y.H., Tong, L.C., Ho Y.S, Tan, K.
+(1997) The Colorectal Cancer Recurrence Support (CARES) System. Artificial Intelligence
+in Medicine 11(3): 175-188.
+Ricci, F., & Aha, D. W. (1998). Error-correcting output codes for local learners. Proceedings of
+the Tenth European Conference on Machine Learning (280-291). Chemnitz, Germany:
+Springer.
+van de Laar, P., Heskes, T., (2000) Input selection based on an ensemble, Neurocomputing,
+34:227-238.
+Wettschereck, D., Aha, D. W., & Mohri, T. (1997). A review and empirical evaluation of
+feature weighting methods for a class of lazy learning algorithms. Artificial intelligence
+Review, 11, 273-314.
+Zenobi, G., Cunningham, P., (2001) Using Diversity in Preparing Ensembles of Classifiers
+Based on Different Feature Subsets to Minimize Generalization Error, l2th European
+Conference on Machine Learning (ECML 2001), eds L. De Raedt & P. Flach, LNAI 2167,
+pp576-587, Springer Verlag.

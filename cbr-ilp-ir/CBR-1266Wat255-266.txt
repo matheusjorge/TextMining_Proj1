@@ -1,0 +1,97 @@
+The Evaluation of a Hierarchical Case Representation
+Using Context Guided Retrieval
+
+Ian Watson± & Srinath Perera*
+±AI-CBR. Bridgewater Building. University of Salford, Salford, M5 4WT, UK
+*Department of Building Economics, University of Moratua, Moratua. Sri Lanka
+{i.d.watson | r.s.perera}@surveying.salford.ac.uk
+
+Abstract. This paper presents the results of the comparison of the performance of a
+hierarchical case representation using a context guided retrieval method against that of a
+simpler flat file representation using standard nearest neighbour retrieval. The estimation of
+the construction costs of light industrial warehouse buildings is used as the test domain.
+Each case comprises approximately 400 features. These are structured into a hierarchical
+case representation that holds more general contextual features at its top and specific
+building elements at its leaves. A modified nearest neighbour retrieval algorithm is used
+that is guided by contextual similarity. Problems are decomposed into sub-problems and
+solutions recomposed into a final solution. The comparative results show that the context
+guided retrieval method using the hierarchical case representation out performs the simple
+flat file representation and standard nearest neighbour retrieval.
+
+9.	References
+Aha. D., & Branting, K. (1995). Stratified Case-Based Reasoning: Reusing Hierarchical Problem Solving
+Episodes. In, Proceedings of the 13th International Joint Conference on Artificial Intelligence,
+IJCAI-95, pp.384-390. IJCAI, Menlo Park, Calif., US.
+Ashworth, A., & Skitmore, R.M. (1982), Accuracy in Estimating. The Chartered Institute of Building,
+Occasional Paper No. 27.
+Barletta, R., & Mark, W. (1988). Breaking Cases into Pieces. In, Proceedings of the DARPA Case-Based
+Reasoning Workshop, Kolodner, J.L., (Ed.), Morgan Kaufmann, Calif, US.
+Bartsch-Spörl, B. (1995), Towards the Integration of Case-Based, Schema-Based and Model-Based
+Reasoning for Supporting Complex Design Tasks. In, Case-Based Reasoning Research &
+Development - ICCBR ‘95, Veloso, M., & Aamodt, A. (Eds.), pp. 145 - 156, Springer-Verlag, Berlin.
+Bento, C., Macedo, L., & Costa, E. (1994). RECIDE - Reasoning with Cases Imperfectly Described and
+Explained. In, Proceeding of the 2nd European Workshop on Case-Based Reasoning.
+Brandon, P., Basden, A., Hamilton, I., & Stockley, J. (1988). The Strategic Planning of Construction
+Projects, RICS Publications, London, UK.
+Brown, M., Watson, I., & Filer, N. (1995). Separating the cases from the data: Towards more flexible
+case-based reasoning. In, Case-Based Reasoning Research and Development, Veloso, M., & Aamodt,
+A. (Eds.), Lecture Notes in Artificial Intelligence 1010, Springer-Verlag, Berlin.
+Castell, A.M., Basden. A., Erdos, G., Barrows, P., & Brandon, P.S. (1992). Knowledge Based Systems In
+Use: A Case Study. In, Proceedings of the 12th. Annual Conference of the British Computer Society
+Specialist Group on Expert Systems. Cambridge University Press, Cambridge, UK.
+Flemming, U., (1994). Case-based design in the SEED system,. Automation in Construction, 3: pp.123-
+133, Elsevier Science B.V.
+Goel, A., Ali, K.. Donnellan, M., Garza, A., & Callantine, T. (1994). Multistrategy Adaptive Navigational
+Path Planning. IEEE Expert, 9(6): pp.57.65
+Hammond, K.J. (1986), CHEF: A model of case-based planning. In, Proc. American Association for
+Artificial Intelligence. AAA 1.86, Philadelphia, PA, US.
+Hennessy, D., & Hinkle. D. (1992), Applying Case-Based Reasoning to Autoclave Loading, IEEE Expert,
+7(5): pp.2 1-26.
+Hunt, J.. & Miles, R. (1995), Towards an Intelligent Architectural Design Aid. Expert Systems, 12(3):
+pp.209.218.
+Kolodner, J.L. (1988). Retrieving events from a case memory: A parallel implementation. In, Proceedings
+of the DARPA Case-Based Reasoning Workshop. Kolodner, J.L. (Ed.), Morgan Kaufmann, Calif.,
+Us.
+Kolodner, J.L. (1993), Case-Based Reasoning. Morgan Kaufmann Publishers Inc., CA, US.
+Leake. D.B., (1996). CBR in Context: The Present and Future. In. Case-Based Reasoning: Experiences,
+Lessons, & Future Directions, Leake. D.B. (Ed.). AAAI Press / The MIT Press, Menlo Park, Calif.,
+US.
+Macedo, L., Pereira. F.C.. Grilo, C., & Cardoso, A. (1996). Plans as Structured Networks of Hierarchically
+and Temporally Related Case Pieces. In, Advances in Case-Based Reasoning, Smith, I., & Faltings,
+B. (Eds.), Lecture Notes in Artificial Intelligence 1168, Springer-Verlag, Berlin.
+Maher, M.L., & Balachandran, B. (1994). Flexible Retrieval Strategies for Case-Based Design. In,
+Artificia1 Intelligence in Design ‘94, Gero, J.S., & Sudweeks, F. (Eds.), pp.163-I80, Kluwer
+Academic Publishers, Netherlands.
+Maher, M.L., Balachandran, M.B., & Zhang, D.M. (1995). Case-Based Reasoning in Design. Lawrence
+Erlbaum Associates. US.
+Maher, M.L. & Zhang, D.M. (1991). CADSYN: using case and decomposition knowledge for design
+synthesis. In, Artificial Intelligence in Design, Gero, J.S. (Ed.), Butterworth-Heinmann. Oxford. UK.
+Marir, F., & Watson, 1. (1995), Representing and Indexing Building Refurbishment Cases for Multiple
+Retrieval of Adaptable Pieces of Cases. In, Case-Based Reasoning Research & Development - ICCBR
+‘95 Veloso, M., and Aamodt, A. (Eds.), pp.55 - 66, Springer-Verlag, Berlin.
+Mark, W., Simoudis, E., & Hinkle, D. (1996). Case-Based Reasoning: Expectations and Results. In, Case-Based 
+Reasoning: Experiences. Lessons, & Future Directions, Leake, D.B. (Ed.). AAAJ Press I The
+MIT Press, Menlo Park, Calif. US.
+Perera, R.S., and Watson, I.D. (1996). Multi-Agent Collaborative Case-Based Estimating and Design in
+NIRMANI: Organising a Multi-Perspective Case Memory. In, Information Processing in Civil and
+Structural Engineering Design, pp.53-64, Kumar, B. (Ed.), Civil-Comp Press, Scotland.
+Ram, A., & Francis, A.G. (1996). Multi-plan Retrieval and Adaptation in an Experience-Based Agent. In,
+Case-Based Reasoning: Experiences, Lessons, & Future Directions, Leake, D.B. (Ed.). AAAI Press I
+The MIT Press, Menlo Park, Calif. US.
+Redmond, M. (1990). Distributed Cases for Case-Based Reasoning: Facilitating Use of Multiple Cases. In,
+Proceedings of AAAI.
+Santamaria, J.C., & Ram, A. (1996). Systematic Evaluation of Design Decisions in Case-Based Reasoning
+Systems. In, Case-Based Reasoning: Experiences, Lessons, & Future Directions, Leake, D.B. (Ed.).
+AAAI Press / The MIT Press, Menlo Park, Calif., US.
+Simoudis, E. & Miller, J.S. (1991). The Application of CBR to Help Desk Applications. In, Proceedings
+of the DARPA Workshop on Case-Based Reasoning, Bareiss R. (Ed.). Morgan Kaufmann, San
+Francisco, Calif., US.
+Sycara, K.P. & Navinchandra D. (1991). Influences: A Thematic Abstraction for Creative Use of Multiple
+Cases. In, Proceedings of the DARPA Case-Based Reasoning Workshop, Bareiss, E.R., Morgan
+Kaufmann, Calif.. US.
+Veloso, M.M. (1992). Learning by analogical reasoning in general problem solving. Carnegie Mellon
+University, School of Computer Science Technical Report no. CMU-CS-92-174.
+Watson, I. (1997). Applying Case-B ased Reasoning. Morgan Kaufmann, CA, USA (forthcoming).
+Watson, I., and Perera, R.S. (1995). NIRMANI: A Case-Based Expert System for Integrated Design &
+Estimating. In. Applications and Innovations in Expert Systems III, pp.335-348, Macintosh, A. and
+Cooper, C. (Eds.). SGES Publications, UK.

@@ -1,0 +1,74 @@
+A Rule-Based Similarity Measure
+
+Michêle Sebag1 and Marc Schoenauer2
+
+1 LMS-CNRS URA 317, Ecole Polytechnique, 91128 Palaiseau France
+
+and LRI, Université Paris-XI Orsay, 91405 Orsay France
+
+2 CMAP-CNRS URA 756, Ecole Polytechnique, 91128 Palaiseau France
+
+
+Abstract.
+An induction-based method for retrieving similar cases and/or easily
+adaptable cases is presented in a 3-steps procesa first, a rule set is
+learned from a data set ; second, a reformulation of the problem domam
+is derived from this ruleset ; third, a surface similarity with respect to the
+reformulated problem appears to be a structural similarity with respect
+to the initisi representation of the domam. This method achieves some
+integration between machine learning and case-based reasoning it uses
+both compiled knowledge (through the similarity measure and the ruleset
+it is derived from) and instanciated knowledge (through the cases).
+References
+
+1.	A. Aamodt, Explanation-Driven Retrieval, Reuse and Retain of Cases, in [7].
+2.	S.K. Bamberger, K. Goos, Integration of CBR and Inductive Learning Methods, in
+[7].
+3.	Bareiss R., Exemplar-based knowledge acquisition. Boston, MA, Academic Press.
+4.	Bareiss R. et ai., Panel discussion on indexing vocabulary, DARPA CBR Workshop
+1989, Morgan Kaufman.
+5.	F. Bergadano, A Giordana, L. Saitta, Automated Concept Acqussition in Noisy
+Environments, IEEE Trans on Pattern Analysis and Machine Intelligence, PAMI-
+10, pp 555-578, 1988.
+6.	G. Bisson, KBG A Knowledge Based Generalizer. ML-90, B. Porter & R. Mooney
+Eds, Morgan Kaufmann, 1990.
+7.	Proceedings of 1th EWCBR, M. Richter, S. Wess, K.-D. Althoff, F. Maurer Eds,
+University of Kaiserslautern, Germany, nov 1993.
+8.	D. Fisher, Cobweb Knowledge acquisition via Conceptual clustering, Machine
+Learning Vol2, 1987.
+9.	M. Gams, New Measurements Highlight the Importance of Redundant Knowledge.
+Proc. of EWSL 1989, K. Morik Ed., Pitman, London, pp 71-80.
+10.	J.G. Ganascia, ACAPE et CHARADE, deux techniques d’apprentissage symbolique
+appliquées à la construction de bases de connaissances, Thèse d’Etat, 1987, Orsay.
+11.	D. Gentner, Structure Mapping: A Theoretical Framework for Analogy. Cognitive
+Science, 1983, Vol 7 N 2, pp 155-170.
+12.	K.J. Holyoak, L. Koh, Analogical Problem Solving: Effects of Surface and Structural 
+Similarity in Analogical Transler, Midwestern Psychological Association Ed,
+1986.
+13.	B. Indurkhya, On the Role of Interp retive Analogy in Learning. Algorithmic Learning 
+Theory, S. Arikawa et ai. Eds, Springer Verlag 1990, pp 174-189.
+14.	K.P. Jantke, S. Lange, Case-Based Representation and Learning of Pattern Languages, in [7].
+15.	M.T. Keane, Analogical Problem Solving, Chichester, Ellis Horwood 1988.
+16. J. D. Kelly, L. Davis, A Hybrid Genetic Algorithm lor Classification, Proc. IJCAI
+1991, J. Mylopoulos, R. Reiter Eds, Morgan Kaufmann Publishers, pp 645-650.
+17.	D. Kibler, D. Aha, Learning representative exemplars of concepts: An initial case
+study, Proc. of the 4th IWML, reprinted in Readings in Machine Learning, J.W.
+Shavlik T. G. Dietterich, Morgan Kaufman 1990, pp 108-115.
+18.	J.L. Kolodner, Extending problem solver capabilities through case-based inlerence,
+Proceedings 4th Workshop on ML, UC Irvine 1987.
+19.	M. Manago, K-D Althoff, E. Auriol, R. Traphoner, S. Wess, N. Conruyt, F. Maurer,
+Induction and Reasoning from Cases, in [7].
+20.	R.S. Michalski, A theory and methodology for induc tive learning , Machine Learning: 
+An Artificial Intelligence Approach, I, R.S. Michalski, J.G. Carbonnell, T.M.
+Mitchell Eds, Springer Verlag, (1993), p 83-134.
+21.	Y. Nakatani, D. Israel, Tuning Rules by Cases, in [7].
+22.	Nicolas J, Lehbe J, Vignes R, From Knowledge to Similarity, Numeric-Symbolic
+Learning and Data Analysis, Diday Ed, Nova Sciences, 1991.
+23.	R. Quinlan, R.M. Cameron-Jones, FOIL ; A Midterm Report, ECML 93, P.B.
+Bradzil Ed, Springer-Verlag, 1993, pp 3-20.
+24.	S. J. Russell, The Use of Knowledge in Analogy and Induction, Pitman, London,
+1989.
+25.	M. Sebag M. Schoenauer, Incremental Learning of Rules and Meta-Rules. ML-90,
+B. Porter & R. Mooney Eds, Morgan Kaufmann, 1990.
+26.	M. Sebag, A Constraint-based Induction Algorithm in FOL, ML-94, W. Cohen &
+H. Hirsh Eds, Morgan Kaufmann, 1994.

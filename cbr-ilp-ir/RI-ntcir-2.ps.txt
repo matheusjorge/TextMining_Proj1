@@ -1,0 +1,101 @@
+Evaluating Multi­lingual Information Retrieval and Clustering at ULIS
+
+Atsushi Fujii y;yy Tetsuya Ishikawa y
+y University of Library and Information Science
+1­2 Kasuga, Tsukuba, 305­8550, Japan
+yy CREST, Japan Science and Technology Corporation
+fujii@ulis.ac.jp
+
+Abstract
+This paper describes our retrieval system for
+NTCIR­2 Japanese/English CLIR and MLIR tasks. We
+integrate query and document translation with mono­lingual 
+retrieval to improve retrieval accuracy, and
+perform clustering to improve browsing efficiency. We
+also introduce an entropy­driven technique in evaluat­ing 
+clustering methods.
+
+
+References
+[1] L. Ballesteros and W. B. Croft. Resolving ambigu­ity 
+for cross­language retrieval. In Proceedings of the
+21st Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+pages 64--71, 1998.
+[2] J. G. Carbonell, Y. Yang, R. E. Frederking, R. D.
+Brown, Y. Geng, and D. Lee. Translingual information
+retrieval: A comparative evaluation. In Proceedings of
+the 15th International Joint Conference on Artificial
+Intelligence, pages 708--714, 1997.
+[3] C. Fellbaum, editor. WordNet: An Electronic Lexical
+Database. MIT Press, 1998.
+[4] A. Fujii and T. Ishikawa. Cross­language information
+retrieval at ULIS. In Proceedings of the 1st NTCIR
+Workshop on Research in Japanese Text Retrieval and
+Term Recognition, pages 163--169, 1999.
+[5] A. Fujii and T. Ishikawa. Cross­language informa­tion 
+retrieval for technical documents. In Proceed­ings 
+of the Joint ACL SIGDAT Conference on Empiri­cal 
+Methods in Natural Language Processing and Very
+Large Corpora, pages 29--37, 1999.
+[6] A. Fujii and T. Ishikawa. Applying machine transla­tion 
+to two­stage cross­language information retrieval.
+In Proceedings of the 4th Conference of the Associa­tion 
+for Machine Translation in the Americas, pages
+13--24, 2000.
+[7] A. Fujii and T. Ishikawa. Japanese/English cross­
+language information retrieval: Exploration of query
+translation and transliteration. Computers and the Hu­manities, 
+(To appear).
+[8] M. Fukui, S. Higuchi, Y. Nakatani, M. Tanaka, A. Fu­jii, 
+and T. Ishikawa. Applying a hybrid query transla­tion 
+method to Japanese/English cross­language patent
+retrieval. In ACM SIGIR Workshop on Patent Re­trieval, 2000.
+[9] J. Gonzalo, F. Verdejo, C. Peters, and N. Calzo­
+lari. Applying EuroWordNet to cross­language text
+retrieval. Computers and the Humanities, 32:185--207,
+1998.
+[10] M. Iwayama and T. Tokunaga. Hierarchical Bayesian
+clustering for automatic text classification. In Pro­ceedings 
+of the 14th International Joint Conference on
+Artificial Intelligence, pages 1322--1327, 1995.
+[11] M. L. Littman, S. T. Dumais, and T. K. Landauer.
+Automatic cross­language information retrieval using
+latent semantic indexing. In G. Grefenstette, edi­tor, 
+Cross ­Language Information Retrieval, chapter 5,
+pages 51--62. Kluwer Academic Publishers, 1998.
+[12] Y. Matsumoto, A. Kitauchi, T. Yamashita, Y. Hirano,
+H. Matsuda, and M. Asahara. Japanese morphological
+analysis system ChaSen version 2.0 manual 2nd edition. 
+Technical Report NAIST­IS­TR99009, NAIST,
+1999.
+[13] J. S. McCarley. Should we translate the documents or
+the queries in cross­language information retrieval? In
+Proceedings of the 37th Annual Meeting of the Associ­ation 
+for Computational Linguistics, pages 208--214,
+1999.
+[14] J.­Y. Nie, M. Simard, P. Isabelle, and R. Durand.
+Cross­language information retrieval based on parallel
+texts and automatic mining of parallel texts from the
+Web. In Proceedings of the 22nd Annual International
+ACM SIGIR Conference on Research and Develop­ment 
+in Information Retrieval, pages 74--81, 1999.
+[15] D. W. Oard. A comparative study of query and doc­ument 
+translation for cross­language information re­trieval. 
+In Proceedings of the 3rd Conference of the
+Association for Machine Translation in the Americas,
+pages 472--483, 1998.
+[16] D. W. Oard and P. Resnik. Support for interac­tive 
+document selection in cross­language informa­tion 
+retrieval. Information Processing & Management,
+35(3):363--379, 1999.
+[17] S. E. Robertson and S. Walker. Some simple effec­tive 
+approximations to the 2­poisson model for prob­abilistic
+ weighted retrieval. In Proceedings of the
+17th Annual International ACM SIGIR Conference on
+Research and Development in Information Retrieval,
+pages 232--241, 1994.
+[18] G. Salton. Automatic processing of foreign language
+documents. Journal of the American Society for Infor­mation 
+Science, 21(3):187--194, 1970.
+

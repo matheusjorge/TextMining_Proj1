@@ -1,0 +1,70 @@
+A Strong Complete Schema for Inductive
+Functional Logic Programming*
+
+J. Hernández-Orallo	M.J. Ramírez-Quintana
+
+DSIC, UPV, Camino de Vera s/n, 46020 Valencia, Spain.
+{jorallo,mramirez}@dsic.upv.es
+
+
+
+Abstract. A new IFLP schema is presented as a general framework for
+the induction of functional logic programs (FLP). Since narrowing (which
+is the most usual operational semantics of FLP) performs a unification
+(mgu) followed by a replacement, we introduce two main operators in
+our LFLP schema: a generalisation and an inverse replacement or intra-replacement, 
+which results in a generic inversion of the transitive property of 
+equality. We prove that this schema is strong complete in the way
+that, given some evidence, it is possible to induce any program which
+could have generated that evidence. We outline some possible restrictions 
+in order to improve the tractability of the schema. We also show
+that inverse narrowing is just a special case of our IFLP schema. Finally,
+a straightforward extension of the IFLP schema to function invention is
+illustrated.
+References
+
+1.	P.G. Bosco, E. Giovannetti, G. Levi, C. Moiso, and C. Palamidessi. A complete
+semantic characterization of K-leaf, a logic language with partial functions. In
+Proceedings of the IEEE Symposium on Logic Programming, pages 3 18—327. IEEE
+Computer Society Press, N.W., Washington, 1987.
+2.	M. Hanus. The Integration of Functions into Logic Programming: From Theory
+to Practice. Journal of Logic Programming, 19-20:583—628, 1994.
+3.	J. Hernández and M.J. Ramfrez. Inverse Narrowing for the Induction of Functional
+Logic Programs. In Proc. Joint Conference on Declarative Programming, APPIA-
+GULP-PRODE’98, pages 379—393, 1998.
+4.	S. Hölldobler. Equational Logic Programming. In Proc. Second IEEE Symp. on
+Logic In Computer Science, pages 335—346. IEEE Computer Society Press, 1987.
+5.	H. Hussmann. Unification in conditional-equational theories. Technical report,
+Fakultät für Mathematik und Informatik, Universität Passau, 1986.
+6.	J. Jaffar, J.-L. Lassez, and M.J. Maher. A logic programming language scheme. In
+D. de Groot and G. Lindstrom, editors, Logic Programming, Functions, Relations
+and Equations, pages 441—468. Prentice Hall, Englewood Cliffs, NJ, 1986.
+7.	K. Khan, S. Muggleton, and R. Parson. Repeat learning using predicate invention.
+In C.D. Page, editor, Proc. of the 8th International Workshop on Inductive Logic
+Programming, ILP’98, volume 1446 of Lecture Notes in Artificial Intelligence, pages
+165—174.	Springer-Verlag, Berlin, 1998.
+8.	J.W. Kiop. Term Rewriting Systems. Handbook of Logic in Computer Science,
+1:1—112, 1992.
+9.	S. Muggleton. Inductive Logic Programming. New Generation Computing,
+8(4):295—318, 1991.
+10.	S. Muggleton. Predicate invention and utilisation. Journal of Experimental and
+Theoretical Artificial Intelligence, 6(1): 127—130, 1994.
+11.	S. Muggleton. Inverse entailment and progol. New Generation Computing Journal,
+13:245—286, 1995.
+12.	S. Muggleton. Comnpleting inverse entailment. In C.D. Page, editor, Proc. of the
+8th International Workshop on Inductive Logic Programming, ILP’98, volume 1446
+of Lecture Notes in Artificial Intelligence, pages 245—249. Springer-Verlag, Berlin,
+1998.
+13.	S. Muggleton and W. Buntine. Machine invention of first-order predicates by
+inverting resolution. In S. Muggleton, editor, Inductive Logic Programming, pages
+261—280. Academic Press, 1992.
+14.	U.S. Reddy. Narrowing as the Operational Semantics of Functional Languages.
+In Proc. Second IEEE Int’l Symp. on Logic Programming, pages 138—151. IEEE,
+1985.
+15.	J.H. Siekmann. Universal unification. In 7th Int’l Conf. on Automated Deduction,
+volume 170 of Lecture Notes in Computer Science, pages 1—42. Springer-Verlag,
+Berlin, 1984.
+16.	I. Stahl. The Appropriateness of Predicate Invention as Bias Shift Operation in
+ILP. Machine Learning, 20:95—117, 1995.
+17.	A. Varsek. Genetic Inductive Logic Programming. PhD thesis, University of Ljubljana, 
+Slovenia, 1993.

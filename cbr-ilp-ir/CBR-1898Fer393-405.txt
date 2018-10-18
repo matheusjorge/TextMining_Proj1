@@ -1,0 +1,113 @@
+Collaborative Maintenance — A Distributed, Interactive
+Case-Base Maintenance Strategy
+
+Maria Angela Ferrario and Barry Smyth
+
+Smart Media Institute, Department of Computer Science, University College Dublin
+Belfield, Dublin 4, Ireland
+{maria.ferrario,barry.smyth}@ucd.ie
+
+
+
+Abstract. Case-base maintenance is an important emerging issue for
+case-base reasoners as they scale-up to handle real-world problems in
+unstable environments. Overtime the contents of a case-base may
+become out-of-date or inconsistent with the current target problem
+space, and maintenance strategies must be devised to help recognise
+and repair these problems, by deleting, adding, or modifying cases, for
+example. In this paper we describe a maintenance framework called
+collaborative maintenance (CM), which has been designed to facilitate,
+monitor, and control the incremental up-date of live, dynamic case-bases. 
+Our approach is novel in that it automatically supports a
+distributed, interactive maintenance process — users are permitted to
+recommend case updates and the collaborative maintenance process
+ensures that these recommendations are properly reviewed and
+actioned.
+References
+
+1.	Aha, D. W and Breslow, L. A. (1997) “Refining Conversational Case Libraries.
+Proceedings. Int. Conf. Case-Based Reasoning, Providence, RI, USA, pp.267-
+278.
+2.	Basu, C., Hirsh C., Cohen, W. (1998). Recommendation As Classification: Using
+Social and Content—Based Information. Proceedings of the Workshop on
+Recommendation Systems. AAAI Press, Menlo Park California.
+3.	Bonzano, A., Cunningham, P., and Smyth, B. (1997) Using Introspective
+Reasoning to Improve Retrieval in CBR: A Case-Study in Air Traffic Control.
+Proceedings of the Second Internation Conference on Case-Based Reasoning.
+Springer-Verlag, 291-302.
+4.	Borron, J., Morales, D., and Khlar, P. (1996) Developing and Deploying
+Knowledge on a Global Scale. Proceedings of the 13th Natinal Conference on
+Artificial Intelligence, Vol. 2. AAAI Press, 1443-1454.
+5.	Belew, R. K., Hatton, J. (1996) RAVE Reviews: Acquiring Relevance
+Assessment from Multiple Users. Machine Learning in Information Access.
+AAAI Spring Symposia.
+6.	Ferrario, M. A. and Smyth, B. (1999) Collaborative Maintenance. Proceedings
+of the Irish Conference on Artificial Intelligence and Cognitive Science. Cork,
+Ireland.
+7.	Ferrario, M. A., Waters, K., Smyth, B. (2000) Collaborative Maintenance in
+Ulysses. Proceedings of 1st International Conference on Adaptive Hypermedia.
+Trento, Italy.
+8.	Fox, S. and Leake, D. B. (1995) Using Introspective Reasoning to Refine
+Indexing. Proceedings of the 14th Int. Joint Conf. on Artificial Intelligence,
+Montreal, Canada, 1995, pp. 391-397.
+9.	Hill, W., Stead, L., Rosenstein, M., and Furnas, G. (1995) Recommending And
+Evaluating Choices in aVirtual Community of Users. Proceeding of CHI 95,
+Denver, Colorado, USA.
+10.	Höök, K., Ruström, Å., Waern, A. (1997) Edited Adaptive Hypermedia:
+Combining Human and Machine Intelligence to Achieve Filtered Information.
+Proceedings of Flexible Hypertext Workshop, in conjunction with The Eight
+ACM International Hypertext Conference 97. Southampton, UK.
+11.	Leake, D. B., and Wilson, D. B. (1998) Categorizing Case-Base Maintenance:
+Dimensions and Directions. Proceedings of the 4th European Workshop on Case-Based 
+Reasoning, Springer-Verlag, 196-207.
+12.	Leake, D. B., and Wilson, D. B. (1999) When Experience is Wrong: Examining
+CBR for Changing Tasks and Environments. Proceedings of the 3rd International
+Conference on Case-Based Reasoning, Springer-Verlag, 218-233.
+13.	Maltz, D. and Ehrlich, K. (1995) Pointing The Way: Active Collaborative
+Filtering. Proceedings of CHI 95, Denver, Colorado, USA.
+14.	McKenna, E. and Smyth, B. (In Press) Visualising the Competence of Case-Based 
+Reasoners. Journal of Applied Intelligence: Special Issue on Interactive
+Case-Based Reasoning.
+15.	Meltsner, K. J. (1997) Opportunities for AI applications in Knowledge
+Management, AAAI Spring Symposium Artificial Intelligence in Knowledge
+Management Stanford University, USA.
+16.	Munoz-Avila, H., Hullen, J. (1996) Feature Weighting by Explaining Case-Based
+Planning Episodes. Proceedings of the 3rd European Workshop on Case-Based
+Reasoning. Springer-Verlag, 280-294.
+17.	Perkowitz, M., and Etzioni, O. (1998) Toward Adaptive Web Sites: Conceptual
+Framework and Case Study. Proceedings for Second Workshop on Adaptive
+Hypertext and Hypermedia in Hypertext’98. Pittsburgh, USA.
+18.	Racine, K. and Yang, Q. (1997) Maintaining Unstructured Case Bases. Case-Based 
+Reasoning Research and Development. Proceedings of the 2nd Int.
+Conference on Case-Based Reasoning, Providence, RI, USA, pp. 553 — 564.
+19.	Shardanand, U. and Maes, P. (1995) Social Information Filtering: Algorithms for
+Automating “Word of Mouth”. Proceeding of CHI 95, Denver, Colorado, USA.
+20.	Smyth, B. (1998) Case-Based Maintenance. Proceedings of the 11th Int.
+Conference on Industrial and Engineering Applications of Al and Expert
+Systems, Castellon, Spain.
+21.	Smyth, B. & Cotter, P. (1999) Surfing the Digital Wave: Generating
+Personalised Television Guides using Collaborative, Case-based
+Recommendation. Proceedings of the 3rd International Conference on Case-based
+Reasoning. Munich, Germany.
+22.	Smyth, B. & Keane, M. T.: Remembering to Forget: A Competence Preserving
+Deletion Policy for Case-Based Reasoning Systems. Proceedings of the 14th
+International Joint Conference on Artificial Intelligence. Morgan-Kaufmann.
+(1995) 377-3 82
+23.	Smyth, B. and McKenna, E. (1998) Modelling the Competence of Case-Bases.
+Proceedings of the 4th European Workshop on Case-Based Reasoning, Springer-Verlag, 
+208-220.
+24.	Smyth, B. and McKenna, E. (1999) Building Compact Competent Case-Bases.
+Proceedings of the 3rd International Conference on Case-based Reasoning.
+Munich, Germany, pp. 329 - 342.
+25.	Ungar, L. H. and Foster, D. P. (1998) Clustering Methods For Collaborative
+Filtering. Proceedings of the Workshop on Recommendation Systems. AAAI
+Press, Menlo Park California.
+26.	Watson, I. (1997) Applying Case-Based Reasoning: Techniques for Enterprise
+Systems, Morgan-Kaufmann.
+27.	Zhang, Z., Yang, Q. (1999) Dynamic Refinement of Feature-Weights in CBR
+Using Quantitative Introspective Learning. Proceedings of the International Joint
+Conference in Artificial Intelligence 1999.
+28.	Zhu, J. and Yang, Q. (1999) Remembering to Add: Competence Preserving Case-Addition 
+Policies for Case-Base Maintenance. Proceedings of the 16th
+International Joint Conference on Artificial Intelligence, Stockholm, Sweden, pp.
+234-239.

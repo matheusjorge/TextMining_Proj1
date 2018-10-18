@@ -1,0 +1,94 @@
+Maximum Entropy Modeling
+with Clausal Constraints
+
+Luc Dehaspe
+
+Katholieke Universiteit Leuven, Department of Computer Science,
+Celestijnenlaan 200A, B-3001 Heverlee, Belgium
+email: Luc.Dehaspe@cs.kuleuven.ac.be
+fax: ++ 32 16 32 79 96; telephone: ++ 32 16 32 75 67
+
+
+Abstract. We present the learning system MACCENT which addresses
+the novel task of stochastic MAximum ENTropy modeling with Clausal
+Constraints. Maximum Entropy method is a Bayesian method based on
+the principle that the target stochastic model should be as uniform as
+possible, subject to known constraints. MACCENT incorporates clausal
+constraints that are based on the evaluation of Prolog clauses in examples 
+represented as Prolog programs. We build on an existing maximum-likelihood 
+approach to maximum entropy modeling, which we upgrade
+along two dimensions: (1) MACCENT can handle larger search spaces,
+due to a partial ordering defined on the space of clausal constraints, and
+(2) uses a richer first-order logic format. In comparison with other inductive 
+logic programming systems, MACCENT seems to be the first that
+explicitly constructs a conditional probability distribution p(C|I) based
+on an empirical distribution p’(C|I) (where p(C|I) (p’(C|I)) equals the
+induced (observed) probability of an instance I belonging to a class C).
+First experiments indicate MACCENT may be useful for prediction, and
+for classification in cases where the induced model should be combined
+with other stochastic information sources.
+References
+
+1.	A.L. Berger, V.J. Della Pietra, and S.A. Della Pietra. A maximum entropy approach 
+to natural language processing. Computational Linguistics, 22(1):39—71,
+1996.
+2.	H. Blockeel and L. De Raedt. Experiments with top-down induction of logical
+decision trees. Technical Report OW 247, Dept. of Computer Science, K.U.Leuven,
+January 1997. Also in Periodic Progress Report ESPRIT Project ILP2, January
+1997. http://www.cs.kuleuven.ac.be/publicaties/rapporten/CW1997 .html.
+3.	I. Bratko. Prolog Programming for Artificial Intelligence. Addison-Wesley, 1986.
+4.	D. Brown. A note on approximations to discrete probability distributions. Information 
+and Control, 2:386—392, 1959.
+5.	J. Cussens. Baysian inductive logic programming with explicit probabilistic bias.
+Technical Report PRG-TR-24-96, Oxford University Computing Laboratory, 1996.
+6.	J. N. Darroch and D. Ratcliff. Generalized Iterative Scaling for Log-linear Models.
+Annals of Mathematical Statistics, 43:1470—1480, 1972.
+7.	L. De Raedt. Induction in logic. In R.S. Michalski and Wnek J., editors, Proceedings 
+of the 3rd International Workshop on Multistrategy Learning, pages 29—38,
+1996.
+8.	L. De Raedt and H. Blockeel. Using logical decision trees for clustering. In
+Proceedings of the 7th International Workshop on Inductive Logic Programming.
+Springer-Verlag, 1997.
+9.	L. De Raedt and S. Dzeroski. First order jk-clausal theories are PAC-learnable.
+Artificial Intelligence, 70:375—392, 1994.
+10.	L. De Raedt and W. Van Laer. Inductive constraint logic. In Proceedings of the
+5th Workshop on Algorithmic Learning Theory, volume 997 of Lecture Notes in
+Artificial Intelligence. Springer-Verlag, 1995.
+11.	L. Dehaspe and L. De Raedt. DLAB: A declarative language bias formalism. In
+Proceedings of the International Symposium on Methodologies for Intelligent Systems 
+(ISMIS96), volume 1079 of Lecture Notes in Artificial Intelligence, pages
+613—622. Springer-Verlag, 1996.
+12.	S.A. Della Pietra, V.D. Della Pietra, and J. Lafferty. Inducing features of random
+fields. Technical Report CMU-CS-95-144, Carnegie-Mellon University, Pittsburgh,
+PA, 1995.
+13.	B. Dolsak and S. Muggleton. The application of Inductive Logic Programming to
+finite element mesh design. In S. Muggleton, editor, Inductive logic programming,
+pages 453—472. Academic Press, 1992.
+14.	S.F. Gull and G.J. Daniell. Image Reconstruction from Incomplete and Noisy
+Data. Nature, 272:686, 1978.
+15.	E.T. Jaynes. Notes on present status and future prospects. In W.T Grandy and
+L.H. Schick, editors, Maximum Entropy and Bayesian Methods, pages 1—13. Kluwer
+Academic Publishers, 1990.
+16.	A. Karalic and I. Bratko. First order regression. Machine Learning, 1997. To
+appear.
+17.	S. Kramer. Structural regression trees. In Proceedings of the 13th National Conference 
+on Artificial Intelligence (AAAI-96), 1996.
+18.	M.P. Marcus, B. Santorini, and M. A. Marcinkiewicz. Building a large annotated
+corpus of English: the Penn Treebank. Computational Linguistics, 19(2):313—330,
+1993.
+19.	S. Muggleton. Stochastic logic programs. Journal of Logic Programming, 1997.
+submitted.
+20.	G. Plotkin. A note on inductive generalization. In Machine Intelligence, volume 5,
+pages 153—163. Edinburgh University Press, 1970.
+21.	U. Pompe and I. Kononenko. Naive bayesian classifier within ILP-R. In
+L. De Raedt, editor, Proceedings of the 5th International Workshop on Inductive
+Logic Programming, pages 417—436, 1995.
+22.	U. Pompe and I. Kononenko. Probabilistic first-order classification. In Proceedings 
+of the 7th International Workshop on Inductive Logic Programming. Springer-Verlag, 1997.
+23.	A. Ratnaparkhi. A maximum entropy part-of-speech tagger. In Proceedings of
+the Empirical Methods in Natural Language Processing Conference. University of
+Pennsylvania, 1996.
+24.	E.S. Ristad. Maximum entropy toolkit, release 1.5 beta. Technical report, Princeton 
+Univ., January 1997. ftp://ftp.cs.princeton.edu/pub/packages/memt.
+25.	A. Srinivasan, S.H. Muggleton, M.J.E. Sternberg, and R.D. King. Theories for
+mutagenicity: A study in first-order and feature-based induction. Artificial Intelligence, 85, 1996.

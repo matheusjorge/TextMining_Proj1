@@ -1,0 +1,102 @@
+Activating CBR Systems through Autonomous
+Information Gathering
+
+Christina Carrick and Qiang Yang
+Simon Fraser University
+Burnaby, BC, Canada, V5A 1S6
+(ccarrick) (qyang)@cs.sfu.ca
+
+Irene Abi-Zeid and Luc Lamontagne
+Defense Research Establishment Valcartier
+Decision Support Technology
+2459, boul. Pie XI, nord
+Val Belair, Quebec, Canada, G3J 1X5
+(irene.abi-zeid) (luc.lamontagne)@drev.dnd.ca
+
+
+
+Abstract. Most traditional CBR systems are passive in nature, adopting 
+an advisor role in which a user manually consults the system. In this
+paper, we propose a system architecture and algorithm for transforming
+a passive interactive CBR system into an active, autonomous CBR system. 
+Our approach is based on the idea that cases in a CBR system can
+be used to model hypotheses in a situation assessment application, where
+case attributes can be considered as questions or information tasks to be
+performed on multiple information sources. Under this model, we can use
+the CBR system to continually generate tasks that are planned for and
+executed based on information sources such as databases, the Internet
+or the user herself. The advantage of the system is that the majority
+of trivial or repeated questions to information sources can be done autonomously 
+through information gathering techniques, and human users
+are only asked a small number of necessary questions by the system.
+We demonstrate the application of our approach to an equipment diagnosis 
+domain. We show that the system integrates CBR retrieval with
+hierarchical query planning, optimization and execution.
+References
+
+1.	D. Aha and L. Breslow. Refining conversational case libraries. In Proceedings of
+the Second International Conference on Case-based Reasoning (ICCBR-97,), Providence, RI, Jnly 1997.
+2.	D. W. Aha, L. A. Breslow, and T. Maney. Snpporting conversational case-based
+reasoning in an integrated reasoning framework. Technical Report AIC-98-006,
+Naval Research Laboratory, Navy Center for Applied Research in Artificial Intelligence, Washington, DC, 1998.
+3.	D. W. Aha, T. Maney, and L. A. Breslow. Supporting dialogue inferencing in conversational 
+case-based reasoning. Technical Report AIC-98-008, Naval Research
+Laboratory, Navy Center for Applied Research in Artificial Intelligence, Washington, DC, 1998.
+4.	K. Ashley. Modelling legal argument: Reasoning with cases and hypotheticals. MIT
+Press, Bradford Books, Cambridge, MA, 1990.
+5.	K. Ashley and E. Rissland. A case-based approach to modeling legal expertise.
+IEEE Expert, 3(3):70—77, 1988.
+6.	O. M. Duschka and A. Y. Levy. Recursive plans for information gathering. In
+Proceedings of IJCAI-97, Nagoya, Japan, August 1997.
+7.	K. Erol, J. Hendler, and D. S. Nau. Htn planning: Complexity and expressivity. In
+Proceedings of the 12th National Conference on Artificial Intelligence (AAAI-94,),
+pages 1123—1128, Seattle, WA, 1994. AAAI Press/The MIT Press.
+8.	M. R. Genesereth, A. M. Keller, and O. M. Duschka. Infomaster: An information
+integration system. In Proceedings of the ACM SIGMOD Conference, May 1997.
+9.	R. J. B. Jr., W. Bohrer, R. Brice, A. Cichocki, J. Fowler, A. Helal, V. Kashyap,
+T. Ksiezyk, C. Martin, M. Nodine, M. Rashid, M. Rusinkiewicz, R. Shea, C. Un-
+nikrishnan, A. Unruh, and D. Woelk. InfoSleuth: Agent-based semantic integration
+of information in open and dynamic environments. In Proceedings of SIGMOD’97,
+1997.
+10.	C. A. Knoblock, Y. Arens, and C.-N. Hsu. Cooperating agents for information
+retrieval. In Proceedings of the 2nd International Conference on Cooperative Information 
+Systems, Toronto, Canada, 1994. University of Toronto Press.
+11.	J. Kolodner. Case-Based Reasoning. Morgan Kaufmann Publisher, Inc., 1993.
+12.	J. Kolodner and D. Leake. a tutorial introduction ot case-based reasoning. In
+D. Leake, editor, Case-Based Reasoning:Experiences, lessons & Future Directions.
+American Association for Artificial Intelligence, 1996.
+13.	P. Koton. Reasoning about evidence in causal explanation. In Proceedings of
+the Seventh National Conference on Artificial Intelligence (AAAI-88), Cambridge,
+MA, 1988. AAAI Press/MIT Press.
+14.	V. Lesser, B. Horling, F. Kiassner, A. Raja, and T. Wagner. Information gathering
+as a resource bounded interpretation task. Technical Report 97-34, University of
+Massachusetts Computer Science, March 1997.
+15.	S. Li and Q. Yang. ActiveCBR: Integrating case-based reasoning and
+active databases. Technical Report TR 1999-03, School of Comput-
+ing Science, Simon Fraser University, Burnaby BC Canada, January 1999.
+http://www.cs.sfu.ca/ qyang/Papers/activecbr.ps.gz.
+16.	H. Muñoz-Avila, D. C. McFarlane, D. W. Aha, L. Breslow, J. A. Ballas, and
+D. Nau. Using guidelines to constrain interactive case-based htn planning. Technical 
+Report AIC-99-004, Naval Research Laboratory, Navy Center for Applied
+Research in Artificial Intelligence, Washington, DC, 1999.
+17.	T. Nguyen, M. Czerwinski, and D. Lee. Compaq quicksource—providing the consumer 
+with the power of ai. AI Magazine, 1993.
+18.	A. Perini and F. Ricci. An interactive planning architecture: The forest fire fighting 
+case. In M. Challab, editor, Proceedings of the 3rd European Workshop on
+Planning, pages 292—302, Assissi, Italy, September 1995. ISO Publishers.
+19.	J. Quinlan. Induction of decision trees. Machine Learning, 1:81—106, 1986.
+20.	M. Veloso, H. Munoz-Avila, and R. Bergmann. General-purpose case-based planning: 
+Methods and systems. AI Communications, 9(3):128—137, 1996.
+21.	I. Watson. Applying Case-Based Reasoning: Techniques for Enterprise Systems.
+Morgan Kaufmann Publishers, Inc., 1997.
+22.	Q. Yang. Formalizing planning knowledge for hierarchical planning. Computational
+Intelligence, 6,1990.
+23.	Q. Yang, I. Abi-Zeid, and L. Lamontagne. An agent system for intelligent situation 
+assessment. In F. Giunchiglia, editor, Proceedings of the 1998 International
+Conference on AI Methodologies, Systems and Applications (AIMSA 98), volume
+1480 of Lecture Notes in AI, pages 466—474, Sozopol, Bulgaria, September 1998.
+Springer Verlag.
+24.	Q. Yang, E. Kim, and K. Racine. Caseadvisor: Supporting interactive problem
+solving and case base maintenance for help desk applications. In Proceedings of
+the IJCAI 97 Workshop on Practical Applications of CBR, Nagoya, Japan, August
+1997. International Joint Conference on Artificial Intelligence, IJCAI.

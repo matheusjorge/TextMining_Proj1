@@ -1,0 +1,52 @@
+MOTION ESTIMATION BASED ON AFFINE
+MOMENT INVARIANTS
+
+G. Tzanetakis, M. Traka, and G. Tziritas
+Institute of Computer Science ­ FORTH,
+P.O. Box 1385, 711 10 Heraklion, Greece
+and
+Department of Computer Science, University of Crete
+P.O. Box 1470, Heraklion, Greece
+E­mail: ftziritasg@csd.uch.gr
+
+ABSTRACT
+A method is proposed for parametric motion estimation
+of an image region. It is assumed that the region consid­ered 
+undergoes an affine transformation, which means
+that the motion is composed of a translation and a pure
+affine function of pixel coordinates. The solution of the
+object correspondence problem is assumed to be known.
+The estimation of the six motion parameters is based on
+the moments of the corresponding image regions. Mo­ments 
+up to order three are needed. For the motion
+computation each region is transformed to a standard
+position which is defined using affine invariants. The
+result of motion estimation is checked in the construc­tion 
+of a mosaic image.
+
+
+
+References
+[1] D. Bhattacharya and S. Sinha, ``Invariance of stereo
+images via the theory of complex moments'', Pattern
+Recognition, Vol. 30, No. 9, pp. 1373­1386, 1997.
+[2] J. Flusser and T. Suk, ``Pattern recognition by affine
+moment invariants'', Pattern Recognition, Vol. 26,
+pp. 167­174, 1993.
+[3] M. K. Hu, ``Visual pattern recognition by moment
+invariants'', IRE Trans. on Information Theory, Vol.
+IT­8, pp. 179­187, 1962.
+[4] Y. Li, ``Reforming the theory of invariant moments
+for pattern recognition'', Pattern Recognition, Vol.
+25, No. 7, pp. 723­730, 1992.
+[5] I. Rothe, H. S¨usse, and K. Voss, ``The method of nor­malization 
+to determine invariants'', IEEE Trans. on
+Pattern Analysis and Machine Intelligence, Vol. 18,
+No. 4, pp. 366­376, April 1996.
+[6] C.­H. Teh and R. Chin, ``On image analysis by the
+method of moments'', IEEE Trans. on Pattern Anal­ysis 
+and Machine Intelligence, Vol. 10, pp. 496­513,
+July 1988.
+[7] G. Tziritas and C. Labit, Motion Analysis and Image
+Sequence Coding, Elsevier, 1994.
+

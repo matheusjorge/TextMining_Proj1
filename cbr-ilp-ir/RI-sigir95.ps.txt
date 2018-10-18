@@ -1,0 +1,60 @@
+Little Words Can Make a Big Difference for Text Classification
+
+Ellen Riloff
+Department of Computer Science
+University of Utah
+Salt Lake City, UT 84112
+E­mail: riloff@cs.utah.edu
+
+Abstract
+Most information retrieval systems use stopword lists
+and stemming algorithms. However, we have found
+that recognizing singular and plural nouns, verb forms,
+negation, and prepositions can produce dramatically
+different text classification results. We present results
+from text classification experiments that compare rel­evancy 
+signatures, which use local linguistic context,
+with corresponding indexing terms that do not. In two
+different domains, relevancy signatures produced better
+results than the simple indexing terms. These experi­ments 
+suggest that stopword lists and stemming algo­
+rithms may remove or conflate many words that could
+be used to create more effective indexing terms.
+
+References
+Croft, W. B.; Turtle, H. R.; and Lewis, D. D. 1991. The Use
+of Phrases and Structured Queries in Information Retrieval.
+In Proceedings, SIGIR 1991. 32--45.
+Dillon, M. 1983. FASIT: A Fully Automatic Syntactically
+Based Indexing System. Journal of the American Society
+for Information Science 34(2):99--108.
+Fagan, J. 1989. The Effectiveness of a Nonsyntactic Ap­proach 
+to Automatic Phrase Indexing for Document Re­trieval. 
+Journal of the American Society for Information
+Science 40(2):115--132.
+Frakes, William B. and Baeza­Yates, Ricardo, editors 1992.
+Information Retrieval: Data Structures and Algorithms.
+Prentice Hall, Englewood Cliffs, NJ.
+Harman, D. 1991. How Effective is Suffixing? Journal of
+the American Society for Information Science 42(1):7--15.
+Harman, D. 1992. The DARPA Tipster Project. SIGIR Fo­rum 26(2):26--28.
+Krovetz, Robert 1993. Viewing Morphology as an Inference 
+Process. Computer science technical report 93­36,
+University of Massachusetts, Amherst, MA.
+Lehnert, W. 1991. Symbolic/Subsymbolic Sentence Anal­ysis: 
+Exploitingthe Best of Two Worlds. In Barnden, J. and
+Pollack, J., editors 1991, Advances in Connectionist and
+Neural ComputationTheory, Vol. 1. Ablex Publishers, Nor­wood, NJ. 135--164.
+Proceedings of the Fourth Message Understanding Confer­ence (MUC­4), San Mateo, CA. Morgan Kaufmann.
+Proceedings of the Fifth Message Understanding Confer­ence (MUC­5), San Francisco, CA. Morgan Kaufmann.
+Riloff, E. and Lehnert, W. 1994. Information Extraction as
+a Basis for High­Precision Text Classification. ACM Trans­actions on Information Systems 12(3):296--333.
+Riloff, E. 1993. Automatically Constructing a Dictio­nary for Information Extraction Tasks. In Proceedings of
+the Eleventh NationalConference on Artificial Intelligence.
+AAAI Press/The MIT Press. 811--816.
+Riloff, E. 1994. Information Extraction as a Basis for
+Portable Text Classification Systems. Ph.D. Disserta­tion, 
+Department of Computer Science, University of Mas­sachusetts Amherst.
+Proceedings of the TIPSTER Text Program (Phase I), San
+Francisco, CA. Morgan Kaufmann.
+

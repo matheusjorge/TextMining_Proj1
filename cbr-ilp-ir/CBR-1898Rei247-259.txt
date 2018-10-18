@@ -1,0 +1,62 @@
+On Quality Measures for Case Base Maintenance
+
+Thomas Reinartz1, Ioannis Iglezakis1, and Thomas Roth-Berghofer2
+
+1 DaimlerChrysler AG, Research & Technology, FT3/AD,
+P.O. Box 2360, 89013 Ulm, Germany
+{ioannis.iglezakis,thomas.reinartz}@daimlerchrysler.com
+2 tec:inno GmbH,
+Sauerwiesen 2, 67661 Kaiserslautern, Germany
+thomas.roth—berghofer@tecinno.com
+
+
+
+
+Abstract. Case base maintenance is one of the most important issues
+for current research in Case—Based Reasoning (CBR). In this paper, we
+outline two novel steps as part of the maintenance phase of the CBR process. 
+The review step covers assessment and monitoring of the knowledge
+containers whereas the restore step actually modifies the contents of the
+containers according to recommendations resulting from the review step.
+Here, we focus our attention on the review step for the case base. For
+this purpose, we define several quality measures based on different case
+and case base properties that describe specific characteristics of the case
+base such as correctness, consistency, uniqueness, minimality and incoherence. 
+These measures allow an initial implementation of the review
+step for the case base container. We conclude the paper with an outline
+of future work to extend these aspects of maintenance in CBR.
+References
+
+1.	Agnar Aamodt and Enric Plaza. Case—based reasoning: Foundational issues
+methodological variations, and system approaches. AI Communications, 7(1):39—
+59, 1994.
+2.	David W. Aha arid Leonard A. Breslow. Refining conversational case libraries.
+In Proceedings of the Second International Conference on Case—Based Reasoning,
+pagcs 267-278, 1997.
+3.	Mehmet Göker and Thomas Roth-Berghofer. The development and utilization of
+the case-based help—desk support system HOMER. Special Issue of the International 
+Journal “Engineering Applications of Artificial Intelligence”, 12(6), 1999.
+4.	David B. Leake and David C. Wilson. Categorizing case—base maintenance: Dimensions 
+and directions. In Proceedings of EWCBR—98, Advances in Case-Based
+Reasoning. Spriniger—Verlag, 1998.
+5.	David B. Leake and David C. Wilson. When experience is wrong: Examining CBR
+for changing tasks and environments, In Proceedings of the Third Inter-national
+Conference on Case—Based Reasoning, 1999.
+6.	Kirsti Racine and Qiang Yang. On the consistency management of large case bases:
+the case for validatioii. In Proceedings of the AAAI-96 Workshop on Knowledge
+Base Validation, American Association for Artificial Intelligence (AAAI), 1996.
+7.	Kirsti Racine and Qiang Yang. Maintaining unstructured case bases, In Proceedings
+of the 1997 International Conference on Case Based Reasoning, pages 553-564,
+1997.
+8.	Michael M. Richter. The knowledge contained in similarity measures. Invited Talk
+at the International Conference on Case—Based Reasoning, 1995.
+9.	Barry Smyth and Mark T. Keane, Remembering to forget: A competence--
+preserving deletion policy for case- based reasoning systems. In Proceedings of
+the 14th International Joint Conference on Artificial Intelligence, pages 377—382,
+1995.
+10.	Barry Smyth and Elizabeth McKenna. A portrait of case competence: Modelling
+the competence of case-based reasoning systems. In Proceedings of the 4th European 
+Workshop on Case—Based Reasoning, pages 208—220, 1998.
+11.	Jun Zhu and Qiang Yang. Remembering to add: Competence--preserving case
+addition policies for case base maintenance, In Proceedings of the International
+Joint Conference in Artificial Intelligence (IJCAI), 1999.

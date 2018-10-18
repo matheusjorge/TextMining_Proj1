@@ -1,0 +1,126 @@
+Feature Construction with Inductive Logic
+Programming: A Study of Quantitative
+Predictions of Biological Activity by
+Structural Attributes
+
+Ashwin Srinivasan1 and Ross.D. King2
+
+1 Oxford University Computing Laboratory,
+Wolfson Building, Parks Road, Oxford
+2 Biomolecular Modelling Laboratory,
+Imperial Cancer Research Fund, Lincoln’s Inn Fields, London
+
+
+Abstract. Recently, computer programs developed within the field of
+Inductive Logic Programming (ILP) have received some attention for
+their ability to construct restricted first-order logic solutions using problem-specific 
+background knowledge. Prominent applications of such programs
+have been concerned with determining “structure-activity” relationships
+in the areas of molecular biology and chemistry. Typically the task here
+is to predict the “activity” of a compound, like toxicity, from its chemical
+structure. Research in the area shows that: (a) ILP programs have been
+restricted to qualitative predictions of activity (“high”, “low” etc.); (b)
+When appropriate attributes are available, ILP programs have not been
+able to better the performance of standard quantitative analysis techniques 
+like linear regression. However ILP programs perform creditably
+when such attributes are unavailable; and (c) When both are applicable,
+ILP programs are usually slower than their propositional counterparts.
+This paper examines the use of ILP programs, not for obtaining theories
+complete for the sample, but as a method of “discovering” new attributes.
+These could then be used by methods like linear regression, thus allowing
+for quantitative predictions and the ability to use structural information
+as background knowledge. Using structure-activity tasks as a test-bed
+the utility of ILP programs in constructing new features was evaluated
+by examining the prediction of chemical activity using linear regression,
+with and without the aid of ILP learnt logical attributes. In three out
+of the five datasets examined the addition of ILP attributes produced
+statistically better results (P ¡0.01). In addition six important structural
+features that have escaped the attention of the expert chemists were
+discovered.
+References
+
+1.	T.A. Andrea and H. Kalayeh. Applications of Neural Networks in Quantitative
+Structure-Activity Relationship of Dihydrofolate Reductase. Journal of Medicinal
+Chemistry, 34:2824 — 2836, 1991.
+2.	I. Bratko and M.Grobelnik. Inductive learning applied to program construction
+and verification. In Third International Workshop on Inductive Logic Programming, 
+pages 279—292, 1993. Available as Technical Report IJS-DP-6707, 3. Stefan
+Inst., Ljubljana, Slovenia.
+3.	W. Cohen and C.D. Page. Polynomial learnability and inductive logic programming: 
+Methods and results. New Generation Computing, 13(3,4):369—409, 1995.
+4.	J.S. Collins. A regression analysis program incorporating heuristic term selection.
+In E. Dale and D. Michie, editors, Machine Intelligence 2. Oliver and Boyd, 1968.
+5.	A.M. Davis, N.P. Gensmantel, E. Johansson, and D.P. Marriott. The Use of the
+GRID Program in the 3-D QSAR Analysis of a series of Calcium-Channel Agonists.
+Journal of Medicinal Chemistry, 37:963—972, 1994.
+6.	A.K. Debnath, R.L Lopez de Compadre, G. Debnath, A.J. Schusterman, and
+C. Hansch. Structure-Activity Relationship of Mutagenic Aromatic and Heteroaromatic 
+Nitro compounds. Correlation with molecular orbital energies and hydrophobicity. 
+Journal of Medicinal Chemistry, 34(2):786 — 797, 1991.
+7.	B. Dolsak and S. Muggleton. The application of Inductive Logic Programming to
+finite element mesh design. In S. Muggleton, editor, Inductive Logic Programming,
+pages 453—472. Academic Press, London, 1992.
+8.	S. Dzeroski. Numerical Constraints and Learnability in Inductive Logic Programming. 
+University of LiubUana, (PhD. Thesis), Ljubljana, 1995.
+9.	S. Dzeroski, L. Dehaspe, B. Ruck, and W. Walley. Classification of river water
+quality data using machine learning. In Proceedings of the Fifth International
+Conference on the Development and Application of Computer Techniques Environmental 
+Studies, 1994.
+10.	C. Feng. Inducing temporal fault dignostic rules from a qualitative model. In
+S. Muggleton, editor, Inductive Logic Programming, pages 473—486. Academic
+Press, London, 1992.
+11.	C. Hansch, R.Li, J.M. Blaney, and R. Langridge. Comparison of the inhibition 
+of Escherichia coli and Lactobacillus casei Dihydrofolate Reductase by
+2,4-Diamino-5-(Substituted-benzyl) pyrimidines: Quantitative Structure-Activity
+Relationships,X-ray Crystallography, and Computer Graphics in Structure-Activity 
+Analysis. Journal of Medicinal Chemistry, 25:777 — 784, 1982.
+12.	A. Karalic. Relational regression: first steps. Technical report ijs-dp-7001, 3. Stefan 
+Institute, LiubUana, Yugoslavia, 1994.
+13.	R.D. King, A.Srinivasan, and M.J.E. Sternberg. Relating chemical activity to
+structure: an examination of ILP successes. New Gen. Comput., 13(3,4), 1995.
+14.	R.D. King, S.H. Muggleton, A. Srinivasan, and M.J.E. Sternberg. Structure-activity 
+relationships derived by machine learning: The use of atoms and their
+bond connectivities to predict mutageicity by inductive logic programming. Proc.
+of the National Academy of Sciences, 93:438—442, 1996.
+15.	R.D. King, S.H. Muggleton, and M.J.E. Sternberg. Drug design by machine learning: 
+The use of inductive logic programming to model the structure-activity relationships 
+of trimethoprim analogues binding to dihydrofolate reductase. Proc. of
+the National Academy of Sciences, 89(23):11322—11326, 1992.
+16.	N. Lavrac and S. Dzeroski. ILP: Techniques and Applications. Ellis Horwood,
+London, 1994.
+17.	R. Michalski, I. Mozetic, J. Hong, and N. Lavrac. The AQ15 inductive learning
+system: an overview and experiments. In Proceedings of IMAL 1986, Orsay, 1986.
+Université de Paris-Sud.
+18.	R.S. Michalski. Understanding the nature of learning: issues and research directions. 
+In R. Michalski, 3. Carbonnel, and T. Mitcheil, editors, Machine Learning:
+An Artificial Intelligence Approach, volume 2, pages 3—25. Kaufmann, Los Altos,
+CA, 1986.
+19.	D. Michie, D.J. Spiegelhalter, and C.C. Taylor, editors. Machine Learning, Neural
+and Statistical classification. Ellis-Horwood, New York, 1994.
+20.	S. Muggleton. Inverse Entailment and Progol. New Gen. Comput., 13:245—286,
+1995.
+21.	S. Muggleton, R. King, and M. Sternberg. Predicting protein secondary structure
+using inductive logic programming. Protein Engineering, 5:647-657, 1992.
+22.	S.H. Muggleton and C. Feng. Efficient induction of logic programs. In Proceedings
+of the First Conference on Algorithmic Learning Theory, Tokyo, 1990. Ohmsha.
+23.	M.J. Norusis. SPSS: Base System User Guide. Release 6.0. SPSS Inc., 444 N
+Michigan Aye, Chicago, Illinois 60611, 1994.
+24.	C. Silipo and C. Hansch. Correlation analysis. its Application to the Structure-Activity 
+Relationship of Triazines Inhibiting Dihydrofolate Reductase. Journal of
+Medicinal Chemistry, 19:6849 — 6861, 1976.
+25.	A. Srinivasan and R.C. Camacho. Experiments in numerical reasoning with inductive 
+logic programming. In D. Michie S. Muggleton and K. Furukawa, editors,
+Machine Intelligence 15. Oxford University Press, Oxford, 1996. to appear.
+26.	A. Srinivasan, S.H. Muggleton, R.D. King, and M.J.E. Sternberg. Mutagenesis:
+ILP experiments in a non-determinate biological domain. In S. Wrobel, editor,
+Proceedings of the Fourth International Inductive Logic Programming Workshop.
+Gesellachaft fur Mathematik und Datenverarbeitung MBH, 1994. GMD-Studien
+Nr 237.
+27.	A. Srinivasan, S.H. Muggleton, R.D. King, and M.J.E. Sternberg. Theories for
+mutagenicity: a study of first-order and feature based induction. Artificial Intelligence, 
+1995. to appear.
+28.	S. Wold. Cross-validatory estimation of the number of components in factor and
+principal components models. Technometrics, 20:397—404, 1978.
+29.	J. Zelle and R. Mooney. Learning semantic grammars with constructive inductive 
+logic programming. In Proceedings of the Eleventh National Conference on
+Artificial Intelligence, pages 817—822. Morgan Kaufmann, 1993.

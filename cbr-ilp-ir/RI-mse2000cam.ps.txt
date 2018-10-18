@@ -1,0 +1,53 @@
+Applications of Image Understanding in Semantics-Oriented
+Multimedia Information Retrieval
+
+Zhongfei (Mark) Zhang Rohini K. Srihari Aibing Rao
+Computer Science Dept. Dept. of Comp. Sci. & Eng.
+SUNY Binghamton SUNY Bu
+alo
+zhongfei@cs.binghamton.edu frohini,araog@cedar.buffalo.edu
+
+Abstract
+This paper focuses on research in development of
+semantics-oriented multimedia information retrieval
+techniques. Semantics-oriented information retrieval
+addresses the effectiveness of the retrieval. With
+the goal of significantly improving retrieval precision
+and query capability, image understanding technologies 
+are applied to develop effective retrieval techniques. 
+Specifically, three techniques are developed by
+combining IU technologies (i.e., face detection) with
+other existing or developed techniques (i.e., text indexing, 
+conventional similarity matching, and face
+identification) for image retrieval. These techniques
+are evaluated to demonstrate the significance of the
+semantics-oriented multimedia information retrieval.
+
+
+References
+[1] D.A. Forsyth. Computer vision tools for finding
+images and video sequences. Library Trends, Special Issue on Progress in Visual Information 
+Access and Retrieval, 48(2):326{355, 1999.
+[2] Z. Hong. Algebraic feature extraction of image for
+recognition. Pattern Recognition, 24, 1991.
+[3] S.Z. Li. Face recognition based on nearest linear
+combinations. In Proc. CVPR. IEEE, 1998.
+[4] H.A. Rowley, S. Baluja, and T. Kanade. Neural
+network-based face detection. Trans. on PAMI,
+20(1), 1998.
+[5] G. Salton. Automatic text processing: the transformation, analysis, and retrieval of information
+by computer. Addison Wesley, 1989.
+[6] R.K. Srihari, Z. Zhang, and A. Rao. Image
+background search: Combining object detection
+techniques into content-based similarity image retrieval
+(cbsir) systems. In Proc. of IEEE International 
+Workshop on Content-Based Access of Image and Video Libraries. IEEE Press, June 1999.
+[7] M. Turk and A. Pentland. Eigenfaces for recognition. Journal of Cognitive Neuroscience, 3(1),
+1991.
+[8] Z. Zhang and R.K. Srihari. Subspace morphing
+theory for appearance based object identification.
+In Proc. of International Conference on Advances
+in Infrastructure for Electronic Business, Science,
+and Education on the Internet, L'Aquila, Italy,
+2000. Scuola Superiore G. Reiss Romoli.
+

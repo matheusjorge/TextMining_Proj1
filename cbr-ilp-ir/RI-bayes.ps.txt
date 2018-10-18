@@ -1,0 +1,98 @@
+Empirical Development of
+an Exponential Probabilistic Model for Text Retrieval
+
+Jaime Teevan
+MIT AI Lab
+200 Technology Square
+Boston, MA 02139
+teevan@ai.mit.edu
+David Karger
+MIT LCS
+200 Technology Square
+Boston, MA 02139
+karger@theory.lcs.mit.edu
+
+ABSTRACT
+Much work in information retrieval has been focused on the
+use of a model of documents and queries to derive retrieval
+algorithms based upon that model. Models are a useful al≠ternative 
+to the heuristic development of retrieval algorithms
+because they make explicit the assumptions of the model
+developer, allowing the assumptions to be examined and re≠fined 
+independent of the particular retrieval algorithm. Un≠fortunately, 
+in many cases these models are built by intu≠ition, 
+and their assumptions are not carefully tested against
+actual data. Thus, when a model based retrieval algorithm
+fails, it is not clear whether the fault is in the algorithm or
+the underlying model.
+In this paper, we devise a generative document model via
+analysis of actual corpora and queries. Our thesis is that a
+model so developed will be more accurate, and thus more
+useful in retrieval, than a heuristic model. We test this
+hypothesis by learning from the corpus the best document
+model within a naòêve Bayesian framework, and investigating
+both how closely this learned model matches the data and
+how well it can be used to perform retrieval.
+
+
+10. REFERENCES
+[1] J. M. Bernardo and A. F. Smith. Bayesian Theory.
+John Wiley and Son Ltd, London, first edition, 1994.
+[2] L. Fitzpatrick and M. Dent. Automatic feedback using
+past queries: Social searching? In 20th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval, 1997.
+[3] W. R. Grei#. A theory of term weighting based on
+exploratory data analysis. In Proceedings of SIGIR≠98,
+Melbourn, Australia, August 1998.
+[4] A. Gri#th, H. C. Luckhurst, and P. Willett. Using
+interdocument similarity information in document
+retrieval systems. Journal of the American Society for
+Information Science, 37:3 -- 11, 1986.
+[5] R. Jin, A. G. Hauptmann, and C. Zhai. Title language
+model for information retrieval. In 25th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval, 2002.
+[6] K. S. Jones. A statistical interpretation of term
+specificity and its application in retrieval. Journal of
+Documentation, 28:11--21, 1972.
+[7] T. Kalt. A new probabilistic model of text
+classification and retrieval. Technical Report IR≠78,
+University of Massachusetts Center for Intelligent
+Information Retrieval, 1996.
+[8] S. Katz. Distribution of content words and phrases in
+text and language modelling. Natural Language
+Engineering, 2(1):15--60, 1996.
+[9] K. L. Kwok and M. Chan. Improving two≠stage ad≠hoc
+retrieval for short queries. In Research and
+Development in Information Retrieval, pages 250--256,
+1998.
+[10] D. D. Lewis. Naive (Bayes) at forty: The
+independence assumption in information retrieval. In
+EMCL, pages 4--15, 1998.
+[11] H. P. Luhn. A statistical approach to mechanized
+encoding and searching of literary information. IBM
+Jouran of Research and Developement, 1(4):309--317,
+1957.
+[12] K. Ng. A maximum likelihood ratio information
+retrieval model. In Eighty Text REtrieval Conference
+(TREC≠8), 1999.
+[13] K. Nigam, A. K. McCallum, S. Thrun, and T. M.
+Mitchell. Learning to classify text from labeled and
+unlabeled documents. In Proceedings of AAAI≠98,
+15th conference of the American Association for
+Artificial Intelligence, pages 792--799, Madison, US,
+1998. AAAI Press, Menlo Park, US.
+[14] J. M. Ponte and W. B. Croft. A language modeling
+approach to information retrieval. In Research and
+development in Information Retrieval, pages 275--281,
+1998.
+[15] M. Porter. An algorithm for suffix stripping. Program,
+14(3):130--137, 1980.
+[16] C. J. vanRijsbergen. Information Retrieval.
+Butterworths, London, second edition, 1979.
+[17] C. Zhai and J. La#erty. Two≠stage language models
+for information retrieval. In 25th Annual International
+ACM SIGIR Conference on Research and
+Development in Information Retrieval, 2002.
+

@@ -1,0 +1,111 @@
+Learning Subjective Nouns using Extraction Pattern Bootstrapping
+
+Ellen Riloff
+School of Computing
+University of Utah
+Salt Lake City, UT 84112
+riloff@cs.utah.edu
+Janyce Wiebe
+Department of Computer Science
+University of Pittsburgh
+Pittsburgh, PA 15260
+wiebe@cs.pitt.edu
+Theresa Wilson
+Intelligent Systems Program
+University of Pittsburgh
+Pittsburgh, PA 15260
+twilson@cs.pitt.edu
+
+Abstract
+We explore the idea of creating a subjectiv­ity 
+classifier that uses lists of subjective nouns
+learned by bootstrapping algorithms. The goal
+of our research is to develop a system that
+can distinguish subjective sentences from ob­jective 
+sentences. First, we use two bootstrap­ping 
+algorithms that exploit extraction patterns
+to learn sets of subjective nouns. Then we
+train a Naive Bayes classifier using the subjec­tive 
+nouns, discourse features, and subjectivity
+clues identified in prior research. The boot­strapping 
+algorithms learned over 1000 subjec­tive 
+nouns, and the subjectivity classifier per­formed 
+well, achieving 77% recall with 81%
+precision.
+
+
+
+References
+C. Baker, C. Fillmore, and J. Lowe. 1998. The berkeley
+framenet project. In Proceedings of the COLING­ACL.
+T. Ballmer and W. Brennenstuhl. 1981. Speech Act Classification: 
+A Study in the Lexical Analysis of English
+Speech Activity Verbs. Springer­Verlag.
+A. Banfield. 1982. Unspeakable Sentences. Routledge
+and Kegan Paul, Boston.
+S. Caraballo. 1999. Automatic Acquisition of a
+Hypernym­Labeled Noun Hierarchy from Text. In
+Proceedings of the 37th Annual Meeting of the Asso­ciation 
+for Computational Linguistics, pages 120--126.
+C. Cardie. 1997. Empirical Methods in Information Ex­traction. 
+AI Magazine, 18(4):65--79.
+V. Hatzivassiloglou and K. McKeown. 1997. Predicting
+the semantic orientation of adjectives. In ACL­EACL
+1997.
+M. Hearst. 1992. Automatic acquisition of hyponyms
+from large text corpora. In Proc. of the 14th Interna­tional 
+Conference on Computational Linguistics.
+J. Karlgren and D. Cutting. 1994. Recognizing text gen­res 
+with simple metrics using discriminant analysis. In
+COLING­94.
+B. Kessler, G. Nunberg, and H. Schutze. 1997. Auto­matic 
+detection of text genre. In Proc. ACL­EACL­97.
+Beth Levin. 1993. English Verb Classes and Alter­nations: 
+A Preliminary Investigation. University of
+Chicago Press, Chicago.
+B. Pang, L. Lee, and S. Vaithyanathan. 2002. Thumbs
+up? sentiment classification using machine learning
+techniques. In Proceedings of the 2002 Conference on
+Empirical Methods in Natural Language Processing.
+R. Quirk, S. Greenbaum, G. Leech, and J. Svartvik. 1985.
+A Comprehensive Grammar of the English Language.
+Longman, New York.
+E. Riloff and R. Jones. 1999. Learning Dictionaries for
+Information Extraction by Multi­Level Bootstrapping.
+In Proceedings of the 16th National Conference on Ar­tificial 
+Intelligence.
+E. Riloff and J. Shepherd. 1997. A Corpus­Based Ap­proach 
+for Building Semantic Lexicons. In Proceed­
+ings of the Second Conference on Empirical Methods
+in Natural Language Processing, pages 117--124.
+B. Roark and E. Charniak. 1998. Noun­phrase
+Co­occurrence Statistics for Semi­automatic Seman­tic 
+Lexicon Construction. In Proceedings of the 36th
+Annual Meeting of the Association for Computational
+Linguistics, pages 1110--1116.
+E. Spertus. 1997. Smokey: Automatic recognition of
+hostile messages. In Proc. IAAI.
+M. Thelen and E. Riloff. 2002. A Bootstrapping Method
+for Learning Semantic Lexicons Using Extraction Pattern 
+Contexts. In Proceedings of the 2002 Conference
+on Empirical Methods in Natural Language Process­ing.
+R. Tong. 2001. An operational system for detecting and
+tracking opinions in on­line discussion. In SIGIR 2001
+Workshop on Operational Text Classification.
+P. Turney. 2002. Thumbs Up or Thumbs Down? Semantic 
+Orientation Applied to Unsupervised Classification
+of Reviews. In Proceedings of the 40th Annual Meet­ing 
+of the Association for Computational Linguistics.
+J. Wiebe, R. Bruce, and T. O'Hara. 1999. Development
+and use of a gold standard data set for subjectivity clas­sifications. 
+In Proc. 37th Annual Meeting of the Assoc.
+for Computational Linguistics (ACL­99).
+J. Wiebe, T. Wilson, and M. Bell. 2001. Identifying col­locations 
+for recognizing opinions. In Proc. ACL­01
+Workshop on Collocation: Computational Extraction,
+Analysis, and Exploitation, July.
+J. Wiebe. 1990. Recognizing Subjective Sentences: A
+Computational Investigation of Narrative Text. Ph.D.
+thesis, State University of New York at Buffalo.
+J. Wiebe. 2000. Learning subjective adjectives from cor­pora. 
+In 17th National Conference on Artificial Intelli­gence.

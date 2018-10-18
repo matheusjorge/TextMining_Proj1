@@ -1,0 +1,40 @@
+Partial Orders and Indifference Relations: Being
+Purposefully Vague in Case-Based Retrieval*
+
+Alex Ferguson and Derek Bridge
+
+Department of Computer Science, University College, Cork
+{a.ferguson, d.bridge}@cs.ucc.ie
+
+
+
+Abstract. In this paper, we look at case retrieval systems for product 
+selection. Such systems are interactive. This places demands on the
+technology: customers must be able to specify their requirements in ways
+that are meaningful to them; and, the cases that are retrieved must be
+comprehensible in terms of the customer requirements. To meet these
+demands, we introduce to case retrieval the notions of similarity metrics
+with partially-ordered return types and of relations that express indifference 
+between degrees of similarity.
+References
+
+1.	Bergmann, R., Breen, S., Göker, M., Manago, M. & Wess, S.: Developing Industrial
+CBR Applications, LNAI-1612, Springer, 1999.
+2.	Bridge, D. G.: Defining and Combining Symmetric and Asymmetric Similarity Measures, 
+in B.Smyth & P.Cunningham (eds.), Advances in CBR (Procs. of 4th European 
+Workshop on CBR), LNAI-1488, pp.52-63, Springer, 1998.
+3.	Ferguson, A. & Bridge, D.: Options for Query Revision when Interacting with Case
+Retrieval Systems, in I.Watson (ed.), Procs. of the Fourth UK CBR Workshop,
+University of Salford, 1999.
+4.	Osborne, H. & Bridge, D.: Similarity Metrics: A Formal Unification of Cardinal and
+Non-Cardinal Similarity Measures, in D. B.Leake and E.Plaza (eds.), CBR Research
+and Development (Procs. of Second International Conference on CBR), LNAI-1266,
+pp.235-244, Springer, 1997.
+5.	Plaza, E.: Cases as terms: A feature term approach to the structured representation
+of cases, in M.Veloso & A.Aamodt (eds.), CBR Research and Development (Procs. of
+First International Conference on CBR), LNAI-1O1O, pp.265-276, Springer, 1995.
+6.	Volirath, I.: Handling Vague and Qualitative Criteria in Case-Based Reasoning Applications, 
+in the on-line pre-proceedings of the Eighth German Workshop on CBR,
+2000 (http://wwwagr.informatik.uni-kl.de/~gwcbr2k/program.html)
+7.	Wilson, D. R. & Martinez, T. R.: Improved Heterogeneous Distance Functions
+Journal of Artificial Intelligence Research, vol.6, pp.1-34, 1997.

@@ -1,0 +1,62 @@
+Constructive Adaptation
+
+Enric Plaza and Josep-Lluís Arcos
+
+IIIA-GSIG - Artificial Intelligence Research Institute
+Campus UAB, 08193 Bellaterra, Catalonia, Spain.
+Vox: ±34-93-5809570, Fax: ±34-93-5809661
+{enric,arcos}@iiia.csic.es
+
+
+Abstract. Constructive adaptation is a search-based technique for generative 
+reuse in CBR systems for configuration tasks. We discuss the
+relation of constructive adaptation (CA) with other reuse approaches
+and we define CA as a search process in the space of solutions where
+cases are used in two main phases: hypotheses generation and hypotheses 
+ordering. Later, three different CBR systems using CA for reuse are
+analyzed: configuring gas treatment plants, generating expressive musical 
+phrases, and configuring component-based software applications.
+After the three analyses, constructive adaptation is discussed in detail
+and some conclusions are drawn to close the paper.
+References
+
+1.	Agnar Aamodt and Enric Plaza. Case-based reasoning: Foundational issue
+methodological variations, and system approaches. Artificial Intelligence Communications, 
+7(1):39—59, 1994.
+2.	Josep Lluís Arcos. T-Air: A case-based reasoning system for designing chemical absorption 
+plants. In David W. Aha and Ian Watson, editors, Case-Based Reasoning
+Research and Development, number 2080 in Lecture Notes in Artificial Intelligence,
+pages 576—588. Springer-Verlag, 2001.
+3.	Josep Lluís Arcos and Ramon López de Mántaras. Perspectives: A declarative bias
+mechanism for case retrieval. In David Leake and Enric Plaza, editors, Case-Based
+Reasoning. Research and Development, number 1266 in Lecture Notes in Artificial
+Intelligence, pages 279—290. Springer-Verlag, 1997.
+4.	J. L. Arcos and R. López de Mántaras. An interactive case-based reasoning approach 
+for generating expressive music. Applied Intelligence, 14(1):115—129, 2001.
+5.	Eva Armengol and Enric Plaza. Similarity assessment for relational CBR. In
+David W. Aha and Ian Watson, editors, Case-Based Reasoning Research and Development, 
+4th International Conference on Case-Based Reasoning, ICCBR 2001,
+volume 2080 of Lecture Notes in Computer Science, pages 44—58, 2001.
+6.	Jaime Garbonell. Derivational analogy: A theory of reconstructive problem solving 
+and expertise acquisition. In Machine Learning: An Artificial Intelligence Approach, 
+volume 2, pages 371—392. Morgan Kaufmann, 1986.
+7.	D. Fensel, V. R. Benjamins, M. Gaspari S. Decker, R. Groenboom, W. Grosso,
+M. Musen, E. Motta, E. Plaza, G. Schreiber, R. Studer, and B. Wielinga. The
+component model of UPML in a nutshell. In Proceedings of the International
+Workshop on Knowledge Acquisition KAW’98, 1998.
+8.	Mario Gómez, Chema Abásolo, and Enric Plaza. Domain-independent ontologies
+for cooperative information agents. In Proceedings Workshop on Cooperative Information 
+Agents, volume 2128 of LNAI, pages 118—129, 2001.
+9.	K. J. Hammond. Case-based planning: Viewing planning as a memory task. Academic 
+Press, 1989.
+10.	T. Heinrich and J. L. Kolodner. The roles of adaptation in case-based design. In
+Proceedings of the AAAI Worksop on Case-based Reasoning, 1991.
+11.	Manuela Veloso and Jaime Garbonell. Toward scaling up machine learning: A case
+study with derivational analogy in prodigy. In Steven Minton, editor, Machine
+Learning Methods for Planning, pages 233—272. Morgan Kaufmann, 1993.
+12.	Manuela M. Veloso, Alice M. Mulvehill, and Michael T. Cox. Rationale-supported
+mixed-initiative case-based planning. In AAAI/IAAI, pages 1072—1077, 1997.
+13.	W. Wilke, B. Smyth, and P. Cunningham. Using configuration techniques for
+adaptation, pages 139—168. Number 1400 in LNAI. Springer Verlag, 1998.
+14.	W. Wilke and R. Bergmann. Techniques and knowledge used for adaptation during
+case-based problem solving. In IEA/AIE (Vol.2), pages 497—506, 1998.

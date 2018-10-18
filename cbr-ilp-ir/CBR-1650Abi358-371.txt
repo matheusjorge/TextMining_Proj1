@@ -1,0 +1,66 @@
+Is CBR Applicable to the Coordination of Search and
+Rescue Operations? A Feasibility Study
+
+Irène Abi-Zeid1, Qiang Yang2, and Luc Lamontagne1
+
+
+1Defence Research Establishment Valcartier, 2459 boul. Pie-XI,
+Val Belair, Quebec, G31 1X5, Canada
+{irene.abi-zeid, luc.lamontagne}@drev.dnd.ca
+2Simon Fraser University, School of Computing Science
+Burnaby, British Columbia, V5A 156. Canada
+qyang@cs.sfu.ca
+
+
+
+Abstract. In response to the occurrence of an air incident, controllers at one of
+the three Canadian Rescue Coordination Centers (RCC) must make a series of
+critical decisions on the appropriate procedures to follow. These procedures
+(called incident prosecution) include hypotheses formulation and information
+gathering, development of a plan for the search and rescue (SAR) missions and
+in the end, the generation of reports. We present in this paper the results of a
+project aimed at evaluating the applicability of CBR to help support incident
+prosecution in the RCC. We have identified three possible applications of CBR:
+Online help, real time support for situation assessment, and report generation.
+We present a brief description of the situation assessment agent system that we
+are implementing as a result of this study.
+References
+
+1.	Carrick C., Qiang Y., Abi-Zeid, I., Lamontagne L.: Activating CBR Systems
+through Autonomous Information Gathering. ICCBR’99 (1999)
+2.	Cottam, H., Shadbolt, N., Kingston, J., Beck, H., Tate, A.: Knowledge Level
+Planning in the Search and Rescue Domain. In Bramer, M.A., Nealon, R. (eds.):
+Research and Development in Expert Systems XII. SGES Publications (1995)
+309-326
+3.	Cottam, H., Shadbolt, N.: Knowledge Acquisition for Search and Rescue.
+Proceedings of the 10th Knowledge Acquisition for Knowledge Based Systems
+Workshop, KAW 96 (1996)
+4.	Erol, K. Hierarchical Task Network Planning: Formalization, Analysis and
+Implementation. Ph. D. Thesis, University of Maryland (1994)
+5.	Hammond, K. Case Based Planning: A Framework for Planning from
+Experience. Journal of Cognitive Science, 14(3) (1990)
+6.	Knoblock, C. and Ambite, J.-L.: Agents for Information Gathering. In Bradshaw,
+J. M. (ed.): Software Agents. (1997) 347-374
+7.	Kolodner, J.: Case Based Reasoning. Morgan Kaufmann Publishers, Inc. (1993)
+8.	Koton, P.: Reasoning about Evidence in Causal Explanation. In Proceedings of
+the 1998 AAAI Conference. AAAI Press/MIT Press (1988)
+9.	Leake, D.: Case Based Reasoning: Experiences, Lessons and Future Directions.
+AAAI Press (1996)
+10.	Munoz-Avila, H., Aha D. W., Breslow L., Nau D.: HICAP: An Interactive Case-Based 
+Planning Architecture and its Application to Noncombatant Evacuation
+Operations. NCARAI Technical Note AIC-99-002 (1999)
+11.	National SAR Manual. December (1995)
+12.	Porter, B., Bareiss, R., and Holte, R.: Concept Learning and Heuristic
+Classification in Weak Theory Domains. Artificial Intelligence (45) (1990) 229-
+263
+13.	Pryor, L. and Collins G.: Planning to perceive: A utilitarian approach. In
+Working notes of the AAAI Spring Symposium on the Control of Selective
+Perception. March (1992)
+14.	RCC Victoria Standard Operating Procedures (1997)
+15.	RCC Victoria 1996 Statistical Summary (1996)
+16.	Sacerdoti, E. D.: Planning in a hierarchy of abstraction spaces. In Allen, J.,
+Hendler J., and Tate A. (eds.): Readings in Planning. Morgan Kaufman (1990)
+98-108
+17.	Veloso, M. M., Mulvehill A. M., Cox M. T.: Rationale-Supported Mixed-Initiative 
+Case-Based Planning. In Proceedings of the Ninth Conference on
+Innovative Applications of Artificial Intelligence. AAAI Press (1997) 1072-1085

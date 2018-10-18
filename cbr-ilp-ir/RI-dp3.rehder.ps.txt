@@ -1,0 +1,53 @@
+Running head: LATENT SEMANTIC ANALYSIS AND
+KNOWLEDGE ASSESSMENT
+
+Using Latent Semantic Analysis to assess knowledge:
+Some technical considerations
+
+Bob Rehder, M. E. Schreiner, Michael B. W. Wolfe, Darrell Laham,
+Thomas K Landauer, and Walter Kintsch
+University of Colorado, Boulder
+Address correspondence to:
+Bob Rehder
+Department of Psychology
+Campus Box 345
+University of Colorado
+Boulder, Colorado 80309
+303­492­5907 (office) 303­492­2967 (fax)
+rehder@psych . colorado . edu
+
+Abstract
+In a previous paper (Wolfe, Schreiner, Rehder, Laham, Foltz, Kintsch &
+Landauer, this issue) we have shown how Latent Semantic Analysis (LSA)
+can be used to assess student knowledge ­ how essays can be graded by LSA
+and how LSA can match students with appropriate instructional texts. We did
+this by comparing an essay written by a student with one or more target
+instructional texts in terms of the cosine between the vector representation of
+the student's essay and the instructional text in question. This simple method
+was effective for the purpose, but questions remain about how LSA achieves
+it's results and how they might be improved. Here we address four such
+questions: (a) what role use of technical vocabulary per se plays, (b) how long
+should the student essays be, (c) whether the cosine is optimal measure of
+semantic relatedness, and (d) how to deal with the directionality of
+knowledge in the high­dimensional space.
+
+References
+Carrol, J.D. & Arabie, P. (in press). Multidimensional scaling. In M. H.
+Birnbaum (Eds). Handbook of Perception and Cognition, Volume 3:
+Measurement, Judgment and Decision Making. New York: Academic Press
+Coombs, C.H. (1964). A theory of data. New York: Wiley.
+Harman, D. (1986). An experimental study of the factors important in
+document ranking. In Rabbit, F. (Ed.). Association for Computing Machine's
+Ninth Conference on Research and Development in Information Retrieval.
+New York: Association for Computing Machines.
+Judd, C.M., & McClelland, G.H. (1989). Data analysis: A model­
+comparison approach. San Diego, CA: Harcourt Brace Javanovich.
+Laham, D., & Landauer, T. K. (1996). Unpublished manuscript.
+Landauer, T. K., & Dumais, S. T. (1997). A solution to Plato's problem:
+The Latent Semantic Analysis theory of the acquisition, induction, and
+representation of knowledge. Psychological Review, 104, 211­240
+Page, E.B. (1994). Computer grading of student prose, using modern
+concepts and software. Journal of Experimental Education, 62, 127­142.
+Wolfe, M. B. W., Schreiner, M.E., Rehder, B., Laham, D., Foltz, P. W.,
+Kintsch, W. & Landauer, T. K (this issue). Learning from text: Matching
+readers and texts by Latent Semantic Analysis.

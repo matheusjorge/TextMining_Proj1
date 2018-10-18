@@ -1,0 +1,60 @@
+MacRad: Radiology Image Resource
+with a Case-Based Retrieval System
+
+Robert T. Macura, M.D., Ph.D.
+Katarzyna J. Macura, M.D., Ph.D.
+
+Medical Informatics Section, Department of Radiology
+Medical College of Georgia, Augusta GA 30912, U.S.A.
+
+
+Abstract
+
+We have compiled a case-based retrieval system for radiology, MacRad, that is structured
+around descriptors for radiology image findings. Our goal is to provide a feature-coded image
+resource that allows the user to formulate image content-based queries when searching for
+reference images. MacRad is implemented as a relational database with an image archive.
+Each image in the library is indexed according to its radiologic content. We structured an
+index for coding image content as a hierarchical image description index using the relational
+format. The hierarchical index of radiologic findings allows multilevel query formulation that
+depends upon the user’s level of experience. The system uses rules to control the search
+direction within the case library and generate lists of diagnostic hypotheses for decision
+support. Rules are embedded within the database structure. At present, the case library consists
+of 300 cases and 3,000 images that present intracranial masses on skull X-rays, CTs, MRIs.
+and angiograms.
+References
+
+1.	Schmidt HG, Norman GR, Boshuizen HPA. A cognitive perspective on medical
+expertise: Theory and implications. Acad Med 1990; 65(10):61 1-621.
+2.	Pizer SM, ter Haar Romeny BM. Fundamental Properties of Medical Image
+Perception. J Digital Imaging 1991; 4(4): 213-225.
+3.	Macura KJ, Macura RT, Morstad BD. Digital Case Library: A Resourse for
+Teaching, Learning, and Decision Support in Radiology. RadioGraphics 1995;
+15(1): 155-164.
+4.	Macura RT, Macura KJ, Toro VE, Binet EF, Trueblood JH, Ji K. Computerized
+Case-Based Instructional System for Computed Tomography and Magnetic
+Resonance Imaging of Brain Tumors. Invest Radiol 1994; 29: 497-506.
+5.	Macura RT, Macura KJ. The Usefulness of Decision Tables in Encoding of
+Medical Knowledge. In Proceedings of the Third Symposium of the International
+Association of Knowledge Engineers IAKE ‘92. Galthersburg, MD; LAKE, 1992:
+263-269.
+6.	Binet EF, Trueblood JH, Macura KJ, Morstad BD, Macura RT, Finkbeiner RV.
+R3, Radiology Resource and Reviev: From Floppy Disk to CD-ROM.
+RadioGraphics 1995; (July issue in print).
+7.	Index for Radiological Diagnoses, 4th Edition. American College of Radiology
+1992.
+8.	Swett HA, Fisher PR, Cohn Al, Miller PL, Mutalik PG. Expert System controlled
+Image Display. Radiology 1989; 172: 487-493.
+9.	Cohn AI, Miller PL, Fisher PR, Mutalik PG, Swett HA. Knowledge-Based
+Radiologic Image Retrieval Using Axes of Clinical Relevance. Comput Biomed
+Res 1990; 23: 199-221.
+10.	Bramble JM, Insana MF. Dwyer III SJ. Information Retrieval for Teaching Files:
+A Preliminary Study. J Digital Imag 1990; 3(3): 164-169.
+11.	Greenes RA, McClure RC, Pattison-Gordon E, Sato L. The Findings-Diagnosis
+Continuum: Implications for Image Descriptions and Clinical Databases. In
+Proceedings of the 16th Symposium on Computer Applications in Medical Care.
+New York, NY; McGraw-Hill Inc., 1992: 383-387.
+12.	Taira RK, Cardenas AF, Chu WW, Breant CM, Hall T. A Knowledge-based
+Multi-media Database System for Skeletal Radiology. In HU Lemke, K Inamura,
+CC Jaffe, R Felix (Eds.). Computer Assisted Radiology. Berlin, Germany;
+Springer-Verlag: 1993, 649-654.

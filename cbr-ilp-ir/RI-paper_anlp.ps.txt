@@ -1,0 +1,81 @@
+Automatic construction of parallel English­-Chinese corpus for
+cross­ language information retrieval
+
+Jiang Chen and Jian­Yun Nie
+D'epartement d'Informatique et Recherche Op'erationnelle
+Universit'e de Montr'eal
+C.P. 6128, succursale CENTRE­VILLE
+Montreal (Quebec), Canada H3C 3J7
+fchen, nieg@iro.umontreal.ca
+
+Abstract
+A major obstacle to the construction of a probabilis­tic 
+translation model is the lack of large parallel cor­pora. 
+In this paper we first describe a parallel text
+mining system that finds parallel texts automatically
+on the Web. The generated Chinese­English paral­lel 
+corpus is used to train a probabilistic translation
+model which translates queries for Chinese­ English
+cross­language information retrieval (CLIR). We will
+discuss some problems in translation model training
+and show the preliminary CLIR results.
+
+
+References
+Anonymous. 1999a. Sunrain.net ­ English­ Chinese
+dictionary. http://sunrain.net/r ecdict e.htm.
+Anonymous. 1999b. Sunshine WebTran server.
+http://www.readworld.com/translate.htm.
+P. F. Brown, J. C. Lai, and R. L. Mercer. 1991.
+Aligning sentences in parallel corpora. In 29th
+Annual Meeting of the Association for Computa­tional Linguistics, pages 89--94, Berkeley, Calif.
+P. F. Brown, S. A. Della Pietra, V. J. Della Pietra,
+and R. L. Mercer. 1993. The mathematics of ma­chine 
+translation: Parameter estimation. Compu­tational Linguistics, 19:263--311.
+S. F. Chen. 1993. Aligning sentences in bilingual
+corpora using lexical information. In Proceedings
+of the 31th Annual Meeting of the Association for
+Computational Linguistics, pages 9--16, Colum­bus, Ohio.
+Paul Denisowski. 1999. Cedict (chinese­english dic­tionary) project. http://www.mindspring.com/
+paul denisowski/cedict.html.
+William A. Gale and Kenneth W. Church. 1991. A
+program for aligning sentences in bilingual cor­pora. 
+In Proceedings of the 29th Annual Meeting
+of the Association for Computational Linguistics,
+pages 177--184, Berkeley, Calif.
+P. Isabelle, G. Foster, and P. Plamondon.
+1997. SILC: un syst`eme d'identification
+de la langue et du codage. http://www­
+rali.iro.umontreal.ca/ProjetSILC.en.html.
+M. Kay and M. R¨oscheisen. 1993. Text­translation
+alignment. Computational Linguistics, 19:121--
+142.
+K. L. Kwok. 1999. English­chinese cross­language
+retrieval based on a translation package. In Work­
+shop of Machine Translation for Cross Language
+Information Retrieval, Machine Translation Sum­mit VII, Singapore.
+P. Langlais, G. Foster, and G. Lapalme. 2000. Unit
+completion for a computer­aided translation typ­ing 
+system. In Applied Natural Language Pro­cessing 
+Conference (ANLP), Seattle, Washington,
+May.
+Jianyun Nie, Michel Simard, Pierre Isabelle, and
+Richard Durand. 1999. Cross­language informa­tion 
+retrieval based on parallel texts and auto­
+matic mining parallel texts from the Web. In
+ACM SIGIR'99, pages 74--81, August.
+Philip Resnik. 1998. Parallel stands: A preliminary
+investigation into mining the Web for bilingual
+text. In AMTA'98, October.
+Michel Simard, George F. Foster, and Pierre Is­
+abelle. 1992. Using cognates to align sentences
+in bilingual corpora. In Proceedings of TMI­92,
+Montreal, Quebec.
+Dekai Wu. 1994. Aligning a parallel English­
+Chinese corpus statistically with lexical criteria.
+In ACL­94: 32nd Annual Meeting of the Assoc.
+for Computational Linguistics, pages 80--87, Las
+Cruces, NM, June.
+Dekai Wu. 1995. Large­scale automatic extraction
+of an English­Chinese lexicon. Machine Transla­tion, 9(3­4):285--313.
+

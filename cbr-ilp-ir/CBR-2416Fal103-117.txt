@@ -1,0 +1,79 @@
+The Use of a Uniform Declarative Model
+in 3D Visualisation for Case-Based Reasoning
+
+Göran Falkman
+
+Department of Computer Science, University of Skövde,
+P0 Box 408, SE—541 28 Skövde, Sweden
+goran.falkman@ida.his.se
+
+
+
+Abstract. We present an information visualisation tool, The Cube, as
+a solution to the problem of visualising cases derived from large amounts
+of clinical data. The Cube is based on the idea of dynamic 3D parallel diagrams, 
+an idea similar to the notion of 3D parallel coordinate plots. The
+Cube was developed to provide interactive visualisation of the case base
+in terms of relationships between and within cases, in order to enhance
+the clinician’s ability to intelligibly analyse existing patient material and
+to allow for pattern recognition and statistical analysis.
+The design and use of The Cube are presented and discussed. We show
+how the declarative model used and the tight coupling between different
+visualisation tools directly led to a similarity assessment-based solution
+to the problem of finding a proper arrangement of dimensions in 3D
+parallel coordinate displays. The declarative, user-centered nature of The
+Cube makes it suitable for interactive case-based reasoning (CBR) and
+opens up for the possibility of case-based visualisation for CBR.
+References
+
+1.	D. W. Aha and H. Muños-Avila. Applied intelligence: Special issue on interactive
+case-based reasoning. Applied Intelligence, 14(1):1—2, 2001.
+2.	M. Ankerst, S. Berchtold, and D. A. Keim. Similarity clustering of dimensions for
+an enhanced visualization of multidimensional data. In O. Wills and J. Dill, editors,
+Proceedings of the IEEE Symposium on Information Visualization (Info Vis ‘98),
+October 19—20, 1998, Research Triangle Park, North Carolina, USA, pages 52—59,
+Los Alamitos, CA, USA, 1998. IEEE Computer Society Press.
+3.	L. Chittaro. Information visualization and its application to medicine. Artificial
+Intelligence in Medicine, 22(2):81—88, 2001.
+4.	T. Chomut. Exploratory data analysis in parallel coordinates. Research report,
+IBM Los Angeles Scientific Center, 1987.
+5.	G. Falkman. Similarity measures for structured representations: A definitional
+approach. In E. Blanzieri and L. Portinale, editors, Advances in Case-Based Reasoning. 
+Proceedings of the 5th European Workshop, EWCBR 2000, Trento, Italy,
+September 6—9, 2000, volume 1898 of Lecture Notes in Artificial Intelligence, pages
+380—392. Springer-Verlag, 2000.
+6.	G. Falkman. Information visualization in clinical odontology: Multidimensional
+analysis and interactive data exploration. Artificial Intelligence in Medicine,
+22(2):133—158, 2001.
+7.	J. Fechter, T. Grunert, L. M. Encarnação, and W. Straßer. User-centered development 
+of medical visualization applications: Flexible interaction through communicating 
+application objects. Computers & Graphics: Special Issue on Medical
+Visualization, 20(6) :763—774, 1996.
+8.	A. J. W. Goldschmidt, C. J. Luz, W. Giere, R. Lüdecke, and D. Jonas. Multidimensional 
+visualization of laboratory findings and functional test-results for analyzing
+the clinical course of disease in medicine. Methods of Information in Medicine,
+34(3):302—308, 1995.
+9.	L. Hallnäs. Partial inductive definitions. Theoretical Computer Science, 87(1):115—
+142, 1991.
+10.	A. Inselberg. The plane with parallel coordinates. The Visual Computer, 1:69—91,
+1985.
+11.	B. McCormick, T. A. DeFanti, and M. D. Brown. Visualization in scientific computing. 
+Computer Graphics, 21(6), 1987.
+12.	E. McKenna and B. Smyth. An interactive visualisation tool for case-based reasoners. 
+Applied Intelligence, 14(1):95—114, 2001.
+13.	C. L. North and B. Shneiderman. Snap-together visualization: Can users construct
+and operate coordinated views? Int. J. of Human-Computer Studies, 53(5):715—
+739, 2000.
+14.	C. L. North and B. Shneiderman. Component-based, user-constructed, multiple-view 
+visualization. In CHI 2001 Video Program. ACM Press, 2001.
+15.	B. Shneiderman. Designing the User Interface: Strategies for Effective Human-Computer 
+Interaction. Addison-Wesley Longman, Inc., Reading, MA, USA, 3 edition, 1998.
+16.	H. Siirtola. Direct manipulation of parallel coordinates. In E. Banissi, M. Bannatyne, 
+C. Chen, F. Khosrowshahi, and A. Ursyn, editors, Proceedings of the IEEE
+International Conference on Information Visualisation (IV 2000), pages 373—378.
+IEEE Computer Society Press, 2000.
+17.	R. Spence. Information Visualization. Addison-Wesley, Harlow, England, 2001.
+18.	J. W. Tukey. Exploratory Data Analysis. Addison-Wesley, Reading, MA, USA,
+1977.
+19.	Q. Yang and J. Wu. Enhancing the effectiveness of interactive case-based reasoning
+with clustering and decision forests. Applied Intelligence, 14(1):49—64, 2001.
