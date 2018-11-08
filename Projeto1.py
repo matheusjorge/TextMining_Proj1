@@ -22,9 +22,9 @@ def token_stem(text):
     filtered_tokens = []
     # Lematizador utilizado
     stemmer = PorterStemmer()
-    # Deixando somente termos que contém letras
+    # Deixando somente termos que contém letras e removendo stopwords
     for token in tokens:
-        if re.search('[a-zA-Z]', token) and len(token) > 1:
+        if re.search('[a-zA-Z]', token) and len(token) > 1 and token not in stopwords.words('english'):
             filtered_tokens.append(token)
     # Lematização dos tokens selecionados
     stems = [stemmer.stem(t) for t in filtered_tokens]
@@ -48,13 +48,15 @@ def kfold(data, k):
     return folds
 
 # Validação
-def crossValidation(folds, classifier):
-    acc = []
+def crossValidation(folds, classifiers, inf, sup):
+    acc = [[] for c in classifiers]
+    print(acc)
     for i in range(len(folds)):
+        print('fold: ',i)
         aux = [df for j,df in enumerate(folds) if j != i]
         tr = pd.concat(aux, ignore_index=True)
         ts = folds[i]
-        v = TfidfVectorizer(lowercase=True,min_df=0.2,max_df=0.9, tokenizer=token_stem)
+        v = TfidfVectorizer(lowercase=True,min_df=inf,max_df=sup, tokenizer=token_stem)
         v.encoding = 'ISO-8859-14'
         m = v.fit_transform(tr['Text'].values)
         train_df = pd.DataFrame(data=m.toarray(), columns=v.get_feature_names())
@@ -63,22 +65,25 @@ def crossValidation(folds, classifier):
         test_df = pd.concat([test_df, ts['Class'].reset_index(drop=True)], axis=1)
         ts = test_df.copy()
         tr = train_df.copy()
-        try:
-            classifier.fit(tr)
-            res = classifier.predict(ts.iloc[:, :-1])
-            cm = confusion_matrix(y_pred=res, y_true=ts['Class'].values)
-            acc.append(Accuracy(y_pred=res, y_true=ts['Class'].values))
-            print(cm)
-            print("Accuracy: {:.3}".format(acc[-1]))
-        except Exception as e:
-            classifier.fit(tr.iloc[:, :-1], tr.iloc[:, -1])
-            res = classifier.predict(ts.iloc[:, :-1].values)
-            cm = confusion_matrix(y_pred=res, y_true=ts['Class'].values)
-            acc.append(Accuracy(y_pred=res, y_true=ts['Class'].values))
-            print(cm)
-            print("Accuracy: {:.3}".format(acc[-1]))
+        for j, c in enumerate(classifiers):
+            print('alg: ', j)
+            try:
+                c.fit(tr)
+                res = c.predict(ts.iloc[:, :-1])
+                cm = confusion_matrix(y_pred=res, y_true=ts['Class'].values)
+                acc[j].append(Accuracy(y_pred=res, y_true=ts['Class'].values))
+                #print(cm)
+                #print("Accuracy: {:.3}".format(acc[-1]))
+            except Exception as e:
+                c.fit(tr.iloc[:, :-1], tr.iloc[:, -1])
+                res = c.predict(ts.iloc[:, :-1].values)
+                cm = confusion_matrix(y_pred=res, y_true=ts['Class'].values)
+                acc[j].append(Accuracy(y_pred=res, y_true=ts['Class'].values))
+                #print(cm)
+                #print("Accuracy: {:.3}".format(acc[-1]))
 
-    return acc, sum(acc)/len(acc)
+    acc_mean = [sum(a)/len(a) for a in acc]
+    return acc, acc_mean
 
 # Métricas de avaliação dos algoritmos
 def confusion_matrix(y_true, y_pred):
@@ -140,17 +145,32 @@ class NaiveBayesCont:
 
         return np.array(pred)
 
-from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.svm import SVC
 
 n = NaiveBayesCont()
-g = GaussianNB()
 l = LinearDiscriminantAnalysis()
+svm_l = SVC(kernel='linear')
+svm_r = SVC()
+svm_s = SVC(kernel='sigmoid')
 
-f = kfold(data, 10)
-_, acc = crossValidation(f, n)
-print("Mine: {:.3}".format(acc))
-_, acc = crossValidation(f, g)
-print("sklearn: {:.3}".format(acc))
-_, acc = crossValidation(f, l)
-print("LDA: {:.3}".format(acc))
+	
+for i in [0.0, 0.1, 0.2]:
+    for s in [1.0, 0.9, 0.8]:
+        print('inf: ', i)
+        print('sup: ', s)
+        _, acc = crossValidation(f, [n, l, svm_l, svm_r, svm_s], i, s)
+        print(acc)
+
+from scipy import stats
+acc_nb = []
+acc_lda = []
+for i in range(10):
+	f = kfold(data, 10)
+	acc, _ = crossValidation(f, [n, l], 0.2, 0.9)
+	acc_nb.append(acc[0])
+	acc_lda.append(acc[1])
+	print(acc_nb)
+	print(acc_lda)
+
+print(stats.ttest_ind(np.array(acc_nb).flatten(), np.array(acc_lda).flatten()))
